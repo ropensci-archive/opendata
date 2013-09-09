@@ -25,11 +25,6 @@ A list of available packages and functions is presented below, grouped by the ty
 * xml: the package [XML][XML] by Duncan Temple-Lang 
 * json: [RJSONIO][RJSONIO] by Duncan Temple-Lang XXX. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 
-## stuff
-
-* [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
-* asdf
-
 ## Ecological and evolutionary biology data
 
 * [rvertnet][rvertnet]: A wrapper to the VertNet collections database API.
@@ -40,12 +35,50 @@ A list of available packages and functions is presented below, grouped by the ty
 * [rtreebase][rtreebase]: X
 * [rnbn][rnbn]: X
 * [taxize][taxize]: X
+* [dismo][dismo]: Species distribution modeling, with wrappers to some APIs. [vignette](http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf)
+
+## Genes/genomes
+
+* [cgdsr][cgdsr]: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS). [more](http://www.cbioportal.org/public-portal)
 * [rsnps][rsnps]: X
+
+## Earth Science Data
+
+* [RNCEP][RNCEP]: Global weather and climate data at your fingertips. [more](https://sites.google.com/site/michaelukemp/rncep)
+* [crn][crn]: Downloads and Builds datasets for Climate Reference Network. [more](http://stevemosher.wordpress.com/)
+* [BerkeleyEarth][BerkeleyEarth]: Data Input for Berkeley Earth Surface Temperature. [more](http://stevemosher.wordpress.com/)
+* [waterData][waterData]: An R Package for Retrieval, Analysis, and Anomaly Calculation of Daily Hydrologic Time Series Data. [more](http://pubs.usgs.gov/of/2012/1168/), [vignette](  http://cran.r-project.org/web/packages/waterData/vignettes/vignette.pdf)
+
+## Economics Data
+
+* [WDI][WDI]: Search, extract and format data from the World Bank's World Development Indicators. [more](https://sites.google.com/site/michaelukemp/rncep)
+* [FAOSTAT][FAOSTAT]: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT databasthe Food and Agricultural Organization of the United Nations [more](http://cran.r-project.org/web/packages/FAOSTAT/index.html), [vignette](http://cran.r-project.org/web/packages/FAOSTAT/vignettes/FAOSTAT.pdf)
+
+## Chemistry
+
+* [rpubchem][rpubchem]: Interface to the PubChem Collection.
+
+## Agriculture
+
+* [cimis][cimis]: R package for retrieving data from CIMIS.
+
+## Data depots and mechanical turk like things
+
+* [MTurkR][MTurkR]: Access to Amazon Mechanical Turk Requester API via R. [more](http://thomasleeper.com/MTurkR/index.html)
+* [factualR][factualR]: Thin wrapper for the Factual.com server API. [more](http://www.exmachinatech.net/01/factualr/)
+* [dataone][dataone]: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories. [more](http://releases.dataone.org/online/dataone_r/)
+* [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
 
 ## Literature and metadata
 
 * [rplos][rplos]: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
-* rmetadata
+* [rmetadata][rmetadata]: Get scholarly metadata from around the web.
+
+## Other data
+
+* [dvn][dvn]: Provides access to The Dataverse Network API. [more](http://thedata.org/)
+* [sos4R][sos4R]: R client for the OGC Sensor Observation Service. [more](http://www.nordholmen.net/sos4r)
+* [datamart][datamart]: Unified access to various data sources.
 
 ## CRAN packages:
 
@@ -89,3 +122,20 @@ XXXXXXX
 [rplos]: http://cran.r-project.org/web/packages/rplos/index.html
 [rgbif]: http://cran.r-project.org/web/packages/rgbif/index.html
 [rfigshare]: http://cran.r-project.org/web/packages/rfigshare/index.html
+[datamart]: http://cran.r-project.org/web/packages/datamart/index.html
+[dvn]: http://cran.r-project.org/web/packages/dvn/index.html
+[sos4R]: http://cran.r-project.org/src/contrib/Archive/sos4R/
+[dataone]: http://cran.r-project.org/web/packages/dataone/index.html
+[factualR]: http://cran.r-project.org/web/packages/factualR/index.html
+[MTurkR]: http://cran.r-project.org/web/packages/MTurkR/index.html
+[rpubchem]: http://cran.r-project.org/web/packages/rpubchem/index.html
+[cimis]: http://cran.r-project.org/web/packages/cimis/index.html
+[WDI]: http://cran.r-project.org/web/packages/WDI/index.html
+[FAOSTAT]: http://cran.r-project.org/web/packages/FAOSTAT/index.html
+[RNCEP]: http://cran.r-project.org/web/packages/RNCEP/index.html
+[crn]: http://cran.r-project.org/web/packages/crn/index.html
+[BerkeleyEarth]: http://cran.r-project.org/web/packages/BerkeleyEarth/index.html
+[waterData]: http://cran.r-project.org/web/packages/waterData/index.html
+[cgdsr]: http://cran.r-project.org/web/packages/cgdsr/index.html
+[dismo]: http://cran.r-project.org/web/packages/dismo/index.html
+[rmetadata]: https://github.com/ropensci/rmetadata
