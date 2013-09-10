@@ -35,6 +35,7 @@ A list of available packages and functions is presented below, grouped by the ty
 * [rtreebase][rtreebase]: X
 * [rnbn][rnbn]: X
 * [taxize][taxize]: X
+* [rfisheries][rfisheries]: X
 * [dismo][dismo]: Species distribution modeling, with wrappers to some APIs. [vignette](http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf)
 
 ## Genes/genomes
