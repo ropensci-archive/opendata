@@ -21,7 +21,7 @@ A list of available packages and functions is presented below, grouped by the ty
 
 ## Parsing data from the web
 
-* txt, csv, etc.: you can use read.csv() after acquiring the csv file from the web via e.g., getURL() from RCurl
+* txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. The [repmis][repmis] package contains a `source_data` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.
 * xml: the package [XML][XML] by Duncan Temple-Lang 
 * json: [RJSONIO][RJSONIO] by Duncan Temple-Lang XXX. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 
@@ -79,6 +79,7 @@ A list of available packages and functions is presented below, grouped by the ty
 * [dvn][dvn]: Provides access to The Dataverse Network API. [more](http://thedata.org/)
 * [sos4R][sos4R]: R client for the OGC Sensor Observation Service. [more](http://www.nordholmen.net/sos4r)
 * [datamart][datamart]: Unified access to various data sources.
+* [rDrop][rDrop]: Dropbox interface.
 
 ## CRAN packages:
 
@@ -139,3 +140,5 @@ XXXXXXX
 [cgdsr]: http://cran.r-project.org/web/packages/cgdsr/index.html
 [dismo]: http://cran.r-project.org/web/packages/dismo/index.html
 [rmetadata]: https://github.com/ropensci/rmetadata
+[repmis]: https://github.com/christophergandrud/repmis
+[rDrop]: https://github.com/karthikram/rDrop
