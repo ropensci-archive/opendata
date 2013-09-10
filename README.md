@@ -140,5 +140,5 @@ XXXXXXX
 [cgdsr]: http://cran.r-project.org/web/packages/cgdsr/index.html
 [dismo]: http://cran.r-project.org/web/packages/dismo/index.html
 [rmetadata]: https://github.com/ropensci/rmetadata
-[repmis]: https://github.com/christophergandrud/repmis
+[repmis]: http://cran.r-project.org/web/packages/repmis/index.html
 [rDrop]: https://github.com/karthikram/rDrop
