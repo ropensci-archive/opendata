@@ -25,11 +25,6 @@ A list of available packages and functions is presented below, grouped by the ty
 * xml: the package [XML][XML] by Duncan Temple-Lang 
 * json: [RJSONIO][RJSONIO] by Duncan Temple-Lang XXX. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 
-## stuff
-
-* [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
-* asdf
-
 ## Ecological and evolutionary biology data
 
 * [rvertnet][rvertnet]: A wrapper to the VertNet collections database API.
@@ -40,6 +35,7 @@ A list of available packages and functions is presented below, grouped by the ty
 * [rtreebase][rtreebase]: X
 * [rnbn][rnbn]: X
 * [taxize][taxize]: X
+* [rfisheries][rfisheries]: X
 * [dismo][dismo]: Species distribution modeling, with wrappers to some APIs. [vignette](http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf)
 
 ## Genes/genomes
@@ -67,16 +63,17 @@ A list of available packages and functions is presented below, grouped by the ty
 
 * [cimis][cimis]: R package for retrieving data from CIMIS.
 
-## Data depots
+## Data depots and mechanical turk like things
 
 * [MTurkR][MTurkR]: Access to Amazon Mechanical Turk Requester API via R. [more](http://thomasleeper.com/MTurkR/index.html)
 * [factualR][factualR]: Thin wrapper for the Factual.com server API. [more](http://www.exmachinatech.net/01/factualr/)
 * [dataone][dataone]: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories. [more](http://releases.dataone.org/online/dataone_r/)
+* [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
 
 ## Literature and metadata
 
 * [rplos][rplos]: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
-* rmetadata
+* [rmetadata][rmetadata]: Get scholarly metadata from around the web.
 
 ## Other data
 
@@ -142,3 +139,4 @@ XXXXXXX
 [waterData]: http://cran.r-project.org/web/packages/waterData/index.html
 [cgdsr]: http://cran.r-project.org/web/packages/cgdsr/index.html
 [dismo]: http://cran.r-project.org/web/packages/dismo/index.html
+[rmetadata]: https://github.com/ropensci/rmetadata
