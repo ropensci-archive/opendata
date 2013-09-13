@@ -2,20 +2,23 @@
 <ul>
 <li>Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud</li>
 <li>Contact: scott at ropensci.org</li>
-<li>Version: 2013-09-09</li>
+<li>Version: 2013-09-13</li>
 </ul>
 <h2 id="introduction">Introduction</h2>
 <p>This Task View contains information about using R to obtain and parse data from the web.</p>
-<p>The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. XXXX</p>
-<p>If you have any comments or suggestions for additions or improvements, then please contact the maintainer of the package, not me.</p>
+<p>The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web.</p>
+<p>If you have any comments or suggestions for additions or improvements for this taskview, go to Github and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a> or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you have an issue with one of the packages, please contact the maintainer of the package.</p>
 <p>A list of available packages and functions is presented below, grouped by the type of activity.</p>
 <h2 id="tools-for-working-with-the-web-from-r">Tools for working with the web from R</h2>
 <h3 id="curlhttpftp">curl/http/ftp</h3>
 <ul>
-<li><a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>: a low level curl wrapper.</li>
+<li><a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>: a low level curl wrapper for R.</li>
 <li><a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a>: is a light wrapper around RCurl that makes many things easier, but still allows you to access the lower level functionality of RCurl.</li>
 </ul>
-<p>httr has convenient http verbs: GET(), POST(), PUT(), DELETE(), PATCH(), HEAD(), BROWSE(). These wrap functions in RCurl, making them more convenient to use, though less configurable than counterparts in RCurl. The equivalent of httr's GET() in RCurl is getForm(). Likewise, the equivalent of httr's POST() in RCurl is postForm().</p>
+<p>httr has convenient http verbs: <code>GET()</code>, <code>POST()</code>, <code>PUT()</code>, <code>DELETE()</code>, <code>PATCH()</code>, <code>HEAD()</code>, <code>BROWSE()</code>. These wrap functions in RCurl, making them more convenient to use, though less configurable than counterparts in RCurl. Though note that you can pass in additional Curl options to the <code>config</code> parameter in http calls. The equivalent of httr's <code>GET()</code> in RCurl is <code>getForm()</code>. Likewise, the equivalent of httr's <code>POST()</code> in RCurl is <code>postForm()</code>.</p>
+<p><a href="http://en.wikipedia.org/wiki/Http_status_codes">http status codes</a> are helpful for debugging http calls. httr package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful.</p>
+<h3 id="authentication">Authentication</h3>
+<p>Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work. API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google).</p>
 <h3 id="web-frameworks">Web frameworks</h3>
 <p>RStudio recently created <a href="http://www.rstudio.com/shiny/">Shiny</a>, which combines R, html, css, and javascript to make web applications. Related tools are available, including <a href="https://public.opencpu.org/">openCPU</a> and <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a>. However, Shiny is the most promising of these.</p>
 <h3 id="parsing-data-from-the-web">Parsing data from the web</h3>
@@ -25,7 +28,16 @@
 <li>json/json-ld: <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> by Duncan Temple-Lang. Another package, <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a>, does many of the same tasks which RJSONIO does.</li>
 <li>custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.</li>
 </ul>
-<h2 id="data-sources">Data sources</h2>
+<h3 id="javascript">Javascript</h3>
+<p>Javascript provides many libraries to make interactive visualizations for the browser, either locally or on the web. An increasing number of R packages are providing the ability to make visualizations using various javascript libraries. Some of them include:</p>
+<ul>
+<li><a href="https://github.com/hadley/r2d3">r2d3</a> Convert ggplto2 graphics code to d3 code (not on CRAN)</li>
+<li><a href="https://github.com/hadley/gg2v">gg2v</a> Render ggplot2 graphics using vega (not on CRAN)</li>
+<li><a href="https://github.com/ramnathv/rCharts">rCharts</a> Interactive javascript charts from R (not on CRAN)</li>
+<li><a href="https://github.com/metagraf/rVega">rVega</a> An R wrapper for Vega (not on CRAN)</li>
+<li><a href="https://github.com/nachocab/clickme">clickme</a> An R package to create interactive plots (not on CRAN)</li>
+</ul>
+<h2 id="data-sources-on-the-web-available-from-r">Data sources on the web available from R</h2>
 <h3 id="ecological-and-evolutionary-biology-data">Ecological and evolutionary biology data</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/rvertnet/index.html">rvertnet</a>: A wrapper to the VertNet collections database API.</li>
@@ -33,19 +45,21 @@
 <li><a href="http://cran.r-project.org/web/packages/rfishbase/index.html">rfishbase</a>: A programmatic interface to fishbase.org.</li>
 <li><a href="http://cran.r-project.org/web/packages/treebase/index.html">rtreebase</a>: An R package for discovery, access and manipulation of online phylogenies</li>
 <li><a href="http://cran.r-project.org/web/packages/taxize/index.html">taxize</a>: Taxonomic information from around the web</li>
-<li><a href="http://cran.r-project.org/web/packages/rfisheries/index.html">rfisheries</a>: A programmatic interface to openfisheries.org</li>
 <li><a href="http://cran.r-project.org/web/packages/dismo/index.html">dismo</a>: Species distribution modeling, with wrappers to some APIs. <a href="http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf">vignette</a></li>
-</ul>
-<p>Not on CRAN</p>
-<ul>
-<li><a href="https://github.com/JNCC-UK/rnbn">rnbn</a>: Access to the UK National Biodiversity Network data</li>
-<li><a href="https://github.com/ropensci/rWBclimate">rWBclimate</a>: R interface for the World Bank climate data</li>
-<li><a href="https://github.com/ropensci/rbison">rbison</a>: Wrapper to the USGS Bison API</li>
+<li><a href="https://github.com/JNCC-UK/rnbn">rnbn</a>: Access to the UK National Biodiversity Network data (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rWBclimate">rWBclimate</a>: R interface for the World Bank climate data (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rbison">rbison</a>: Wrapper to the USGS Bison API (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/neotoma">neotoma</a>: Programmatic R interface to the Neotoma Paleoecological Database (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rnoaa">rnoaa</a>: R interface to NOAA Climate data API (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rnpn">rnpn</a>: Wrapper to the National Phenology Network database API</li>
+<li><a href="http://cran.r-project.org/web/packages/rfisheries/index.html">rfisheries</a>: Package for interacting with fisheries databases at openfisheries.org <a href="http://openfisheries.org/">more</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rebird/index.html">rebird</a>: A programmatic interface to the eBird database</li>
 </ul>
 <h3 id="genesgenomes">Genes/genomes</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/cgdsr/index.html">cgdsr</a>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS). <a href="http://www.cbioportal.org/public-portal">more</a></li>
 <li><a href="http://cran.r-project.org/web/packages/ropensnp/index.html">rsnps</a>: Wrapper to the openSNP data API and the Broad Institute SNP Annotation and Proxy Search.</li>
+<li><a href="http://cran.r-project.org/web/packages/rentrez/index.html">rentrez</a>: Talk with NCBI entrez using R</li>
 </ul>
 <h3 id="earth-science-data">Earth Science Data</h3>
 <ul>
@@ -67,17 +81,38 @@
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/cimis/index.html">cimis</a>: R package for retrieving data from CIMIS.</li>
 </ul>
-<h3 id="data-depots-and-mechanical-turk-like-things">Data depots and mechanical turk like things</h3>
+<h3 id="literature-metadata-and-altmetrics">Literature, metadata, and altmetrics</h3>
 <ul>
-<li><a href="http://cran.r-project.org/web/packages/MTurkR/index.html">MTurkR</a>: Access to Amazon Mechanical Turk Requester API via R. <a href="http://thomasleeper.com/MTurkR/index.html">more</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rplos/index.html">rplos</a>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.</li>
+<li><a href="https://github.com/ropensci/rbhl">rbhl</a>: R interface to the Biodiversity Heritage Library (BHL) API (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rmetadata">rmetadata</a>: Get scholarly metadata from around the web (not on CRAN)</li>
+<li><a href="http://cran.r-project.org/web/packages/RMendeley/index.html">RMendeley</a>: Implementation of the Mendeley API in R</li>
+<li><a href="http://cran.r-project.org/web/packages/rentrez/index.html">rentrez</a>: Talk with NCBI entrez using R</li>
+<li><a href="https://github.com/ropensci/rorcid">rorcid</a>: A programmatic interface the Orcid.org API (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rpubmed">rpubmed</a>: Tools for extracting and processing Pubmed and Pubmed Central records (not on CRAN)</li>
+<li><a href="https://github.com/ropensci/rAltmetric">rAltmetic</a>: Query and visualize metrics from Altmetric.com (not on CRAN)</li>
+<li><a href="http://cran.r-project.org/web/packages/rImpactStory/index.html">rImpactStory</a>: Programmatic interface to the ImpactStory API</li>
+<li><a href="https://github.com/ropensci/alm">alm</a>: R wrapper to the almetrics API platform developed by PLoS (not on CRAN)</li>
+</ul>
+<h3 id="marketing">Marketing</h3>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/anametrix/index.html">anametrix</a>: Bidirectional connector to Anametrix API</li>
+</ul>
+<h3 id="data-depots">Data depots</h3>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/rfigshare/index.html">rfigshare</a>: Programmatic interface for Figshare <a href="http://figshare.com/">more</a></li>
 <li><a href="http://cran.r-project.org/web/packages/factualR/index.html">factualR</a>: Thin wrapper for the Factual.com server API. <a href="http://www.exmachinatech.net/01/factualr/">more</a></li>
 <li><a href="http://cran.r-project.org/web/packages/dataone/index.html">dataone</a>: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories. <a href="http://releases.dataone.org/online/dataone_r/">more</a></li>
 <li><a href="http://cran.r-project.org/web/packages/yhatr/index.html">yhatr</a>: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.</li>
 </ul>
-<h3 id="literature-and-metadata">Literature and metadata</h3>
+<h3 id="machine-learning-as-a-service-mlaas-anyone">Machine learning as a service (MLaaS anyone?)</h3>
 <ul>
-<li><a href="http://cran.r-project.org/web/packages/rplos/index.html">rplos</a>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.</li>
-<li><a href="https://github.com/ropensci/rmetadata">rmetadata</a>: Get scholarly metadata from around the web.</li>
+<li><a href="http://cran.r-project.org/web/packages/bigml/index.html">bigml</a>: BigML, a machine learning web service <a href="https://bigml.com/">more</a></li>
+<li><a href="http://cran.r-project.org/web/packages/MTurkR/index.html">MTurkR</a>: Access to Amazon Mechanical Turk Requester API via R. <a href="http://thomasleeper.com/MTurkR/index.html">more</a></li>
+</ul>
+<h3 id="analytics">Analytics</h3>
+<ul>
+<li><a href="https://github.com/ropensci/rgauges">rgauges</a>: Interface to Gaug.es API <a href="https://secure.gaug.es">more</a> (not on CRAN)</li>
 </ul>
 <h3 id="other-data">Other data</h3>
 <ul>
@@ -86,40 +121,28 @@
 <li><a href="http://cran.r-project.org/web/packages/datamart/index.html">datamart</a>: Unified access to various data sources.</li>
 <li><a href="https://github.com/karthikram/rDrop">rDrop</a>: Dropbox interface.</li>
 </ul>
-<h3 id="marketing">Marketing</h3>
-<ul>
-<li><a href="http://cran.r-project.org/web/packages/anametrix/index.html">anametrix</a>: Bidirectional connector to Anametrix API</li>
-</ul>
-<h3 id="section"></h3>
-<ul>
-<li><a href="http://cran.r-project.org/web/packages/bigml/index.html">bigml</a>: BigML, a machine learning web service <a href="https://bigml.com/">more</a></li>
-</ul>
 <h2 id="cran-packages">CRAN packages:</h2>
 <ul>
-<li>rfishbase</li>
-<li>treebase</li>
-<li>rdryad</li>
-<li>rgbif</li>
-<li>rplos</li>
-<li>RMendeley</li>
-<li>govdat</li>
-<li>OAIHarvester</li>
-<li>rdatamarket</li>
-<li>googlePublicData</li>
-<li>RWeather</li>
-<li>NCBI2</li>
-<li>RNCBIAxis2Libs</li>
-<li>RNCBIEUtilsLibs</li>
-<li>RNCBI</li>
-<li>ralastfm</li>
-<li>osmar</li>
-<li>metadata</li>
-<li>factualR</li>
-<li>rpubchem</li>
-<li>RTDAmeritrade</li>
-<li>sos4R</li>
-<li>SynergizeR</li>
-<li>twitteR</li>
+<li><a href="http://cran.r-project.org/web/packages/rfishbase/index.html">rfishbase</a></li>
+<li><a href="http://cran.r-project.org/web/packages/treebase/index.html">rtreebase</a></li>
+<li><a href="https://github.com/ropensci/rdryad">rdryad</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rgbif/index.html">rgbif</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rplos/index.html">rplos</a></li>
+<li><a href="http://cran.r-project.org/web/packages/RMendeley/index.html">RMendeley</a></li>
+<li><a href="https://github.com/schamberlain/govdat">govdat</a></li>
+<li><a href="http://cran.r-project.org/web/packages/OAIHarvester/index.html">OAIHarvester</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rdatamarket/index.html">rdatamarket</a></li>
+<li><a href="http://cran.r-project.org/web/packages/googlePublicData/index.html">googlePublicData</a></li>
+<li><a href="http://cran.r-project.org/web/packages/RWeather/index.html">RWeather</a></li>
+<li><a href="http://cran.r-project.org/web/packages/NCBI2R/index.html">NCBI2R</a></li>
+<li><a href="http://cran.r-project.org/web/packages/RNCBI/index.html">RNCBI</a></li>
+<li><a href="http://cran.r-project.org/web/packages/osmar/index.html">osmar</a></li>
+<li><a href="http://cran.r-project.org/web/packages/factualR/index.html">factualR</a></li>
+<li><a href="http://cran.r-project.org/web/packages/rpubchem/index.html">rpubchem</a></li>
+<li><a href="http://cran.r-project.org/web/packages/RTDAmeritrade/index.html">RTDAmeritrade</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/sos4R/">sos4R</a></li>
+<li><a href="http://cran.r-project.org/web/packages/SynergizeR/index.html">SynergizeR</a></li>
+<li><a href="http://cran.r-project.org/web/packages/twitteR/index.html">twitteR</a></li>
 </ul>
 <h2 id="related-links">Related links:</h2>
 <p>XXXXXXX</p>
