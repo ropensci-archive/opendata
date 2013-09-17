@@ -2,7 +2,7 @@
 
 * Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud
 * Contact:	scott at ropensci.org
-* Version:	2013-09-13
+* Version:	2013-09-17
 
 ## Introduction
 
