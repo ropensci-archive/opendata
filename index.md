@@ -27,16 +27,16 @@ httr has convenient http verbs: `GET()`, `POST()`, `PUT()`, `DELETE()`, `PATCH()
 
 ### Authentication
 
-Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google).
+Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). [ROAuth][ROAuth] provides an R interface to OAuth methods. 
 
 ### Web frameworks
 
-RStudio recently created [Shiny][shiny], which combines R, html, css, and javascript to make web applications. Related tools are available, including [openCPU][opencpu] and [Rook][rook]. However, Shiny is the most promising of these.
+RStudio recently created [Shiny][shiny], which combines R, html, css, and javascript to make web applications. Related tools are available, including [openCPU][opencpu] ([on CRAN][opencpucran]) and [Rook][rook]. However, Shiny is the most promising of these.
 
 ### Parsing data from the web
 
 * txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. The [repmis][repmis] package contains a `source_data` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.
-* xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings).
+* xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings). [scrapeR][scrapeR] provides additional tools for scraping data from html and xml documents.
 * json/json-ld: [RJSONIO][RJSONIO] by Duncan Temple-Lang. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 * custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.
 
@@ -52,7 +52,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 
 ## Data sources on the web available from R
 
-### Ecological and evolutionary biology data
+### Ecological and evolutionary biology
 
 * [rvertnet][rvertnet]: A wrapper to the VertNet collections database API.
 * [rgbif][rgbif]: Interface to the Global Biodiversity Information Facility API methods
@@ -68,6 +68,10 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [rnpn][rnpn]: Wrapper to the National Phenology Network database API
 * [rfisheries][rfisheries]: Package for interacting with fisheries databases at openfisheries.org [more](http://openfisheries.org/)
 * [rebird][rebird]: A programmatic interface to the eBird database
+* [flora][flora]: Retrieve taxonomical information of botanical names from the Flora do Brasil website
+* [Rcolombos][Rcolombos]: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
+* [Reol][Reol]: An R interface to the EOL API. Includes functions for downloading and extracting information off the EOL pages.
+* [rPlant][rPlant]: rPlant is an R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the iPlant Collaborative. http://www.iplantcollaborative.org/discover/discovery-environment
 
 ### Genes/genomes
 
@@ -75,14 +79,18 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [rsnps][rsnps]: Wrapper to the openSNP data API and the Broad Institute SNP Annotation and Proxy Search. 
 * [rentrez][rentrez]: Talk with NCBI entrez using R
 
-### Earth Science Data
+### Earth Science
 
 * [RNCEP][RNCEP]: Global weather and climate data at your fingertips. [more](https://sites.google.com/site/michaelukemp/rncep)
-* [crn][crn]: Downloads and Builds datasets for Climate Reference Network. [more](http://stevemosher.wordpress.com/)
+* [crn][crn]: The crn package provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided. [more](http://stevemosher.wordpress.com/)
 * [BerkeleyEarth][BerkeleyEarth]: Data Input for Berkeley Earth Surface Temperature. [more](http://stevemosher.wordpress.com/)
 * [waterData][waterData]: An R Package for Retrieval, Analysis, and Anomaly Calculation of Daily Hydrologic Time Series Data. [more](http://pubs.usgs.gov/of/2012/1168/), [vignette](  http://cran.r-project.org/web/packages/waterData/vignettes/vignette.pdf)
+* [CHCN][CHCN]: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formating temperature files.
+* [decctools][decctools]: decctools provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
+* [Metadata][Metadata]: Collates Metadata for Climate Surface Stations
+* [sos4R][sos4R]: sos4R is a client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations et cetera using thematic, temporal and spatial filtering.
 
-### Economics Data
+### Economics
 
 * [WDI][WDI]: Search, extract and format data from the World Bank's World Development Indicators. [more](https://sites.google.com/site/michaelukemp/rncep)
 * [FAOSTAT][FAOSTAT]: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT databasthe Food and Agricultural Organization of the United Nations [more](http://cran.r-project.org/web/packages/FAOSTAT/index.html), [vignette](http://cran.r-project.org/web/packages/FAOSTAT/vignettes/FAOSTAT.pdf)
@@ -93,9 +101,9 @@ Javascript provides many libraries to make interactive visualizations for the br
 
 ### Agriculture
 
-* [cimis][cimis]: R package for retrieving data from CIMIS.
+* [cimis][cimis]: R package for retrieving data from CIMIS, the California Irrigation Management Information System.
 
-### Literature, metadata, and altmetrics
+### Literature, metadata, text, and altmetrics
 
 * [rplos][rplos]: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
 * [rbhl][rbhl]: R interface to the Biodiversity Heritage Library (BHL) API (not on CRAN)
@@ -107,6 +115,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [rAltmetic][rAltmetic]: Query and visualize metrics from Altmetric.com (not on CRAN)
 * [rImpactStory][rImpactStory]: Programmatic interface to the ImpactStory API
 * [alm][alm]: R wrapper to the almetrics API platform developed by PLoS (not on CRAN)
+* [ngramr][ngramr]: Retrieve and plot word frequencies through time from the Google Ngram Viewer ([development vesion](https://github.com/seancarmody/ngramr))
 
 ### Marketing
 
@@ -118,6 +127,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [factualR][factualR]: Thin wrapper for the Factual.com server API. [more](http://www.exmachinatech.net/01/factualr/)
 * [dataone][dataone]: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories. [more](http://releases.dataone.org/online/dataone_r/)
 * [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
+* [RSocrata][RSocrata]: Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
 
 ### Machine learning as a service (MLaaS anyone?)
 
@@ -127,13 +137,42 @@ Javascript provides many libraries to make interactive visualizations for the br
 ### Analytics
 
 * [rgauges][rgauges]: Interface to Gaug.es API [more](https://secure.gaug.es) (not on CRAN)
+* [RSiteCatalyst][RSiteCatalyst]: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API
 
-### Other data
+### News
+
+* [GuardianR][GuardianR]: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day
+
+### Images/videos/music
+
+* [imguR][imguR]: A package to share plots using the image hosting service imgur.com
+* [RLastFM][RLastFM]: A package to interface to the last.fm API.
+
+### Sports
+
+* [nhlscraper][nhlscraper]: Compiling the NHL Real Time Scoring System Database for easy use in R
+
+### Maps
+
+* [osmar][osmar]: This package provides infrastructure to access OpenStreetMap data from different sources, to work with the data in common R manner, and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
+
+### Social media
+
+* [streamR][streamR]: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported.
+* [twitteR][twitteR]: Provides an interface to the Twitter web API
+
+### Government
+
+* [wethepeople][wethepeople]: An R client for interacting with the White House's "We The People" petition API
+* [govdat][govdat]: Interface to various APIs for government data, including New York Times congress API, and the Sunlight Foundation set of APIs.
+
+### Other
 
 * [dvn][dvn]: Provides access to The Dataverse Network API. [more](http://thedata.org/)
 * [sos4R][sos4R]: R client for the OGC Sensor Observation Service. [more](http://www.nordholmen.net/sos4r)
 * [datamart][datamart]: Unified access to various data sources.
 * [rDrop][rDrop]: Dropbox interface.
+* [zendeskR][zendeskR]: This package provides an R wrapper for the Zendesk API
 
 ## CRAN packages:
 
@@ -157,6 +196,8 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [sos4R][sos4R]
 * [SynergizeR][SynergizeR]
 * [twitteR][twitteR]
+* [opencpu][opencpucran]
+* [ngramr][ngramr]
 
 ## Related links:
 
@@ -175,7 +216,6 @@ XXXXXXX
 [rfigshare]: http://cran.r-project.org/web/packages/rfigshare/index.html
 [datamart]: http://cran.r-project.org/web/packages/datamart/index.html
 [dvn]: http://cran.r-project.org/web/packages/dvn/index.html
-[sos4R]: http://cran.r-project.org/src/contrib/Archive/sos4R/
 [dataone]: http://cran.r-project.org/web/packages/dataone/index.html
 [factualR]: http://cran.r-project.org/web/packages/factualR/index.html
 [MTurkR]: http://cran.r-project.org/web/packages/MTurkR/index.html
@@ -227,7 +267,28 @@ XXXXXXX
 [RWeather]: http://cran.r-project.org/web/packages/RWeather/index.html
 [NCBI2R]: http://cran.r-project.org/web/packages/NCBI2R/index.html
 [RNCBI]: http://cran.r-project.org/web/packages/RNCBI/index.html
-[osmar]: http://cran.r-project.org/web/packages/osmar/index.html
 [RTDAmeritrade]: http://cran.r-project.org/web/packages/RTDAmeritrade/index.html
 [SynergizeR]: http://cran.r-project.org/web/packages/SynergizeR/index.html
 [twitteR]: http://cran.r-project.org/web/packages/twitteR/index.html
+[RSiteCatalyst]: http://cran.r-project.org/web/packages/RSiteCatalyst/index.html
+[opencpucran]: http://cran.r-project.org/web/packages/opencpu/index.html
+[ngramr]: http://cran.r-project.org/web/packages/ngramr/index.html
+[imguR]: http://cran.r-project.org/web/packages/imguR/index.html
+[RSocrata]: http://cran.r-project.org/web/packages/RSocrata/index.html
+[CHCN]: http://cran.r-project.org/web/packages/CHCN/index.html
+[decctools]: http://cran.r-project.org/web/packages/decctools/index.html
+[flora]: http://cran.r-project.org/web/packages/flora/index.html
+[GuardianR]: http://cran.r-project.org/web/packages/GuardianR/index.html
+[Metadata]: http://cran.r-project.org/web/packages/Metadata/index.html
+[nhlscraper]: http://cran.r-project.org/web/packages/nhlscrapr/index.html
+[osmar]: http://cran.r-project.org/web/packages/osmar/index.html
+[Rcolombos]: http://cran.r-project.org/web/packages/Rcolombos/index.html
+[Reol]: http://cran.r-project.org/web/packages/Reol/index.html
+[RLastFM]: http://cran.r-project.org/web/packages/RLastFM/index.html
+[ROAuth]: http://cran.r-project.org/web/packages/ROAuth/index.html
+[rPlant]: http://cran.r-project.org/web/packages/rPlant/index.html
+[scrapeR]: http://cran.r-project.org/web/packages/scrapeR/index.html
+[sos4R]: http://cran.r-project.org/web/packages/sos4R/index.html
+[streamR]: http://cran.r-project.org/web/packages/streamR/index.html
+[wethepeople]: http://cran.r-project.org/web/packages/wethepeople/index.html
+[zendeskR]: http://cran.r-project.org/web/packages/zendeskR/index.html
