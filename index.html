@@ -13,25 +13,22 @@
 <h3 id="curlhttpftp">curl/http/ftp</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>: a low level curl wrapper for R.</li>
-<li><a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a>: is a light wrapper around RCurl that makes many things easier, but still allows you to access the lower level functionality of RCurl.</li>
+<li><a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a>: a light wrapper around RCurl that makes many things easier, but still allows you to access the lower level functionality of RCurl.</li>
 </ul>
 <p>httr has convenient http verbs: <code>GET()</code>, <code>POST()</code>, <code>PUT()</code>, <code>DELETE()</code>, <code>PATCH()</code>, <code>HEAD()</code>, <code>BROWSE()</code>. These wrap functions in RCurl, making them more convenient to use, though less configurable than counterparts in RCurl. Though note that you can pass in additional Curl options to the <code>config</code> parameter in http calls. The equivalent of httr's <code>GET()</code> in RCurl is <code>getForm()</code>. Likewise, the equivalent of httr's <code>POST()</code> in RCurl is <code>postForm()</code>.</p>
-<p><a href="http://en.wikipedia.org/wiki/Http_status_codes">http status codes</a> are helpful for debugging http calls. httr package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful.</p>
+<p><a href="http://en.wikipedia.org/wiki/Http_status_codes">http status codes</a> are helpful for debugging http calls. httr package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful. See also <code>warn_for_status()</code>.</p>
 <h3 id="authentication">Authentication</h3>
-<p>Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work. API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). <a href="http://cran.r-project.org/web/packages/ROAuth/index.html">ROAuth</a> provides an R interface to OAuth methods.</p>
-<!-- LOOK INTO OAUth with rcurl, easy hard to do? -->
-
+<p>Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work. API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be most easily done using httr. See the 6 demos within httr, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). <a href="http://cran.r-project.org/web/packages/ROAuth/index.html">ROAuth</a> is a package that provides a separate R interface to OAuth. OAuth is easier to to do in httr, so start there.</p>
 <h3 id="web-frameworks">Web frameworks</h3>
 <p>RStudio recently created <a href="http://www.rstudio.com/shiny/">Shiny</a>, which combines R, html, css, and javascript to make web applications. Related tools are available, including <a href="https://public.opencpu.org/">openCPU</a> (<a href="http://cran.r-project.org/web/packages/opencpu/index.html">on CRAN</a>) and <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a>. However, Shiny is the most promising of these.</p>
 <h3 id="parsing-data-from-the-web">Parsing data from the web</h3>
 <ul>
-<li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions. <!-- You can do read.csv("http://..."), but not read.csv("https://..."). --></li>
+<li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: read.csv(&quot;http://...&quot;), but not read.csv(&quot;https://...&quot;). The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.</li>
 <li>xml/html: the package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> by Duncan Temple-Lang contains functions for parsing xml and html, and supports <a href="http://www.w3schools.com/xpath/default.asp">xpath</a> for searching xml (think regex for strings). <a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from html and xml documents.</li>
 <li>json/json-ld: <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> by Duncan Temple-Lang. Another package, <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a>, does many of the same tasks which RJSONIO does.</li>
 <li>custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.</li>
+<li>An alternative to the XML package is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. XML package is often used for xml and html, but selectr translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
 </ul>
-<!-- sjp.co.nz/projects/selec… + selectorgadget.com is a killer combo for extracting data from webpages http://sjp.co.nz/projects/selectr/ http://selectorgadget.com/ -->
-
 <h3 id="javascript">Javascript</h3>
 <p>Javascript provides many libraries to make interactive visualizations for the browser, either locally or on the web. An increasing number of R packages are providing the ability to make visualizations using various javascript libraries. Some of them include:</p>
 <ul>
@@ -123,10 +120,11 @@
 <li><a href="http://cran.r-project.org/web/packages/bigml/index.html">bigml</a>: BigML, a machine learning web service <a href="https://bigml.com/">more</a></li>
 <li><a href="http://cran.r-project.org/web/packages/MTurkR/index.html">MTurkR</a>: Access to Amazon Mechanical Turk Requester API via R. <a href="http://thomasleeper.com/MTurkR/index.html">more</a></li>
 </ul>
-<h3 id="analytics">Analytics</h3>
+<h3 id="web-analytics">Web Analytics</h3>
 <ul>
 <li><a href="https://github.com/ropensci/rgauges">rgauges</a>: Interface to Gaug.es API <a href="https://secure.gaug.es">more</a> (not on CRAN)</li>
 <li><a href="http://cran.r-project.org/web/packages/RSiteCatalyst/index.html">RSiteCatalyst</a>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API</li>
+<li><a href="https://code.google.com/p/r-google-analytics/">RGoogleAnalytics</a>: Provides access to Google Analytics. <a href="http://www.tatvic.com/blog/ga-data-extraction-in-r/">tutorial</a></li>
 </ul>
 <h3 id="news">News</h3>
 <ul>
@@ -144,6 +142,7 @@
 <h3 id="maps">Maps</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/osmar/index.html">osmar</a>: This package provides infrastructure to access OpenStreetMap data from different sources, to work with the data in common R manner, and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).</li>
+<li><a href="http://cran.r-project.org/web/packages/ggmap/index.html">ggmap</a>: ggmap allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.</li>
 </ul>
 <h3 id="social-media">Social media</h3>
 <ul>

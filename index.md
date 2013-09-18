@@ -19,17 +19,15 @@ A list of available packages and functions is presented below, grouped by the ty
 ### curl/http/ftp
 
 * [RCurl][RCurl]: a low level curl wrapper for R. 
-* [httr][httr]: is a light wrapper around RCurl that makes many things easier, but still allows you to access the lower level functionality of RCurl. 
+* [httr][httr]: a light wrapper around RCurl that makes many things easier, but still allows you to access the lower level functionality of RCurl. 
 
 httr has convenient http verbs: `GET()`, `POST()`, `PUT()`, `DELETE()`, `PATCH()`, `HEAD()`, `BROWSE()`. These wrap functions in RCurl, making them more convenient to use, though less configurable than counterparts in RCurl. Though note that you can pass in additional Curl options to the `config` parameter in http calls. The equivalent of httr's `GET()` in RCurl is `getForm()`. Likewise, the equivalent of httr's `POST()` in RCurl is `postForm()`. 
 
-[http status codes](http://en.wikipedia.org/wiki/Http_status_codes) are helpful for debugging http calls. httr package makes this easier using, for example, `stop_for_status()` gets the http status code from a response object, and stops the function if the call was not successful. 
+[http status codes](http://en.wikipedia.org/wiki/Http_status_codes) are helpful for debugging http calls. httr package makes this easier using, for example, `stop_for_status()` gets the http status code from a response object, and stops the function if the call was not successful. See also `warn_for_status()`.
 
 ### Authentication
 
-Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). [ROAuth][ROAuth] provides an R interface to OAuth methods. 
-
-<!-- LOOK INTO OAUth with rcurl, easy hard to do? -->
+Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be most easily done using httr. See the 6 demos within httr, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). [ROAuth][ROAuth] is a package that provides a separate R interface to OAuth. OAuth is easier to to do in httr, so start there. 
 
 ### Web frameworks
 
@@ -37,12 +35,11 @@ RStudio recently created [Shiny][shiny], which combines R, html, css, and javasc
 
 ### Parsing data from the web
 
-* txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. The [repmis][repmis] package contains a `source_data` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions. <!-- You can do read.csv("http://..."), but not read.csv("https://..."). -->
+* txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. `read.csv()` works with http but not https, i.e.: read.csv("http://..."), but not read.csv("https://..."). The [repmis][repmis] package contains a `source_data()` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.
 * xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings). [scrapeR][scrapeR] provides additional tools for scraping data from html and xml documents.
 * json/json-ld: [RJSONIO][RJSONIO] by Duncan Temple-Lang. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 * custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.
-
-<!-- sjp.co.nz/projects/selec… + selectorgadget.com is a killer combo for extracting data from webpages http://sjp.co.nz/projects/selectr/ http://selectorgadget.com/ -->
+* An alternative to the XML package is [selectr][selectr], which parses CSS3 Selectors and translates them to XPath 1.0 expressions. XML package is often used for xml and html, but selectr translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The [selectorgadget browser extension](http://selectorgadget.com/) can be used to identify page elements. 
 
 ### Javascript
 
@@ -137,10 +134,11 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [bigml][bigml]: BigML, a machine learning web service [more](https://bigml.com/)
 * [MTurkR][MTurkR]: Access to Amazon Mechanical Turk Requester API via R. [more](http://thomasleeper.com/MTurkR/index.html)
 
-### Analytics
+### Web Analytics
 
 * [rgauges][rgauges]: Interface to Gaug.es API [more](https://secure.gaug.es) (not on CRAN)
 * [RSiteCatalyst][RSiteCatalyst]: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API
+* [RGoogleAnalytics][RGoogleAnalytics]: Provides access to Google Analytics. [tutorial](http://www.tatvic.com/blog/ga-data-extraction-in-r/)
 
 ### News
 
@@ -158,6 +156,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 ### Maps
 
 * [osmar][osmar]: This package provides infrastructure to access OpenStreetMap data from different sources, to work with the data in common R manner, and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
+* [ggmap][ggmap]: ggmap allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 
 ### Social media
 
@@ -295,3 +294,6 @@ XXXXXXX
 [streamR]: http://cran.r-project.org/web/packages/streamR/index.html
 [wethepeople]: http://cran.r-project.org/web/packages/wethepeople/index.html
 [zendeskR]: http://cran.r-project.org/web/packages/zendeskR/index.html
+[ggmap]: http://cran.r-project.org/web/packages/ggmap/index.html
+[RGoogleAnalytics]: https://code.google.com/p/r-google-analytics/
+[selectr]: http://sjp.co.nz/projects/selectr/
