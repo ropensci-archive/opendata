@@ -19,25 +19,28 @@
 <p><a href="http://en.wikipedia.org/wiki/Http_status_codes">http status codes</a> are helpful for debugging http calls. httr package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful.</p>
 <h3 id="authentication">Authentication</h3>
 <p>Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work. API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). <a href="http://cran.r-project.org/web/packages/ROAuth/index.html">ROAuth</a> provides an R interface to OAuth methods.</p>
+<!-- LOOK INTO OAUth with rcurl, easy hard to do? -->
+
 <h3 id="web-frameworks">Web frameworks</h3>
 <p>RStudio recently created <a href="http://www.rstudio.com/shiny/">Shiny</a>, which combines R, html, css, and javascript to make web applications. Related tools are available, including <a href="https://public.opencpu.org/">openCPU</a> (<a href="http://cran.r-project.org/web/packages/opencpu/index.html">on CRAN</a>) and <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a>. However, Shiny is the most promising of these.</p>
 <h3 id="parsing-data-from-the-web">Parsing data from the web</h3>
 <ul>
-<li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.</li>
+<li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions. <!-- You can do read.csv("http://..."), but not read.csv("https://..."). --></li>
 <li>xml/html: the package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> by Duncan Temple-Lang contains functions for parsing xml and html, and supports <a href="http://www.w3schools.com/xpath/default.asp">xpath</a> for searching xml (think regex for strings). <a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from html and xml documents.</li>
 <li>json/json-ld: <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> by Duncan Temple-Lang. Another package, <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a>, does many of the same tasks which RJSONIO does.</li>
 <li>custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.</li>
 </ul>
+<!-- sjp.co.nz/projects/selec… + selectorgadget.com is a killer combo for extracting data from webpages http://sjp.co.nz/projects/selectr/ http://selectorgadget.com/ -->
+
 <h3 id="javascript">Javascript</h3>
 <p>Javascript provides many libraries to make interactive visualizations for the browser, either locally or on the web. An increasing number of R packages are providing the ability to make visualizations using various javascript libraries. Some of them include:</p>
 <ul>
-<li><a href="https://github.com/hadley/r2d3">r2d3</a> Convert ggplto2 graphics code to d3 code (not on CRAN)</li>
-<li><a href="https://github.com/hadley/gg2v">gg2v</a> Render ggplot2 graphics using vega (not on CRAN)</li>
+<li><a href="https://github.com/rstudio/ggvis">ggvis</a> ggvis makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and shiny, rendering graphics on the web with vega.</li>
 <li><a href="https://github.com/ramnathv/rCharts">rCharts</a> Interactive javascript charts from R (not on CRAN)</li>
 <li><a href="https://github.com/metagraf/rVega">rVega</a> An R wrapper for Vega (not on CRAN)</li>
 <li><a href="https://github.com/nachocab/clickme">clickme</a> An R package to create interactive plots (not on CRAN)</li>
 </ul>
-<h2 id="data-sources-on-the-web-available-from-r">Data sources on the web available from R</h2>
+<h2 id="data-sources-on-the-web-available-via-r">Data sources on the web available via R</h2>
 <h3 id="ecological-and-evolutionary-biology">Ecological and evolutionary biology</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/rvertnet/index.html">rvertnet</a>: A wrapper to the VertNet collections database API.</li>

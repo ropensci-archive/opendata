@@ -29,28 +29,31 @@ httr has convenient http verbs: `GET()`, `POST()`, `PUT()`, `DELETE()`, `PATCH()
 
 Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources require that authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource, or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be done using RCurl or httr. See the demos within httr, where there are 6 demos, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). [ROAuth][ROAuth] provides an R interface to OAuth methods. 
 
+<!-- LOOK INTO OAUth with rcurl, easy hard to do? -->
+
 ### Web frameworks
 
 RStudio recently created [Shiny][shiny], which combines R, html, css, and javascript to make web applications. Related tools are available, including [openCPU][opencpu] ([on CRAN][opencpucran]) and [Rook][rook]. However, Shiny is the most promising of these.
 
 ### Parsing data from the web
 
-* txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. The [repmis][repmis] package contains a `source_data` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.
+* txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. The [repmis][repmis] package contains a `source_data` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions. <!-- You can do read.csv("http://..."), but not read.csv("https://..."). -->
 * xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings). [scrapeR][scrapeR] provides additional tools for scraping data from html and xml documents.
 * json/json-ld: [RJSONIO][RJSONIO] by Duncan Temple-Lang. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 * custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.
+
+<!-- sjp.co.nz/projects/selec… + selectorgadget.com is a killer combo for extracting data from webpages http://sjp.co.nz/projects/selectr/ http://selectorgadget.com/ -->
 
 ### Javascript
 
 Javascript provides many libraries to make interactive visualizations for the browser, either locally or on the web. An increasing number of R packages are providing the ability to make visualizations using various javascript libraries. Some of them include:
 
-* [r2d3](https://github.com/hadley/r2d3) Convert ggplto2 graphics code to d3 code (not on CRAN)
-* [gg2v](https://github.com/hadley/gg2v) Render ggplot2 graphics using vega (not on CRAN)
+* [ggvis](https://github.com/rstudio/ggvis) ggvis makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and shiny, rendering graphics on the web with vega.
 * [rCharts](https://github.com/ramnathv/rCharts) Interactive javascript charts from R (not on CRAN)
 * [rVega](https://github.com/metagraf/rVega) An R wrapper for Vega (not on CRAN)
 * [clickme](https://github.com/nachocab/clickme) An R package to create interactive plots (not on CRAN)
 
-## Data sources on the web available from R
+## Data sources on the web available via R
 
 ### Ecological and evolutionary biology
 
