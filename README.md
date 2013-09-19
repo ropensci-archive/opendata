@@ -1,3 +1,9 @@
+<!-- how to contribute in 4 steps:
+1. Fork this repo
+2. Edit this file (README.md)
+3. on the command line type make and press enter, which creates the index.html file 
+4. Push back up and send a pull request to ropensci/webservices
+-->
 # CRAN Task View: Working with data on the web
 
 * Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud
@@ -36,7 +42,7 @@ RStudio recently created [Shiny][shiny], which combines R, html, css, and javasc
 ### Parsing data from the web
 
 * txt, csv, etc.: you can use `read.csv()` after acquiring the csv file from the web via e.g., `getURL()` from RCurl. `read.csv()` works with http but not https, i.e.: read.csv("http://..."), but not read.csv("https://..."). The [repmis][repmis] package contains a `source_data()` command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.
-* xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings). [scrapeR][scrapeR] provides additional tools for scraping data from html and xml documents.
+* xml/html: the package [XML][XML] by Duncan Temple-Lang contains functions for parsing xml and html, and supports [xpath][xpath] for searching xml (think regex for strings). [scrapeR][scrapeR] provides additional tools for scraping data from html and xml documents. The [XML2R][XML2R] package (to be on CRAN soon) is a collection of convenient functions for coercing XML into data frame(s). 
 * json/json-ld: [RJSONIO][RJSONIO] by Duncan Temple-Lang. Another package, [rjson][rjson], does many of the same tasks which RJSONIO does.
 * custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.
 * An alternative to the XML package is [selectr][selectr], which parses CSS3 Selectors and translates them to XPath 1.0 expressions. XML package is often used for xml and html, but selectr translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The [selectorgadget browser extension](http://selectorgadget.com/) can be used to identify page elements. 
@@ -297,3 +303,4 @@ XXXXXXX
 [ggmap]: http://cran.r-project.org/web/packages/ggmap/index.html
 [RGoogleAnalytics]: https://code.google.com/p/r-google-analytics/
 [selectr]: http://sjp.co.nz/projects/selectr/
+[XML2R]: https://github.com/cpsievert/XML2R

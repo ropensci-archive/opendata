@@ -1,3 +1,9 @@
+<!-- how to contribute in 4 steps:
+1. Fork this repo
+2. Edit this file (README.md)
+3. on the command line type make and press enter, which creates the index.html file 
+4. Push back up and send a pull request to ropensci/webservices
+-->
 <h1 id="cran-task-view-working-with-data-on-the-web">CRAN Task View: Working with data on the web</h1>
 <ul>
 <li>Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud</li>
@@ -24,7 +30,7 @@
 <h3 id="parsing-data-from-the-web">Parsing data from the web</h3>
 <ul>
 <li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: read.csv(&quot;http://...&quot;), but not read.csv(&quot;https://...&quot;). The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.</li>
-<li>xml/html: the package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> by Duncan Temple-Lang contains functions for parsing xml and html, and supports <a href="http://www.w3schools.com/xpath/default.asp">xpath</a> for searching xml (think regex for strings). <a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from html and xml documents.</li>
+<li>xml/html: the package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> by Duncan Temple-Lang contains functions for parsing xml and html, and supports <a href="http://www.w3schools.com/xpath/default.asp">xpath</a> for searching xml (think regex for strings). <a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from html and xml documents. The <a href="https://github.com/cpsievert/XML2R">XML2R</a> package (to be on CRAN soon) is a collection of convenient functions for coercing XML into data frame(s).</li>
 <li>json/json-ld: <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> by Duncan Temple-Lang. Another package, <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a>, does many of the same tasks which RJSONIO does.</li>
 <li>custom formats: Some web APIs provide custom data formats (e.g., X), which are usually modified xml or json, and handled by XML and RJSONIO, respectively.</li>
 <li>An alternative to the XML package is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. XML package is often used for xml and html, but selectr translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
