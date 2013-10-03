@@ -10,6 +10,9 @@
 * Contact:	scott at ropensci.org
 * Version:	2013-09-17
 
+**Changes and suggestions**: You can also edit [this page directly](https://github.com/ropensci/webservices/edit/master/README.md) to add suggestions or fix mistakes. *(Requires you to be logged into GitHub)*
+
+
 ## Introduction
 
 This Task View contains information about using R to obtain and parse data from the web.
@@ -211,9 +214,6 @@ Javascript provides many libraries to make interactive visualizations for the br
 
 XXXXXXX
 
-## Changes and suggestions
-
-You can also edit [this page directly](https://github.com/ropensci/webservices/edit/master/README.md) to add suggestions or fix mistakes. *(Requires you to be logged into GitHub)*
 
 [RCurl]: http://cran.r-project.org/web/packages/RCurl/index.html
 [httr]: http://cran.r-project.org/web/packages/httr/index.html
