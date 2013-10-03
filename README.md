@@ -152,7 +152,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 
 ### Images/videos/music
 
-* [imguR][imguR]: A package to share plots using the image hosting service imgur.com
+* [imguR][imguR]: A package to share plots using the image hosting service imgur.com (also see the function `imgur_upload()` in [knitr][knitr], which uses the newer Imgur API version 3)
 * [RLastFM][RLastFM]: A package to interface to the last.fm API.
 
 ### Sports
@@ -304,3 +304,4 @@ XXXXXXX
 [RGoogleAnalytics]: https://code.google.com/p/r-google-analytics/
 [selectr]: http://sjp.co.nz/projects/selectr/
 [XML2R]: https://github.com/cpsievert/XML2R
+[knitr]: http://cran.r-project.org/package=knitr
