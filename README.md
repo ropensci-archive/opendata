@@ -118,7 +118,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [rentrez][rentrez]: Talk with NCBI entrez using R
 * [rorcid][rorcid]: A programmatic interface the Orcid.org API (not on CRAN)
 * [rpubmed][rpubmed]: Tools for extracting and processing Pubmed and Pubmed Central records (not on CRAN)
-* [rAltmetic][rAltmetic]: Query and visualize metrics from Altmetric.com (not on CRAN)
+* [rAltmetic][rAltmetic]: Query and visualize metrics from Altmetric.com
 * [rImpactStory][rImpactStory]: Programmatic interface to the ImpactStory API
 * [alm][alm]: R wrapper to the almetrics API platform developed by PLoS (not on CRAN)
 * [ngramr][ngramr]: Retrieve and plot word frequencies through time from the Google Ngram Viewer ([development vesion](https://github.com/seancarmody/ngramr))
