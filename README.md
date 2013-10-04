@@ -137,6 +137,8 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [dataone][dataone]: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories. [more](http://releases.dataone.org/online/dataone_r/)
 * [yhatr][yhatr]: yhatr lets you deploy, maintain, and invoke models via the Yhat REST API.
 * [RSocrata][RSocrata]: Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
+* [OAIHarvester][OAIHarvester]: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).
+* [dvn][dvn]: Provides access to The Dataverse Network APIs, to upload and search for data and metadata, especially in the social sciences. [more](http://thedata.org/)
 
 ### Machine learning as a service (MLaaS anyone?)
 
@@ -179,7 +181,6 @@ Javascript provides many libraries to make interactive visualizations for the br
 
 ### Other
 
-* [dvn][dvn]: Provides access to The Dataverse Network API. [more](http://thedata.org/)
 * [sos4R][sos4R]: R client for the OGC Sensor Observation Service. [more](http://www.nordholmen.net/sos4r)
 * [datamart][datamart]: Unified access to various data sources.
 * [rDrop][rDrop]: Dropbox interface.
