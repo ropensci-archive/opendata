@@ -6,22 +6,16 @@
 -->
 # CRAN Task View: Working with data on the web
 
-* Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud
+* Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
 * Contact:	scott at ropensci.org
-* Version:	2013-09-17
+* Version:	2013-10-04
 
 **Changes and suggestions**: You can also edit [this page directly](https://github.com/ropensci/webservices/edit/master/README.md) to add suggestions or fix mistakes. *(Requires you to be logged into GitHub)*
 
 
 ## Introduction
 
-This Task View contains information about using R to obtain and parse data from the web.
-
-The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web.
-
-If you have any comments or suggestions for additions or improvements for this taskview, go to Github and [submit an issue](https://github.com/ropensci/webservices/issues) or make some changes and [submit a pull request](https://github.com/ropensci/webservices/pulls). If you have an issue with one of the packages, please contact the maintainer of the package.
-
-A list of available packages and functions is presented below, grouped by the type of activity.
+This Task View contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. If you have any comments or suggestions for additions or improvements for this taskview, go to Github and [submit an issue](https://github.com/ropensci/webservices/issues) or make some changes and [submit a pull request](https://github.com/ropensci/webservices/pulls). If you can't do Github, [send Scott an email](mailto:scott@ropensci.org). If you have an issue with one of the packages, please contact the maintainer of the package. A list of available packages and functions is presented below, grouped by the type of activity.
 
 ## Tools for working with the web from R
 
@@ -163,6 +157,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 ### Sports
 
 * [nhlscraper][nhlscraper]: Compiling the NHL Real Time Scoring System Database for easy use in R
+* [pitchRx][pitchRx]: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 
 ### Maps
 
@@ -212,9 +207,6 @@ Javascript provides many libraries to make interactive visualizations for the br
 * [ngramr][ngramr]
 
 ## Related links:
-
-XXXXXXX
-
 
 [RCurl]: http://cran.r-project.org/web/packages/RCurl/index.html
 [httr]: http://cran.r-project.org/web/packages/httr/index.html
@@ -312,3 +304,4 @@ XXXXXXX
 [knitr]: http://cran.r-project.org/package=knitr
 [httpuv]: http://cran.r-project.org/web/packages/httpuv/index.html
 [servr]: https://github.com/yihui/servr
+[pitchRx]: http://cran.r-project.org/web/packages/pitchRx/
