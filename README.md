@@ -8,7 +8,7 @@
 
 * Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
 * Contact:	scott at ropensci.org
-* Version:	2013-10-04
+* Version:	2013-10-05
 
 **Changes and suggestions**: You can also edit [this page directly](https://github.com/ropensci/webservices/edit/master/README.md) to add suggestions or fix mistakes. *(Requires you to be logged into GitHub)*
 
@@ -34,7 +34,7 @@ Using web resources can require authentication, either via API keys, OAuth, user
 
 ### Web frameworks
 
-RStudio recently created [Shiny][shiny], which combines R, html, css, and javascript to make web applications. Related tools are available, including [openCPU][opencpu] ([on CRAN][opencpucran]) and [Rook][rook]. However, Shiny is the most promising of these. A package by Yihui Xie called servr provides a simple HTTP server to serve files under a given directory based on the [httpuv][httpuv] package. It is not on CRAN yet, but you can get it on Github [here][servr]. The [httpuv][httpuv] package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.
+RStudio recently created [Shiny][shiny], which combines R, html, css, and javascript to make web applications. Related tools are available, including [openCPU][opencpu] ([on CRAN][opencpucran]) and [Rook][rook]. However, Shiny is the most promising of these. A package by Yihui Xie called [servr][servr] provides a simple HTTP server to serve files under a given directory based on the [httpuv][httpuv] package. The [httpuv][httpuv] package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.
 
 ### Parsing data from the web
 
@@ -301,7 +301,7 @@ Javascript provides many libraries to make interactive visualizations for the br
 [RGoogleAnalytics]: https://code.google.com/p/r-google-analytics/
 [selectr]: http://sjp.co.nz/projects/selectr/
 [XML2R]: https://github.com/cpsievert/XML2R
-[knitr]: http://cran.r-project.org/package=knitr
+[knitr]: http://cran.r-project.org/packages/knitr/index.html
 [httpuv]: http://cran.r-project.org/web/packages/httpuv/index.html
-[servr]: https://github.com/yihui/servr
-[pitchRx]: http://cran.r-project.org/web/packages/pitchRx/
+[servr]: http://cran.r-project.org/web/packages/servr/index.html
+[pitchRx]: http://cran.r-project.org/web/packages/pitchRx/index.html

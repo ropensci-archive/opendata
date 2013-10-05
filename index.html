@@ -8,7 +8,7 @@
 <ul>
 <li>Maintainer: Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</li>
 <li>Contact: scott at ropensci.org</li>
-<li>Version: 2013-10-04</li>
+<li>Version: 2013-10-05</li>
 </ul>
 <p><strong>Changes and suggestions</strong>: You can also edit <a href="https://github.com/ropensci/webservices/edit/master/README.md">this page directly</a> to add suggestions or fix mistakes. <em>(Requires you to be logged into GitHub)</em></p>
 <h2 id="introduction">Introduction</h2>
@@ -29,7 +29,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <h3 id="authentication">Authentication</h3>
 <p>Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work. API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in RCurl or httr. OAuth is the most complicated authentication process, and can be most easily done using httr. See the 6 demos within httr, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). <a href="http://cran.r-project.org/web/packages/ROAuth/index.html">ROAuth</a> is a package that provides a separate R interface to OAuth. OAuth is easier to to do in httr, so start there.</p>
 <h3 id="web-frameworks">Web frameworks</h3>
-<p>RStudio recently created <a href="http://www.rstudio.com/shiny/">Shiny</a>, which combines R, html, css, and javascript to make web applications. Related tools are available, including <a href="https://public.opencpu.org/">openCPU</a> (<a href="http://cran.r-project.org/web/packages/opencpu/index.html">on CRAN</a>) and <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a>. However, Shiny is the most promising of these. A package by Yihui Xie called servr provides a simple HTTP server to serve files under a given directory based on the <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package. It is not on CRAN yet, but you can get it on Github <a href="https://github.com/yihui/servr">here</a>. The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.</p>
+<p>RStudio recently created <a href="http://www.rstudio.com/shiny/">Shiny</a>, which combines R, html, css, and javascript to make web applications. Related tools are available, including <a href="https://public.opencpu.org/">openCPU</a> (<a href="http://cran.r-project.org/web/packages/opencpu/index.html">on CRAN</a>) and <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a>. However, Shiny is the most promising of these. A package by Yihui Xie called <a href="http://cran.r-project.org/web/packages/servr/index.html">servr</a> provides a simple HTTP server to serve files under a given directory based on the <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package. The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.</p>
 <h3 id="parsing-data-from-the-web">Parsing data from the web</h3>
 <ul>
 <li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: read.csv(&quot;http://...&quot;), but not read.csv(&quot;https://...&quot;). The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to simplify this process, while also assigning SHA-1 hashes to uniquely identify file versions.</li>
@@ -143,13 +143,13 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 </ul>
 <h3 id="imagesvideosmusic">Images/videos/music</h3>
 <ul>
-<li><a href="http://cran.r-project.org/web/packages/imguR/index.html">imguR</a>: A package to share plots using the image hosting service imgur.com (also see the function <code>imgur_upload()</code> in <a href="http://cran.r-project.org/package=knitr">knitr</a>, which uses the newer Imgur API version 3)</li>
+<li><a href="http://cran.r-project.org/web/packages/imguR/index.html">imguR</a>: A package to share plots using the image hosting service imgur.com (also see the function <code>imgur_upload()</code> in <a href="http://cran.r-project.org/packages/knitr/index.html">knitr</a>, which uses the newer Imgur API version 3)</li>
 <li><a href="http://cran.r-project.org/web/packages/RLastFM/index.html">RLastFM</a>: A package to interface to the last.fm API.</li>
 </ul>
 <h3 id="sports">Sports</h3>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/nhlscrapr/index.html">nhlscraper</a>: Compiling the NHL Real Time Scoring System Database for easy use in R</li>
-<li><a href="http://cran.r-project.org/web/packages/pitchRx/">pitchRx</a>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data</li>
+<li><a href="http://cran.r-project.org/web/packages/pitchRx/index.html">pitchRx</a>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data</li>
 </ul>
 <h3 id="maps">Maps</h3>
 <ul>
