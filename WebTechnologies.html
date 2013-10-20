@@ -1,0 +1,823 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>CRAN Task View: Web Technologies and Services</title>
+  <link rel=stylesheet type="text/css" href="../CRAN_web.css" />
+</head>
+
+<body>
+  <h2>CRAN Task View: Web Technologies and Services</h2>
+  <table summary="WebTechnologies task view information">
+    <tr><td valign="top"><b>Maintainer:</b></td><td>Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</td></tr>
+    <tr><td valign="top"><b>Contact:</b></td><td>&#x73;&#x63;&#x6f;&#x74;&#x74;&#x20;&#x61;&#x74;&#x20;&#x72;&#x6f;&#x70;&#x65;&#x6e;&#x73;&#x63;&#x69;&#x2e;&#x6f;&#x72;&#x67;</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2013-10-20</td></tr>
+  </table>
+
+    <div>
+      This task view contains information about using R to obtain and parse data from the web. The base version of R does 
+not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting 
+with the web. A list of available packages and functions is presented below, grouped by the type of activity.
+
+If you have any comments or suggestions for additions or improvements for this taskview, go to Github and
+      <a href="https://github.com/ropensci/webservices/issues">
+        submit an issue
+      </a>, or make some changes and
+      <a href="https://github.com/ropensci/webservices/pulls">
+        submit a pull request
+      </a>. If you can't contribute on Github,
+      <a href="mailto:scott@ropensci.org">
+        send Scott an email
+      </a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+      <h2>
+        Tools for Working with the Web from R
+      </h2>
+      <p>
+        <strong>
+          Parsing Data from the Web
+        </strong>
+      </p>
+      <ul>
+        <li>
+          txt, csv, etc.: you can use
+<tt>read.csv()</tt>
+          after acquiring the csv file from the web via e.g.,
+<tt>getURL()</tt>
+          from RCurl.
+<tt>read.csv()</tt>
+          works with http but not https, i.e.:
+<tt>read.csv("http://...")</tt>, but not
+<tt>read.csv("https://...")</tt>.
+        </li>
+        <li>
+          The
+<a href="../packages/repmis/index.html">repmis</a>
+          package contains a
+<tt>source_data()</tt>
+          command to load plain-text data from a URL (either http or https).
+        </li>
+        <li>
+          The package
+<a href="../packages/XML/index.html">XML</a>
+          contains functions for parsing XML and HTML, and supports 
+xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is
+<tt>readHTMLTable()</tt>.
+        </li>
+        <li>
+<a href="../packages/scrapeR/index.html">scrapeR</a>
+          provides additional tools for scraping data from HTML and XML documents.
+        </li>
+        <li>
+          The
+          <a href="https://github.com/cpsievert/XML2R">
+            XML2R
+          </a>
+          package (to be on CRAN soon) is a collection of convenient functions 
+for coercing XML into data frames.
+        </li>
+        <li>
+          The
+<a href="../packages/rjson/index.html">rjson</a>
+          converts R object into Javascript object notation (JSON) objects and vice-versa.
+        </li>
+        <li>
+          An alternative to the
+<a href="../packages/rjson/index.html">rjson</a>
+          is
+<a href="../packages/RJSONIO/index.html">RJSONIO</a>
+          which also converts to and from data in JSON format (it is fast for parsing).
+        </li>
+        <li>
+          An alternative to the
+<a href="../packages/XML/index.html">XML</a>
+          package is
+<a href="../packages/selectr/index.html">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions.
+        </li>
+        <li>
+          Custom formats: Some web APIs provide custom data formats which are usually modified xml or json, and handled by
+<a href="../packages/XML/index.html">XML</a>
+          and
+<a href="../packages/rjson/index.html">rjson</a>
+          or
+<a href="../packages/RJSONIO/index.html">RJSONIO</a>, respectively.
+        </li>
+        <li>
+          An alternative to
+<a href="../packages/XML/index.html">XML</a>
+          is
+          <a href="http://sjp.co.nz/projects/selectr/">
+            selectr
+          </a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions.
+<a href="../packages/XML/index.html">XML</a>
+          package is often used for parsing xml and html, but
+          <a href="http://sjp.co.nz/projects/selectr/">
+            selectr
+          </a>
+          translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The
+          <a href="http://selectorgadget.com/">
+            selectorgadget browser extension
+          </a>
+          can be used to identify page elements.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Curl/HTTP/FTP
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/RCurl/index.html">RCurl</a>: A low level curl wrapper that allows one to compose general HTTP requests and provides convenient functions 
+to fetch URIs, get/post forms, etc. and process the results returned by the Web server. 
+This provides a great deal of control over the HTTP/FTP connection and the form of the request 
+while providing a higher-level interface than is available just using R socket connections. It also provide tools for Web authentication.
+        </li>
+        <li>
+<a href="../packages/httr/index.html">httr</a>: A light wrapper around
+<a href="../packages/RCurl/index.html">RCurl</a>
+          that makes many things easier, but still allows you to access the lower level 
+functionality of
+<a href="../packages/RCurl/index.html">RCurl</a>. It has convenient http verbs:
+<tt>GET()</tt>,
+<tt>POST()</tt>,
+<tt>PUT()</tt>,
+<tt>DELETE()</tt>,
+<tt>PATCH()</tt>,
+<tt>HEAD()</tt>,
+<tt>BROWSE()</tt>. These wrap functions are more convenient to 
+use, though less configurable than counterparts in
+<a href="../packages/RCurl/index.html">RCurl</a>. The equivalent of httr's
+<tt>GET()</tt>
+          in
+<a href="../packages/RCurl/index.html">RCurl</a>
+          is
+<tt>getForm()</tt>. Likewise, the equivalent of
+<a href="../packages/httr/index.html">httr</a>
+          's
+<tt>POST()</tt>
+          in
+<a href="../packages/RCurl/index.html">RCurl</a>
+          is
+<tt>postForm()</tt>.  
+http status codes are helpful for debugging http calls. This package makes this easier using, for example,
+<tt>stop_for_status()</tt>
+          gets the http status code from a response object, and stops the function if the call was not successful.  See also
+<tt>warn_for_status()</tt>. Note that you can pass in additional Curl options to the
+<tt>config</tt>
+          parameter in http calls.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Authentication
+        </strong>
+      </p>
+      <ul>
+        <li>
+          Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in
+<a href="../packages/RCurl/index.html">RCurl</a>
+          or
+<a href="../packages/httr/index.html">httr</a>. OAuth is the most complicated authentication process, and can be most easily done using
+<a href="../packages/httr/index.html">httr</a>. See the 6 demos within
+<a href="../packages/httr/index.html">httr</a>, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google).
+<a href="../packages/ROAuth/index.html">ROAuth</a>
+          is a package that provides a separate R interface to OAuth. OAuth is easier to to do in
+<a href="../packages/httr/index.html">httr</a>, so start there.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Web Frameworks
+        </strong>
+      </p>
+      <ul>
+        <li>
+          The
+<a href="../packages/shiny/index.html">shiny</a>
+          package makes it easy to build interactive web applications with R.
+        </li>
+        <li>
+          The
+<a href="../packages/Rook/index.html">Rook</a>
+          web server interface contains the specification and convenience software for building and running Rook applications.
+        </li>
+        <li>
+          The
+<a href="../packages/opencpu/index.html">opencpu</a>
+          framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps. See also
+<a href="../packages/opencpucran/index.html">opencpucran</a>.
+        </li>
+        <li>
+          A package by Yihui Xie called
+<a href="../packages/servr/index.html">servr</a>
+          provides a simple HTTP server to serve files under a given directory based on the
+<a href="../packages/httpuv/index.html">httpuv</a>
+          package.
+        </li>
+        <li>
+          The
+<a href="../packages/httpuv/index.html">httpuv</a>
+          package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          JavaScript
+        </strong>
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/rstudio/ggvis">
+            ggvis
+          </a>
+          (not on CRAN) makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and
+<a href="../packages/shiny/index.html">shiny</a>, rendering graphics on the web with Vega.
+        </li>
+        <li>
+          <a href="https://github.com/ramnathv/rCharts">
+            rCharts
+          </a>
+          (not on CRAN) allows for interactive javascript charts from R.
+        </li>
+        <li>
+          <a href="https://github.com/metagraf/rVega">
+            rVega
+          </a>
+          (not on CRAN) is an R wrapper for Vega.
+        </li>
+        <li>
+          <a href="https://github.com/nachocab/clickme">
+            clickme
+          </a>
+          (not on CRAN) is an R package to create interactive plots.
+        </li>
+      </ul>
+      <h2>
+        Data Sources on the Web Accessible via R
+      </h2>
+      <p>
+        <strong>
+          Ecological and Evolutionary Biology
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/rvertnet/index.html">rvertnet</a>: A wrapper to the VertNet collections database API.
+        </li>
+        <li>
+<a href="../packages/rgbif/index.html">rgbif</a>: Interface to the Global Biodiversity Information Facility API methods.
+        </li>
+        <li>
+<a href="../packages/rfishbase/index.html">rfishbase</a>: A programmatic interface to fishbase.org.
+        </li>
+        <li>
+<a href="../packages/treebase/index.html">treebase</a>: An R package for discovery, access and manipulation of online phylogenies.
+        </li>
+        <li>
+<a href="../packages/taxize/index.html">taxize</a>: Taxonomic information from around the web.
+        </li>
+        <li>
+<a href="../packages/dismo/index.html">dismo</a>: Species distribution modeling, with wrappers to some APIs.
+        </li>
+        <li>
+          <a href="https://github.com/JNCC-UK/rnbn">
+            rnbn
+          </a>
+          (not on CRAN): Access to the UK National Biodiversity Network data.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rWBclimate">
+            rWBclimate
+          </a>
+          (not on CRAN): R interface for the World Bank climate data.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rbison">
+            rbison
+          </a>
+          (not on CRAN): Wrapper to the USGS Bison API.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/neotoma">
+            neotoma
+          </a>
+          (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rnoaa">
+            rnoaa
+          </a>
+          (not on CRAN): R interface to NOAA Climate data API.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rnpn">
+            rnpn
+          </a>
+          (not on CRAN): Wrapper to the National Phenology Network database API.
+        </li>
+        <li>
+<a href="../packages/rfisheries/index.html">rfisheries</a>: Package for interacting with fisheries databases at openfisheries.org.
+        </li>
+        <li>
+<a href="../packages/rebird/index.html">rebird</a>: A programmatic interface to the eBird database.
+        </li>
+        <li>
+<a href="../packages/flora/index.html">flora</a>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
+        </li>
+        <li>
+<a href="../packages/Rcolombos/index.html">Rcolombos</a>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing 
+comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
+        </li>
+        <li>
+<a href="../packages/Reol/index.html">Reol</a>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages.
+        </li>
+        <li>
+<a href="../packages/rPlant/index.html">rPlant</a>: An R interface to the the many computational resources iPlant offers through their RESTful application 
+programming interface. Currently,
+<a href="../packages/rPlant/index.html">rPlant</a>
+          functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the iPlant Collaborative.
+          <a href="http://www.iplantcollaborative.org/discover/discovery-environment">
+            http://www.iplantcollaborative.org/discover/discovery-environment
+          </a>
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Genes and Genomes
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/cgdsr/index.html">cgdsr</a>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS).
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rsnps">
+            rsnps
+          </a>
+          (not on CRAN): Wrapper to the openSNP data API and the Broad Institute SNP Annotation and Proxy Search.
+        </li>
+        <li>
+<a href="../packages/rentrez/index.html">rentrez</a>: Talk with NCBI entrez using R.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Earth Science
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/RNCEP/index.html">RNCEP</a>: Obtain, organize, and visualize NCEP weather data.
+        </li>
+        <li>
+<a href="../packages/crn/index.html">crn</a>: Provides the core functions required to download and format data from the Climate Reference Network. 
+Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, 
+station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets 
+for them is provided.
+        </li>
+        <li>
+<a href="../packages/BerkeleyEarth/index.html">BerkeleyEarth</a>: Data input for Berkeley Earth Surface Temperature.
+        </li>
+        <li>
+<a href="../packages/waterData/index.html">waterData</a>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
+        </li>
+        <li>
+<a href="../packages/CHCN/index.html">CHCN</a>: A compilation of historical through contemporary climate measurements scraped from the Environment 
+Canada Website Including tools for scraping data, creating metadata and formating temperature files.
+        </li>
+        <li>
+<a href="../packages/decctools/index.html">decctools</a>: Provides functions for retrieving energy statistics from the United Kingdom Department of 
+Energy and Climate Change and related data sources. The current version focuses on total final energy consumption 
+statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid 
+electricity and its associated carbon intensity are also provided.
+        </li>
+        <li>
+<a href="../packages/Metadata/index.html">Metadata</a>: Collates metadata for climate surface stations.
+        </li>
+        <li>
+<a href="../packages/sos4R/index.html">sos4R</a>: A client for Sensor Observation Services (SOS) as specified by the 
+Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively 
+create requests for near real-time observation data based on the available sensors, phenomena, observations et cetera 
+using thematic, temporal and spatial filtering.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Economics
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/WDI/index.html">WDI</a>: Search, extract and format data from the World Bank's World Development Indicators.
+        </li>
+        <li>
+<a href="../packages/FAOSTAT/index.html">FAOSTAT</a>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural 
+statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Chemistry
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/rpubchem/index.html">rpubchem</a>: Interface to the PubChem Collection.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Agriculture
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/cimis/index.html">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Literature, Metadata, Text, and Altmetrics
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/rplos/index.html">rplos</a>: A programmatic interface to the Web Service methods provided by the Public Library of Science 
+journals for search.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rbhl">
+            rbhl
+          </a>
+          (not on CRAN): R interface to the Biodiversity Heritage 
+Library (BHL) API.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rmetadata">
+            rmetadata
+          </a>
+          (not on CRAN): Get scholarly metadata from around the web.
+        </li>
+        <li>
+<a href="../packages/RMendeley/index.html">RMendeley</a>: Implementation of the Mendeley API in R.
+        </li>
+        <li>
+<a href="../packages/rentrez/index.html">rentrez</a>: Talk with NCBI entrez using R.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rorcid">
+            rorcid
+          </a>
+          (not on CRAN): A programmatic interface the Orcid.org API.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rpubmed">
+            rpubmed
+          </a>
+          (not on CRAN): Tools for extracting and processing Pubmed and 
+Pubmed Central records.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/rAltmetric">
+            rAltmetic
+          </a>
+          (not on CRAN): Query and visualize metrics from 
+Altmetric.com.
+        </li>
+        <li>
+          <a href="https://github.com/ropensci/alm">
+            alm
+          </a>
+          (not on CRAN): R wrapper to the almetrics API platform developed by PLoS.
+        </li>
+        <li>
+<a href="../packages/ngramr/index.html">ngramr</a>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Marketing
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/anametrix/index.html">anametrix</a>: Bidirectional connector to Anametrix API.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Data Depots
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/dvn/index.html">dvn</a>: Provides access to The Dataverse Network API.
+        </li>
+        <li>
+<a href="../packages/rfigshare/index.html">rfigshare</a>: Programmatic interface for Figshare.
+        </li>
+        <li>
+<a href="../packages/factualR/index.html">factualR</a>: Thin wrapper for the Factual.com server API.
+        </li>
+        <li>
+<a href="../packages/dataone/index.html">dataone</a>: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories.
+        </li>
+        <li>
+<a href="../packages/yhatr/index.html">yhatr</a>: Lets you deploy, maintain, and invoke models via the Yhat REST API.
+        </li>
+        <li>
+<a href="../packages/RSocrata/index.html">RSocrata</a>: Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. 
+Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
+        </li>
+        <li>
+<a href="../packages/OAIHarvester/index.html">OAIHarvester</a>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Machine Learning as a Service
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/bigml/index.html">bigml</a>: BigML, a machine learning web service.
+        </li>
+        <li>
+<a href="../packages/MTurkR/index.html">MTurkR</a>: Access to Amazon Mechanical Turk Requester API via R.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Web Analytics
+        </strong>
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/ropensci/rgauges">
+            rgauges
+          </a>
+          (not on CRAN): Interface to Gaug.es API.
+        </li>
+        <li>
+<a href="../packages/RSiteCatalyst/index.html">RSiteCatalyst</a>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
+        </li>
+        <li>
+<a href="http://code.google.com/p/r-google-analytics/"><span class="Gcode">r-google-analytics</span></a>
+          (not on CRAN): Provides access to Google Analytics.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          News
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/GuardianR/index.html">GuardianR</a>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. 
+It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Images, Videos, Music
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/imguR/index.html">imguR</a>: A package to share plots using the image hosting service imgur.com.
+        </li>
+        <li>
+<a href="../packages/RLastFM/index.html">RLastFM</a>: A package to interface to the last.fm API.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Sports
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/nhlscrapr/index.html">nhlscrapr</a>: Compiling the NHL Real Time Scoring System Database for easy use in R.
+        </li>
+        <li>
+<a href="../packages/pitchRx/index.html">pitchRx</a>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Maps
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/RgoogleMaps/index.html">RgoogleMaps</a>: This package serves two purposes: It provides a comfortable R interface to query the Google server 
+for static maps, and use the map as a background image to overlay plots within R.
+        </li>
+        <li>
+<a href="../packages/osmar/index.html">osmar</a>: This package provides infrastructure to access OpenStreetMap data from different sources
+to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages 
+(e.g., into sp and igraph objects).
+        </li>
+        <li>
+<a href="../packages/ggmap/index.html">ggmap</a>: Allows for the easy visualization of spatial data and models on top of Google Maps, 
+OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Social media
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/streamR/index.html">streamR</a>: This package provides a series of functions that allow R users to access Twitter's filter, sample, 
+and user streams, and to parse the output into data frames. OAuth authentication is supported.
+        </li>
+        <li>
+<a href="../packages/twitteR/index.html">twitteR</a>: Provides an interface to the Twitter web API.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Government
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/wethepeople/index.html">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
+        </li>
+        <li>
+<a href="../packages/govdat/index.html">govdat</a>: Interface to various APIs for government data, including New York Times congress API, and the 
+Sunlight Foundation set of APIs.
+        </li>
+        <li>
+<a href="../packages/govStatJPN/index.html">govStatJPN</a>: Functions to get public survey data in Japan.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Other
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/sos4R/index.html">sos4R</a>: R client for the OGC Sensor Observation Service.
+        </li>
+        <li>
+<a href="../packages/datamart/index.html">datamart</a>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources.
+Examples include dbpedia, eurostat and sourceforge.
+        </li>
+        <li>
+          <a href="https://github.com/karthikram/rDrop">
+            rDrop
+          </a>
+          (not on CRAN): Dropbox interface.
+        </li>
+        <li>
+<a href="../packages/zendeskR/index.html">zendeskR</a>: This package provides an R wrapper for the Zendesk API.
+        </li>
+      </ul>
+    </div>
+
+  <h3>CRAN packages:</h3>
+  <ul>
+    <li><a href="../packages/anametrix/index.html">anametrix</a></li>
+    <li><a href="../packages/BerkeleyEarth/index.html">BerkeleyEarth</a></li>
+    <li><a href="../packages/bigml/index.html">bigml</a></li>
+    <li><a href="../packages/cgdsr/index.html">cgdsr</a></li>
+    <li><a href="../packages/CHCN/index.html">CHCN</a></li>
+    <li><a href="../packages/cimis/index.html">cimis</a></li>
+    <li><a href="../packages/crn/index.html">crn</a></li>
+    <li><a href="../packages/datamart/index.html">datamart</a></li>
+    <li><a href="../packages/dataone/index.html">dataone</a></li>
+    <li><a href="../packages/decctools/index.html">decctools</a></li>
+    <li><a href="../packages/dismo/index.html">dismo</a></li>
+    <li><a href="../packages/dvn/index.html">dvn</a></li>
+    <li><a href="../packages/factualR/index.html">factualR</a></li>
+    <li><a href="../packages/FAOSTAT/index.html">FAOSTAT</a></li>
+    <li><a href="../packages/flora/index.html">flora</a></li>
+    <li><a href="../packages/ggmap/index.html">ggmap</a></li>
+    <li><a href="../packages/googlePublicData/index.html">googlePublicData</a></li>
+    <li><a href="../packages/govdat/index.html">govdat</a></li>
+    <li><a href="../packages/govStatJPN/index.html">govStatJPN</a></li>
+    <li><a href="../packages/GuardianR/index.html">GuardianR</a></li>
+    <li><a href="../packages/httr/index.html">httr</a> (core)</li>
+    <li><a href="../packages/imguR/index.html">imguR</a></li>
+    <li><a href="../packages/Metadata/index.html">Metadata</a></li>
+    <li><a href="../packages/MTurkR/index.html">MTurkR</a></li>
+    <li><a href="../packages/NCBI2R/index.html">NCBI2R</a></li>
+    <li><a href="../packages/ngramr/index.html">ngramr</a></li>
+    <li><a href="../packages/nhlscrapr/index.html">nhlscrapr</a></li>
+    <li><a href="../packages/OAIHarvester/index.html">OAIHarvester</a></li>
+    <li><a href="../packages/opencpu/index.html">opencpu</a></li>
+    <li><a href="../packages/osmar/index.html">osmar</a></li>
+    <li><a href="../packages/Rcolombos/index.html">Rcolombos</a></li>
+    <li><a href="../packages/RCurl/index.html">RCurl</a> (core)</li>
+    <li><a href="../packages/rdatamarket/index.html">rdatamarket</a></li>
+    <li><a href="../packages/rebird/index.html">rebird</a></li>
+    <li><a href="../packages/rentrez/index.html">rentrez</a></li>
+    <li><a href="../packages/Reol/index.html">Reol</a></li>
+    <li><a href="../packages/repmis/index.html">repmis</a></li>
+    <li><a href="../packages/rfigshare/index.html">rfigshare</a></li>
+    <li><a href="../packages/rfishbase/index.html">rfishbase</a></li>
+    <li><a href="../packages/rfisheries/index.html">rfisheries</a></li>
+    <li><a href="../packages/rgbif/index.html">rgbif</a></li>
+    <li><a href="../packages/RgoogleMaps/index.html">RgoogleMaps</a></li>
+    <li><a href="../packages/rjson/index.html">rjson</a> (core)</li>
+    <li><a href="../packages/RJSONIO/index.html">RJSONIO</a> (core)</li>
+    <li><a href="../packages/RLastFM/index.html">RLastFM</a></li>
+    <li><a href="../packages/RMendeley/index.html">RMendeley</a></li>
+    <li><a href="../packages/RNCBI/index.html">RNCBI</a></li>
+    <li><a href="../packages/RNCEP/index.html">RNCEP</a></li>
+    <li><a href="../packages/ROAuth/index.html">ROAuth</a></li>
+    <li><a href="../packages/Rook/index.html">Rook</a></li>
+    <li><a href="../packages/rPlant/index.html">rPlant</a></li>
+    <li><a href="../packages/rplos/index.html">rplos</a></li>
+    <li><a href="../packages/rpubchem/index.html">rpubchem</a></li>
+    <li><a href="../packages/RSiteCatalyst/index.html">RSiteCatalyst</a></li>
+    <li><a href="../packages/RSocrata/index.html">RSocrata</a></li>
+    <li><a href="../packages/RTDAmeritrade/index.html">RTDAmeritrade</a></li>
+    <li><a href="../packages/rvertnet/index.html">rvertnet</a></li>
+    <li><a href="../packages/RWeather/index.html">RWeather</a></li>
+    <li><a href="../packages/scrapeR/index.html">scrapeR</a></li>
+    <li><a href="../packages/selectr/index.html">selectr</a></li>
+    <li><a href="../packages/shiny/index.html">shiny</a> (core)</li>
+    <li><a href="../packages/sos4R/index.html">sos4R</a></li>
+    <li><a href="../packages/streamR/index.html">streamR</a></li>
+    <li><a href="../packages/SynergizeR/index.html">SynergizeR</a></li>
+    <li><a href="../packages/taxize/index.html">taxize</a></li>
+    <li><a href="../packages/treebase/index.html">treebase</a></li>
+    <li><a href="../packages/twitteR/index.html">twitteR</a></li>
+    <li><a href="../packages/waterData/index.html">waterData</a></li>
+    <li><a href="../packages/WDI/index.html">WDI</a></li>
+    <li><a href="../packages/wethepeople/index.html">wethepeople</a></li>
+    <li><a href="../packages/XML/index.html">XML</a> (core)</li>
+    <li><a href="../packages/yhatr/index.html">yhatr</a></li>
+    <li><a href="../packages/zendeskR/index.html">zendeskR</a></li>
+  </ul>
+
+  <h3>Related links:</h3>
+  <ul>
+    <li><a href="https://github.com/ropensci/alm">
+  GitHub package: alm
+</a></li>
+    <li><a href="https://github.com/nachocab/clickme">
+  GitHub package: clickme
+</a></li>
+    <li><a href="https://github.com/rstudio/ggvis">
+  GitHub package: ggvis
+</a></li>
+    <li><a href="https://github.com/ropensci/neotoma">
+  GitHub package: neotoma
+</a></li>
+    <li><a href="https://github.com/ropensci/rAltmetric">
+  GitHub package: rAltmetic
+</a></li>
+    <li><a href="https://github.com/ropensci/rbhl">
+  GitHub package: rbhl
+</a></li>
+    <li><a href="https://github.com/ropensci/rbison">
+  GitHub package: rbison
+</a></li>
+    <li><a href="https://github.com/ramnathv/rCharts">
+  GitHub package: rCharts
+</a></li>
+    <li><a href="https://github.com/karthikram/rDrop">
+  GitHub package: rDrop
+</a></li>
+    <li><a href="https://github.com/ropensci/rgauges">
+  GitHub package: rgauges
+</a></li>
+    <li><a href="https://github.com/ropensci/rmetadata">
+  GitHub package: rmetadata
+</a></li>
+    <li><a href="https://github.com/JNCC-UK/rnbn">
+  GitHub package: rnbn
+</a></li>
+    <li><a href="https://github.com/ropensci/rnoaa">
+  GitHub package: rnoaa
+</a></li>
+    <li><a href="https://github.com/ropensci/rnpn">
+  GitHub package: rnpn
+</a></li>
+    <li><a href="https://github.com/ropensci/rorcid">
+  GitHub package: rorcid
+</a></li>
+    <li><a href="https://github.com/ropensci/rpubmed">
+  GitHub package: rpubmed
+</a></li>
+    <li><a href="https://github.com/ropensci/rsnps">
+  GitHub package: rsnps
+</a></li>
+    <li><a href="https://github.com/metagraf/rVega">
+  GitHub package: rVega
+</a></li>
+    <li><a href="https://github.com/ropensci/rWBclimate">
+  GitHub package: rWBclimate
+</a></li>
+    <li><a href="https://github.com/cpsievert/XML2R">
+  GitHub package: XML2R
+</a></li>
+  </ul>
+
+</body>
+</html>
