@@ -93,6 +93,9 @@ A package by Yihui Xie called <pkg>servr</pkg> provides a simple HTTP server to 
 <li>
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.
 </li>
+<li>
+Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
+</li>
 </ul>
 
 <p><strong>JavaScript</strong></p>
@@ -108,6 +111,9 @@ The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level 
 </li>
 <li>
 <a href="https://github.com/nachocab/clickme">clickme</a> (not on CRAN) is an R package to create interactive plots. 
+</li>
+<li>
+<a href="https://github.com/tdhock/animint">animint</a> (not on CRAN) allows an interactive animation to be defined using a list of ggplots with clickSelects and showSelected aesthetics, then exported to CSV/JSON/D3/JavaScript for viewing in a web browser.
 </li>
 </ul>
 
@@ -447,12 +453,16 @@ Examples include dbpedia, eurostat and sourceforge.
 <li>
 <pkg>zendeskR</pkg>: This package provides an R wrapper for the Zendesk API.
 </li>
+<li>
+<pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
+</li>
 </ul>
 
 </info>
 
 <packagelist>
 <pkg>anametrix</pkg>
+<pkg>AWS.tools</pkg>
 <pkg>BerkeleyEarth</pkg>
 <pkg>bigml</pkg>
 <pkg>cgdsr</pkg>
@@ -548,6 +558,7 @@ Examples include dbpedia, eurostat and sourceforge.
   <a href="https://github.com/metagraf/rVega">GitHub package: rVega</a>
   <a href="https://github.com/ropensci/rWBclimate">GitHub package: rWBclimate</a>
   <a href="https://github.com/cpsievert/XML2R">GitHub package: XML2R</a>
+  <a href="https://github.com/tdhock/animint">GitHub package: animint</a>
 </links>
 
 </CRANTaskView>

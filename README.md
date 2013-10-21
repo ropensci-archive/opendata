@@ -132,6 +132,11 @@ Tools for Working with the Web from R
 -   The [httpuv](../packages/httpuv/index.html) package, made by Joe
     Cheng at RStudio, provides low-level socket and protocol support for
     handling HTTP and WebSocket requests directly within R.
+-   Plot.ly is a company that allows you to create visualizations in the
+    web using R (and Python). They have an R package in development
+    [here](https://github.com/cparmer/Plotly/tree/master/API/packages/R),
+    as well as access to their services via an API
+    [here](https://plot.ly/API/).
 
 **JavaScript**
 
@@ -145,6 +150,10 @@ Tools for Working with the Web from R
     wrapper for Vega.
 -   [clickme](https://github.com/nachocab/clickme) (not on CRAN) is an R
     package to create interactive plots.
+-   [animint](https://github.com/tdhock/animint) (not on CRAN) allows an
+    interactive animation to be defined using a list of ggplots with
+    clickSelects and showSelected aesthetics, then exported to
+    CSV/JSON/D3/JavaScript for viewing in a web browser.
 
 Data Sources on the Web Accessible via R
 ----------------------------------------
@@ -395,10 +404,13 @@ Data Sources on the Web Accessible via R
     interface.
 -   [zendeskR](../packages/zendeskR/index.html): This package provides
     an R wrapper for the Zendesk API.
+-   [AWS.tools](../packages/AWS.tools/index.html): An R package to
+    interact with Amazon Web Services (EC2/S3).
 
 ### CRAN packages:
 
 -   [anametrix](../packages/anametrix/index.html)
+-   [AWS.tools](../packages/AWS.tools/index.html)
 -   [BerkeleyEarth](../packages/BerkeleyEarth/index.html)
 -   [bigml](../packages/bigml/index.html)
 -   [cgdsr](../packages/cgdsr/index.html)
@@ -494,4 +506,5 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: rVega](https://github.com/metagraf/rVega)
 -   [GitHub package: rWBclimate](https://github.com/ropensci/rWBclimate)
 -   [GitHub package: XML2R](https://github.com/cpsievert/XML2R)
+-   [GitHub package: animint](https://github.com/tdhock/animint)
 
