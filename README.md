@@ -215,6 +215,11 @@ Data Sources on the Web Accessible via R
     Proxy Search.
 -   [rentrez](../packages/rentrez/index.html): Talk with NCBI entrez
     using R.
+-   [seqinr](../packages/seqinr/index.html): Exploratory data analysis
+    and data visualization for biological sequence (DNA and protein)
+    data.
+-   [seq2R](../packages/seq2R/index.html): Detect compositional changes
+    in genomic sequences - with some interaction with GenBank.
 
 **Earth Science**
 
@@ -294,6 +299,8 @@ Data Sources on the Web Accessible via R
     the almetrics API platform developed by PLoS.
 -   [ngramr](../packages/ngramr/index.html): Retrieve and plot word
     frequencies through time from the Google Ngram Viewer.
+-   [scholar](../packages/scholar/index.html): Search citation data from
+    Google Scholar.
 
 **Marketing**
 

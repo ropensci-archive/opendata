@@ -195,6 +195,12 @@ programming interface. Currently, <pkg>rPlant</pkg> functions interact with the 
 <li>
 <pkg>rentrez</pkg>: Talk with NCBI entrez using R.
 </li>
+<li>
+<pkg>seqinr</pkg>: Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.
+</li>
+<li>
+<pkg>seq2R</pkg>: Detect compositional changes in genomic sequences - with some interaction with GenBank.
+</li>
 </ul>
 
 <p><strong>Earth Science</strong></p>
@@ -297,6 +303,9 @@ Altmetric.com.</li>
 <a href="https://github.com/ropensci/alm">alm</a> (not on CRAN): R wrapper to the almetrics API platform developed by PLoS.</li>
 <li>
 <pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
+</li>
+<li>
+<pkg>scholar</pkg>: Search citation data from Google Scholar.
 </li>
 </ul>
 
