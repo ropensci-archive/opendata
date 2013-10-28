@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-10-20
+  **Version:**      2013-10-27
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -64,6 +64,9 @@ Tools for Working with the Web from R
     instead of XPath. The [selectorgadget browser
     extension](http://selectorgadget.com/) can be used to identify page
     elements.
+-   The [RHTMLForms](http://www.omegahat.org/RHTMLForms/) allows to read
+    HTML documents and obtain a description of each of the forms it
+    contains, along with the different elements and hidden fields
 
 **Curl/HTTP/FTP**
 
@@ -92,6 +95,14 @@ Tools for Working with the Web from R
     the call was not successful. See also `warn_for_status()`. Note that
     you can pass in additional Curl options to the `config` parameter in
     http calls.
+-   The [XMLRPC](http://www.omegahat.org/XMLRPC/) package provides an
+    implementation of XML-RPC, a relatively simple remote procedure call
+    mechanism that uses HTTP and XML. This can be used for communicating
+    between processes on a single machine or for accessing Web services
+    from within R.
+-   [RTidyHTML](http://www.omegahat.org/RTidyHTML/) interfaces to the
+    libtidy library for correcting HTML documents that are not
+    well-formed. This library corrects common errors in HTML documents.
 
 **Authentication**
 
@@ -137,6 +148,10 @@ Tools for Working with the Web from R
     [here](https://github.com/cparmer/Plotly/tree/master/API/packages/R),
     as well as access to their services via an API
     [here](https://plot.ly/API/).
+-   The [WADL](http://www.omegahat.org/WADL/) package provides tools to
+    process Web Application Description Language (WADL) documents and to
+    programmatically generate R functions to interface to the REST
+    methods described in those WADL documents.
 
 **JavaScript**
 
@@ -154,6 +169,12 @@ Tools for Working with the Web from R
     interactive animation to be defined using a list of ggplots with
     clickSelects and showSelected aesthetics, then exported to
     CSV/JSON/D3/JavaScript for viewing in a web browser.
+-   The [SpiderMonkey](http://www.omegahat.org/SpiderMonkey/) package
+    provides a means of evaluating JavaScript code, creating JavaScript
+    objects and calling JavaScript functions and methods from within R.
+    This can work by embedding the JavaScript engine within an R session
+    or by embedding R in an browser such as Firefox and being able to
+    call R from JavaScript and call back to JavaScript from R.
 
 Data Sources on the Web Accessible via R
 ----------------------------------------
@@ -257,7 +278,7 @@ Data Sources on the Web Accessible via R
     observations et cetera using thematic, temporal and spatial
     filtering.
 
-**Economics**
+**Economics and Business**
 
 -   [WDI](../packages/WDI/index.html): Search, extract and format data
     from the World Bank's World Development Indicators.
@@ -265,6 +286,13 @@ Data Sources on the Web Accessible via R
     of functions to download, manipulate, construct and aggregate
     agricultural statistics provided by the FAOSTAT (Food and
     Agricultural Organization of the United Nations) database.
+-   The [Zillow](http://www.omegahat.org/Zillow/) package provides an R
+    interface to the Zillow Web Service API. It allows one to get the
+    Zillow estimate for the price of a particular property specified by
+    street address and ZIP code (or city and state), to find information
+    (e.g. size of property and lot, number of bedrooms and bathrooms,
+    year built.) about a given property, and to get comparable
+    properties.
 
 **Chemistry**
 
@@ -299,8 +327,10 @@ Data Sources on the Web Accessible via R
     the almetrics API platform developed by PLoS.
 -   [ngramr](../packages/ngramr/index.html): Retrieve and plot word
     frequencies through time from the Google Ngram Viewer.
--   [scholar](../packages/scholar/index.html): Search citation data from
-    Google Scholar.
+-   [scholar](../packages/scholar/index.html) provides functions to
+    extract citation data from Google Scholar. Convenience functions are
+    also provided for comparing multiple scholars and predicting future
+    h-index values.
 
 **Marketing**
 
@@ -343,6 +373,9 @@ Data Sources on the Web Accessible via R
     accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 -   [r-google-analytics](http://code.google.com/p/r-google-analytics/)
     (not on CRAN): Provides access to Google Analytics.
+-   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
+    programmatic access to Google Trends data. This is information about
+    the popularity of a particular query.
 
 **News**
 
@@ -350,6 +383,9 @@ Data Sources on the Web Accessible via R
     to the Open Platform's Content API of the Guardian Media Group. It
     retrieves content from news outlets The Observer, The Guardian, and
     guardian.co.uk from 1999 to current day.
+-   [RNYTimes](http://www.omegahat.org/RNYTimes) provides interfaces to
+    several of the New York Times Web services for searching articles,
+    meta-data, user-generated content and best seller lists.
 
 **Images, Videos, Music**
 
@@ -379,6 +415,15 @@ Data Sources on the Web Accessible via R
 -   [ggmap](../packages/ggmap/index.html): Allows for the easy
     visualization of spatial data and models on top of Google Maps,
     OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
+-   The [GeoIP](http://www.omegahat.org/GeoIP/) package maps IP
+    addresses and host names to geographic locations - latitude,
+    longitude, region, city, zip code, etc.
+-   The [RKML](http://www.omegahat.org/RKML/) is an implementation that
+    provides users with high-level facilities to generate KML, the
+    Keyhole Markup Language for display in, e.g., Google Earth.
+-   [RKMLDevice](http://www.omegahat.org/RKMLDevice/) allows to create R
+    graphics in KML format in a manner that allows them to be displayed
+    on Google Earth (or Google Maps).
 
 **Social media**
 
@@ -388,6 +433,9 @@ Data Sources on the Web Accessible via R
     OAuth authentication is supported.
 -   [twitteR](../packages/twitteR/index.html): Provides an interface to
     the Twitter web API.
+-   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
+    interface to the Flickr photo management and sharing application Web
+    service.
 
 **Government**
 
@@ -398,6 +446,30 @@ Data Sources on the Web Accessible via R
     Sunlight Foundation set of APIs.
 -   [govStatJPN](../packages/govStatJPN/index.html): Functions to get
     public survey data in Japan.
+
+**Google Web Services**
+
+-   [RGoogleStorage](http://www.omegahat.org/RGoogleStorage/) provides
+    programmatic access to the Google Storage API. This allows R users
+    to access and store data on Google's storage. We can upload and
+    download content, create, list and delete folders/buckets, and set
+    access control permissions on objects and buckets.
+-   The [RGoogleDocs](http://www.omegahat.org/RGoogleDocs/) package is
+    an example of using the RCurl and XML packages to quickly develop an
+    interface to the Google Documents API.
+
+**Amazon Web Services**
+
+-   [AWS.tools](../packages/AWS.tools/index.html): An R package to
+    interact with Amazon Web Services (EC2/S3).
+-   [RAmazonS3](http://www.omegahat.org/RAmazonS3) package provides the
+    basic infrastructure within R for communicating with the S3 Amazon
+    storage server. This is a commercial server that allows one to store
+    content and retrieve it from any machine connected to the Internet.
+-   [RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST) provides an
+    interface to Amazon's Simple DB API.
+-   [MTurkR](../packages/MTurkR/index.html): Access to Amazon Mechanical
+    Turk Requester API via R.
 
 **Other**
 
@@ -437,6 +509,7 @@ Data Sources on the Web Accessible via R
 -   [govdat](../packages/govdat/index.html)
 -   [govStatJPN](../packages/govStatJPN/index.html)
 -   [GuardianR](../packages/GuardianR/index.html)
+-   [httpuv](../packages/httpuv/index.html)
 -   [httr](../packages/httr/index.html) (core)
 -   [imguR](../packages/imguR/index.html)
 -   [Metadata](../packages/Metadata/index.html)
@@ -447,6 +520,7 @@ Data Sources on the Web Accessible via R
 -   [OAIHarvester](../packages/OAIHarvester/index.html)
 -   [opencpu](../packages/opencpu/index.html)
 -   [osmar](../packages/osmar/index.html)
+-   [pitchRx](../packages/pitchRx/index.html)
 -   [Rcolombos](../packages/Rcolombos/index.html)
 -   [RCurl](../packages/RCurl/index.html) (core)
 -   [rdatamarket](../packages/rdatamarket/index.html)
@@ -475,8 +549,10 @@ Data Sources on the Web Accessible via R
 -   [RTDAmeritrade](../packages/RTDAmeritrade/index.html)
 -   [rvertnet](../packages/rvertnet/index.html)
 -   [RWeather](../packages/RWeather/index.html)
+-   [scholar](../packages/scholar/index.html)
 -   [scrapeR](../packages/scrapeR/index.html)
 -   [selectr](../packages/selectr/index.html)
+-   [servr](../packages/servr/index.html)
 -   [shiny](../packages/shiny/index.html) (core)
 -   [sos4R](../packages/sos4R/index.html)
 -   [streamR](../packages/streamR/index.html)
@@ -494,24 +570,46 @@ Data Sources on the Web Accessible via R
 ### Related links:
 
 -   [GitHub package: alm](https://github.com/ropensci/alm)
+-   [GitHub package: animint](https://github.com/tdhock/animint)
 -   [GitHub package: clickme](https://github.com/nachocab/clickme)
+-   [Omegahat package: GeoIP](http://www.omegahat.org/GeoIP/)
 -   [GitHub package: ggvis](https://github.com/rstudio/ggvis)
 -   [GitHub package: neotoma](https://github.com/ropensci/neotoma)
 -   [GitHub package: rAltmetic](https://github.com/ropensci/rAltmetric)
+-   [Omegahat package:
+    RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
+-   [Omegahat package: RAmazonS3](http://www.omegahat.org/RAmazonS3)
 -   [GitHub package: rbhl](https://github.com/ropensci/rbhl)
 -   [GitHub package: rbison](https://github.com/ropensci/rbison)
 -   [GitHub package: rCharts](https://github.com/ramnathv/rCharts)
 -   [GitHub package: rDrop](https://github.com/karthikram/rDrop)
+-   [Omegahat package: REuPathDB](http://www.omegahat.org/REuPathDB/)
+-   [Omegahat package: Rflickr](http://www.omegahat.org/Rflickr)
 -   [GitHub package: rgauges](https://github.com/ropensci/rgauges)
+-   [Omegahat package:
+    RGoogleDocs](http://www.omegahat.org/RGoogleDocs/)
+-   [Omegahat package:
+    RGoogleStorage](http://www.omegahat.org/RGoogleStorage/)
+-   [Omegahat package:
+    RGoogleTrends](http://www.omegahat.org/RGoogleTrends/)
+-   [Omegahat package: RHTMLForms](http://www.omegahat.org/RHTMLForms/)
+-   [Omegahat package: RKML](http://www.omegahat.org/RKML/)
+-   [Omegahat package: RKMLDevice](http://www.omegahat.org/RKMLDevice/)
 -   [GitHub package: rmetadata](https://github.com/ropensci/rmetadata)
 -   [GitHub package: rnbn](https://github.com/JNCC-UK/rnbn)
 -   [GitHub package: rnoaa](https://github.com/ropensci/rnoaa)
 -   [GitHub package: rnpn](https://github.com/ropensci/rnpn)
+-   [Omegahat package: RNYTimes](http://www.omegahat.org/RNYTimes)
 -   [GitHub package: rorcid](https://github.com/ropensci/rorcid)
 -   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
 -   [GitHub package: rsnps](https://github.com/ropensci/rsnps)
+-   [Omegahat package: RTidyHTML](http://www.omegahat.org/RTidyHTML/)
 -   [GitHub package: rVega](https://github.com/metagraf/rVega)
 -   [GitHub package: rWBclimate](https://github.com/ropensci/rWBclimate)
+-   [Omegahat package:
+    SpiderMonkey](http://www.omegahat.org/SpiderMonkey/)
 -   [GitHub package: XML2R](https://github.com/cpsievert/XML2R)
--   [GitHub package: animint](https://github.com/tdhock/animint)
+-   [Omegahat package: XMLRPC](http://www.omegahat.org/XMLRPC/)
+-   [Omegahat package: WADL](http://www.omegahat.org/WADL/)
+-   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
 

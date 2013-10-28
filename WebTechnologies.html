@@ -10,7 +10,7 @@
   <table summary="WebTechnologies task view information">
     <tr><td valign="top"><b>Maintainer:</b></td><td>Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</td></tr>
     <tr><td valign="top"><b>Contact:</b></td><td>&#x73;&#x63;&#x6f;&#x74;&#x74;&#x20;&#x61;&#x74;&#x20;&#x72;&#x6f;&#x70;&#x65;&#x6e;&#x73;&#x63;&#x69;&#x2e;&#x6f;&#x72;&#x67;</td></tr>
-    <tr><td valign="top"><b>Version:</b></td><td>2013-10-20</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2013-10-27</td></tr>
   </table>
 
     <div>
@@ -118,6 +118,14 @@ for coercing XML into data frames.
           </a>
           can be used to identify page elements.
         </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/RHTMLForms/">
+            RHTMLForms
+          </a>
+          allows to read HTML documents and obtain a description of each of the forms it contains, along 
+with the different elements and hidden fields
+        </li>
       </ul>
       <p>
         <strong>
@@ -165,6 +173,21 @@ http status codes are helpful for debugging http calls. This package makes this 
 <tt>config</tt>
           parameter in http calls.
         </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/XMLRPC/">
+            XMLRPC
+          </a>
+          package provides an implementation of XML-RPC, a relatively simple remote procedure call mechanism 
+that uses HTTP and XML. This can be used for communicating between processes on a single machine or for accessing Web services from within R.
+        </li>
+        <li>
+          <a href="http://www.omegahat.org/RTidyHTML/">
+            RTidyHTML
+          </a>
+          interfaces to the libtidy library for correcting HTML documents that are not well-formed. 
+This library corrects common errors in HTML documents.
+        </li>
       </ul>
       <p>
         <strong>
@@ -203,7 +226,8 @@ http status codes are helpful for debugging http calls. This package makes this 
         <li>
           The
 <a href="../packages/opencpu/index.html">opencpu</a>
-          framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps. See also
+          framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. 
+This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps. See also
 <a href="../packages/opencpucran/index.html">opencpucran</a>.
         </li>
         <li>
@@ -226,6 +250,13 @@ http status codes are helpful for debugging http calls. This package makes this 
           <a href="https://plot.ly/API/">
             here
           </a>.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/WADL/">
+            WADL
+          </a>
+          package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.
         </li>
       </ul>
       <p>
@@ -264,6 +295,15 @@ http status codes are helpful for debugging http calls. This package makes this 
             animint
           </a>
           (not on CRAN) allows an interactive animation to be defined using a list of ggplots with clickSelects and showSelected aesthetics, then exported to CSV/JSON/D3/JavaScript for viewing in a web browser.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/SpiderMonkey/">
+            SpiderMonkey
+          </a>
+          package provides a means of evaluating JavaScript code, creating JavaScript objects and calling 
+JavaScript functions and methods from within R. This can work by embedding the JavaScript engine within an R session or by embedding R in an browser 
+such as Firefox and being able to call R from JavaScript and call back to JavaScript from R.
         </li>
       </ul>
       <h2>
@@ -423,7 +463,7 @@ using thematic, temporal and spatial filtering.
       </ul>
       <p>
         <strong>
-          Economics
+          Economics and Business
         </strong>
       </p>
       <ul>
@@ -433,6 +473,14 @@ using thematic, temporal and spatial filtering.
         <li>
 <a href="../packages/FAOSTAT/index.html">FAOSTAT</a>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural 
 statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/Zillow/">
+            Zillow
+          </a>
+          package provides an R interface to the Zillow Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state),
+to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
         </li>
       </ul>
       <p>
@@ -514,7 +562,8 @@ Altmetric.com.
 <a href="../packages/ngramr/index.html">ngramr</a>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
         </li>
         <li>
-<a href="../packages/scholar/index.html">scholar</a>: Search citation data from Google Scholar.
+<a href="../packages/scholar/index.html">scholar</a>
+          provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
         </li>
       </ul>
       <p>
@@ -588,6 +637,12 @@ Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Soc
 <a href="http://code.google.com/p/r-google-analytics/"><span class="Gcode">r-google-analytics</span></a>
           (not on CRAN): Provides access to Google Analytics.
         </li>
+        <li>
+          <a href="http://www.omegahat.org/RGoogleTrends/">
+            RGoogleTrends
+          </a>
+          provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
+        </li>
       </ul>
       <p>
         <strong>
@@ -598,6 +653,13 @@ Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Soc
         <li>
 <a href="../packages/GuardianR/index.html">GuardianR</a>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. 
 It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.
+        </li>
+        <li>
+          <a href="http://www.omegahat.org/RNYTimes">
+            RNYTimes
+          </a>
+          provides interfaces to several of the New York Times Web services for searching articles, meta-data, user-generated content and 
+best seller lists.
         </li>
       </ul>
       <p>
@@ -645,6 +707,27 @@ to work with the data in common R manner and to convert data into available infr
 <a href="../packages/ggmap/index.html">ggmap</a>: Allows for the easy visualization of spatial data and models on top of Google Maps, 
 OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
         </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/GeoIP/">
+            GeoIP
+          </a>
+          package maps IP addresses and host names to geographic locations - latitude, longitude, region, city, zip code, etc.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/RKML/">
+            RKML
+          </a>
+          is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, 
+e.g., Google Earth.
+        </li>
+        <li>
+          <a href="http://www.omegahat.org/RKMLDevice/">
+            RKMLDevice
+          </a>
+          allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
+        </li>
       </ul>
       <p>
         <strong>
@@ -658,6 +741,13 @@ and user streams, and to parse the output into data frames. OAuth authentication
         </li>
         <li>
 <a href="../packages/twitteR/index.html">twitteR</a>: Provides an interface to the Twitter web API.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/Rflickr">
+            Rflickr
+          </a>
+          package provides an R interface to the Flickr photo management and sharing application Web service.
         </li>
       </ul>
       <p>
@@ -675,6 +765,54 @@ Sunlight Foundation set of APIs.
         </li>
         <li>
 <a href="../packages/govStatJPN/index.html">govStatJPN</a>: Functions to get public survey data in Japan.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Google Web Services
+        </strong>
+      </p>
+      <ul>
+        <li>
+          <a href="http://www.omegahat.org/RGoogleStorage/">
+            RGoogleStorage
+          </a>
+          provides programmatic access to the Google Storage API. 
+This allows R users to access and store data on Google's storage. We can upload and download content, create, list and delete folders/buckets, 
+and set access control permissions on objects and buckets.
+        </li>
+        <li>
+          The
+          <a href="http://www.omegahat.org/RGoogleDocs/">
+            RGoogleDocs
+          </a>
+          package is an example of using the RCurl and XML packages to quickly develop an interface to the Google Documents API.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Amazon Web Services
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/AWS.tools/index.html">AWS.tools</a>: An R package to interact with Amazon Web Services (EC2/S3).
+        </li>
+        <li>
+          <a href="http://www.omegahat.org/RAmazonS3">
+            RAmazonS3
+          </a>
+          package provides the basic infrastructure within R for communicating with the S3 Amazon storage server. 
+This is a commercial server that allows one to store content and retrieve it from any machine connected to the Internet.
+        </li>
+        <li>
+          <a href="http://www.omegahat.org/RAmazonDBREST">
+            RAmazonDBREST
+          </a>
+          provides an interface to Amazon's Simple DB API.
+        </li>
+        <li>
+<a href="../packages/MTurkR/index.html">MTurkR</a>: Access to Amazon Mechanical Turk Requester API via R.
         </li>
       </ul>
       <p>
@@ -728,6 +866,7 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="../packages/govdat/index.html">govdat</a></li>
     <li><a href="../packages/govStatJPN/index.html">govStatJPN</a></li>
     <li><a href="../packages/GuardianR/index.html">GuardianR</a></li>
+    <li><a href="../packages/httpuv/index.html">httpuv</a></li>
     <li><a href="../packages/httr/index.html">httr</a> (core)</li>
     <li><a href="../packages/imguR/index.html">imguR</a></li>
     <li><a href="../packages/Metadata/index.html">Metadata</a></li>
@@ -738,6 +877,7 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="../packages/OAIHarvester/index.html">OAIHarvester</a></li>
     <li><a href="../packages/opencpu/index.html">opencpu</a></li>
     <li><a href="../packages/osmar/index.html">osmar</a></li>
+    <li><a href="../packages/pitchRx/index.html">pitchRx</a></li>
     <li><a href="../packages/Rcolombos/index.html">Rcolombos</a></li>
     <li><a href="../packages/RCurl/index.html">RCurl</a> (core)</li>
     <li><a href="../packages/rdatamarket/index.html">rdatamarket</a></li>
@@ -766,8 +906,10 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="../packages/RTDAmeritrade/index.html">RTDAmeritrade</a></li>
     <li><a href="../packages/rvertnet/index.html">rvertnet</a></li>
     <li><a href="../packages/RWeather/index.html">RWeather</a></li>
+    <li><a href="../packages/scholar/index.html">scholar</a></li>
     <li><a href="../packages/scrapeR/index.html">scrapeR</a></li>
     <li><a href="../packages/selectr/index.html">selectr</a></li>
+    <li><a href="../packages/servr/index.html">servr</a></li>
     <li><a href="../packages/shiny/index.html">shiny</a> (core)</li>
     <li><a href="../packages/sos4R/index.html">sos4R</a></li>
     <li><a href="../packages/streamR/index.html">streamR</a></li>
@@ -788,8 +930,14 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="https://github.com/ropensci/alm">
   GitHub package: alm
 </a></li>
+    <li><a href="https://github.com/tdhock/animint">
+  GitHub package: animint
+</a></li>
     <li><a href="https://github.com/nachocab/clickme">
   GitHub package: clickme
+</a></li>
+    <li><a href="http://www.omegahat.org/GeoIP/">
+  Omegahat package: GeoIP
 </a></li>
     <li><a href="https://github.com/rstudio/ggvis">
   GitHub package: ggvis
@@ -799,6 +947,12 @@ Examples include dbpedia, eurostat and sourceforge.
 </a></li>
     <li><a href="https://github.com/ropensci/rAltmetric">
   GitHub package: rAltmetic
+</a></li>
+    <li><a href="http://www.omegahat.org/RAmazonDBREST">
+  Omegahat package: RAmazonDBREST
+</a></li>
+    <li><a href="http://www.omegahat.org/RAmazonS3">
+  Omegahat package: RAmazonS3
 </a></li>
     <li><a href="https://github.com/ropensci/rbhl">
   GitHub package: rbhl
@@ -812,8 +966,32 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="https://github.com/karthikram/rDrop">
   GitHub package: rDrop
 </a></li>
+    <li><a href="http://www.omegahat.org/REuPathDB/">
+  Omegahat package: REuPathDB
+</a></li>
+    <li><a href="http://www.omegahat.org/Rflickr">
+  Omegahat package: Rflickr
+</a></li>
     <li><a href="https://github.com/ropensci/rgauges">
   GitHub package: rgauges
+</a></li>
+    <li><a href="http://www.omegahat.org/RGoogleDocs/">
+  Omegahat package: RGoogleDocs
+</a></li>
+    <li><a href="http://www.omegahat.org/RGoogleStorage/">
+  Omegahat package: RGoogleStorage
+</a></li>
+    <li><a href="http://www.omegahat.org/RGoogleTrends/">
+  Omegahat package: RGoogleTrends
+</a></li>
+    <li><a href="http://www.omegahat.org/RHTMLForms/">
+  Omegahat package: RHTMLForms
+</a></li>
+    <li><a href="http://www.omegahat.org/RKML/">
+  Omegahat package: RKML
+</a></li>
+    <li><a href="http://www.omegahat.org/RKMLDevice/">
+  Omegahat package: RKMLDevice
 </a></li>
     <li><a href="https://github.com/ropensci/rmetadata">
   GitHub package: rmetadata
@@ -827,6 +1005,9 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="https://github.com/ropensci/rnpn">
   GitHub package: rnpn
 </a></li>
+    <li><a href="http://www.omegahat.org/RNYTimes">
+  Omegahat package: RNYTimes
+</a></li>
     <li><a href="https://github.com/ropensci/rorcid">
   GitHub package: rorcid
 </a></li>
@@ -836,17 +1017,29 @@ Examples include dbpedia, eurostat and sourceforge.
     <li><a href="https://github.com/ropensci/rsnps">
   GitHub package: rsnps
 </a></li>
+    <li><a href="http://www.omegahat.org/RTidyHTML/">
+  Omegahat package: RTidyHTML
+</a></li>
     <li><a href="https://github.com/metagraf/rVega">
   GitHub package: rVega
 </a></li>
     <li><a href="https://github.com/ropensci/rWBclimate">
   GitHub package: rWBclimate
 </a></li>
+    <li><a href="http://www.omegahat.org/SpiderMonkey/">
+  Omegahat package: SpiderMonkey
+</a></li>
     <li><a href="https://github.com/cpsievert/XML2R">
   GitHub package: XML2R
 </a></li>
-    <li><a href="https://github.com/tdhock/animint">
-  GitHub package: animint
+    <li><a href="http://www.omegahat.org/XMLRPC/">
+  Omegahat package: XMLRPC
+</a></li>
+    <li><a href="http://www.omegahat.org/WADL/">
+  Omegahat package: WADL
+</a></li>
+    <li><a href="http://www.omegahat.org/Zillow/">
+  Omegahat package: Zillow
 </a></li>
   </ul>
 
