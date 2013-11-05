@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-10-27
+  **Version:**      2013-11-05
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -294,6 +294,21 @@ Data Sources on the Web Accessible via R
     year built.) about a given property, and to get comparable
     properties.
 
+**Finance**
+
+-   [RDatastream](https://github.com/fcocquemas/rdatastream) (not on
+    CRAN): An R interface to the [Thomson Dataworks Enterprise SOAP
+    API](http://dataworks.thomson.com/Dataworks/Enterprise/1.0/) (paid),
+    with some convenience functions for retrieving Datastream data
+    specifically.
+-   [quantmod](../packages/quantmod/index.html): Specify, build, trade,
+    and analyse quantitative financial trading strategies
+-   [TFX](../packages/TFX/index.html): Connects to TrueFX(tm) for free
+    streaming real-time and historical tick-by-tick market data for
+    dealable interbank foreign exchange rates with millisecond detail.
+-   [fImport](../packages/fImport/index.html): Environment for teaching
+    "Financial Engineering and Computational Finance"
+
 **Chemistry**
 
 -   [rpubchem](../packages/rpubchem/index.html): Interface to the
@@ -357,6 +372,10 @@ Data Sources on the Web Accessible via R
 -   [OAIHarvester](../packages/OAIHarvester/index.html): Harvest
     metadata using the Open Archives Initiative Protocol for Metadata
     Harvesting (OAI-PMH).
+-   [Quandl](../packages/Quandl/index.html): A package that interacts
+    directly with the [Quandl](http://www.quandl.com/) API to offer data
+    in a number of formats usable in R, as well as the ability to upload
+    and search.
 
 **Machine Learning as a Service**
 
@@ -503,6 +522,7 @@ Data Sources on the Web Accessible via R
 -   [dvn](../packages/dvn/index.html)
 -   [factualR](../packages/factualR/index.html)
 -   [FAOSTAT](../packages/FAOSTAT/index.html)
+-   [fImport](../packages/fImport/index.html)
 -   [flora](../packages/flora/index.html)
 -   [ggmap](../packages/ggmap/index.html)
 -   [googlePublicData](../packages/googlePublicData/index.html)
@@ -521,6 +541,7 @@ Data Sources on the Web Accessible via R
 -   [opencpu](../packages/opencpu/index.html)
 -   [osmar](../packages/osmar/index.html)
 -   [pitchRx](../packages/pitchRx/index.html)
+-   [quantmod](../packages/quantmod/index.html)
 -   [Rcolombos](../packages/Rcolombos/index.html)
 -   [RCurl](../packages/RCurl/index.html) (core)
 -   [rdatamarket](../packages/rdatamarket/index.html)
@@ -558,6 +579,7 @@ Data Sources on the Web Accessible via R
 -   [streamR](../packages/streamR/index.html)
 -   [SynergizeR](../packages/SynergizeR/index.html)
 -   [taxize](../packages/taxize/index.html)
+-   [TFX](../packages/TFX/index.html)
 -   [treebase](../packages/treebase/index.html)
 -   [twitteR](../packages/twitteR/index.html)
 -   [waterData](../packages/waterData/index.html)
@@ -612,4 +634,6 @@ Data Sources on the Web Accessible via R
 -   [Omegahat package: XMLRPC](http://www.omegahat.org/XMLRPC/)
 -   [Omegahat package: WADL](http://www.omegahat.org/WADL/)
 -   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
+-   [GitHub package:
+    RDatastream](https://github.com/fcocquemas/rdatastream)
 

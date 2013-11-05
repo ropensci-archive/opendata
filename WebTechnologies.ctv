@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
-<version>2013-10-27</version>
+<version>2013-11-05</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does 
 not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting 
@@ -279,6 +279,22 @@ to find information (e.g. size of property and lot, number of bedrooms and bathr
 </li>
 </ul>
 
+<p><strong>Finance</strong></p>
+<ul>
+<li>
+<a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
+</li>
+<li>
+<pkg>quantmod</pkg>: Specify, build, trade, and analyse quantitative financial trading strategies
+</li>
+<li>
+<pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
+</li>
+<li>
+<pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
+</li>
+</ul>
+
 <p><strong>Chemistry</strong></p>
 <ul>
 <li>
@@ -366,6 +382,9 @@ Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Soc
 </li>
 <li>
 <pkg>OAIHarvester</pkg>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).
+</li>
+<li>
+<pkg>Quandl</pkg>: A package that interacts directly with the <a href="http://www.quandl.com/">Quandl</a> API to offer data in a number of formats usable in R, as well as the ability to upload and search.
 </li>
 </ul>
 
@@ -559,6 +578,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>dvn</pkg>
 <pkg>factualR</pkg>
 <pkg>FAOSTAT</pkg>
+<pkg>fImport</pkg>
 <pkg>flora</pkg>
 <pkg>ggmap</pkg>
 <pkg>googlePublicData</pkg>
@@ -577,6 +597,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>opencpu</pkg>
 <pkg>osmar</pkg>
 <pkg>pitchRx</pkg>
+<pkg>quantmod</pkg>
 <pkg>Rcolombos</pkg>
 <pkg priority="core">RCurl</pkg>
 <pkg>rdatamarket</pkg>
@@ -615,6 +636,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>streamR</pkg>
 <pkg>SynergizeR</pkg>
 <pkg>taxize</pkg>
+<pkg>TFX</pkg>
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
 <pkg>wethepeople</pkg>
@@ -663,6 +685,7 @@ Examples include dbpedia, eurostat and sourceforge.
   <a href="http://www.omegahat.org/XMLRPC/">Omegahat package: XMLRPC</a>
   <a href="http://www.omegahat.org/WADL/">Omegahat package: WADL</a> 
   <a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a>
+  <a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
 </links>
 
 </CRANTaskView>
