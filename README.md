@@ -505,6 +505,8 @@ Data Sources on the Web Accessible via R
 -   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
     interface to the Flickr photo management and sharing application Web
     service.
+-   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
+    Provides an interface to the Facebook API.
 
 **Government**
 
@@ -602,6 +604,7 @@ Data Sources on the Web Accessible via R
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
+-   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html)
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html)
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html)

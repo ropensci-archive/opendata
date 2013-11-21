@@ -493,6 +493,9 @@ and user streams, and to parse the output into data frames. OAuth authentication
 <li>
 The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R interface to the Flickr photo management and sharing application Web service.
 </li>
+<li>
+<pkg>Rfacebook</pkg>: Provides an interface to the Facebook API.
+</li>
 </ul>
 
 <p><strong>Government</strong></p>
@@ -605,6 +608,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>Reol</pkg>
 <pkg>rentrez</pkg>
 <pkg>repmis</pkg>
+<pkg>Rfacebook</pkg>
 <pkg>rfigshare</pkg>
 <pkg>rfisheries</pkg>
 <pkg>rfishbase</pkg>
