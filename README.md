@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-11-05
+  **Version:**      2013-11-20
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -268,9 +268,11 @@ Data Sources on the Web Accessible via R
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
     R-Based API for accessing the MSKCC Cancer Genomics Data Server
     (CGDS).
--   [rsnps](https://github.com/ropensci/rsnps) (not on CRAN): Wrapper to
-    the openSNP data API and the Broad Institute SNP Annotation and
-    Proxy Search.
+-   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html):
+    This package is a programmatic interface to various SNP datasets on
+    the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP
+    Annotation and Proxy Search. This package started as a library to
+    interact with openSNP alone, so most functions deal with openSNP.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI entrez using R.
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html):
@@ -381,10 +383,10 @@ Data Sources on the Web Accessible via R
     programmatic interface the Orcid.org API.
 -   [rpubmed](https://github.com/ropensci/rpubmed) (not on CRAN): Tools
     for extracting and processing Pubmed and Pubmed Central records.
--   [rAltmetic](https://github.com/ropensci/rAltmetric) (not on CRAN):
+-   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html):
     Query and visualize metrics from Altmetric.com.
--   [alm](https://github.com/ropensci/alm) (not on CRAN): R wrapper to
-    the almetrics API platform developed by PLoS.
+-   [alm](http://cran.r-project.org/web/packages/alm/index.html): R
+    wrapper to the almetrics API platform developed by PLoS.
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html):
     Retrieve and plot word frequencies through time from the Google
     Ngram Viewer.
@@ -432,8 +434,10 @@ Data Sources on the Web Accessible via R
 
 **Web Analytics**
 
--   [rgauges](https://github.com/ropensci/rgauges) (not on CRAN):
-    Interface to Gaug.es API.
+-   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html):
+    This package provides functions to interact with the Gaug.es API.
+    Gaug.es is a web analytics service, like Google analytics. You have
+    to have a Gaug.es account to use this package.
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
     Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
     Reporting API.
@@ -557,9 +561,12 @@ Data Sources on the Web Accessible via R
     This package provides an R wrapper for the Zendesk API.
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
     An R package to interact with Amazon Web Services (EC2/S3).
+-   [translate](http://cran.r-project.org/web/packages/translate/index.html):
+    Bindings for the Google Translate API v2
 
 ### CRAN packages:
 
+-   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
 -   [BerkeleyEarth](http://cran.r-project.org/web/packages/BerkeleyEarth/index.html)
@@ -596,6 +603,7 @@ Data Sources on the Web Accessible via R
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
+-   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
@@ -608,6 +616,7 @@ Data Sources on the Web Accessible via R
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html)
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html)
+-   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
@@ -624,6 +633,7 @@ Data Sources on the Web Accessible via R
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
+-   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [RTDAmeritrade](http://cran.r-project.org/web/packages/RTDAmeritrade/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
@@ -639,6 +649,7 @@ Data Sources on the Web Accessible via R
 -   [SynergizeR](http://cran.r-project.org/web/packages/SynergizeR/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
+-   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)

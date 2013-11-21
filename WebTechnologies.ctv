@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
-<version>2013-11-05</version>
+<version>2013-11-20</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does 
 not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting 
@@ -211,7 +211,7 @@ programming interface. Currently, <pkg>rPlant</pkg> functions interact with the 
 <pkg>cgdsr</pkg>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS). 
 </li>
 <li>
-<a href="https://github.com/ropensci/rsnps">rsnps</a> (not on CRAN): Wrapper to the openSNP data API and the Broad Institute SNP Annotation and Proxy Search. 
+<pkg>rsnps</pkg>: This package is a programmatic interface to various SNP datasets on the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP Annotation and Proxy Search. This package started as a library to interact with openSNP alone, so most functions deal with openSNP.
 </li>
 <li>
 <pkg>rentrez</pkg>: Talk with NCBI entrez using R.
@@ -338,10 +338,9 @@ Library (BHL) API.
 Pubmed Central records.
 </li>
 <li>
-<a href="https://github.com/ropensci/rAltmetric">rAltmetic</a> (not on CRAN): Query and visualize metrics from 
-Altmetric.com.</li>
+<pkg>rAltmetic</pkg>: Query and visualize metrics from Altmetric.com.</li>
 <li>
-<a href="https://github.com/ropensci/alm">alm</a> (not on CRAN): R wrapper to the almetrics API platform developed by PLoS.</li>
+<pkg>alm</pkg>: R wrapper to the almetrics API platform developed by PLoS.</li>
 <li>
 <pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
 </li>
@@ -403,7 +402,7 @@ Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Soc
 
 <ul>
 <li>
-<a href="https://github.com/ropensci/rgauges">rgauges</a> (not on CRAN): Interface to Gaug.es API.
+<pkg>rgauges</pkg>: This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package.
 </li>
 <li>
 <pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
@@ -561,11 +560,15 @@ Examples include dbpedia, eurostat and sourceforge.
 <li>
 <pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
 </li>
+<li>
+<pkg>translate</pkg>: Bindings for the Google Translate API v2
+</li>
 </ul>
 
 </info>
 
 <packagelist>
+<pkg>alm</pkg>	
 <pkg>anametrix</pkg>
 <pkg>AWS.tools</pkg>
 <pkg>BerkeleyEarth</pkg>
@@ -601,6 +604,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>osmar</pkg>
 <pkg>pitchRx</pkg>
 <pkg>quantmod</pkg>
+<pkg>rAltmetic</pkg>
 <pkg>Rcolombos</pkg>
 <pkg priority="core">RCurl</pkg>
 <pkg>rdatamarket</pkg>
@@ -612,6 +616,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>rfigshare</pkg>
 <pkg>rfisheries</pkg>
 <pkg>rfishbase</pkg>
+<pkg>rgauges</pkg>
 <pkg>rgbif</pkg>
 <pkg>RgoogleMaps</pkg>
 <pkg priority="core">rjson</pkg>
@@ -626,6 +631,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>rplos</pkg>
 <pkg>rpubchem</pkg>
 <pkg>RSiteCatalyst</pkg>
+<pkg>rsnps</pkg>
 <pkg>RSocrata</pkg>
 <pkg>RTDAmeritrade</pkg>
 <pkg>treebase</pkg>
@@ -641,6 +647,7 @@ Examples include dbpedia, eurostat and sourceforge.
 <pkg>SynergizeR</pkg>
 <pkg>taxize</pkg>
 <pkg>TFX</pkg>
+<pkg>translate</pkg>
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
 <pkg>wethepeople</pkg>
