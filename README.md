@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-11-20
+  **Version:**      2013-11-23
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -79,7 +79,7 @@ Tools for Working with the Web from R
     HTML documents and obtain a description of each of the forms it
     contains, along with the different elements and hidden fields
 
-**Curl/HTTP/FTP**
+**Curl, HTTP, FTP, HTML, XML, SOAP**
 
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html): A
     low level curl wrapper that allows one to compose general HTTP
@@ -116,9 +116,28 @@ Tools for Working with the Web from R
     mechanism that uses HTTP and XML. This can be used for communicating
     between processes on a single machine or for accessing Web services
     from within R.
+-   The [XMLSchema](http://www.omegahat.org/XMLSchema/) package provides
+    facilities in R for reading XML schema documents and processing them
+    to create definitions for R classes and functions for converting XML
+    nodes to instances of those classes. It provides the framework for
+    meta-computing with XML schema in R
 -   [RTidyHTML](http://www.omegahat.org/RTidyHTML/) interfaces to the
     libtidy library for correcting HTML documents that are not
     well-formed. This library corrects common errors in HTML documents.
+-   [SSOAP](http://www.omegahat.org/SSOAP/) provides a client-side SOAP
+    (Simple Object Access Protocol) mechanism. It aims to provide a
+    high-level interface to invoke SOAP methods provided by a SOAP
+    server.
+-   [Rcompression](http://www.omegahat.org/Rcompression/): Interface to
+    zlib and bzip2 libraries for performing in-memory compression and
+    decompression in R. This is useful when receiving or sending
+    contents to remote servers, e.g. Web services, HTTP requests via
+    RCurl.
+-   The [CGIwithR](http://www.omegahat.org/CGIwithR/) package allows one
+    to use R scripts as CGI programs for generating dynamic Web content.
+    HTML forms and other mechanisms to submit dynamic requests can be
+    used to provide input to R scripts via the Web to create content
+    that is determined within that R script.
 
 **Authentication**
 
@@ -181,6 +200,11 @@ Tools for Working with the Web from R
     process Web Application Description Language (WADL) documents and to
     programmatically generate R functions to interface to the REST
     methods described in those WADL documents.
+-   The [RDCOMServer](http://www.omegahat.org/RDCOMServer/) provides a
+    mechanism to export R objects as (D)COM objects in Windows. It can
+    be used along with the
+    [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
+    provides user-level access from R to other COM servers.
 
 **JavaScript**
 
@@ -394,6 +418,10 @@ Data Sources on the Web Accessible via R
     provides functions to extract citation data from Google Scholar.
     Convenience functions are also provided for comparing multiple
     scholars and predicting future h-index values.
+-   The [Sxslt](http://www.omegahat.org/Sxslt/) package is an R
+    interface to Dan Veillard's libxslt translator. It allows R
+    programmers to use XSLT directly from within R, and also allows XSL
+    code to make use of R functions.
 
 **Marketing**
 
@@ -457,12 +485,17 @@ Data Sources on the Web Accessible via R
     several of the New York Times Web services for searching articles,
     meta-data, user-generated content and best seller lists.
 
-**Images, Videos, Music**
+**Images, Graphics, Videos, Music**
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service imgur.com.
 -   [RLastFM](http://cran.r-project.org/web/packages/RLastFM/index.html):
     A package to interface to the last.fm API.
+-   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
+    an R interface to a Ubigraph server for drawing interactive, dynamic
+    graphs. You can add and remove vertices/nodes and edges in a graph
+    and change their attributes/characteristics such as shape, color,
+    size.
 
 **Sports**
 
@@ -479,6 +512,11 @@ Data Sources on the Web Accessible via R
     This package serves two purposes: It provides a comfortable R
     interface to query the Google server for static maps, and use the
     map as a background image to overlay plots within R.
+-   The [R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/) package -
+    which is different from
+    [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
+    - provides a mechanism to generate JavaScript code from R that
+    displays data using Google Maps.
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html):
     This package provides infrastructure to access OpenStreetMap data
     from different sources to work with the data in common R manner and
@@ -533,6 +571,23 @@ Data Sources on the Web Accessible via R
 -   The [RGoogleDocs](http://www.omegahat.org/RGoogleDocs/) package is
     an example of using the RCurl and XML packages to quickly develop an
     interface to the Google Documents API.
+-   [translate](http://cran.r-project.org/web/packages/translate/index.html):
+    Bindings for the Google Translate API v2
+-   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
+    An R library to build Google's public data explorer DSPL metadata
+    files.
+-   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html):
+    Interface between R and the Google chart tools.
+-   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html):
+    A Google JSON data interpreter for R which contains a suite of
+    helper functions for obtaining data from the Google Maps API JSON
+    objects.
+-   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html):
+    Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
+    Maps.
+-   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
+    Visualization of spatial and spatio-temporal objects in Google
+    Earth.
 
 **Amazon Web Services**
 
@@ -561,8 +616,9 @@ Data Sources on the Web Accessible via R
     This package provides an R wrapper for the Zendesk API.
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
     An R package to interact with Amazon Web Services (EC2/S3).
--   [translate](http://cran.r-project.org/web/packages/translate/index.html):
-    Bindings for the Google Translate API v2
+-   The [qualtrics](https://github.com/jbryer/qualtrics) package
+    provides functions to interact with the Qualtrics online survey
+    tool.
 
 ### CRAN packages:
 
@@ -586,6 +642,8 @@ Data Sources on the Web Accessible via R
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
+-   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
+-   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
 -   [govdat](http://cran.r-project.org/web/packages/govdat/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
@@ -641,6 +699,8 @@ Data Sources on the Web Accessible via R
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
 -   [selectr](http://cran.r-project.org/web/packages/selectr/index.html)
+-   [seq2R](http://cran.r-project.org/web/packages/seq2R/index.html)
+-   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     (core)
@@ -663,10 +723,16 @@ Data Sources on the Web Accessible via R
 
 -   [GitHub package: alm](https://github.com/ropensci/alm)
 -   [GitHub package: animint](https://github.com/tdhock/animint)
+-   [Omegahat package: Aspell](http://www.omegahat.org/Aspell/)
+-   [Omegahat package: CGIwithR](http://www.omegahat.org/CGIwithR/)
+-   2
 -   [GitHub package: clickme](https://github.com/nachocab/clickme)
 -   [Omegahat package: GeoIP](http://www.omegahat.org/GeoIP/)
 -   [GitHub package: ggvis](https://github.com/rstudio/ggvis)
 -   [GitHub package: neotoma](https://github.com/ropensci/neotoma)
+-   [GitHub package: qualtrics](https://github.com/jbryer/qualtrics)
+-   [Omegahat package:
+    R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/)
 -   [GitHub package: rAltmetic](https://github.com/ropensci/rAltmetric)
 -   [Omegahat package:
     RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
@@ -674,6 +740,12 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: rbhl](https://github.com/ropensci/rbhl)
 -   [GitHub package: rbison](https://github.com/ropensci/rbison)
 -   [GitHub package: rCharts](https://github.com/ramnathv/rCharts)
+-   [Omegahat package:
+    Rcompression](http://www.omegahat.org/Rcompression/)
+-   [Omegahat package:
+    RDCOMClient](http://www.omegahat.org/RDCOMClient/)
+-   [Omegahat package:
+    RDCOMServer](http://www.omegahat.org/RDCOMServer/)
 -   [GitHub package: rDrop](https://github.com/karthikram/rDrop)
 -   [Omegahat package: REuPathDB](http://www.omegahat.org/REuPathDB/)
 -   [Omegahat package: Rflickr](http://www.omegahat.org/Rflickr)
@@ -696,12 +768,16 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
 -   [GitHub package: rsnps](https://github.com/ropensci/rsnps)
 -   [Omegahat package: RTidyHTML](http://www.omegahat.org/RTidyHTML/)
+-   [Omegahat package: RUbigraph](http://www.omegahat.org/RUbigraph/)
 -   [GitHub package: rVega](https://github.com/metagraf/rVega)
 -   [GitHub package: rWBclimate](https://github.com/ropensci/rWBclimate)
 -   [Omegahat package:
     SpiderMonkey](http://www.omegahat.org/SpiderMonkey/)
+-   [Omegahat package: SSOAP](http://www.omegahat.org/SSOAP/)
+-   [Omegahat package: Sxslt](http://www.omegahat.org/Sxslt/)
 -   [GitHub package: XML2R](https://github.com/cpsievert/XML2R)
 -   [Omegahat package: XMLRPC](http://www.omegahat.org/XMLRPC/)
+-   [Omegahat package: XMLSchema](http://www.omegahat.org/XMLSchema/)
 -   [Omegahat package: WADL](http://www.omegahat.org/WADL/)
 -   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
 -   [GitHub package:

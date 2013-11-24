@@ -11,7 +11,7 @@
 </tr>
 <tr class="odd">
 <td align="left"><strong>Version:</strong></td>
-<td align="left">2013-11-20</td>
+<td align="left">2013-11-23</td>
 </tr>
 </tbody>
 </table>
@@ -36,12 +36,16 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li>An alternative to <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
 <li>The <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> allows to read HTML documents and obtain a description of each of the forms it contains, along with the different elements and hidden fields</li>
 </ul>
-<p><strong>Curl/HTTP/FTP</strong></p>
+<p><strong>Curl, HTTP, FTP, HTML, XML, SOAP</strong></p>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>: A low level curl wrapper that allows one to compose general HTTP requests and provides convenient functions to fetch URIs, get/post forms, etc. and process the results returned by the Web server. This provides a great deal of control over the HTTP/FTP connection and the form of the request while providing a higher-level interface than is available just using R socket connections. It also provide tools for Web authentication.</li>
 <li><a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a>: A light wrapper around <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a> that makes many things easier, but still allows you to access the lower level functionality of <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>. It has convenient http verbs: <code>GET()</code>, <code>POST()</code>, <code>PUT()</code>, <code>DELETE()</code>, <code>PATCH()</code>, <code>HEAD()</code>, <code>BROWSE()</code>. These wrap functions are more convenient to use, though less configurable than counterparts in <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a>. The equivalent of httr's <code>GET()</code> in <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a> is <code>getForm()</code>. Likewise, the equivalent of <a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a> 's <code>POST()</code> in <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a> is <code>postForm()</code>. http status codes are helpful for debugging http calls. This package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful. See also <code>warn_for_status()</code>. Note that you can pass in additional Curl options to the <code>config</code> parameter in http calls.</li>
 <li>The <a href="http://www.omegahat.org/XMLRPC/">XMLRPC</a> package provides an implementation of XML-RPC, a relatively simple remote procedure call mechanism that uses HTTP and XML. This can be used for communicating between processes on a single machine or for accessing Web services from within R.</li>
+<li>The <a href="http://www.omegahat.org/XMLSchema/">XMLSchema</a> package provides facilities in R for reading XML schema documents and processing them to create definitions for R classes and functions for converting XML nodes to instances of those classes. It provides the framework for meta-computing with XML schema in R</li>
 <li><a href="http://www.omegahat.org/RTidyHTML/">RTidyHTML</a> interfaces to the libtidy library for correcting HTML documents that are not well-formed. This library corrects common errors in HTML documents.</li>
+<li><a href="http://www.omegahat.org/SSOAP/">SSOAP</a> provides a client-side SOAP (Simple Object Access Protocol) mechanism. It aims to provide a high-level interface to invoke SOAP methods provided by a SOAP server.</li>
+<li><a href="http://www.omegahat.org/Rcompression/">Rcompression</a>: Interface to zlib and bzip2 libraries for performing in-memory compression and decompression in R. This is useful when receiving or sending contents to remote servers, e.g. Web services, HTTP requests via RCurl.</li>
+<li>The <a href="http://www.omegahat.org/CGIwithR/">CGIwithR</a> package allows one to use R scripts as CGI programs for generating dynamic Web content. HTML forms and other mechanisms to submit dynamic requests can be used to provide input to R scripts via the Web to create content that is determined within that R script.</li>
 </ul>
 <p><strong>Authentication</strong></p>
 <ul>
@@ -56,6 +60,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li>The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.</li>
 <li>Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.</li>
 <li>The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.</li>
+<li>The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.</li>
 </ul>
 <p><strong>JavaScript</strong></p>
 <ul>
@@ -141,6 +146,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/alm/index.html">alm</a>: R wrapper to the almetrics API platform developed by PLoS.</li>
 <li><a href="http://cran.r-project.org/web/packages/ngramr/index.html">ngramr</a>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.</li>
 <li><a href="http://cran.r-project.org/web/packages/scholar/index.html">scholar</a> provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.</li>
+<li>The <a href="http://www.omegahat.org/Sxslt/">Sxslt</a> package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.</li>
 </ul>
 <p><strong>Marketing</strong></p>
 <ul>
@@ -174,10 +180,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/GuardianR/index.html">GuardianR</a>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.</li>
 <li><a href="http://www.omegahat.org/RNYTimes">RNYTimes</a> provides interfaces to several of the New York Times Web services for searching articles, meta-data, user-generated content and best seller lists.</li>
 </ul>
-<p><strong>Images, Videos, Music</strong></p>
+<p><strong>Images, Graphics, Videos, Music</strong></p>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/imguR/index.html">imguR</a>: A package to share plots using the image hosting service imgur.com.</li>
 <li><a href="http://cran.r-project.org/web/packages/RLastFM/index.html">RLastFM</a>: A package to interface to the last.fm API.</li>
+<li>The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs. You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.</li>
 </ul>
 <p><strong>Sports</strong></p>
 <ul>
@@ -187,6 +194,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <p><strong>Maps</strong></p>
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/RgoogleMaps/index.html">RgoogleMaps</a>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.</li>
+<li>The <a href="http://www.omegahat.org/R2GoogleMaps/">R2GoogleMaps</a> package - which is different from <a href="http://cran.r-project.org/web/packages/RgoogleMaps/index.html">RgoogleMaps</a>
+<ul>
+<li>provides a mechanism to generate JavaScript code from R that displays data using Google Maps.</li>
+</ul></li>
 <li><a href="http://cran.r-project.org/web/packages/osmar/index.html">osmar</a>: This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).</li>
 <li><a href="http://cran.r-project.org/web/packages/ggmap/index.html">ggmap</a>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.</li>
 <li>The <a href="http://www.omegahat.org/GeoIP/">GeoIP</a> package maps IP addresses and host names to geographic locations - latitude, longitude, region, city, zip code, etc.</li>
@@ -210,6 +221,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <ul>
 <li><a href="http://www.omegahat.org/RGoogleStorage/">RGoogleStorage</a> provides programmatic access to the Google Storage API. This allows R users to access and store data on Google's storage. We can upload and download content, create, list and delete folders/buckets, and set access control permissions on objects and buckets.</li>
 <li>The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an example of using the RCurl and XML packages to quickly develop an interface to the Google Documents API.</li>
+<li><a href="http://cran.r-project.org/web/packages/translate/index.html">translate</a>: Bindings for the Google Translate API v2</li>
+<li><a href="http://cran.r-project.org/web/packages/googlePublicData/index.html">googlePublicData</a>: An R library to build Google's public data explorer DSPL metadata files.</li>
+<li><a href="http://cran.r-project.org/web/packages/googleVis/index.html">googleVis</a>: Interface between R and the Google chart tools.</li>
+<li><a href="http://cran.r-project.org/web/packages/gooJSON/index.html">gooJSON</a>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
+<li><a href="http://cran.r-project.org/web/packages/plotGoogleMaps/index.html">plotGoogleMaps</a>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.</li>
+<li><a href="http://cran.r-project.org/web/packages/plotKML/index.html">plotKML</a>: Visualization of spatial and spatio-temporal objects in Google Earth.</li>
 </ul>
 <p><strong>Amazon Web Services</strong></p>
 <ul>
@@ -225,7 +242,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="https://github.com/karthikram/rDrop">rDrop</a> (not on CRAN): Dropbox interface.</li>
 <li><a href="http://cran.r-project.org/web/packages/zendeskR/index.html">zendeskR</a>: This package provides an R wrapper for the Zendesk API.</li>
 <li><a href="http://cran.r-project.org/web/packages/AWS.tools/index.html">AWS.tools</a>: An R package to interact with Amazon Web Services (EC2/S3).</li>
-<li><a href="http://cran.r-project.org/web/packages/translate/index.html">translate</a>: Bindings for the Google Translate API v2</li>
+<li>The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides functions to interact with the Qualtrics online survey tool.</li>
 </ul>
 <h3 id="cran-packages">CRAN packages:</h3>
 <ul>
@@ -249,6 +266,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/flora/index.html">flora</a></li>
 <li><a href="http://cran.r-project.org/web/packages/ggmap/index.html">ggmap</a></li>
 <li><a href="http://cran.r-project.org/web/packages/googlePublicData/index.html">googlePublicData</a></li>
+<li><a href="http://cran.r-project.org/web/packages/googleVis/index.html">googleVis</a></li>
+<li><a href="http://cran.r-project.org/web/packages/gooJSON/index.html">gooJSON</a></li>
 <li><a href="http://cran.r-project.org/web/packages/govdat/index.html">govdat</a></li>
 <li><a href="http://cran.r-project.org/web/packages/govStatJPN/index.html">govStatJPN</a></li>
 <li><a href="http://cran.r-project.org/web/packages/GuardianR/index.html">GuardianR</a></li>
@@ -300,6 +319,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/scholar/index.html">scholar</a></li>
 <li><a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a></li>
 <li><a href="http://cran.r-project.org/web/packages/selectr/index.html">selectr</a></li>
+<li><a href="http://cran.r-project.org/web/packages/seq2R/index.html">seq2R</a></li>
+<li><a href="http://cran.r-project.org/web/packages/seqinr/index.html">seqinr</a></li>
 <li><a href="http://cran.r-project.org/web/packages/servr/index.html">servr</a></li>
 <li><a href="http://cran.r-project.org/web/packages/shiny/index.html">shiny</a> (core)</li>
 <li><a href="http://cran.r-project.org/web/packages/sos4R/index.html">sos4R</a></li>
@@ -321,16 +342,24 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <ul>
 <li><a href="https://github.com/ropensci/alm">GitHub package: alm</a></li>
 <li><a href="https://github.com/tdhock/animint">GitHub package: animint</a></li>
+<li><a href="http://www.omegahat.org/Aspell/">Omegahat package: Aspell</a></li>
+<li><a href="http://www.omegahat.org/CGIwithR/">Omegahat package: CGIwithR</a></li>
+<li>2</li>
 <li><a href="https://github.com/nachocab/clickme">GitHub package: clickme</a></li>
 <li><a href="http://www.omegahat.org/GeoIP/">Omegahat package: GeoIP</a></li>
 <li><a href="https://github.com/rstudio/ggvis">GitHub package: ggvis</a></li>
 <li><a href="https://github.com/ropensci/neotoma">GitHub package: neotoma</a></li>
+<li><a href="https://github.com/jbryer/qualtrics">GitHub package: qualtrics</a></li>
+<li><a href="http://www.omegahat.org/R2GoogleMaps/">Omegahat package: R2GoogleMaps</a></li>
 <li><a href="https://github.com/ropensci/rAltmetric">GitHub package: rAltmetic</a></li>
 <li><a href="http://www.omegahat.org/RAmazonDBREST">Omegahat package: RAmazonDBREST</a></li>
 <li><a href="http://www.omegahat.org/RAmazonS3">Omegahat package: RAmazonS3</a></li>
 <li><a href="https://github.com/ropensci/rbhl">GitHub package: rbhl</a></li>
 <li><a href="https://github.com/ropensci/rbison">GitHub package: rbison</a></li>
 <li><a href="https://github.com/ramnathv/rCharts">GitHub package: rCharts</a></li>
+<li><a href="http://www.omegahat.org/Rcompression/">Omegahat package: Rcompression</a></li>
+<li><a href="http://www.omegahat.org/RDCOMClient/">Omegahat package: RDCOMClient</a></li>
+<li><a href="http://www.omegahat.org/RDCOMServer/">Omegahat package: RDCOMServer</a></li>
 <li><a href="https://github.com/karthikram/rDrop">GitHub package: rDrop</a></li>
 <li><a href="http://www.omegahat.org/REuPathDB/">Omegahat package: REuPathDB</a></li>
 <li><a href="http://www.omegahat.org/Rflickr">Omegahat package: Rflickr</a></li>
@@ -350,11 +379,15 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="https://github.com/ropensci/rpubmed">GitHub package: rpubmed</a></li>
 <li><a href="https://github.com/ropensci/rsnps">GitHub package: rsnps</a></li>
 <li><a href="http://www.omegahat.org/RTidyHTML/">Omegahat package: RTidyHTML</a></li>
+<li><a href="http://www.omegahat.org/RUbigraph/">Omegahat package: RUbigraph</a></li>
 <li><a href="https://github.com/metagraf/rVega">GitHub package: rVega</a></li>
 <li><a href="https://github.com/ropensci/rWBclimate">GitHub package: rWBclimate</a></li>
 <li><a href="http://www.omegahat.org/SpiderMonkey/">Omegahat package: SpiderMonkey</a></li>
+<li><a href="http://www.omegahat.org/SSOAP/">Omegahat package: SSOAP</a></li>
+<li><a href="http://www.omegahat.org/Sxslt/">Omegahat package: Sxslt</a></li>
 <li><a href="https://github.com/cpsievert/XML2R">GitHub package: XML2R</a></li>
 <li><a href="http://www.omegahat.org/XMLRPC/">Omegahat package: XMLRPC</a></li>
+<li><a href="http://www.omegahat.org/XMLSchema/">Omegahat package: XMLSchema</a></li>
 <li><a href="http://www.omegahat.org/WADL/">Omegahat package: WADL</a></li>
 <li><a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a></li>
 <li><a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a></li>
