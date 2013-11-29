@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-11-23
+  **Version:**      2013-11-28
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -42,9 +42,10 @@ Tools for Working with the Web from R
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
--   The [XML2R](https://github.com/cpsievert/XML2R) package (to be on
-    CRAN soon) is a collection of convenient functions for coercing XML
-    into data frames.
+-   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html):
+    The XML2R package is a collection of convenient functions for
+    coercing XML into data frames. The development version is on GitHub
+    [here](https://github.com/cpsievert/XML2R).
 -   The [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
     converts R object into Javascript object notation (JSON) objects and
     vice-versa.
@@ -180,7 +181,7 @@ Tools for Working with the Web from R
     systems, share and execute scripts or reports on centralized
     servers, and build R based apps. See also
     [opencpucran](http://cran.r-project.org/web/packages/opencpucran/index.html).
--   A package by Yihui Xie called
+-   A package by [Yihui Xie](http://yihui.name/) called
     [servr](http://cran.r-project.org/web/packages/servr/index.html)
     provides a simple HTTP server to serve files under a given directory
     based on the
@@ -340,8 +341,14 @@ Data Sources on the Web Accessible via R
     Open Geospatial Consortium (OGC). It allows users to retrieve
     metadata from SOS web services and to interactively create requests
     for near real-time observation data based on the available sensors,
-    phenomena, observations et cetera using thematic, temporal and
-    spatial filtering.
+    phenomena, observations etc. using thematic, temporal and spatial
+    filtering.
+-   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html):
+    The Climate Prediction Center's (CPC) daily rainfall data for the
+    entire world, from 1979 to the present, at a resolution of 50 km
+    (0.5 degrees lat-lon). This package provides functionality to
+    download and process the raw data from CPC. Development version on
+    GitHub [here](https://github.com/RationShop/raincpc).
 
 ### Economics and Business
 
@@ -422,6 +429,12 @@ Data Sources on the Web Accessible via R
     interface to Dan Veillard's libxslt translator. It allows R
     programmers to use XSLT directly from within R, and also allows XSL
     code to make use of R functions.
+-   The [Aspell](http://www.omegahat.org/Aspell/) package provides an
+    interface to the aspell library for checking the spelling of words
+    and documents.
+-   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html):
+    Harvest metadata using the Open Archives Initiative Protocol for
+    Metadata Harvesting (OAI-PMH).
 
 ### Marketing
 
@@ -445,13 +458,13 @@ Data Sources on the Web Accessible via R
     Provided with a Socrata dataset resource URL, or a Socrata SoDA web
     API query, returns an R data frame. Converts dates to POSIX format.
     Supports CSV and JSON. Manages throttling by Socrata.
--   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html):
-    Harvest metadata using the Open Archives Initiative Protocol for
-    Metadata Harvesting (OAI-PMH).
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
     A package that interacts directly with the
     [Quandl](http://www.quandl.com/) API to offer data in a number of
     formats usable in R, as well as the ability to upload and search.
+-   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
+    Fetches data from DataMarket.com, either as timeseries in zoo form
+    (dmseries) or as long-form data frames (dmlist).
 
 ### Machine Learning as a Service
 
@@ -661,12 +674,12 @@ Data Sources on the Web Accessible via R
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
+-   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
--   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
@@ -725,7 +738,6 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: animint](https://github.com/tdhock/animint)
 -   [Omegahat package: Aspell](http://www.omegahat.org/Aspell/)
 -   [Omegahat package: CGIwithR](http://www.omegahat.org/CGIwithR/)
--   2
 -   [GitHub package: clickme](https://github.com/nachocab/clickme)
 -   [Omegahat package: GeoIP](http://www.omegahat.org/GeoIP/)
 -   [GitHub package: ggvis](https://github.com/rstudio/ggvis)
