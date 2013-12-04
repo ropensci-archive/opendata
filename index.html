@@ -11,7 +11,7 @@
 </tr>
 <tr class="odd">
 <td align="left"><strong>Version:</strong></td>
-<td align="left">2013-11-28</td>
+<td align="left">2013-12-04</td>
 </tr>
 </tbody>
 </table>
@@ -27,14 +27,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: <code>read.csv(&quot;http://...&quot;)</code>, but not <code>read.csv(&quot;https://...&quot;)</code>.</li>
 <li>The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to load plain-text data from a URL (either http or https).</li>
 <li>The package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>.</li>
-<li><a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from HTML and XML documents.</li>
 <li><a href="http://cran.r-project.org/web/packages/XML2R/index.html">XML2R</a>: The XML2R package is a collection of convenient functions for coercing XML into data frames. The development version is on GitHub <a href="https://github.com/cpsievert/XML2R">here</a>.</li>
+<li>An alternative to <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
 <li>The <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a> converts R object into Javascript object notation (JSON) objects and vice-versa.</li>
 <li>An alternative to the <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a> is <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> which also converts to and from data in JSON format (it is fast for parsing).</li>
-<li>An alternative to the <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> package is <a href="http://cran.r-project.org/web/packages/selectr/index.html">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions.</li>
+<li>An alternative to <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a> and <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a> is <a href="http://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a>, a fork of the <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a>. It includes the parser from RJSONIO, but implements a different mapping between R objects and JSON strings.</li>
 <li>Custom formats: Some web APIs provide custom data formats which are usually modified xml or json, and handled by <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> and <a href="http://cran.r-project.org/web/packages/rjson/index.html">rjson</a> or <a href="http://cran.r-project.org/web/packages/RJSONIO/index.html">RJSONIO</a>, respectively.</li>
-<li>An alternative to <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
 <li>The <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> allows to read HTML documents and obtain a description of each of the forms it contains, along with the different elements and hidden fields</li>
+<li><a href="http://cran.r-project.org/web/packages/scrapeR/index.html">scrapeR</a> provides additional tools for scraping data from HTML and XML documents.</li>
 </ul>
 <h3 id="curl-http-ftp-html-xml-soap">Curl, HTTP, FTP, HTML, XML, SOAP</h3>
 <ul>
@@ -57,7 +57,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li>The <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a> web server interface contains the specification and convenience software for building and running Rook applications.</li>
 <li>The <a href="http://cran.r-project.org/web/packages/opencpu/index.html">opencpu</a> framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps. See also <a href="http://cran.r-project.org/web/packages/opencpucran/index.html">opencpucran</a>.</li>
 <li>A package by <a href="http://yihui.name/">Yihui Xie</a> called <a href="http://cran.r-project.org/web/packages/servr/index.html">servr</a> provides a simple HTTP server to serve files under a given directory based on the <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package.</li>
-<li>The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R.</li>
+<li>The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> replaces, is <a href="http://cran.r-project.org/web/packages/websockets/index.html">websockets</a>, also made by Joe Cheng.</li>
 <li>Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.</li>
 <li>The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.</li>
 <li>The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.</li>
@@ -125,6 +125,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/quantmod/index.html">quantmod</a>: Specify, build, trade, and analyse quantitative financial trading strategies</li>
 <li><a href="http://cran.r-project.org/web/packages/TFX/index.html">TFX</a>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.</li>
 <li><a href="http://cran.r-project.org/web/packages/fImport/index.html">fImport</a>: Environment for teaching &quot;Financial Engineering and Computational Finance&quot;</li>
+<li><a href="http://cran.r-project.org/web/packages/Rbitcoin/index.html">Rbitcoin</a>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.</li>
+<li><a href="http://cran.r-project.org/web/packages/Thinknum/index.html">Thinknum</a>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.</li>
 </ul>
 <h3 id="chemistry">Chemistry</h3>
 <ul>
@@ -277,6 +279,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a></li>
 <li><a href="http://cran.r-project.org/web/packages/httr/index.html">httr</a> (core)</li>
 <li><a href="http://cran.r-project.org/web/packages/imguR/index.html">imguR</a></li>
+<li><a href="http://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a></li>
 <li><a href="http://cran.r-project.org/web/packages/Metadata/index.html">Metadata</a></li>
 <li><a href="http://cran.r-project.org/web/packages/MTurkR/index.html">MTurkR</a></li>
 <li><a href="http://cran.r-project.org/web/packages/NCBI2R/index.html">NCBI2R</a></li>
@@ -289,6 +292,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/quantmod/index.html">quantmod</a></li>
 <li><a href="http://cran.r-project.org/web/packages/raincpc/index.html">raincpc</a></li>
 <li><a href="http://cran.r-project.org/web/packages/rAltmetic/index.html">rAltmetic</a></li>
+<li><a href="http://cran.r-project.org/web/packages/Rbitcoin/index.html">Rbitcoin</a></li>
 <li><a href="http://cran.r-project.org/web/packages/Rcolombos/index.html">Rcolombos</a></li>
 <li><a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a> (core)</li>
 <li><a href="http://cran.r-project.org/web/packages/rdatamarket/index.html">rdatamarket</a></li>
@@ -331,6 +335,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/SynergizeR/index.html">SynergizeR</a></li>
 <li><a href="http://cran.r-project.org/web/packages/taxize/index.html">taxize</a></li>
 <li><a href="http://cran.r-project.org/web/packages/TFX/index.html">TFX</a></li>
+<li><a href="http://cran.r-project.org/web/packages/Thinknum/index.html">Thinknum</a></li>
 <li><a href="http://cran.r-project.org/web/packages/translate/index.html">translate</a></li>
 <li><a href="http://cran.r-project.org/web/packages/treebase/index.html">treebase</a></li>
 <li><a href="http://cran.r-project.org/web/packages/twitteR/index.html">twitteR</a></li>
@@ -338,6 +343,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/WDI/index.html">WDI</a></li>
 <li><a href="http://cran.r-project.org/web/packages/wethepeople/index.html">wethepeople</a></li>
 <li><a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> (core)</li>
+<li><a href="http://cran.r-project.org/web/packages/XML2R/index.html">XML2R</a></li>
 <li><a href="http://cran.r-project.org/web/packages/yhatr/index.html">yhatr</a></li>
 <li><a href="http://cran.r-project.org/web/packages/zendeskR/index.html">zendeskR</a></li>
 </ul>

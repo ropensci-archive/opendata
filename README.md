@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-11-28
+  **Version:**      2013-12-04
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -39,33 +39,10 @@ Tools for Working with the Web from R
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
     data from one or more HTML tables is `readHTMLTable()`.
--   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
-    provides additional tools for scraping data from HTML and XML
-    documents.
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html):
     The XML2R package is a collection of convenient functions for
     coercing XML into data frames. The development version is on GitHub
     [here](https://github.com/cpsievert/XML2R).
--   The [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
-    converts R object into Javascript object notation (JSON) objects and
-    vice-versa.
--   An alternative to the
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) is
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    which also converts to and from data in JSON format (it is fast for
-    parsing).
--   An alternative to the
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) package
-    is
-    [selectr](http://cran.r-project.org/web/packages/selectr/index.html),
-    which parses CSS3 Selectors and translates them to XPath 1.0
-    expressions.
--   Custom formats: Some web APIs provide custom data formats which are
-    usually modified xml or json, and handled by
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) and
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) or
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
-    respectively.
 -   An alternative to
     [XML](http://cran.r-project.org/web/packages/XML/index.html) is
     [selectr](http://sjp.co.nz/projects/selectr/), which parses CSS3
@@ -76,9 +53,35 @@ Tools for Working with the Web from R
     selectors to XPath, so can use the CSS selectors instead of XPath.
     The [selectorgadget browser extension](http://selectorgadget.com/)
     can be used to identify page elements.
+-   The [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
+    converts R object into Javascript object notation (JSON) objects and
+    vice-versa.
+-   An alternative to the
+    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) is
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
+    which also converts to and from data in JSON format (it is fast for
+    parsing).
+-   An alternative to
+    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) and
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
+    is
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html),
+    a fork of the
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html).
+    It includes the parser from RJSONIO, but implements a different
+    mapping between R objects and JSON strings.
+-   Custom formats: Some web APIs provide custom data formats which are
+    usually modified xml or json, and handled by
+    [XML](http://cran.r-project.org/web/packages/XML/index.html) and
+    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) or
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
+    respectively.
 -   The [RHTMLForms](http://www.omegahat.org/RHTMLForms/) allows to read
     HTML documents and obtain a description of each of the forms it
     contains, along with the different elements and hidden fields
+-   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
+    provides additional tools for scraping data from HTML and XML
+    documents.
 
 ### Curl, HTTP, FTP, HTML, XML, SOAP
 
@@ -191,7 +194,11 @@ Tools for Working with the Web from R
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
     package, made by Joe Cheng at RStudio, provides low-level socket and
     protocol support for handling HTTP and WebSocket requests directly
-    within R.
+    within R. Another related package, perhaps which
+    [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
+    replaces, is
+    [websockets](http://cran.r-project.org/web/packages/websockets/index.html),
+    also made by Joe Cheng.
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
@@ -385,6 +392,12 @@ Data Sources on the Web Accessible via R
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html):
     Environment for teaching "Financial Engineering and Computational
     Finance"
+-   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html):
+    Ineract with Bitcoin. Both public and private API calls. Support
+    HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl,
+    error handling.
+-   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
+    Interacts with the [Thinknum](http://www.thinknum.com/) API.
 
 ### Chemistry
 
@@ -664,6 +677,7 @@ Data Sources on the Web Accessible via R
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
     (core)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
+-   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
 -   [Metadata](http://cran.r-project.org/web/packages/Metadata/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html)
@@ -676,6 +690,7 @@ Data Sources on the Web Accessible via R
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
+-   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
@@ -722,6 +737,7 @@ Data Sources on the Web Accessible via R
 -   [SynergizeR](http://cran.r-project.org/web/packages/SynergizeR/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
+-   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
@@ -729,6 +745,7 @@ Data Sources on the Web Accessible via R
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
+-   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html)
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html)
 
