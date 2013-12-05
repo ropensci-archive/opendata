@@ -431,7 +431,7 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 
 <ul>
 <li>
-<pkg>imguR</pkg>: A package to share plots using the image hosting service imgur.com.
+<pkg>imguR</pkg>: A package to share plots using the image hosting service imgur.com. (also see the function <code>imgur_upload()</code> in <pkg>knitr</pkg>, which uses the newer Imgur API version 3)
 </li>
 <li>
 <pkg>RLastFM</pkg>: A package to interface to the last.fm API.

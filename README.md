@@ -515,6 +515,9 @@ Data Sources on the Web Accessible via R
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service imgur.com.
+    (also see the function `imgur_upload()` in
+    [knitr](http://cran.r-project.org/web/packages/knitr/index.html),
+    which uses the newer Imgur API version 3)
 -   [RLastFM](http://cran.r-project.org/web/packages/RLastFM/index.html):
     A package to interface to the last.fm API.
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
