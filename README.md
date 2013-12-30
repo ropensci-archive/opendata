@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-12-04
+  **Version:**      2013-12-30
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -313,6 +313,9 @@ Data Sources on the Web Accessible via R
 -   [seq2R](http://cran.r-project.org/web/packages/seq2R/index.html):
     Detect compositional changes in genomic sequences - with some
     interaction with GenBank.
+-   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
+    Visually Assessing the Specificity and Informativeness of Primer
+    Pairs.
 
 ### Earth Science
 
@@ -534,6 +537,10 @@ Data Sources on the Web Accessible via R
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
+-   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
+    Association Football (Soccer) Ranking via Poisson Regression - uses
+    time dependent Poisson regression and a record of goals scored in
+    matches to rank teams via estimated attack and defense strengths.
 
 ### Maps
 
@@ -667,6 +674,7 @@ Data Sources on the Web Accessible via R
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
+-   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
@@ -690,6 +698,7 @@ Data Sources on the Web Accessible via R
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
+-   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
