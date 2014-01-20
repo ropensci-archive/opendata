@@ -294,6 +294,12 @@ Data Sources on the Web Accessible via R
     Before using rPlant, users will have to register with the iPlant
     Collaborative.
     [http://www.iplantcollaborative.org/discover/discovery-environment](http://www.iplantcollaborative.org/discover/discovery-environment)
+-   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
+    The ecoengine (
+    [http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
+    provides access to more than 2 million georeferenced specimen
+    records from the Berkeley Natural History Museums.
+    [http://bnhm.berkeley.edu/](http://bnhm.berkeley.edu/)
 
 ### Genes and Genomes
 
@@ -596,6 +602,9 @@ Data Sources on the Web Accessible via R
     Times congress API, and the Sunlight Foundation set of APIs.
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
     Functions to get public survey data in Japan.
+-   [acs](http://cran.r-project.org/web/packages/acs/index.html):
+    Download, manipulate, and present data from the US Census American
+    Community Survey.
 
 ### Google Web Services
 
@@ -658,6 +667,7 @@ Data Sources on the Web Accessible via R
 
 ### CRAN packages:
 
+-   [acs](http://cran.r-project.org/web/packages/acs/index.html)
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
@@ -672,6 +682,7 @@ Data Sources on the Web Accessible via R
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
+-   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)

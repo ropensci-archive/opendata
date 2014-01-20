@@ -199,6 +199,9 @@ Data Sources on the Web Accessible via R
 <li>
 <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the iPlant Collaborative. <a href="http://www.iplantcollaborative.org/discover/discovery-environment">http://www.iplantcollaborative.org/discover/discovery-environment</a>
 </li>
+<li>
+<pkg>ecoengine</pkg>: The ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
+</li>
 </ul>
 
 
@@ -514,6 +517,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <li>
 <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 </li>
+<li>
+<pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
+</li>
 </ul>
 
 <p><strong>Google Web Services</strong></p>
@@ -587,6 +593,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 </info>
 
 <packagelist>
+<pkg>acs</pkg>
 <pkg>alm</pkg>	
 <pkg>anametrix</pkg>
 <pkg>AWS.tools</pkg>
@@ -601,6 +608,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>decctools</pkg>
 <pkg>dismo</pkg>
 <pkg>dvn</pkg>
+<pkg>ecoengine</pkg>
 <pkg>factualR</pkg>
 <pkg>FAOSTAT</pkg>
 <pkg>fbRanks</pkg>
