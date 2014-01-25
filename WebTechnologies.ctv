@@ -170,7 +170,7 @@ Data Sources on the Web Accessible via R
 <a href="https://github.com/ropensci/rWBclimate">rWBclimate</a> (not on CRAN): R interface for the World Bank climate data.
 </li>
 <li>
-<a href="https://github.com/ropensci/rbison">rbison</a> (not on CRAN): Wrapper to the USGS Bison API.
+<pkg>rbison</pkg>: Wrapper to the USGS Bison API.
 </li>
 <li>
 <a href="https://github.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
@@ -318,7 +318,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>rplos</pkg>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
 </li>
 <li>
-<a href="https://github.com/ropensci/rbhl">rbhl</a> (not on CRAN): R interface to the Biodiversity Heritage Library (BHL) API.
+<pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
 </li>
 <li>
 <a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.
@@ -637,6 +637,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>quantmod</pkg>
 <pkg>rAltmetic</pkg>
 <pkg>raincpc</pkg>
+<pkg>rbhl</pkg>
 <pkg>Rbitcoin</pkg>
 <pkg>Rcolombos</pkg>
 <pkg priority="core">RCurl</pkg>
@@ -650,6 +651,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>rfishbase</pkg>
 <pkg>rgauges</pkg>
 <pkg>rgbif</pkg>
+<pkg>rbison</pkg>
 <pkg>RgoogleMaps</pkg>
 <pkg priority="core">rjson</pkg>
 <pkg priority="core">RJSONIO</pkg>

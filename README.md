@@ -261,8 +261,8 @@ Data Sources on the Web Accessible via R
     UK National Biodiversity Network data.
 -   [rWBclimate](https://github.com/ropensci/rWBclimate) (not on CRAN):
     R interface for the World Bank climate data.
--   [rbison](https://github.com/ropensci/rbison) (not on CRAN): Wrapper
-    to the USGS Bison API.
+-   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
+    Wrapper to the USGS Bison API.
 -   [neotoma](https://github.com/ropensci/neotoma) (not on CRAN):
     Programmatic R interface to the Neotoma Paleoecological Database.
 -   [rnoaa](https://github.com/ropensci/rnoaa) (not on CRAN): R
@@ -424,8 +424,8 @@ Data Sources on the Web Accessible via R
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html): A
     programmatic interface to the Web Service methods provided by the
     Public Library of Science journals for search.
--   [rbhl](https://github.com/ropensci/rbhl) (not on CRAN): R interface
-    to the Biodiversity Heritage Library (BHL) API.
+-   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html): R
+    interface to the Biodiversity Heritage Library (BHL) API.
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN):
     Get scholarly metadata from around the web.
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html):
@@ -713,6 +713,8 @@ Data Sources on the Web Accessible via R
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
+-   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html)
+-   [rbison](http://cran.r-project.org/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
