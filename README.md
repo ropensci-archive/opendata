@@ -371,11 +371,6 @@ Data Sources on the Web Accessible via R
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
     Search, extract and format data from the World Bank's World
     Development Indicators.
--   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html):
-    The package hosts a list of functions to download, manipulate,
-    construct and aggregate agricultural statistics provided by the
-    FAOSTAT (Food and Agricultural Organization of the United Nations)
-    database.
 -   The [Zillow](http://www.omegahat.org/Zillow/) package provides an R
     interface to the Zillow Web Service API. It allows one to get the
     Zillow estimate for the price of a particular property specified by
@@ -415,6 +410,11 @@ Data Sources on the Web Accessible via R
 
 ### Agriculture
 
+-   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html):
+    The package hosts a list of functions to download, manipulate,
+    construct and aggregate agricultural statistics provided by the
+    FAOSTAT (Food and Agricultural Organization of the United Nations)
+    database.
 -   [cimis](http://cran.r-project.org/web/packages/cimis/index.html): R
     package for retrieving data from CIMIS, the California Irrigation
     Management Information System.
