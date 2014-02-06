@@ -258,6 +258,9 @@ Data Sources on the Web Accessible via R
 <li>
 <pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC. Development version on GitHub <a href="https://github.com/RationShop/raincpc">here</a>.
 </li>
+<li>
+<pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
+</li>
 </ul>
 
 <p><strong>Economics and Business</strong></p>
@@ -688,6 +691,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>translate</pkg>
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
+<pkg>weatherData</pkg>
 <pkg>wethepeople</pkg>
 <pkg>WDI</pkg>
 <pkg priority="core">XML</pkg>

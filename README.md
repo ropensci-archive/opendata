@@ -365,6 +365,10 @@ Data Sources on the Web Accessible via R
     (0.5 degrees lat-lon). This package provides functionality to
     download and process the raw data from CPC. Development version on
     GitHub [here](https://github.com/RationShop/raincpc).
+-   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
+    Functions that help in fetching weather data from websites. Given a
+    location and a date range, these functions help fetch weather data
+    (temperature, pressure etc.) for any weather related analysis.
 
 ### Economics and Business
 
@@ -768,6 +772,7 @@ Data Sources on the Web Accessible via R
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
+-   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
