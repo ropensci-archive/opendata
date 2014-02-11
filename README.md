@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2013-12-30
+  **Version:**      2014-02-11
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -213,14 +213,16 @@ Tools for Working with the Web from R
     be used along with the
     [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
     provides user-level access from R to other COM servers.
-
--   The [RSelenium](https://github.com/johndharrison/RSelenium) package 
-    provides a set of R bindings for the Selenium 2.0 webdriver using the
+-   The [RSelenium](https://github.com/johndharrison/RSelenium) package
+    (not on CRAN) provides a set of R bindings for the Selenium 2.0
+    webdriver using the
     [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol).
-    Selenium automates browsers. Using RSelenium you can automate browsers locally 
-    or remotely. This can aid in automated application testing, load testing and web scraping.
-    Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).
-
+    Selenium automates browsers. Using RSelenium you can automate
+    browsers locally or remotely. This can aid in automated application
+    testing, load testing and web scraping. Examples are given
+    interacting with popular projects such as
+    [shiny](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/shiny/index.html)
+    and [sauceLabs](http://saucelabs.com).
 
 ### JavaScript
 
@@ -834,6 +836,8 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: rorcid](https://github.com/ropensci/rorcid)
 -   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
 -   [GitHub package: rsnps](https://github.com/ropensci/rsnps)
+-   [GitHub package:
+    RSelenium](https://github.com/johndharrison/RSelenium)
 -   [Omegahat package: RTidyHTML](http://www.omegahat.org/RTidyHTML/)
 -   [Omegahat package: RUbigraph](http://www.omegahat.org/RUbigraph/)
 -   [GitHub package: rVega](https://github.com/metagraf/rVega)

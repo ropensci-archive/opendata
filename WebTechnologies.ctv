@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
-<version>2013-12-30</version>
+<version>2014-02-11</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -114,6 +114,7 @@ The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to p
 <li>
 The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.
 </li>
+<li>The <a href="https://github.com/johndharrison/RSelenium">RSelenium</a> package (not on CRAN) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).</li>
 </ul>
 
 <p><strong>JavaScript</strong></p>
@@ -738,6 +739,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="https://github.com/ropensci/rorcid">GitHub package: rorcid</a>
   <a href="https://github.com/ropensci/rpubmed">GitHub package: rpubmed</a>
   <a href="https://github.com/ropensci/rsnps">GitHub package: rsnps</a>
+  <a href="https://github.com/johndharrison/RSelenium">GitHub package: RSelenium</a>
   <a href="http://www.omegahat.org/RTidyHTML/">Omegahat package: RTidyHTML</a>
   <a href="http://www.omegahat.org/RUbigraph/">Omegahat package: RUbigraph</a>
   <a href="https://github.com/metagraf/rVega">GitHub package: rVega</a>
