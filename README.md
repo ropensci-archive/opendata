@@ -214,6 +214,14 @@ Tools for Working with the Web from R
     [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
     provides user-level access from R to other COM servers.
 
+-   The [RSelenium](https://github.com/johndharrison/RSelenium) package 
+    provides a set of R bindings for the Selenium 2.0 webdriver using the
+    [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol).
+    Selenium automates browsers. Using RSelenium you can automate browsers locally 
+    or remotely. This can aid in automated application testing, load testing and web scraping.
+    Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).
+
+
 ### JavaScript
 
 -   [ggvis](https://github.com/rstudio/ggvis) (not on CRAN) makes it
