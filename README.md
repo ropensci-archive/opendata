@@ -557,6 +557,8 @@ Data Sources on the Web Accessible via R
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
+-   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN
+    yet): Tools for Collecting Data from nba.com and wnba.com
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
     Association Football (Soccer) Ranking via Poisson Regression - uses
     time dependent Poisson regression and a record of goals scored in
