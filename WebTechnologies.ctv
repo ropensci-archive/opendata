@@ -462,6 +462,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 </li>
 <li>
+<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN yet): Tools for Collecting Data from nba.com and wnba.com
+</li>
+<li>
 <pkg>fbRanks</pkg>: Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
 </li>
 </ul>
