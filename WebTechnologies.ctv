@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
-<version>2014-02-25</version>
+<version>2014-02-26</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -100,13 +100,16 @@ The <pkg>Rook</pkg> web server interface contains the specification and convenie
 </li>
 <li>
 The <pkg>opencpu</pkg> framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. 
-This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps. See also <pkg>opencpucran</pkg>.
+This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps.
 </li>
 <li>
 A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> provides a simple HTTP server to serve files under a given directory based on the <pkg>httpuv</pkg> package.
 </li>
 <li>
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is <pkg>websockets</pkg>, also made by Joe Cheng.
+</li>
+<li>
+<pkg>websockets</pkg>: A simple HTML5 websocket interface for R, made by Joe Cheng.
 </li>
 <li>
 Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
@@ -225,7 +228,7 @@ Data Sources on the Web Accessible via R
 <pkg>seqinr</pkg>: Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.
 </li>
 <li>
-<pkg>seq2R</pkg>: Detect compositional changes in genomic sequences - with some interaction with GenBank.
+<a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">seq2R</a>: Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.
 </li>
 <li>
 <pkg>primerTree</pkg>: Visually Assessing the Specificity and Informativeness of Primer Pairs.
@@ -245,7 +248,7 @@ Data Sources on the Web Accessible via R
 <pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided. 
 </li>
 <li>
-<pkg>BerkeleyEarth</pkg>: Data input for Berkeley Earth Surface Temperature. 
+<a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a>: Data input for Berkeley Earth Surface Temperature. Archived on CRAN.
 </li>
 <li>
 <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data. 
@@ -257,7 +260,7 @@ Data Sources on the Web Accessible via R
 <pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
 </li>
 <li>
-<pkg>Metadata</pkg>: Collates metadata for climate surface stations.
+<a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.
 </li>
 <li>
 <pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations etc. using thematic, temporal and spatial filtering.
@@ -346,7 +349,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <a href="https://github.com/ropensci/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
 </li>
 <li>
-<pkg>rAltmetic</pkg>: Query and visualize metrics from Altmetric.com.</li>
+<pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.</li>
 <li>
 <pkg>alm</pkg>: R wrapper to the almetrics API platform developed by PLoS.</li>
 <li>
@@ -402,7 +405,7 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
 </li>
 <li>
-<pkg>infochimps</pkg>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development <a href="https://github.com/drewconway/infochimps">on Github</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development <a href="https://github.com/drewconway/infochimps">on Github</a>.
 </li>
 </ul>
 
@@ -450,10 +453,10 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 
 <ul>
 <li>
-<pkg>imguR</pkg>: A package to share plots using the image hosting service imgur.com. (also see the function <code>imgur_upload()</code> in <pkg>knitr</pkg>, which uses the newer Imgur API version 3)
+<pkg>imguR</pkg>: A package to share plots using the image hosting service imgur.com. (also see the function <code>imgur_upload()</code> in knitr, which uses the newer Imgur API version 3)
 </li>
 <li>
-<pkg>RLastFM</pkg>: A package to interface to the last.fm API.
+<a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
 </li>
 <li>
 The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs. 
@@ -526,9 +529,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <ul>
 <li>
 <pkg>wethepeople</pkg>: An R client for interacting with the White House's "We The People" petition API.
-</li>
-<li>
-<pkg>govdat</pkg>: Interface to various APIs for government data, including New York Times congress API, and the Sunlight Foundation set of APIs.
 </li>
 <li>
 <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
@@ -613,7 +613,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>alm</pkg>	
 <pkg>anametrix</pkg>
 <pkg>AWS.tools</pkg>
-<pkg>BerkeleyEarth</pkg>
 <pkg>bigml</pkg>
 <pkg>cgdsr</pkg>
 <pkg>CHCN</pkg>
@@ -634,7 +633,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>gooJSON</pkg>
 <pkg>googlePublicData</pkg>
 <pkg>googleVis</pkg>
-<pkg>govdat</pkg>
 <pkg>govStatJPN</pkg>
 <pkg>GuardianR</pkg>
 <pkg>hoardeR</pkg>
@@ -642,8 +640,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>httpRequest</pkg>
 <pkg priority="core">httr</pkg>
 <pkg>imguR</pkg>
-<pkg>infochimps</pkg>
-<pkg>Metadata</pkg>
 <pkg>MTurkR</pkg>
 <pkg>NCBI2R</pkg>
 <pkg>ngramr</pkg> 
@@ -652,15 +648,19 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>opencpu</pkg>
 <pkg>osmar</pkg>
 <pkg>pitchRx</pkg>
+<pkg>plotGoogleMaps</pkg>
+<pkg>plotKML</pkg>
 <pkg>primerTree</pkg>
+<pkg>Quandl</pkg>
 <pkg>quantmod</pkg>
-<pkg>rAltmetic</pkg>
+<pkg>rAltmetric</pkg>
 <pkg>raincpc</pkg>
 <pkg>rbhl</pkg>
 <pkg>Rbitcoin</pkg>
 <pkg>Rcolombos</pkg>
 <pkg priority="core">RCurl</pkg>
 <pkg>rdatamarket</pkg>
+<pkg>rebird</pkg>
 <pkg>Reol</pkg>
 <pkg>rentrez</pkg>
 <pkg>repmis</pkg>
@@ -675,7 +675,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg priority="core">rjson</pkg>
 <pkg priority="core">RJSONIO</pkg>
 <pkg>jsonlite</pkg>
-<pkg>RLastFM</pkg>
 <pkg>RMendeley</pkg>
 <pkg>RNCBI</pkg>
 <pkg>RNCEP</pkg>
@@ -687,14 +686,12 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>RSiteCatalyst</pkg>
 <pkg>rsnps</pkg>
 <pkg>RSocrata</pkg>
-<pkg>RTDAmeritrade</pkg>
 <pkg>treebase</pkg>
 <pkg>rvertnet</pkg>
 <pkg>RWeather</pkg>
 <pkg>scholar</pkg>
 <pkg>scrapeR</pkg>
 <pkg>selectr</pkg>
-<pkg>seq2R</pkg>
 <pkg>seqinr</pkg>
 <pkg>servr</pkg>
 <pkg priority="core">shiny</pkg>
@@ -708,6 +705,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
 <pkg>weatherData</pkg>
+<pkg>websockets</pkg>
 <pkg>wethepeople</pkg>
 <pkg>WDI</pkg>
 <pkg priority="core">XML</pkg>
@@ -727,7 +725,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="https://github.com/ropensci/neotoma">GitHub package: neotoma</a>
   <a href="https://github.com/jbryer/qualtrics">GitHub package: qualtrics</a>
   <a href="http://www.omegahat.org/R2GoogleMaps/">Omegahat package: R2GoogleMaps</a>
-  <a href="https://github.com/ropensci/rAltmetric">GitHub package: rAltmetic</a>
+  <a href="https://github.com/ropensci/rAltmetric">GitHub package: rAltmetric</a>
   <a href="http://www.omegahat.org/RAmazonDBREST">Omegahat package: RAmazonDBREST</a> 
   <a href="http://www.omegahat.org/RAmazonS3">Omegahat package: RAmazonS3</a>
   <a href="https://github.com/ropensci/rbhl">GitHub package: rbhl</a>

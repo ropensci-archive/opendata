@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-02-25
+  **Version:**      2014-02-26
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -185,8 +185,7 @@ Tools for Working with the Web from R
     research exposes a web API interfacing R, LaTeX and Pandoc. This API
     is used for example to integrate statistical functionality into
     systems, share and execute scripts or reports on centralized
-    servers, and build R based apps. See also
-    [opencpucran](http://cran.r-project.org/web/packages/opencpucran/index.html).
+    servers, and build R based apps.
 -   A package by [Yihui Xie](http://yihui.name/) called
     [servr](http://cran.r-project.org/web/packages/servr/index.html)
     provides a simple HTTP server to serve files under a given directory
@@ -202,6 +201,8 @@ Tools for Working with the Web from R
     replaces, is
     [websockets](http://cran.r-project.org/web/packages/websockets/index.html),
     also made by Joe Cheng.
+-   [websockets](http://cran.r-project.org/web/packages/websockets/index.html):
+    A simple HTML5 websocket interface for R, made by Joe Cheng.
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
@@ -329,9 +330,9 @@ Data Sources on the Web Accessible via R
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html):
     Exploratory data analysis and data visualization for biological
     sequence (DNA and protein) data.
--   [seq2R](http://cran.r-project.org/web/packages/seq2R/index.html):
+-   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/):
     Detect compositional changes in genomic sequences - with some
-    interaction with GenBank.
+    interaction with GenBank. Archived on CRAN.
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
     Visually Assessing the Specificity and Informativeness of Primer
     Pairs.
@@ -349,8 +350,8 @@ Data Sources on the Web Accessible via R
     created, station metadata is extracted. In addition functions for
     selecting individual variables and creating R friendly datasets for
     them is provided.
--   [BerkeleyEarth](http://cran.r-project.org/web/packages/BerkeleyEarth/index.html):
-    Data input for Berkeley Earth Surface Temperature.
+-   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/):
+    Data input for Berkeley Earth Surface Temperature. Archived on CRAN.
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html):
     An R Package for retrieval, analysis, and anomaly calculation of
     daily hydrologic time series data.
@@ -365,8 +366,8 @@ Data Sources on the Web Accessible via R
     consumption statistics at the local authority, MSOA, and LSOA
     geographies. Methods for calculating the generation mix of grid
     electricity and its associated carbon intensity are also provided.
--   [Metadata](http://cran.r-project.org/web/packages/Metadata/index.html):
-    Collates metadata for climate surface stations.
+-   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/):
+    Collates metadata for climate surface stations. Archived on CRAN.
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): A
     client for Sensor Observation Services (SOS) as specified by the
     Open Geospatial Consortium (OGC). It allows users to retrieve
@@ -455,7 +456,7 @@ Data Sources on the Web Accessible via R
     programmatic interface the Orcid.org API.
 -   [rpubmed](https://github.com/ropensci/rpubmed) (not on CRAN): Tools
     for extracting and processing Pubmed and Pubmed Central records.
--   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html):
+-   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html):
     Query and visualize metrics from Altmetric.com.
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html): R
     wrapper to the almetrics API platform developed by PLoS.
@@ -506,7 +507,7 @@ Data Sources on the Web Accessible via R
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
     Fetches data from DataMarket.com, either as timeseries in zoo form
     (dmseries) or as long-form data frames (dmlist).
--   [infochimps](http://cran.r-project.org/web/packages/infochimps/index.html):
+-   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
     An R wrapper for the infochimps.com API services, from [Drew
     Conway](http://drewconway.com/). The CRAN version is archived.
     Development [on Github](https://github.com/drewconway/infochimps).
@@ -547,11 +548,10 @@ Data Sources on the Web Accessible via R
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service imgur.com.
-    (also see the function `imgur_upload()` in
-    [knitr](http://cran.r-project.org/web/packages/knitr/index.html),
-    which uses the newer Imgur API version 3)
--   [RLastFM](http://cran.r-project.org/web/packages/RLastFM/index.html):
-    A package to interface to the last.fm API.
+    (also see the function `imgur_upload()` in knitr, which uses the
+    newer Imgur API version 3)
+-   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
+    package to interface to the last.fm API. Archived on CRAN.
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
     an R interface to a Ubigraph server for drawing interactive, dynamic
     graphs. You can add and remove vertices/nodes and edges in a graph
@@ -622,9 +622,6 @@ Data Sources on the Web Accessible via R
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
     An R client for interacting with the White House's "We The People"
     petition API.
--   [govdat](http://cran.r-project.org/web/packages/govdat/index.html):
-    Interface to various APIs for government data, including New York
-    Times congress API, and the Sunlight Foundation set of APIs.
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
     Functions to get public survey data in Japan.
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
@@ -696,7 +693,6 @@ Data Sources on the Web Accessible via R
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
--   [BerkeleyEarth](http://cran.r-project.org/web/packages/BerkeleyEarth/index.html)
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
@@ -717,7 +713,6 @@ Data Sources on the Web Accessible via R
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
--   [govdat](http://cran.r-project.org/web/packages/govdat/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
@@ -726,9 +721,7 @@ Data Sources on the Web Accessible via R
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
     (core)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
--   [infochimps](http://cran.r-project.org/web/packages/infochimps/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
--   [Metadata](http://cran.r-project.org/web/packages/Metadata/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
@@ -737,10 +730,13 @@ Data Sources on the Web Accessible via R
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
+-   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
+-   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
+-   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
--   [rAltmetic](http://cran.r-project.org/web/packages/rAltmetic/index.html)
+-   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html)
 -   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html)
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
@@ -748,6 +744,7 @@ Data Sources on the Web Accessible via R
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
+-   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
@@ -762,7 +759,6 @@ Data Sources on the Web Accessible via R
     (core)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
     (core)
--   [RLastFM](http://cran.r-project.org/web/packages/RLastFM/index.html)
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
 -   [RNCBI](http://cran.r-project.org/web/packages/RNCBI/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
@@ -774,13 +770,11 @@ Data Sources on the Web Accessible via R
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
--   [RTDAmeritrade](http://cran.r-project.org/web/packages/RTDAmeritrade/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [RWeather](http://cran.r-project.org/web/packages/RWeather/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
 -   [selectr](http://cran.r-project.org/web/packages/selectr/index.html)
--   [seq2R](http://cran.r-project.org/web/packages/seq2R/index.html)
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
@@ -797,6 +791,7 @@ Data Sources on the Web Accessible via R
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
+-   [websockets](http://cran.r-project.org/web/packages/websockets/index.html)
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
@@ -816,7 +811,7 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: qualtrics](https://github.com/jbryer/qualtrics)
 -   [Omegahat package:
     R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/)
--   [GitHub package: rAltmetic](https://github.com/ropensci/rAltmetric)
+-   [GitHub package: rAltmetric](https://github.com/ropensci/rAltmetric)
 -   [Omegahat package:
     RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
 -   [Omegahat package: RAmazonS3](http://www.omegahat.org/RAmazonS3)
