@@ -77,6 +77,9 @@ The <a href="http://www.omegahat.org/XMLSchema/">XMLSchema</a> package provides 
 <li>
 The <a href="http://www.omegahat.org/CGIwithR/">CGIwithR</a> package allows one to use R scripts as CGI programs for generating dynamic Web content. HTML forms and other mechanisms to submit dynamic requests can be used to provide input to R scripts via the Web to create content that is determined within that R script. 
 </li>
+<li>
+<pkg>httpRequest</pkg>: HTTP Request protocols. Implements the GET, POST and multipart POST request.
+</li>
 </ul>
 
 <p><strong>Authentication</strong></p>
@@ -226,6 +229,9 @@ Data Sources on the Web Accessible via R
 </li>
 <li>
 <pkg>primerTree</pkg>: Visually Assessing the Specificity and Informativeness of Primer Pairs.
+</li>
+<li>
+<pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.
 </li>
 </ul>
 
@@ -394,6 +400,9 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 </li>
 <li>
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
+</li>
+<li>
+<pkg>infochimps</pkg>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development <a href="https://github.com/drewconway/infochimps">on Github</a>.
 </li>
 </ul>
 
@@ -628,9 +637,12 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>govdat</pkg>
 <pkg>govStatJPN</pkg>
 <pkg>GuardianR</pkg>
+<pkg>hoardeR</pkg>
 <pkg>httpuv</pkg>
+<pkg>httpRequest</pkg>
 <pkg priority="core">httr</pkg>
 <pkg>imguR</pkg>
+<pkg>infochimps</pkg>
 <pkg>Metadata</pkg>
 <pkg>MTurkR</pkg>
 <pkg>NCBI2R</pkg>

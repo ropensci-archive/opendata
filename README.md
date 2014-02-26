@@ -142,6 +142,9 @@ Tools for Working with the Web from R
     HTML forms and other mechanisms to submit dynamic requests can be
     used to provide input to R scripts via the Web to create content
     that is determined within that R script.
+-   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html):
+    HTTP Request protocols. Implements the GET, POST and multipart POST
+    request.
 
 ### Authentication
 
@@ -332,6 +335,8 @@ Data Sources on the Web Accessible via R
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
     Visually Assessing the Specificity and Informativeness of Primer
     Pairs.
+-   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
+    Information retrieval from NCBI databases, with main focus on Blast.
 
 ### Earth Science
 
@@ -501,6 +506,10 @@ Data Sources on the Web Accessible via R
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
     Fetches data from DataMarket.com, either as timeseries in zoo form
     (dmseries) or as long-form data frames (dmlist).
+-   [infochimps](http://cran.r-project.org/web/packages/infochimps/index.html):
+    An R wrapper for the infochimps.com API services, from [Drew
+    Conway](http://drewconway.com/). The CRAN version is archived.
+    Development [on Github](https://github.com/drewconway/infochimps).
 
 ### Machine Learning as a Service
 
@@ -711,10 +720,13 @@ Data Sources on the Web Accessible via R
 -   [govdat](http://cran.r-project.org/web/packages/govdat/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
+-   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
+-   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html)
 -   [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
     (core)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
+-   [infochimps](http://cran.r-project.org/web/packages/infochimps/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
 -   [Metadata](http://cran.r-project.org/web/packages/Metadata/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
