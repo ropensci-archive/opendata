@@ -766,6 +766,11 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://www.omegahat.org/WADL/">Omegahat package: WADL</a> 
   <a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a>
   <a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">seq2R</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">Metadata</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>
 </links>
 
 </CRANTaskView>

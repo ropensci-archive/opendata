@@ -862,4 +862,9 @@ Data Sources on the Web Accessible via R
 -   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
 -   [GitHub package:
     RDatastream](https://github.com/fcocquemas/rdatastream)
+-   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
+-   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/)
+-   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/)
+-   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
+-   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
 
