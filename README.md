@@ -279,8 +279,6 @@ Data Sources on the Web Accessible via R
     Wrapper to the USGS Bison API.
 -   [neotoma](https://github.com/ropensci/neotoma) (not on CRAN):
     Programmatic R interface to the Neotoma Paleoecological Database.
--   [rnoaa](https://github.com/ropensci/rnoaa) (not on CRAN): R
-    interface to NOAA Climate data API.
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to
     the National Phenology Network database API.
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html):
@@ -314,6 +312,11 @@ Data Sources on the Web Accessible via R
     provides access to more than 2 million georeferenced specimen
     records from the Berkeley Natural History Museums.
     [http://bnhm.berkeley.edu/](http://bnhm.berkeley.edu/)
+-   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
+    programmatic interface to many species occurrence data sources,
+    including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
+    Engine eBird, AntWeb, and more as they sources become easily
+    available.
 
 ### Genes and Genomes
 
@@ -385,6 +388,11 @@ Data Sources on the Web Accessible via R
     Functions that help in fetching weather data from websites. Given a
     location and a date range, these functions help fetch weather data
     (temperature, pressure etc.) for any weather related analysis.
+-   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html):
+    A collection of functions for reading data from USDA-NCSS soil
+    databases.
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html): R
+    interface to NOAA Climate data API.
 
 ### Economics and Business
 
@@ -407,8 +415,8 @@ Data Sources on the Web Accessible via R
     with some convenience functions for retrieving Datastream data
     specifically.
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html):
-    Specify, build, trade, and analyse quantitative financial trading
-    strategies
+    Functions for financial quantitative modelling as well as data
+    acqusition, plotting and other utilities.
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html):
     Connects to TrueFX(tm) for free streaming real-time and historical
     tick-by-tick market data for dealable interbank foreign exchange
@@ -422,6 +430,9 @@ Data Sources on the Web Accessible via R
     error handling.
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
     Interacts with the [Thinknum](http://www.thinknum.com/) API.
+-   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
+    A package for downloading economic and financial time series from
+    public sources.
 
 ### Chemistry
 
@@ -477,6 +488,8 @@ Data Sources on the Web Accessible via R
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html):
     Harvest metadata using the Open Archives Initiative Protocol for
     Metadata Harvesting (OAI-PMH).
+-   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html):
+    Import and Manage BibTeX and BibLaTeX references with RefManager.
 
 ### Marketing
 
@@ -729,6 +742,7 @@ Data Sources on the Web Accessible via R
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
+-   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
@@ -745,6 +759,7 @@ Data Sources on the Web Accessible via R
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
+-   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
@@ -762,6 +777,7 @@ Data Sources on the Web Accessible via R
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
 -   [RNCBI](http://cran.r-project.org/web/packages/RNCBI/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
@@ -779,7 +795,9 @@ Data Sources on the Web Accessible via R
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     (core)
+-   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
+-   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
 -   [SynergizeR](http://cran.r-project.org/web/packages/SynergizeR/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
@@ -839,7 +857,6 @@ Data Sources on the Web Accessible via R
 -   [Omegahat package: RKMLDevice](http://www.omegahat.org/RKMLDevice/)
 -   [GitHub package: rmetadata](https://github.com/ropensci/rmetadata)
 -   [GitHub package: rnbn](https://github.com/JNCC-UK/rnbn)
--   [GitHub package: rnoaa](https://github.com/ropensci/rnoaa)
 -   [GitHub package: rnpn](https://github.com/ropensci/rnpn)
 -   [Omegahat package: RNYTimes](http://www.omegahat.org/RNYTimes)
 -   [GitHub package: rorcid](https://github.com/ropensci/rorcid)

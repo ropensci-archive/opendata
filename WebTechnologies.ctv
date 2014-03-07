@@ -183,9 +183,6 @@ Data Sources on the Web Accessible via R
 <a href="https://github.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
 </li>
 <li>
-<a href="https://github.com/ropensci/rnoaa">rnoaa</a> (not on CRAN): R interface to NOAA Climate data API.
-</li>
-<li>
 <a href="https://github.com/ropensci/rnpn">rnpn</a> (not on CRAN): Wrapper to the National Phenology Network database API.
 </li>
 <li>
@@ -208,6 +205,9 @@ Data Sources on the Web Accessible via R
 </li>
 <li>
 <pkg>ecoengine</pkg>: The ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
+</li>
+<li>
+<pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available.
 </li>
 </ul>
 
@@ -271,6 +271,12 @@ Data Sources on the Web Accessible via R
 <li>
 <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
 </li>
+<li>
+<pkg>soilDB</pkg>: A collection of functions for reading data from USDA-NCSS soil databases.
+</li>
+<li>
+<pkg>rnoaa</pkg>: R interface to NOAA Climate data API.
+</li>
 </ul>
 
 <p><strong>Economics and Business</strong></p>
@@ -290,7 +296,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
 </li>
 <li>
-<pkg>quantmod</pkg>: Specify, build, trade, and analyse quantitative financial trading strategies
+<pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acqusition, plotting and other utilities.
 </li>
 <li>
 <pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
@@ -303,6 +309,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 <li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API. 
+</li>
+<li>
+<pkg>pdfetch</pkg>: A package for downloading economic and financial time series from public sources.
 </li>
 </ul>
 
@@ -366,6 +375,9 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 </li>
 <li>
 <pkg>OAIHarvester</pkg>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).
+</li>
+<li>
+<pkg>RefManageR</pkg>: Import and Manage BibTeX and BibLaTeX references with RefManager.
 </li>
 </ul>
 
@@ -647,6 +659,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>OAIHarvester</pkg>
 <pkg>opencpu</pkg>
 <pkg>osmar</pkg>
+<pkg>pdfetch</pkg>
 <pkg>pitchRx</pkg>
 <pkg>plotGoogleMaps</pkg>
 <pkg>plotKML</pkg>
@@ -661,6 +674,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg priority="core">RCurl</pkg>
 <pkg>rdatamarket</pkg>
 <pkg>rebird</pkg>
+<pkg>RefManageR</pkg>
 <pkg>Reol</pkg>
 <pkg>rentrez</pkg>
 <pkg>repmis</pkg>
@@ -674,6 +688,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>RgoogleMaps</pkg>
 <pkg priority="core">rjson</pkg>
 <pkg priority="core">RJSONIO</pkg>
+<pkg>rnoaa</pkg>
 <pkg>jsonlite</pkg>
 <pkg>RMendeley</pkg>
 <pkg>RNCBI</pkg>
@@ -695,7 +710,9 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>seqinr</pkg>
 <pkg>servr</pkg>
 <pkg priority="core">shiny</pkg>
+<pkg>soilDB</pkg>
 <pkg>sos4R</pkg>
+<pkg>spocc</pkg>
 <pkg>streamR</pkg>
 <pkg>SynergizeR</pkg>
 <pkg>taxize</pkg>
@@ -746,7 +763,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://www.omegahat.org/RKMLDevice/">Omegahat package: RKMLDevice</a> 
   <a href="https://github.com/ropensci/rmetadata">GitHub package: rmetadata</a>
   <a href="https://github.com/JNCC-UK/rnbn">GitHub package: rnbn</a>
-  <a href="https://github.com/ropensci/rnoaa">GitHub package: rnoaa</a>
   <a href="https://github.com/ropensci/rnpn">GitHub package: rnpn</a>
   <a href="http://www.omegahat.org/RNYTimes">Omegahat package: RNYTimes</a>
   <a href="https://github.com/ropensci/rorcid">GitHub package: rorcid</a>
