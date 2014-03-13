@@ -517,6 +517,9 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 <li>
 <a href="http://www.omegahat.org/RKMLDevice/">RKMLDevice</a> allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps). 
 </li>
+<li>
+<a href="http://cran.r-project.org/web/packages/leafletR/index.html/">LeafletR</a> allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
+</li>
 </ul>
 
 <p><strong>Social media</strong></p>
