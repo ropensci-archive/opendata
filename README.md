@@ -615,6 +615,9 @@ Data Sources on the Web Accessible via R
 -   [RKMLDevice](http://www.omegahat.org/RKMLDevice/) allows to create R
     graphics in KML format in a manner that allows them to be displayed
     on Google Earth (or Google Maps).
+-   [LeafletR](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/leafletR/index.html/)
+    allows you to display your spatial data on interactive web-maps
+    using the open-source JavaScript library Leaflet.
 
 ### Social media
 
