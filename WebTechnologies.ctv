@@ -537,6 +537,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <li>
 <pkg>Rfacebook</pkg>: Provides an interface to the Facebook API.
 </li>
+<li>
+<pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data.
+</li>
 </ul>
 
 <p><strong>Government</strong></p>
