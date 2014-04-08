@@ -632,6 +632,10 @@ Data Sources on the Web Accessible via R
     service.
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
     Provides an interface to the Facebook API.
+-   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
+    has been designed to to facilitate the retrieval of Google+
+    profiles, pages and posts. It also provides search facilities.
+    Currently a Google+ API key is required for accessing Google+ data.
 
 ### Government
 
