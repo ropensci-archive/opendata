@@ -397,6 +397,13 @@ Data Sources on the Web Accessible via R
     databases.
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html): R
     interface to NOAA Climate data API.
+-   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html):
+    A package that downloads and processes Global Historical Climatology
+    Network (GHCN) daily data from the National Climatic Data Center
+    (NCDC).
+-   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html):
+    Retrieves Oklahoma (USA) Mesonet climatological data provided by the
+    Oklahoma Climatological Survey.
 
 ### Economics and Business
 
@@ -414,6 +421,9 @@ Data Sources on the Web Accessible via R
     Interface for the REST API of Statistics Sweden. Fetch information
     on data hierarchy stored behind the API; extract metadata; fetch
     actual data; and clean up results.
+-   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
+    Contains functions to download and format longitudinal datasets from
+    the Panel Study of Income Dynamics (PSID).
 
 ### Finance
 
@@ -446,6 +456,8 @@ Data Sources on the Web Accessible via R
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
     A package for downloading economic and financial time series from
     public sources.
+-   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
+    Includes the `get.hist.quote` for historical financial data.
 
 ### Chemistry
 
@@ -763,6 +775,7 @@ Data Sources on the Web Accessible via R
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
+-   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
@@ -780,6 +793,7 @@ Data Sources on the Web Accessible via R
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
+-   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html)
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html)
@@ -787,6 +801,7 @@ Data Sources on the Web Accessible via R
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
+-   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
@@ -849,6 +864,7 @@ Data Sources on the Web Accessible via R
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
+-   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
