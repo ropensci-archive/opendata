@@ -280,6 +280,12 @@ Data Sources on the Web Accessible via R
 <li>
 <pkg>rnoaa</pkg>: R interface to NOAA Climate data API.
 </li>
+<li>
+<pkg>GhcnDaily</pkg>: A package that downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
+</li>
+<li>
+<pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
+</li>
 </ul>
 
 <p><strong>Economics and Business</strong></p>
@@ -293,6 +299,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 <li>
 <pkg>sweSCB</pkg>: Interface for the REST API of Statistics Sweden. Fetch information on data hierarchy stored behind the API; extract metadata; fetch actual data; and clean up results.
+</li>
+<li>
+<pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 </li>
 </ul>
 
@@ -321,6 +330,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 <li>
 <pkg>pdfetch</pkg>: A package for downloading economic and financial time series from public sources.
+</li>
+<li>
+<pkg>tseries</pkg>: Includes the <code>get.hist.quote</code> for historical financial data.
 </li>
 </ul>
 
@@ -669,6 +681,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>fImport</pkg>
 <pkg>flora</pkg>
 <pkg>ggmap</pkg>
+<pkg>GhcnDaily</pkg>
 <pkg>gooJSON</pkg>
 <pkg>googlePublicData</pkg>
 <pkg>googleVis</pkg>
@@ -684,6 +697,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>ngramr</pkg> 
 <pkg>nhlscrapr</pkg>
 <pkg>OAIHarvester</pkg>
+<pkg>okmesonet</pkg>
 <pkg>opencpu</pkg>
 <pkg>osmar</pkg>
 <pkg>pdfetch</pkg>
@@ -691,6 +705,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>plotGoogleMaps</pkg>
 <pkg>plotKML</pkg>
 <pkg>primerTree</pkg>
+<pkg>psidR</pkg>
 <pkg>pubmed.mineR</pkg>
 <pkg>Quandl</pkg>
 <pkg>quantmod</pkg>
@@ -750,6 +765,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>Thinknum</pkg>
 <pkg>tm.plugin.webmining</pkg>
 <pkg>translate</pkg>
+<pkg>tseries</pkg>
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
 <pkg>weatherData</pkg>
