@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-03-06
+  **Version:**      2014-04-15
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -341,6 +341,10 @@ Data Sources on the Web Accessible via R
     Pairs.
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
     Information retrieval from NCBI databases, with main focus on Blast.
+-   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html):
+    Download content from NCBI databases. Intended for analyses of NCBI
+    database content, not reference management. See rpubmed for more
+    literature oriented stuff from NCBI.
 
 ### Earth Science
 
@@ -406,6 +410,10 @@ Data Sources on the Web Accessible via R
     (e.g. size of property and lot, number of bedrooms and bathrooms,
     year built.) about a given property, and to get comparable
     properties.
+-   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html):
+    Interface for the REST API of Statistics Sweden. Fetch information
+    on data hierarchy stored behind the API; extract metadata; fetch
+    actual data; and clean up results.
 
 ### Finance
 
@@ -414,6 +422,11 @@ Data Sources on the Web Accessible via R
     API](http://dataworks.thomson.com/Dataworks/Enterprise/1.0/) (paid),
     with some convenience functions for retrieving Datastream data
     specifically.
+-   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on
+    CRAN): Another package for accessing the Datastream service. This
+    package downloads data from the Thomson Reuters DataStream DWE
+    server, which provides XML access to the Datstream database of
+    economic and financial information.
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html):
     Functions for financial quantitative modelling as well as data
     acqusition, plotting and other utilities.
@@ -490,6 +503,19 @@ Data Sources on the Web Accessible via R
     Metadata Harvesting (OAI-PMH).
 -   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html):
     Import and Manage BibTeX and BibLaTeX references with RefManager.
+-   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html):
+    An R package for text mining of [PubMed
+    Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching
+    text and XML from PubMed.
+-   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html):
+    Retrieve structured text data from various web sources. Facilitates
+    text retrieval from feed formats like XML (RSS, ATOM) and JSON. Also
+    direct retrieval from HTML is supported. As most (news) feeds only
+    incorporate small fractions of the original text tm.plugin.webmining
+    even retrieves and extracts the text of the original text source.
+    See [the
+    vignette](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/tm.plugin.webmining/vignettes/ShortIntro.pdf)
+    for an intro.
 
 ### Marketing
 
@@ -675,6 +701,13 @@ Data Sources on the Web Accessible via R
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
     Visualization of spatial and spatio-temporal objects in Google
     Earth.
+-   [bigrquery](https://github.com/hadley/bigrquery) (not on CRAN): An
+    interface to Google's bigquery from R.
+-   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN):
+    An R interface to Google Fusion Tables. Google Fusion Tables is a
+    data mangement system in the cloud. This package provides R
+    functions to browse Fusion Tables catalog, retrieve data from Gusion
+    Tables dtd storage to R and to upload data from R to Fusion Tables
 
 ### Amazon Web Services
 
@@ -754,6 +787,7 @@ Data Sources on the Web Accessible via R
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
+-   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
@@ -777,6 +811,7 @@ Data Sources on the Web Accessible via R
 -   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
+-   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
     (core)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
@@ -806,10 +841,12 @@ Data Sources on the Web Accessible via R
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
+-   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html)
 -   [SynergizeR](http://cran.r-project.org/web/packages/SynergizeR/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
+-   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
@@ -825,9 +862,9 @@ Data Sources on the Web Accessible via R
 
 ### Related links:
 
--   [GitHub package: alm](https://github.com/ropensci/alm)
 -   [GitHub package: animint](https://github.com/tdhock/animint)
 -   [Omegahat package: Aspell](http://www.omegahat.org/Aspell/)
+-   [GitHub package: bigrquery](https://github.com/hadley/bigrquery)
 -   [Omegahat package: CGIwithR](http://www.omegahat.org/CGIwithR/)
 -   [GitHub package: clickme](https://github.com/nachocab/clickme)
 -   [Omegahat package: GeoIP](http://www.omegahat.org/GeoIP/)
@@ -836,7 +873,6 @@ Data Sources on the Web Accessible via R
 -   [GitHub package: qualtrics](https://github.com/jbryer/qualtrics)
 -   [Omegahat package:
     R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/)
--   [GitHub package: rAltmetric](https://github.com/ropensci/rAltmetric)
 -   [Omegahat package:
     RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
 -   [Omegahat package: RAmazonS3](http://www.omegahat.org/RAmazonS3)
@@ -886,9 +922,12 @@ Data Sources on the Web Accessible via R
 -   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
 -   [GitHub package:
     RDatastream](https://github.com/fcocquemas/rdatastream)
+-   [GitHub package:
+    Datastream2R](https://github.com/CharlesCara/Datastream2R)
 -   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
 -   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/)
 -   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/)
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
+-   [GFusionTables](http://gfusiontables.lopatenko.com/)
 
