@@ -121,6 +121,9 @@ The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to p
 The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.
 </li>
 <li>The <a href="https://github.com/johndharrison/RSelenium">RSelenium</a> package (not on CRAN) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).</li>
+<li>
+<a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
+</li>
 </ul>
 
 <p><strong>JavaScript</strong></p>
@@ -711,6 +714,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>quantmod</pkg>
 <pkg>rAltmetric</pkg>
 <pkg>raincpc</pkg>
+<pkg>rapport</pkg>
 <pkg>rbhl</pkg>
 <pkg>Rbitcoin</pkg>
 <pkg>Rcolombos</pkg>
