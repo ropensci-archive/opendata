@@ -227,6 +227,9 @@ Tools for Working with the Web from R
     interacting with popular projects such as
     [shiny](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/shiny/index.html)
     and [sauceLabs](http://saucelabs.com).
+-   [rapporter.net](http://rapporter.net) provides an online environment
+    (SaaS) to host and run [rapport](http://cran.r-project.org/web/packages/websockets/index.html)
+    statistical report templates in the cloud.
 
 ### JavaScript
 
