@@ -228,7 +228,8 @@ Tools for Working with the Web from R
     [shiny](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/shiny/index.html)
     and [sauceLabs](http://saucelabs.com).
 -   [rapporter.net](http://rapporter.net) provides an online environment
-    (SaaS) to host and run [rapport](http://cran.r-project.org/web/packages/websockets/index.html)
+    (SaaS) to host and run
+    [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
 
 ### JavaScript
@@ -810,6 +811,7 @@ Data Sources on the Web Accessible via R
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html)
+-   [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
 -   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html)
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
