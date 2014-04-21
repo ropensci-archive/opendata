@@ -18,3 +18,6 @@ pandoc:
 
 cleanup:
 	rm doc.html doc2.html doc3.html doc4.html
+
+makejson:
+	xml2json < WebTechnologies.ctv > webservices.json
