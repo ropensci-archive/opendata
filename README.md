@@ -231,6 +231,12 @@ Tools for Working with the Web from R
     (SaaS) to host and run
     [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
+-   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
+    framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
+    to run R code from wiki pages, and use data from their own collected
+    web databases (trackers). A demo:
+    [http://r.tiki.org](http://r.tiki.org/tiki-index.php). More info in
+    a [useR!2013 presentation](http://ueb.vhir.org/2011+UseR).
 
 ### JavaScript
 
