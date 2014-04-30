@@ -661,6 +661,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides functions to interact with the Qualtrics online survey tool.
 </li>
+<li>
+<pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
+</li>
 </ul>
 
 </info>
@@ -732,6 +735,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>rfigshare</pkg>
 <pkg>rfisheries</pkg>
 <pkg>rfishbase</pkg>
+<pkg>RForcecom</pkg>
 <pkg>rgauges</pkg>
 <pkg>rgbif</pkg>
 <pkg>rbison</pkg>

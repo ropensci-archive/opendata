@@ -761,6 +761,9 @@ Data Sources on the Web Accessible via R
 -   The [qualtrics](https://github.com/jbryer/qualtrics) package
     provides functions to interact with the Qualtrics online survey
     tool.
+-   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
+    RForcecom provides a connection to Force.com and Salesforce.com from
+    R.
 
 ### CRAN packages:
 
@@ -834,6 +837,7 @@ Data Sources on the Web Accessible via R
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html)
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html)
+-   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html)
 -   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
