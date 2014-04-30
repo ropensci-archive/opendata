@@ -106,10 +106,10 @@ This API is used for example to integrate statistical functionality into systems
 A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> provides a simple HTTP server to serve files under a given directory based on the <pkg>httpuv</pkg> package.
 </li>
 <li>
-The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is <pkg>websockets</pkg>, also made by Joe Cheng.
+The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is websockets, also made by Joe Cheng.
 </li>
 <li>
-<pkg>websockets</pkg>: A simple HTML5 websocket interface for R, made by Joe Cheng.
+<a href="https://github.com/rstudio/R-Websockets">websockets</a> A simple HTML5 websocket interface for R, by Joe Cheng. (not on CRAN)
 </li>
 <li>
 Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
@@ -713,6 +713,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>pitchRx</pkg>
 <pkg>plotGoogleMaps</pkg>
 <pkg>plotKML</pkg>
+<pkg>plusser</pkg>
 <pkg>primerTree</pkg>
 <pkg>psidR</pkg>
 <pkg>pubmed.mineR</pkg>
@@ -780,7 +781,6 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>twitteR</pkg>
 <pkg>waterData</pkg>
 <pkg>weatherData</pkg>
-<pkg>websockets</pkg>
 <pkg>wethepeople</pkg>
 <pkg>WDI</pkg>
 <pkg priority="core">XML</pkg>
@@ -840,12 +840,14 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a>
   <a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
   <a href="https://github.com/CharlesCara/Datastream2R">GitHub package: Datastream2R</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">seq2R</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">Metadata</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">CRAN archived package: seq2R</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">CRAN archived package: BerkeleyEarth</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">CRAN archived package: Metadata</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">CRAN archived package: infochimps</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">CRAN archived package: RLastFM</a>
   <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a>
+  <a href="https://github.com/rstudio/R-Websockets">GitHub package: websockets</a>
+  <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a>
 </links>
 
 </CRANTaskView>

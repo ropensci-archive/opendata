@@ -198,11 +198,9 @@ Tools for Working with the Web from R
     protocol support for handling HTTP and WebSocket requests directly
     within R. Another related package, perhaps which
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
-    replaces, is
-    [websockets](http://cran.r-project.org/web/packages/websockets/index.html),
-    also made by Joe Cheng.
--   [websockets](http://cran.r-project.org/web/packages/websockets/index.html):
-    A simple HTML5 websocket interface for R, made by Joe Cheng.
+    replaces, is websockets, also made by Joe Cheng.
+-   [websockets](https://github.com/rstudio/R-Websockets) A simple HTML5
+    websocket interface for R, by Joe Cheng. (not on CRAN)
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
@@ -813,6 +811,7 @@ Data Sources on the Web Accessible via R
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
+-   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
@@ -884,7 +883,6 @@ Data Sources on the Web Accessible via R
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
--   [websockets](http://cran.r-project.org/web/packages/websockets/index.html)
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
@@ -955,10 +953,19 @@ Data Sources on the Web Accessible via R
     RDatastream](https://github.com/fcocquemas/rdatastream)
 -   [GitHub package:
     Datastream2R](https://github.com/CharlesCara/Datastream2R)
--   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
--   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/)
--   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/)
--   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
--   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
+-   [CRAN archived package:
+    seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
+-   [CRAN archived package:
+    BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/)
+-   [CRAN archived package:
+    Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/)
+-   [CRAN archived package:
+    infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
+-   [CRAN archived package:
+    RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
 -   [GFusionTables](http://gfusiontables.lopatenko.com/)
+-   [GitHub package:
+    websockets](https://github.com/rstudio/R-Websockets)
+-   [CRAN archived package:
+    websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
 

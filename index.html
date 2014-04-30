@@ -58,8 +58,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li>The <a href="http://cran.r-project.org/web/packages/Rook/index.html">Rook</a> web server interface contains the specification and convenience software for building and running Rook applications.</li>
 <li>The <a href="http://cran.r-project.org/web/packages/opencpu/index.html">opencpu</a> framework for embedded statistical computation and reproducible research exposes a web API interfacing R, LaTeX and Pandoc. This API is used for example to integrate statistical functionality into systems, share and execute scripts or reports on centralized servers, and build R based apps.</li>
 <li>A package by <a href="http://yihui.name/">Yihui Xie</a> called <a href="http://cran.r-project.org/web/packages/servr/index.html">servr</a> provides a simple HTTP server to serve files under a given directory based on the <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package.</li>
-<li>The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> replaces, is <a href="http://cran.r-project.org/web/packages/websockets/index.html">websockets</a>, also made by Joe Cheng.</li>
-<li><a href="http://cran.r-project.org/web/packages/websockets/index.html">websockets</a>: A simple HTML5 websocket interface for R, made by Joe Cheng.</li>
+<li>The <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <a href="http://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a> replaces, is websockets, also made by Joe Cheng.</li>
+<li><a href="https://github.com/rstudio/R-Websockets">websockets</a> A simple HTML5 websocket interface for R, by Joe Cheng. (not on CRAN)</li>
 <li>Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.</li>
 <li>The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.</li>
 <li>The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.</li>
@@ -326,6 +326,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/pitchRx/index.html">pitchRx</a></li>
 <li><a href="http://cran.r-project.org/web/packages/plotGoogleMaps/index.html">plotGoogleMaps</a></li>
 <li><a href="http://cran.r-project.org/web/packages/plotKML/index.html">plotKML</a></li>
+<li><a href="http://cran.r-project.org/web/packages/plusser/index.html">plusser</a></li>
 <li><a href="http://cran.r-project.org/web/packages/primerTree/index.html">primerTree</a></li>
 <li><a href="http://cran.r-project.org/web/packages/psidR/index.html">psidR</a></li>
 <li><a href="http://cran.r-project.org/web/packages/pubmed.mineR/index.html">pubmed.mineR</a></li>
@@ -393,7 +394,6 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/waterData/index.html">waterData</a></li>
 <li><a href="http://cran.r-project.org/web/packages/WDI/index.html">WDI</a></li>
 <li><a href="http://cran.r-project.org/web/packages/weatherData/index.html">weatherData</a></li>
-<li><a href="http://cran.r-project.org/web/packages/websockets/index.html">websockets</a></li>
 <li><a href="http://cran.r-project.org/web/packages/wethepeople/index.html">wethepeople</a></li>
 <li><a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> (core)</li>
 <li><a href="http://cran.r-project.org/web/packages/XML2R/index.html">XML2R</a></li>
@@ -452,10 +452,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a></li>
 <li><a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a></li>
 <li><a href="https://github.com/CharlesCara/Datastream2R">GitHub package: Datastream2R</a></li>
-<li><a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">seq2R</a></li>
-<li><a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a></li>
-<li><a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">Metadata</a></li>
-<li><a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a></li>
-<li><a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">CRAN archived package: seq2R</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">CRAN archived package: BerkeleyEarth</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">CRAN archived package: Metadata</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">CRAN archived package: infochimps</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">CRAN archived package: RLastFM</a></li>
 <li><a href="http://gfusiontables.lopatenko.com/">GFusionTables</a></li>
+<li><a href="https://github.com/rstudio/R-Websockets">GitHub package: websockets</a></li>
+<li><a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a></li>
 </ul>
