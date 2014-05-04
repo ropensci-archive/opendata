@@ -693,6 +693,8 @@ Data Sources on the Web Accessible via R
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
+-   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
+    An R client for the Huffpost Pollster API.
 
 ### Google Web Services
 
@@ -812,6 +814,7 @@ Data Sources on the Web Accessible via R
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
 -   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
+-   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)

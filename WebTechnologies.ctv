@@ -587,6 +587,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <li>
 <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
 </li>
+<li>
+<pkg>pollstR</pkg>: An R client for the Huffpost Pollster API.  
+</li>  
 </ul>
 
 <p><strong>Google Web Services</strong></p>
@@ -714,6 +717,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>plotGoogleMaps</pkg>
 <pkg>plotKML</pkg>
 <pkg>plusser</pkg>
+<pkg>pollstR</pkg>
 <pkg>primerTree</pkg>
 <pkg>psidR</pkg>
 <pkg>pubmed.mineR</pkg>
