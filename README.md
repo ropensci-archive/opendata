@@ -685,16 +685,22 @@ Data Sources on the Web Accessible via R
 
 ### Government
 
--   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
-    An R client for interacting with the White House's "We The People"
-    petition API.
--   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
-    Functions to get public survey data in Japan.
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
+-   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
+    Client package for the U.S. Federal Register API.
+-   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
+    Functions to get public survey data in Japan.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
     An R client for the Huffpost Pollster API.
+-   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
+    Access U.S. Federal Government Recall Data.
+-   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
+    ProPublica API Client.
+-   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
+    An R client for interacting with the White House's "We The People"
+    petition API.
 
 ### Google Web Services
 
