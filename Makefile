@@ -1,9 +1,9 @@
-all: dorstuff sed pandoc cleanup
+all: r sed pandoc cleanup
 
 getdumber:
 	sed 's@<li class="removeme">.\+<\/li>@ @g' WebTechnologies.ctv > WebTechnologiesDumber.ctv
 
-dorstuff:	
+r:
 	Rscript --vanilla -e 'if(!require("ctv")) install.packages("ctv"); library("ctv"); ctv2html("WebTechnologies.ctv")'
 
 sed:
@@ -19,5 +19,5 @@ pandoc:
 cleanup:
 	rm doc.html doc2.html doc3.html doc4.html
 
-makejson:
+json:
 	xml2json < WebTechnologies.ctv > webservices.json
