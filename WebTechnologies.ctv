@@ -597,6 +597,12 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <a href="https://github.com/ropengov/RPublica">RPublica</a> (not on CRAN): ProPublica API Client.
 </li>
 <li>
+<a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
+</li>
+<li>
+<a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+</li>
+<li>
 <pkg>wethepeople</pkg>: An R client for interacting with the White House's "We The People" petition API.
 </li>
 </ul>
@@ -864,6 +870,8 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="https://github.com/ropengov/federalregister">GitHub package: federalregister</a>
   <a href="https://github.com/ropengov/recalls">GitHub package: recalls</a>
   <a href="https://github.com/ropengov/RPublica">GitHub package: RPublica</a>
+  <a href="https://github.com/ropengov/rsunlight">GitHub package: rsunlight</a>
+  <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
 </links>
 
 </CRANTaskView>

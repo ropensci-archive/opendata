@@ -1701,6 +1701,20 @@
 							"$t": "(not on CRAN): ProPublica API Client."
 						},
 						{
+							"a": {
+								"href": "https://github.com/ropengov/rsunlight",
+								"$t": "rsunlight"
+							},
+							"$t": "(not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv."
+						},
+						{
+							"a": {
+								"href": "https://github.com/ropengov/rtimes",
+								"$t": "rtimes"
+							},
+							"$t": "(not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure."
+						},
+						{
 							"pkg": {
 								"$t": "wethepeople"
 							},
@@ -2474,6 +2488,14 @@
 				{
 					"href": "https://github.com/ropengov/RPublica",
 					"$t": "GitHub package: RPublica"
+				},
+				{
+					"href": "https://github.com/ropengov/rsunlight",
+					"$t": "GitHub package: rsunlight"
+				},
+				{
+					"href": "https://github.com/ropengov/rtimes",
+					"$t": "GitHub package: rtimes"
 				}
 			]
 		}
