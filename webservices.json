@@ -1668,10 +1668,11 @@
 							"$t": ": Download, manipulate, and present data from the US Census American Community Survey."
 						},
 						{
-							"pkg": {
+							"a": {
+								"href": "https://github.com/ropengov/federalregister",
 								"$t": "federalregister"
 							},
-							"$t": ": Client package for the U.S. Federal Register API."
+							"$t": "(not on CRAN): Client package for the U.S. Federal Register API."
 						},
 						{
 							"pkg": {
@@ -1686,16 +1687,18 @@
 							"$t": ": An R client for the Huffpost Pollster API."
 						},
 						{
-							"pkg": {
+							"a": {
+								"href": "https://github.com/ropengov/recalls",
 								"$t": "recalls"
 							},
-							"$t": ": Access U.S. Federal Government Recall Data."
+							"$t": "(not on CRAN): Access U.S. Federal Government Recall Data."
 						},
 						{
-							"pkg": {
+							"a": {
+								"href": "https://github.com/ropengov/RPublica",
 								"$t": "RPublica"
 							},
-							"$t": ": ProPublica API Client."
+							"$t": "(not on CRAN): ProPublica API Client."
 						},
 						{
 							"pkg": {
@@ -2459,6 +2462,18 @@
 				{
 					"href": "http://cran.r-project.org/src/contrib/Archive/websockets/",
 					"$t": "CRAN archived package: websockets"
+				},
+				{
+					"href": "https://github.com/ropengov/federalregister",
+					"$t": "GitHub package: federalregister"
+				},
+				{
+					"href": "https://github.com/ropengov/recalls",
+					"$t": "GitHub package: recalls"
+				},
+				{
+					"href": "https://github.com/ropengov/RPublica",
+					"$t": "GitHub package: RPublica"
 				}
 			]
 		}

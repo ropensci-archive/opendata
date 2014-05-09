@@ -688,15 +688,15 @@ Data Sources on the Web Accessible via R
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
--   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
-    Client package for the U.S. Federal Register API.
+-   [federalregister](https://github.com/ropengov/federalregister) (not
+    on CRAN): Client package for the U.S. Federal Register API.
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
     Functions to get public survey data in Japan.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
     An R client for the Huffpost Pollster API.
--   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
-    Access U.S. Federal Government Recall Data.
--   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
+-   [recalls](https://github.com/ropengov/recalls) (not on CRAN): Access
+    U.S. Federal Government Recall Data.
+-   [RPublica](https://github.com/ropengov/RPublica) (not on CRAN):
     ProPublica API Client.
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
     An R client for interacting with the White House's "We The People"
@@ -977,4 +977,8 @@ Data Sources on the Web Accessible via R
     websockets](https://github.com/rstudio/R-Websockets)
 -   [CRAN archived package:
     websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
+-   [GitHub package:
+    federalregister](https://github.com/ropengov/federalregister)
+-   [GitHub package: recalls](https://github.com/ropengov/recalls)
+-   [GitHub package: RPublica](https://github.com/ropengov/RPublica)
 
