@@ -19,7 +19,7 @@ Tools for Working with the Web from R
 txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: <code>read.csv("http://...")</code>, but not <code>read.csv("https://...")</code>.
 </li>
 <li>
-The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to load plain-text data from a URL (either http or https).
+The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to load and cache plain-text data from a URL (either http or https). It also includes <code>source_Dropbox()</code> for downloading/caching plain-text data from non-public Dropbox folders and <code>source_XlsxData()</code> for downloading/caching Excel xlsx sheets.
 </li>
 <li>
 The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>.
@@ -148,6 +148,9 @@ The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware fr
 </li>
 <li>
 The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package provides a means of evaluating JavaScript code, creating JavaScript objects and calling JavaScript functions and methods from within R. This can work by embedding the JavaScript engine within an R session or by embedding R in an browser such as Firefox and being able to call R from JavaScript and call back to JavaScript from R.
+</li>
+<li>
+<pkg>d3Network</pkg>: Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.
 </li>
 </ul>
 
@@ -696,6 +699,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>CHCN</pkg>
 <pkg>cimis</pkg>
 <pkg>crn</pkg>
+<pkg>d3Network</pkg>
 <pkg>datamart</pkg>
 <pkg>dataone</pkg>
 <pkg>decctools</pkg>
