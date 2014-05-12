@@ -25,7 +25,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <h3 id="parsing-data-from-the-web">Parsing Data from the Web</h3>
 <ul>
 <li>txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: <code>read.csv(&quot;http://...&quot;)</code>, but not <code>read.csv(&quot;https://...&quot;)</code>.</li>
-<li>The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to load plain-text data from a URL (either http or https).</li>
+<li>The <a href="http://cran.r-project.org/web/packages/repmis/index.html">repmis</a> package contains a <code>source_data()</code> command to load and cache plain-text data from a URL (either http or https). It also includes <code>source_Dropbox()</code> for downloading/caching plain-text data from non-public Dropbox folders and <code>source_XlsxData()</code> for downloading/caching Excel xlsx sheets.</li>
 <li>The package <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>.</li>
 <li><a href="http://cran.r-project.org/web/packages/XML2R/index.html">XML2R</a>: The XML2R package is a collection of convenient functions for coercing XML into data frames. The development version is on GitHub <a href="https://github.com/cpsievert/XML2R">here</a>.</li>
 <li>An alternative to <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.</li>
@@ -75,6 +75,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="https://github.com/nachocab/clickme">clickme</a> (not on CRAN) is an R package to create interactive plots.</li>
 <li><a href="https://github.com/tdhock/animint">animint</a> (not on CRAN) allows an interactive animation to be defined using a list of ggplots with clickSelects and showSelected aesthetics, then exported to CSV/JSON/D3/JavaScript for viewing in a web browser.</li>
 <li>The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package provides a means of evaluating JavaScript code, creating JavaScript objects and calling JavaScript functions and methods from within R. This can work by embedding the JavaScript engine within an R session or by embedding R in an browser such as Firefox and being able to call R from JavaScript and call back to JavaScript from R.</li>
+<li><a href="http://cran.r-project.org/web/packages/d3Network/index.html">d3Network</a>: Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.</li>
 </ul>
 <h2 id="data-sources-on-the-web-accessible-via-r">Data Sources on the Web Accessible via R</h2>
 <h3 id="ecological-and-evolutionary-biology">Ecological and Evolutionary Biology</h3>
@@ -296,6 +297,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'send Scott an email'+'<\/'
 <li><a href="http://cran.r-project.org/web/packages/CHCN/index.html">CHCN</a></li>
 <li><a href="http://cran.r-project.org/web/packages/cimis/index.html">cimis</a></li>
 <li><a href="http://cran.r-project.org/web/packages/crn/index.html">crn</a></li>
+<li><a href="http://cran.r-project.org/web/packages/d3Network/index.html">d3Network</a></li>
 <li><a href="http://cran.r-project.org/web/packages/datamart/index.html">datamart</a></li>
 <li><a href="http://cran.r-project.org/web/packages/dataone/index.html">dataone</a></li>
 <li><a href="http://cran.r-project.org/web/packages/decctools/index.html">decctools</a></li>

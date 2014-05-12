@@ -32,8 +32,11 @@ Tools for Working with the Web from R
     not `read.csv("https://...")`.
 -   The
     [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
-    package contains a `source_data()` command to load plain-text data
-    from a URL (either http or https).
+    package contains a `source_data()` command to load and cache
+    plain-text data from a URL (either http or https). It also includes
+    `source_Dropbox()` for downloading/caching plain-text data from
+    non-public Dropbox folders and `source_XlsxData()` for
+    downloading/caching Excel xlsx sheets.
 -   The package
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
     contains functions for parsing XML and HTML, and supports xpath for
@@ -259,6 +262,9 @@ Tools for Working with the Web from R
     This can work by embedding the JavaScript engine within an R session
     or by embedding R in an browser such as Firefox and being able to
     call R from JavaScript and call back to JavaScript from R.
+-   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html):
+    Tools for creating D3 JavaScript network, tree, dendrogram, and
+    Sankey graphs from R.
 
 Data Sources on the Web Accessible via R
 ----------------------------------------
@@ -793,6 +799,7 @@ Data Sources on the Web Accessible via R
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [cimis](http://cran.r-project.org/web/packages/cimis/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
+-   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
 -   [dataone](http://cran.r-project.org/web/packages/dataone/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
