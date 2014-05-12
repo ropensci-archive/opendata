@@ -269,7 +269,17 @@ Tools for Working with the Web from R
 Data Sources on the Web Accessible via R
 ----------------------------------------
 
-### Ecological and Evolutionary Biology
+[Ecology/Evolution](#eeb) | [Genes/Genomes](#genes) | [Earth
+Science](#earthsci) | [Economics/Business](#econbus) |
+[Finance](#finance) | [Chemistry](#chemistry) | [Agriculture](#agr) |
+[Literature/Text-mining](#lit) | [Marketing](#marketing) | [Data
+depots](#depots) | [Machine learning](#mls) | [Web
+analytics](#webanalytics) | [News](#news) | [Images/video/etc.](#images)
+| [Sports](#sports) | [Maps](#maps) | [Social media](#social) |
+[Government](#gov) | [Google web services](#google) | [Amazon web
+services](#amazon) | [Other](#other)
+
+### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html):
     A wrapper to the VertNet collections database API.
@@ -332,7 +342,7 @@ Data Sources on the Web Accessible via R
     Engine eBird, AntWeb, and more as they sources become easily
     available.
 
-### Genes and Genomes
+### <a href="#genes" name="genes">#</a> Genes and Genomes
 
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
     R-Based API for accessing the MSKCC Cancer Genomics Data Server
@@ -360,7 +370,7 @@ Data Sources on the Web Accessible via R
     database content, not reference management. See rpubmed for more
     literature oriented stuff from NCBI.
 
-### Earth Science
+### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html):
     Obtain, organize, and visualize NCEP weather data.
@@ -419,7 +429,7 @@ Data Sources on the Web Accessible via R
     Retrieves Oklahoma (USA) Mesonet climatological data provided by the
     Oklahoma Climatological Survey.
 
-### Economics and Business
+### <a href="#econbus" name="econbus">#</a> Economics and Business
 
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
     Search, extract and format data from the World Bank's World
@@ -439,7 +449,7 @@ Data Sources on the Web Accessible via R
     Contains functions to download and format longitudinal datasets from
     the Panel Study of Income Dynamics (PSID).
 
-### Finance
+### <a href="#finance" name="finance">#</a> Finance
 
 -   [RDatastream](https://github.com/fcocquemas/rdatastream) (not on
     CRAN): An R interface to the [Thomson Dataworks Enterprise SOAP
@@ -473,12 +483,12 @@ Data Sources on the Web Accessible via R
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
     Includes the `get.hist.quote` for historical financial data.
 
-### Chemistry
+### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
     Interface to the PubChem Collection.
 
-### Agriculture
+### <a href="#agr" name="agr">#</a> Agriculture
 
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html):
     The package hosts a list of functions to download, manipulate,
@@ -489,7 +499,7 @@ Data Sources on the Web Accessible via R
     package for retrieving data from CIMIS, the California Irrigation
     Management Information System.
 
-### Literature, Metadata, Text, and Altmetrics
+### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html): A
     programmatic interface to the Web Service methods provided by the
@@ -543,12 +553,12 @@ Data Sources on the Web Accessible via R
     vignette](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/tm.plugin.webmining/vignettes/ShortIntro.pdf)
     for an intro.
 
-### Marketing
+### <a href="#marketing" name="marketing">#</a> Marketing
 
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html):
     Bidirectional connector to Anametrix API.
 
-### Data Depots
+### <a href="#depots" name="depots">#</a> Data Depots
 
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
     Provides access to The Dataverse Network API.
@@ -577,14 +587,14 @@ Data Sources on the Web Accessible via R
     Conway](http://drewconway.com/). The CRAN version is archived.
     Development [on Github](https://github.com/drewconway/infochimps).
 
-### Machine Learning as a Service
+### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html):
     BigML, a machine learning web service.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
 
-### Web Analytics
+### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
 
 -   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html):
     This package provides functions to interact with the Gaug.es API.
@@ -599,7 +609,7 @@ Data Sources on the Web Accessible via R
     programmatic access to Google Trends data. This is information about
     the popularity of a particular query.
 
-### News
+### <a href="#news" name="news">#</a> News
 
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html):
     Provides an interface to the Open Platform's Content API of the
@@ -609,7 +619,7 @@ Data Sources on the Web Accessible via R
     several of the New York Times Web services for searching articles,
     meta-data, user-generated content and best seller lists.
 
-### Images, Graphics, Videos, Music
+### <a href="#images" name="images">#</a> Images, Graphics, Videos, Music
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service imgur.com.
@@ -623,7 +633,7 @@ Data Sources on the Web Accessible via R
     and change their attributes/characteristics such as shape, color,
     size.
 
-### Sports
+### <a href="#sports" name="sports">#</a> Sports
 
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html):
     Compiling the NHL Real Time Scoring System Database for easy use in
@@ -638,7 +648,7 @@ Data Sources on the Web Accessible via R
     time dependent Poisson regression and a record of goals scored in
     matches to rank teams via estimated attack and defense strengths.
 
-### Maps
+### <a href="#maps" name="maps">#</a> Maps
 
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html):
     This package serves two purposes: It provides a comfortable R
@@ -671,7 +681,7 @@ Data Sources on the Web Accessible via R
     allows you to display your spatial data on interactive web-maps
     using the open-source JavaScript library Leaflet.
 
-### Social media
+### <a href="#social" name="social">#</a> Social media
 
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html):
     This package provides a series of functions that allow R users to
@@ -689,7 +699,7 @@ Data Sources on the Web Accessible via R
     profiles, pages and posts. It also provides search facilities.
     Currently a Google+ API key is required for accessing Google+ data.
 
-### Government
+### <a href="#gov" name="gov">#</a> Government
 
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
@@ -719,7 +729,7 @@ Data Sources on the Web Accessible via R
     An R client for interacting with the White House's "We The People"
     petition API.
 
-### Google Web Services
+### <a href="#google" name="google">#</a> Google Web Services
 
 -   [RGoogleStorage](http://www.omegahat.org/RGoogleStorage/) provides
     programmatic access to the Google Storage API. This allows R users
@@ -754,7 +764,7 @@ Data Sources on the Web Accessible via R
     functions to browse Fusion Tables catalog, retrieve data from Gusion
     Tables dtd storage to R and to upload data from R to Fusion Tables
 
-### Amazon Web Services
+### <a href="#amazon" name="amazon">#</a> Amazon Web Services
 
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
     An R package to interact with Amazon Web Services (EC2/S3).
@@ -767,7 +777,7 @@ Data Sources on the Web Accessible via R
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
 
-### Other
+### <a href="#other" name="other">#</a> Other
 
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): R
     client for the OGC Sensor Observation Service.
