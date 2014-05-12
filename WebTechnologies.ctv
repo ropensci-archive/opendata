@@ -415,7 +415,10 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 <pkg>pubmed.mineR</pkg>: An R package for text mining of <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed Abstracts</a>. Supports fetching text and XML from PubMed.
 </li>
 <li>
-<pkg>tm.plugin.webmining</pkg>: Retrieve structured text data from various web sources. Facilitates text retrieval from feed formats like XML (RSS, ATOM) and JSON. Also direct retrieval from HTML is supported. As most (news) feeds only incorporate small fractions of the original text tm.plugin.webmining even retrieves and extracts the text of the original text source. See <a href="http://cran.r-project.org/web/packages/tm.plugin.webmining/vignettes/ShortIntro.pdf">the vignette</a> for an intro.
+<pkg>tm.plugin.webmining</pkg>: Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.
+</li>
+<li>
+<pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 </li>
 </ul>
 
@@ -697,6 +700,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>anametrix</pkg>
 <pkg>AWS.tools</pkg>
 <pkg>bigml</pkg>
+<pkg>boilerpipeR</pkg>
 <pkg>cgdsr</pkg>
 <pkg>CHCN</pkg>
 <pkg>cimis</pkg>

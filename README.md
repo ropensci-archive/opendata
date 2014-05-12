@@ -544,14 +544,14 @@ services](#amazon) | [Other](#other)
     Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching
     text and XML from PubMed.
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html):
-    Retrieve structured text data from various web sources. Facilitates
-    text retrieval from feed formats like XML (RSS, ATOM) and JSON. Also
-    direct retrieval from HTML is supported. As most (news) feeds only
-    incorporate small fractions of the original text tm.plugin.webmining
-    even retrieves and extracts the text of the original text source.
-    See [the
-    vignette](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/tm.plugin.webmining/vignettes/ShortIntro.pdf)
-    for an intro.
+    Extensible text retrieval framework for news feeds in XML (RSS,
+    ATOM) and JSON formats. Currently, the following feeds are
+    implemented: Google Blog Search, Google Finance, Google News,
+    NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo
+    Inplay.
+-   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html):
+    Generic Extraction of main text content from HTML files; removal of
+    ads, sidebars and headers using the boilerpipe Java library.
 
 ### <a href="#marketing" name="marketing">#</a> Marketing
 
@@ -805,6 +805,7 @@ services](#amazon) | [Other](#other)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
+-   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [cimis](http://cran.r-project.org/web/packages/cimis/index.html)
