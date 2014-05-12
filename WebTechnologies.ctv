@@ -613,6 +613,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <li>
 <pkg>wethepeople</pkg>: An R client for interacting with the White House's "We The People" petition API.
 </li>
+<li>
+<pkg>BerlinData</pkg>: Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.
+</li>
 </ul>
 
 <p><strong>tochref="lb-google" name="google"endhref Google Web Services</strong></p>
@@ -699,6 +702,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <pkg>alm</pkg>
 <pkg>anametrix</pkg>
 <pkg>AWS.tools</pkg>
+<pkg>BerlinData</pkg>
 <pkg>bigml</pkg>
 <pkg>boilerpipeR</pkg>
 <pkg>cgdsr</pkg>

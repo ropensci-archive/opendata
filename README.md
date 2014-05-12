@@ -728,6 +728,10 @@ services](#amazon) | [Other](#other)
 -   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
     An R client for interacting with the White House's "We The People"
     petition API.
+-   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
+    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
+    allows you to search through the data catalogue and to download the
+    data directly from within R.
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
@@ -804,6 +808,7 @@ services](#amazon) | [Other](#other)
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
+-   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
