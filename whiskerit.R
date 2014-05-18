@@ -1,3 +1,6 @@
+if(!require("stringr")) install.packages("stringr", repos = "http://cran.rstudio.com")
+if(!require("whisker")) install.packages("whisker", repos = "http://cran.rstudio.com")
+
 library("stringr"); library("whisker")
 
 pattern <- "pkg>[A-Za-z0-9]+|pkg>[A-Za-z0-9]+\\.[A-Za-z0-9]+|pkg>[A-Za-z0-9]+\\.[A-Za-z0-9]+\\.[A-Za-z0-9]+"
