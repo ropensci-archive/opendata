@@ -801,6 +801,8 @@ services](#amazon) | [Other](#other)
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
+-   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
+    Interface to Apache Commons Email to send emails from within R.
 
 ### CRAN packages:
 
@@ -843,6 +845,7 @@ services](#amazon) | [Other](#other)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
     (core)
+-   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)

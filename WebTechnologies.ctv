@@ -693,6 +693,9 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <li>
 <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
 </li>
+<li>
+<pkg>mailR</pkg>: Interface to Apache Commons Email to send emails from within R.
+</li>
 </ul>
 
 </info>
@@ -738,6 +741,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <pkg>httpRequest</pkg>
   <pkg>httpuv</pkg>
   <pkg>imguR</pkg>
+  <pkg>mailR</pkg>
   <pkg>MTurkR</pkg>
   <pkg>ngramr</pkg>
   <pkg>nhlscrapr</pkg>
