@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
-<version>2014-05-17</version>
+<version>2014-04-30</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -185,7 +185,7 @@ Data Sources on the Web Accessible via R
 <a href="https://github.com/JNCC-UK/rnbn">rnbn</a> (not on CRAN): Access to the UK National Biodiversity Network data.
 </li>
 <li>
-<pkg>rWBclimate</pkg>: R interface for the World Bank climate data.
+<a href="https://github.com/ropensci/rWBclimate">rWBclimate</a> (not on CRAN): R interface for the World Bank climate data.
 </li>
 <li>
 <pkg>rbison</pkg>: Wrapper to the USGS Bison API.
@@ -590,7 +590,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
 </li>
 <li>
-<pkg>federalregister</pkg>: Client package for the U.S. Federal Register API.
+<a href="https://github.com/ropengov/federalregister">federalregister</a> (not on CRAN): Client package for the U.S. Federal Register API.
 </li>
 <li>
 <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
@@ -599,10 +599,10 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>pollstR</pkg>: An R client for the Huffpost Pollster API.
 </li>
 <li>
-<pkg>recalls</pkg>: Access U.S. Federal Government Recall Data.
+<a href="https://github.com/ropengov/recalls">recalls</a> (not on CRAN): Access U.S. Federal Government Recall Data.
 </li>
 <li>
-<pkg>RPublica</pkg>: ProPublica API Client.
+<a href="https://github.com/ropengov/RPublica">RPublica</a> (not on CRAN): ProPublica API Client.
 </li>
 <li>
 <a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
@@ -698,127 +698,128 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 </info>
 
 <packagelist>
-  <pkg priority="core">httr</pkg>
-  <pkg priority="core">RCurl</pkg>
-  <pkg priority="core">jsonlite</pkg>
-  <pkg priority="core">shiny</pkg>
-  <pkg priority="core">XML</pkg>
-  <pkg>acs</pkg>
-  <pkg>alm</pkg>
-  <pkg>anametrix</pkg>
-  <pkg>AWS.tools</pkg>
-  <pkg>BerlinData</pkg>
-  <pkg>bigml</pkg>
-  <pkg>boilerpipeR</pkg>
-  <pkg>cgdsr</pkg>
-  <pkg>CHCN</pkg>
-  <pkg>cimis</pkg>
-  <pkg>crn</pkg>
-  <pkg>d3Network</pkg>
-  <pkg>datamart</pkg>
-  <pkg>dataone</pkg>
-  <pkg>decctools</pkg>
-  <pkg>dismo</pkg>
-  <pkg>dvn</pkg>
-  <pkg>ecoengine</pkg>
-  <pkg>factualR</pkg>
-  <pkg>FAOSTAT</pkg>
-  <pkg>fbRanks</pkg>
-  <pkg>federalregister</pkg>
-  <pkg>fImport</pkg>
-  <pkg>flora</pkg>
-  <pkg>ggmap</pkg>
-  <pkg>GhcnDaily</pkg>
-  <pkg>googlePublicData</pkg>
-  <pkg>googleVis</pkg>
-  <pkg>gooJSON</pkg>
-  <pkg>govStatJPN</pkg>
-  <pkg>GuardianR</pkg>
-  <pkg>hoardeR</pkg>
-  <pkg>httpRequest</pkg>
-  <pkg>httpuv</pkg>
-  <pkg>imguR</pkg>
-  <pkg>MTurkR</pkg>
-  <pkg>ngramr</pkg>
-  <pkg>nhlscrapr</pkg>
-  <pkg>OAIHarvester</pkg>
-  <pkg>okmesonet</pkg>
-  <pkg>opencpu</pkg>
-  <pkg>osmar</pkg>
-  <pkg>pdfetch</pkg>
-  <pkg>pitchRx</pkg>
-  <pkg>plotGoogleMaps</pkg>
-  <pkg>plotKML</pkg>
-  <pkg>plusser</pkg>
-  <pkg>pollstR</pkg>
-  <pkg>primerTree</pkg>
-  <pkg>psidR</pkg>
-  <pkg>pubmed.mineR</pkg>
-  <pkg>Quandl</pkg>
-  <pkg>quantmod</pkg>
-  <pkg>raincpc</pkg>
-  <pkg>rAltmetric</pkg>
-  <pkg>rapport</pkg>
-  <pkg>rbhl</pkg>
-  <pkg>rbison</pkg>
-  <pkg>Rbitcoin</pkg>
-  <pkg>Rcolombos</pkg>
-  <pkg>rdatamarket</pkg>
-  <pkg>rebird</pkg>
-  <pkg>recalls</pkg>
-  <pkg>RefManageR</pkg>
-  <pkg>rentrez</pkg>
-  <pkg>Reol</pkg>
-  <pkg>repmis</pkg>
-  <pkg>Rfacebook</pkg>
-  <pkg>rfigshare</pkg>
-  <pkg>rfishbase</pkg>
-  <pkg>rfisheries</pkg>
-  <pkg>RForcecom</pkg>
-  <pkg>rgauges</pkg>
-  <pkg>rgbif</pkg>
-  <pkg>RgoogleMaps</pkg>
-  <pkg>RISmed</pkg>
-  <pkg>rjson</pkg>
-  <pkg>RJSONIO</pkg>
-  <pkg>RMendeley</pkg>
-  <pkg>RNCEP</pkg>
-  <pkg>rnoaa</pkg>
-  <pkg>ROAuth</pkg>
-  <pkg>Rook</pkg>
-  <pkg>rPlant</pkg>
-  <pkg>rplos</pkg>
-  <pkg>rpubchem</pkg>
-  <pkg>RPublica</pkg>
-  <pkg>RSiteCatalyst</pkg>
-  <pkg>rsnps</pkg>
-  <pkg>RSocrata</pkg>
-  <pkg>rvertnet</pkg>
-  <pkg>rWBclimate</pkg>
-  <pkg>scholar</pkg>
-  <pkg>scrapeR</pkg>
-  <pkg>seqinr</pkg>
-  <pkg>servr</pkg>
-  <pkg>soilDB</pkg>
-  <pkg>sos4R</pkg>
-  <pkg>spocc</pkg>
-  <pkg>streamR</pkg>
-  <pkg>sweSCB</pkg>
-  <pkg>taxize</pkg>
-  <pkg>TFX</pkg>
-  <pkg>Thinknum</pkg>
-  <pkg>tm.plugin.webmining</pkg>
-  <pkg>translate</pkg>
-  <pkg>treebase</pkg>
-  <pkg>tseries</pkg>
-  <pkg>twitteR</pkg>
-  <pkg>waterData</pkg>
-  <pkg>WDI</pkg>
-  <pkg>weatherData</pkg>
-  <pkg>wethepeople</pkg>
-  <pkg>XML2R</pkg>
-  <pkg>yhatr</pkg>
-  <pkg>zendeskR</pkg>
+<pkg>acs</pkg>
+<pkg>alm</pkg>
+<pkg>anametrix</pkg>
+<pkg>AWS.tools</pkg>
+<pkg>BerlinData</pkg>
+<pkg>bigml</pkg>
+<pkg>boilerpipeR</pkg>
+<pkg>cgdsr</pkg>
+<pkg>CHCN</pkg>
+<pkg>cimis</pkg>
+<pkg>crn</pkg>
+<pkg>d3Network</pkg>
+<pkg>datamart</pkg>
+<pkg>dataone</pkg>
+<pkg>decctools</pkg>
+<pkg>dismo</pkg>
+<pkg>dvn</pkg>
+<pkg>ecoengine</pkg>
+<pkg>factualR</pkg>
+<pkg>FAOSTAT</pkg>
+<pkg>fbRanks</pkg>
+<pkg>fImport</pkg>
+<pkg>flora</pkg>
+<pkg>ggmap</pkg>
+<pkg>GhcnDaily</pkg>
+<pkg>gooJSON</pkg>
+<pkg>googlePublicData</pkg>
+<pkg>googleVis</pkg>
+<pkg>govStatJPN</pkg>
+<pkg>GuardianR</pkg>
+<pkg>hoardeR</pkg>
+<pkg>httpuv</pkg>
+<pkg>httpRequest</pkg>
+<pkg priority="core">httr</pkg>
+<pkg>imguR</pkg>
+<pkg>MTurkR</pkg>
+<pkg>NCBI2R</pkg>
+<pkg>ngramr</pkg>
+<pkg>nhlscrapr</pkg>
+<pkg>OAIHarvester</pkg>
+<pkg>okmesonet</pkg>
+<pkg>opencpu</pkg>
+<pkg>osmar</pkg>
+<pkg>pdfetch</pkg>
+<pkg>pitchRx</pkg>
+<pkg>plotGoogleMaps</pkg>
+<pkg>plotKML</pkg>
+<pkg>plusser</pkg>
+<pkg>pollstR</pkg>
+<pkg>primerTree</pkg>
+<pkg>psidR</pkg>
+<pkg>pubmed.mineR</pkg>
+<pkg>Quandl</pkg>
+<pkg>quantmod</pkg>
+<pkg>rAltmetric</pkg>
+<pkg>raincpc</pkg>
+<pkg>rapport</pkg>
+<pkg>rbhl</pkg>
+<pkg>Rbitcoin</pkg>
+<pkg>Rcolombos</pkg>
+<pkg priority="core">RCurl</pkg>
+<pkg>rdatamarket</pkg>
+<pkg>rebird</pkg>
+<pkg>RefManageR</pkg>
+<pkg>Reol</pkg>
+<pkg>rentrez</pkg>
+<pkg>repmis</pkg>
+<pkg>Rfacebook</pkg>
+<pkg>rfigshare</pkg>
+<pkg>rfisheries</pkg>
+<pkg>rfishbase</pkg>
+<pkg>RForcecom</pkg>
+<pkg>rgauges</pkg>
+<pkg>rgbif</pkg>
+<pkg>rbison</pkg>
+<pkg>RISmed</pkg>
+<pkg>RgoogleMaps</pkg>
+<pkg priority="core">rjson</pkg>
+<pkg priority="core">RJSONIO</pkg>
+<pkg>rnoaa</pkg>
+<pkg>jsonlite</pkg>
+<pkg>RMendeley</pkg>
+<pkg>RNCBI</pkg>
+<pkg>RNCEP</pkg>
+<pkg>ROAuth</pkg>
+<pkg>Rook</pkg>
+<pkg>rPlant</pkg>
+<pkg>rplos</pkg>
+<pkg>rpubchem</pkg>
+<pkg>RSiteCatalyst</pkg>
+<pkg>rsnps</pkg>
+<pkg>RSocrata</pkg>
+<pkg>treebase</pkg>
+<pkg>rvertnet</pkg>
+<pkg>RWeather</pkg>
+<pkg>scholar</pkg>
+<pkg>scrapeR</pkg>
+<pkg>selectr</pkg>
+<pkg>seqinr</pkg>
+<pkg>servr</pkg>
+<pkg priority="core">shiny</pkg>
+<pkg>soilDB</pkg>
+<pkg>sos4R</pkg>
+<pkg>spocc</pkg>
+<pkg>streamR</pkg>
+<pkg>sweSCB</pkg>
+<pkg>SynergizeR</pkg>
+<pkg>taxize</pkg>
+<pkg>TFX</pkg>
+<pkg>Thinknum</pkg>
+<pkg>tm.plugin.webmining</pkg>
+<pkg>translate</pkg>
+<pkg>tseries</pkg>
+<pkg>twitteR</pkg>
+<pkg>waterData</pkg>
+<pkg>weatherData</pkg>
+<pkg>wethepeople</pkg>
+<pkg>WDI</pkg>
+<pkg priority="core">XML</pkg>
+<pkg>XML2R</pkg>
+<pkg>yhatr</pkg>
+<pkg>zendeskR</pkg>
 </packagelist>
 
 <links>
@@ -834,6 +835,8 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://www.omegahat.org/R2GoogleMaps/">Omegahat package: R2GoogleMaps</a>
   <a href="http://www.omegahat.org/RAmazonDBREST">Omegahat package: RAmazonDBREST</a>
   <a href="http://www.omegahat.org/RAmazonS3">Omegahat package: RAmazonS3</a>
+  <a href="https://github.com/ropensci/rbhl">GitHub package: rbhl</a>
+  <a href="https://github.com/ropensci/rbison">GitHub package: rbison</a>
   <a href="https://github.com/ramnathv/rCharts">GitHub package: rCharts</a>
   <a href="http://www.omegahat.org/Rcompression/">Omegahat package: Rcompression</a>
   <a href="http://www.omegahat.org/RDCOMClient/">Omegahat package: RDCOMClient</a>
@@ -841,6 +844,7 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="https://github.com/karthikram/rDrop">GitHub package: rDrop</a>
   <a href="http://www.omegahat.org/REuPathDB/">Omegahat package: REuPathDB</a>
   <a href="http://www.omegahat.org/Rflickr">Omegahat package: Rflickr</a>
+  <a href="https://github.com/ropensci/rgauges">GitHub package: rgauges</a>
   <a href="http://www.omegahat.org/RGoogleDocs/">Omegahat package: RGoogleDocs</a>
   <a href="http://www.omegahat.org/RGoogleStorage/">Omegahat package: RGoogleStorage</a>
   <a href="http://www.omegahat.org/RGoogleTrends/">Omegahat package: RGoogleTrends</a>
@@ -853,10 +857,12 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://www.omegahat.org/RNYTimes">Omegahat package: RNYTimes</a>
   <a href="https://github.com/ropensci/rorcid">GitHub package: rorcid</a>
   <a href="https://github.com/ropensci/rpubmed">GitHub package: rpubmed</a>
+  <a href="https://github.com/ropensci/rsnps">GitHub package: rsnps</a>
   <a href="https://github.com/johndharrison/RSelenium">GitHub package: RSelenium</a>
   <a href="http://www.omegahat.org/RTidyHTML/">Omegahat package: RTidyHTML</a>
   <a href="http://www.omegahat.org/RUbigraph/">Omegahat package: RUbigraph</a>
   <a href="https://github.com/metagraf/rVega">GitHub package: rVega</a>
+  <a href="https://github.com/ropensci/rWBclimate">GitHub package: rWBclimate</a>
   <a href="http://www.omegahat.org/SpiderMonkey/">Omegahat package: SpiderMonkey</a>
   <a href="http://www.omegahat.org/SSOAP/">Omegahat package: SSOAP</a>
   <a href="http://www.omegahat.org/Sxslt/">Omegahat package: Sxslt</a>
@@ -875,6 +881,9 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
   <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a>
   <a href="https://github.com/rstudio/R-Websockets">GitHub package: websockets</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a>
+  <a href="https://github.com/ropengov/federalregister">GitHub package: federalregister</a>
+  <a href="https://github.com/ropengov/recalls">GitHub package: recalls</a>
+  <a href="https://github.com/ropengov/RPublica">GitHub package: RPublica</a>
   <a href="https://github.com/ropengov/rsunlight">GitHub package: rsunlight</a>
   <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
 </links>

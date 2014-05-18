@@ -1,10 +1,13 @@
-all: r sed pandoc1 sedtoc pandoc2 cleanup
+all: whisker ctv2html sed pandoc1 sedtoc cleanup
 
 getdumber:
 	sed 's@<li class="removeme">.\+<\/li>@ @g' WebTechnologies.ctv > WebTechnologiesDumber.ctv
 
-r:
-	Rscript --vanilla -e 'if(!require("ctv")) install.packages("ctv"); library("ctv"); ctv2html("WebTechnologies.ctv")'
+whisker:
+	Rscript --vanilla -e 'source("whiskerit.R")'
+
+ctv2html:
+	Rscript --vanilla -e 'if(!require("ctv")) install.packages("ctv"); library("ctv"); ctv2html("WebTechnologies.ctv", file = "WebTechnologies.html")'
 
 sed:
 	mv WebTechnologies.html doc.html

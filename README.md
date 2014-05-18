@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- -------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-04-30
+  **Version:**      2014-05-17
   ----------------- -------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -297,7 +297,7 @@ services](#amazon) | [Other](#other)
     Species distribution modeling, with wrappers to some APIs.
 -   [rnbn](https://github.com/JNCC-UK/rnbn) (not on CRAN): Access to the
     UK National Biodiversity Network data.
--   [rWBclimate](https://github.com/ropensci/rWBclimate) (not on CRAN):
+-   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html):
     R interface for the World Bank climate data.
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
     Wrapper to the USGS Bison API.
@@ -704,15 +704,15 @@ services](#amazon) | [Other](#other)
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
--   [federalregister](https://github.com/ropengov/federalregister) (not
-    on CRAN): Client package for the U.S. Federal Register API.
+-   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
+    Client package for the U.S. Federal Register API.
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
     Functions to get public survey data in Japan.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
     An R client for the Huffpost Pollster API.
--   [recalls](https://github.com/ropengov/recalls) (not on CRAN): Access
-    U.S. Federal Government Recall Data.
--   [RPublica](https://github.com/ropengov/RPublica) (not on CRAN):
+-   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
+    Access U.S. Federal Government Recall Data.
+-   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
     ProPublica API Client.
 -   [rsunlight](https://github.com/ropengov/rsunlight) (not on CRAN): R
     client for the Sunlight Labs APIs. There are functions for Sunlight
@@ -825,6 +825,7 @@ services](#amazon) | [Other](#other)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
+-   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
@@ -841,8 +842,8 @@ services](#amazon) | [Other](#other)
     (core)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
+    (core)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
--   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
@@ -871,6 +872,7 @@ services](#amazon) | [Other](#other)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
+-   [recalls](http://cran.r-project.org/web/packages/recalls/index.html)
 -   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
@@ -885,11 +887,8 @@ services](#amazon) | [Other](#other)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
-    (core)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    (core)
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
--   [RNCBI](http://cran.r-project.org/web/packages/RNCBI/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
@@ -897,14 +896,14 @@ services](#amazon) | [Other](#other)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
+-   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
--   [RWeather](http://cran.r-project.org/web/packages/RWeather/index.html)
+-   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
--   [selectr](http://cran.r-project.org/web/packages/selectr/index.html)
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
@@ -914,7 +913,6 @@ services](#amazon) | [Other](#other)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
 -   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html)
--   [SynergizeR](http://cran.r-project.org/web/packages/SynergizeR/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
@@ -948,8 +946,6 @@ services](#amazon) | [Other](#other)
 -   [Omegahat package:
     RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
 -   [Omegahat package: RAmazonS3](http://www.omegahat.org/RAmazonS3)
--   [GitHub package: rbhl](https://github.com/ropensci/rbhl)
--   [GitHub package: rbison](https://github.com/ropensci/rbison)
 -   [GitHub package: rCharts](https://github.com/ramnathv/rCharts)
 -   [Omegahat package:
     Rcompression](http://www.omegahat.org/Rcompression/)
@@ -960,7 +956,6 @@ services](#amazon) | [Other](#other)
 -   [GitHub package: rDrop](https://github.com/karthikram/rDrop)
 -   [Omegahat package: REuPathDB](http://www.omegahat.org/REuPathDB/)
 -   [Omegahat package: Rflickr](http://www.omegahat.org/Rflickr)
--   [GitHub package: rgauges](https://github.com/ropensci/rgauges)
 -   [Omegahat package:
     RGoogleDocs](http://www.omegahat.org/RGoogleDocs/)
 -   [Omegahat package:
@@ -976,13 +971,11 @@ services](#amazon) | [Other](#other)
 -   [Omegahat package: RNYTimes](http://www.omegahat.org/RNYTimes)
 -   [GitHub package: rorcid](https://github.com/ropensci/rorcid)
 -   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
--   [GitHub package: rsnps](https://github.com/ropensci/rsnps)
 -   [GitHub package:
     RSelenium](https://github.com/johndharrison/RSelenium)
 -   [Omegahat package: RTidyHTML](http://www.omegahat.org/RTidyHTML/)
 -   [Omegahat package: RUbigraph](http://www.omegahat.org/RUbigraph/)
 -   [GitHub package: rVega](https://github.com/metagraf/rVega)
--   [GitHub package: rWBclimate](https://github.com/ropensci/rWBclimate)
 -   [Omegahat package:
     SpiderMonkey](http://www.omegahat.org/SpiderMonkey/)
 -   [Omegahat package: SSOAP](http://www.omegahat.org/SSOAP/)
@@ -1011,10 +1004,6 @@ services](#amazon) | [Other](#other)
     websockets](https://github.com/rstudio/R-Websockets)
 -   [CRAN archived package:
     websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
--   [GitHub package:
-    federalregister](https://github.com/ropengov/federalregister)
--   [GitHub package: recalls](https://github.com/ropengov/recalls)
--   [GitHub package: RPublica](https://github.com/ropengov/RPublica)
 -   [GitHub package: rsunlight](https://github.com/ropengov/rsunlight)
 -   [GitHub package: rtimes](https://github.com/ropengov/rtimes)
 
