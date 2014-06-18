@@ -158,7 +158,7 @@ The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package pro
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
 <p><strong>tochref="lb-agr" name="agr"endhref Agriculture</strong></p>
 
@@ -275,6 +275,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 </li>
+<li>
+<pkg>rainfreq</pkg>: Estimates of rainfall at desired frequency and desired duration are often required in the design of dams and other hydraulic structures, catastrophe risk modeling, environmental planning and management. One major source of such estimates for the USA is the NOAA National Weather Service's (NWS) division of Hydrometeorological Design Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km resolution and comes as a huge number of GIS files.
+</li>
 </ul>
 
 <p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
@@ -337,6 +340,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available.
 </li>
+<li>
+<pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <a href="http://paleobiodb.org/data1.1/">http://paleobiodb.org/data1.1/</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
@@ -384,6 +390,12 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 <li>
 <pkg>tseries</pkg>: Includes the <code>get.hist.quote</code> for historical financial data.
+</li>
+<li>
+<pkg>rbitcoinchartsapi</pkg>: An R package for the BitCoinCharts.com API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
+</li>
+<li>
+<a href="https://github.com/mrbcuda/ustyc">ustyc</a> (not on CRAN): US Treasury yield curve data retrieval.
 </li>
 </ul>
 
@@ -647,8 +659,19 @@ The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides
 <li>
 <pkg>mailR</pkg>: Interface to Apache Commons Email to send emails from within R.
 </li>
+<li>
+<pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
+</li>
 </ul>
 
+
+<p><strong>tochref="lb-publichealth" name="publichealth"endhref Public Health</strong></p>
+
+<ul>
+<li>
+<pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://github.com/DASpringate">David Springate</a>
+</li>
+</ul>
 
 <p><strong>tochref="lb-social" name="social"endhref Social media</strong></p>
 

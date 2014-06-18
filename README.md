@@ -276,8 +276,9 @@ Science](#earthsci) | [Ecology/Evolution](#eeb) |
 [Genes/Genomes](#genes) | [Google web services](#google) |
 [Government](#gov) | [Literature/Text-mining](#lit) | [Machine
 learning](#mls) | [Maps](#maps) | [Marketing](#marketing) | [Media:
-Images/video/etc.](#media) | [News](#news) | [Other](#other) | [Social
-media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
+Images/video/etc.](#media) | [News](#news) | [Other](#other) | [Public
+Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
+[Web analytics](#webanalytics) |
 
 ### <a href="#agr" name="agr">#</a> Agriculture
 
@@ -395,6 +396,14 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html):
     Retrieves Oklahoma (USA) Mesonet climatological data provided by the
     Oklahoma Climatological Survey.
+-   [rainfreq](http://cran.r-project.org/web/packages/rainfreq/index.html):
+    Estimates of rainfall at desired frequency and desired duration are
+    often required in the design of dams and other hydraulic structures,
+    catastrophe risk modeling, environmental planning and management.
+    One major source of such estimates for the USA is the NOAA National
+    Weather Service's (NWS) division of Hydrometeorological Design
+    Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km
+    resolution and comes as a huge number of GIS files.
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -458,6 +467,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
     Engine eBird, AntWeb, and more as they sources become easily
     available.
+-   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html):
+    Functions to wrap each endpoint of the PaleobioDB API, plus
+    functions to visualize and process the fossil data. The API
+    documentation for the Paleobiology Database can be found at
+    [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -512,6 +526,13 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     public sources.
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
     Includes the `get.hist.quote` for historical financial data.
+-   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html):
+    An R package for the BitCoinCharts.com API. From their website:
+    "Bitcoincharts provides financial and technical data related to the
+    Bitcoin network and this data can be accessed via a JSON application
+    programming interface (API)."
+-   [ustyc](https://github.com/mrbcuda/ustyc) (not on CRAN): US Treasury
+    yield curve data retrieval.
 
 ### <a href="#genes" name="genes">#</a> Genes and Genomes
 
@@ -755,6 +776,16 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     R.
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
     Interface to Apache Commons Email to send emails from within R.
+-   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html):
+    Provides an easy-to-use interface for the Pushbullet service which
+    provides fast and efficient notifications between computers, phones
+    and tablets. By [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)
+
+### <a href="#publichealth" name="publichealth">#</a> Public Health
+
+-   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html):
+    R tools for integrating with the www.clinicalcodes.org web
+    repository, by [David Springate](https://github.com/DASpringate)
 
 ### <a href="#social" name="social">#</a> Social media
 
@@ -853,6 +884,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html)
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
+-   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html)
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
@@ -865,11 +897,14 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
+-   [rainfreq](http://cran.r-project.org/web/packages/rainfreq/index.html)
 -   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html)
 -   [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
 -   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html)
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
+-   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html)
+-   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
@@ -900,6 +935,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html)
+-   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
