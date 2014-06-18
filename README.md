@@ -269,15 +269,132 @@ Tools for Working with the Web from R
 Data Sources on the Web Accessible via R
 ----------------------------------------
 
-[Ecology/Evolution](#eeb) | [Genes/Genomes](#genes) | [Earth
-Science](#earthsci) | [Economics/Business](#econbus) |
-[Finance](#finance) | [Chemistry](#chemistry) | [Agriculture](#agr) |
-[Literature/Text-mining](#lit) | [Marketing](#marketing) | [Data
-depots](#depots) | [Machine learning](#mls) | [Web
-analytics](#webanalytics) | [News](#news) | [Images/video/etc.](#images)
-| [Sports](#sports) | [Maps](#maps) | [Social media](#social) |
-[Government](#gov) | [Google web services](#google) | [Amazon web
-services](#amazon) | [Other](#other)
+[Agriculture](#agr) | [Amazon web services](#amazon) |
+[Chemistry](#chemistry) | [Data depots](#depots) | [Earth
+Science](#earthsci) | [Ecology/Evolution](#eeb) |
+[Economics/Business](#econbus) | [Finance](#finance) |
+[Genes/Genomes](#genes) | [Google web services](#google) |
+[Government](#gov) | [Literature/Text-mining](#lit) | [Machine
+learning](#mls) | [Maps](#maps) | [Marketing](#marketing) | [Media:
+Images/video/etc.](#media) | [News](#news) | [Other](#other) | [Social
+media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
+
+### <a href="#agr" name="agr">#</a> Agriculture
+
+-   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html):
+    The package hosts a list of functions to download, manipulate,
+    construct and aggregate agricultural statistics provided by the
+    FAOSTAT (Food and Agricultural Organization of the United Nations)
+    database.
+-   [cimis](http://cran.r-project.org/web/packages/cimis/index.html): R
+    package for retrieving data from CIMIS, the California Irrigation
+    Management Information System.
+
+### <a href="#amazon" name="amazon">#</a> Amazon Web Services
+
+-   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
+    An R package to interact with Amazon Web Services (EC2/S3).
+-   [RAmazonS3](http://www.omegahat.org/RAmazonS3) package provides the
+    basic infrastructure within R for communicating with the S3 Amazon
+    storage server. This is a commercial server that allows one to store
+    content and retrieve it from any machine connected to the Internet.
+-   [RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST) provides an
+    interface to Amazon's Simple DB API.
+-   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
+    Access to Amazon Mechanical Turk Requester API via R.
+
+### <a href="#chemistry" name="chemistry">#</a> Chemistry
+
+-   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
+    Interface to the PubChem Collection.
+
+### <a href="#depots" name="depots">#</a> Data Depots
+
+-   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
+    Provides access to The Dataverse Network API.
+-   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
+    Programmatic interface for Figshare.
+-   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
+    Thin wrapper for the Factual.com server API.
+-   [dataone](http://cran.r-project.org/web/packages/dataone/index.html):
+    A package that provides read/write access to data and metadata from
+    the DataONE network of Member Node data repositories.
+-   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
+    Lets you deploy, maintain, and invoke models via the Yhat REST API.
+-   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html):
+    Provided with a Socrata dataset resource URL, or a Socrata SoDA web
+    API query, returns an R data frame. Converts dates to POSIX format.
+    Supports CSV and JSON. Manages throttling by Socrata.
+-   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
+    A package that interacts directly with the
+    [Quandl](http://www.quandl.com/) API to offer data in a number of
+    formats usable in R, as well as the ability to upload and search.
+-   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
+    Fetches data from DataMarket.com, either as timeseries in zoo form
+    (dmseries) or as long-form data frames (dmlist).
+-   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
+    An R wrapper for the infochimps.com API services, from [Drew
+    Conway](http://drewconway.com/). The CRAN version is archived.
+    Development [on Github](https://github.com/drewconway/infochimps).
+
+### <a href="#earthsci" name="earthsci">#</a> Earth Science
+
+-   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html):
+    Obtain, organize, and visualize NCEP weather data.
+-   [crn](http://cran.r-project.org/web/packages/crn/index.html):
+    Provides the core functions required to download and format data
+    from the Climate Reference Network. Both daily and hourly data are
+    downloaded from the ftp, a consolidated file of all stations is
+    created, station metadata is extracted. In addition functions for
+    selecting individual variables and creating R friendly datasets for
+    them is provided.
+-   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/):
+    Data input for Berkeley Earth Surface Temperature. Archived on CRAN.
+-   [waterData](http://cran.r-project.org/web/packages/waterData/index.html):
+    An R Package for retrieval, analysis, and anomaly calculation of
+    daily hydrologic time series data.
+-   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html): A
+    compilation of historical through contemporary climate measurements
+    scraped from the Environment Canada Website Including tools for
+    scraping data, creating metadata and formating temperature files.
+-   [decctools](http://cran.r-project.org/web/packages/decctools/index.html):
+    Provides functions for retrieving energy statistics from the United
+    Kingdom Department of Energy and Climate Change and related data
+    sources. The current version focuses on total final energy
+    consumption statistics at the local authority, MSOA, and LSOA
+    geographies. Methods for calculating the generation mix of grid
+    electricity and its associated carbon intensity are also provided.
+-   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/):
+    Collates metadata for climate surface stations. Archived on CRAN.
+-   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): A
+    client for Sensor Observation Services (SOS) as specified by the
+    Open Geospatial Consortium (OGC). It allows users to retrieve
+    metadata from SOS web services and to interactively create requests
+    for near real-time observation data based on the available sensors,
+    phenomena, observations etc. using thematic, temporal and spatial
+    filtering.
+-   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html):
+    The Climate Prediction Center's (CPC) daily rainfall data for the
+    entire world, from 1979 to the present, at a resolution of 50 km
+    (0.5 degrees lat-lon). This package provides functionality to
+    download and process the raw data from CPC. Development version on
+    GitHub [here](https://github.com/RationShop/raincpc).
+-   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
+    Functions that help in fetching weather data from websites. Given a
+    location and a date range, these functions help fetch weather data
+    (temperature, pressure etc.) for any weather related analysis.
+-   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html):
+    A collection of functions for reading data from USDA-NCSS soil
+    databases.
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html): R
+    interface to NOAA Climate data API.
+-   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html):
+    A package that downloads and processes Global Historical Climatology
+    Network (GHCN) daily data from the National Climatic Data Center
+    (NCDC).
+-   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html):
+    Retrieves Oklahoma (USA) Mesonet climatological data provided by the
+    Oklahoma Climatological Survey.
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -342,93 +459,6 @@ services](#amazon) | [Other](#other)
     Engine eBird, AntWeb, and more as they sources become easily
     available.
 
-### <a href="#genes" name="genes">#</a> Genes and Genomes
-
--   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
-    R-Based API for accessing the MSKCC Cancer Genomics Data Server
-    (CGDS).
--   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html):
-    This package is a programmatic interface to various SNP datasets on
-    the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP
-    Annotation and Proxy Search. This package started as a library to
-    interact with openSNP alone, so most functions deal with openSNP.
--   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
-    Talk with NCBI entrez using R.
--   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html):
-    Exploratory data analysis and data visualization for biological
-    sequence (DNA and protein) data.
--   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/):
-    Detect compositional changes in genomic sequences - with some
-    interaction with GenBank. Archived on CRAN.
--   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
-    Visually Assessing the Specificity and Informativeness of Primer
-    Pairs.
--   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
-    Information retrieval from NCBI databases, with main focus on Blast.
--   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html):
-    Download content from NCBI databases. Intended for analyses of NCBI
-    database content, not reference management. See rpubmed for more
-    literature oriented stuff from NCBI.
-
-### <a href="#earthsci" name="earthsci">#</a> Earth Science
-
--   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html):
-    Obtain, organize, and visualize NCEP weather data.
--   [crn](http://cran.r-project.org/web/packages/crn/index.html):
-    Provides the core functions required to download and format data
-    from the Climate Reference Network. Both daily and hourly data are
-    downloaded from the ftp, a consolidated file of all stations is
-    created, station metadata is extracted. In addition functions for
-    selecting individual variables and creating R friendly datasets for
-    them is provided.
--   [BerkeleyEarth](http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/):
-    Data input for Berkeley Earth Surface Temperature. Archived on CRAN.
--   [waterData](http://cran.r-project.org/web/packages/waterData/index.html):
-    An R Package for retrieval, analysis, and anomaly calculation of
-    daily hydrologic time series data.
--   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html): A
-    compilation of historical through contemporary climate measurements
-    scraped from the Environment Canada Website Including tools for
-    scraping data, creating metadata and formating temperature files.
--   [decctools](http://cran.r-project.org/web/packages/decctools/index.html):
-    Provides functions for retrieving energy statistics from the United
-    Kingdom Department of Energy and Climate Change and related data
-    sources. The current version focuses on total final energy
-    consumption statistics at the local authority, MSOA, and LSOA
-    geographies. Methods for calculating the generation mix of grid
-    electricity and its associated carbon intensity are also provided.
--   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/):
-    Collates metadata for climate surface stations. Archived on CRAN.
--   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): A
-    client for Sensor Observation Services (SOS) as specified by the
-    Open Geospatial Consortium (OGC). It allows users to retrieve
-    metadata from SOS web services and to interactively create requests
-    for near real-time observation data based on the available sensors,
-    phenomena, observations etc. using thematic, temporal and spatial
-    filtering.
--   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html):
-    The Climate Prediction Center's (CPC) daily rainfall data for the
-    entire world, from 1979 to the present, at a resolution of 50 km
-    (0.5 degrees lat-lon). This package provides functionality to
-    download and process the raw data from CPC. Development version on
-    GitHub [here](https://github.com/RationShop/raincpc).
--   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
-    Functions that help in fetching weather data from websites. Given a
-    location and a date range, these functions help fetch weather data
-    (temperature, pressure etc.) for any weather related analysis.
--   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html):
-    A collection of functions for reading data from USDA-NCSS soil
-    databases.
--   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html): R
-    interface to NOAA Climate data API.
--   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html):
-    A package that downloads and processes Global Historical Climatology
-    Network (GHCN) daily data from the National Climatic Data Center
-    (NCDC).
--   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html):
-    Retrieves Oklahoma (USA) Mesonet climatological data provided by the
-    Oklahoma Climatological Survey.
-
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
@@ -483,21 +513,102 @@ services](#amazon) | [Other](#other)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
     Includes the `get.hist.quote` for historical financial data.
 
-### <a href="#chemistry" name="chemistry">#</a> Chemistry
+### <a href="#genes" name="genes">#</a> Genes and Genomes
 
--   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
-    Interface to the PubChem Collection.
+-   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
+    R-Based API for accessing the MSKCC Cancer Genomics Data Server
+    (CGDS).
+-   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html):
+    This package is a programmatic interface to various SNP datasets on
+    the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP
+    Annotation and Proxy Search. This package started as a library to
+    interact with openSNP alone, so most functions deal with openSNP.
+-   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
+    Talk with NCBI entrez using R.
+-   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html):
+    Exploratory data analysis and data visualization for biological
+    sequence (DNA and protein) data.
+-   [seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/):
+    Detect compositional changes in genomic sequences - with some
+    interaction with GenBank. Archived on CRAN.
+-   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
+    Visually Assessing the Specificity and Informativeness of Primer
+    Pairs.
+-   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
+    Information retrieval from NCBI databases, with main focus on Blast.
+-   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html):
+    Download content from NCBI databases. Intended for analyses of NCBI
+    database content, not reference management. See rpubmed for more
+    literature oriented stuff from NCBI.
 
-### <a href="#agr" name="agr">#</a> Agriculture
+### <a href="#google" name="google">#</a> Google Web Services
 
--   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html):
-    The package hosts a list of functions to download, manipulate,
-    construct and aggregate agricultural statistics provided by the
-    FAOSTAT (Food and Agricultural Organization of the United Nations)
-    database.
--   [cimis](http://cran.r-project.org/web/packages/cimis/index.html): R
-    package for retrieving data from CIMIS, the California Irrigation
-    Management Information System.
+-   [RGoogleStorage](http://www.omegahat.org/RGoogleStorage/) provides
+    programmatic access to the Google Storage API. This allows R users
+    to access and store data on Google's storage. We can upload and
+    download content, create, list and delete folders/buckets, and set
+    access control permissions on objects and buckets.
+-   The [RGoogleDocs](http://www.omegahat.org/RGoogleDocs/) package is
+    an example of using the RCurl and XML packages to quickly develop an
+    interface to the Google Documents API.
+-   [translate](http://cran.r-project.org/web/packages/translate/index.html):
+    Bindings for the Google Translate API v2
+-   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
+    An R library to build Google's public data explorer DSPL metadata
+    files.
+-   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html):
+    Interface between R and the Google chart tools.
+-   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html):
+    A Google JSON data interpreter for R which contains a suite of
+    helper functions for obtaining data from the Google Maps API JSON
+    objects.
+-   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html):
+    Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
+    Maps.
+-   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
+    Visualization of spatial and spatio-temporal objects in Google
+    Earth.
+-   [bigrquery](https://github.com/hadley/bigrquery) (not on CRAN): An
+    interface to Google's bigquery from R.
+-   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN):
+    An R interface to Google Fusion Tables. Google Fusion Tables is a
+    data mangement system in the cloud. This package provides R
+    functions to browse Fusion Tables catalog, retrieve data from Gusion
+    Tables dtd storage to R and to upload data from R to Fusion Tables
+
+### <a href="#gov" name="gov">#</a> Government
+
+-   [acs](http://cran.r-project.org/web/packages/acs/index.html):
+    Download, manipulate, and present data from the US Census American
+    Community Survey.
+-   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
+    Client package for the U.S. Federal Register API.
+-   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
+    Functions to get public survey data in Japan.
+-   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
+    An R client for the Huffpost Pollster API.
+-   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
+    Access U.S. Federal Government Recall Data.
+-   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
+    ProPublica API Client.
+-   [rsunlight](https://github.com/ropengov/rsunlight) (not on CRAN): R
+    client for the Sunlight Labs APIs. There are functions for Sunlight
+    Labs Congress, Transparency, Open States, Real Time Congress,
+    Capitol Words, and Influence Explorer APIs. Data outputs are R
+    lists. There are also a few convenience functions for visualizing
+    data and writing data to .csv.
+-   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client
+    for the New York Times APIs, including the Congress, Article Search,
+    Campaign Finance, and Geographic APIs. The focus is on those that
+    deal with political data, but throwing in Article Search and
+    Geographic for good measure.
+-   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
+    An R client for interacting with the White House's "We The People"
+    petition API.
+-   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
+    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
+    allows you to search through the data catalogue and to download the
+    data directly from within R.
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -553,100 +664,12 @@ services](#amazon) | [Other](#other)
     Generic Extraction of main text content from HTML files; removal of
     ads, sidebars and headers using the boilerpipe Java library.
 
-### <a href="#marketing" name="marketing">#</a> Marketing
-
--   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html):
-    Bidirectional connector to Anametrix API.
-
-### <a href="#depots" name="depots">#</a> Data Depots
-
--   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
-    Provides access to The Dataverse Network API.
--   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
-    Programmatic interface for Figshare.
--   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
-    Thin wrapper for the Factual.com server API.
--   [dataone](http://cran.r-project.org/web/packages/dataone/index.html):
-    A package that provides read/write access to data and metadata from
-    the DataONE network of Member Node data repositories.
--   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
-    Lets you deploy, maintain, and invoke models via the Yhat REST API.
--   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html):
-    Provided with a Socrata dataset resource URL, or a Socrata SoDA web
-    API query, returns an R data frame. Converts dates to POSIX format.
-    Supports CSV and JSON. Manages throttling by Socrata.
--   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
-    A package that interacts directly with the
-    [Quandl](http://www.quandl.com/) API to offer data in a number of
-    formats usable in R, as well as the ability to upload and search.
--   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
-    Fetches data from DataMarket.com, either as timeseries in zoo form
-    (dmseries) or as long-form data frames (dmlist).
--   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
-    An R wrapper for the infochimps.com API services, from [Drew
-    Conway](http://drewconway.com/). The CRAN version is archived.
-    Development [on Github](https://github.com/drewconway/infochimps).
-
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html):
     BigML, a machine learning web service.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
-
-### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
-
--   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html):
-    This package provides functions to interact with the Gaug.es API.
-    Gaug.es is a web analytics service, like Google analytics. You have
-    to have a Gaug.es account to use this package.
--   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
-    Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
-    Reporting API.
--   [r-google-analytics](http://code.google.com/p/r-google-analytics/)
-    (not on CRAN): Provides access to Google Analytics.
--   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
-    programmatic access to Google Trends data. This is information about
-    the popularity of a particular query.
-
-### <a href="#news" name="news">#</a> News
-
--   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html):
-    Provides an interface to the Open Platform's Content API of the
-    Guardian Media Group. It retrieves content from news outlets The
-    Observer, The Guardian, and guardian.co.uk from 1999 to current day.
--   [RNYTimes](http://www.omegahat.org/RNYTimes) provides interfaces to
-    several of the New York Times Web services for searching articles,
-    meta-data, user-generated content and best seller lists.
-
-### <a href="#images" name="images">#</a> Images, Graphics, Videos, Music
-
--   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
-    package to share plots using the image hosting service imgur.com.
-    (also see the function `imgur_upload()` in knitr, which uses the
-    newer Imgur API version 3)
--   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
-    package to interface to the last.fm API. Archived on CRAN.
--   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
-    an R interface to a Ubigraph server for drawing interactive, dynamic
-    graphs. You can add and remove vertices/nodes and edges in a graph
-    and change their attributes/characteristics such as shape, color,
-    size.
-
-### <a href="#sports" name="sports">#</a> Sports
-
--   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html):
-    Compiling the NHL Real Time Scoring System Database for easy use in
-    R.
--   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
-    Tools for Collecting and Visualizing Major League Baseball PITCHfx
-    Data
--   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN
-    yet): Tools for Collecting Data from nba.com and wnba.com
--   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
-    Association Football (Soccer) Ranking via Poisson Regression - uses
-    time dependent Poisson regression and a record of goals scored in
-    matches to rank teams via estimated attack and defense strengths.
 
 ### <a href="#maps" name="maps">#</a> Maps
 
@@ -681,105 +704,34 @@ services](#amazon) | [Other](#other)
     allows you to display your spatial data on interactive web-maps
     using the open-source JavaScript library Leaflet.
 
-### <a href="#social" name="social">#</a> Social media
+### <a href="#marketing" name="marketing">#</a> Marketing
 
--   [streamR](http://cran.r-project.org/web/packages/streamR/index.html):
-    This package provides a series of functions that allow R users to
-    access Twitter's filter, sample, and user streams, and to parse the
-    output into data frames. OAuth authentication is supported.
--   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html):
-    Provides an interface to the Twitter web API.
--   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
-    interface to the Flickr photo management and sharing application Web
-    service.
--   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
-    Provides an interface to the Facebook API.
--   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
-    has been designed to to facilitate the retrieval of Google+
-    profiles, pages and posts. It also provides search facilities.
-    Currently a Google+ API key is required for accessing Google+ data.
+-   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html):
+    Bidirectional connector to Anametrix API.
 
-### <a href="#gov" name="gov">#</a> Government
+### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
--   [acs](http://cran.r-project.org/web/packages/acs/index.html):
-    Download, manipulate, and present data from the US Census American
-    Community Survey.
--   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
-    Client package for the U.S. Federal Register API.
--   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
-    Functions to get public survey data in Japan.
--   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
-    An R client for the Huffpost Pollster API.
--   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
-    Access U.S. Federal Government Recall Data.
--   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
-    ProPublica API Client.
--   [rsunlight](https://github.com/ropengov/rsunlight) (not on CRAN): R
-    client for the Sunlight Labs APIs. There are functions for Sunlight
-    Labs Congress, Transparency, Open States, Real Time Congress,
-    Capitol Words, and Influence Explorer APIs. Data outputs are R
-    lists. There are also a few convenience functions for visualizing
-    data and writing data to .csv.
--   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client
-    for the New York Times APIs, including the Congress, Article Search,
-    Campaign Finance, and Geographic APIs. The focus is on those that
-    deal with political data, but throwing in Article Search and
-    Geographic for good measure.
--   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
-    An R client for interacting with the White House's "We The People"
-    petition API.
--   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
-    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
-    allows you to search through the data catalogue and to download the
-    data directly from within R.
+-   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
+    package to share plots using the image hosting service imgur.com.
+    (also see the function `imgur_upload()` in knitr, which uses the
+    newer Imgur API version 3)
+-   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
+    package to interface to the last.fm API. Archived on CRAN.
+-   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
+    an R interface to a Ubigraph server for drawing interactive, dynamic
+    graphs. You can add and remove vertices/nodes and edges in a graph
+    and change their attributes/characteristics such as shape, color,
+    size.
 
-### <a href="#google" name="google">#</a> Google Web Services
+### <a href="#news" name="news">#</a> News
 
--   [RGoogleStorage](http://www.omegahat.org/RGoogleStorage/) provides
-    programmatic access to the Google Storage API. This allows R users
-    to access and store data on Google's storage. We can upload and
-    download content, create, list and delete folders/buckets, and set
-    access control permissions on objects and buckets.
--   The [RGoogleDocs](http://www.omegahat.org/RGoogleDocs/) package is
-    an example of using the RCurl and XML packages to quickly develop an
-    interface to the Google Documents API.
--   [translate](http://cran.r-project.org/web/packages/translate/index.html):
-    Bindings for the Google Translate API v2
--   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
-    An R library to build Google's public data explorer DSPL metadata
-    files.
--   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html):
-    Interface between R and the Google chart tools.
--   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html):
-    A Google JSON data interpreter for R which contains a suite of
-    helper functions for obtaining data from the Google Maps API JSON
-    objects.
--   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html):
-    Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
-    Maps.
--   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
-    Visualization of spatial and spatio-temporal objects in Google
-    Earth.
--   [bigrquery](https://github.com/hadley/bigrquery) (not on CRAN): An
-    interface to Google's bigquery from R.
--   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN):
-    An R interface to Google Fusion Tables. Google Fusion Tables is a
-    data mangement system in the cloud. This package provides R
-    functions to browse Fusion Tables catalog, retrieve data from Gusion
-    Tables dtd storage to R and to upload data from R to Fusion Tables
-
-### <a href="#amazon" name="amazon">#</a> Amazon Web Services
-
--   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
-    An R package to interact with Amazon Web Services (EC2/S3).
--   [RAmazonS3](http://www.omegahat.org/RAmazonS3) package provides the
-    basic infrastructure within R for communicating with the S3 Amazon
-    storage server. This is a commercial server that allows one to store
-    content and retrieve it from any machine connected to the Internet.
--   [RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST) provides an
-    interface to Amazon's Simple DB API.
--   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
-    Access to Amazon Mechanical Turk Requester API via R.
+-   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html):
+    Provides an interface to the Open Platform's Content API of the
+    Guardian Media Group. It retrieves content from news outlets The
+    Observer, The Guardian, and guardian.co.uk from 1999 to current day.
+-   [RNYTimes](http://www.omegahat.org/RNYTimes) provides interfaces to
+    several of the New York Times Web services for searching articles,
+    meta-data, user-generated content and best seller lists.
 
 ### <a href="#other" name="other">#</a> Other
 
@@ -803,6 +755,54 @@ services](#amazon) | [Other](#other)
     R.
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
     Interface to Apache Commons Email to send emails from within R.
+
+### <a href="#social" name="social">#</a> Social media
+
+-   [streamR](http://cran.r-project.org/web/packages/streamR/index.html):
+    This package provides a series of functions that allow R users to
+    access Twitter's filter, sample, and user streams, and to parse the
+    output into data frames. OAuth authentication is supported.
+-   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html):
+    Provides an interface to the Twitter web API.
+-   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
+    interface to the Flickr photo management and sharing application Web
+    service.
+-   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
+    Provides an interface to the Facebook API.
+-   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
+    has been designed to to facilitate the retrieval of Google+
+    profiles, pages and posts. It also provides search facilities.
+    Currently a Google+ API key is required for accessing Google+ data.
+
+### <a href="#sports" name="sports">#</a> Sports
+
+-   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html):
+    Compiling the NHL Real Time Scoring System Database for easy use in
+    R.
+-   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
+    Tools for Collecting and Visualizing Major League Baseball PITCHfx
+    Data
+-   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN
+    yet): Tools for Collecting Data from nba.com and wnba.com
+-   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
+    Association Football (Soccer) Ranking via Poisson Regression - uses
+    time dependent Poisson regression and a record of goals scored in
+    matches to rank teams via estimated attack and defense strengths.
+
+### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
+
+-   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html):
+    This package provides functions to interact with the Gaug.es API.
+    Gaug.es is a web analytics service, like Google analytics. You have
+    to have a Gaug.es account to use this package.
+-   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
+    Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
+    Reporting API.
+-   [r-google-analytics](http://code.google.com/p/r-google-analytics/)
+    (not on CRAN): Provides access to Google Analytics.
+-   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
+    programmatic access to Google Trends data. This is information about
+    the popularity of a particular query.
 
 ### CRAN packages:
 
