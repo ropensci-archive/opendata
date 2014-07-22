@@ -590,6 +590,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     interface to the Google Documents API.
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html):
     Bindings for the Google Translate API v2
+-   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
+    provides bindings for both Google and Microsoft translation APIs.
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
     An R library to build Google's public data explorer DSPL metadata
     files.
@@ -981,6 +983,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
+-   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)

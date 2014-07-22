@@ -453,6 +453,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>translate</pkg>: Bindings for the Google Translate API v2
 </li>
 <li>
+<pkg>translateR</pkg> provides bindings for both Google and Microsoft translation APIs.
+</li>
+<li>
 <pkg>googlePublicData</pkg>: An R library to build Google's public data explorer DSPL metadata files.
 </li>
 <li>
