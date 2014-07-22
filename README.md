@@ -238,6 +238,10 @@ Tools for Working with the Web from R
     web databases (trackers). A demo:
     [http://r.tiki.org](http://r.tiki.org/tiki-index.php). More info in
     a [useR!2013 presentation](http://ueb.vhir.org/2011+UseR).
+-   The [R Extension for
+    MediaWiki](http://www.mediawiki.org/wiki/Extension:R) allows the
+    integration of output from R (and Octave) on MediaWiki pages, such
+    as Wikipedia.
 
 ### JavaScript
 
