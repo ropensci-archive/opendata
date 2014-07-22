@@ -385,8 +385,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     The Climate Prediction Center's (CPC) daily rainfall data for the
     entire world, from 1979 to the present, at a resolution of 50 km
     (0.5 degrees lat-lon). This package provides functionality to
-    download and process the raw data from CPC. Development version on
-    GitHub [here](https://github.com/RationShop/raincpc).
+    download and process the raw data from CPC.
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
     Functions that help in fetching weather data from websites. Given a
     location and a date range, these functions help fetch weather data

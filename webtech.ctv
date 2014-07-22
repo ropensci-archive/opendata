@@ -261,7 +261,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations etc. using thematic, temporal and spatial filtering.
 </li>
 <li>
-<pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC. Development version on GitHub <a href="https://github.com/RationShop/raincpc">here</a>.
+<pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
 </li>
 <li>
 <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
