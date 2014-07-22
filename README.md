@@ -238,10 +238,13 @@ Tools for Working with the Web from R
     web databases (trackers). A demo:
     [http://r.tiki.org](http://r.tiki.org/tiki-index.php). More info in
     a [useR!2013 presentation](http://ueb.vhir.org/2011+UseR).
--   The [R Extension for
-    MediaWiki](http://www.mediawiki.org/wiki/Extension:R) allows the
-    integration of output from R (and Octave) on MediaWiki pages, such
-    as Wikipedia.
+-   The [MediaWiki](http://www.mediawiki.org) has an extension (
+    [Extension:R](http://www.mediawiki.org/wiki/Extension:R)) to run R
+    code from wiki pages, and use uploaded data. Links to demo pages (in
+    German) can be found at the [category page for R
+    scrips](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
+    at MM-Stat. A mailing list is available:
+    [R-sig-mediawiki](https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki).
 
 ### JavaScript
 

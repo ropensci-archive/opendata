@@ -128,7 +128,7 @@ The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a me
 The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware framework has an R plugin (<a href="https://doc.tiki.org/PluginR">PluginR</a>) to run R code from wiki pages, and use data from their own collected web databases (trackers). A demo: <a href="http://r.tiki.org/tiki-index.php">http://r.tiki.org</a>. More info in a <a href="http://ueb.vhir.org/2011+UseR">useR!2013 presentation</a>.
 </li>
 <li>
-The <a href="http://www.mediawiki.org/wiki/Extension:R">R Extension for MediaWiki</a> allows the integration of output from R (and Octave) on MediaWiki pages, such as Wikipedia.
+The <a href="http://www.mediawiki.org">MediaWiki</a> has an extension (<a href="http://www.mediawiki.org/wiki/Extension:R">Extension:R</a>) to run R code from wiki pages, and use uploaded data. Links to demo pages (in German) can be found at the <a href="http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R">category page for R scrips</a> at MM-Stat. A mailing list is available: <a href="https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki">R-sig-mediawiki</a>.
 </li>
 </ul>
 
