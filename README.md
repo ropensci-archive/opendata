@@ -13,11 +13,11 @@ for interacting with the web. Thankfully, there are an increasingly
 large number of tools for interacting with the web. A list of available
 packages and functions is presented below, grouped by the type of
 activity. If you have any comments or suggestions for additions or
-improvements for this taskview, go to Github and [submit an
-issue](https://github.com/ropensci/webservices/issues), or make some
+improvements for this taskview, go to GitHub and [submit an
+issue](https://GitHub.com/ropensci/webservices/issues), or make some
 changes and [submit a pull
-request](https://github.com/ropensci/webservices/pulls). If you can't
-contribute on Github, [send Scott an email](mailto:scott@ropensci.org).
+request](https://GitHub.com/ropensci/webservices/pulls). If you can't
+contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
 contact the maintainer of that package.
 
@@ -45,7 +45,7 @@ Tools for Working with the Web from R
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html):
     The XML2R package is a collection of convenient functions for
     coercing XML into data frames. The development version is on GitHub
-    [here](https://github.com/cpsievert/XML2R).
+    [here](https://GitHub.com/cpsievert/XML2R).
 -   An alternative to
     [XML](http://cran.r-project.org/web/packages/XML/index.html) is
     [selectr](http://sjp.co.nz/projects/selectr/), which parses CSS3
@@ -168,7 +168,7 @@ Tools for Working with the Web from R
     the 6 demos within
     [httr](http://cran.r-project.org/web/packages/httr/index.html),
     three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth
-    2.0 (facebook, github, google).
+    2.0 (facebook, GitHub, google).
     [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
     is a package that provides a separate R interface to OAuth. OAuth is
     easier to to do in
@@ -202,11 +202,11 @@ Tools for Working with the Web from R
     within R. Another related package, perhaps which
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
     replaces, is websockets, also made by Joe Cheng.
--   [websockets](https://github.com/rstudio/R-Websockets) A simple HTML5
+-   [websockets](https://GitHub.com/rstudio/R-Websockets) A simple HTML5
     websocket interface for R, by Joe Cheng. (not on CRAN)
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
-    [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
+    [here](https://GitHub.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
     as well as access to their services via an API
     [here](https://plot.ly/API/).
 -   The [WADL](http://www.omegahat.org/WADL/) package provides tools to
@@ -218,7 +218,7 @@ Tools for Working with the Web from R
     be used along with the
     [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
     provides user-level access from R to other COM servers.
--   The [RSelenium](https://github.com/johndharrison/RSelenium) package
+-   The [RSelenium](https://GitHub.com/johndharrison/RSelenium) package
     (not on CRAN) provides a set of R bindings for the Selenium 2.0
     webdriver using the
     [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol).
@@ -232,7 +232,7 @@ Tools for Working with the Web from R
     (SaaS) to host and run
     [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
--   [neocities](https://github.com/seankross/neocities) wraps the API
+-   [neocities](https://GitHub.com/seankross/neocities) wraps the API
     for the [Neocities](https://neocities.org/) web hosting service.
 -   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
     framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
@@ -244,24 +244,24 @@ Tools for Working with the Web from R
     [Extension:R](http://www.mediawiki.org/wiki/Extension:R)) to run R
     code from wiki pages, and use uploaded data. Links to demo pages (in
     German) can be found at the [category page for R
-    scrips](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
+    scripts](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
     at MM-Stat. A mailing list is available:
     [R-sig-mediawiki](https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki).
 
 ### JavaScript
 
--   [ggvis](https://github.com/rstudio/ggvis) (not on CRAN) makes it
+-   [ggvis](https://GitHub.com/rstudio/ggvis) (not on CRAN) makes it
     easy to describe interactive web graphics in R. It fuses the ideas
     of ggplot2 and
     [shiny](http://cran.r-project.org/web/packages/shiny/index.html),
     rendering graphics on the web with Vega.
--   [rCharts](https://github.com/ramnathv/rCharts) (not on CRAN) allows
-    for interactive javascript charts from R.
--   [rVega](https://github.com/metagraf/rVega) (not on CRAN) is an R
+-   [rCharts](https://GitHub.com/ramnathv/rCharts) (not on CRAN) allows
+    for interactive Javascript charts from R.
+-   [rVega](https://GitHub.com/metagraf/rVega) (not on CRAN) is an R
     wrapper for Vega.
--   [clickme](https://github.com/nachocab/clickme) (not on CRAN) is an R
+-   [clickme](https://GitHub.com/nachocab/clickme) (not on CRAN) is an R
     package to create interactive plots.
--   [animint](https://github.com/tdhock/animint) (not on CRAN) allows an
+-   [animint](https://GitHub.com/tdhock/animint) (not on CRAN) allows an
     interactive animation to be defined using a list of ggplots with
     clickSelects and showSelected aesthetics, then exported to
     CSV/JSON/D3/JavaScript for viewing in a web browser.
@@ -311,7 +311,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST) provides an
     interface to Amazon's Simple DB API.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
-    Access to Amazon Mechanical Turk Requester API via R.
+    Access to Amazon Mechanical Turk Requester API via R. Development
+    version on GitHub [here](https://www.github.com/leeper/MTurkR).
 
 ### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
@@ -325,12 +326,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
     Programmatic interface for Figshare.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
-    Thin wrapper for the Factual.com server API.
+    Thin wrapper for the [Factual.com](http://factual.com/) server API.
 -   [dataone](http://cran.r-project.org/web/packages/dataone/index.html):
     A package that provides read/write access to data and metadata from
     the DataONE network of Member Node data repositories.
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
-    Lets you deploy, maintain, and invoke models via the Yhat REST API.
+    Lets you deploy, maintain, and invoke models via the
+    [Yhat](https://www.yhathq.com/) REST API.
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html):
     Provided with a Socrata dataset resource URL, or a Socrata SoDA web
     API query, returns an R data frame. Converts dates to POSIX format.
@@ -345,7 +347,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
     An R wrapper for the infochimps.com API services, from [Drew
     Conway](http://drewconway.com/). The CRAN version is archived.
-    Development [on Github](https://github.com/drewconway/infochimps).
+    Development is available on GitHub
+    [here](https://GitHub.com/drewconway/infochimps).
 
 ### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
@@ -366,7 +369,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html): A
     compilation of historical through contemporary climate measurements
     scraped from the Environment Canada Website Including tools for
-    scraping data, creating metadata and formating temperature files.
+    scraping data, creating metadata and formatting temperature files.
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html):
     Provides functions for retrieving energy statistics from the United
     Kingdom Department of Energy and Climate Change and related data
@@ -381,7 +384,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Open Geospatial Consortium (OGC). It allows users to retrieve
     metadata from SOS web services and to interactively create requests
     for near real-time observation data based on the available sensors,
-    phenomena, observations etc. using thematic, temporal and spatial
+    phenomena, observations, etc. using thematic, temporal and spatial
     filtering.
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html):
     The Climate Prediction Center's (CPC) daily rainfall data for the
@@ -433,9 +436,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     R interface for the World Bank climate data.
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
     Wrapper to the USGS Bison API.
--   [neotoma](https://github.com/ropensci/neotoma) (not on CRAN):
+-   [neotoma](https://GitHub.com/ropensci/neotoma) (not on CRAN):
     Programmatic R interface to the Neotoma Paleoecological Database.
--   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to
+-   [rnpn](https://GitHub.com/ropensci/rnpn) (not on CRAN): Wrapper to
     the National Phenology Network database API.
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html):
     Package for interacting with fisheries databases at
@@ -459,9 +462,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
     functions interact with the iPlant foundational API, the Taxonomic
     Name Resolution Service API, and the Phylotastic Taxosaurus API.
-    Before using rPlant, users will have to register with the iPlant
-    Collaborative.
-    [http://www.iplantcollaborative.org/discover/discovery-environment](http://www.iplantcollaborative.org/discover/discovery-environment)
+    Before using rPlant, users will have to register with the [iPlant
+    Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
     The ecoengine (
     [http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
@@ -481,7 +483,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
-    [here](https://github.com/JNCC-UK/rnbn).
+    [here](https://GitHub.com/JNCC-UK/rnbn).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -489,12 +491,12 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Search, extract and format data from the World Bank's World
     Development Indicators.
 -   The [Zillow](http://www.omegahat.org/Zillow/) package provides an R
-    interface to the Zillow Web Service API. It allows one to get the
-    Zillow estimate for the price of a particular property specified by
-    street address and ZIP code (or city and state), to find information
-    (e.g. size of property and lot, number of bedrooms and bathrooms,
-    year built.) about a given property, and to get comparable
-    properties.
+    interface to the [Zillow](http://www.zillow.com/) Web Service API.
+    It allows one to get the Zillow estimate for the price of a
+    particular property specified by street address and ZIP code (or
+    city and state), to find information (e.g. size of property and lot,
+    number of bedrooms and bathrooms, year built.) about a given
+    property, and to get comparable properties.
 -   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html):
     Interface for the REST API of Statistics Sweden. Fetch information
     on data hierarchy stored behind the API; extract metadata; fetch
@@ -505,23 +507,23 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
     searches and retrieves occupational data from [O\*NET
     Online](http://www.onetonline.org/). Development version on GitHub
-    [here](https://github.com/eknud/onetr).
+    [here](https://GitHub.com/eknud/onetr).
 
 ### <a href="#finance" name="finance">#</a> Finance
 
--   [RDatastream](https://github.com/fcocquemas/rdatastream) (not on
+-   [RDatastream](https://GitHub.com/fcocquemas/rdatastream) (not on
     CRAN): An R interface to the [Thomson Dataworks Enterprise SOAP
     API](http://dataworks.thomson.com/Dataworks/Enterprise/1.0/) (paid),
     with some convenience functions for retrieving Datastream data
     specifically.
--   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on
+-   [Datastream2R](https://GitHub.com/CharlesCara/Datastream2R) (not on
     CRAN): Another package for accessing the Datastream service. This
     package downloads data from the Thomson Reuters DataStream DWE
-    server, which provides XML access to the Datstream database of
+    server, which provides XML access to the Datastream database of
     economic and financial information.
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html):
     Functions for financial quantitative modelling as well as data
-    acqusition, plotting and other utilities.
+    acquisition, plotting and other utilities.
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html):
     Connects to TrueFX(tm) for free streaming real-time and historical
     tick-by-tick market data for dealable interbank foreign exchange
@@ -536,7 +538,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html):
     Wraps the API for the [Cryptsy](http://www.cryptsy.com)
     crypto-currency trading platform. Development version on GitHub
-    [here](https://github.com/kylehamilton/RCryptsy).
+    [here](https://GitHub.com/kylehamilton/RCryptsy).
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
     Interacts with the [Thinknum](http://www.thinknum.com/) API.
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
@@ -545,11 +547,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
     Includes the `get.hist.quote` for historical financial data.
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html):
-    An R package for the BitCoinCharts.com API. From their website:
-    "Bitcoincharts provides financial and technical data related to the
-    Bitcoin network and this data can be accessed via a JSON application
-    programming interface (API)."
--   [ustyc](https://github.com/mrbcuda/ustyc) (not on CRAN): US Treasury
+    An R package for the [BitCoinCharts.com](http://bitcoincharts.com/)
+    API. From their website: "Bitcoincharts provides financial and
+    technical data related to the Bitcoin network and this data can be
+    accessed via a JSON application programming interface (API)."
+-   [ustyc](https://GitHub.com/mrbcuda/ustyc) (not on CRAN): US Treasury
     yield curve data retrieval.
 
 ### <a href="#genes" name="genes">#</a> Genes and Genomes
@@ -609,7 +611,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
     Visualization of spatial and spatio-temporal objects in Google
     Earth.
--   [bigrquery](https://github.com/hadley/bigrquery) (not on CRAN): An
+-   [bigrquery](https://GitHub.com/hadley/bigrquery) (not on CRAN): An
     interface to Google's bigquery from R.
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN):
     An R interface to Google Fusion Tables. Google Fusion Tables is a
@@ -632,13 +634,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Access U.S. Federal Government Recall Data.
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
     ProPublica API Client.
--   [rsunlight](https://github.com/ropengov/rsunlight) (not on CRAN): R
+-   [rsunlight](https://GitHub.com/ropengov/rsunlight) (not on CRAN): R
     client for the Sunlight Labs APIs. There are functions for Sunlight
     Labs Congress, Transparency, Open States, Real Time Congress,
     Capitol Words, and Influence Explorer APIs. Data outputs are R
     lists. There are also a few convenience functions for visualizing
     data and writing data to .csv.
--   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client
+-   [rtimes](https://GitHub.com/ropengov/rtimes) (not on CRAN): R client
     for the New York Times APIs, including the Congress, Article Search,
     Campaign Finance, and Geographic APIs. The focus is on those that
     deal with political data, but throwing in Article Search and
@@ -658,15 +660,15 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Public Library of Science journals for search.
 -   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html): R
     interface to the Biodiversity Heritage Library (BHL) API.
--   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN):
+-   [rmetadata](https://GitHub.com/ropensci/rmetadata) (not on CRAN):
     Get scholarly metadata from around the web.
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html):
     Implementation of the Mendeley API in R.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI entrez using R.
--   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A
+-   [rorcid](https://GitHub.com/ropensci/rorcid) (not on CRAN): A
     programmatic interface the Orcid.org API.
--   [rpubmed](https://github.com/ropensci/rpubmed) (not on CRAN): Tools
+-   [rpubmed](https://GitHub.com/ropensci/rpubmed) (not on CRAN): Tools
     for extracting and processing Pubmed and Pubmed Central records.
 -   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html):
     Query and visualize metrics from Altmetric.com.
@@ -755,7 +757,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service
     [Imgur.com](http://www.imgur.com). The development version is on
-    GitHub [here](https://github.com/leeper/imguR). knitr also has a
+    GitHub [here](https://GitHub.com/leeper/imguR). knitr also has a
     function `imgur_upload()` to load images from literate programming
     documents.
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
@@ -784,15 +786,15 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Provides an S4 infrastructure for unified handling of internal
     datasets and web based data sources. Examples include dbpedia,
     eurostat and sourceforge.
--   [rDrop](https://github.com/karthikram/rDrop) (not on CRAN): Dropbox
+-   [rDrop](https://GitHub.com/karthikram/rDrop) (not on CRAN): Dropbox
     interface.
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html):
     This package provides an R wrapper for the Zendesk API.
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
     An R package to interact with Amazon Web Services (EC2/S3).
--   The [qualtrics](https://github.com/jbryer/qualtrics) package
-    provides functions to interact with the Qualtrics online survey
-    tool.
+-   [qualtrics](https://GitHub.com/jbryer/qualtrics) (not on CRAN):
+    Provides functions to interact with the
+    [Qualtrics](http://www.qualtrics.com/) online survey tool.
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
@@ -807,7 +809,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html):
     R tools for integrating with the www.clinicalcodes.org web
-    repository, by [David Springate](https://github.com/DASpringate)
+    repository, by [David Springate](https://GitHub.com/DASpringate)
 
 ### <a href="#social" name="social">#</a> Social media
 
@@ -838,8 +840,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
--   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN
-    yet): Tools for Collecting Data from nba.com and wnba.com
+-   [bbscrapeR](https://GitHub.com/cpsievert/bbscrapeR) (not on CRAN):
+    Tools for Collecting Data from nba.com and wnba.com
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
     Association Football (Soccer) Ranking via Poisson Regression - uses
     time dependent Poisson regression and a record of goals scored in
@@ -1001,28 +1003,28 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 
 ### Related links:
 
--   [GitHub package: animint](https://github.com/tdhock/animint)
+-   [GitHub package: animint](https://GitHub.com/tdhock/animint)
 -   [Omegahat package: Aspell](http://www.omegahat.org/Aspell/)
--   [GitHub package: bigrquery](https://github.com/hadley/bigrquery)
+-   [GitHub package: bigrquery](https://GitHub.com/hadley/bigrquery)
 -   [Omegahat package: CGIwithR](http://www.omegahat.org/CGIwithR/)
--   [GitHub package: clickme](https://github.com/nachocab/clickme)
+-   [GitHub package: clickme](https://GitHub.com/nachocab/clickme)
 -   [Omegahat package: GeoIP](http://www.omegahat.org/GeoIP/)
--   [GitHub package: ggvis](https://github.com/rstudio/ggvis)
--   [GitHub package: neotoma](https://github.com/ropensci/neotoma)
--   [GitHub package: qualtrics](https://github.com/jbryer/qualtrics)
+-   [GitHub package: ggvis](https://GitHub.com/rstudio/ggvis)
+-   [GitHub package: neotoma](https://GitHub.com/ropensci/neotoma)
+-   [GitHub package: qualtrics](https://GitHub.com/jbryer/qualtrics)
 -   [Omegahat package:
     R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/)
 -   [Omegahat package:
     RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST)
 -   [Omegahat package: RAmazonS3](http://www.omegahat.org/RAmazonS3)
--   [GitHub package: rCharts](https://github.com/ramnathv/rCharts)
+-   [GitHub package: rCharts](https://GitHub.com/ramnathv/rCharts)
 -   [Omegahat package:
     Rcompression](http://www.omegahat.org/Rcompression/)
 -   [Omegahat package:
     RDCOMClient](http://www.omegahat.org/RDCOMClient/)
 -   [Omegahat package:
     RDCOMServer](http://www.omegahat.org/RDCOMServer/)
--   [GitHub package: rDrop](https://github.com/karthikram/rDrop)
+-   [GitHub package: rDrop](https://GitHub.com/karthikram/rDrop)
 -   [Omegahat package: REuPathDB](http://www.omegahat.org/REuPathDB/)
 -   [Omegahat package: Rflickr](http://www.omegahat.org/Rflickr)
 -   [Omegahat package:
@@ -1034,30 +1036,30 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [Omegahat package: RHTMLForms](http://www.omegahat.org/RHTMLForms/)
 -   [Omegahat package: RKML](http://www.omegahat.org/RKML/)
 -   [Omegahat package: RKMLDevice](http://www.omegahat.org/RKMLDevice/)
--   [GitHub package: rmetadata](https://github.com/ropensci/rmetadata)
--   [GitHub package: rnbn](https://github.com/JNCC-UK/rnbn)
--   [GitHub package: rnpn](https://github.com/ropensci/rnpn)
+-   [GitHub package: rmetadata](https://GitHub.com/ropensci/rmetadata)
+-   [GitHub package: rnbn](https://GitHub.com/JNCC-UK/rnbn)
+-   [GitHub package: rnpn](https://GitHub.com/ropensci/rnpn)
 -   [Omegahat package: RNYTimes](http://www.omegahat.org/RNYTimes)
--   [GitHub package: rorcid](https://github.com/ropensci/rorcid)
--   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
+-   [GitHub package: rorcid](https://GitHub.com/ropensci/rorcid)
+-   [GitHub package: rpubmed](https://GitHub.com/ropensci/rpubmed)
 -   [GitHub package:
-    RSelenium](https://github.com/johndharrison/RSelenium)
+    RSelenium](https://GitHub.com/johndharrison/RSelenium)
 -   [Omegahat package: RTidyHTML](http://www.omegahat.org/RTidyHTML/)
 -   [Omegahat package: RUbigraph](http://www.omegahat.org/RUbigraph/)
--   [GitHub package: rVega](https://github.com/metagraf/rVega)
+-   [GitHub package: rVega](https://GitHub.com/metagraf/rVega)
 -   [Omegahat package:
     SpiderMonkey](http://www.omegahat.org/SpiderMonkey/)
 -   [Omegahat package: SSOAP](http://www.omegahat.org/SSOAP/)
 -   [Omegahat package: Sxslt](http://www.omegahat.org/Sxslt/)
--   [GitHub package: XML2R](https://github.com/cpsievert/XML2R)
+-   [GitHub package: XML2R](https://GitHub.com/cpsievert/XML2R)
 -   [Omegahat package: XMLRPC](http://www.omegahat.org/XMLRPC/)
 -   [Omegahat package: XMLSchema](http://www.omegahat.org/XMLSchema/)
 -   [Omegahat package: WADL](http://www.omegahat.org/WADL/)
 -   [Omegahat package: Zillow](http://www.omegahat.org/Zillow/)
 -   [GitHub package:
-    RDatastream](https://github.com/fcocquemas/rdatastream)
+    RDatastream](https://GitHub.com/fcocquemas/rdatastream)
 -   [GitHub package:
-    Datastream2R](https://github.com/CharlesCara/Datastream2R)
+    Datastream2R](https://GitHub.com/CharlesCara/Datastream2R)
 -   [CRAN archived package:
     seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
 -   [CRAN archived package:
@@ -1070,9 +1072,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
 -   [GFusionTables](http://gfusiontables.lopatenko.com/)
 -   [GitHub package:
-    websockets](https://github.com/rstudio/R-Websockets)
+    websockets](https://GitHub.com/rstudio/R-Websockets)
 -   [CRAN archived package:
     websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
--   [GitHub package: rsunlight](https://github.com/ropengov/rsunlight)
--   [GitHub package: rtimes](https://github.com/ropengov/rtimes)
+-   [GitHub package: rsunlight](https://GitHub.com/ropengov/rsunlight)
+-   [GitHub package: rtimes](https://GitHub.com/ropengov/rtimes)
 
