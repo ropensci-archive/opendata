@@ -527,6 +527,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Ineract with Bitcoin. Both public and private API calls. Support
     HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl,
     error handling.
+-   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html):
+    Wraps the API for the [Cryptsy](http://www.cryptsy.com)
+    crypto-currency trading platform. Development version on GitHub
+    [here](https://github.com/kylehamilton/RCryptsy).
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
     Interacts with the [Thinknum](http://www.thinknum.com/) API.
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
@@ -919,6 +923,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html)
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
+-   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)

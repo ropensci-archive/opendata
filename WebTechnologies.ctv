@@ -389,6 +389,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.
 </li>
 <li>
+<pkg>RCryptsy</pkg>: Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>.
+</li>
+<li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.
 </li>
 <li>
@@ -814,6 +817,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rbitcoinchartsapi</pkg>
   <pkg>rClinicalCodes</pkg>
   <pkg>Rcolombos</pkg>
+  <pkg>RCryptsy</pkg>
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
