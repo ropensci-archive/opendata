@@ -808,6 +808,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     has been designed to to facilitate the retrieval of Google+
     profiles, pages and posts. It also provides search facilities.
     Currently a Google+ API key is required for accessing Google+ data.
+-   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
+    is an analytic tool that returns information about the popularity of
+    a URL on social media sites.
 
 ### <a href="#sports" name="sports">#</a> Sports
 
@@ -951,6 +954,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     (core)
+-   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
