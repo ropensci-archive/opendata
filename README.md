@@ -429,8 +429,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Taxonomic information from around the web.
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html):
     Species distribution modeling, with wrappers to some APIs.
--   [rnbn](https://github.com/JNCC-UK/rnbn) (not on CRAN): Access to the
-    UK National Biodiversity Network data.
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html):
     R interface for the World Bank climate data.
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
@@ -480,6 +478,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
     [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
+-   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
+    interface to the [UK National Biodiversity
+    Network](http://www.nbn.org.uk). Development version on GitHub
+    [here](https://github.com/JNCC-UK/rnbn).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -952,6 +954,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
+-   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)

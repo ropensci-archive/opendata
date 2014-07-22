@@ -308,9 +308,6 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>dismo</pkg>: Species distribution modeling, with wrappers to some APIs.
 </li>
 <li>
-<a href="https://github.com/JNCC-UK/rnbn">rnbn</a> (not on CRAN): Access to the UK National Biodiversity Network data.
-</li>
-<li>
 <pkg>rWBclimate</pkg>: R interface for the World Bank climate data.
 </li>
 <li>
@@ -348,6 +345,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <a href="http://paleobiodb.org/data1.1/">http://paleobiodb.org/data1.1/</a>.
+</li>
+<li>
+<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
 </li>
 </ul>
 
@@ -844,6 +844,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rjson</pkg>
   <pkg>RJSONIO</pkg>
   <pkg>RMendeley</pkg>
+  <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
   <pkg>rnoaa</pkg>
   <pkg>ROAuth</pkg>
