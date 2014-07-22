@@ -634,6 +634,9 @@ The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides 
 You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
 <li>
+<a href="https://github.com/leeper/meme">meme</a> (not on CRAN): Provides the ability to create internet memes from template images using several online meme-generation services.
+</li>
+<li>
 <pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
 </li>
 </ul>

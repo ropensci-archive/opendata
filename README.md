@@ -767,6 +767,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     graphs. You can add and remove vertices/nodes and edges in a graph
     and change their attributes/characteristics such as shape, color,
     size.
+-   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
+    ability to create internet memes from template images using several
+    online meme-generation services.
 -   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
     Extracts colors and multi-color patterns from
     [COLOURlovers](http://www.colourlovers.com/), for use in creating R
