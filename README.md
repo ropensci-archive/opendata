@@ -739,9 +739,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 ### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
-    package to share plots using the image hosting service imgur.com.
-    (also see the function `imgur_upload()` in knitr, which uses the
-    newer Imgur API version 3)
+    package to share plots using the image hosting service
+    [Imgur.com](http://www.imgur.com). The development version is on
+    GitHub [here](https://github.com/leeper/imguR). knitr also has a
+    function `imgur_upload()` to load images from literate programming
+    documents.
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
     package to interface to the last.fm API. Archived on CRAN.
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
