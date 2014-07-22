@@ -7,7 +7,7 @@
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
-If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://GitHub.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://GitHub.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 <h2>
 Tools for Working with the Web from R
@@ -25,7 +25,7 @@ The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to l
 The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>.
 </li>
 <li>
-<pkg>XML2R</pkg>: The XML2R package is a collection of convenient functions for coercing XML into data frames. The development version is on GitHub <a href="https://GitHub.com/cpsievert/XML2R">here</a>.
+<pkg>XML2R</pkg>: The XML2R package is a collection of convenient functions for coercing XML into data frames. The development version is on GitHub <a href="https://github.com/cpsievert/XML2R">here</a>.
 </li>
 <li>
 An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.
@@ -109,10 +109,10 @@ A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> 
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is websockets, also made by Joe Cheng.
 </li>
 <li>
-<a href="https://GitHub.com/rstudio/R-Websockets">websockets</a> A simple HTML5 websocket interface for R, by Joe Cheng. (not on CRAN)
+<a href="https://github.com/rstudio/R-Websockets">websockets</a> A simple HTML5 websocket interface for R, by Joe Cheng. (not on CRAN)
 </li>
 <li>
-Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://GitHub.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
+Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
 </li>
 <li>
 The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.
@@ -120,12 +120,12 @@ The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to p
 <li>
 The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.
 </li>
-<li>The <a href="https://GitHub.com/johndharrison/RSelenium">RSelenium</a> package (not on CRAN) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).</li>
+<li>The <a href="https://github.com/johndharrison/RSelenium">RSelenium</a> package (not on CRAN) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).</li>
 <li>
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
 <li>
-<a href="https://GitHub.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service.
+<a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service.
 </li>
 <li>
 The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware framework has an R plugin (<a href="https://doc.tiki.org/PluginR">PluginR</a>) to run R code from wiki pages, and use data from their own collected web databases (trackers). A demo: <a href="http://r.tiki.org/tiki-index.php">http://r.tiki.org</a>. More info in a <a href="http://ueb.vhir.org/2011+UseR">useR!2013 presentation</a>.
@@ -138,19 +138,19 @@ The <a href="http://www.mediawiki.org">MediaWiki</a> has an extension (<a href="
 <p><strong>JavaScript</strong></p>
 <ul>
 <li>
-<a href="https://GitHub.com/rstudio/ggvis">ggvis</a> (not on CRAN) makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and <pkg>shiny</pkg>, rendering graphics on the web with Vega.
+<a href="https://github.com/rstudio/ggvis">ggvis</a> (not on CRAN) makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and <pkg>shiny</pkg>, rendering graphics on the web with Vega.
 </li>
 <li>
-<a href="https://GitHub.com/ramnathv/rCharts">rCharts</a>  (not on CRAN) allows for interactive Javascript charts from R.
+<a href="https://github.com/ramnathv/rCharts">rCharts</a>  (not on CRAN) allows for interactive Javascript charts from R.
 </li>
 <li>
-<a href="https://GitHub.com/metagraf/rVega">rVega</a> (not on CRAN) is an R wrapper for Vega.
+<a href="https://github.com/metagraf/rVega">rVega</a> (not on CRAN) is an R wrapper for Vega.
 </li>
 <li>
-<a href="https://GitHub.com/nachocab/clickme">clickme</a> (not on CRAN) is an R package to create interactive plots.
+<a href="https://github.com/nachocab/clickme">clickme</a> (not on CRAN) is an R package to create interactive plots.
 </li>
 <li>
-<a href="https://GitHub.com/tdhock/animint">animint</a> (not on CRAN) allows an interactive animation to be defined using a list of ggplots with clickSelects and showSelected aesthetics, then exported to CSV/JSON/D3/JavaScript for viewing in a web browser.
+<a href="https://github.com/tdhock/animint">animint</a> (not on CRAN) allows an interactive animation to be defined using a list of ggplots with clickSelects and showSelected aesthetics, then exported to CSV/JSON/D3/JavaScript for viewing in a web browser.
 </li>
 <li>
 The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package provides a means of evaluating JavaScript code, creating JavaScript objects and calling JavaScript functions and methods from within R. This can work by embedding the JavaScript engine within an R session or by embedding R in an browser such as Firefox and being able to call R from JavaScript and call back to JavaScript from R.
@@ -230,7 +230,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://GitHub.com/drewconway/infochimps">here</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
 </li>
 </ul>
 
@@ -314,10 +314,10 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rbison</pkg>: Wrapper to the USGS Bison API.
 </li>
 <li>
-<a href="https://GitHub.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
+<a href="https://github.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
 </li>
 <li>
-<a href="https://GitHub.com/ropensci/rnpn">rnpn</a> (not on CRAN): Wrapper to the National Phenology Network database API.
+<a href="https://github.com/ropensci/rnpn">rnpn</a> (not on CRAN): Wrapper to the National Phenology Network database API.
 </li>
 <li>
 <pkg>rfisheries</pkg>: Package for interacting with fisheries databases at openfisheries.org.
@@ -347,7 +347,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <a href="http://paleobiodb.org/data1.1/">http://paleobiodb.org/data1.1/</a>.
 </li>
 <li>
-<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://GitHub.com/JNCC-UK/rnbn">here</a>.
+<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
 </li>
 </ul>
 
@@ -367,17 +367,17 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 </li>
 <li>
-<pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://GitHub.com/eknud/onetr">here</a>.
+<pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.
 </li>
 </ul>
 
 <p><strong>tochref="lb-finance" name="finance"endhref Finance</strong></p>
 <ul>
 <li>
-<a href="https://GitHub.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
+<a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
 </li>
 <li>
-<a href="https://GitHub.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
+<a href="https://github.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 </li>
 <li>
 <pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acquisition, plotting and other utilities.
@@ -392,7 +392,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.
 </li>
 <li>
-<pkg>RCryptsy</pkg>: Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://GitHub.com/kylehamilton/RCryptsy">here</a>.
+<pkg>RCryptsy</pkg>: Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>.
 </li>
 <li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.
@@ -407,7 +407,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>rbitcoinchartsapi</pkg>: An R package for the <a href="http://bitcoincharts.com/">BitCoinCharts.com</a> API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
 </li>
 <li>
-<a href="https://GitHub.com/mrbcuda/ustyc">ustyc</a> (not on CRAN): US Treasury yield curve data retrieval.
+<a href="https://github.com/mrbcuda/ustyc">ustyc</a> (not on CRAN): US Treasury yield curve data retrieval.
 </li>
 </ul>
 
@@ -471,7 +471,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>plotKML</pkg>: Visualization of spatial and spatio-temporal objects in Google Earth.
 </li>
 <li>
-<a href="https://GitHub.com/hadley/bigrquery">bigrquery</a> (not on CRAN): An interface to Google's bigquery from R.
+<a href="https://github.com/hadley/bigrquery">bigrquery</a> (not on CRAN): An interface to Google's bigquery from R.
 </li>
 <li>
 <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables
@@ -500,10 +500,10 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>RPublica</pkg>: ProPublica API Client.
 </li>
 <li>
-<a href="https://GitHub.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
+<a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
 </li>
 <li>
-<a href="https://GitHub.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+<a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
 </li>
 <li>
 <pkg>wethepeople</pkg>: An R client for interacting with the White House's "We The People" petition API.
@@ -523,7 +523,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
 </li>
 <li>
-<a href="https://GitHub.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.
+<a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.
 </li>
 <li>
 <pkg>RMendeley</pkg>: Implementation of the Mendeley API in R.
@@ -532,10 +532,10 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>rentrez</pkg>: Talk with NCBI entrez using R.
 </li>
 <li>
-<a href="https://GitHub.com/ropensci/rorcid">rorcid</a> (not on CRAN): A programmatic interface the Orcid.org API.
+<a href="https://github.com/ropensci/rorcid">rorcid</a> (not on CRAN): A programmatic interface the Orcid.org API.
 </li>
 <li>
-<a href="https://GitHub.com/ropensci/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
+<a href="https://github.com/ropensci/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
 </li>
 <li>
 <pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.</li>
@@ -624,7 +624,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 
 <ul>
 <li>
-<pkg>imguR</pkg>: A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. The development version is on GitHub <a href="https://GitHub.com/leeper/imguR">here</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.
+<pkg>imguR</pkg>: A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. The development version is on GitHub <a href="https://github.com/leeper/imguR">here</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
@@ -663,7 +663,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>datamart</pkg>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 </li>
 <li>
-<a href="https://GitHub.com/karthikram/rDrop">rDrop</a> (not on CRAN): Dropbox interface.
+<a href="https://github.com/karthikram/rDrop">rDrop</a> (not on CRAN): Dropbox interface.
 </li>
 <li>
 <pkg>zendeskR</pkg>: This package provides an R wrapper for the Zendesk API.
@@ -672,7 +672,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
 </li>
 <li>
-<a href="https://GitHub.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool.
+<a href="https://github.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool.
 </li>
 <li>
 <a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results.
@@ -693,7 +693,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 
 <ul>
 <li>
-<pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://GitHub.com/DASpringate">David Springate</a>
+<pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://github.com/DASpringate">David Springate</a>
 </li>
 </ul>
 
@@ -732,7 +732,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 </li>
 <li>
-<a href="https://GitHub.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN): Tools for Collecting Data from nba.com and wnba.com
+<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN): Tools for Collecting Data from nba.com and wnba.com
 </li>
 <li>
 <pkg>fbRanks</pkg>: Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
@@ -773,23 +773,23 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 </packagelist>
 
 <links>
-  <a href="https://GitHub.com/tdhock/animint">GitHub package: animint</a>
+  <a href="https://github.com/tdhock/animint">GitHub package: animint</a>
   <a href="http://www.omegahat.org/Aspell/">Omegahat package: Aspell</a>
-  <a href="https://GitHub.com/hadley/bigrquery">GitHub package: bigrquery</a>
+  <a href="https://github.com/hadley/bigrquery">GitHub package: bigrquery</a>
   <a href="http://www.omegahat.org/CGIwithR/">Omegahat package: CGIwithR</a>
-  <a href="https://GitHub.com/nachocab/clickme">GitHub package: clickme</a>
+  <a href="https://github.com/nachocab/clickme">GitHub package: clickme</a>
   <a href="http://www.omegahat.org/GeoIP/">Omegahat package: GeoIP</a>
-  <a href="https://GitHub.com/rstudio/ggvis">GitHub package: ggvis</a>
-  <a href="https://GitHub.com/ropensci/neotoma">GitHub package: neotoma</a>
-  <a href="https://GitHub.com/jbryer/qualtrics">GitHub package: qualtrics</a>
+  <a href="https://github.com/rstudio/ggvis">GitHub package: ggvis</a>
+  <a href="https://github.com/ropensci/neotoma">GitHub package: neotoma</a>
+  <a href="https://github.com/jbryer/qualtrics">GitHub package: qualtrics</a>
   <a href="http://www.omegahat.org/R2GoogleMaps/">Omegahat package: R2GoogleMaps</a>
   <a href="http://www.omegahat.org/RAmazonDBREST">Omegahat package: RAmazonDBREST</a>
   <a href="http://www.omegahat.org/RAmazonS3">Omegahat package: RAmazonS3</a>
-  <a href="https://GitHub.com/ramnathv/rCharts">GitHub package: rCharts</a>
+  <a href="https://github.com/ramnathv/rCharts">GitHub package: rCharts</a>
   <a href="http://www.omegahat.org/Rcompression/">Omegahat package: Rcompression</a>
   <a href="http://www.omegahat.org/RDCOMClient/">Omegahat package: RDCOMClient</a>
   <a href="http://www.omegahat.org/RDCOMServer/">Omegahat package: RDCOMServer</a>
-  <a href="https://GitHub.com/karthikram/rDrop">GitHub package: rDrop</a>
+  <a href="https://github.com/karthikram/rDrop">GitHub package: rDrop</a>
   <a href="http://www.omegahat.org/REuPathDB/">Omegahat package: REuPathDB</a>
   <a href="http://www.omegahat.org/Rflickr">Omegahat package: Rflickr</a>
   <a href="http://www.omegahat.org/RGoogleDocs/">Omegahat package: RGoogleDocs</a>
@@ -798,36 +798,36 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <a href="http://www.omegahat.org/RHTMLForms/">Omegahat package: RHTMLForms</a>
   <a href="http://www.omegahat.org/RKML/">Omegahat package: RKML</a>
   <a href="http://www.omegahat.org/RKMLDevice/">Omegahat package: RKMLDevice</a>
-  <a href="https://GitHub.com/ropensci/rmetadata">GitHub package: rmetadata</a>
-  <a href="https://GitHub.com/JNCC-UK/rnbn">GitHub package: rnbn</a>
-  <a href="https://GitHub.com/ropensci/rnpn">GitHub package: rnpn</a>
+  <a href="https://github.com/ropensci/rmetadata">GitHub package: rmetadata</a>
+  <a href="https://github.com/JNCC-UK/rnbn">GitHub package: rnbn</a>
+  <a href="https://github.com/ropensci/rnpn">GitHub package: rnpn</a>
   <a href="http://www.omegahat.org/RNYTimes">Omegahat package: RNYTimes</a>
-  <a href="https://GitHub.com/ropensci/rorcid">GitHub package: rorcid</a>
-  <a href="https://GitHub.com/ropensci/rpubmed">GitHub package: rpubmed</a>
-  <a href="https://GitHub.com/johndharrison/RSelenium">GitHub package: RSelenium</a>
+  <a href="https://github.com/ropensci/rorcid">GitHub package: rorcid</a>
+  <a href="https://github.com/ropensci/rpubmed">GitHub package: rpubmed</a>
+  <a href="https://github.com/johndharrison/RSelenium">GitHub package: RSelenium</a>
   <a href="http://www.omegahat.org/RTidyHTML/">Omegahat package: RTidyHTML</a>
   <a href="http://www.omegahat.org/RUbigraph/">Omegahat package: RUbigraph</a>
-  <a href="https://GitHub.com/metagraf/rVega">GitHub package: rVega</a>
+  <a href="https://github.com/metagraf/rVega">GitHub package: rVega</a>
   <a href="http://www.omegahat.org/SpiderMonkey/">Omegahat package: SpiderMonkey</a>
   <a href="http://www.omegahat.org/SSOAP/">Omegahat package: SSOAP</a>
   <a href="http://www.omegahat.org/Sxslt/">Omegahat package: Sxslt</a>
-  <a href="https://GitHub.com/cpsievert/XML2R">GitHub package: XML2R</a>
+  <a href="https://github.com/cpsievert/XML2R">GitHub package: XML2R</a>
   <a href="http://www.omegahat.org/XMLRPC/">Omegahat package: XMLRPC</a>
   <a href="http://www.omegahat.org/XMLSchema/">Omegahat package: XMLSchema</a>
   <a href="http://www.omegahat.org/WADL/">Omegahat package: WADL</a>
   <a href="http://www.omegahat.org/Zillow/">Omegahat package: Zillow</a>
-  <a href="https://GitHub.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
-  <a href="https://GitHub.com/CharlesCara/Datastream2R">GitHub package: Datastream2R</a>
+  <a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
+  <a href="https://github.com/CharlesCara/Datastream2R">GitHub package: Datastream2R</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">CRAN archived package: seq2R</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">CRAN archived package: BerkeleyEarth</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">CRAN archived package: Metadata</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">CRAN archived package: infochimps</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">CRAN archived package: RLastFM</a>
   <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a>
-  <a href="https://GitHub.com/rstudio/R-Websockets">GitHub package: websockets</a>
+  <a href="https://github.com/rstudio/R-Websockets">GitHub package: websockets</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a>
-  <a href="https://GitHub.com/ropengov/rsunlight">GitHub package: rsunlight</a>
-  <a href="https://GitHub.com/ropengov/rtimes">GitHub package: rtimes</a>
+  <a href="https://github.com/ropengov/rsunlight">GitHub package: rsunlight</a>
+  <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
 </links>
 
 </CRANTaskView>
