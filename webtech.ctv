@@ -366,6 +366,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <li>
 <pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 </li>
+<li>
+<pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-finance" name="finance"endhref Finance</strong></p>

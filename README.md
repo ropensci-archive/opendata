@@ -500,6 +500,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
     Contains functions to download and format longitudinal datasets from
     the Panel Study of Income Dynamics (PSID).
+-   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
+    searches and retrieves occupational data from [O\*NET
+    Online](http://www.onetonline.org/). Development version on GitHub
+    [here](https://github.com/eknud/onetr).
 
 ### <a href="#finance" name="finance">#</a> Finance
 
@@ -899,6 +903,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
 -   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html)
+-   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html)
