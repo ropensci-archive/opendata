@@ -125,6 +125,9 @@ The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a me
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
 <li>
+<a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service.
+</li>
+<li>
 The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware framework has an R plugin (<a href="https://doc.tiki.org/PluginR">PluginR</a>) to run R code from wiki pages, and use data from their own collected web databases (trackers). A demo: <a href="http://r.tiki.org/tiki-index.php">http://r.tiki.org</a>. More info in a <a href="http://ueb.vhir.org/2011+UseR">useR!2013 presentation</a>.
 </li>
 <li>

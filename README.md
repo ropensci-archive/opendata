@@ -232,6 +232,8 @@ Tools for Working with the Web from R
     (SaaS) to host and run
     [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
+-   [neocities](https://github.com/seankross/neocities) wraps the API
+    for the [Neocities](https://neocities.org/) web hosting service.
 -   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
     framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
     to run R code from wiki pages, and use data from their own collected
