@@ -669,6 +669,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <a href="https://GitHub.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool.
 </li>
 <li>
+<a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results.
+</li>
+<li>
 <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
 </li>
 <li>

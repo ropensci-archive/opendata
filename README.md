@@ -795,6 +795,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [qualtrics](https://GitHub.com/jbryer/qualtrics) (not on CRAN):
     Provides functions to interact with the
     [Qualtrics](http://www.qualtrics.com/) online survey tool.
+-   [Rmonkey](https://github.com/leeper/Rmonkey/) (not on CRAN):
+    Provides programmatic access to [Survey
+    Monkey](https://www.surveymonkey.com/) for creating simple surveys
+    and retrieving survey results.
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
