@@ -767,6 +767,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     graphs. You can add and remove vertices/nodes and edges in a graph
     and change their attributes/characteristics such as shape, color,
     size.
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
+    Extracts colors and multi-color patterns from
+    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
+    graphics color palettes. Development version on GitHub
+    [here](https://github.com/leeper/colourlovers).
 
 ### <a href="#news" name="news">#</a> News
 
@@ -878,6 +883,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [cimis](http://cran.r-project.org/web/packages/cimis/index.html)
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)

@@ -633,6 +633,9 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
 You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
+<li>
+<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-news" name="news"endhref News</strong></p>
