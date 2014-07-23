@@ -13,11 +13,11 @@ for interacting with the web. Thankfully, there are an increasingly
 large number of tools for interacting with the web. A list of available
 packages and functions is presented below, grouped by the type of
 activity. If you have any comments or suggestions for additions or
-improvements for this taskview, go to Github and [submit an
+improvements for this taskview, go to GitHub and [submit an
 issue](https://github.com/ropensci/webservices/issues), or make some
 changes and [submit a pull
 request](https://github.com/ropensci/webservices/pulls). If you can't
-contribute on Github, [send Scott an email](mailto:scott@ropensci.org).
+contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
 contact the maintainer of that package.
 
@@ -168,7 +168,7 @@ Tools for Working with the Web from R
     the 6 demos within
     [httr](http://cran.r-project.org/web/packages/httr/index.html),
     three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth
-    2.0 (facebook, github, google).
+    2.0 (facebook, GitHub, google).
     [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
     is a package that provides a separate R interface to OAuth. OAuth is
     easier to to do in
@@ -232,12 +232,21 @@ Tools for Working with the Web from R
     (SaaS) to host and run
     [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
+-   [neocities](https://github.com/seankross/neocities) wraps the API
+    for the [Neocities](https://neocities.org/) web hosting service.
 -   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
     framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
     to run R code from wiki pages, and use data from their own collected
     web databases (trackers). A demo:
     [http://r.tiki.org](http://r.tiki.org/tiki-index.php). More info in
     a [useR!2013 presentation](http://ueb.vhir.org/2011+UseR).
+-   The [MediaWiki](http://www.mediawiki.org) has an extension (
+    [Extension:R](http://www.mediawiki.org/wiki/Extension:R)) to run R
+    code from wiki pages, and use uploaded data. Links to demo pages (in
+    German) can be found at the [category page for R
+    scripts](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
+    at MM-Stat. A mailing list is available:
+    [R-sig-mediawiki](https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki).
 
 ### JavaScript
 
@@ -247,7 +256,7 @@ Tools for Working with the Web from R
     [shiny](http://cran.r-project.org/web/packages/shiny/index.html),
     rendering graphics on the web with Vega.
 -   [rCharts](https://github.com/ramnathv/rCharts) (not on CRAN) allows
-    for interactive javascript charts from R.
+    for interactive Javascript charts from R.
 -   [rVega](https://github.com/metagraf/rVega) (not on CRAN) is an R
     wrapper for Vega.
 -   [clickme](https://github.com/nachocab/clickme) (not on CRAN) is an R
@@ -302,7 +311,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RAmazonDBREST](http://www.omegahat.org/RAmazonDBREST) provides an
     interface to Amazon's Simple DB API.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
-    Access to Amazon Mechanical Turk Requester API via R.
+    Access to Amazon Mechanical Turk Requester API via R. Development
+    version on GitHub [here](https://www.github.com/leeper/MTurkR).
 
 ### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
@@ -316,12 +326,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
     Programmatic interface for Figshare.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
-    Thin wrapper for the Factual.com server API.
+    Thin wrapper for the [Factual.com](http://factual.com/) server API.
 -   [dataone](http://cran.r-project.org/web/packages/dataone/index.html):
     A package that provides read/write access to data and metadata from
     the DataONE network of Member Node data repositories.
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
-    Lets you deploy, maintain, and invoke models via the Yhat REST API.
+    Lets you deploy, maintain, and invoke models via the
+    [Yhat](https://www.yhathq.com/) REST API.
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html):
     Provided with a Socrata dataset resource URL, or a Socrata SoDA web
     API query, returns an R data frame. Converts dates to POSIX format.
@@ -336,7 +347,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
     An R wrapper for the infochimps.com API services, from [Drew
     Conway](http://drewconway.com/). The CRAN version is archived.
-    Development [on Github](https://github.com/drewconway/infochimps).
+    Development is available on GitHub
+    [here](https://github.com/drewconway/infochimps).
 
 ### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
@@ -357,7 +369,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html): A
     compilation of historical through contemporary climate measurements
     scraped from the Environment Canada Website Including tools for
-    scraping data, creating metadata and formating temperature files.
+    scraping data, creating metadata and formatting temperature files.
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html):
     Provides functions for retrieving energy statistics from the United
     Kingdom Department of Energy and Climate Change and related data
@@ -372,14 +384,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Open Geospatial Consortium (OGC). It allows users to retrieve
     metadata from SOS web services and to interactively create requests
     for near real-time observation data based on the available sensors,
-    phenomena, observations etc. using thematic, temporal and spatial
+    phenomena, observations, etc. using thematic, temporal and spatial
     filtering.
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html):
     The Climate Prediction Center's (CPC) daily rainfall data for the
     entire world, from 1979 to the present, at a resolution of 50 km
     (0.5 degrees lat-lon). This package provides functionality to
-    download and process the raw data from CPC. Development version on
-    GitHub [here](https://github.com/RationShop/raincpc).
+    download and process the raw data from CPC.
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
     Functions that help in fetching weather data from websites. Given a
     location and a date range, these functions help fetch weather data
@@ -421,8 +432,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Taxonomic information from around the web.
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html):
     Species distribution modeling, with wrappers to some APIs.
--   [rnbn](https://github.com/JNCC-UK/rnbn) (not on CRAN): Access to the
-    UK National Biodiversity Network data.
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html):
     R interface for the World Bank climate data.
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
@@ -453,9 +462,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
     functions interact with the iPlant foundational API, the Taxonomic
     Name Resolution Service API, and the Phylotastic Taxosaurus API.
-    Before using rPlant, users will have to register with the iPlant
-    Collaborative.
-    [http://www.iplantcollaborative.org/discover/discovery-environment](http://www.iplantcollaborative.org/discover/discovery-environment)
+    Before using rPlant, users will have to register with the [iPlant
+    Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
     The ecoengine (
     [http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
@@ -472,6 +480,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
     [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
+-   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
+    interface to the [UK National Biodiversity
+    Network](http://www.nbn.org.uk). Development version on GitHub
+    [here](https://github.com/JNCC-UK/rnbn).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -479,12 +491,12 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Search, extract and format data from the World Bank's World
     Development Indicators.
 -   The [Zillow](http://www.omegahat.org/Zillow/) package provides an R
-    interface to the Zillow Web Service API. It allows one to get the
-    Zillow estimate for the price of a particular property specified by
-    street address and ZIP code (or city and state), to find information
-    (e.g. size of property and lot, number of bedrooms and bathrooms,
-    year built.) about a given property, and to get comparable
-    properties.
+    interface to the [Zillow](http://www.zillow.com/) Web Service API.
+    It allows one to get the Zillow estimate for the price of a
+    particular property specified by street address and ZIP code (or
+    city and state), to find information (e.g. size of property and lot,
+    number of bedrooms and bathrooms, year built.) about a given
+    property, and to get comparable properties.
 -   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html):
     Interface for the REST API of Statistics Sweden. Fetch information
     on data hierarchy stored behind the API; extract metadata; fetch
@@ -492,6 +504,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
     Contains functions to download and format longitudinal datasets from
     the Panel Study of Income Dynamics (PSID).
+-   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
+    searches and retrieves occupational data from [O\*NET
+    Online](http://www.onetonline.org/). Development version on GitHub
+    [here](https://github.com/eknud/onetr).
 
 ### <a href="#finance" name="finance">#</a> Finance
 
@@ -503,11 +519,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on
     CRAN): Another package for accessing the Datastream service. This
     package downloads data from the Thomson Reuters DataStream DWE
-    server, which provides XML access to the Datstream database of
+    server, which provides XML access to the Datastream database of
     economic and financial information.
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html):
     Functions for financial quantitative modelling as well as data
-    acqusition, plotting and other utilities.
+    acquisition, plotting and other utilities.
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html):
     Connects to TrueFX(tm) for free streaming real-time and historical
     tick-by-tick market data for dealable interbank foreign exchange
@@ -519,6 +535,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Ineract with Bitcoin. Both public and private API calls. Support
     HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl,
     error handling.
+-   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html):
+    Wraps the API for the [Cryptsy](http://www.cryptsy.com)
+    crypto-currency trading platform. Development version on GitHub
+    [here](https://github.com/kylehamilton/RCryptsy).
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
     Interacts with the [Thinknum](http://www.thinknum.com/) API.
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
@@ -527,10 +547,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html):
     Includes the `get.hist.quote` for historical financial data.
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html):
-    An R package for the BitCoinCharts.com API. From their website:
-    "Bitcoincharts provides financial and technical data related to the
-    Bitcoin network and this data can be accessed via a JSON application
-    programming interface (API)."
+    An R package for the [BitCoinCharts.com](http://bitcoincharts.com/)
+    API. From their website: "Bitcoincharts provides financial and
+    technical data related to the Bitcoin network and this data can be
+    accessed via a JSON application programming interface (API)."
 -   [ustyc](https://github.com/mrbcuda/ustyc) (not on CRAN): US Treasury
     yield curve data retrieval.
 
@@ -574,6 +594,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     interface to the Google Documents API.
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html):
     Bindings for the Google Translate API v2
+-   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
+    provides bindings for both Google and Microsoft translation APIs.
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
     An R library to build Google's public data explorer DSPL metadata
     files.
@@ -733,9 +755,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 ### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
-    package to share plots using the image hosting service imgur.com.
-    (also see the function `imgur_upload()` in knitr, which uses the
-    newer Imgur API version 3)
+    package to share plots using the image hosting service
+    [Imgur.com](http://www.imgur.com). The development version is on
+    GitHub [here](https://github.com/leeper/imguR). knitr also has a
+    function `imgur_upload()` to load images from literate programming
+    documents.
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
     package to interface to the last.fm API. Archived on CRAN.
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
@@ -743,6 +767,14 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     graphs. You can add and remove vertices/nodes and edges in a graph
     and change their attributes/characteristics such as shape, color,
     size.
+-   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
+    ability to create internet memes from template images using several
+    online meme-generation services.
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
+    Extracts colors and multi-color patterns from
+    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
+    graphics color palettes. Development version on GitHub
+    [here](https://github.com/leeper/colourlovers).
 
 ### <a href="#news" name="news">#</a> News
 
@@ -768,9 +800,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     This package provides an R wrapper for the Zendesk API.
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
     An R package to interact with Amazon Web Services (EC2/S3).
--   The [qualtrics](https://github.com/jbryer/qualtrics) package
-    provides functions to interact with the Qualtrics online survey
-    tool.
+-   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN):
+    Provides functions to interact with the
+    [Qualtrics](http://www.qualtrics.com/) online survey tool.
+-   [Rmonkey](https://github.com/leeper/Rmonkey/) (not on CRAN):
+    Provides programmatic access to [Survey
+    Monkey](https://www.surveymonkey.com/) for creating simple surveys
+    and retrieving survey results.
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
@@ -804,6 +840,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     has been designed to to facilitate the retrieval of Google+
     profiles, pages and posts. It also provides search facilities.
     Currently a Google+ API key is required for accessing Google+ data.
+-   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
+    is an analytic tool that returns information about the popularity of
+    a URL on social media sites.
 
 ### <a href="#sports" name="sports">#</a> Sports
 
@@ -813,8 +852,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
--   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN
-    yet): Tools for Collecting Data from nba.com and wnba.com
+-   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN):
+    Tools for Collecting Data from nba.com and wnba.com
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
     Association Football (Soccer) Ranking via Poisson Regression - uses
     time dependent Poisson regression and a record of goals scored in
@@ -847,6 +886,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [cimis](http://cran.r-project.org/web/packages/cimis/index.html)
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
@@ -882,6 +922,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
 -   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html)
+-   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
 -   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html)
@@ -906,6 +947,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html)
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
+-   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
@@ -927,6 +969,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
 -   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
+-   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
@@ -947,6 +990,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     (core)
+-   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
@@ -957,6 +1001,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
+-   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)

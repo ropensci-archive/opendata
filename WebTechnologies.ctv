@@ -7,7 +7,7 @@
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
-If you have any comments or suggestions for additions or improvements for this taskview, go to Github and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on Github, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 <h2>
 Tools for Working with the Web from R
@@ -85,7 +85,7 @@ The <a href="http://www.omegahat.org/CGIwithR/">CGIwithR</a> package allows one 
 <p><strong>Authentication</strong></p>
 <ul>
 <li>
-Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in <pkg>RCurl</pkg> or <pkg>httr</pkg>. OAuth is the most complicated authentication process, and can be most easily done using <pkg>httr</pkg>. See the 6 demos within <pkg>httr</pkg>, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, github, google). <pkg>ROAuth</pkg> is a package that provides a separate R interface to OAuth. OAuth is easier to to do in <pkg>httr</pkg>, so start there.
+Using web resources can require authentication, either via API keys, OAuth, username:password combination, or via other means. Additionally, sometimes web resources that require authentication be in the header of an http call, which requires a little bit of extra work.  API keys and username:password combos can be combined within a url for a call to a web resource (api key: http://api.foo.org/?key=yourkey; user/pass: http://username:password@api.foo.org), or can be specified via commands in <pkg>RCurl</pkg> or <pkg>httr</pkg>. OAuth is the most complicated authentication process, and can be most easily done using <pkg>httr</pkg>. See the 6 demos within <pkg>httr</pkg>, three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth 2.0 (facebook, GitHub, google). <pkg>ROAuth</pkg> is a package that provides a separate R interface to OAuth. OAuth is easier to to do in <pkg>httr</pkg>, so start there.
 </li>
 </ul>
 
@@ -125,7 +125,13 @@ The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a me
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
 <li>
+<a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service.
+</li>
+<li>
 The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware framework has an R plugin (<a href="https://doc.tiki.org/PluginR">PluginR</a>) to run R code from wiki pages, and use data from their own collected web databases (trackers). A demo: <a href="http://r.tiki.org/tiki-index.php">http://r.tiki.org</a>. More info in a <a href="http://ueb.vhir.org/2011+UseR">useR!2013 presentation</a>.
+</li>
+<li>
+The <a href="http://www.mediawiki.org">MediaWiki</a> has an extension (<a href="http://www.mediawiki.org/wiki/Extension:R">Extension:R</a>) to run R code from wiki pages, and use uploaded data. Links to demo pages (in German) can be found at the <a href="http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R">category page for R scripts</a> at MM-Stat. A mailing list is available: <a href="https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki">R-sig-mediawiki</a>.
 </li>
 </ul>
 
@@ -135,7 +141,7 @@ The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware fr
 <a href="https://github.com/rstudio/ggvis">ggvis</a> (not on CRAN) makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and <pkg>shiny</pkg>, rendering graphics on the web with Vega.
 </li>
 <li>
-<a href="https://github.com/ramnathv/rCharts">rCharts</a>  (not on CRAN) allows for interactive javascript charts from R.
+<a href="https://github.com/ramnathv/rCharts">rCharts</a>  (not on CRAN) allows for interactive Javascript charts from R.
 </li>
 <li>
 <a href="https://github.com/metagraf/rVega">rVega</a> (not on CRAN) is an R wrapper for Vega.
@@ -184,7 +190,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <a href="http://www.omegahat.org/RAmazonDBREST">RAmazonDBREST</a> provides an interface to Amazon's Simple DB API.
 </li>
 <li>
-<pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
+<pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R. Development version on GitHub <a href="https://www.github.com/leeper/MTurkR">here</a>.
 </li>
 </ul>
 
@@ -206,13 +212,13 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rfigshare</pkg>: Programmatic interface for Figshare.
 </li>
 <li>
-<pkg>factualR</pkg>: Thin wrapper for the Factual.com server API.
+<pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.
 </li>
 <li>
 <pkg>dataone</pkg>: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories.
 </li>
 <li>
-<pkg>yhatr</pkg>: Lets you deploy, maintain, and invoke models via the Yhat REST API.
+<pkg>yhatr</pkg>: Lets you deploy, maintain, and invoke models via the <a href="https://www.yhathq.com/">Yhat</a> REST API.
 </li>
 <li>
 <pkg>RSocrata</pkg>: Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
@@ -224,7 +230,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development <a href="https://github.com/drewconway/infochimps">on Github</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
 </li>
 </ul>
 
@@ -246,7 +252,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
 </li>
 <li>
-<pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formating temperature files.
+<pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.
 </li>
 <li>
 <pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
@@ -255,10 +261,10 @@ This is a commercial server that allows one to store content and retrieve it fro
 <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.
 </li>
 <li>
-<pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations etc. using thematic, temporal and spatial filtering.
+<pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations, etc. using thematic, temporal and spatial filtering.
 </li>
 <li>
-<pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC. Development version on GitHub <a href="https://github.com/RationShop/raincpc">here</a>.
+<pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
 </li>
 <li>
 <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
@@ -302,9 +308,6 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>dismo</pkg>: Species distribution modeling, with wrappers to some APIs.
 </li>
 <li>
-<a href="https://github.com/JNCC-UK/rnbn">rnbn</a> (not on CRAN): Access to the UK National Biodiversity Network data.
-</li>
-<li>
 <pkg>rWBclimate</pkg>: R interface for the World Bank climate data.
 </li>
 <li>
@@ -332,7 +335,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages.
 </li>
 <li>
-<pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the iPlant Collaborative. <a href="http://www.iplantcollaborative.org/discover/discovery-environment">http://www.iplantcollaborative.org/discover/discovery-environment</a>
+<pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a>
 </li>
 <li>
 <pkg>ecoengine</pkg>: The ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
@@ -343,6 +346,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <a href="http://paleobiodb.org/data1.1/">http://paleobiodb.org/data1.1/</a>.
 </li>
+<li>
+<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
@@ -352,13 +358,16 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
 </li>
 <li>
-The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R interface to the Zillow Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
+The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 </li>
 <li>
 <pkg>sweSCB</pkg>: Interface for the REST API of Statistics Sweden. Fetch information on data hierarchy stored behind the API; extract metadata; fetch actual data; and clean up results.
 </li>
 <li>
 <pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
+</li>
+<li>
+<pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.
 </li>
 </ul>
 
@@ -368,10 +377,10 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
 </li>
 <li>
-<a href="https://github.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datstream database of economic and financial information.
+<a href="https://github.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 </li>
 <li>
-<pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acqusition, plotting and other utilities.
+<pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acquisition, plotting and other utilities.
 </li>
 <li>
 <pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
@@ -383,6 +392,9 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.
 </li>
 <li>
+<pkg>RCryptsy</pkg>: Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>.
+</li>
+<li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.
 </li>
 <li>
@@ -392,7 +404,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>tseries</pkg>: Includes the <code>get.hist.quote</code> for historical financial data.
 </li>
 <li>
-<pkg>rbitcoinchartsapi</pkg>: An R package for the BitCoinCharts.com API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
+<pkg>rbitcoinchartsapi</pkg>: An R package for the <a href="http://bitcoincharts.com/">BitCoinCharts.com</a> API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
 </li>
 <li>
 <a href="https://github.com/mrbcuda/ustyc">ustyc</a> (not on CRAN): US Treasury yield curve data retrieval.
@@ -439,6 +451,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 </li>
 <li>
 <pkg>translate</pkg>: Bindings for the Google Translate API v2
+</li>
+<li>
+<pkg>translateR</pkg> provides bindings for both Google and Microsoft translation APIs.
 </li>
 <li>
 <pkg>googlePublicData</pkg>: An R library to build Google's public data explorer DSPL metadata files.
@@ -609,7 +624,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 
 <ul>
 <li>
-<pkg>imguR</pkg>: A package to share plots using the image hosting service imgur.com. (also see the function <code>imgur_upload()</code> in knitr, which uses the newer Imgur API version 3)
+<pkg>imguR</pkg>: A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. The development version is on GitHub <a href="https://github.com/leeper/imguR">here</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
@@ -617,6 +632,12 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 <li>
 The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
 You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
+</li>
+<li>
+<a href="https://github.com/leeper/meme">meme</a> (not on CRAN): Provides the ability to create internet memes from template images using several online meme-generation services.
+</li>
+<li>
+<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
 </li>
 </ul>
 
@@ -651,7 +672,10 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
 </li>
 <li>
-The <a href="https://github.com/jbryer/qualtrics">qualtrics</a> package provides functions to interact with the Qualtrics online survey tool.
+<a href="https://github.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool.
+</li>
+<li>
+<a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results.
 </li>
 <li>
 <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
@@ -691,6 +715,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <li>
 <pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data.
 </li>
+<li>
+<pkg>SocialMediaMineR</pkg> is an analytic tool that returns information about the popularity of a URL on social media sites.
+</li>
 </ul>
 
 
@@ -705,7 +732,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 </li>
 <li>
-<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN yet): Tools for Collecting Data from nba.com and wnba.com
+<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN): Tools for Collecting Data from nba.com and wnba.com
 </li>
 <li>
 <pkg>fbRanks</pkg>: Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
@@ -750,6 +777,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>cgdsr</pkg>
   <pkg>CHCN</pkg>
   <pkg>cimis</pkg>
+  <pkg>colourlovers</pkg>
   <pkg>crn</pkg>
   <pkg>d3Network</pkg>
   <pkg>datamart</pkg>
@@ -781,6 +809,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>nhlscrapr</pkg>
   <pkg>OAIHarvester</pkg>
   <pkg>okmesonet</pkg>
+  <pkg>ONETr</pkg>
   <pkg>opencpu</pkg>
   <pkg>osmar</pkg>
   <pkg>paleobioDB</pkg>
@@ -805,6 +834,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rbitcoinchartsapi</pkg>
   <pkg>rClinicalCodes</pkg>
   <pkg>Rcolombos</pkg>
+  <pkg>RCryptsy</pkg>
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
@@ -824,6 +854,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rjson</pkg>
   <pkg>RJSONIO</pkg>
   <pkg>RMendeley</pkg>
+  <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
   <pkg>rnoaa</pkg>
   <pkg>ROAuth</pkg>
@@ -842,6 +873,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>scrapeR</pkg>
   <pkg>seqinr</pkg>
   <pkg>servr</pkg>
+  <pkg>SocialMediaMineR</pkg>
   <pkg>soilDB</pkg>
   <pkg>sos4R</pkg>
   <pkg>spocc</pkg>
@@ -852,6 +884,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>Thinknum</pkg>
   <pkg>tm.plugin.webmining</pkg>
   <pkg>translate</pkg>
+  <pkg>translateR</pkg>
   <pkg>treebase</pkg>
   <pkg>tseries</pkg>
   <pkg>twitteR</pkg>
