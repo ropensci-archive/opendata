@@ -2,7 +2,7 @@
 
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
-<maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair</maintainer>
+<maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair, Thomas Leeper</maintainer>
 <version>2014-05-17</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
@@ -173,7 +173,7 @@ Data Sources on the Web Accessible via R
 <pkg>FAOSTAT</pkg>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
 </li>
 <li>
-<pkg>cimis</pkg>: R package for retrieving data from CIMIS, the California Irrigation Management Information System.
+<a href="http://cran.r-project.org/web/packages/cimis/index.html">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System.
 </li>
 </ul>
 
@@ -506,7 +506,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
 </li>
 <li>
-<pkg>wethepeople</pkg>: An R client for interacting with the White House's "We The People" petition API.
+<a href="http://cran.r-project.org/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
 </li>
 <li>
 <pkg>BerlinData</pkg>: Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.
@@ -776,7 +776,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>boilerpipeR</pkg>
   <pkg>cgdsr</pkg>
   <pkg>CHCN</pkg>
-  <pkg>cimis</pkg>
   <pkg>colourlovers</pkg>
   <pkg>crn</pkg>
   <pkg>d3Network</pkg>
@@ -891,7 +890,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>waterData</pkg>
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
-  <pkg>wethepeople</pkg>
   <pkg>XML2R</pkg>
   <pkg>yhatr</pkg>
   <pkg>zendeskR</pkg>

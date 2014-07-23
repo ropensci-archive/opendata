@@ -1,11 +1,11 @@
 CRAN Task View: Web Technologies and Services
 ---------------------------------------------
 
-  ----------------- -------------------------------------------------------------------
-  **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair
+  ----------------- ----------------------------------------------------------------------------------
+  **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair, Thomas Leeper
   **Contact:**      scott at ropensci.org
   **Version:**      2014-05-17
-  ----------------- -------------------------------------------------------------------
+  ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
 data from the web. The base version of R does not ship with many tools
@@ -296,8 +296,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     construct and aggregate agricultural statistics provided by the
     FAOSTAT (Food and Agricultural Organization of the United Nations)
     database.
--   [cimis](http://cran.r-project.org/web/packages/cimis/index.html): R
-    package for retrieving data from CIMIS, the California Irrigation
+-   [cimis](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/cimis/index.html):
+    R package for retrieving data from CIMIS, the California Irrigation
     Management Information System.
 
 ### <a href="#amazon" name="amazon">#</a> Amazon Web Services
@@ -645,7 +645,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Campaign Finance, and Geographic APIs. The focus is on those that
     deal with political data, but throwing in Article Search and
     Geographic for good measure.
--   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html):
+-   [wethepeople](http://cran.r-project.org/src/contrib/Archive/wethepeople/):
     An R client for interacting with the White House's "We The People"
     petition API.
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
@@ -885,7 +885,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
--   [cimis](http://cran.r-project.org/web/packages/cimis/index.html)
 -   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
@@ -1008,7 +1007,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
--   [wethepeople](http://cran.r-project.org/web/packages/wethepeople/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html)
