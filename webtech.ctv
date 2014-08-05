@@ -494,6 +494,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>pollstR</pkg>: An R client for the Huffpost Pollster API.
 </li>
 <li>
+<pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.
+</li>
+<li>
 <pkg>recalls</pkg>: Access U.S. Federal Government Recall Data.
 </li>
 <li>
