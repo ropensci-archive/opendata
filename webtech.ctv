@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair, Thomas Leeper</maintainer>
-<version>2014-05-17</version>
+<version>2014-08-05</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -341,7 +341,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a>
 </li>
 <li>
-<pkg>ecoengine</pkg>: The ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
+<pkg>ecoengine</pkg>: ecoengine ([http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/)) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
 </li>
 <li>
 <pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available.
