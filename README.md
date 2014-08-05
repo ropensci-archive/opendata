@@ -1,11 +1,12 @@
 CRAN Task View: Web Technologies and Services
 ---------------------------------------------
 
-  ----------------- ----------------------------------------------------------------------------------
-  **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair, Thomas Leeper
-  **Contact:**      scott at ropensci.org
-  **Version:**      2014-05-17
-  ----------------- ----------------------------------------------------------------------------------
+  ------------------------------------ ------------------------------------
+  **Maintainer:**                      **Contact:**
+  Scott Chamberlain, Karthik Ram,      scott at ropensci.org
+  Christopher Gandrud, Patrick Mair,   
+  Thomas Leeper                        
+  ------------------------------------ ------------------------------------
 
 This task view contains information about using R to obtain and parse
 data from the web. The base version of R does not ship with many tools
@@ -131,6 +132,9 @@ Tools for Working with the Web from R
 -   [RTidyHTML](http://www.omegahat.org/RTidyHTML/) interfaces to the
     libtidy library for correcting HTML documents that are not
     well-formed. This library corrects common errors in HTML documents.
+-   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
+    provides an R Interface to W3C Markup Validation Services for
+    validating HTML documents.
 -   [SSOAP](http://www.omegahat.org/SSOAP/) provides a client-side SOAP
     (Simple Object Access Protocol) mechanism. It aims to provide a
     high-level interface to invoke SOAP methods provided by a SOAP
@@ -465,11 +469,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Before using rPlant, users will have to register with the [iPlant
     Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
-    The ecoengine (
-    [http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
-    provides access to more than 2 million georeferenced specimen
-    records from the Berkeley Natural History Museums.
-    [http://bnhm.berkeley.edu/](http://bnhm.berkeley.edu/)
+    The ecoengine ( <http://ecoengine.berkeley.edu/>) provides access to
+    more than 2 million georeferenced specimen records from the Berkeley
+    Natural History Museums. <http://bnhm.berkeley.edu/>
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
     programmatic interface to many species occurrence data sources,
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
@@ -479,7 +481,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Functions to wrap each endpoint of the PaleobioDB API, plus
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
-    [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
+    <http://paleobiodb.org/data1.1/>.
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
@@ -630,6 +632,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Functions to get public survey data in Japan.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
     An R client for the Huffpost Pollster API.
+-   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html): An R
+    package to interact with the Project Vote Smart API for scientific
+    research.
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
     Access U.S. Federal Government Recall Data.
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
@@ -649,9 +654,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     An R client for interacting with the White House's "We The People"
     petition API.
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
-    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
-    allows you to search through the data catalogue and to download the
-    data directly from within R.
+    Easy access to <http://daten.berlin.de>. It allows you to search
+    through the data catalogue and to download the data directly from
+    within R.
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -812,6 +817,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     R.
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
     Interface to Apache Commons Email to send emails from within R.
+-   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html):
+    Access the Gmail RESTful API from R
 -   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html):
     Provides an easy-to-use interface for the Pushbullet service which
     provides fast and efficient notifications between computers, phones
@@ -902,6 +909,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
+-   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
@@ -934,6 +942,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
+-   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
@@ -1004,6 +1013,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)

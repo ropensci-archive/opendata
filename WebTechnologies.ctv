@@ -69,6 +69,9 @@ The <a href="http://www.omegahat.org/XMLSchema/">XMLSchema</a> package provides 
 <a href="http://www.omegahat.org/RTidyHTML/">RTidyHTML</a> interfaces to the libtidy library for correcting HTML documents that are not well-formed. This library corrects common errors in HTML documents.
 </li>
 <li>
+<pkg>W3CMarkupValidator</pkg> provides an R Interface to W3C Markup Validation Services for validating HTML documents.
+</li>
+<li>
 <a href="http://www.omegahat.org/SSOAP/">SSOAP</a> provides a client-side SOAP (Simple Object Access Protocol) mechanism. It aims to provide a high-level interface to invoke SOAP methods provided by a SOAP server.
 </li>
 <li>
@@ -494,6 +497,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>pollstR</pkg>: An R client for the Huffpost Pollster API.
 </li>
 <li>
+<pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.
+</li>
+<li>
 <pkg>recalls</pkg>: Access U.S. Federal Government Recall Data.
 </li>
 <li>
@@ -684,6 +690,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>mailR</pkg>: Interface to Apache Commons Email to send emails from within R.
 </li>
 <li>
+<pkg>gmailr</pkg>: Access the Gmail RESTful API from R
+</li>
+<li>
 <pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
 </li>
 </ul>
@@ -793,6 +802,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>flora</pkg>
   <pkg>ggmap</pkg>
   <pkg>GhcnDaily</pkg>
+  <pkg>gmailr</pkg>
   <pkg>googlePublicData</pkg>
   <pkg>googleVis</pkg>
   <pkg>gooJSON</pkg>
@@ -821,6 +831,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>primerTree</pkg>
   <pkg>psidR</pkg>
   <pkg>pubmed.mineR</pkg>
+  <pkg>pvsR</pkg>
   <pkg>Quandl</pkg>
   <pkg>quantmod</pkg>
   <pkg>raincpc</pkg>
@@ -887,6 +898,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>treebase</pkg>
   <pkg>tseries</pkg>
   <pkg>twitteR</pkg>
+  <pkg>W3CMarkupValidator</pkg>
   <pkg>waterData</pkg>
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
