@@ -817,6 +817,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     R.
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
     Interface to Apache Commons Email to send emails from within R.
+-   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html):
+    Access the Gmail RESTful API from R
 -   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html):
     Provides an easy-to-use interface for the Pushbullet service which
     provides fast and efficient notifications between computers, phones
@@ -907,6 +909,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
+-   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)

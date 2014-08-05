@@ -690,6 +690,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>mailR</pkg>: Interface to Apache Commons Email to send emails from within R.
 </li>
 <li>
+<pkg>gmailr</pkg>: Access the Gmail RESTful API from R
+</li>
+<li>
 <pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
 </li>
 </ul>
