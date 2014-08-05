@@ -132,6 +132,9 @@ Tools for Working with the Web from R
 -   [RTidyHTML](http://www.omegahat.org/RTidyHTML/) interfaces to the
     libtidy library for correcting HTML documents that are not
     well-formed. This library corrects common errors in HTML documents.
+-   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
+    provides an R Interface to W3C Markup Validation Services for
+    validating HTML documents.
 -   [SSOAP](http://www.omegahat.org/SSOAP/) provides a client-side SOAP
     (Simple Object Access Protocol) mechanism. It aims to provide a
     high-level interface to invoke SOAP methods provided by a SOAP
@@ -1007,6 +1010,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)

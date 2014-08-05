@@ -69,6 +69,9 @@ The <a href="http://www.omegahat.org/XMLSchema/">XMLSchema</a> package provides 
 <a href="http://www.omegahat.org/RTidyHTML/">RTidyHTML</a> interfaces to the libtidy library for correcting HTML documents that are not well-formed. This library corrects common errors in HTML documents.
 </li>
 <li>
+<pkg>W3CMarkupValidator</pkg> provides an R Interface to W3C Markup Validation Services for validating HTML documents.
+</li>
+<li>
 <a href="http://www.omegahat.org/SSOAP/">SSOAP</a> provides a client-side SOAP (Simple Object Access Protocol) mechanism. It aims to provide a high-level interface to invoke SOAP methods provided by a SOAP server.
 </li>
 <li>
@@ -891,6 +894,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>treebase</pkg>
   <pkg>tseries</pkg>
   <pkg>twitteR</pkg>
+  <pkg>W3CMarkupValidator</pkg>
   <pkg>waterData</pkg>
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
