@@ -487,6 +487,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
     [here](https://github.com/JNCC-UK/rnbn).
+-   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html):
+    A programmatic interface to web-services of Youtheria, an online
+    database of mammalian trait data. Development version on GitHub
+    [here](https://github.com/biologicalrecordscentre/rYoutheria)
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -995,6 +999,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
+-   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)

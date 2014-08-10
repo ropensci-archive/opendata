@@ -352,6 +352,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
 </li>
+<li>
+<pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a>
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
