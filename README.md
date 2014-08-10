@@ -760,27 +760,29 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 
 ### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
+    Extracts colors and multi-color patterns from
+    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
+    graphics color palettes. Development version on GitHub
+    [here](https://github.com/leeper/colourlovers).
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service
     [Imgur.com](http://www.imgur.com). The development version is on
     GitHub [here](https://github.com/leeper/imguR). knitr also has a
     function `imgur_upload()` to load images from literate programming
     documents.
+-   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
+    ability to create internet memes from template images using several
+    online meme-generation services.
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
     package to interface to the last.fm API. Archived on CRAN.
+-   [rscribd](https://github.com/leeper/rscribd) (not on CRAN): API
+    client for publishing documents to [Scribd](http://www.scribd.com).
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
     an R interface to a Ubigraph server for drawing interactive, dynamic
     graphs. You can add and remove vertices/nodes and edges in a graph
     and change their attributes/characteristics such as shape, color,
     size.
--   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
-    ability to create internet memes from template images using several
-    online meme-generation services.
--   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
-    Extracts colors and multi-color patterns from
-    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
-    graphics color palettes. Development version on GitHub
-    [here](https://github.com/leeper/colourlovers).
 
 ### <a href="#news" name="news">#</a> News
 

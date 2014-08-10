@@ -630,20 +630,23 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 
 <ul>
 <li>
+<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
+</li>
+<li>
 <pkg>imguR</pkg>: A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. The development version is on GitHub <a href="https://github.com/leeper/imguR">here</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.
-</li>
-<li>
-<a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
-</li>
-<li>
-The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
-You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
 <li>
 <a href="https://github.com/leeper/meme">meme</a> (not on CRAN): Provides the ability to create internet memes from template images using several online meme-generation services.
 </li>
 <li>
-<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
+</li>
+<li>
+<a href="https://github.com/leeper/rscribd">rscribd</a> (not on CRAN): API client for publishing documents to <a href="http://www.scribd.com">Scribd</a>.
+</li>
+<li>
+The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
+You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
 </ul>
 
