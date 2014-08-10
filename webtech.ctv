@@ -112,7 +112,7 @@ A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> 
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is websockets, also made by Joe Cheng.
 </li>
 <li>
-<a href="https://github.com/rstudio/R-Websockets">websockets</a> A simple HTML5 websocket interface for R, by Joe Cheng. (not on CRAN)
+<a href="https://github.com/rstudio/R-Websockets">websockets</a> (not on CRAN): A simple HTML5 websocket interface for R, by Joe Cheng. 
 </li>
 <li>
 Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
@@ -123,7 +123,9 @@ The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to p
 <li>
 The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.
 </li>
-<li>The <a href="https://github.com/johndharrison/RSelenium">RSelenium</a> package (not on CRAN) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).</li>
+<li>
+The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https://github.com/ropensci/RSelenium/">here</a>) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).
+</li>
 <li>
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
@@ -141,7 +143,7 @@ The <a href="http://www.mediawiki.org">MediaWiki</a> has an extension (<a href="
 <p><strong>JavaScript</strong></p>
 <ul>
 <li>
-<a href="https://github.com/rstudio/ggvis">ggvis</a> (not on CRAN) makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and <pkg>shiny</pkg>, rendering graphics on the web with Vega.
+<pkg>ggvis</pkg> makes it easy to describe interactive web graphics in R. It fuses the ideas of ggplot2 and <pkg>shiny</pkg>, rendering graphics on the web with Vega.
 </li>
 <li>
 <a href="https://github.com/ramnathv/rCharts">rCharts</a>  (not on CRAN) allows for interactive Javascript charts from R.
@@ -352,6 +354,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
 </li>
+<li>
+<pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a>
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
@@ -410,7 +415,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>rbitcoinchartsapi</pkg>: An R package for the <a href="http://bitcoincharts.com/">BitCoinCharts.com</a> API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
 </li>
 <li>
-<a href="https://github.com/mrbcuda/ustyc">ustyc</a> (not on CRAN): US Treasury yield curve data retrieval.
+<pkg>ustyc</pkg>: US Treasury yield curve data retrieval. Development version on GitHub <a href="https://github.com/mrbcuda/ustyc">here</a>.
 </li>
 </ul>
 
@@ -488,22 +493,31 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
 </li>
 <li>
-<pkg>federalregister</pkg>: Client package for the U.S. Federal Register API.
+<pkg>BerlinData</pkg>: Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. Development version on GitHub <a href="https://github.com/dirkschumacher/RBerlinData">here</a>.
+</li>
+<li>
+<a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>.
+</li>
+<li>
+<pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client.
+</li>
+<li>
+<pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.
 </li>
 <li>
 <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 </li>
 <li>
-<pkg>pollstR</pkg>: An R client for the Huffpost Pollster API.
+<pkg>pollstR</pkg>: An R client for the Huffpost Pollster API. Development version on GitHub <a href="https://github.com/rOpenGov/pollstR">here</a>.
 </li>
 <li>
 <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.
 </li>
 <li>
-<pkg>recalls</pkg>: Access U.S. Federal Government Recall Data.
+<pkg>recalls</pkg>: Access U.S. Federal Government Recall Data. Development version on GitHub <a href="https://github.com/rOpenGov/recalls">here</a>.
 </li>
 <li>
-<pkg>RPublica</pkg>: ProPublica API Client.
+<pkg>RPublica</pkg>: ProPublica API Client. Development version on GitHub <a href="https://github.com/rOpenGov/RPublica">here</a>.
 </li>
 <li>
 <a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
@@ -512,10 +526,10 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
+<pkg>sorvi</pkg>: Various tools for retrieving and working with Finnish open government data. Development version on GitHub <a href="https://github.com/louhos/sorvi/">here</a>.
 </li>
 <li>
-<pkg>BerlinData</pkg>: Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.
+<a href="http://cran.r-project.org/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
 </li>
 </ul>
 
@@ -630,20 +644,23 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 
 <ul>
 <li>
+<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
+</li>
+<li>
 <pkg>imguR</pkg>: A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. The development version is on GitHub <a href="https://github.com/leeper/imguR">here</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.
-</li>
-<li>
-<a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
-</li>
-<li>
-The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
-You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
 <li>
 <a href="https://github.com/leeper/meme">meme</a> (not on CRAN): Provides the ability to create internet memes from template images using several online meme-generation services.
 </li>
 <li>
-<pkg>colourlovers</pkg>: Extracts colors and multi-color patterns from <a href="http://www.colourlovers.com/">COLOURlovers</a>, for use in creating R graphics color palettes. Development version on GitHub <a href="https://github.com/leeper/colourlovers">here</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">RLastFM</a>: A package to interface to the last.fm API. Archived on CRAN.
+</li>
+<li>
+<a href="https://github.com/leeper/rscribd">rscribd</a> (not on CRAN): API client for publishing documents to <a href="http://www.scribd.com">Scribd</a>.
+</li>
+<li>
+The <a href="http://www.omegahat.org/RUbigraph/">RUbigraph</a> package provides an R interface to a Ubigraph server for drawing interactive, dynamic graphs.
+You can add and remove vertices/nodes and edges in a graph and change their attributes/characteristics such as shape, color, size.
 </li>
 </ul>
 

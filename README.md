@@ -205,8 +205,8 @@ Tools for Working with the Web from R
     within R. Another related package, perhaps which
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
     replaces, is websockets, also made by Joe Cheng.
--   [websockets](https://github.com/rstudio/R-Websockets) A simple HTML5
-    websocket interface for R, by Joe Cheng. (not on CRAN)
+-   [websockets](https://github.com/rstudio/R-Websockets) (not on CRAN):
+    A simple HTML5 websocket interface for R, by Joe Cheng.
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
@@ -221,9 +221,11 @@ Tools for Working with the Web from R
     be used along with the
     [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
     provides user-level access from R to other COM servers.
--   The [RSelenium](https://github.com/johndharrison/RSelenium) package
-    (not on CRAN) provides a set of R bindings for the Selenium 2.0
-    webdriver using the
+-   The
+    [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
+    package (development version on GitHub
+    [here](https://github.com/ropensci/RSelenium/)) provides a set of R
+    bindings for the Selenium 2.0 webdriver using the
     [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol).
     Selenium automates browsers. Using RSelenium you can automate
     browsers locally or remotely. This can aid in automated application
@@ -253,9 +255,9 @@ Tools for Working with the Web from R
 
 ### JavaScript
 
--   [ggvis](https://github.com/rstudio/ggvis) (not on CRAN) makes it
-    easy to describe interactive web graphics in R. It fuses the ideas
-    of ggplot2 and
+-   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
+    makes it easy to describe interactive web graphics in R. It fuses
+    the ideas of ggplot2 and
     [shiny](http://cran.r-project.org/web/packages/shiny/index.html),
     rendering graphics on the web with Vega.
 -   [rCharts](https://github.com/ramnathv/rCharts) (not on CRAN) allows
@@ -487,6 +489,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
     [here](https://github.com/JNCC-UK/rnbn).
+-   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html):
+    A programmatic interface to web-services of Youtheria, an online
+    database of mammalian trait data. Development version on GitHub
+    [here](https://github.com/biologicalrecordscentre/rYoutheria)
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -554,8 +560,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     API. From their website: "Bitcoincharts provides financial and
     technical data related to the Bitcoin network and this data can be
     accessed via a JSON application programming interface (API)."
--   [ustyc](https://github.com/mrbcuda/ustyc) (not on CRAN): US Treasury
-    yield curve data retrieval.
+-   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html): US
+    Treasury yield curve data retrieval. Development version on GitHub
+    [here](https://github.com/mrbcuda/ustyc).
 
 ### <a href="#genes" name="genes">#</a> Genes and Genomes
 
@@ -627,19 +634,36 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
+-   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
+    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
+    allows you to search through the data catalogue and to download the
+    data directly from within R. Development version on GitHub
+    [here](https://github.com/dirkschumacher/RBerlinData).
+-   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A
+    package to access the [StatBank
+    API](http://www.statistikbanken.dk/statbank5a/) from [Statistics
+    Denmark](http://www.dst.dk/).
+-   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html):
+    U.S. [Energy Information Administration (EIA)](http://www.eia.gov/)
+    API client.
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
-    Client package for the U.S. Federal Register API.
+    Client package for the U.S. Federal Register API. Development
+    version on GitHub
+    [here](https://github.com/rOpenGov/federalregister).
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
     Functions to get public survey data in Japan.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html):
-    An R client for the Huffpost Pollster API.
+    An R client for the Huffpost Pollster API. Development version on
+    GitHub [here](https://github.com/rOpenGov/pollstR).
 -   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html): An R
     package to interact with the Project Vote Smart API for scientific
     research.
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html):
-    Access U.S. Federal Government Recall Data.
+    Access U.S. Federal Government Recall Data. Development version on
+    GitHub [here](https://github.com/rOpenGov/recalls).
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html):
-    ProPublica API Client.
+    ProPublica API Client. Development version on GitHub
+    [here](https://github.com/rOpenGov/RPublica).
 -   [rsunlight](https://github.com/ropengov/rsunlight) (not on CRAN): R
     client for the Sunlight Labs APIs. There are functions for Sunlight
     Labs Congress, Transparency, Open States, Real Time Congress,
@@ -651,13 +675,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Campaign Finance, and Geographic APIs. The focus is on those that
     deal with political data, but throwing in Article Search and
     Geographic for good measure.
+-   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html):
+    Various tools for retrieving and working with Finnish open
+    government data. Development version on GitHub
+    [here](https://github.com/louhos/sorvi/).
 -   [wethepeople](http://cran.r-project.org/src/contrib/Archive/wethepeople/):
     An R client for interacting with the White House's "We The People"
     petition API.
--   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
-    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
-    allows you to search through the data catalogue and to download the
-    data directly from within R.
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -760,27 +784,29 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 
 ### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
+-   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
+    Extracts colors and multi-color patterns from
+    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
+    graphics color palettes. Development version on GitHub
+    [here](https://github.com/leeper/colourlovers).
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service
     [Imgur.com](http://www.imgur.com). The development version is on
     GitHub [here](https://github.com/leeper/imguR). knitr also has a
     function `imgur_upload()` to load images from literate programming
     documents.
+-   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
+    ability to create internet memes from template images using several
+    online meme-generation services.
 -   [RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/): A
     package to interface to the last.fm API. Archived on CRAN.
+-   [rscribd](https://github.com/leeper/rscribd) (not on CRAN): API
+    client for publishing documents to [Scribd](http://www.scribd.com).
 -   The [RUbigraph](http://www.omegahat.org/RUbigraph/) package provides
     an R interface to a Ubigraph server for drawing interactive, dynamic
     graphs. You can add and remove vertices/nodes and edges in a graph
     and change their attributes/characteristics such as shape, color,
     size.
--   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
-    ability to create internet memes from template images using several
-    online meme-generation services.
--   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
-    Extracts colors and multi-color patterns from
-    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
-    graphics color palettes. Development version on GitHub
-    [here](https://github.com/leeper/colourlovers).
 
 ### <a href="#news" name="news">#</a> News
 
@@ -902,6 +928,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
+-   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
@@ -909,6 +936,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
+-   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
 -   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
 -   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
@@ -988,11 +1016,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html)
 -   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html)
+-   [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
+-   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)
@@ -1001,6 +1031,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     (core)
 -   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
+-   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
@@ -1014,6 +1045,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
 -   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
