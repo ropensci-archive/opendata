@@ -2,9 +2,9 @@ CRAN Task View: Web Technologies and Services
 ---------------------------------------------
 
   ----------------- ----------------------------------------------------------------------------------
-  **Maintainer:**   Scott Chamberlain, Karthik Ram, Christopher Gandrud, Patrick Mair, Thomas Leeper
+  **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-08-05
+  **Version:**      2014-08-10
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
