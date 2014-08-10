@@ -491,6 +491,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
 </li>
 <li>
+<pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client.
+</li>
+<li>
 <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API.
 </li>
 <li>
@@ -800,6 +803,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>dismo</pkg>
   <pkg>dvn</pkg>
   <pkg>ecoengine</pkg>
+  <pkg>EIAdata</pkg>
   <pkg>factualR</pkg>
   <pkg>FAOSTAT</pkg>
   <pkg>fbRanks</pkg>

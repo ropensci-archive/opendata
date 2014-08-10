@@ -631,6 +631,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html):
     Download, manipulate, and present data from the US Census American
     Community Survey.
+-   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html):
+    U.S. [Energy Information Administration (EIA)](http://www.eia.gov/)
+    API client.
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
     Client package for the U.S. Federal Register API.
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html):
@@ -908,6 +911,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
+-   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
