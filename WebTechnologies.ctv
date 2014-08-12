@@ -115,7 +115,7 @@ The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level 
 <a href="https://github.com/rstudio/R-Websockets">websockets</a> (not on CRAN): A simple HTML5 websocket interface for R, by Joe Cheng.
 </li>
 <li>
-Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/cparmer/Plotly/tree/master/API/packages/R">here</a>, as well as access to their services via an API <a href="https://plot.ly/API/">here</a>.
+Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/ropensci/plotly">here</a>, as well as access to their services via <a href="https://plot.ly/API/">a REST API</a>.
 </li>
 <li>
 The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.
@@ -178,7 +178,7 @@ Data Sources on the Web Accessible via R
 <pkg>FAOSTAT</pkg>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
 </li>
 <li>
-<a href="http://cran.r-project.org/web/packages/cimis/index.html">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System.
+<a href="http://cran.r-project.org/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.
 </li>
 </ul>
 

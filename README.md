@@ -209,9 +209,8 @@ Tools for Working with the Web from R
     A simple HTML5 websocket interface for R, by Joe Cheng.
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
-    [here](https://github.com/cparmer/Plotly/tree/master/Ahttp://cran.r-project.org/web/packages/R),
-    as well as access to their services via an API
-    [here](https://plot.ly/API/).
+    [here](https://github.com/ropensci/plotly), as well as access to
+    their services via [a REST API](https://plot.ly/API/).
 -   The [WADL](http://www.omegahat.org/WADL/) package provides tools to
     process Web Application Description Language (WADL) documents and to
     programmatically generate R functions to interface to the REST
@@ -301,9 +300,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     construct and aggregate agricultural statistics provided by the
     FAOSTAT (Food and Agricultural Organization of the United Nations)
     database.
--   [cimis](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/cimis/index.html):
-    R package for retrieving data from CIMIS, the California Irrigation
-    Management Information System.
+-   [cimis](http://cran.r-project.org/src/contrib/Archive/cimis/): R
+    package for retrieving data from CIMIS, the California Irrigation
+    Management Information System. Available in CRAN archives only.
 
 ### <a href="#amazon" name="amazon">#</a> Amazon Web Services
 
