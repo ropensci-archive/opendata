@@ -773,8 +773,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RKMLDevice](http://www.omegahat.org/RKMLDevice/) allows to create R
     graphics in KML format in a manner that allows them to be displayed
     on Google Earth (or Google Maps).
--   [LeafletR](http://cran.r-project.org/whttp://cran.r-project.org/web/packages/leafletR/index.html/)
-    allows you to display your spatial data on interactive web-maps
+-   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html):
+    Allows you to display your spatial data on interactive web-maps
     using the open-source JavaScript library Leaflet.
 
 ### <a href="#marketing" name="marketing">#</a> Marketing
@@ -952,6 +952,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
     (core)
+-   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
