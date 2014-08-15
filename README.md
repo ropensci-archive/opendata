@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-08-10
+  **Version:**      2014-08-15
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -85,6 +85,10 @@ Tools for Working with the Web from R
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
+-   The [tldextract](https://github.com/jayjacobs/tldextract) package
+    extract top level domains and subdomains from a host name. It's a
+    port of [a Python library of the same
+    name](https://github.com/john-kurkowski/tldextract).
 
 ### Curl, HTTP, FTP, HTML, XML, SOAP
 
@@ -251,6 +255,11 @@ Tools for Working with the Web from R
     scripts](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
     at MM-Stat. A mailing list is available:
     [R-sig-mediawiki](https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki).
+-   [whisker](http://cran.r-project.org/web/packages/whisker/index.html):
+    Implementation of logicless templating based on
+    [Mustache](http://mustache.github.io/) in R. Mustache syntax is
+    described in
+    [http://mustache.github.io/mustache.5.html](http://mustache.github.io/mustache.5.html)
 
 ### JavaScript
 
@@ -419,6 +428,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Weather Service's (NWS) division of Hydrometeorological Design
     Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km
     resolution and comes as a huge number of GIS files.
+-   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html):
+    Utility functions to retrieve data from the UK National River Flow
+    Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are
+    functions to retrieve stations falling in a bounding box, to
+    generate a map and extracting time series and general information.
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -590,6 +604,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Download content from NCBI databases. Intended for analyses of NCBI
     database content, not reference management. See rpubmed for more
     literature oriented stuff from NCBI.
+-   The [mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
+    package is an R client for accessing
+    [Mygene.info](http://mygene.info/#) annotation and query services.
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
@@ -1009,6 +1026,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
+-   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
@@ -1050,6 +1068,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
+-   [whisker](http://cran.r-project.org/web/packages/whisker/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html)
