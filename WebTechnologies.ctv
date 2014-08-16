@@ -409,7 +409,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.
 </li>
 <li>
-<pkg>RCryptsy</pkg>: Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/RCryptsy/">RCryptsy</a> Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>. The package was archived on 2014-08-07 because it "no longer works with pubapi.cryptsy.com.", according the CRAN overlords.
 </li>
 <li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.
@@ -558,7 +558,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.
 </li>
 <li>
-<pkg>RMendeley</pkg>: Implementation of the Mendeley API in R.
+<a href="http://cran.r-project.org/src/contrib/Archive/RMendeley/">RMendeley</a>: Implementation of the Mendeley API in R. Archived on CRAN.
 </li>
 <li>
 <pkg>rentrez</pkg>: Talk with NCBI entrez using R.
@@ -876,7 +876,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rbitcoinchartsapi</pkg>
   <pkg>rClinicalCodes</pkg>
   <pkg>Rcolombos</pkg>
-  <pkg>RCryptsy</pkg>
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
@@ -895,7 +894,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>RISmed</pkg>
   <pkg>rjson</pkg>
   <pkg>RJSONIO</pkg>
-  <pkg>RMendeley</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
   <pkg>rnoaa</pkg>
@@ -1001,6 +999,8 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a>
   <a href="https://github.com/ropengov/rsunlight">GitHub package: rsunlight</a>
   <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
+  <a href="https://github.com/jayjacobs/tldextract">Github package: tldextract</a>
+  <a href="https://bitbucket.org/sulab/mygene.r/overview">Bitbucket package: mygene.r</a>
 </links>
 
 </CRANTaskView>

@@ -557,10 +557,12 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Ineract with Bitcoin. Both public and private API calls. Support
     HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl,
     error handling.
--   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html):
+-   [RCryptsy](http://cran.r-project.org/src/contrib/Archive/RCryptsy/)
     Wraps the API for the [Cryptsy](http://www.cryptsy.com)
     crypto-currency trading platform. Development version on GitHub
-    [here](https://github.com/kylehamilton/RCryptsy).
+    [here](https://github.com/kylehamilton/RCryptsy). The package was
+    archived on 2014-08-07 because it "no longer works with
+    pubapi.cryptsy.com.", according the CRAN overlords.
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html):
     Interacts with the [Thinknum](http://www.thinknum.com/) API.
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html):
@@ -708,8 +710,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     interface to the Biodiversity Heritage Library (BHL) API.
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN):
     Get scholarly metadata from around the web.
--   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html):
-    Implementation of the Mendeley API in R.
+-   [RMendeley](http://cran.r-project.org/src/contrib/Archive/RMendeley/):
+    Implementation of the Mendeley API in R. Archived on CRAN.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI entrez using R.
 -   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A
@@ -1001,7 +1003,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html)
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
--   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
@@ -1022,7 +1023,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
--   [RMendeley](http://cran.r-project.org/web/packages/RMendeley/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
@@ -1150,4 +1150,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
 -   [GitHub package: rsunlight](https://github.com/ropengov/rsunlight)
 -   [GitHub package: rtimes](https://github.com/ropengov/rtimes)
+-   [Github package:
+    tldextract](https://github.com/jayjacobs/tldextract)
+-   [Bitbucket package:
+    mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
 
