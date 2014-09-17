@@ -920,8 +920,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
     Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
     Reporting API.
--   [r-google-analytics](http://code.google.com/p/r-google-analytics/)
-    (not on CRAN): Provides access to Google Analytics.
+-   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
+    Provides functions for accessing and retrieving data from the Google
+    Analytics API. [on
+    Github](https://github.com/Tatvic/RGoogleAnalytics/issues)
 -   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
     programmatic access to Google Trends data. This is information about
     the popularity of a particular query.
@@ -1019,6 +1021,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html)
 -   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
+-   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)

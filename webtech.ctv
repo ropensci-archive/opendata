@@ -788,7 +788,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 </li>
 <li>
-<gcode>r-google-analytics</gcode> (not on CRAN): Provides access to Google Analytics.
+<pkg>RGoogleAnalytics</pkg> Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>
 </li>
 <li>
 <a href="http://www.omegahat.org/RGoogleTrends/">RGoogleTrends</a> provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
