@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-08-15
+  **Version:**      2014-09-17
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -294,13 +294,13 @@ Data Sources on the Web Accessible via R
 [Agriculture](#agr) | [Amazon web services](#amazon) |
 [Chemistry](#chemistry) | [Data depots](#depots) | [Earth
 Science](#earthsci) | [Ecology/Evolution](#eeb) |
-[Economics/Business](#econbus) | [Finance](#finance) |
-[Genes/Genomes](#genes) | [Google web services](#google) |
-[Government](#gov) | [Literature/Text-mining](#lit) | [Machine
-learning](#mls) | [Maps](#maps) | [Marketing](#marketing) | [Media:
-Images/video/etc.](#media) | [News](#news) | [Other](#other) | [Public
-Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
-[Web analytics](#webanalytics) |
+[Economics/Business](#econbus) | [E-commerce](#ecommerce) |
+[Finance](#finance) | [Genes/Genomes](#genes) | [Google web
+services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
+| [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
+[Media: Images/video/etc.](#media) | [News](#news) | [Other](#other) |
+[Public Health](#publichealth) | [Social media](#social) |
+[Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#agr" name="agr">#</a> Agriculture
 
@@ -327,6 +327,12 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Access to Amazon Mechanical Turk Requester API via R. Development
     version on GitHub [here](https://www.github.com/leeper/MTurkR).
 
+### <a href="#ecommerce" name="ecommerce">#</a> E-commerce
+
+-   [shopifyr](http://cran.r-project.org/web/packages/shopifyr/index.html):
+    An interface to the API of the E-commerce service Shopify
+    [http://docs.shopify.com/api](http://docs.shopify.com/api).
+
 ### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
@@ -340,9 +346,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Programmatic interface for Figshare.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
     Thin wrapper for the [Factual.com](http://factual.com/) server API.
--   [dataone](http://cran.r-project.org/web/packages/dataone/index.html):
-    A package that provides read/write access to data and metadata from
-    the DataONE network of Member Node data repositories.
+-   [dataone](http://cran.r-project.org/src/contrib/Archive/dataone/):
+    Read/write access to data and metadata from the [DataONE
+    network](https://www.dataone.org/) of Member Node data repositories.
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
     Lets you deploy, maintain, and invoke models via the
     [Yhat](https://www.yhathq.com/) REST API.
@@ -506,6 +512,19 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     A programmatic interface to web-services of Youtheria, an online
     database of mammalian trait data. Development version on GitHub
     [here](https://github.com/biologicalrecordscentre/rYoutheria)
+-   The [tpl](https://github.com/gustavobio/tpl) package, created by
+    Gustavo Carvalho, doesn't interact with the web directly, but
+    queries locally stored data from
+    [theplantlist.org](http://www.theplantlist.org/), and data will be
+    updated when theplantlist updates, which is not very often. There is
+    another package for interacting with this same data, called
+    [Taxonstand](http://cran.r-project.org/web/packages/Taxonstand/index.html).
+-   [TR8](http://cran.r-project.org/web/packages/TR8/index.html): TR8
+    contains a set of tools which take care of retrieving trait data for
+    plant species from publicly available databases via web services
+    (including: Biolflor, The Ecological Flora of the British Isles,
+    LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal
+    intensity database).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -646,6 +665,25 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     data mangement system in the cloud. This package provides R
     functions to browse Fusion Tables catalog, retrieve data from Gusion
     Tables dtd storage to R and to upload data from R to Fusion Tables
+-   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html):
+    Provides functions for accessing and retrieving data from the Google
+    Analytics API. [on
+    Github](https://github.com/Tatvic/RGoogleAnalytics/issues). There is
+    another R package for the same service
+    ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
+    next entry.
+-   [RGA](http://cran.r-project.org/web/packages/RGA/index.html):
+    Provides functions for accessing and retrieving data from the
+    [Google Analytics APIs](https://developers.google.com/analytics/).
+    Supports OAuth 2.0 authorization. Also, the
+    [RGA](http://cran.r-project.org/web/packages/RGA/index.html) package
+    provides a shiny app to explore data. There is another R package for
+    the same service
+    ([RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html));
+    see above entry.
+-   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
+    programmatic access to Google Trends data. This is information about
+    the popularity of a particular query.
 
 ### <a href="#gov" name="gov">#</a> Government
 
@@ -700,6 +738,13 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [wethepeople](http://cran.r-project.org/src/contrib/Archive/wethepeople/):
     An R client for interacting with the White House's "We The People"
     petition API.
+-   [polidata](http://cran.r-project.org/web/packages/polidata/index.html):
+    Access to various political data APIs, including e.g. [Google Civic
+    Information API](https://developers.google.com/civic-information/)
+    or [Sunlight Congress API](https://sunlightlabs.github.io/congress/)
+    for US Congress data, and [POPONG API](http://data.popong.com/) for
+    South Korea National Assembly data. [on
+    Github](https://github.com/e9t/polidata-r)
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -754,6 +799,10 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html):
     Generic Extraction of main text content from HTML files; removal of
     ads, sidebars and headers using the boilerpipe Java library.
+-   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html):
+    WikipediR is a wrapper for the MediaWiki API, aimed particularly at
+    the Wikimedia 'production' wikis, such as Wikipedia. [on
+    Github](https://github.com/Ironholds/WikipediR)
 
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
@@ -857,6 +906,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Provides programmatic access to [Survey
     Monkey](https://www.surveymonkey.com/) for creating simple surveys
     and retrieving survey results.
+-   [redcapAPI](http://cran.r-project.org/web/packages/redcapAPI/index.html):
+    Access data stored in REDCap databases using an API. REDCap
+    (Research Electronic Data CAPture) is a web application for building
+    and managing online surveys and databases developed at Vanderbilt
+    University. [on Github](https://github.com/nutterb/redcapAPI).
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
@@ -868,6 +922,9 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     Provides an easy-to-use interface for the Pushbullet service which
     provides fast and efficient notifications between computers, phones
     and tablets. By [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)
+-   [slackr](http://cran.r-project.org/web/packages/slackr/index.html):
+    R client for Slack.com messaging platform. [on
+    Github](https://github.com/hrbrmstr/slackr)
 
 ### <a href="#publichealth" name="publichealth">#</a> Public Health
 
@@ -920,10 +977,22 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
     Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
     Reporting API.
--   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
+-   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html):
     Provides functions for accessing and retrieving data from the Google
     Analytics API. [on
-    Github](https://github.com/Tatvic/RGoogleAnalytics/issues)
+    Github](https://github.com/Tatvic/RGoogleAnalytics/issues). There is
+    another R package for the same service
+    ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
+    next entry.
+-   [RGA](http://cran.r-project.org/web/packages/RGA/index.html):
+    Provides functions for accessing and retrieving data from the
+    [Google Analytics APIs](https://developers.google.com/analytics/).
+    Supports OAuth 2.0 authorization. Also, the
+    [RGA](http://cran.r-project.org/web/packages/RGA/index.html) package
+    provides a shiny app to explore data. There is another R package for
+    the same service
+    ([RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html));
+    see above entry.
 -   [RGoogleTrends](http://www.omegahat.org/RGoogleTrends/) provides
     programmatic access to Google Trends data. This is information about
     the popularity of a particular query.
@@ -943,7 +1012,6 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
--   [dataone](http://cran.r-project.org/web/packages/dataone/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
@@ -988,6 +1056,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html)
 -   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)
+-   [polidata](http://cran.r-project.org/web/packages/polidata/index.html)
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
@@ -1010,6 +1079,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html)
+-   [redcapAPI](http://cran.r-project.org/web/packages/redcapAPI/index.html)
 -   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
@@ -1019,6 +1089,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html)
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html)
+-   [RGA](http://cran.r-project.org/web/packages/RGA/index.html)
 -   [rgauges](http://cran.r-project.org/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
 -   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
@@ -1050,6 +1121,8 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [servr](http://cran.r-project.org/web/packages/servr/index.html)
 -   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     (core)
+-   [shopifyr](http://cran.r-project.org/web/packages/shopifyr/index.html)
+-   [slackr](http://cran.r-project.org/web/packages/slackr/index.html)
 -   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
 -   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html)
@@ -1058,9 +1131,11 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
 -   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
+-   [Taxonstand](http://cran.r-project.org/web/packages/Taxonstand/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
+-   [TR8](http://cran.r-project.org/web/packages/TR8/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
@@ -1072,6 +1147,7 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
 -   [whisker](http://cran.r-project.org/web/packages/whisker/index.html)
+-   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html)
@@ -1157,4 +1233,5 @@ Health](#publichealth) | [Social media](#social) | [Sports](#sports) |
     tldextract](https://github.com/jayjacobs/tldextract)
 -   [Bitbucket package:
     mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
+-   [Github package: tpl](https://github.com/gustavobio/tpl)
 

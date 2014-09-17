@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2014-08-15</version>
+<version>2014-09-17</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -175,7 +175,7 @@ The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package pro
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
 <p><strong>tochref="lb-agr" name="agr"endhref Agriculture</strong></p>
 
@@ -205,6 +205,13 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 </ul>
 
+<p><strong>tochref="lb-ecommerce" name="ecommerce"endhref E-commerce</strong></p>
+<ul>
+<li>
+<pkg>shopifyr</pkg>: An interface to the API of the E-commerce service Shopify <a href="http://docs.shopify.com/api">http://docs.shopify.com/api</a>.
+</li>
+</ul>
+
 
 <p><strong>tochref="lb-chemistry" name="chemistry"endhref Chemistry</strong></p>
 <ul>
@@ -226,7 +233,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.
 </li>
 <li>
-<pkg>dataone</pkg>: A package that provides read/write access to data and metadata from the DataONE network of Member Node data repositories.
+<a href="http://cran.r-project.org/src/contrib/Archive/dataone/">dataone</a>: Read/write access to data and metadata from the <a href="https://www.dataone.org/">DataONE network</a> of Member Node data repositories.
 </li>
 <li>
 <pkg>yhatr</pkg>: Lets you deploy, maintain, and invoke models via the <a href="https://www.yhathq.com/">Yhat</a> REST API.
@@ -366,6 +373,12 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a>
 </li>
+<li>
+The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gustavo Carvalho, doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called <pkg>Taxonstand</pkg>.
+</li>
+<li>
+<pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database).
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
@@ -496,6 +509,15 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <li>
 <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables
 </li>
+<li>
+<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
+</li>
+<li>
+<pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the <pkg>RGA</pkg> package provides a shiny app to explore data. There is another R package for the same service (<pkg>RGoogleAnalytics</pkg>); see above entry.
+</li>
+<li>
+<a href="http://www.omegahat.org/RGoogleTrends/">RGoogleTrends</a> provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
+</li>
 </ul>
 
 <p><strong>tochref="lb-gov" name="gov"endhref Government</strong></p>
@@ -542,6 +564,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
+</li>
+<li>
+<pkg>polidata</pkg>: Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data. <a href="https://github.com/e9t/polidata-r">on Github</a>
 </li>
 </ul>
 
@@ -599,6 +624,9 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 </li>
 <li>
 <pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
+</li>
+<li>
+<pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">on Github</a>
 </li>
 </ul>
 
@@ -713,6 +741,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results.
 </li>
 <li>
+<pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">on Github</a> .
+</li>
+<li>
 <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
 </li>
 <li>
@@ -723,6 +754,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 <li>
 <pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
+</li>
+<li>
+<pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">on Github</a>
 </li>
 </ul>
 
@@ -788,7 +822,10 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 </li>
 <li>
-<pkg>RGoogleAnalytics</pkg> Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>
+<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
+</li>
+<li>
+<pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the <pkg>RGA</pkg> package provides a shiny app to explore data. There is another R package for the same service (<pkg>RGoogleAnalytics</pkg>); see above entry.
 </li>
 <li>
 <a href="http://www.omegahat.org/RGoogleTrends/">RGoogleTrends</a> provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
@@ -818,7 +855,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>crn</pkg>
   <pkg>d3Network</pkg>
   <pkg>datamart</pkg>
-  <pkg>dataone</pkg>
   <pkg>decctools</pkg>
   <pkg>dismo</pkg>
   <pkg>dvn</pkg>
@@ -859,6 +895,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>plotGoogleMaps</pkg>
   <pkg>plotKML</pkg>
   <pkg>plusser</pkg>
+  <pkg>polidata</pkg>
   <pkg>pollstR</pkg>
   <pkg>primerTree</pkg>
   <pkg>psidR</pkg>
@@ -879,6 +916,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
+  <pkg>redcapAPI</pkg>
   <pkg>RefManageR</pkg>
   <pkg>rentrez</pkg>
   <pkg>Reol</pkg>
@@ -888,6 +926,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rfishbase</pkg>
   <pkg>rfisheries</pkg>
   <pkg>RForcecom</pkg>
+  <pkg>RGA</pkg>
   <pkg>rgauges</pkg>
   <pkg>rgbif</pkg>
   <pkg>RGoogleAnalytics</pkg>
@@ -917,6 +956,8 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>scrapeR</pkg>
   <pkg>seqinr</pkg>
   <pkg>servr</pkg>
+  <pkg>shopifyr</pkg>
+  <pkg>slackr</pkg>
   <pkg>SocialMediaMineR</pkg>
   <pkg>soilDB</pkg>
   <pkg>sorvi</pkg>
@@ -925,9 +966,11 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>streamR</pkg>
   <pkg>sweSCB</pkg>
   <pkg>taxize</pkg>
+  <pkg>Taxonstand</pkg>
   <pkg>TFX</pkg>
   <pkg>Thinknum</pkg>
   <pkg>tm.plugin.webmining</pkg>
+  <pkg>TR8</pkg>
   <pkg>translate</pkg>
   <pkg>translateR</pkg>
   <pkg>treebase</pkg>
@@ -939,6 +982,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
   <pkg>whisker</pkg>
+  <pkg>WikipediR</pkg>
   <pkg>XML2R</pkg>
   <pkg>yhatr</pkg>
   <pkg>zendeskR</pkg>
@@ -1002,6 +1046,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
   <a href="https://github.com/jayjacobs/tldextract">Github package: tldextract</a>
   <a href="https://bitbucket.org/sulab/mygene.r/overview">Bitbucket package: mygene.r</a>
+  <a href="https://github.com/gustavobio/tpl">Github package: tpl</a>
 </links>
 
 </CRANTaskView>
