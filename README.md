@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-09-17
+  **Version:**      2014-09-18
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -803,6 +803,11 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     WikipediR is a wrapper for the MediaWiki API, aimed particularly at
     the Wikimedia 'production' wikis, such as Wikipedia. [on
     Github](https://github.com/Ironholds/WikipediR)
+-   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html): An
+    R client for the arXiv API, a repository of electronic preprints for
+    computer science, mathematics, physics, quantitative biology,
+    quantitative finance, and statistics. [on
+    Github](https://github.com/ropensci/aRxiv).
 
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
@@ -1002,6 +1007,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html)
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
+-   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
