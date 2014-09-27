@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2014-09-18</version>
+<version>2014-09-27</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -250,6 +250,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
 </li>
+<li>
+<pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.
+</li>
 </ul>
 
 
@@ -304,6 +307,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
+</li>
+<li>
+<pkg>meteoForecast</pkg>: Retrieve meteorological forecast from <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a> and <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a> services. <a href="https://github.com/oscarperpinan/meteoForecast/">on Github</a>
 </li>
 </ul>
 
@@ -438,6 +444,12 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 <li>
 <pkg>ustyc</pkg>: US Treasury yield curve data retrieval. Development version on GitHub <a href="https://github.com/mrbcuda/ustyc">here</a>.
+</li>
+<li>
+<pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API.
+</li>
+<li>
+<pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers.. <a href="https://github.com/amattioc/SDMX/tree/master/RJSDMX">On Github</a>.
 </li>
 </ul>
 
@@ -782,6 +794,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>twitteR</pkg>: Provides an interface to the Twitter web API.
 </li>
 <li>
+<a href="https://github.com/joyofdata/RTwitterAPI">RTwitterAPI</a> (not on CRAN): Yet another Twitter R client.
+</li>
+<li>
 The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R interface to the Flickr photo management and sharing application Web service.
 </li>
 <li>
@@ -882,9 +897,12 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>hoardeR</pkg>
   <pkg>httpRequest</pkg>
   <pkg>httpuv</pkg>
+  <pkg>IBrokers</pkg>
   <pkg>imguR</pkg>
+  <pkg>jSonarR</pkg>
   <pkg>leafletR</pkg>
   <pkg>mailR</pkg>
+  <pkg>meteoForecast</pkg>
   <pkg>MTurkR</pkg>
   <pkg>ngramr</pkg>
   <pkg>nhlscrapr</pkg>
@@ -936,6 +954,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>RGoogleAnalytics</pkg>
   <pkg>RgoogleMaps</pkg>
   <pkg>RISmed</pkg>
+  <pkg>RJSDMX</pkg>
   <pkg>rjson</pkg>
   <pkg>RJSONIO</pkg>
   <pkg>rnbn</pkg>
@@ -1051,6 +1070,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <a href="https://github.com/jayjacobs/tldextract">Github package: tldextract</a>
   <a href="https://bitbucket.org/sulab/mygene.r/overview">Bitbucket package: mygene.r</a>
   <a href="https://github.com/gustavobio/tpl">Github package: tpl</a>
+  <a href="https://github.com/joyofdata/RTwitterAPI">Github package: RTwitterAPI</a>
 </links>
 
 </CRANTaskView>

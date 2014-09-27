@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-09-18
+  **Version:**      2014-09-27
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -368,6 +368,12 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Conway](http://drewconway.com/). The CRAN version is archived.
     Development is available on GitHub
     [here](https://github.com/drewconway/infochimps).
+-   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html):
+    Enables users to access MongoDB by running queries and returning
+    their results in R data frames. jSonarR uses data processing and
+    conversion capabilities in the jSonar Analytics Platform and the
+    [JSON Studio Gateway](http://www.jsonstudio.com), to convert JSON to
+    a tabular format.
 
 ### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
@@ -439,6 +445,12 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are
     functions to retrieve stations falling in a bounding box, to
     generate a map and extracting time series and general information.
+-   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html):
+    Retrieve meteorological forecast from
+    [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action)
+    and [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page)
+    services. [on
+    Github](https://github.com/oscarperpinan/meteoForecast/)
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -597,6 +609,12 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html): US
     Treasury yield curve data retrieval. Development version on GitHub
     [here](https://github.com/mrbcuda/ustyc).
+-   [IBrokers](http://cran.r-project.org/web/packages/IBrokers/index.html):
+    Provides native R access to Interactive Brokers Trader Workstation
+    API.
+-   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html):
+    Retrieve data and metadata from SDMX compliant data providers.. [On
+    Github](https://github.com/amattioc/SDMX/tree/master/RJSDMX).
 
 ### <a href="#genes" name="genes">#</a> Genes and Genomes
 
@@ -945,6 +963,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     output into data frames. OAuth authentication is supported.
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html):
     Provides an interface to the Twitter web API.
+-   [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on
+    CRAN): Yet another Twitter R client.
 -   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
     interface to the Flickr photo management and sharing application Web
     service.
@@ -1043,11 +1063,14 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
     (core)
+-   [IBrokers](http://cran.r-project.org/web/packages/IBrokers/index.html)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
+-   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
     (core)
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
+-   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
@@ -1101,6 +1124,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
+-   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
@@ -1240,4 +1264,6 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [Bitbucket package:
     mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
 -   [Github package: tpl](https://github.com/gustavobio/tpl)
+-   [Github package:
+    RTwitterAPI](https://github.com/joyofdata/RTwitterAPI)
 
