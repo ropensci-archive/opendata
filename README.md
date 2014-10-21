@@ -768,6 +768,16 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     for US Congress data, and [POPONG API](http://data.popong.com/) for
     South Korea National Assembly data. [on
     Github](https://github.com/e9t/polidata-r)
+-   [enigma](http://cran.r-project.org/web/packages/enigma/index.html):
+    [Enigma](https://enigma.io) holds many public datasets from
+    governments, companies, universities, and organizations. Enigma
+    provides an API for data, metadata, and statistics on each of the
+    datasets. enigma is an R client to interact with the Enigma API,
+    including getting the data and metadata for datasets in Enigma, as
+    well as collecting statistics on datasets. In addition, you can
+    download a gzipped csv file of a dataset if you want the whole
+    dataset. An API key from Enigma is required to use enigma. [on
+    Github](https://github.com/ropengov/enigma).
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -1048,6 +1058,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
 -   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html)
+-   [enigma](http://cran.r-project.org/web/packages/enigma/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
