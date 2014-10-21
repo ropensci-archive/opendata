@@ -464,6 +464,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     be used to gather information about seismic networks (stations,
     channels, locations, etc) and find historical earthquake data
     (origins, magnitudes, etc).
+-   [marmap](http://cran.r-project.org/web/packages/marmap/index.html):
+    Import, plot and analyze bathymetric and topographic data from NOAA.
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -1104,6 +1106,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     (core)
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
+-   [marmap](http://cran.r-project.org/web/packages/marmap/index.html)
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)

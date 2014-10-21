@@ -314,6 +314,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>rFDSN</pkg>: Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from <a href="http://www.fdsn.org/">International Federation of Digital Seismograph Networks</a> repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).
 </li>
+<li>
+<pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
+</li>
 </ul>
 
 <p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
@@ -916,6 +919,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>jSonarR</pkg>
   <pkg>leafletR</pkg>
   <pkg>mailR</pkg>
+  <pkg>marmap</pkg>
   <pkg>meteoForecast</pkg>
   <pkg>MTurkR</pkg>
   <pkg>ngramr</pkg>
