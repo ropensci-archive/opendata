@@ -589,6 +589,9 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <li>
 <pkg>enigma</pkg>: <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma. <a href="https://github.com/ropengov/enigma">on Github</a>.
 </li>
+<li>
+<pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
+</li>
 </ul>
 
 <p><strong>tochref="lb-lit" name="lit"endhref Literature, Metadata, Text, and Altmetrics</strong></p>

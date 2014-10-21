@@ -793,6 +793,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     download a gzipped csv file of a dataset if you want the whole
     dataset. An API key from Enigma is required to use enigma. [on
     Github](https://github.com/ropengov/enigma).
+-   [ropensecretsapi](http://cran.r-project.org/web/packages/ropensecretsapi/index.html):
+    An R package for the OpenSecrets.org web services API.
 
 ### <a href="#lit" name="lit">#</a> Literature, Metadata, Text, and Altmetrics
 
@@ -1166,6 +1168,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
+-   [ropensecretsapi](http://cran.r-project.org/web/packages/ropensecretsapi/index.html)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
