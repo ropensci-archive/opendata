@@ -412,7 +412,7 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 </li>
 <li>
-<pkg>sweSCB</pkg>: Interface for the REST API of Statistics Sweden. Fetch information on data hierarchy stored behind the API; extract metadata; fetch actual data; and clean up results.
+<pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. <a href="#">Source on GitHub</a>.
 </li>
 <li>
 <pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
@@ -948,6 +948,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>psidR</pkg>
   <pkg>pubmed.mineR</pkg>
   <pkg>pvsR</pkg>
+  <pkg>pxweb</pkg>
   <pkg>Quandl</pkg>
   <pkg>quantmod</pkg>
   <pkg>raincpc</pkg>
@@ -1015,7 +1016,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>sos4R</pkg>
   <pkg>spocc</pkg>
   <pkg>streamR</pkg>
-  <pkg>sweSCB</pkg>
   <pkg>taxize</pkg>
   <pkg>Taxonstand</pkg>
   <pkg>TFX</pkg>

@@ -584,10 +584,13 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     city and state), to find information (e.g. size of property and lot,
     number of bedrooms and bathrooms, year built.) about a given
     property, and to get comparable properties.
--   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html):
-    Interface for the REST API of Statistics Sweden. Fetch information
-    on data hierarchy stored behind the API; extract metadata; fetch
-    actual data; and clean up results.
+-   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html):
+    Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API
+    is used by organizations such as Statistics Sweden and Statistics
+    Finland to disseminate data. The R package can interact with all
+    PX-Web/PC-Axis APIs to fetch information about the data hierarchy,
+    extract metadata and extract and parse statistics to R data.frame
+    format. [Source on GitHub](#).
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
     Contains functions to download and format longitudinal datasets from
     the Panel Study of Income Dynamics (PSID).
@@ -1142,6 +1145,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
 -   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html)
+-   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
@@ -1213,7 +1217,6 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
--   [sweSCB](http://cran.r-project.org/web/packages/sweSCB/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [Taxonstand](http://cran.r-project.org/web/packages/Taxonstand/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
