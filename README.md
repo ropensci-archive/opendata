@@ -466,6 +466,10 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     (origins, magnitudes, etc).
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html):
     Import, plot and analyze bathymetric and topographic data from NOAA.
+-   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html):
+    Collection of functions to help retrieve USGS data from either web
+    services or user-provided data files. [on
+    GitHub](https://github.com/USGS-R/dataRetrieval).
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -1072,6 +1076,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
+-   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)

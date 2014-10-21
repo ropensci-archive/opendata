@@ -317,6 +317,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
 </li>
+<li>
+<pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. <a href="https://github.com/USGS-R/dataRetrieval">on GitHub</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
