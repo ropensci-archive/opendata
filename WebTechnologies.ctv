@@ -311,6 +311,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. <a href="https://github.com/oscarperpinan/meteoForecast/">on Github</a>
 </li>
+<li>
+<pkg>rFDSN</pkg>: Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from <a href="http://www.fdsn.org/">International Federation of Digital Seismograph Networks</a> repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).
+</li>
 </ul>
 
 <p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
@@ -952,6 +955,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>Reol</pkg>
   <pkg>repmis</pkg>
   <pkg>Rfacebook</pkg>
+  <pkg>rFDSN</pkg>
   <pkg>rfigshare</pkg>
   <pkg>rfishbase</pkg>
   <pkg>rfisheries</pkg>

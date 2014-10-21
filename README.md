@@ -456,6 +456,14 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     and
     [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap).
     [on Github](https://github.com/oscarperpinan/meteoForecast/)
+-   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html):
+    Search for and download seismic time series in miniSEED format (a
+    minimalist version of the Standard for the Exchange of Earthquake
+    Data) from [International Federation of Digital Seismograph
+    Networks](http://www.fdsn.org/) repositories. This package can also
+    be used to gather information about seismic networks (stations,
+    channels, locations, etc) and find historical earthquake data
+    (origins, magnitudes, etc).
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -1138,6 +1146,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html)
+-   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html)
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html)
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html)
