@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-09-27
+  **Version:**      2014-10-21
   ----------------- ----------------------------------------------------------------------------------
 
 This task view contains information about using R to obtain and parse
@@ -446,11 +446,16 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     functions to retrieve stations falling in a bounding box, to
     generate a map and extracting time series and general information.
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html):
-    Retrieve meteorological forecast from
-    [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action)
-    and [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page)
-    services. [on
-    Github](https://github.com/oscarperpinan/meteoForecast/)
+    meteoForecast is a package to access to several Numerical Weather
+    Prediction services both in raster format and as a time series for a
+    location. Currenty it works with
+    [GFS](http://www.emc.ncep.noaa.gov/index.php?branch=GFS),
+    [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action),
+    [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page),
+    [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam),
+    and
+    [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap).
+    [on Github](https://github.com/oscarperpinan/meteoForecast/)
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 

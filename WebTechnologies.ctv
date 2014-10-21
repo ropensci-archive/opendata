@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2014-09-27</version>
+<version>2014-10-21</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -309,7 +309,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 </li>
 <li>
-<pkg>meteoForecast</pkg>: Retrieve meteorological forecast from <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a> and <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a> services. <a href="https://github.com/oscarperpinan/meteoForecast/">on Github</a>
+<pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. <a href="https://github.com/oscarperpinan/meteoForecast/">on Github</a>
 </li>
 </ul>
 
