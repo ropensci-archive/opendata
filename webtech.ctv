@@ -309,7 +309,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 </li>
 <li>
-<pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. <a href="https://github.com/oscarperpinan/meteoForecast/">on Github</a>
+<pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. <a href="https://github.com/oscarperpinan/meteoForecast/">Source on Github</a>
 </li>
 <li>
 <pkg>rFDSN</pkg>: Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from <a href="http://www.fdsn.org/">International Federation of Digital Seismograph Networks</a> repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).
@@ -319,6 +319,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. <a href="https://github.com/USGS-R/dataRetrieval">on GitHub</a>.
+</li>
+<li>
+<pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. <a href="https://r-forge.r-project.org/projects/rnomads/">Source on R-Forge</a>.
 </li>
 </ul>
 
@@ -534,7 +537,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables
 </li>
 <li>
-<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
+<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">Source on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
 </li>
 <li>
 <pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the <pkg>RGA</pkg> package provides a shiny app to explore data. There is another R package for the same service (<pkg>RGoogleAnalytics</pkg>); see above entry.
@@ -590,10 +593,10 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="http://cran.r-project.org/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's "We The People" petition API.
 </li>
 <li>
-<pkg>polidata</pkg>: Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data. <a href="https://github.com/e9t/polidata-r">on Github</a>
+<pkg>polidata</pkg>: Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data. <a href="https://github.com/e9t/polidata-r">Source on Github</a>
 </li>
 <li>
-<pkg>enigma</pkg>: <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma. <a href="https://github.com/ropengov/enigma">on Github</a>.
+<pkg>enigma</pkg>: <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma. <a href="https://github.com/ropengov/enigma">Source on Github</a>.
 </li>
 <li>
 <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
@@ -656,10 +659,10 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 <pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 </li>
 <li>
-<pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">on Github</a>
+<pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on Github</a>
 </li>
 <li>
-<pkg>aRxiv</pkg>: An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics. <a href="https://github.com/ropensci/aRxiv">on Github</a>.
+<pkg>aRxiv</pkg>: An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics. <a href="https://github.com/ropensci/aRxiv">Source on Github</a>.
 </li>
 </ul>
 
@@ -774,7 +777,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results.
 </li>
 <li>
-<pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">on Github</a> .
+<pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">Source on Github</a> .
 </li>
 <li>
 <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
@@ -789,7 +792,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
 </li>
 <li>
-<pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">on Github</a>
+<pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">Source on Github</a>
 </li>
 </ul>
 
@@ -858,7 +861,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 <pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 </li>
 <li>
-<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
+<pkg>RGoogleAnalytics</pkg>: Provides functions for accessing and retrieving data from the Google Analytics API. <a href="https://github.com/Tatvic/RGoogleAnalytics/issues">Source on Github</a>. There is another R package for the same service (<pkg>RGA</pkg>); see next entry.
 </li>
 <li>
 <pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the <pkg>RGA</pkg> package provides a shiny app to explore data. There is another R package for the same service (<pkg>RGoogleAnalytics</pkg>); see above entry.

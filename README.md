@@ -455,7 +455,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam),
     and
     [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap).
-    [on Github](https://github.com/oscarperpinan/meteoForecast/)
+    [Source on Github](https://github.com/oscarperpinan/meteoForecast/)
 -   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html):
     Search for and download seismic time series in miniSEED format (a
     minimalist version of the Standard for the Exchange of Earthquake
@@ -470,6 +470,14 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Collection of functions to help retrieve USGS data from either web
     services or user-provided data files. [on
     GitHub](https://github.com/USGS-R/dataRetrieval).
+-   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html):
+    An interface to the [NOAA Operational Model Archive and Distribution
+    System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download
+    of global and regional weather model data, and supports a variety of
+    models ranging from global weather data to an altitude of 40 km, to
+    high resolution regional weather models, to wave and sea ice models.
+    It can also retrieve archived NOMADS models. [Source on
+    R-Forge](https://r-forge.r-project.org/projects/rnomads/).
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
@@ -711,7 +719,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Tables dtd storage to R and to upload data from R to Fusion Tables
 -   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html):
     Provides functions for accessing and retrieving data from the Google
-    Analytics API. [on
+    Analytics API. [Source on
     Github](https://github.com/Tatvic/RGoogleAnalytics/issues). There is
     another R package for the same service
     ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
@@ -787,7 +795,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Information API](https://developers.google.com/civic-information/)
     or [Sunlight Congress API](https://sunlightlabs.github.io/congress/)
     for US Congress data, and [POPONG API](http://data.popong.com/) for
-    South Korea National Assembly data. [on
+    South Korea National Assembly data. [Source on
     Github](https://github.com/e9t/polidata-r)
 -   [enigma](http://cran.r-project.org/web/packages/enigma/index.html):
     [Enigma](https://enigma.io) holds many public datasets from
@@ -797,8 +805,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     including getting the data and metadata for datasets in Enigma, as
     well as collecting statistics on datasets. In addition, you can
     download a gzipped csv file of a dataset if you want the whole
-    dataset. An API key from Enigma is required to use enigma. [on
-    Github](https://github.com/ropengov/enigma).
+    dataset. An API key from Enigma is required to use enigma. [Source
+    on Github](https://github.com/ropengov/enigma).
 -   [ropensecretsapi](http://cran.r-project.org/web/packages/ropensecretsapi/index.html):
     An R package for the OpenSecrets.org web services API.
 
@@ -857,12 +865,12 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     ads, sidebars and headers using the boilerpipe Java library.
 -   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html):
     WikipediR is a wrapper for the MediaWiki API, aimed particularly at
-    the Wikimedia 'production' wikis, such as Wikipedia. [on
+    the Wikimedia 'production' wikis, such as Wikipedia. [Source on
     Github](https://github.com/Ironholds/WikipediR)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html): An
     R client for the arXiv API, a repository of electronic preprints for
     computer science, mathematics, physics, quantitative biology,
-    quantitative finance, and statistics. [on
+    quantitative finance, and statistics. [Source on
     Github](https://github.com/ropensci/aRxiv).
 
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
@@ -971,7 +979,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Access data stored in REDCap databases using an API. REDCap
     (Research Electronic Data CAPture) is a web application for building
     and managing online surveys and databases developed at Vanderbilt
-    University. [on Github](https://github.com/nutterb/redcapAPI).
+    University. [Source on
+    Github](https://github.com/nutterb/redcapAPI).
 -   [RForcecom](http://cran.r-project.org/web/packages/RForcecom/index.html):
     RForcecom provides a connection to Force.com and Salesforce.com from
     R.
@@ -984,7 +993,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     provides fast and efficient notifications between computers, phones
     and tablets. By [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)
 -   [slackr](http://cran.r-project.org/web/packages/slackr/index.html):
-    R client for Slack.com messaging platform. [on
+    R client for Slack.com messaging platform. [Source on
     Github](https://github.com/hrbrmstr/slackr)
 
 ### <a href="#publichealth" name="publichealth">#</a> Public Health
@@ -1042,7 +1051,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Reporting API.
 -   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html):
     Provides functions for accessing and retrieving data from the Google
-    Analytics API. [on
+    Analytics API. [Source on
     Github](https://github.com/Tatvic/RGoogleAnalytics/issues). There is
     another R package for the same service
     ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
@@ -1173,6 +1182,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
+-   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
