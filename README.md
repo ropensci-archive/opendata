@@ -542,6 +542,13 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     (including: Biolflor, The Ecological Flora of the British Isles,
     LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal
     intensity database).
+-   [ecoretriever](http://cran.r-project.org/web/packages/ecoretriever/index.html):
+    Provides an R interface to the [EcoData
+    Retriever](http://ecodataretriever.org/) via the EcoData Retriever's
+    command line interface. The EcoData Retriever automates the tasks of
+    finding, downloading, and cleaning ecological datasets, and then
+    stores them in a local database (including SQLite, MySQL, etc.). [On
+    GitHub](https://github.com/ropensci/ecoretriever/).
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -1057,6 +1064,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
+-   [ecoretriever](http://cran.r-project.org/web/packages/ecoretriever/index.html)
 -   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html)
 -   [enigma](http://cran.r-project.org/web/packages/enigma/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)

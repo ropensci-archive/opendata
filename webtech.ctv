@@ -385,6 +385,9 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 <li>
 <pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database).
 </li>
+<li>
+<pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">On GitHub</a>.
+</li>
 </ul>
 
 <p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
