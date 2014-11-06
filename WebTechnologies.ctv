@@ -180,7 +180,7 @@ Data Sources on the Web Accessible via R
 
 <a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
-<p><strong>tochref="lb-agr" name="agr"endhref Agriculture</strong></p>
+<p><strong> Agriculture</strong></p>
 
 <ul>
 <li>
@@ -191,7 +191,7 @@ Data Sources on the Web Accessible via R
 </li>
 </ul>
 
-<p><strong>tochref="lb-amazon" name="amazon"endhref Amazon Web Services</strong></p>
+<p><strong> Amazon Web Services</strong></p>
 <ul>
 <li>
 <pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
@@ -208,7 +208,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 </ul>
 
-<p><strong>tochref="lb-ecommerce" name="ecommerce"endhref E-commerce</strong></p>
+<p><strong> E-commerce</strong></p>
 <ul>
 <li>
 <pkg>shopifyr</pkg>: An interface to the API of the E-commerce service Shopify <a href="http://docs.shopify.com/api">http://docs.shopify.com/api</a>.
@@ -216,14 +216,14 @@ This is a commercial server that allows one to store content and retrieve it fro
 </ul>
 
 
-<p><strong>tochref="lb-chemistry" name="chemistry"endhref Chemistry</strong></p>
+<p><strong> Chemistry</strong></p>
 <ul>
 <li>
 <pkg>rpubchem</pkg>: Interface to the PubChem Collection.
 </li>
 </ul>
 
-<p><strong>tochref="lb-depots" name="depots"endhref Data Depots</strong></p>
+<p><strong> Data Depots</strong></p>
 
 <ul>
 <li>
@@ -260,7 +260,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 
 
 
-<p><strong>tochref="lb-earthsci" name="earthsci"endhref Earth Science</strong></p>
+<p><strong> Earth Science</strong></p>
 
 <ul>
 <li>
@@ -328,7 +328,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 </ul>
 
-<p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
+<p><strong> Ecological and Evolutionary Biology</strong></p>
 
 <ul>
 <li>
@@ -405,7 +405,7 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 </li>
 </ul>
 
-<p><strong>tochref="lb-econbus" name="econbus"endhref Economics and Business</strong></p>
+<p><strong> Economics and Business</strong></p>
 
 <ul>
 <li>
@@ -425,7 +425,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 </ul>
 
-<p><strong>tochref="lb-finance" name="finance"endhref Finance</strong></p>
+<p><strong> Finance</strong></p>
 <ul>
 <li>
 <a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
@@ -471,7 +471,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 </li>
 </ul>
 
-<p><strong>tochref="lb-genes" name="genes"endhref Genes and Genomes</strong></p>
+<p><strong> Genes and Genomes</strong></p>
 
 <ul>
 <li>
@@ -504,7 +504,7 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 </ul>
 
 
-<p><strong>tochref="lb-google" name="google"endhref Google Web Services</strong></p>
+<p><strong> Google Web Services</strong></p>
 <ul>
 <li>
 <a href="http://www.omegahat.org/RGoogleStorage/">RGoogleStorage</a> provides programmatic access to the Google Storage API. This allows R users to access and store data on Google's storage. We can upload and download content, create, list and delete folders/buckets, and set access control permissions on objects and buckets.
@@ -550,7 +550,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 </li>
 </ul>
 
-<p><strong>tochref="lb-gov" name="gov"endhref Government</strong></p>
+<p><strong> Government</strong></p>
 
 <ul>
 <li>
@@ -606,7 +606,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 </li>
 </ul>
 
-<p><strong>tochref="lb-lit" name="lit"endhref Literature, Metadata, Text, and Altmetrics</strong></p>
+<p><strong> Literature, Metadata, Text, and Altmetrics</strong></p>
 
 <ul>
 <li>
@@ -670,7 +670,7 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 </ul>
 
 
-<p><strong>tochref="lb-mls" name="mls"endhref Machine Learning as a Service</strong></p>
+<p><strong> Machine Learning as a Service</strong></p>
 
 <ul>
 <li>
@@ -681,7 +681,7 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 </li>
 </ul>
 
-<p><strong>tochref="lb-maps" name="maps"endhref Maps</strong></p>
+<p><strong> Maps</strong></p>
 
 <ul>
 <li>
@@ -710,7 +710,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 </li>
 </ul>
 
-<p><strong>tochref="lb-marketing" name="marketing"endhref Marketing</strong></p>
+<p><strong> Marketing</strong></p>
 
 <ul>
 <li>
@@ -719,7 +719,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 </ul>
 
 
-<p><strong>tochref="lb-media" name="media"endhref Media: Images, Graphics, Videos, Music</strong></p>
+<p><strong> Media: Images, Graphics, Videos, Music</strong></p>
 
 <ul>
 <li>
@@ -743,7 +743,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 </ul>
 
-<p><strong>tochref="lb-news" name="news"endhref News</strong></p>
+<p><strong> News</strong></p>
 
 <ul>
 <li>
@@ -755,7 +755,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </ul>
 
 
-<p><strong>tochref="lb-other" name="other"endhref Other</strong></p>
+<p><strong> Other</strong></p>
 
 <ul>
 <li>
@@ -800,7 +800,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </ul>
 
 
-<p><strong>tochref="lb-publichealth" name="publichealth"endhref Public Health</strong></p>
+<p><strong> Public Health</strong></p>
 
 <ul>
 <li>
@@ -808,7 +808,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 </ul>
 
-<p><strong>tochref="lb-social" name="social"endhref Social media</strong></p>
+<p><strong> Social media</strong></p>
 
 <ul>
 <li>
@@ -836,7 +836,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 
 
 
-<p><strong>tochref="lb-sports" name="sports"endhref Sports</strong></p>
+<p><strong> Sports</strong></p>
 
 <ul>
 <li>
@@ -854,7 +854,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 </ul>
 
 
-<p><strong>tochref="lb-webanalytics" name="webanalytics"endhref Web Analytics</strong></p>
+<p><strong> Web Analytics</strong></p>
 
 <ul>
 <li>

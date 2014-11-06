@@ -1,4 +1,4 @@
-all: whisker ctv2html sed pandoc1 sedtoc cleanup
+all: whisker ctv2html sed pandoc1 sedtoc fixctv cleanup
 
 getdumber:
 	sed 's@<li class="removeme">.\+<\/li>@ @g' WebTechnologies.ctv > WebTechnologiesDumber.ctv
@@ -25,11 +25,15 @@ sedtoc:
 	sed 's@<div>@@g' README4.md > README5.md
 	sed 's@</div>@@g' README5.md > README.md
 
+fixctv:
+	sed 's@[^<p><strong>].*endhref@@g' WebTechnologies.ctv > webtech1.ctv
+	sed 's@>to@>@g' webtech1.ctv > WebTechnologies.ctv
+
 pandoc2:
 	pandoc README.md -o index.html
 
 cleanup:
-	rm doc.html doc2.html doc3.html doc4.html README_prep.md README2.md README3.md README4.md README5.md
+	rm doc.html doc2.html doc3.html doc4.html README_prep.md README2.md README3.md README4.md README5.md webtech1.ctv
 
 json:
 	xml2json < WebTechnologies.ctv > webservices.json
