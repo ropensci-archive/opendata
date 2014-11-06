@@ -7,6 +7,8 @@ CRAN Task View: Web Technologies and Services
   **Version:**      2014-10-21
   ----------------- ----------------------------------------------------------------------------------
 
+
+
 This task view contains information about using R to obtain and parse
 data from the web. The base version of R does not ship with many tools
 for interacting with the web. Thankfully, there are an increasingly
@@ -20,7 +22,6 @@ request](https://github.com/ropensci/webservices/pulls). If you can't
 contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
 contact the maintainer of that package.
-
 Tools for Working with the Web from R
 -------------------------------------
 
@@ -85,6 +86,11 @@ Tools for Working with the Web from R
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
+-   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
+    provides tools to read data and metadata documents exchanged through
+    the Statistical Data and Metadata Exchange (SDMX) framework. The
+    package currently focuses on the SDMX XML standard format (SDMX-ML).
+    [project website (Github)](https://github.com/opensdmx/rsdmx/wiki).
 -   The [tldextract](https://github.com/jayjacobs/tldextract) package
     extract top level domains and subdomains from a host name. It's a
     port of [a Python library of the same
@@ -258,8 +264,7 @@ Tools for Working with the Web from R
 -   [whisker](http://cran.r-project.org/web/packages/whisker/index.html):
     Implementation of logicless templating based on
     [Mustache](http://mustache.github.io/) in R. Mustache syntax is
-    described in
-    [http://mustache.github.io/mustache.5.html](http://mustache.github.io/mustache.5.html)
+    described in <http://mustache.github.io/mustache.5.html>
 
 ### JavaScript
 
@@ -331,7 +336,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 
 -   [shopifyr](http://cran.r-project.org/web/packages/shopifyr/index.html):
     An interface to the API of the E-commerce service Shopify
-    [http://docs.shopify.com/api](http://docs.shopify.com/api).
+    <http://docs.shopify.com/api>.
 
 ### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
@@ -532,7 +537,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     ([http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
     provides access to more than 2 million georeferenced specimen
     records from the Berkeley Natural History Museums.
-    [http://bnhm.berkeley.edu/](http://bnhm.berkeley.edu/)
+    <http://bnhm.berkeley.edu/>
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
     programmatic interface to many species occurrence data sources,
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
@@ -542,7 +547,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Functions to wrap each endpoint of the PaleobioDB API, plus
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
-    [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
+    <http://paleobiodb.org/data1.1/>.
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
@@ -746,9 +751,9 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     Download, manipulate, and present data from the US Census American
     Community Survey.
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
-    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
-    allows you to search through the data catalogue and to download the
-    data directly from within R. Development version on GitHub
+    Easy access to <http://daten.berlin.de>. It allows you to search
+    through the data catalogue and to download the data directly from
+    within R. Development version on GitHub
     [here](https://github.com/dirkschumacher/RBerlinData).
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A
     package to access the [StatBank
@@ -891,8 +896,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     map as a background image to overlay plots within R.
 -   The [R2GoogleMaps](http://www.omegahat.org/R2GoogleMaps/) package -
     which is different from
-    [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
-    - provides a mechanism to generate JavaScript code from R that
+    [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html) -
+    provides a mechanism to generate JavaScript code from R that
     displays data using Google Maps.
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html):
     This package provides infrastructure to access OpenStreetMap data
@@ -1072,6 +1077,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     programmatic access to Google Trends data. This is information about
     the popularity of a particular query.
 
+
+
 ### CRAN packages:
 
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html)
@@ -1196,6 +1203,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html)
 -   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html)
+-   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
 -   [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)

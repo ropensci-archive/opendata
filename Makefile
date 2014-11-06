@@ -21,13 +21,15 @@ pandoc1:
 sedtoc:
 	sed 's@tochref@<a href@g' README_prep.md > README2.md
 	sed 's@endhref@>#</a>@g' README2.md > README3.md
-	sed 's@lb-@#@g' README3.md > README.md
+	sed 's@lb-@#@g' README3.md > README4.md
+	sed 's@<div>@@g' README4.md > README5.md
+	sed 's@</div>@@g' README5.md > README.md
 
 pandoc2:
 	pandoc README.md -o index.html
 
 cleanup:
-	rm doc.html doc2.html doc3.html doc4.html README_prep.md README2.md README3.md
+	rm doc.html doc2.html doc3.html doc4.html README_prep.md README2.md README3.md README4.md README5.md
 
 json:
 	xml2json < WebTechnologies.ctv > webservices.json
