@@ -49,6 +49,9 @@ The <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> allows to read 
 <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents.
 </li>
 <li>
+<pkg>rsdmx</pkg> provides tools to read data and metadata documents exchanged through the Statistical Data and Metadata Exchange (SDMX) framework. The package currently focuses on the SDMX XML standard format (SDMX-ML). <a href="https://github.com/opensdmx/rsdmx/wiki">project website (Github)</a>.
+</li>
+<li>
 The <a href="https://github.com/jayjacobs/tldextract">tldextract</a> package extract top level domains and subdomains from a host name. It's a port of <a href="https://github.com/john-kurkowski/tldextract">a Python library of the same name</a>.
 </li>
 </ul>
