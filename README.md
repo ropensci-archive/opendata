@@ -685,11 +685,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   The [mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
     package is an R client for accessing
     [Mygene.info](http://mygene.info/#) annotation and query services.
--   NCBI EUtils web services: See the
-
-    ### NCBI
-
-    section
+-   NCBI EUtils web services: See the NCBI section
 
 ### <a href="#google" name="google">#</a> Google Web Services
 

@@ -495,7 +495,7 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <li>
 The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package is an R client for accessing <a href="http://mygene.info/#">Mygene.info</a> annotation and query services.
 </li>
-<li>NCBI EUtils web services: See the <strong>NCBI</strong> section</li>
+<li>NCBI EUtils web services: See the NCBI section</li>
 </ul>
 
 <p><strong> Google Web Services</strong></p>
