@@ -43,6 +43,9 @@ Tools for Working with the Web from R
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
     data from one or more HTML tables is `readHTMLTable()`.
+    [XML](http://cran.r-project.org/web/packages/XML/index.html) also
+    includes [XPATH](http://www.w3schools.com/xpath/) parsing ability,
+    see `xpathApply()` and `xpathSApply()`.
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html):
     The XML2R package is a collection of convenient functions for
     coercing XML into data frames. The development version is on GitHub
@@ -57,32 +60,26 @@ Tools for Working with the Web from R
     selectors to XPath, so can use the CSS selectors instead of XPath.
     The [selectorgadget browser extension](http://selectorgadget.com/)
     can be used to identify page elements.
--   The [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
-    converts R object into Javascript object notation (JSON) objects and
-    vice-versa.
--   An alternative to the
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) is
+-   *JSON paring* : There are three packages:
+    [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
+    and
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
+    includes a different parser from
     [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    which also converts to and from data in JSON format (it is fast for
-    parsing).
--   An alternative to
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) and
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    is
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html),
-    a fork of the
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html).
-    It includes the parser from RJSONIO, but implements a different
-    mapping between R objects and JSON strings.
+    called [yajl](https://lloyd.github.io/yajl/). We recommend using
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
+    Check out the paper describing jsonlite by Jeroen Ooms
+    <http://arxiv.org/abs/1403.2805>.
 -   Custom formats: Some web APIs provide custom data formats which are
     usually modified xml or json, and handled by
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) and
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html) or
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
+    [XML](http://cran.r-project.org/web/packages/XML/index.html) or
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html),
     respectively.
--   The [RHTMLForms](http://www.omegahat.org/RHTMLForms/) allows to read
-    HTML documents and obtain a description of each of the forms it
-    contains, along with the different elements and hidden fields
+-   [RHTMLForms](http://www.omegahat.org/RHTMLForms/) reads HTML
+    documents and obtains a description of each of the forms it
+    contains, along with the different elements and hidden fields.
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
