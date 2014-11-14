@@ -16,28 +16,22 @@ Tools for Working with the Web from R
 <p><strong>Parsing Data from the Web</strong></p>
 <ul>
 <li>
-txt, csv, etc.: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: <code>read.csv("http://...")</code>, but not <code>read.csv("https://...")</code>.
+<em>txt, csv, etc.</em>: you can use <code>read.csv()</code> after acquiring the csv file from the web via e.g., <code>getURL()</code> from RCurl. <code>read.csv()</code> works with http but not https, i.e.: <code>read.csv("http://...")</code>, but not <code>read.csv("https://...")</code>.
 </li>
 <li>
-<em></em>
+<em>downloading files</em>: <code>download.file()</code> is in base R and commonly used way to download a file. However, downloading files over HTTPS is not supported in <code>download.file()</code>. The <code>download()</code> function in the package <pkg>downloader</pkg> wraps <code>download.file()</code>, and takes all the same arguments, but works for https across platforms.
 </li>
 <li>
-The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to load and cache plain-text data from a URL (either http or https). It also includes <code>source_Dropbox()</code> for downloading/caching plain-text data from non-public Dropbox folders and <code>source_XlsxData()</code> for downloading/caching Excel xlsx sheets.
+<em>JSON I/O</em>: There are three packages: <pkg>rjson</pkg>, <pkg>RJSONIO</pkg>, and <pkg>jsonlite</pkg>. <pkg>jsonlite</pkg> includes a different parser from <pkg>RJSONIO</pkg> called <a href="https://lloyd.github.io/yajl/">yajl</a>. We recommend using <pkg>jsonlite</pkg>. Check out the paper describing jsonlite by Jeroen Ooms <a href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>.
 </li>
 <li>
-The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. 
+<em>XML I/O</em>: The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. 
 </li>
 <li>
 <pkg>XML2R</pkg>: The XML2R package is a collection of convenient functions for coercing XML into data frames. The development version is on GitHub <a href="https://github.com/cpsievert/XML2R">here</a>.
 </li>
 <li>
 An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements.
-</li>
-<li>
-<em>JSON paring</em>: There are three packages: <pkg>rjson</pkg>, <pkg>RJSONIO</pkg>, and <pkg>jsonlite</pkg>. <pkg>jsonlite</pkg> includes a different parser from <pkg>RJSONIO</pkg> called <a href="https://lloyd.github.io/yajl/">yajl</a>. We recommend using <pkg>jsonlite</pkg>. Check out the paper describing jsonlite by Jeroen Ooms <a href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>.
-</li>
-<li>
-Custom formats: Some web APIs provide custom data formats which are usually modified xml or json, and handled by <pkg>XML</pkg> or <pkg>jsonlite</pkg>, respectively.
 </li>
 <li>
 <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields.
@@ -53,6 +47,9 @@ The <a href="https://github.com/jayjacobs/tldextract">tldextract</a> package ext
 </li>
 <li>
 <pkg>webutils</pkg>: Utility functions for developing web applications. Parsers for <code>application/x-www-form-urlencoded</code> as well as <code>multipart/form-data</code>. <a href="https://github.com/jeroenooms/webutils">Source on Github</a>
+</li>
+<li>
+The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to load and cache plain-text data from a URL (either http or https). It also includes <code>source_Dropbox()</code> for downloading/caching plain-text data from non-public Dropbox folders and <code>source_XlsxData()</code> for downloading/caching Excel xlsx sheets.
 </li>
 </ul>
 

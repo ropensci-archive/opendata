@@ -27,18 +27,30 @@ Tools for Working with the Web from R
 
 ### Parsing Data from the Web
 
--   txt, csv, etc.: you can use `read.csv()` after acquiring the csv
+-   *txt, csv, etc.* : you can use `read.csv()` after acquiring the csv
     file from the web via e.g., `getURL()` from RCurl. `read.csv()`
     works with http but not https, i.e.: `read.csv("http://...")`, but
     not `read.csv("https://...")`.
--   The
-    [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
-    package contains a `source_data()` command to load and cache
-    plain-text data from a URL (either http or https). It also includes
-    `source_Dropbox()` for downloading/caching plain-text data from
-    non-public Dropbox folders and `source_XlsxData()` for
-    downloading/caching Excel xlsx sheets.
--   The package
+-   *downloading files* : `download.file()` is in base R and commonly
+    used way to download a file. However, downloading files over HTTPS
+    is not supported in `download.file()`. The `download()` function in
+    the package
+    [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
+    wraps `download.file()`, and takes all the same arguments, but works
+    for https across platforms.
+-   *JSON I/O* : There are three packages:
+    [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
+    and
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
+    includes a different parser from
+    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
+    called [yajl](https://lloyd.github.io/yajl/). We recommend using
+    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
+    Check out the paper describing jsonlite by Jeroen Ooms
+    <http://arxiv.org/abs/1403.2805>.
+-   *XML I/O* : The package
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
@@ -60,23 +72,6 @@ Tools for Working with the Web from R
     selectors to XPath, so can use the CSS selectors instead of XPath.
     The [selectorgadget browser extension](http://selectorgadget.com/)
     can be used to identify page elements.
--   *JSON paring* : There are three packages:
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
-    and
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
-    includes a different parser from
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    called [yajl](https://lloyd.github.io/yajl/). We recommend using
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
-    Check out the paper describing jsonlite by Jeroen Ooms
-    <http://arxiv.org/abs/1403.2805>.
--   Custom formats: Some web APIs provide custom data formats which are
-    usually modified xml or json, and handled by
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) or
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html),
-    respectively.
 -   [RHTMLForms](http://www.omegahat.org/RHTMLForms/) reads HTML
     documents and obtains a description of each of the forms it
     contains, along with the different elements and hidden fields.
@@ -97,6 +92,13 @@ Tools for Working with the Web from R
     `application/x-www-form-urlencoded` as well as
     `multipart/form-data`. [Source on
     Github](https://github.com/jeroenooms/webutils)
+-   The
+    [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
+    package contains a `source_data()` command to load and cache
+    plain-text data from a URL (either http or https). It also includes
+    `source_Dropbox()` for downloading/caching plain-text data from
+    non-public Dropbox folders and `source_XlsxData()` for
+    downloading/caching Excel xlsx sheets.
 
 ### Curl, HTTP, FTP, HTML, XML, SOAP
 
@@ -1137,6 +1139,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
+-   [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
 -   [ecoretriever](http://cran.r-project.org/web/packages/ecoretriever/index.html)
