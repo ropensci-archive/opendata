@@ -95,6 +95,11 @@ Tools for Working with the Web from R
     extract top level domains and subdomains from a host name. It's a
     port of [a Python library of the same
     name](https://github.com/john-kurkowski/tldextract).
+-   [webutils](http://cran.r-project.org/web/packages/webutils/index.html):
+    Utility functions for developing web applications. Parsers for
+    `application/x-www-form-urlencoded` as well as
+    `multipart/form-data`. [Source on
+    Github](https://github.com/jeroenooms/webutils)
 
 ### Curl, HTTP, FTP, HTML, XML, SOAP
 
@@ -303,9 +308,9 @@ Science](#earthsci) | [Ecology/Evolution](#eeb) |
 [Finance](#finance) | [Genes/Genomes](#genes) | [Google web
 services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 | [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
-[Media: Images/video/etc.](#media) | [News](#news) | [Other](#other) |
-[Public Health](#publichealth) | [Social media](#social) |
-[Sports](#sports) | [Web analytics](#webanalytics) |
+[Media: Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
+[Other](#other) | [Public Health](#publichealth) | [Social
+media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#agr" name="agr">#</a> Agriculture
 
@@ -668,8 +673,6 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP
     Annotation and Proxy Search. This package started as a library to
     interact with openSNP alone, so most functions deal with openSNP.
--   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
-    Talk with NCBI entrez using R.
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html):
     Exploratory data analysis and data visualization for biological
     sequence (DNA and protein) data.
@@ -679,15 +682,14 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html):
     Visually Assessing the Specificity and Informativeness of Primer
     Pairs.
--   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
-    Information retrieval from NCBI databases, with main focus on Blast.
--   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html):
-    Download content from NCBI databases. Intended for analyses of NCBI
-    database content, not reference management. See rpubmed for more
-    literature oriented stuff from NCBI.
 -   The [mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
     package is an R client for accessing
     [Mygene.info](http://mygene.info/#) annotation and query services.
+-   NCBI EUtils web services: See the
+
+    ### NCBI
+
+    section
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
@@ -889,6 +891,12 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     BigML, a machine learning web service.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
+-   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html):
+    R-based client for Machine Learning APIs at <http://indico.io>.
+    Wrappers for Positive/Negative Sentiment Analysis, Political
+    Sentiment Analysis, Image Feature Extraction, Facial Emotion
+    Recognition, Facial Feature Extraction, and Language Detection.
+    [Source on Github](https://github.com/redmode/indicoio)
 
 ### <a href="#maps" name="maps">#</a> Maps
 
@@ -954,6 +962,24 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     and change their attributes/characteristics such as shape, color,
     size.
 
+### <a href="#ncbi" name="ncbi">#</a> NCBI
+
+-   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
+    Talk with NCBI Eutils API using R. This is probably the best package
+    to interact with NCBI EUtils. You can get data across all the
+    databases in NCBI EUtils. [Source on
+    Github](https://github.com/ropensci/rentrez)
+-   [reutils](http://cran.r-project.org/web/packages/reutils/index.html):
+    Interface with NCBI databases such as PubMed, Genbank, or GEO via
+    the Entrez Programming Utilities (EUtils). [Source on
+    Github](https://github.com/gschofl/reutils).
+-   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
+    Information retrieval from NCBI databases, with main focus on Blast.
+-   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html):
+    Download content from NCBI databases. Intended for analyses of NCBI
+    database content, not reference management. See rpubmed for more
+    literature oriented stuff from NCBI.
+
 ### <a href="#news" name="news">#</a> News
 
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html):
@@ -1005,6 +1031,13 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [slackr](http://cran.r-project.org/web/packages/slackr/index.html):
     R client for Slack.com messaging platform. [Source on
     Github](https://github.com/hrbrmstr/slackr)
+-   [pushoverr](http://cran.r-project.org/web/packages/pushoverr/index.html):
+    Sending push notifications to mobile devices (iOS and Android) and
+    desktop using [Pushover](https://pushover.net/). [Source on
+    Github](https://github.com/briandconnelly/pushoverr)
+-   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html):
+    Provides access to Wikipedia page access statistics. [Source on
+    Github](https://github.com/petermeissner/wikipediatrend)
 
 ### <a href="#publichealth" name="publichealth">#</a> Public Health
 
@@ -1034,6 +1067,11 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
     is an analytic tool that returns information about the popularity of
     a URL on social media sites.
+-   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html):
+    R client for the Tumblr API (
+    <https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging
+    platform and social networking website <https://www.tumblr.com>.
+    [Source on Github](https://github.com/klapaukh/tumblR)
 
 ### <a href="#sports" name="sports">#</a> Sports
 
@@ -1127,6 +1165,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
     (core)
 -   [IBrokers](http://cran.r-project.org/web/packages/IBrokers/index.html)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
+-   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html)
 -   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html)
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
     (core)
@@ -1153,6 +1192,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
+-   [pushoverr](http://cran.r-project.org/web/packages/pushoverr/index.html)
 -   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html)
 -   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
@@ -1177,6 +1217,7 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
 -   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
+-   [reutils](http://cran.r-project.org/web/packages/reutils/index.html)
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html)
 -   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html)
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html)
@@ -1237,13 +1278,16 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
+-   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
 -   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
+-   [webutils](http://cran.r-project.org/web/packages/webutils/index.html)
 -   [whisker](http://cran.r-project.org/web/packages/whisker/index.html)
+-   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html)
 -   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html)
 -   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
 -   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)

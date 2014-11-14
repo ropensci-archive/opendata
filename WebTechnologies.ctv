@@ -54,6 +54,9 @@ The <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> allows to read 
 <li>
 The <a href="https://github.com/jayjacobs/tldextract">tldextract</a> package extract top level domains and subdomains from a host name. It's a port of <a href="https://github.com/john-kurkowski/tldextract">a Python library of the same name</a>.
 </li>
+<li>
+<pkg>webutils</pkg>: Utility functions for developing web applications. Parsers for <code>application/x-www-form-urlencoded</code> as well as <code>multipart/form-data</code>. <a href="https://github.com/jeroenooms/webutils">Source on Github</a>
+</li>
 </ul>
 
 
@@ -178,7 +181,7 @@ The <a href="http://www.omegahat.org/SpiderMonkey/">SpiderMonkey</a> package pro
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
 <p><strong> Agriculture</strong></p>
 
@@ -481,9 +484,6 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>rsnps</pkg>: This package is a programmatic interface to various SNP datasets on the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP Annotation and Proxy Search. This package started as a library to interact with openSNP alone, so most functions deal with openSNP.
 </li>
 <li>
-<pkg>rentrez</pkg>: Talk with NCBI entrez using R.
-</li>
-<li>
 <pkg>seqinr</pkg>: Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.
 </li>
 <li>
@@ -493,16 +493,10 @@ The <a href="http://www.omegahat.org/Zillow/">Zillow</a> package provides an R i
 <pkg>primerTree</pkg>: Visually Assessing the Specificity and Informativeness of Primer Pairs.
 </li>
 <li>
-<pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.
-</li>
-<li>
-<pkg>RISmed</pkg>: Download content from NCBI databases. Intended for analyses of NCBI database content, not reference management. See rpubmed for more literature oriented stuff from NCBI.
-</li>
-<li>
 The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package is an R client for accessing <a href="http://mygene.info/#">Mygene.info</a> annotation and query services.
 </li>
+<li>NCBI EUtils web services: See the <strong>NCBI</strong> section</li>
 </ul>
-
 
 <p><strong> Google Web Services</strong></p>
 <ul>
@@ -679,6 +673,9 @@ The <a href="http://www.omegahat.org/Aspell/">Aspell</a> package provides an int
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
 </li>
+<li>
+<pkg>indicoio</pkg>: R-based client for Machine Learning APIs at <a href="http://indico.io">http://indico.io</a>. Wrappers for Positive/Negative Sentiment Analysis, Political Sentiment Analysis, Image Feature Extraction, Facial Emotion Recognition, Facial Feature Extraction, and Language Detection. <a href="https://github.com/redmode/indicoio">Source on Github</a>
+</li>
 </ul>
 
 <p><strong> Maps</strong></p>
@@ -743,6 +740,23 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 </ul>
 
+<p><strong> NCBI</strong></p>
+
+<ul>
+<li>
+<pkg>rentrez</pkg>: Talk with NCBI Eutils API using R. This is probably the best package to interact with NCBI EUtils. You can get data across all the databases in NCBI EUtils. <a href="https://github.com/ropensci/rentrez">Source on Github</a>
+</li>
+<li>
+<pkg>reutils</pkg>: Interface with NCBI databases such as PubMed, Genbank, or GEO via the Entrez Programming Utilities (EUtils). <a href="https://github.com/gschofl/reutils">Source on Github</a>.
+</li>
+<li>
+<pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.
+</li>
+<li>
+<pkg>RISmed</pkg>: Download content from NCBI databases. Intended for analyses of NCBI database content, not reference management. See rpubmed for more literature oriented stuff from NCBI.
+</li>
+</ul>
+
 <p><strong> News</strong></p>
 
 <ul>
@@ -797,6 +811,12 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <li>
 <pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">Source on Github</a>
 </li>
+<li>
+<pkg>pushoverr</pkg>: Sending push notifications to mobile devices (iOS and Android) and desktop using <a href="https://pushover.net/">Pushover</a>. <a href="https://github.com/briandconnelly/pushoverr">Source on Github</a>
+</li>
+<li>
+<pkg>wikipediatrend</pkg>: Provides access to Wikipedia page access statistics. <a href="https://github.com/petermeissner/wikipediatrend">Source on Github</a>
+</li>
 </ul>
 
 
@@ -831,6 +851,9 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
 </li>
 <li>
 <pkg>SocialMediaMineR</pkg> is an analytic tool that returns information about the popularity of a URL on social media sites.
+</li>
+<li>
+<pkg>tumblR</pkg>: R client for the Tumblr API (<a href="https://www.tumblr.com/docs/en/api/v2">https://www.tumblr.com/docs/en/api/v2</a>). Tumblr is a microblogging platform and social networking website <a href="https://www.tumblr.com">https://www.tumblr.com</a>. <a href="https://github.com/klapaukh/tumblR">Source on Github</a>
 </li>
 </ul>
 
@@ -926,6 +949,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>httpuv</pkg>
   <pkg>IBrokers</pkg>
   <pkg>imguR</pkg>
+  <pkg>indicoio</pkg>
   <pkg>jSonarR</pkg>
   <pkg>leafletR</pkg>
   <pkg>mailR</pkg>
@@ -950,6 +974,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>primerTree</pkg>
   <pkg>psidR</pkg>
   <pkg>pubmed.mineR</pkg>
+  <pkg>pushoverr</pkg>
   <pkg>pvsR</pkg>
   <pkg>pxweb</pkg>
   <pkg>Quandl</pkg>
@@ -972,6 +997,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>rentrez</pkg>
   <pkg>Reol</pkg>
   <pkg>repmis</pkg>
+  <pkg>reutils</pkg>
   <pkg>Rfacebook</pkg>
   <pkg>rFDSN</pkg>
   <pkg>rfigshare</pkg>
@@ -1030,13 +1056,16 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>translateR</pkg>
   <pkg>treebase</pkg>
   <pkg>tseries</pkg>
+  <pkg>tumblR</pkg>
   <pkg>twitteR</pkg>
   <pkg>ustyc</pkg>
   <pkg>W3CMarkupValidator</pkg>
   <pkg>waterData</pkg>
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
+  <pkg>webutils</pkg>
   <pkg>whisker</pkg>
+  <pkg>wikipediatrend</pkg>
   <pkg>WikipediR</pkg>
   <pkg>XML2R</pkg>
   <pkg>yhatr</pkg>
