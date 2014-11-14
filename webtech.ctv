@@ -619,7 +619,7 @@ The <a href="http://www.omegahat.org/RGoogleDocs/">RGoogleDocs</a> package is an
 <a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/RMendeley/">RMendeley</a>: Implementation of the Mendeley API in R. Archived on CRAN.
+<a href="http://cran.r-project.org/src/contrib/Archive/RMendeley/">RMendeley</a>: Implementation of the Mendeley API in R. Archived on CRAN. It's been archived on CRAN temporarily until pacakge is updated for the new Mendeley API.
 </li>
 <li>
 <pkg>rentrez</pkg>: Talk with NCBI entrez using R.

@@ -828,7 +828,9 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN):
     Get scholarly metadata from around the web.
 -   [RMendeley](http://cran.r-project.org/src/contrib/Archive/RMendeley/):
-    Implementation of the Mendeley API in R. Archived on CRAN.
+    Implementation of the Mendeley API in R. Archived on CRAN. It's been
+    archived on CRAN temporarily until pacakge is updated for the new
+    Mendeley API.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI entrez using R.
 -   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A
