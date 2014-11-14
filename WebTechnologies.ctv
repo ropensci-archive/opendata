@@ -105,6 +105,9 @@ Using web resources can require authentication, either via API keys, OAuth, user
 
 <ul>
 <li>
+<a href="http://deployr.revolutionanalytics.com/">DeployR Open</a> is a server-based framework for integrating R into other applications via Web Services.
+</li>
+<li>
 The <pkg>shiny</pkg> package makes it easy to build interactive web applications with R.
 </li>
 <li>

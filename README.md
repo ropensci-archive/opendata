@@ -195,6 +195,9 @@ Tools for Working with the Web from R
 
 ### Web Frameworks
 
+-   [DeployR Open](http://deployr.revolutionanalytics.com/) is a
+    server-based framework for integrating R into other applications via
+    Web Services.
 -   The [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     package makes it easy to build interactive web applications with R.
 -   The [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
