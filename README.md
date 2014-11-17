@@ -27,18 +27,22 @@ Tools for Working with the Web from R
 
 ### Parsing Data from the Web
 
--   *txt, csv, etc.* : you can use `read.csv()` after acquiring the csv
-    file from the web via e.g., `getURL()` from RCurl. `read.csv()`
-    works with http but not https, i.e.: `read.csv("http://...")`, but
-    not `read.csv("https://...")`.
 -   *downloading files* : `download.file()` is in base R and commonly
     used way to download a file. However, downloading files over HTTPS
-    is not supported in `download.file()`. The `download()` function in
-    the package
+    is not supported in R's internal method for `download.file()`. The
+    `download()` function in the package
     [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
     wraps `download.file()`, and takes all the same arguments, but works
     for https across platforms.
--   *JSON I/O* : There are three packages:
+-   *tabular data as txt, csv, etc.* : you can use `read.csv()` after
+    acquiring the csv file from the web via e.g., `getURL()` from RCurl.
+    `read.csv()` works with http but not https, i.e.:
+    `read.csv("http://...")`, but not `read.csv("https://...")`. You can
+    download a file first before reading the file in R, and you can use
+    [downlader](http://cran.r-project.org/web/packages/downlader/index.html)
+    to download over https.
+-   *JSON I/O* : JSON is *javascript object notation* . There are three
+    packages for reading and writing JSON:
     [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
     [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
     and
@@ -50,19 +54,18 @@ Tools for Working with the Web from R
     [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
     Check out the paper describing jsonlite by Jeroen Ooms
     <http://arxiv.org/abs/1403.2805>.
--   *XML I/O* : The package
+-   *XML/HTML I/O* : The package
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
     data from one or more HTML tables is `readHTMLTable()`.
     [XML](http://cran.r-project.org/web/packages/XML/index.html) also
     includes [XPATH](http://www.w3schools.com/xpath/) parsing ability,
-    see `xpathApply()` and `xpathSApply()`.
--   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html):
-    The XML2R package is a collection of convenient functions for
-    coercing XML into data frames. The development version is on GitHub
-    [here](https://github.com/cpsievert/XML2R).
--   An alternative to
+    see `xpathApply()` and `xpathSApply()`. The
+    [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
+    package is a collection of convenient functions for coercing XML
+    into data frames (development version [on
+    GitHub](https://github.com/cpsievert/XML2R)). An alternative to
     [XML](http://cran.r-project.org/web/packages/XML/index.html) is
     [selectr](http://sjp.co.nz/projects/selectr/), which parses CSS3
     Selectors and translates them to XPath 1.0 expressions.
@@ -72,17 +75,12 @@ Tools for Working with the Web from R
     selectors to XPath, so can use the CSS selectors instead of XPath.
     The [selectorgadget browser extension](http://selectorgadget.com/)
     can be used to identify page elements.
--   [RHTMLForms](http://www.omegahat.org/RHTMLForms/) reads HTML
+    [RHTMLForms](http://www.omegahat.org/RHTMLForms/) reads HTML
     documents and obtains a description of each of the forms it
     contains, along with the different elements and hidden fields.
--   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
+    [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
--   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
-    provides tools to read data and metadata documents exchanged through
-    the Statistical Data and Metadata Exchange (SDMX) framework. The
-    package currently focuses on the SDMX XML standard format (SDMX-ML).
-    [project website (Github)](https://github.com/opensdmx/rsdmx/wiki).
 -   The [tldextract](https://github.com/jayjacobs/tldextract) package
     extract top level domains and subdomains from a host name. It's a
     port of [a Python library of the same
@@ -99,6 +97,11 @@ Tools for Working with the Web from R
     `source_Dropbox()` for downloading/caching plain-text data from
     non-public Dropbox folders and `source_XlsxData()` for
     downloading/caching Excel xlsx sheets.
+-   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
+    provides tools to read data and metadata documents exchanged through
+    the Statistical Data and Metadata Exchange (SDMX) framework. The
+    package currently focuses on the SDMX XML standard format (SDMX-ML).
+    [project website (Github)](https://github.com/opensdmx/rsdmx/wiki).
 
 ### Curl, HTTP, FTP, HTML, XML, SOAP
 
@@ -1139,6 +1142,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
+-   [downlader](http://cran.r-project.org/web/packages/downlader/index.html)
 -   [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
