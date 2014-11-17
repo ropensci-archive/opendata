@@ -34,13 +34,16 @@ Tools for Working with the Web from R
     [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
     wraps `download.file()`, and takes all the same arguments, but works
     for https across platforms.
--   *tabular data as txt, csv, etc.* : you can use `read.csv()` after
-    acquiring the csv file from the web via e.g., `getURL()` from RCurl.
-    `read.csv()` works with http but not https, i.e.:
+-   *tabular data as txt, csv, etc.* : You can use `read.table()`,
+    `read.csv()`, and friends to read a table directly from a URL, or
+    after acquiring the csv file from the web via e.g., `getURL()` from
+    RCurl. `read.csv()` works with http but not https, i.e.:
     `read.csv("http://...")`, but not `read.csv("https://...")`. You can
     download a file first before reading the file in R, and you can use
     [downlader](http://cran.r-project.org/web/packages/downlader/index.html)
-    to download over https.
+    to download over https. `read.table()` and friends also have a
+    `text` parameter so you can read a table if a table is encoded as a
+    string with line breaks, etc.
 -   *JSON I/O* : JSON is *javascript object notation* . There are three
     packages for reading and writing JSON:
     [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
