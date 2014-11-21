@@ -157,23 +157,24 @@ Tools for Working with the Web from R
 -   [RTidyHTML](http://www.omegahat.org/RTidyHTML/) interfaces to the
     libtidy library for correcting HTML documents that are not
     well-formed. This library corrects common errors in HTML documents.
+    (not on CRAN)
 -   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
     provides an R Interface to W3C Markup Validation Services for
     validating HTML documents.
 -   [SSOAP](http://www.omegahat.org/SSOAP/) provides a client-side SOAP
     (Simple Object Access Protocol) mechanism. It aims to provide a
     high-level interface to invoke SOAP methods provided by a SOAP
-    server.
+    server. (not on CRAN)
 -   [Rcompression](http://www.omegahat.org/Rcompression/): Interface to
     zlib and bzip2 libraries for performing in-memory compression and
     decompression in R. This is useful when receiving or sending
     contents to remote servers, e.g. Web services, HTTP requests via
-    RCurl.
+    RCurl. (not on CRAN)
 -   The [CGIwithR](http://www.omegahat.org/CGIwithR/) package allows one
     to use R scripts as CGI programs for generating dynamic Web content.
     HTML forms and other mechanisms to submit dynamic requests can be
     used to provide input to R scripts via the Web to create content
-    that is determined within that R script.
+    that is determined within that R script. (not on CRAN)
 -   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html):
     HTTP Request protocols. Implements the GET, POST and multipart POST
     request.
@@ -234,21 +235,23 @@ Tools for Working with the Web from R
     within R. Another related package, perhaps which
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
     replaces, is websockets, also made by Joe Cheng.
--   [websockets](https://github.com/rstudio/R-Websockets) (not on CRAN):
-    A simple HTML5 websocket interface for R, by Joe Cheng.
+-   [websockets](https://github.com/rstudio/R-Websockets): A simple
+    HTML5 websocket interface for R, by Joe Cheng. Available in CRAN
+    archives.
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/ropensci/plotly), as well as access to
-    their services via [a REST API](https://plot.ly/API/).
+    their services via [a REST API](https://plot.ly/API/). (not on CRAN)
 -   The [WADL](http://www.omegahat.org/WADL/) package provides tools to
     process Web Application Description Language (WADL) documents and to
     programmatically generate R functions to interface to the REST
-    methods described in those WADL documents.
+    methods described in those WADL documents. (not on CRAN)
 -   The [RDCOMServer](http://www.omegahat.org/RDCOMServer/) provides a
     mechanism to export R objects as (D)COM objects in Windows. It can
     be used along with the
     [RDCOMClient](http://www.omegahat.org/RDCOMClient/) package which
-    provides user-level access from R to other COM servers.
+    provides user-level access from R to other COM servers. (not on
+    CRAN)
 -   The
     [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
     package (development version on GitHub
@@ -267,6 +270,7 @@ Tools for Working with the Web from R
     statistical report templates in the cloud.
 -   [neocities](https://github.com/seankross/neocities) wraps the API
     for the [Neocities](https://neocities.org/) web hosting service.
+    (not on CRAN)
 -   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
     framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
     to run R code from wiki pages, and use data from their own collected

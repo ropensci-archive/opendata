@@ -60,19 +60,19 @@ The <a href="http://www.omegahat.org/XMLRPC/">XMLRPC</a> package provides an imp
 The <a href="http://www.omegahat.org/XMLSchema/">XMLSchema</a> package provides facilities in R for reading XML schema documents and processing them to create definitions for R classes and functions for converting XML nodes to instances of those classes. It provides the framework for meta-computing with XML schema in R
 </li>
 <li>
-<a href="http://www.omegahat.org/RTidyHTML/">RTidyHTML</a> interfaces to the libtidy library for correcting HTML documents that are not well-formed. This library corrects common errors in HTML documents.
+<a href="http://www.omegahat.org/RTidyHTML/">RTidyHTML</a> interfaces to the libtidy library for correcting HTML documents that are not well-formed. This library corrects common errors in HTML documents. (not on CRAN)
 </li>
 <li>
 <pkg>W3CMarkupValidator</pkg> provides an R Interface to W3C Markup Validation Services for validating HTML documents.
 </li>
 <li>
-<a href="http://www.omegahat.org/SSOAP/">SSOAP</a> provides a client-side SOAP (Simple Object Access Protocol) mechanism. It aims to provide a high-level interface to invoke SOAP methods provided by a SOAP server.
+<a href="http://www.omegahat.org/SSOAP/">SSOAP</a> provides a client-side SOAP (Simple Object Access Protocol) mechanism. It aims to provide a high-level interface to invoke SOAP methods provided by a SOAP server. (not on CRAN)
 </li>
 <li>
-<a href="http://www.omegahat.org/Rcompression/">Rcompression</a>: Interface to zlib and bzip2 libraries for performing in-memory compression and decompression in R. This is useful when receiving or sending contents to remote servers, e.g. Web services, HTTP requests via RCurl.
+<a href="http://www.omegahat.org/Rcompression/">Rcompression</a>: Interface to zlib and bzip2 libraries for performing in-memory compression and decompression in R. This is useful when receiving or sending contents to remote servers, e.g. Web services, HTTP requests via RCurl. (not on CRAN)
 </li>
 <li>
-The <a href="http://www.omegahat.org/CGIwithR/">CGIwithR</a> package allows one to use R scripts as CGI programs for generating dynamic Web content. HTML forms and other mechanisms to submit dynamic requests can be used to provide input to R scripts via the Web to create content that is determined within that R script.
+The <a href="http://www.omegahat.org/CGIwithR/">CGIwithR</a> package allows one to use R scripts as CGI programs for generating dynamic Web content. HTML forms and other mechanisms to submit dynamic requests can be used to provide input to R scripts via the Web to create content that is determined within that R script. (not on CRAN)
 </li>
 <li>
 <pkg>httpRequest</pkg>: HTTP Request protocols. Implements the GET, POST and multipart POST request.
@@ -109,16 +109,16 @@ A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> 
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is websockets, also made by Joe Cheng.
 </li>
 <li>
-<a href="https://github.com/rstudio/R-Websockets">websockets</a> (not on CRAN): A simple HTML5 websocket interface for R, by Joe Cheng.
+<a href="https://github.com/rstudio/R-Websockets">websockets</a>: A simple HTML5 websocket interface for R, by Joe Cheng. Available in CRAN archives.
 </li>
 <li>
-Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/ropensci/plotly">here</a>, as well as access to their services via <a href="https://plot.ly/API/">a REST API</a>.
+Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/ropensci/plotly">here</a>, as well as access to their services via <a href="https://plot.ly/API/">a REST API</a>. (not on CRAN)
 </li>
 <li>
-The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents.
+The <a href="http://www.omegahat.org/WADL/">WADL</a> package provides tools to process Web Application Description Language (WADL) documents and to programmatically generate R functions to interface to the REST methods described in those WADL documents. (not on CRAN)
 </li>
 <li>
-The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers.
+The <a href="http://www.omegahat.org/RDCOMServer/">RDCOMServer</a> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <a href="http://www.omegahat.org/RDCOMClient/">RDCOMClient</a> package which provides user-level access from R to other COM servers. (not on CRAN)
 </li>
 <li>
 The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https://github.com/ropensci/RSelenium/">here</a>) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).
@@ -127,7 +127,7 @@ The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https:/
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
 <li>
-<a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service.
+<a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service. (not on CRAN)
 </li>
 <li>
 The <a href="http://info.tiki.org/tiki-index.php">Tiki</a> Wiki CMS/Groupware framework has an R plugin (<a href="https://doc.tiki.org/PluginR">PluginR</a>) to run R code from wiki pages, and use data from their own collected web databases (trackers). A demo: <a href="http://r.tiki.org/tiki-index.php">http://r.tiki.org</a>. More info in a <a href="http://ueb.vhir.org/2011+UseR">useR!2013 presentation</a>.
