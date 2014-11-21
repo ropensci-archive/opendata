@@ -694,7 +694,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 <pkg>leafletR</pkg>: Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 </li>
 <li>
-<a href="https://github.com/trestletech/rydn">rydn</a>: R package to interface with the Yahoo Developers network geolocation APIs.
+<a href="https://github.com/trestletech/rydn">rydn</a> (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.
 </li>
 </ul>
 
@@ -755,7 +755,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.
 </li>
 <li>
-<a href="http://www.omegahat.org/RNYTimes">RNYTimes</a> provides interfaces to several of the New York Times Web services for searching articles, meta-data, user-generated content and best seller lists.
+<a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.
 </li>
 </ul>
 

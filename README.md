@@ -940,8 +940,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html):
     Allows you to display your spatial data on interactive web-maps
     using the open-source JavaScript library Leaflet.
--   [rydn](https://github.com/trestletech/rydn): R package to interface
-    with the Yahoo Developers network geolocation APIs.
+-   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package
+    to interface with the Yahoo Developers network geolocation APIs.
 
 ### <a href="#marketing" name="marketing">#</a> Marketing
 
@@ -998,9 +998,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Provides an interface to the Open Platform's Content API of the
     Guardian Media Group. It retrieves content from news outlets The
     Observer, The Guardian, and guardian.co.uk from 1999 to current day.
--   [RNYTimes](http://www.omegahat.org/RNYTimes) provides interfaces to
-    several of the New York Times Web services for searching articles,
-    meta-data, user-generated content and best seller lists.
+-   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client
+    for the New York Times APIs, including the Congress, Article Search,
+    Campaign Finance, and Geographic APIs.
 
 ### <a href="#other" name="other">#</a> Other
 
