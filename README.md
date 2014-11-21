@@ -1069,7 +1069,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     CRAN): Yet another Twitter R client.
 -   The [Rflickr](http://www.omegahat.org/Rflickr) package provides an R
     interface to the Flickr photo management and sharing application Web
-    service.
+    service. (not on CRAN)
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
     Provides an interface to the Facebook API.
 -   [plusser](http://cran.r-project.org/web/packages/plusser/index.html)

@@ -832,7 +832,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <a href="https://github.com/joyofdata/RTwitterAPI">RTwitterAPI</a> (not on CRAN): Yet another Twitter R client.
 </li>
 <li>
-The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R interface to the Flickr photo management and sharing application Web service.
+The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R interface to the Flickr photo management and sharing application Web service. (not on CRAN)
 </li>
 <li>
 <pkg>Rfacebook</pkg>: Provides an interface to the Facebook API.
