@@ -51,6 +51,9 @@ The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to l
 <pkg>httr</pkg>: A light wrapper around <pkg>RCurl</pkg> that makes many things easier, but still allows you to access the lower level functionality of <pkg>RCurl</pkg>. It has convenient http verbs: <code>GET()</code>, <code>POST()</code>, <code>PUT()</code>, <code>DELETE()</code>, <code>PATCH()</code>, <code>HEAD()</code>, <code>BROWSE()</code>. These wrap functions are more convenient to use, though less configurable than counterparts in <pkg>RCurl</pkg>. The equivalent of httr's <code>GET()</code> in <pkg>RCurl</pkg> is <code>getForm()</code>. Likewise, the equivalent of <pkg>httr</pkg>'s <code>POST()</code> in <pkg>RCurl</pkg> is <code>postForm()</code>. http status codes are helpful for debugging http calls. This package makes this easier using, for example, <code>stop_for_status()</code> gets the http status code from a response object, and stops the function if the call was not successful.  See also <code>warn_for_status()</code>. Note that you can pass in additional Curl options to the <code>config</code> parameter in http calls.
 </li>
 <li>
+<pkg>curl</pkg>: The <code>curl</code> package has a function <code>curl()</code> that's a drop-in replacement for base <code>url()</code> with better performance and support for http 2.0, ssl (https, ftps), gzip, deflate and more. There's also a replacement for <code>download.file()</code> called <code>download_curl()</code>. <a href="https://github.com/jeroenooms/curl">Source on Github</a>
+</li>
+<li>
 The <a href="http://www.omegahat.org/XMLRPC/">XMLRPC</a> package provides an implementation of XML-RPC, a relatively simple remote procedure call mechanism that uses HTTP and XML. This can be used for communicating between processes on a single machine or for accessing Web services from within R.
 </li>
 <li>
@@ -907,6 +910,7 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>CHCN</pkg>
   <pkg>colourlovers</pkg>
   <pkg>crn</pkg>
+  <pkg>curl</pkg>
   <pkg>d3Network</pkg>
   <pkg>datamart</pkg>
   <pkg>dataRetrieval</pkg>

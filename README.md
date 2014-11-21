@@ -138,6 +138,12 @@ Tools for Working with the Web from R
     object, and stops the function if the call was not successful. See
     also `warn_for_status()`. Note that you can pass in additional Curl
     options to the `config` parameter in http calls.
+-   [curl](http://cran.r-project.org/web/packages/curl/index.html): The
+    `curl` package has a function `curl()` that's a drop-in replacement
+    for base `url()` with better performance and support for http 2.0,
+    ssl (https, ftps), gzip, deflate and more. There's also a
+    replacement for `download.file()` called `download_curl()`. [Source
+    on Github](https://github.com/jeroenooms/curl)
 -   The [XMLRPC](http://www.omegahat.org/XMLRPC/) package provides an
     implementation of XML-RPC, a relatively simple remote procedure call
     mechanism that uses HTTP and XML. This can be used for communicating
@@ -1140,6 +1146,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
+-   [curl](http://cran.r-project.org/web/packages/curl/index.html)
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
