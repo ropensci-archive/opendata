@@ -28,6 +28,9 @@ Tools for Working with the Web from R
 <em>XML/HTML I/O</em>: The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. The <pkg>XML2R</pkg> package is a collection of convenient functions for coercing XML into data frames (development version <a href="https://github.com/cpsievert/XML2R">on GitHub</a>). An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements. <a href="http://www.omegahat.org/RHTMLForms/">RHTMLForms</a> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields. <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents.
 </li>
 <li>
+<a href="https://github.com/hadley/rvest">rvest</a>: rvest scrapes html from web pages, and is designed to work with <pkg>magrittr</pkg> to make it easy to express common web scraping tasks.
+</li>
+<li>
 The <a href="https://github.com/jayjacobs/tldextract">tldextract</a> package extract top level domains and subdomains from a host name. It's a port of <a href="https://github.com/john-kurkowski/tldextract">a Python library of the same name</a>.
 </li>
 <li>

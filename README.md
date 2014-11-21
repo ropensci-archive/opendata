@@ -84,6 +84,10 @@ Tools for Working with the Web from R
     [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
+-   [rvest](https://github.com/hadley/rvest): rvest scrapes html from
+    web pages, and is designed to work with
+    [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
+    to make it easy to express common web scraping tasks.
 -   The [tldextract](https://github.com/jayjacobs/tldextract) package
     extract top level domains and subdomains from a host name. It's a
     port of [a Python library of the same
@@ -1188,6 +1192,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
     (core)
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
+-   [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html)
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
