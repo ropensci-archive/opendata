@@ -40,7 +40,7 @@ Tools for Working with the Web from R
     RCurl. `read.csv()` works with http but not https, i.e.:
     `read.csv("http://...")`, but not `read.csv("https://...")`. You can
     download a file first before reading the file in R, and you can use
-    [downlader](http://cran.r-project.org/web/packages/downlader/index.html)
+    [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
     to download over https. `read.table()` and friends also have a
     `text` parameter so you can read a table if a table is encoded as a
     string with line breaks, etc.
@@ -1155,7 +1155,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
--   [downlader](http://cran.r-project.org/web/packages/downlader/index.html)
 -   [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
