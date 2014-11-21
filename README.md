@@ -940,9 +940,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html):
     Allows you to display your spatial data on interactive web-maps
     using the open-source JavaScript library Leaflet.
--   [rydn](http://cran.r-project.org/web/packages/rydn/index.html): R
-    package to interface with the Yahoo Developers network geolocation
-    APIs. [Source on Github](https://github.com/trestletech/rydn)
+-   [rydn](https://github.com/trestletech/rydn): R package to interface
+    with the Yahoo Developers network geolocation APIs.
 
 ### <a href="#marketing" name="marketing">#</a> Marketing
 
@@ -1269,7 +1268,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
--   [rydn](http://cran.r-project.org/web/packages/rydn/index.html)
 -   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
 -   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)

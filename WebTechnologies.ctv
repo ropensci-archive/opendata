@@ -694,7 +694,7 @@ The <a href="http://www.omegahat.org/RKML/">RKML</a> is an implementation that p
 <pkg>leafletR</pkg>: Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 </li>
 <li>
-<pkg>rydn</pkg>: R package to interface with the Yahoo Developers network geolocation APIs. <a href="https://github.com/trestletech/rydn">Source on Github</a>
+<a href="https://github.com/trestletech/rydn">rydn</a>: R package to interface with the Yahoo Developers network geolocation APIs.
 </li>
 </ul>
 
@@ -1027,7 +1027,6 @@ The <a href="http://www.omegahat.org/Rflickr">Rflickr</a> package provides an R 
   <pkg>RSocrata</pkg>
   <pkg>rvertnet</pkg>
   <pkg>rWBclimate</pkg>
-  <pkg>rydn</pkg>
   <pkg>rYoutheria</pkg>
   <pkg>scholar</pkg>
   <pkg>scrapeR</pkg>
