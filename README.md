@@ -370,6 +370,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R. Development
     version on GitHub [here](https://www.github.com/leeper/MTurkR).
+-   [<span class="Gcode">segue</span>](http://code.google.com/p/segue/):
+    A parallel lapply function for the Elastic Map Reduce (EMR) engine
+    called `emrlapply()`. Uses Hadoop Streaming on Amazon's EMR in order
+    to get simple parallel computation.
 
 ### <a href="#ecommerce" name="ecommerce">#</a> E-commerce
 

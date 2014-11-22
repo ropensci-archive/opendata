@@ -200,6 +200,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R. Development version on GitHub <a href="https://www.github.com/leeper/MTurkR">here</a>.
 </li>
+<li>
+<gcode>segue</gcode>: A parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
+</li>
 </ul>
 
 <p><strong>tochref="lb-ecommerce" name="ecommerce"endhref E-commerce</strong></p>
