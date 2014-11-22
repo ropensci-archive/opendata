@@ -520,8 +520,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     of global and regional weather model data, and supports a variety of
     models ranging from global weather data to an altitude of 40 km, to
     high resolution regional weather models, to wave and sea ice models.
-    It can also retrieve archived NOMADS models. [Source on
-    R-Forge](https://r-forge.r-project.org/projects/rnomads/).
+    It can also retrieve archived NOMADS models. Source: [<span
+    class="Rforge">rnomads</span>](http://R-Forge.R-project.org/projects/rnomads/).
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 

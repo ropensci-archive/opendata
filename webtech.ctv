@@ -318,7 +318,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. <a href="https://github.com/USGS-R/dataRetrieval">on GitHub</a>.
 </li>
 <li>
-<pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. <a href="https://r-forge.r-project.org/projects/rnomads/">Source on R-Forge</a>.
+<pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.
 </li>
 </ul>
 
