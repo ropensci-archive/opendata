@@ -347,7 +347,13 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 ### <a href="#amazon" name="amazon">#</a> Amazon Web Services
 
 -   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
-    An R package to interact with Amazon Web Services (EC2/S3).
+    An R package to interact with Amazon Web Services (EC2/S3) using
+    system calls to the AWS Command Line Interface.
+-   [segue](http://code.google.com/p/segue/): Another package for
+    managing EC2 instances and S3 storage, which includes a parallel
+    lapply function for the Elastic Map Reduce (EMR) engine called
+    `emrlapply()`. Uses Hadoop Streaming on Amazon's EMR in order to get
+    simple parallel computation.
 -   [RAmazonS3](http://www.Omegahat.org/RAmazonS3/) package provides the
     basic infrastructure within R for communicating with the S3 Amazon
     storage server. This is a commercial server that allows one to store
@@ -357,10 +363,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R. Development
     version on GitHub [here](https://www.github.com/leeper/MTurkR).
--   [segue](http://code.google.com/p/segue/): A parallel lapply function
-    for the Elastic Map Reduce (EMR) engine called `emrlapply()`. Uses
-    Hadoop Streaming on Amazon's EMR in order to get simple parallel
-    computation.
 
 ### <a href="#ecommerce" name="ecommerce">#</a> E-commerce
 

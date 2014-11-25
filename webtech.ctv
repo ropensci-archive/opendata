@@ -188,7 +188,10 @@ Data Sources on the Web Accessible via R
 <p><strong>tochref="lb-amazon" name="amazon"endhref Amazon Web Services</strong></p>
 <ul>
 <li>
-<pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
+<pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3) using system calls to the AWS Command Line Interface.
+</li>
+<li>
+<gcode>segue</gcode>: Another package for managing EC2 instances and S3 storage, which includes a parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
 </li>
 <li>
 <ohat>RAmazonS3</ohat> package provides the basic infrastructure within R for communicating with the S3 Amazon storage server.
@@ -199,9 +202,6 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R. Development version on GitHub <a href="https://www.github.com/leeper/MTurkR">here</a>.
-</li>
-<li>
-<gcode>segue</gcode>: A parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
 </li>
 </ul>
 
