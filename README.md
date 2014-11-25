@@ -363,6 +363,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     basic infrastructure within R for communicating with the S3 Amazon
     storage server. This is a commercial server that allows one to store
     content and retrieve it from any machine connected to the Internet.
+-   [s3mpi](https://github.com/robertzk/s3mpi) (not on CRAN): Another
+    packages for interacting with Amazon S3.
 -   [RAmazonDBREST](http://www.Omegahat.org/RAmazonDBREST/) provides an
     interface to Amazon's Simple DB API.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
