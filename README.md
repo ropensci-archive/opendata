@@ -1144,6 +1144,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RGoogleTrends](http://www.Omegahat.org/RGoogleTrends/) provides
     programmatic access to Google Trends data. This is information about
     the popularity of a particular query.
+-   [GTrendsR](https://github.com/dvanclev/GTrendsR) (Not on CRAN): R
+    functions to perform and display Google Trends queries. Another
+    Github package ( [rGtrends](https://github.com/emhart/rGtrends)) is
+    now deprecated, but supported a previous version of Google Trends
+    and may still be useful for developers.
 
 ### CRAN packages:
 

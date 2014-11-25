@@ -895,6 +895,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 <li>
 <ohat>RGoogleTrends</ohat> provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
 </li>
+<li>
+<a href="https://github.com/dvanclev/GTrendsR">GTrendsR</a> (Not on CRAN): R functions to perform and display Google Trends queries. Another Github package (<a href="https://github.com/emhart/rGtrends">rGtrends</a>) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.
+</li>
 </ul>
 
 
