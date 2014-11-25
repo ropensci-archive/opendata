@@ -655,6 +655,9 @@ The <ohat>Aspell</ohat> package provides an interface to the aspell library for 
 <li>
 <pkg>aRxiv</pkg>: An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics. <a href="https://github.com/ropensci/aRxiv">Source on Github</a>.
 </li>
+<li>
+<a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
+</li>
 </ul>
 
 
