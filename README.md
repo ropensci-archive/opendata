@@ -354,6 +354,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Aslett](http://www.louisaslett.com/RStudio_AMI/). AMIs for
     Bioconductor are [also available from the Bioconductor
     website](http://bioconductor.org/help/bioconductor-cloud-ami/).
+-   [awsConnect](https://github.com/lalas/awsConnect) (not on CRAN):
+    Another package using the AWS Command Line Interface to control EC2
+    and S3. Only available for Linux and Mac OS.
 -   [segue](http://code.google.com/p/segue/): Another package for
     managing EC2 instances and S3 storage, which includes a parallel
     lapply function for the Elastic Map Reduce (EMR) engine called

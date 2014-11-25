@@ -191,6 +191,9 @@ Data Sources on the Web Accessible via R
 <pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3) using system calls to the AWS Command Line Interface. Amazon Machine Images (AMIs) for use with EC2 that are prebuilt with R and RStudio are available from <a href="http://www.louisaslett.com/RStudio_AMI/">Louis Aslett</a>. AMIs for Bioconductor are <a href="http://bioconductor.org/help/bioconductor-cloud-ami/">also available from the Bioconductor website</a>.
 </li>
 <li>
+<a href="https://github.com/lalas/awsConnect">awsConnect</a> (not on CRAN): Another package using the AWS Command Line Interface to control EC2 and S3. Only available for Linux and Mac OS.
+</li>
+<li>
 <gcode>segue</gcode>: Another package for managing EC2 instances and S3 storage, which includes a parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
 </li>
 <li>
