@@ -188,20 +188,26 @@ Data Sources on the Web Accessible via R
 <p><strong> Amazon Web Services</strong></p>
 <ul>
 <li>
-<pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3).
+<pkg>AWS.tools</pkg>: An R package to interact with Amazon Web Services (EC2/S3) using system calls to the AWS Command Line Interface. Amazon Machine Images (AMIs) for use with EC2 that are prebuilt with R and RStudio are available from <a href="http://www.louisaslett.com/RStudio_AMI/">Louis Aslett</a>. AMIs for Bioconductor are <a href="http://bioconductor.org/help/bioconductor-cloud-ami/">also available from the Bioconductor website</a>.
+</li>
+<li>
+<a href="https://github.com/lalas/awsConnect">awsConnect</a> (not on CRAN): Another package using the AWS Command Line Interface to control EC2 and S3. Only available for Linux and Mac OS.
+</li>
+<li>
+<gcode>segue</gcode>: Another package for managing EC2 instances and S3 storage, which includes a parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
 </li>
 <li>
 <ohat>RAmazonS3</ohat> package provides the basic infrastructure within R for communicating with the S3 Amazon storage server.
 This is a commercial server that allows one to store content and retrieve it from any machine connected to the Internet.
 </li>
 <li>
+<a href="https://github.com/robertzk/s3mpi">s3mpi</a> (not on CRAN): Another packages for interacting with Amazon S3.
+</li>
+<li>
 <ohat>RAmazonDBREST</ohat> provides an interface to Amazon's Simple DB API.
 </li>
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R. Development version on GitHub <a href="https://www.github.com/leeper/MTurkR">here</a>.
-</li>
-<li>
-<gcode>segue</gcode>: A parallel lapply function for the Elastic Map Reduce (EMR) engine called <code>emrlapply()</code>. Uses Hadoop Streaming on Amazon's EMR in order to get simple parallel computation.
 </li>
 </ul>
 
@@ -655,6 +661,9 @@ The <ohat>Aspell</ohat> package provides an interface to the aspell library for 
 <li>
 <pkg>aRxiv</pkg>: An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics. <a href="https://github.com/ropensci/aRxiv">Source on Github</a>.
 </li>
+<li>
+<a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
+</li>
 </ul>
 
 
@@ -891,6 +900,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </li>
 <li>
 <ohat>RGoogleTrends</ohat> provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
+</li>
+<li>
+<a href="https://github.com/dvanclev/GTrendsR">GTrendsR</a> (Not on CRAN): R functions to perform and display Google Trends queries. Another Github package (<a href="https://github.com/emhart/rGtrends">rGtrends</a>) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.
 </li>
 </ul>
 
