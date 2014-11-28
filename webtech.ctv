@@ -172,7 +172,7 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
 <p><strong>tochref="lb-agr" name="agr"endhref Agriculture</strong></p>
 
@@ -217,6 +217,13 @@ This is a commercial server that allows one to store content and retrieve it fro
 <ul>
 <li>
 <pkg>rpubchem</pkg>: Interface to the PubChem Collection.
+</li>
+</ul>
+
+<p><strong>tochref="lb-cloudhosting" name="cloudhosting"endhref Cloud hosting</strong></p>
+<ul>
+<li>
+<a href="https://github.com/sckott/analogsea">analogsea</a>: A general purpose R client for the Digital Ocean v2 API. In addition, the package includes functions to install various R tools including base R, RStudio server, and more. There's an improving interface to interact with docker on your remote droplets via this package.
 </li>
 </ul>
 

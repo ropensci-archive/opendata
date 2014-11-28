@@ -333,13 +333,14 @@ Data Sources on the Web Accessible via R
 ----------------------------------------
 
 [Agriculture](#agr) | [Amazon web services](#amazon) |
-[Chemistry](#chemistry) | [Data depots](#depots) | [Earth
-Science](#earthsci) | [Ecology/Evolution](#eeb) |
-[Economics/Business](#econbus) | [E-commerce](#ecommerce) |
-[Finance](#finance) | [Genes/Genomes](#genes) | [Google web
-services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
-| [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
-[Media: Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
+[Chemistry](#chemistry) | [Cloud hosting](#cloudhosting) | [Data
+depots](#depots) | [Earth Science](#earthsci) |
+[Ecology/Evolution](#eeb) | [Economics/Business](#econbus) |
+[E-commerce](#ecommerce) | [Finance](#finance) | [Genes/Genomes](#genes)
+| [Google web services](#google) | [Government](#gov) |
+[Literature/Text-mining](#lit) | [Machine learning](#mls) |
+[Maps](#maps) | [Marketing](#marketing) | [Media:
+Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
 [Other](#other) | [Public Health](#publichealth) | [Social
 media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
@@ -385,6 +386,14 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
     Interface to the PubChem Collection.
+
+### <a href="#cloudhosting" name="cloudhosting">#</a> Cloud hosting
+
+-   [analogsea](https://github.com/sckott/analogsea): A general purpose
+    R client for the Digital Ocean v2 API. In addition, the package
+    includes functions to install various R tools including base R,
+    RStudio server, and more. There's an improving interface to interact
+    with docker on your remote droplets via this package.
 
 ### <a href="#depots" name="depots">#</a> Data Depots
 
