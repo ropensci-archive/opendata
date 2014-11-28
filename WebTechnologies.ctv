@@ -231,6 +231,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 
 <ul>
 <li>
+<a href="https://github.com/ropensci/ckanr">ckanr</a>: A generic R client to interact with the CKAN data portal software API (<a href="http://ckan.org/"></a>). Allows user to swap out the base URL to use any CKAN instance.
+</li>
+<li>
 <pkg>dvn</pkg>: Provides access to The Dataverse Network API.
 </li>
 <li>

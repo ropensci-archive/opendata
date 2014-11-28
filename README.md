@@ -397,6 +397,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#depots" name="depots">#</a> Data Depots
 
+-   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
+    interact with the CKAN data portal software API (
+    [](http://ckan.org/)). Allows user to swap out the base URL to use
+    any CKAN instance.
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
     Provides access to The Dataverse Network API.
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
