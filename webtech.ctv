@@ -823,6 +823,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <li>
 <pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://github.com/DASpringate">David Springate</a>
 </li>
+<li>
+<pkg>rclinicaltrials</pkg>: ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data. <a href="https://github.com/sachsmc/rclinicaltrials">Source on Github</a>
+</li>
 </ul>
 
 <p><strong>tochref="lb-social" name="social"endhref Social media</strong></p>

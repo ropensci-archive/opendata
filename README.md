@@ -1089,6 +1089,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html):
     R tools for integrating with the www.clinicalcodes.org web
     repository, by [David Springate](https://github.com/DASpringate)
+-   [rclinicaltrials](http://cran.r-project.org/web/packages/rclinicaltrials/index.html):
+    ClinicalTrials.gov is a registry and results database of publicly
+    and privately supported clinical studies of human participants
+    conducted around the world. This is an R client for that data.
+    [Source on Github](https://github.com/sachsmc/rclinicaltrials)
 
 ### <a href="#social" name="social">#</a> Social media
 
@@ -1256,6 +1261,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
 -   [rbitcoinchartsapi](http://cran.r-project.org/web/packages/rbitcoinchartsapi/index.html)
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
+-   [rclinicaltrials](http://cran.r-project.org/web/packages/rclinicaltrials/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
