@@ -443,7 +443,7 @@ The <ohat>Zillow</ohat> package provides an R interface to the <a href="http://w
 <pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/RCryptsy/">RCryptsy</a> Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. Development version on GitHub <a href="https://github.com/kylehamilton/RCryptsy">here</a>. The package was archived on 2014-08-07 because it "no longer works with pubapi.cryptsy.com.", according the CRAN overlords.
+<pkg>RCryptsy</pkg> Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. <a href="https://github.com/ropensci/RCryptsy">Source on GitHub</a>.
 </li>
 <li>
 <pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API.
@@ -989,6 +989,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rbitcoinchartsapi</pkg>
   <pkg>rClinicalCodes</pkg>
   <pkg>Rcolombos</pkg>
+  <pkg>RCryptsy</pkg>
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
