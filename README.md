@@ -399,8 +399,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 -   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
     interact with the CKAN data portal software API (
-    [](http://ckan.org/)). Allows user to swap out the base URL to use
-    any CKAN instance.
+    <http://ckan.org/>). Allows user to swap out the base URL to use any
+    CKAN instance.
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
     Provides access to The Dataverse Network API.
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
@@ -424,6 +424,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
     Fetches data from DataMarket.com, either as timeseries in zoo form
     (dmseries) or as long-form data frames (dmlist).
+-   [rerddap](https://github.com/ropensci/rerddap): A generic R client
+    to interact with any ERDDAP instance, which is a special case of
+    OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>), or *Open-source
+    Project for a Network Data Access Protocol* . Allows user to swap
+    out the base URL to use any ERDDAP instance.
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
     An R wrapper for the infochimps.com API services, from [Drew
     Conway](http://drewconway.com/). The CRAN version is archived.
