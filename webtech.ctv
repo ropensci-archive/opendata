@@ -593,10 +593,10 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <pkg>RPublica</pkg>: ProPublica API Client. Development version on GitHub <a href="https://github.com/rOpenGov/RPublica">here</a>.
 </li>
 <li>
-<a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
+<pkg>rsunlight</pkg>: R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv. <a href="https://github.com/ropengov/rsunlight">Source on GitHub</a>.
 </li>
 <li>
-<a href="https://github.com/ropengov/rtimes">rtimes</a>: R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+<a href="https://github.com/ropengov/rtimes">rtimes</a>: (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure. <a href="https://github.com/ropengov/rtimes">Source on GitHub</a>.
 </li>
 <li>
 <pkg>sorvi</pkg>: Various tools for retrieving and working with Finnish open government data. Development version on GitHub <a href="https://github.com/louhos/sorvi/">here</a>.
