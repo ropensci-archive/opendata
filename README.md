@@ -840,11 +840,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Capitol Words, and Influence Explorer APIs. Data outputs are R
     lists. There are also a few convenience functions for visualizing
     data and writing data to .csv.
--   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client
-    for the New York Times APIs, including the Congress, Article Search,
-    Campaign Finance, and Geographic APIs. The focus is on those that
-    deal with political data, but throwing in Article Search and
-    Geographic for good measure.
+-   [rtimes](https://github.com/ropengov/rtimes): R client for the New
+    York Times APIs, including the Congress, Article Search, Campaign
+    Finance, and Geographic APIs. The focus is on those that deal with
+    political data, but throwing in Article Search and Geographic for
+    good measure.
 -   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html):
     Various tools for retrieving and working with Finnish open
     government data. Development version on GitHub
