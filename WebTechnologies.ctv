@@ -9,6 +9,8 @@
 
 If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
+If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to [the package development to do list on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
+
 <h2>
 Tools for Working with the Web from R
 </h2>
@@ -594,7 +596,7 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <a href="https://github.com/ropengov/rsunlight">rsunlight</a> (not on CRAN): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
 </li>
 <li>
-<a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+<a href="https://github.com/ropengov/rtimes">rtimes</a>: R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
 </li>
 <li>
 <pkg>sorvi</pkg>: Various tools for retrieving and working with Finnish open government data. Development version on GitHub <a href="https://github.com/louhos/sorvi/">here</a>.
@@ -1045,8 +1047,8 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>RJSONIO</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
-  <pkg>rnoaa</pkg>
   <pkg>rNOMADS</pkg>
+  <pkg>rnoaa</pkg>
   <pkg>rnrfa</pkg>
   <pkg>ROAuth</pkg>
   <pkg>Rook</pkg>
