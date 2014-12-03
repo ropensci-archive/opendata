@@ -9,6 +9,8 @@
 
 If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
+If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to [the package development to do list on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
+
 <h2>
 Tools for Working with the Web from R
 </h2>

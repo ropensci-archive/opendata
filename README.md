@@ -1,11 +1,12 @@
 CRAN Task View: Web Technologies and Services
 ---------------------------------------------
 
-  ----------------- ----------------------------------------------------------------------------------
-  **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
-  **Contact:**      scott at ropensci.org
-  **Version:**      2014-11-28
-  ----------------- ----------------------------------------------------------------------------------
+  ------------------------------------ ------------------------------------
+  **Maintainer:**                      **Contact:**
+  Scott Chamberlain, Thomas Leeper,    scott at ropensci.org
+  Patrick Mair, Karthik Ram,           
+  Christopher Gandrud                  
+  ------------------------------------ ------------------------------------
 
 This task view contains information about using R to obtain and parse
 data from the web. The base version of R does not ship with many tools
@@ -19,21 +20,24 @@ changes and [submit a pull
 request](https://github.com/ropensci/webservices/pulls). If you can't
 contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
-contact the maintainer of that package.
+contact the maintainer of that package. If you know of a web service,
+API, data source, or other online resource that is not yet supported by
+an R package, consider adding it to [the package development to do list
+on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
 
 Tools for Working with the Web from R
 -------------------------------------
 
 ### Parsing Data from the Web
 
--   *downloading files*: `download.file()` is in base R and commonly
+-   *downloading files* : `download.file()` is in base R and commonly
     used way to download a file. However, downloading files over HTTPS
     is not supported in R's internal method for `download.file()`. The
     `download()` function in the package
     [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
     wraps `download.file()`, and takes all the same arguments, but works
     for https across platforms.
--   *tabular data as txt, csv, etc.*: You can use `read.table()`,
+-   *tabular data as txt, csv, etc.* : You can use `read.table()`,
     `read.csv()`, and friends to read a table directly from a URL, or
     after acquiring the csv file from the web via e.g., `getURL()` from
     RCurl. `read.csv()` works with http but not https, i.e.:
@@ -43,7 +47,7 @@ Tools for Working with the Web from R
     to download over https. `read.table()` and friends also have a
     `text` parameter so you can read a table if a table is encoded as a
     string with line breaks, etc.
--   *JSON I/O*: JSON is *javascript object notation*. There are three
+-   *JSON I/O* : JSON is *javascript object notation* . There are three
     packages for reading and writing JSON:
     [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
     [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
@@ -55,8 +59,8 @@ Tools for Working with the Web from R
     called [yajl](https://lloyd.github.io/yajl/). We recommend using
     [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
     Check out the paper describing jsonlite by Jeroen Ooms
-    [http://arxiv.org/abs/1403.2805](http://arxiv.org/abs/1403.2805).
--   *XML/HTML I/O*: The package
+    <http://arxiv.org/abs/1403.2805>.
+-   *XML/HTML I/O* : The package
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
@@ -289,8 +293,7 @@ Tools for Working with the Web from R
 -   [whisker](http://cran.r-project.org/web/packages/whisker/index.html):
     Implementation of logicless templating based on
     [Mustache](http://mustache.github.io/) in R. Mustache syntax is
-    described in
-    [http://mustache.github.io/mustache.5.html](http://mustache.github.io/mustache.5.html)
+    described in <http://mustache.github.io/mustache.5.html>
 
 ### JavaScript
 
@@ -379,7 +382,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 -   [shopifyr](http://cran.r-project.org/web/packages/shopifyr/index.html):
     An interface to the API of the E-commerce service Shopify
-    [http://docs.shopify.com/api](http://docs.shopify.com/api).
+    <http://docs.shopify.com/api>.
 
 ### <a href="#chemistry" name="chemistry">#</a> Chemistry
 
@@ -597,7 +600,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     ([http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
     provides access to more than 2 million georeferenced specimen
     records from the Berkeley Natural History Museums.
-    [http://bnhm.berkeley.edu/](http://bnhm.berkeley.edu/)
+    <http://bnhm.berkeley.edu/>
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
     programmatic interface to many species occurrence data sources,
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
@@ -607,7 +610,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Functions to wrap each endpoint of the PaleobioDB API, plus
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
-    [http://paleobiodb.org/data1.1/](http://paleobiodb.org/data1.1/).
+    <http://paleobiodb.org/data1.1/>.
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
     interface to the [UK National Biodiversity
     Network](http://www.nbn.org.uk). Development version on GitHub
@@ -802,9 +805,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Download, manipulate, and present data from the US Census American
     Community Survey.
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html):
-    Easy access to [http://daten.berlin.de](http://daten.berlin.de). It
-    allows you to search through the data catalogue and to download the
-    data directly from within R. Development version on GitHub
+    Easy access to <http://daten.berlin.de>. It allows you to search
+    through the data catalogue and to download the data directly from
+    within R. Development version on GitHub
     [here](https://github.com/dirkschumacher/RBerlinData).
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A
     package to access the [StatBank
@@ -944,12 +947,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
 -   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html):
-    R-based client for Machine Learning APIs at
-    [http://indico.io](http://indico.io). Wrappers for Positive/Negative
-    Sentiment Analysis, Political Sentiment Analysis, Image Feature
-    Extraction, Facial Emotion Recognition, Facial Feature Extraction,
-    and Language Detection. [Source on
-    Github](https://github.com/redmode/indicoio)
+    R-based client for Machine Learning APIs at <http://indico.io>.
+    Wrappers for Positive/Negative Sentiment Analysis, Political
+    Sentiment Analysis, Image Feature Extraction, Facial Emotion
+    Recognition, Facial Feature Extraction, and Language Detection.
+    [Source on Github](https://github.com/redmode/indicoio)
 
 ### <a href="#maps" name="maps">#</a> Maps
 
@@ -1129,10 +1131,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     a URL on social media sites.
 -   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html):
     R client for the Tumblr API (
-    [https://www.tumblr.com/docs/en/api/v2](https://www.tumblr.com/docs/en/api/v2)).
-    Tumblr is a microblogging platform and social networking website
-    [https://www.tumblr.com](https://www.tumblr.com). [Source on
-    Github](https://github.com/klapaukh/tumblR)
+    <https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging
+    platform and social networking website <https://www.tumblr.com>.
+    [Source on Github](https://github.com/klapaukh/tumblR)
 
 ### <a href="#sports" name="sports">#</a> Sports
 
@@ -1304,8 +1305,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
--   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
