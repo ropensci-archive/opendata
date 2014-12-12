@@ -360,14 +360,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#amazon" name="amazon">#</a> Amazon Web Services
 
--   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
-    An R package to interact with Amazon Web Services (EC2/S3) using
-    system calls to the AWS Command Line Interface. Amazon Machine
-    Images (AMIs) for use with EC2 that are prebuilt with R and RStudio
-    are available from [Louis
-    Aslett](http://www.louisaslett.com/RStudio_AMI/). AMIs for
-    Bioconductor are [also available from the Bioconductor
-    website](http://bioconductor.org/help/bioconductor-cloud-ami/).
 -   [awsConnect](https://github.com/lalas/awsConnect) (not on CRAN):
     Another package using the AWS Command Line Interface to control EC2
     and S3. Only available for Linux and Mac OS.
@@ -428,10 +420,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
     Lets you deploy, maintain, and invoke models via the
     [Yhat](https://www.yhathq.com/) REST API.
--   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html):
-    Provided with a Socrata dataset resource URL, or a Socrata SoDA web
-    API query, returns an R data frame. Converts dates to POSIX format.
-    Supports CSV and JSON. Manages throttling by Socrata.
+-   [RSocrata](http://cran.r-project.org/src/contrib/Archive/RSocrata/):
+    (temporarily archived on CRAN for email bounce) Provided with a
+    Socrata dataset resource URL, or a Socrata SoDA web API query,
+    returns an R data frame. Converts dates to POSIX format. Supports
+    CSV and JSON. Manages throttling by Socrata.
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
     A package that interacts directly with the
     [Quandl](http://www.quandl.com/) API to offer data in a number of
@@ -1085,8 +1078,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     interface.
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html):
     This package provides an R wrapper for the Zendesk API.
--   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html):
-    An R package to interact with Amazon Web Services (EC2/S3).
+-   [AWS.tools](http://cran.r-project.org/src/contrib/Archive/AWS.tools/):
+    An R package to interact with Amazon Web Services (EC2/S3). The CRAN
+    version is archived. [Development version is available on
+    GitHub](https://github.com/armstrtw/AWS.tools)
 -   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN):
     Provides functions to interact with the
     [Qualtrics](http://www.qualtrics.com/) online survey tool.
@@ -1220,7 +1215,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
--   [AWS.tools](http://cran.r-project.org/web/packages/AWS.tools/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
 -   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
@@ -1350,7 +1344,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
--   [RSocrata](http://cran.r-project.org/web/packages/RSocrata/index.html)
 -   [rsunlight](http://cran.r-project.org/web/packages/rsunlight/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
