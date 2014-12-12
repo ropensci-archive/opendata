@@ -702,7 +702,7 @@ The <ohat>Aspell</ohat> package provides an interface to the aspell library for 
 
 <ul>
 <li>
-<pkg>bigml</pkg>: BigML, a machine learning web service.
+<a href="http://cran.r-project.org/src/contrib/Archive/bigml/">bigml</a>: (archived on CRAN for email bounce) BigML, a machine learning web service.
 </li>
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
