@@ -174,7 +174,7 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
 
 <p><strong> Agriculture</strong></p>
 
@@ -209,6 +209,16 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R. Development version on GitHub <a href="https://www.github.com/leeper/MTurkR">here</a>.
 </li>
 </ul>
+
+
+<p><strong> Astronomy</strong></p>
+
+<ul>
+<li>
+<pkg>RStars</pkg>: Star-API provides API access to the American Museum of Natural History's Digital Universe Data, including positions, luminosity, color, and other data on over 100,000 stars as well as constellations, exo-planets, clusters and others. <a href="https://github.com/ropensci/RStars">Source on Github</a>.
+</li>
+</ul>
+
 
 <p><strong> E-commerce</strong></p>
 <ul>
@@ -270,6 +280,15 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.
+</li>
+</ul>
+
+
+<p><strong> Data Science Tools</strong></p>
+
+<ul>
+<li>
+<pkg>RDataCanvas</pkg>: Write a module for <a href="http://datacanvas.io">datacanvas.io</a>, a big data analytics platform. <a href="https://github.com/DataCanvasIO/RDataCanvas">Source on Github</a>.
 </li>
 </ul>
 
@@ -1017,6 +1036,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rclinicaltrials</pkg>
   <pkg>Rcolombos</pkg>
   <pkg>RCryptsy</pkg>
+  <pkg>RDataCanvas</pkg>
   <pkg>rdatamarket</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
@@ -1058,6 +1078,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>RSelenium</pkg>
   <pkg>RSiteCatalyst</pkg>
   <pkg>rsnps</pkg>
+  <pkg>RStars</pkg>
   <pkg>rsunlight</pkg>
   <pkg>rvertnet</pkg>
   <pkg>rWBclimate</pkg>

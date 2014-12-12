@@ -335,15 +335,15 @@ Tools for Working with the Web from R
 Data Sources on the Web Accessible via R
 ----------------------------------------
 
-[Agriculture](#agr) | [Amazon web services](#amazon) |
-[Chemistry](#chemistry) | [Cloud hosting](#cloudhosting) | [Data
-depots](#depots) | [Earth Science](#earthsci) |
-[Ecology/Evolution](#eeb) | [Economics/Business](#econbus) |
-[E-commerce](#ecommerce) | [Finance](#finance) | [Genes/Genomes](#genes)
-| [Google web services](#google) | [Government](#gov) |
-[Literature/Text-mining](#lit) | [Machine learning](#mls) |
-[Maps](#maps) | [Marketing](#marketing) | [Media:
-Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
+[Agriculture](#agr) | [Amazon web services](#amazon) | [Astronomy](#ast)
+| [Chemistry](#chemistry) | [Cloud hosting](#cloudhosting) | [Data
+depots](#depots) | [Data science tools](#datascience) | [Earth
+Science](#earthsci) | [Ecology/Evolution](#eeb) |
+[Economics/Business](#econbus) | [E-commerce](#ecommerce) |
+[Finance](#finance) | [Genes/Genomes](#genes) | [Google web
+services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
+| [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
+[Media: Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
 [Other](#other) | [Public Health](#publichealth) | [Social
 media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
@@ -382,6 +382,15 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R. Development
     version on GitHub [here](https://www.github.com/leeper/MTurkR).
+
+### <a href="#ast" name="ast">#</a> Astronomy
+
+-   [RStars](http://cran.r-project.org/web/packages/RStars/index.html):
+    Star-API provides API access to the American Museum of Natural
+    History's Digital Universe Data, including positions, luminosity,
+    color, and other data on over 100,000 stars as well as
+    constellations, exo-planets, clusters and others. [Source on
+    Github](https://github.com/ropensci/RStars).
 
 ### <a href="#ecommerce" name="ecommerce">#</a> E-commerce
 
@@ -448,6 +457,13 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     conversion capabilities in the jSonar Analytics Platform and the
     [JSON Studio Gateway](http://www.jsonstudio.com), to convert JSON to
     a tabular format.
+
+### <a href="#datascience" name="datascience">#</a> Data Science Tools
+
+-   [RDataCanvas](http://cran.r-project.org/web/packages/RDataCanvas/index.html):
+    Write a module for [datacanvas.io](http://datacanvas.io), a big data
+    analytics platform. [Source on
+    Github](https://github.com/DataCanvasIO/RDataCanvas).
 
 ### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
@@ -1303,6 +1319,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
     (core)
+-   [RDataCanvas](http://cran.r-project.org/web/packages/RDataCanvas/index.html)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html)
@@ -1344,6 +1361,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
+-   [RStars](http://cran.r-project.org/web/packages/RStars/index.html)
 -   [rsunlight](http://cran.r-project.org/web/packages/rsunlight/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
