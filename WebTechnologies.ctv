@@ -544,7 +544,7 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <pkg>translateR</pkg> provides bindings for both Google and Microsoft translation APIs.
 </li>
 <li>
-<pkg>googlePublicData</pkg>: An R library to build Google's public data explorer DSPL metadata files.
+<a href="http://cran.r-project.org/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 </li>
 <li>
 <pkg>googleVis</pkg>: Interface between R and the Google chart tools.
@@ -702,7 +702,7 @@ The <ohat>Aspell</ohat> package provides an interface to the aspell library for 
 
 <ul>
 <li>
-<pkg>bigml</pkg>: BigML, a machine learning web service.
+<a href="http://cran.r-project.org/src/contrib/Archive/bigml/">bigml</a>: (archived on CRAN for email bounce) BigML, a machine learning web service.
 </li>
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
@@ -955,7 +955,6 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>anametrix</pkg>
   <pkg>aRxiv</pkg>
   <pkg>BerlinData</pkg>
-  <pkg>bigml</pkg>
   <pkg>boilerpipeR</pkg>
   <pkg>cgdsr</pkg>
   <pkg>CHCN</pkg>
@@ -983,7 +982,6 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>ggvis</pkg>
   <pkg>GhcnDaily</pkg>
   <pkg>gmailr</pkg>
-  <pkg>googlePublicData</pkg>
   <pkg>googleVis</pkg>
   <pkg>gooJSON</pkg>
   <pkg>govStatJPN</pkg>

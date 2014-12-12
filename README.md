@@ -782,9 +782,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Bindings for the Google Translate API v2
 -   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
     provides bindings for both Google and Microsoft translation APIs.
--   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html):
-    An R library to build Google's public data explorer DSPL metadata
-    files.
+-   [googlePublicData](http://cran.r-project.org/src/contrib/Archive/googlePublicData/):
+    (archived on CRAN for email bounce) An R library to build Google's
+    public data explorer DSPL metadata files.
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html):
     Interface between R and the Google chart tools.
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html):
@@ -972,8 +972,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
--   [bigml](http://cran.r-project.org/web/packages/bigml/index.html):
-    BigML, a machine learning web service.
+-   [bigml](http://cran.r-project.org/src/contrib/Archive/bigml/):
+    (archived on CRAN for email bounce) BigML, a machine learning web
+    service.
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
 -   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html):
@@ -1232,7 +1233,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
--   [bigml](http://cran.r-project.org/web/packages/bigml/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
@@ -1260,7 +1260,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
 -   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
--   [googlePublicData](http://cran.r-project.org/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
