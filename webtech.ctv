@@ -544,7 +544,7 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <pkg>translateR</pkg> provides bindings for both Google and Microsoft translation APIs.
 </li>
 <li>
-<pkg>googlePublicData</pkg>: An R library to build Google's public data explorer DSPL metadata files.
+<a href="http://cran.r-project.org/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 </li>
 <li>
 <pkg>googleVis</pkg>: Interface between R and the Google chart tools.
