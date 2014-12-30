@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-12-11
+  **Version:**      2014-12-30
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -618,11 +618,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Before using rPlant, users will have to register with the [iPlant
     Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
-    ecoengine
-    ([http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/))
-    provides access to more than 2 million georeferenced specimen
-    records from the Berkeley Natural History Museums.
-    <http://bnhm.berkeley.edu/>
+    ecoengine ( <http://ecoengine.berkeley.edu/>) provides access to
+    more than 2 million georeferenced specimen records from the Berkeley
+    Natural History Museums. <http://bnhm.berkeley.edu/>
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
     programmatic interface to many species occurrence data sources,
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics

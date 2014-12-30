@@ -3,13 +3,13 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2014-12-11</version>
+<version>2014-12-30</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
 If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/webservices/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/webservices/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
-If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to [the package development to do list on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
+If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/webservices/wiki/ToDo">the package development to do list on GitHub</a>.
 
 <h2>
 Tools for Working with the Web from R
@@ -126,7 +126,7 @@ The <ohat>WADL</ohat> package provides tools to process Web Application Descript
 The <ohat>RDCOMServer</ohat> provides a mechanism to export R objects as (D)COM objects in Windows. It can be used along with the <ohat>RDCOMClient</ohat> package which provides user-level access from R to other COM servers. (not on CRAN)
 </li>
 <li>
-The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https://github.com/ropensci/RSelenium/">here</a>) provides a set of R bindings for the Selenium 2.0 webdriver using the [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol). Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as [shiny](http://cran.r-project.org/web/packages/shiny/index.html) and [sauceLabs](http://saucelabs.com).
+The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https://github.com/ropensci/RSelenium/">here</a>) provides a set of R bindings for the Selenium 2.0 webdriver using the <a href="http://code.google.com/p/selenium/wiki/JsonWireProtocol">JsonWireProtocol</a>. Selenium automates browsers. Using RSelenium you can automate browsers locally or remotely. This can aid in automated application testing, load testing and web scraping. Examples are given interacting with popular projects such as <a href="http://cran.r-project.org/web/packages/shiny/index.html">shiny</a> and <a href="http://saucelabs.com">sauceLabs</a>.
 </li>
 <li>
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
@@ -414,7 +414,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a>
 </li>
 <li>
-<pkg>ecoengine</pkg>: ecoengine ([http://ecoengine.berkeley.edu/](http://ecoengine.berkeley.edu/)) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
+<pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
 </li>
 <li>
 <pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available.
