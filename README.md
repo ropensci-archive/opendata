@@ -100,6 +100,9 @@ Tools for Working with the Web from R
     `application/x-www-form-urlencoded` as well as
     `multipart/form-data`. [Source on
     Github](https://github.com/jeroenooms/webutils)
+-   [urltools](http://cran.r-project.org/web/packages/urltools/index.html):
+    URL encoding, decoding, parsing, and parameter extraction. [Source
+    on Github](https://github.com/Ironholds/urltools)
 -   The
     [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
     package contains a `source_data()` command to load and cache
@@ -571,6 +574,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#eeb" name="eeb">#</a> Ecological and Evolutionary Biology
 
+-   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on
+    CRAN): Programmatic R interface to the [Atlas of Living
+    Australia](http://www.ala.org.au/).
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html):
     A wrapper to the VertNet collections database API.
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html):
@@ -1131,6 +1137,11 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html):
     Provides access to Wikipedia page access statistics. [Source on
     Github](https://github.com/petermeissner/wikipediatrend)
+-   [discgolf](https://github.com/sckott/discgolf) (not on CRAN):
+    Provides R client to interact with the API for the
+    [Discourse](http://www.discourse.org/) web forum platform. The API
+    is for an installed instance of Discourse, not for the Discourse
+    site itself.
 
 ### <a href="#publichealth" name="publichealth">#</a> Public Health
 
@@ -1389,6 +1400,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [urltools](http://cran.r-project.org/web/packages/urltools/index.html)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
 -   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)

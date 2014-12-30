@@ -39,6 +39,9 @@ The <a href="https://github.com/jayjacobs/tldextract">tldextract</a> package ext
 <pkg>webutils</pkg>: Utility functions for developing web applications. Parsers for <code>application/x-www-form-urlencoded</code> as well as <code>multipart/form-data</code>. <a href="https://github.com/jeroenooms/webutils">Source on Github</a>
 </li>
 <li>
+<pkg>urltools</pkg>: URL encoding, decoding, parsing, and parameter extraction. <a href="https://github.com/Ironholds/urltools">Source on Github</a>
+</li>
+<li>
 The <pkg>repmis</pkg> package contains a <code>source_data()</code> command to load and cache plain-text data from a URL (either http or https). It also includes <code>source_Dropbox()</code> for downloading/caching plain-text data from non-public Dropbox folders and <code>source_XlsxData()</code> for downloading/caching Excel xlsx sheets.
 </li>
 <li>
@@ -365,6 +368,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <p><strong>tochref="lb-eeb" name="eeb"endhref Ecological and Evolutionary Biology</strong></p>
 
 <ul>
+<li>
+<a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>.
+</li>
 <li>
 <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API.
 </li>
@@ -853,6 +859,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 <li>
 <pkg>wikipediatrend</pkg>: Provides access to Wikipedia page access statistics. <a href="https://github.com/petermeissner/wikipediatrend">Source on Github</a>
+</li>
+<li>
+<a href="https://github.com/sckott/discgolf">discgolf</a> (not on CRAN): Provides R client to interact with the API for the <a href="http://www.discourse.org/">Discourse</a> web forum platform. The API is for an installed instance of Discourse, not for the Discourse site itself.
 </li>
 </ul>
 
