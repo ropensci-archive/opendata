@@ -668,6 +668,12 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
+-   [blsAPI](http://cran.r-project.org/web/packages/blsAPI/index.html):
+    Get data from the U.S. Bureau of Labor Statistics API. Users provide
+    parameters as specified in
+    <http://www.bls.gov/developers/api_signature.htm> and the function
+    returns a JSON string. [Source on
+    Github](https://github.com/mikeasilva/blsAPI)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
     Search, extract and format data from the World Bank's World
     Development Indicators.
@@ -1242,6 +1248,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
+-   [blsAPI](http://cran.r-project.org/web/packages/blsAPI/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)

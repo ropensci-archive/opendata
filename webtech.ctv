@@ -449,6 +449,9 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 
 <ul>
 <li>
+<pkg>blsAPI</pkg>: Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. <a href="https://github.com/mikeasilva/blsAPI">Source on Github</a>
+</li>
+<li>
 <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
 </li>
 <li>
