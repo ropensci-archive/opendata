@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2014-12-31</version>
+<version>2015-01-08</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -172,6 +172,15 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 <pkg>d3Network</pkg>: Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.
 </li>
 </ul>
+
+
+<p><strong>Code sharing</strong></p>
+<ul>
+<li>
+<pkg>gistr</pkg>: Work with GitHub gists (<a href="https://gist.github.com/">gist.github.com</a>) from R. <pkg>gistr</pkg> allows you to create new gists, update gists with new files, rename files, delete files, get and delete gists, star and un-star gists, fork gists, open a gist in your default browser, get embed code for a gist, list gist commits, and get rate limit information when authenticated. <a href="https://github.com/ropensci/gistr">Source on Github</a>
+</li>
+</ul>
+
 
 <h2>
 Data Sources on the Web Accessible via R
@@ -397,6 +406,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>rebird</pkg>: A programmatic interface to the eBird database.
+</li>
+<li>
+<a href="https://github.com/ropensci/rdopa">rdopa</a> (not on CRAN): Access data from the <a href="http://dopa.jrc.ec.europa.eu/">Digital Observatory for Protected Areas</a> (DOPA) REST API. <a href="https://github.com/ropensci/rdopa">Source on Github</a>
 </li>
 <li>
 <pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages.
@@ -997,6 +1009,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>ggmap</pkg>
   <pkg>ggvis</pkg>
   <pkg>GhcnDaily</pkg>
+  <pkg>gistr</pkg>
   <pkg>gmailr</pkg>
   <pkg>googleVis</pkg>
   <pkg>gooJSON</pkg>

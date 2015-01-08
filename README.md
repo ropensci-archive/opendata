@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2014-12-31
+  **Version:**      2015-01-08
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -335,6 +335,18 @@ Tools for Working with the Web from R
     Tools for creating D3 JavaScript network, tree, dendrogram, and
     Sankey graphs from R.
 
+### Code sharing
+
+-   [gistr](http://cran.r-project.org/web/packages/gistr/index.html):
+    Work with GitHub gists (
+    [gist.github.com](https://gist.github.com/)) from R.
+    [gistr](http://cran.r-project.org/web/packages/gistr/index.html)
+    allows you to create new gists, update gists with new files, rename
+    files, delete files, get and delete gists, star and un-star gists,
+    fork gists, open a gist in your default browser, get embed code for
+    a gist, list gist commits, and get rate limit information when
+    authenticated. [Source on Github](https://github.com/ropensci/gistr)
+
 Data Sources on the Web Accessible via R
 ----------------------------------------
 
@@ -610,6 +622,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     organisms.
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html):
     A programmatic interface to the eBird database.
+-   [rdopa](https://github.com/ropensci/rdopa) (not on CRAN): Access
+    data from the [Digital Observatory for Protected
+    Areas](http://dopa.jrc.ec.europa.eu/) (DOPA) REST API. [Source on
+    Github](https://github.com/ropensci/rdopa)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html): An R
     interface to the Encyclopedia of Life (EOL) API. Includes functions
     for downloading and extracting information off the EOL pages.
@@ -1276,6 +1292,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
+-   [gistr](http://cran.r-project.org/web/packages/gistr/index.html)
 -   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
