@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-01-08</version>
+<version>2015-01-14</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -27,7 +27,7 @@ Tools for Working with the Web from R
 <em>JSON I/O</em>: JSON is <em>javascript object notation</em>. There are three packages for reading and writing JSON: <pkg>rjson</pkg>, <pkg>RJSONIO</pkg>, and <pkg>jsonlite</pkg>. <pkg>jsonlite</pkg> includes a different parser from <pkg>RJSONIO</pkg> called <a href="https://lloyd.github.io/yajl/">yajl</a>. We recommend using <pkg>jsonlite</pkg>. Check out the paper describing jsonlite by Jeroen Ooms <a href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>.
 </li>
 <li>
-<em>XML/HTML I/O</em>: The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. The <pkg>XML2R</pkg> package is a collection of convenient functions for coercing XML into data frames (development version <a href="https://github.com/cpsievert/XML2R">on GitHub</a>). An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements. <ohat>RHTMLForms</ohat> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields. <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents.
+<em>XML/HTML I/O</em>: The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. The <pkg>XML2R</pkg> package is a collection of convenient functions for coercing XML into data frames (development version <a href="https://github.com/cpsievert/XML2R">on GitHub</a>). An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements. <ohat>RHTMLForms</ohat> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields. <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents. <pkg>htmltab</pkg> extracts structured information from HTML tables, similar to <code>XML::readHTMLTable</code> of the <pkg>XML</pkg> package, but  automatically expands row and column spans in the header and body cells, and users are given more control over the identification of header and body rows which will end up in the R table.
 </li>
 <li>
 <a href="https://github.com/hadley/rvest">rvest</a>: rvest scrapes html from web pages, and is designed to work with <pkg>magrittr</pkg> to make it easy to express common web scraping tasks.
@@ -533,6 +533,9 @@ The <ohat>Zillow</ohat> package provides an R interface to the <a href="http://w
 <pkg>cgdsr</pkg>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS).
 </li>
 <li>
+<pkg>chromer</pkg>: A programmatic interface to the <a href="http://ccdb.tau.ac.il/">Chromosome Counts Database</a>. <a href="https://github.com/ropensci/chromer">Source on Github</a>
+</li>
+<li>
 The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package is an R client for accessing <a href="http://mygene.info/#">Mygene.info</a> annotation and query services.
 </li>
 <li>
@@ -888,6 +891,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 
 <ul>
 <li>
+<a href="https://github.com/hrbrmstr/cdcfluview">cdcfluview</a>: (not on CRAN) R client for CDC FluView data (WHO and ILINet).
+</li>
+<li>
 <pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://github.com/DASpringate">David Springate</a>
 </li>
 <li>
@@ -906,6 +912,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 </li>
 <li>
 The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo management and sharing application Web service. (not on CRAN)
+</li>
+<li>
+<a href="https://github.com/mpiccirilli/Rlinkedin">Rlinkedin</a> (not on CRAN): R client for the LinkedIn API. Auth is via OAuth.
 </li>
 <li>
 <a href="https://github.com/joyofdata/RTwitterAPI">RTwitterAPI</a> (not on CRAN): Yet another Twitter R client.

@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-01-08
+  **Version:**      2015-01-14
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -87,6 +87,14 @@ Tools for Working with the Web from R
     [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
+    [htmltab](http://cran.r-project.org/web/packages/htmltab/index.html)
+    extracts structured information from HTML tables, similar to
+    `XML::readHTMLTable` of the
+    [XML](http://cran.r-project.org/web/packages/XML/index.html)
+    package, but automatically expands row and column spans in the
+    header and body cells, and users are given more control over the
+    identification of header and body rows which will end up in the R
+    table.
 -   [rvest](https://github.com/hadley/rvest): rvest scrapes html from
     web pages, and is designed to work with
     [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
@@ -774,6 +782,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
     R-Based API for accessing the MSKCC Cancer Genomics Data Server
     (CGDS).
+-   [chromer](http://cran.r-project.org/web/packages/chromer/index.html):
+    A programmatic interface to the [Chromosome Counts
+    Database](http://ccdb.tau.ac.il/). [Source on
+    Github](https://github.com/ropensci/chromer)
 -   The [mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
     package is an R client for accessing
     [Mygene.info](http://mygene.info/#) annotation and query services.
@@ -1168,6 +1180,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#publichealth" name="publichealth">#</a> Public Health
 
+-   [cdcfluview](https://github.com/hrbrmstr/cdcfluview): (not on CRAN)
+    R client for CDC FluView data (WHO and ILINet).
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html):
     R tools for integrating with the www.clinicalcodes.org web
     repository, by [David Springate](https://github.com/DASpringate)
@@ -1189,6 +1203,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     class="Ohat">Rflickr</span>](http://www.Omegahat.org/Rflickr/)
     package provides an R interface to the Flickr photo management and
     sharing application Web service. (not on CRAN)
+-   [Rlinkedin](https://github.com/mpiccirilli/Rlinkedin) (not on CRAN):
+    R client for the LinkedIn API. Auth is via OAuth.
 -   [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on
     CRAN): Yet another Twitter R client.
 -   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
@@ -1269,6 +1285,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
+-   [chromer](http://cran.r-project.org/web/packages/chromer/index.html)
 -   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [curl](http://cran.r-project.org/web/packages/curl/index.html)
@@ -1299,6 +1316,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
+-   [htmltab](http://cran.r-project.org/web/packages/htmltab/index.html)
 -   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html)
 -   [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
