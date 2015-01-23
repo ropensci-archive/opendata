@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-01-14
+  **Version:**      2015-01-23
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -807,8 +807,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
--   [bigrquery](https://github.com/hadley/bigrquery) (not on CRAN): An
-    interface to Google's bigquery from R.
+-   [bigrquery](http://cran.r-project.org/web/packages/bigrquery/index.html):
+    An interface to Google's bigquery from R. [Source on
+    Github](https://github.com/hadley/bigrquery)
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN):
     An R interface to Google Fusion Tables. Google Fusion Tables is a
     data mangement system in the cloud. This package provides R
@@ -1225,7 +1226,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 ### <a href="#sports" name="sports">#</a> Sports
 
 -   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN):
-    Tools for Collecting Data from nba.com and wnba.com
+    Tools for Collecting Data from [nba.com](http://www.nba.com/) and
+    [wnba.com](http://www.wnba.com/).
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html):
     Association Football (Soccer) Ranking via Poisson Regression - uses
     time dependent Poisson regression and a record of goals scored in
@@ -1236,6 +1238,8 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
+-   [fitbitScraper](https://github.com/corynissen/fitbitScraper) (not on
+    CRAN): Get Fitbit data. Authentication with email/password.
 
 ### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
 
@@ -1281,6 +1285,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
+-   [bigrquery](http://cran.r-project.org/web/packages/bigrquery/index.html)
 -   [blsAPI](http://cran.r-project.org/web/packages/blsAPI/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)

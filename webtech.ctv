@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-01-14</version>
+<version>2015-01-23</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -557,7 +557,7 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 
 <ul>
 <li>
-<a href="https://github.com/hadley/bigrquery">bigrquery</a> (not on CRAN): An interface to Google's bigquery from R.
+<pkg>bigrquery</pkg>: An interface to Google's bigquery from R. <a href="https://github.com/hadley/bigrquery">Source on Github</a>
 </li>
 <li>
 <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables
@@ -939,7 +939,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 
 <ul>
 <li>
-<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN): Tools for Collecting Data from nba.com and wnba.com
+<a href="https://github.com/cpsievert/bbscrapeR">bbscrapeR</a> (not on CRAN): Tools for Collecting Data from <a href="http://www.nba.com/">nba.com</a> and <a href="http://www.wnba.com/">wnba.com</a>.
 </li>
 <li>
 <pkg>fbRanks</pkg>: Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
@@ -949,6 +949,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </li>
 <li>
 <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
+</li>
+<li>
+<a href="https://github.com/corynissen/fitbitScraper">fitbitScraper</a> (not on CRAN): Get Fitbit data. Authentication with email/password.
 </li>
 </ul>
 
