@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-01-23</version>
+<version>2015-01-30</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -186,7 +186,7 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#socialsci">Social science</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> | <a href="#wikipedia">Wikipedia</a> |
 
 <p><strong> Agriculture</strong></p>
 
@@ -326,6 +326,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>GhcnDaily</pkg>: A package that downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
+</li>
+<li>
+<pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. <a href="https://github.com/cvitolo/r_hddtools">Source on Github</a>
 </li>
 <li>
 <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
@@ -530,6 +533,9 @@ The <ohat>Zillow</ohat> package provides an R interface to the <a href="http://w
 
 <ul>
 <li>
+<a href="https://github.com/balcomes/aggRmesh">aggRmesh</a>: R client for the <a href="http://portal.ncibi.org/gateway/">National Center for Integrative Biomedical Informatics (NCIBI)</a> data.
+</li>
+<li>
 <pkg>cgdsr</pkg>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS).
 </li>
 <li>
@@ -719,9 +725,6 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 <li>
 <pkg>tm.plugin.webmining</pkg>: Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.
 </li>
-<li>
-<pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on Github</a>
-</li>
 </ul>
 
 
@@ -736,6 +739,9 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 </li>
 <li>
 <pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
+</li>
+<li>
+<pkg>rLTP</pkg>: An R package to access the <a href="http://www.ltp-cloud.com/">ltp-cloud service</a>. <a href="https://github.com/hetong007/rLTP">Source on Github</a>
 </li>
 </ul>
 
@@ -879,9 +885,6 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.
 </li>
 <li>
-<pkg>wikipediatrend</pkg>: Provides access to Wikipedia page access statistics. <a href="https://github.com/petermeissner/wikipediatrend">Source on Github</a>
-</li>
-<li>
 <pkg>zendeskR</pkg>: This package provides an R wrapper for the Zendesk API.
 </li>
 </ul>
@@ -934,6 +937,15 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </ul>
 
 
+<p><strong> Social science</strong></p>
+
+<ul>
+<li>
+<pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the <a href="http://thegradcafe.com">Grad Cafe website</a>.
+</li>
+</ul>
+
+
 
 <p><strong> Sports</strong></p>
 
@@ -981,6 +993,20 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 
 
 
+<p><strong> Wikipedia</strong></p>
+
+<ul>
+<li>
+<pkg>wikipediatrend</pkg>: Provides access to Wikipedia page access statistics. <a href="https://github.com/petermeissner/wikipediatrend">Source on Github</a>
+</li>
+<li>
+<pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on Github</a>
+</li>
+<li>
+<a href="https://github.com/chgrl/rwikidata">rwikidata</a>: Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase.
+</li>
+</ul>
+
 </info>
 
 <packagelist>
@@ -997,6 +1023,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>bigrquery</pkg>
   <pkg>blsAPI</pkg>
   <pkg>boilerpipeR</pkg>
+  <pkg>brewdata</pkg>
   <pkg>cgdsr</pkg>
   <pkg>CHCN</pkg>
   <pkg>chromer</pkg>
@@ -1029,6 +1056,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>gooJSON</pkg>
   <pkg>govStatJPN</pkg>
   <pkg>GuardianR</pkg>
+  <pkg>hddtools</pkg>
   <pkg>hoardeR</pkg>
   <pkg>htmltab</pkg>
   <pkg>httpRequest</pkg>
@@ -1103,6 +1131,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>RJSDMX</pkg>
   <pkg>rjson</pkg>
   <pkg>RJSONIO</pkg>
+  <pkg>rLTP</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
   <pkg>rnoaa</pkg>

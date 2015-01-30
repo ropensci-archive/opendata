@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-01-23
+  **Version:**      2015-01-30
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -368,7 +368,8 @@ services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
 | [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
 [Media: Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
 [Other](#other) | [Public Health](#publichealth) | [Social
-media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
+media](#social) | [Social science](#socialsci) | [Sports](#sports) |
+[Web analytics](#webanalytics) | [Wikipedia](#wikipedia) |
 
 ### <a href="#agr" name="agr">#</a> Agriculture
 
@@ -518,6 +519,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     A package that downloads and processes Global Historical Climatology
     Network (GHCN) daily data from the National Climatic Data Center
     (NCDC).
+-   [hddtools](http://cran.r-project.org/web/packages/hddtools/index.html):
+    Hydrological data discovery tools - accesses data from NASA, Global
+    Runoff Data Centre, Top-Down modelling Working Group. [Source on
+    Github](https://github.com/cvitolo/r_hddtools)
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html):
     Import, plot and analyze bathymetric and topographic data from NOAA.
 -   [Metadata](http://cran.r-project.org/src/contrib/Archive/Metadata/):
@@ -779,6 +784,9 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 
 ### <a href="#genes" name="genes">#</a> Genes and Genomes
 
+-   [aggRmesh](https://github.com/balcomes/aggRmesh): R client for the
+    [National Center for Integrative Biomedical Informatics
+    (NCIBI)](http://portal.ncibi.org/gateway/) data.
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html):
     R-Based API for accessing the MSKCC Cancer Genomics Data Server
     (CGDS).
@@ -1005,10 +1013,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     implemented: Google Blog Search, Google Finance, Google News,
     NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo
     Inplay.
--   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html):
-    WikipediR is a wrapper for the MediaWiki API, aimed particularly at
-    the Wikimedia 'production' wikis, such as Wikipedia. [Source on
-    Github](https://github.com/Ironholds/WikipediR)
 
 ### <a href="#mls" name="mls">#</a> Machine Learning as a Service
 
@@ -1023,6 +1027,10 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     [Source on Github](https://github.com/redmode/indicoio)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
     Access to Amazon Mechanical Turk Requester API via R.
+-   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html): An R
+    package to access the [ltp-cloud
+    service](http://www.ltp-cloud.com/). [Source on
+    Github](https://github.com/hetong007/rLTP)
 
 ### <a href="#maps" name="maps">#</a> Maps
 
@@ -1173,9 +1181,6 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Github](https://github.com/hrbrmstr/slackr)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): R
     client for the OGC Sensor Observation Service.
--   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html):
-    Provides access to Wikipedia page access statistics. [Source on
-    Github](https://github.com/petermeissner/wikipediatrend)
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html):
     This package provides an R wrapper for the Zendesk API.
 
@@ -1222,6 +1227,12 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     [Source on Github](https://github.com/klapaukh/tumblR)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html):
     Provides an interface to the Twitter web API.
+
+### <a href="#socialsci" name="socialsci">#</a> Social science
+
+-   [brewdata](http://cran.r-project.org/web/packages/brewdata/index.html)
+    Retrieves and parses graduate admissions survey data from the [Grad
+    Cafe website](http://thegradcafe.com).
 
 ### <a href="#sports" name="sports">#</a> Sports
 
@@ -1276,6 +1287,20 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
     Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
     Reporting API.
 
+### <a href="#wikipedia" name="wikipedia">#</a> Wikipedia
+
+-   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html):
+    Provides access to Wikipedia page access statistics. [Source on
+    Github](https://github.com/petermeissner/wikipediatrend)
+-   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html):
+    WikipediR is a wrapper for the MediaWiki API, aimed particularly at
+    the Wikimedia 'production' wikis, such as Wikipedia. [Source on
+    Github](https://github.com/Ironholds/WikipediR)
+-   [rwikidata](https://github.com/chgrl/rwikidata): Request data from
+    (and some day probably edit data in)
+    [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page),
+    the free knowledgebase.
+
 
 
 ### CRAN packages:
@@ -1288,6 +1313,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [bigrquery](http://cran.r-project.org/web/packages/bigrquery/index.html)
 -   [blsAPI](http://cran.r-project.org/web/packages/blsAPI/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
+-   [brewdata](http://cran.r-project.org/web/packages/brewdata/index.html)
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [chromer](http://cran.r-project.org/web/packages/chromer/index.html)
@@ -1320,6 +1346,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
+-   [hddtools](http://cran.r-project.org/web/packages/hddtools/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
 -   [htmltab](http://cran.r-project.org/web/packages/htmltab/index.html)
 -   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html)
@@ -1400,6 +1427,7 @@ media](#social) | [Sports](#sports) | [Web analytics](#webanalytics) |
 -   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html)
 -   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
 -   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
+-   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
