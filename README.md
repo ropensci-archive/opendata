@@ -1114,6 +1114,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
     Information retrieval from NCBI databases, with main focus on Blast.
+-   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html):
+    Annotates lists of SNPs and/or genes, with current information from
+    NCBI.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI Eutils API using R. This is probably the best package
     to interact with NCBI EUtils. You can get data across all the
@@ -1379,6 +1382,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html)
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
+-   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)

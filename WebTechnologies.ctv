@@ -823,6 +823,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.
 </li>
 <li>
+<pkg>NCBI2R</pkg>: Annotates lists of SNPs and/or genes, with current information from NCBI.
+</li>
+<li>
 <pkg>rentrez</pkg>: Talk with NCBI Eutils API using R. This is probably the best package to interact with NCBI EUtils. You can get data across all the databases in NCBI EUtils. <a href="https://github.com/ropensci/rentrez">Source on Github</a>
 </li>
 <li>
@@ -1084,6 +1087,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>marmap</pkg>
   <pkg>meteoForecast</pkg>
   <pkg>MTurkR</pkg>
+  <pkg>NCBI2R</pkg>
   <pkg>ngramr</pkg>
   <pkg>nhlscrapr</pkg>
   <pkg>OAIHarvester</pkg>
