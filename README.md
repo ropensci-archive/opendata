@@ -951,6 +951,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     deal with political data, but throwing in Article Search and
     Geographic for good measure. [Source on
     GitHub](https://github.com/ropengov/rtimes).
+-   [saos](https://github.com/bartekch/saos) (not on CRAN): An interface
+    to the API for SAOS, a repository of judgments from Polish common
+    courts (district, regional and appellate) and the Supreme Court of
+    Poland.
 -   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html):
     Various tools for retrieving and working with Finnish open
     government data. Development version on GitHub

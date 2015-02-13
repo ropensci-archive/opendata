@@ -667,6 +667,9 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <a href="https://github.com/ropengov/rtimes">rtimes</a>: (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure. <a href="https://github.com/ropengov/rtimes">Source on GitHub</a>.
 </li>
 <li>
+<a href="https://github.com/bartekch/saos">saos</a> (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
+</li>
+<li>
 <pkg>sorvi</pkg>: Various tools for retrieving and working with Finnish open government data. Development version on GitHub <a href="https://github.com/louhos/sorvi/">here</a>.
 </li>
 <li>
