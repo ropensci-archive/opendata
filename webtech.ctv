@@ -1005,6 +1005,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 <li>
 <a href="https://github.com/chgrl/rwikidata">rwikidata</a>: Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase.
 </li>
+<li>
+<a href="https://github.com/Ironholds/WikidataR">WikidataR</a> (Not on CRAN): An R API wrapper for the Wikidata store of semantic data.
+</li>
 </ul>
 
 </info>

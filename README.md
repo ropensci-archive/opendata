@@ -1300,6 +1300,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     (and some day probably edit data in)
     [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page),
     the free knowledgebase.
+-   [WikidataR](https://github.com/Ironholds/WikidataR) (Not on CRAN):
+    An R API wrapper for the Wikidata store of semantic data.
 
 
 
@@ -1430,8 +1432,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
--   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
