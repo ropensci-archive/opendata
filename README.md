@@ -384,6 +384,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#amazon" name="amazon">#</a> Amazon Web Services
 
+-   [AWS.tools](http://cran.r-project.org/src/contrib/Archive/AWS.tools/):
+    An R package to interact with Amazon Web Services (EC2/S3). The CRAN
+    version is archived. [Development version is available on
+    GitHub](https://github.com/armstrtw/AWS.tools)
 -   [awsConnect](https://github.com/lalas/awsConnect) (not on CRAN):
     Another package using the AWS Command Line Interface to control EC2
     and S3. Only available for Linux and Mac OS.
@@ -1025,8 +1029,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Sentiment Analysis, Image Feature Extraction, Facial Emotion
     Recognition, Facial Feature Extraction, and Language Detection.
     [Source on Github](https://github.com/redmode/indicoio)
--   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
-    Access to Amazon Mechanical Turk Requester API via R.
 -   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html): An R
     package to access the [ltp-cloud
     service](http://www.ltp-cloud.com/). [Source on
@@ -1133,10 +1135,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#other" name="other">#</a> Other
 
--   [AWS.tools](http://cran.r-project.org/src/contrib/Archive/AWS.tools/):
-    An R package to interact with Amazon Web Services (EC2/S3). The CRAN
-    version is archived. [Development version is available on
-    GitHub](https://github.com/armstrtw/AWS.tools)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html):
     Provides an S4 infrastructure for unified handling of internal
     datasets and web based data sources. Examples include dbpedia,

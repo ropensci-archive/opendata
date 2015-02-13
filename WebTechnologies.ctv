@@ -202,6 +202,9 @@ Data Sources on the Web Accessible via R
 <p><strong> Amazon Web Services</strong></p>
 <ul>
 <li>
+<a href="http://cran.r-project.org/src/contrib/Archive/AWS.tools/">AWS.tools</a>: An R package to interact with Amazon Web Services (EC2/S3). The CRAN version is archived. <a href="https://github.com/armstrtw/AWS.tools">Development version is available on GitHub</a>
+</li>
+<li>
 <a href="https://github.com/lalas/awsConnect">awsConnect</a> (not on CRAN): Another package using the AWS Command Line Interface to control EC2 and S3. Only available for Linux and Mac OS.
 </li>
 <li>
@@ -738,9 +741,6 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 <pkg>indicoio</pkg>: R-based client for Machine Learning APIs at <a href="http://indico.io">http://indico.io</a>. Wrappers for Positive/Negative Sentiment Analysis, Political Sentiment Analysis, Image Feature Extraction, Facial Emotion Recognition, Facial Feature Extraction, and Language Detection. <a href="https://github.com/redmode/indicoio">Source on Github</a>
 </li>
 <li>
-<pkg>MTurkR</pkg>: Access to Amazon Mechanical Turk Requester API via R.
-</li>
-<li>
 <pkg>rLTP</pkg>: An R package to access the <a href="http://www.ltp-cloud.com/">ltp-cloud service</a>. <a href="https://github.com/hetong007/rLTP">Source on Github</a>
 </li>
 </ul>
@@ -842,9 +842,6 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <p><strong> Other</strong></p>
 
 <ul>
-<li>
-<a href="http://cran.r-project.org/src/contrib/Archive/AWS.tools/">AWS.tools</a>: An R package to interact with Amazon Web Services (EC2/S3). The CRAN version is archived. <a href="https://github.com/armstrtw/AWS.tools">Development version is available on GitHub</a>
-</li>
 <li>
 <pkg>datamart</pkg>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 </li>
