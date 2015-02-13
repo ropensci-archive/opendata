@@ -452,13 +452,13 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Provides access to The Dataverse Network API.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
     Thin wrapper for the [Factual.com](http://factual.com/) server API.
--   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
-    Programmatic interface for [Figshare.com](http://figshare.com/).
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
     An R wrapper for the infochimps.com API services, from [Drew
     Conway](http://drewconway.com/). The CRAN version is archived.
     Development is available on GitHub
     [here](https://github.com/drewconway/infochimps).
+-   [internetarchive](https://github.com/lmullen/internetarchive) (not
+    on CRAN): API client for internet archive metadata.
 -   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html):
     Enables users to access MongoDB by running queries and returning
     their results in R data frames. jSonarR uses data processing and
@@ -477,6 +477,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>), or *Open-source
     Project for a Network Data Access Protocol* . Allows user to swap
     out the base URL to use any ERDDAP instance.
+-   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
+    Programmatic interface for [Figshare.com](http://figshare.com/).
 -   [RSocrata](http://cran.r-project.org/src/contrib/Archive/RSocrata/):
     (temporarily archived on CRAN for email bounce) Provided with a
     Socrata dataset resource URL, or a Socrata SoDA web API query,

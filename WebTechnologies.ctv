@@ -273,10 +273,10 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.
 </li>
 <li>
-<pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>.
+<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
 </li>
 <li>
-<a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
+<a href="https://github.com/lmullen/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata.
 </li>
 <li>
 <pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.
@@ -289,6 +289,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <a href="https://github.com/ropensci/rerddap">rerddap</a>: A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance.
+</li>
+<li>
+<pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>.
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
