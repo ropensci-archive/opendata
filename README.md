@@ -842,6 +842,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [plotKML](http://cran.r-project.org/web/packages/plotKML/index.html):
     Visualization of spatial and spatio-temporal objects in Google
     Earth.
+-   [RAdwords](http://cran.r-project.org/web/packages/RAdwords/index.html):
+    A package for loading Google Adwords data. [Source on
+    Github](https://github.com/jburkhardt/RAdwords)
 -   [RGA](http://cran.r-project.org/web/packages/RGA/index.html):
     Provides functions for accessing and retrieving data from the
     [Google Analytics APIs](https://developers.google.com/analytics/).
@@ -1394,6 +1397,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
+-   [RAdwords](http://cran.r-project.org/web/packages/RAdwords/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rainfreq](http://cran.r-project.org/web/packages/rainfreq/index.html)
 -   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html)

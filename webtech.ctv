@@ -587,6 +587,9 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 <pkg>plotKML</pkg>: Visualization of spatial and spatio-temporal objects in Google Earth.
 </li>
 <li>
+<pkg>RAdwords</pkg>: A package for loading Google Adwords data. <a href="https://github.com/jburkhardt/RAdwords">Source on Github</a>
+</li>
+<li>
 <pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the <pkg>RGA</pkg> package provides a shiny app to explore data. There is another R package for the same service (<pkg>RGoogleAnalytics</pkg>); see above entry.
 </li>
 <li>
