@@ -827,6 +827,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     data mangement system in the cloud. This package provides R
     functions to browse Fusion Tables catalog, retrieve data from Gusion
     Tables dtd storage to R and to upload data from R to Fusion Tables
+-   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html):
+    Access the Gmail RESTful API from R
 -   [googlePublicData](http://cran.r-project.org/src/contrib/Archive/googlePublicData/):
     (archived on CRAN for email bounce) An R library to build Google's
     public data explorer DSPL metadata files.
@@ -1147,8 +1149,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     [Discourse](http://www.discourse.org/) web forum platform. The API
     is for an installed instance of Discourse, not for the Discourse
     site itself.
--   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html):
-    Access the Gmail RESTful API from R
+-   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html):
+    Uses the genderize.io API to predict gender from first names
+    extracted from a text vector. [Source on
+    Github](https://github.com/kalimu/genderizeR)
 -   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN):
     Provides functions to interact with the
     [Qualtrics](http://www.qualtrics.com/) online survey tool.
@@ -1346,6 +1350,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
+-   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)

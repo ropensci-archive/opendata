@@ -572,6 +572,9 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables
 </li>
 <li>
+<pkg>gmailr</pkg>: Access the Gmail RESTful API from R
+</li>
+<li>
 <a href="http://cran.r-project.org/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 </li>
 <li>
@@ -852,7 +855,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <a href="https://github.com/sckott/discgolf">discgolf</a> (not on CRAN): Provides R client to interact with the API for the <a href="http://www.discourse.org/">Discourse</a> web forum platform. The API is for an installed instance of Discourse, not for the Discourse site itself.
 </li>
 <li>
-<pkg>gmailr</pkg>: Access the Gmail RESTful API from R
+<pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. <a href="https://github.com/kalimu/genderizeR">Source on Github</a>
 </li>
 <li>
 <a href="https://github.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool.
@@ -1056,6 +1059,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>federalregister</pkg>
   <pkg>fImport</pkg>
   <pkg>flora</pkg>
+  <pkg>genderizeR</pkg>
   <pkg>ggmap</pkg>
   <pkg>ggvis</pkg>
   <pkg>GhcnDaily</pkg>
