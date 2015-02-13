@@ -900,7 +900,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Denmark](http://www.dst.dk/).
 -   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html):
     U.S. [Energy Information Administration (EIA)](http://www.eia.gov/)
-    API client.
+    API client. See also [eia](https://github.com/krose/eia) (not on
+    CRAN).
 -   [enigma](http://cran.r-project.org/web/packages/enigma/index.html):
     [Enigma](https://enigma.io) holds many public datasets from
     governments, companies, universities, and organizations. Enigma

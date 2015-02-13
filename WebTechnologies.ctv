@@ -631,7 +631,7 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>.
 </li>
 <li>
-<pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client.
+<pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).
 </li>
 <li>
 <pkg>enigma</pkg>: <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma. <a href="https://github.com/ropengov/enigma">Source on Github</a>.
