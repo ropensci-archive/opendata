@@ -1182,6 +1182,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Github](https://github.com/hrbrmstr/slackr)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html): R
     client for the OGC Sensor Observation Service.
+-   [stackr](https://github.com/dgrtwo/stackr) (not on CRAN): An
+    unofficial wrapper for the read-only features of the [Stack Exchange
+    API](https://api.stackexchange.com/).
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html):
     This package provides an R wrapper for the Zendesk API.
 

@@ -885,6 +885,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.
 </li>
 <li>
+<a href="https://github.com/dgrtwo/stackr">stackr</a> (not on CRAN): An unofficial wrapper for the read-only features of the <a href="https://api.stackexchange.com/">Stack Exchange API</a>.
+</li>
+<li>
 <pkg>zendeskR</pkg>: This package provides an R wrapper for the Zendesk API.
 </li>
 </ul>
