@@ -879,6 +879,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>RPushbullet</pkg>: Provides an easy-to-use interface for the Pushbullet service which provides fast and efficient notifications between computers, phones and tablets. By <a href="http://dirk.eddelbuettel.com/">Dirk Eddelbuettel</a>
 </li>
 <li>
+<a href="https://github.com/Ironholds/rwars">rwars</a> (not on CRAN): A connector to the <a href="http://swapi.co/">SWAPI service</a>, a database of Star Wars metadata.
+</li>
+<li>
 <pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">Source on Github</a>
 </li>
 <li>

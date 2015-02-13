@@ -1176,6 +1176,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Provides an easy-to-use interface for the Pushbullet service which
     provides fast and efficient notifications between computers, phones
     and tablets. By [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)
+-   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A
+    connector to the [SWAPI service](http://swapi.co/), a database of
+    Star Wars metadata.
 -   [slackr](http://cran.r-project.org/web/packages/slackr/index.html):
     R client for Slack.com messaging platform. [Source on
     Github](https://github.com/hrbrmstr/slackr)
