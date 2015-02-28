@@ -479,7 +479,7 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 <pkg>psidR</pkg> Contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 </li>
 <li>
-<pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. <a href="#">Source on GitHub</a>.
+<pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. <a href="https://github.com/rOpenGov/pxweb">Source on GitHub</a>.
 </li>
 <li>
 <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
@@ -519,7 +519,7 @@ The <ohat>Zillow</ohat> package provides an R interface to the <a href="http://w
 <a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a> (paid), with some convenience functions for retrieving Datastream data specifically.
 </li>
 <li>
-<pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers.. <a href="https://github.com/amattioc/SDMX/tree/master/RJSDMX">On Github</a>.
+<pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers. <a href="https://github.com/amattioc/SDMX/tree/master/RJSDMX">Source on GitHub</a>.
 </li>
 <li>
 <pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
@@ -729,7 +729,7 @@ The <ohat>Aspell</ohat> package provides an interface to the aspell library for 
 <pkg>rplos</pkg>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
 </li>
 <li>
-<a href="https://github.com/ropensci/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
+<a href="https://github.com/rOpenHealth/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
 </li>
 <li>
 <pkg>scholar</pkg> provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
@@ -978,7 +978,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 </li>
 <li>
-<a href="https://github.com/corynissen/fitbitScraper">fitbitScraper</a> (not on CRAN): Get Fitbit data. Authentication with email/password.
+<pkg>fitbitScraper</pkg>: Get Fitbit data. Authentication with email/password. <a href="https://github.com/corynissen/fitbitScraper">Source on GitHub</a>
 </li>
 </ul>
 
@@ -1064,6 +1064,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>fbRanks</pkg>
   <pkg>federalregister</pkg>
   <pkg>fImport</pkg>
+  <pkg>fitbitScraper</pkg>
   <pkg>flora</pkg>
   <pkg>genderizeR</pkg>
   <pkg>ggmap</pkg>

@@ -728,7 +728,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Finland to disseminate data. The R package can interact with all
     PX-Web/PC-Axis APIs to fetch information about the data hierarchy,
     extract metadata and extract and parse statistics to R data.frame
-    format. [Source on GitHub](#).
+    format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
     Search, extract and format data from the World Bank's World
     Development Indicators.
@@ -779,8 +779,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     with some convenience functions for retrieving Datastream data
     specifically.
 -   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html):
-    Retrieve data and metadata from SDMX compliant data providers.. [On
-    Github](https://github.com/amattioc/SDMX/tree/master/RJSDMX).
+    Retrieve data and metadata from SDMX compliant data providers.
+    [Source on
+    GitHub](https://github.com/amattioc/SDMX/tree/master/RJSDMX).
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html):
     Connects to TrueFX(tm) for free streaming real-time and historical
     tick-by-tick market data for dealable interbank foreign exchange
@@ -1017,8 +1018,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html): A
     programmatic interface to the Web Service methods provided by the
     Public Library of Science journals for search.
--   [rpubmed](https://github.com/ropensci/rpubmed) (not on CRAN): Tools
-    for extracting and processing Pubmed and Pubmed Central records.
+-   [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN):
+    Tools for extracting and processing Pubmed and Pubmed Central
+    records.
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
     provides functions to extract citation data from Google Scholar.
     Convenience functions are also provided for comparing multiple
@@ -1271,8 +1273,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html):
     Tools for Collecting and Visualizing Major League Baseball PITCHfx
     Data
--   [fitbitScraper](https://github.com/corynissen/fitbitScraper) (not on
-    CRAN): Get Fitbit data. Authentication with email/password.
+-   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html):
+    Get Fitbit data. Authentication with email/password. [Source on
+    GitHub](https://github.com/corynissen/fitbitScraper)
 
 ### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
 
@@ -1360,6 +1363,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
+-   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
