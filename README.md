@@ -99,10 +99,11 @@ Tools for Working with the Web from R
     header and body cells, and users are given more control over the
     identification of header and body rows which will end up in the R
     table.
--   [rvest](https://github.com/hadley/rvest): rvest scrapes html from
-    web pages, and is designed to work with
+-   [rvest](http://cran.r-project.org/web/packages/rvest/index.html):
+    rvest scrapes html from web pages, and is designed to work with
     [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
-    to make it easy to express common web scraping tasks.
+    to make it easy to express common web scraping tasks. [Source on
+    GitHub](https://github.com/hadley/rvest)
 -   The [tldextract](https://github.com/jayjacobs/tldextract) package
     extract top level domains and subdomains from a host name. It's a
     port of [a Python library of the same
@@ -1474,6 +1475,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [RStars](http://cran.r-project.org/web/packages/RStars/index.html)
 -   [rsunlight](http://cran.r-project.org/web/packages/rsunlight/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
+-   [rvest](http://cran.r-project.org/web/packages/rvest/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
 -   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
