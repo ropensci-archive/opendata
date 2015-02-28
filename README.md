@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-01-30
+  **Version:**      2015-02-27
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -60,11 +60,15 @@ Tools for Working with the Web from R
     [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
     Check out the paper describing jsonlite by Jeroen Ooms
     <http://arxiv.org/abs/1403.2805>.
--   *XML/HTML I/O* : The package
+-   *XML/HTML I/O* : The package [xml2](https://github.com/hadley/xml2)
+    in development will likely by the go to package for XML parsing
+    soon, but
+    [XML](http://cran.r-project.org/web/packages/XML/index.html) may be
+    the place to go for lower level manipulation of XML. The package
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
     contains functions for parsing XML and HTML, and supports xpath for
     searching XML (think regex for strings). A helpful function to read
-    data from one or more HTML tables is `readHTMLTable()`.
+    data from one or more HTML tables is `XML::readHTMLTable()`.
     [XML](http://cran.r-project.org/web/packages/XML/index.html) also
     includes [XPATH](http://www.w3schools.com/xpath/) parsing ability,
     see `xpathApply()` and `xpathSApply()`. The
