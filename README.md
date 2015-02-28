@@ -1048,10 +1048,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#maps" name="maps">#</a> Maps
 
--   The [<span
-    class="Ohat">GeoIP</span>](http://www.Omegahat.org/GeoIP/) package
-    maps IP addresses and host names to geographic locations - latitude,
-    longitude, region, city, zip code, etc.
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html):
     Allows for the easy visualization of spatial data and models on top
     of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using
@@ -1456,8 +1452,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
--   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
+-   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)

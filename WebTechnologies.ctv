@@ -761,9 +761,6 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 
 <ul>
 <li>
-The <ohat>GeoIP</ohat> package maps IP addresses and host names to geographic locations - latitude, longitude, region, city, zip code, etc.
-</li>
-<li>
 <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 </li>
 <li>
@@ -1158,8 +1155,8 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rLTP</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
-  <pkg>rNOMADS</pkg>
   <pkg>rnoaa</pkg>
+  <pkg>rNOMADS</pkg>
   <pkg>rnrfa</pkg>
   <pkg>ROAuth</pkg>
   <pkg>Rook</pkg>
