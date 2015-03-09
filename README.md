@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-02-27
+  **Version:**      2015-03-09
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -435,6 +435,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html):
     Interface to the PubChem Collection.
+-   [webchem](http://cran.r-project.org/web/packages/webchem/index.html):
+    Retrieve chemical information from a suite of web APIs for chemical
+    information. [Source on Github](https://github.com/ropensci/webchem)
 
 ### <a href="#cloudhosting" name="cloudhosting">#</a> Cloud hosting
 
@@ -613,39 +616,44 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on
     CRAN): Programmatic R interface to the [Atlas of Living
-    Australia](http://www.ala.org.au/).
+    Australia](http://www.ala.org.au/). [Source on
+    GitHub](https://github.com/ropensci/ALA4R)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html):
     Species distribution modeling, with wrappers to some APIs.
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
     ecoengine ( <http://ecoengine.berkeley.edu/>) provides access to
     more than 2 million georeferenced specimen records from the Berkeley
-    Natural History Museums. <http://bnhm.berkeley.edu/>
+    Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on
+    GitHub](https://github.com/ropensci/ecoengine)
 -   [ecoretriever](http://cran.r-project.org/web/packages/ecoretriever/index.html):
     Provides an R interface to the [EcoData
     Retriever](http://ecodataretriever.org/) via the EcoData Retriever's
     command line interface. The EcoData Retriever automates the tasks of
     finding, downloading, and cleaning ecological datasets, and then
-    stores them in a local database (including SQLite, MySQL, etc.). [On
-    GitHub](https://github.com/ropensci/ecoretriever/).
+    stores them in a local database (including SQLite, MySQL, etc.).
+    [Source on GitHub](https://github.com/ropensci/ecoretriever/).
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html):
     Retrieve taxonomical information of botanical names from the Flora
     do Brasil website.
 -   [neotoma](https://github.com/ropensci/neotoma) (not on CRAN):
     Programmatic R interface to the Neotoma Paleoecological Database.
+    [Source on GitHub](https://github.com/ropensci/neotoma)
 -   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html):
     Functions to wrap each endpoint of the PaleobioDB API, plus
     functions to visualize and process the fossil data. The API
     documentation for the Paleobiology Database can be found at
     <http://paleobiodb.org/data1.1/>.
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html):
-    Wrapper to the USGS Bison API.
+    Wrapper to the USGS Bison API. [Source on
+    GitHub](https://github.com/ropensci/rbison)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html):
     This package provides programmatic access to Colombos, a web based
     interface for exploring and analyzing comprehensive
     organism-specific cross-platform expression compendia of bacterial
     organisms.
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html):
-    A programmatic interface to the eBird database.
+    A programmatic interface to the eBird database. [Source on
+    GitHub](https://github.com/ropensci/rebird)
 -   [rdopa](https://github.com/ropensci/rdopa) (not on CRAN): Access
     data from the [Digital Observatory for Protected
     Areas](http://dopa.jrc.ec.europa.eu/) (DOPA) REST API. [Source on
@@ -653,20 +661,31 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html): An R
     interface to the Encyclopedia of Life (EOL) API. Includes functions
     for downloading and extracting information off the EOL pages.
+    [Source on GitHub](https://github.com/ropensci/Reol)
 -   [rfishbase](http://cran.r-project.org/web/packages/rfishbase/index.html):
-    A programmatic interface to fishbase.org.
+    A programmatic interface to fishbase.org. [Source on
+    GitHub](https://github.com/ropensci/rfishbase)
 -   [rfisheries](http://cran.r-project.org/web/packages/rfisheries/index.html):
     Package for interacting with fisheries databases at
-    openfisheries.org.
+    openfisheries.org. [Source on
+    GitHub](https://github.com/ropensci/rfisheries)
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html):
     Interface to the Global Biodiversity Information Facility API
-    methods.
+    methods. [Source on GitHub](https://github.com/ropensci/rgbif)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html): An R
     interface to the [UK National Biodiversity
-    Network](http://www.nbn.org.uk). Development version on GitHub
-    [here](https://github.com/JNCC-UK/rnbn).
+    Network](http://www.nbn.org.uk). [Source on
+    GitHub](https://github.com/ropensci/rnbn).
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to
-    the National Phenology Network database API.
+    the National Phenology Network database API. [Source on
+    GitHub](https://github.com/ropensci/rnpn).
+-   [rotl](https://github.com/fmichonneau/rotl) (not on CRAN): R client
+    for the Open Tree of Life API. [Source on
+    GitHub](https://github.com/fmichonneau/rotl)
+-   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R
+    client for [Phylopic.org](http://phylopic.org/), a databaes of free
+    silhouettes of animals, embedded in a phylogenetic information
+    framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html):
     An R interface to the the many computational resources iPlant offers
     through their RESTful application programming interface. Currently,
@@ -676,9 +695,11 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Before using rPlant, users will have to register with the [iPlant
     Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html):
-    A wrapper to the VertNet collections database API.
+    A wrapper to the VertNet collections database API. [Source on
+    GitHub](https://github.com/ropensci/rvertnet)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html):
-    R interface for the World Bank climate data.
+    R interface for the World Bank climate data. [Source on
+    GitHub](https://github.com/ropensci/rWBclimate)
 -   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html):
     A programmatic interface to web-services of Youtheria, an online
     database of mammalian trait data. Development version on GitHub
@@ -687,7 +708,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     programmatic interface to many species occurrence data sources,
     including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
     Engine eBird, AntWeb, and more as they sources become easily
-    available.
+    available. [Source on GitHub](https://github.com/ropensci/spocc)
 -   [TR8](http://cran.r-project.org/web/packages/TR8/index.html): TR8
     contains a set of tools which take care of retrieving trait data for
     plant species from publicly available databases via web services
@@ -695,7 +716,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal
     intensity database).
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html):
-    Taxonomic information from around the web.
+    Taxonomic information from around the web. A single unified
+    interface to many web APIs for taxonomic data, including NCBI, ITIS,
+    Tropicos and more. [Source on
+    GitHub](https://github.com/ropensci/taxize)
 -   The [tpl](https://github.com/gustavobio/tpl) package, created by
     Gustavo Carvalho, doesn't interact with the web directly, but
     queries locally stored data from
@@ -705,7 +729,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     [Taxonstand](http://cran.r-project.org/web/packages/Taxonstand/index.html).
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html):
     An R package for discovery, access and manipulation of online
-    phylogenies.
+    phylogenies. [Source on
+    GitHub](https://github.com/ropensci/treebase)
 
 ### <a href="#econbus" name="econbus">#</a> Economics and Business
 
@@ -1514,6 +1539,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
+-   [webchem](http://cran.r-project.org/web/packages/webchem/index.html)
 -   [webutils](http://cran.r-project.org/web/packages/webutils/index.html)
 -   [whisker](http://cran.r-project.org/web/packages/whisker/index.html)
 -   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html)

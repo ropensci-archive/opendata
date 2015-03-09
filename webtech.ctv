@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-02-27</version>
+<version>2015-03-09</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -248,6 +248,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 <li>
 <pkg>rpubchem</pkg>: Interface to the PubChem Collection.
 </li>
+<li>
+<pkg>webchem</pkg>: Retrieve chemical information from a suite of web APIs for chemical information. <a href="https://github.com/ropensci/webchem">Source on Github</a>
+</li>
 </ul>
 
 <p><strong>tochref="lb-cloudhosting" name="cloudhosting"endhref Cloud hosting</strong></p>
@@ -387,82 +390,88 @@ This is a commercial server that allows one to store content and retrieve it fro
 
 <ul>
 <li>
-<a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>.
+<a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a>
 </li>
 <li>
 <pkg>dismo</pkg>: Species distribution modeling, with wrappers to some APIs.
 </li>
 <li>
-<pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>
+<pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>.  <a href="https://github.com/ropensci/ecoengine">Source on GitHub</a>
 </li>
 <li>
-<pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">On GitHub</a>.
+<pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">Source on GitHub</a>.
 </li>
 <li>
 <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
 </li>
 <li>
-<a href="https://github.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database.
+<a href="https://github.com/ropensci/neotoma">neotoma</a> (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database. <a href="https://github.com/ropensci/neotoma">Source on GitHub</a>
 </li>
 <li>
 <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at <a href="http://paleobiodb.org/data1.1/">http://paleobiodb.org/data1.1/</a>.
 </li>
 <li>
-<pkg>rbison</pkg>: Wrapper to the USGS Bison API.
+<pkg>rbison</pkg>: Wrapper to the USGS Bison API. <a href="https://github.com/ropensci/rbison">Source on GitHub</a>
 </li>
 <li>
 <pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
 </li>
 <li>
-<pkg>rebird</pkg>: A programmatic interface to the eBird database.
+<pkg>rebird</pkg>: A programmatic interface to the eBird database. <a href="https://github.com/ropensci/rebird">Source on GitHub</a>
 </li>
 <li>
 <a href="https://github.com/ropensci/rdopa">rdopa</a> (not on CRAN): Access data from the <a href="http://dopa.jrc.ec.europa.eu/">Digital Observatory for Protected Areas</a> (DOPA) REST API. <a href="https://github.com/ropensci/rdopa">Source on Github</a>
 </li>
 <li>
-<pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages.
+<pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages. <a href="https://github.com/ropensci/Reol">Source on GitHub</a>
 </li>
 <li>
-<pkg>rfishbase</pkg>: A programmatic interface to fishbase.org.
+<pkg>rfishbase</pkg>: A programmatic interface to fishbase.org. <a href="https://github.com/ropensci/rfishbase">Source on GitHub</a>
 </li>
 <li>
-<pkg>rfisheries</pkg>: Package for interacting with fisheries databases at openfisheries.org.
+<pkg>rfisheries</pkg>: Package for interacting with fisheries databases at openfisheries.org. <a href="https://github.com/ropensci/rfisheries">Source on GitHub</a>
 </li>
 <li>
-<pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods.
+<pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. <a href="https://github.com/ropensci/rgbif">Source on GitHub</a>
 </li>
 <li>
-<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. Development version on GitHub <a href="https://github.com/JNCC-UK/rnbn">here</a>.
+<pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. <a href="https://github.com/ropensci/rnbn">Source on GitHub</a>.
 </li>
 <li>
-<a href="https://github.com/ropensci/rnpn">rnpn</a> (not on CRAN): Wrapper to the National Phenology Network database API.
+<a href="https://github.com/ropensci/rnpn">rnpn</a> (not on CRAN): Wrapper to the National Phenology Network database API. <a href="https://github.com/ropensci/rnpn">Source on GitHub</a>.
+</li>
+<li>
+<a href="https://github.com/fmichonneau/rotl">rotl</a> (not on CRAN): R client for the Open Tree of Life API. <a href="https://github.com/fmichonneau/rotl">Source on GitHub</a>
+</li>
+<li>
+<a href="https://github.com/sckott/rphylopic">rphylopic</a> (not on CRAN): An R client for <a href="http://phylopic.org/">Phylopic.org</a>, a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. <a href="https://github.com/sckott/rphylopic">Source on GitHub</a>
 </li>
 <li>
 <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, <pkg>rPlant</pkg> functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a>
 </li>
 <li>
-<pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API.
+<pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. <a href="https://github.com/ropensci/rvertnet">Source on GitHub</a>
 </li>
 <li>
-<pkg>rWBclimate</pkg>: R interface for the World Bank climate data.
+<pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a>
 </li>
 <li>
 <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a>
 </li>
 <li>
-<pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available.
+<pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. <a href="https://github.com/ropensci/spocc">Source on GitHub</a>
 </li>
 <li>
 <pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database).
 </li>
 <li>
-<pkg>taxize</pkg>: Taxonomic information from around the web.
+<pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. <a href="https://github.com/ropensci/taxize">Source on GitHub</a>
 </li>
 <li>
 The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gustavo Carvalho, doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called <pkg>Taxonstand</pkg>.
 </li>
 <li>
-<pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies.
+<pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. <a href="https://github.com/ropensci/treebase">Source on GitHub</a>
 </li>
 </ul>
 
