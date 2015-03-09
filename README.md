@@ -368,10 +368,11 @@ Data Sources on the Web Accessible via R
 depots](#depots) | [Data science tools](#datascience) | [Earth
 Science](#earthsci) | [Ecology/Evolution](#eeb) |
 [Economics/Business](#econbus) | [E-commerce](#ecommerce) |
-[Finance](#finance) | [Genes/Genomes](#genes) | [Google web
-services](#google) | [Government](#gov) | [Literature/Text-mining](#lit)
-| [Machine learning](#mls) | [Maps](#maps) | [Marketing](#marketing) |
-[Media: Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
+[Finance](#finance) | [Genes/Genomes](#genes) | [Geocoding](#geocoding)
+| [Google web services](#google) | [Government](#gov) |
+[Literature/Text-mining](#lit) | [Machine learning](#mls) |
+[Maps](#maps) | [Marketing](#marketing) | [Media:
+Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
 [Other](#other) | [Public Health](#publichealth) | [Social
 media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 [Web analytics](#webanalytics) | [Wikipedia](#wikipedia) |
@@ -511,6 +512,11 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     compilation of historical through contemporary climate measurements
     scraped from the Environment Canada Website Including tools for
     scraping data, creating metadata and formatting temperature files.
+-   [clifro](http://cran.r-project.org/web/packages/clifro/index.html):
+    Designed to minimise the hassle in downloading data from New
+    Zealand's National Climate Database via
+    [CliFlo](http://cliflo.niwa.co.nz/). [Source on
+    Github](https://github.com/ropensci/clifro)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html):
     Provides the core functions required to download and format data
     from the Climate Reference Network. Both daily and hourly data are
@@ -714,7 +720,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     plant species from publicly available databases via web services
     (including: Biolflor, The Ecological Flora of the British Isles,
     LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal
-    intensity database).
+    intensity database). [Source on
+    Github](https://github.com/GioBo/TR8)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html):
     Taxonomic information from around the web. A single unified
     interface to many web APIs for taxonomic data, including NCBI, ITIS,
@@ -740,6 +747,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     <http://www.bls.gov/developers/api_signature.htm> and the function
     returns a JSON string. [Source on
     Github](https://github.com/mikeasilva/blsAPI)
+-   [FredR](https://github.com/jcizel/FredR): R Interface to the
+    [Federal Reserve Economic Data
+    API](http://api.stlouisfed.org/docs/fred/). [Source on
+    Github](https://github.com/jcizel/FredR)
 -   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
     searches and retrieves occupational data from [O\*NET
     Online](http://www.onetonline.org/). Development version on GitHub
@@ -849,6 +860,13 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Exploratory data analysis and data visualization for biological
     sequence (DNA and protein) data.
 -   NCBI EUtils web services: See the NCBI section
+
+### <a href="#geocoding" name="geocoding">#</a> Geocoding
+
+-   [geocodeHERE](http://cran.r-project.org/web/packages/geocodeHERE/index.html):
+    Wrapper for Nokia's [HERE](http://here.com/) geocoding API. API
+    docs: <https://developer.here.com/geocoder>. [Source on
+    Github](https://github.com/corynissen/geocodeHERE)
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
@@ -1196,6 +1214,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     [Qualtrics](http://www.qualtrics.com/) online survey tool.
 -   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
     Interface to Apache Commons Email to send emails from within R.
+-   [mstranslator](https://github.com/chainsawriot/mstranslator): An R
+    wrapper for the [Microsoft Translator
+    API](https://msdn.microsoft.com/en-us/library/hh454949.aspx).
+    [Source on Github](https://github.com/chainsawriot/mstranslator)
 -   [pushoverr](http://cran.r-project.org/web/packages/pushoverr/index.html):
     Sending push notifications to mobile devices (iOS and Android) and
     desktop using [Pushover](https://pushover.net/). [Source on
@@ -1237,6 +1259,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 -   [cdcfluview](https://github.com/hrbrmstr/cdcfluview): (not on CRAN)
     R client for CDC FluView data (WHO and ILINet).
+-   [openfda](https://github.com/ropenhealth/openfda): R client for
+    [openFDA](https://open.fda.gov/). [Source on
+    Github](https://github.com/ropenhealth/openfda)
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html):
     R tools for integrating with the www.clinicalcodes.org web
     repository, by [David Springate](https://github.com/DASpringate)
@@ -1369,6 +1394,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [cgdsr](http://cran.r-project.org/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [chromer](http://cran.r-project.org/web/packages/chromer/index.html)
+-   [clifro](http://cran.r-project.org/web/packages/clifro/index.html)
 -   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [curl](http://cran.r-project.org/web/packages/curl/index.html)
@@ -1391,6 +1417,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
 -   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html)
+-   [geocodeHERE](http://cran.r-project.org/web/packages/geocodeHERE/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
 -   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)

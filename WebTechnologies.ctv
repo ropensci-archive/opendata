@@ -186,7 +186,7 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 Data Sources on the Web Accessible via R
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#socialsci">Social science</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> | <a href="#wikipedia">Wikipedia</a> |
+<a href="#agr">Agriculture</a> | <a href="#amazon">Amazon web services</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#cloudhosting">Cloud hosting</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#socialsci">Social science</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> | <a href="#wikipedia">Wikipedia</a> |
 
 <p><strong> Agriculture</strong></p>
 
@@ -323,6 +323,9 @@ This is a commercial server that allows one to store content and retrieve it fro
 </li>
 <li>
 <pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.
+</li>
+<li>
+<pkg>clifro</pkg>: Designed to minimise the hassle in downloading data from New Zealand's National Climate Database via <a href="http://cliflo.niwa.co.nz/">CliFlo</a>. <a href="https://github.com/ropensci/clifro">Source on Github</a>
 </li>
 <li>
 <pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.
@@ -462,7 +465,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. <a href="https://github.com/ropensci/spocc">Source on GitHub</a>
 </li>
 <li>
-<pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database).
+<pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database). <a href="https://github.com/GioBo/TR8">Source on Github</a>
 </li>
 <li>
 <pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. <a href="https://github.com/ropensci/taxize">Source on GitHub</a>
@@ -480,6 +483,9 @@ The <a href="https://github.com/gustavobio/tpl">tpl</a> package, created by Gust
 <ul>
 <li>
 <pkg>blsAPI</pkg>: Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. <a href="https://github.com/mikeasilva/blsAPI">Source on Github</a>
+</li>
+<li>
+<a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on Github</a>
 </li>
 <li>
 <pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.
@@ -573,6 +579,16 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 </li>
 <li>NCBI EUtils web services: See the NCBI section</li>
 </ul>
+
+
+<p><strong> Geocoding</strong></p>
+
+<ul>
+<li>
+<pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="http://here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/geocoder">https://developer.here.com/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on Github</a>
+</li>
+</ul>
+
 
 <p><strong> Google Web Services</strong></p>
 
@@ -879,6 +895,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>mailR</pkg>: Interface to Apache Commons Email to send emails from within R.
 </li>
 <li>
+<a href="https://github.com/chainsawriot/mstranslator">mstranslator</a>: An R wrapper for the <a href="https://msdn.microsoft.com/en-us/library/hh454949.aspx">Microsoft Translator API</a>. <a href="https://github.com/chainsawriot/mstranslator">Source on Github</a>
+</li>
+<li>
 <pkg>pushoverr</pkg>: Sending push notifications to mobile devices (iOS and Android) and desktop using <a href="https://pushover.net/">Pushover</a>. <a href="https://github.com/briandconnelly/pushoverr">Source on Github</a>
 </li>
 <li>
@@ -919,6 +938,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <ul>
 <li>
 <a href="https://github.com/hrbrmstr/cdcfluview">cdcfluview</a>: (not on CRAN) R client for CDC FluView data (WHO and ILINet).
+</li>
+<li>
+<a href="https://github.com/ropenhealth/openfda">openfda</a>: R client for <a href="https://open.fda.gov/">openFDA</a>. <a href="https://github.com/ropenhealth/openfda">Source on Github</a>
 </li>
 <li>
 <pkg>rClinicalCodes</pkg>: R tools for integrating with the www.clinicalcodes.org web repository, by <a href="https://github.com/DASpringate">David Springate</a>
@@ -1054,6 +1076,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>cgdsr</pkg>
   <pkg>CHCN</pkg>
   <pkg>chromer</pkg>
+  <pkg>clifro</pkg>
   <pkg>colourlovers</pkg>
   <pkg>crn</pkg>
   <pkg>curl</pkg>
@@ -1076,6 +1099,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>fitbitScraper</pkg>
   <pkg>flora</pkg>
   <pkg>genderizeR</pkg>
+  <pkg>geocodeHERE</pkg>
   <pkg>ggmap</pkg>
   <pkg>ggvis</pkg>
   <pkg>GhcnDaily</pkg>
