@@ -265,8 +265,8 @@ Tools for Working with the Web from R
     [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
     replaces, is websockets, also made by Joe Cheng.
 -   [websockets](https://github.com/rstudio/R-Websockets): A simple
-    HTML5 websocket interface for R, by Joe Cheng. Available in CRAN
-    archives.
+    HTML5 websocket interface for R, by Joe Cheng. Available in [CRAN
+    archives](http://cran.r-project.org/src/contrib/Archive/websockets/).
 -   Plot.ly is a company that allows you to create visualizations in the
     web using R (and Python). They have an R package in development
     [here](https://github.com/ropensci/plotly), as well as access to
@@ -1551,27 +1551,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### Related links:
 
--   [GitHub package: animint](https://github.com/tdhock/animint)
--   [GitHub package: bigrquery](https://github.com/hadley/bigrquery)
--   [GitHub package: clickme](https://github.com/nachocab/clickme)
--   [GitHub package: ggvis](https://github.com/rstudio/ggvis)
--   [GitHub package: neotoma](https://github.com/ropensci/neotoma)
--   [GitHub package: qualtrics](https://github.com/jbryer/qualtrics)
--   [GitHub package: rCharts](https://github.com/ramnathv/rCharts)
--   [GitHub package: rDrop](https://github.com/karthikram/rDrop)
--   [GitHub package: rmetadata](https://github.com/ropensci/rmetadata)
--   [GitHub package: rnbn](https://github.com/JNCC-UK/rnbn)
--   [GitHub package: rnpn](https://github.com/ropensci/rnpn)
--   [GitHub package: rorcid](https://github.com/ropensci/rorcid)
--   [GitHub package: rpubmed](https://github.com/ropensci/rpubmed)
--   [GitHub package:
-    RSelenium](https://github.com/johndharrison/RSelenium)
--   [GitHub package: rVega](https://github.com/metagraf/rVega)
--   [GitHub package: XML2R](https://github.com/cpsievert/XML2R)
--   [GitHub package:
-    RDatastream](https://github.com/fcocquemas/rdatastream)
--   [GitHub package:
-    Datastream2R](https://github.com/CharlesCara/Datastream2R)
 -   [CRAN archived package:
     seq2R](http://cran.r-project.org/src/contrib/Archive/seq2R/)
 -   [CRAN archived package:
@@ -1582,18 +1561,4 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
 -   [CRAN archived package:
     RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
--   [GFusionTables](http://gfusiontables.lopatenko.com/)
--   [GitHub package:
-    websockets](https://github.com/rstudio/R-Websockets)
--   [CRAN archived package:
-    websockets](http://cran.r-project.org/src/contrib/Archive/websockets/)
--   [GitHub package: rsunlight](https://github.com/ropengov/rsunlight)
--   [GitHub package: rtimes](https://github.com/ropengov/rtimes)
--   [Github package:
-    tldextract](https://github.com/jayjacobs/tldextract)
--   [Bitbucket package:
-    mygene.r](https://bitbucket.org/sulab/mygene.r/overview)
--   [Github package: tpl](https://github.com/gustavobio/tpl)
--   [Github package:
-    RTwitterAPI](https://github.com/joyofdata/RTwitterAPI)
 

@@ -117,7 +117,7 @@ A package by <a href="http://yihui.name/">Yihui Xie</a> called <pkg>servr</pkg> 
 The <pkg>httpuv</pkg> package, made by Joe Cheng at RStudio, provides low-level socket and protocol support for handling HTTP and WebSocket requests directly within R. Another related package, perhaps which <pkg>httpuv</pkg> replaces, is websockets, also made by Joe Cheng.
 </li>
 <li>
-<a href="https://github.com/rstudio/R-Websockets">websockets</a>: A simple HTML5 websocket interface for R, by Joe Cheng. Available in CRAN archives.
+<a href="https://github.com/rstudio/R-Websockets">websockets</a>: A simple HTML5 websocket interface for R, by Joe Cheng. Available in <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archives</a>.
 </li>
 <li>
 Plot.ly is a company that allows you to create visualizations in the web using R (and Python). They have an R package in development <a href="https://github.com/ropensci/plotly">here</a>, as well as access to their services via <a href="https://plot.ly/API/">a REST API</a>. (not on CRAN)
@@ -1227,38 +1227,11 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </packagelist>
 
 <links>
-  <a href="https://github.com/tdhock/animint">GitHub package: animint</a>
-  <a href="https://github.com/hadley/bigrquery">GitHub package: bigrquery</a>
-  <a href="https://github.com/nachocab/clickme">GitHub package: clickme</a>
-  <a href="https://github.com/rstudio/ggvis">GitHub package: ggvis</a>
-  <a href="https://github.com/ropensci/neotoma">GitHub package: neotoma</a>
-  <a href="https://github.com/jbryer/qualtrics">GitHub package: qualtrics</a>
-  <a href="https://github.com/ramnathv/rCharts">GitHub package: rCharts</a>
-  <a href="https://github.com/karthikram/rDrop">GitHub package: rDrop</a>
-  <a href="https://github.com/ropensci/rmetadata">GitHub package: rmetadata</a>
-  <a href="https://github.com/JNCC-UK/rnbn">GitHub package: rnbn</a>
-  <a href="https://github.com/ropensci/rnpn">GitHub package: rnpn</a>
-  <a href="https://github.com/ropensci/rorcid">GitHub package: rorcid</a>
-  <a href="https://github.com/ropensci/rpubmed">GitHub package: rpubmed</a>
-  <a href="https://github.com/johndharrison/RSelenium">GitHub package: RSelenium</a>
-  <a href="https://github.com/metagraf/rVega">GitHub package: rVega</a>
-  <a href="https://github.com/cpsievert/XML2R">GitHub package: XML2R</a>
-  <a href="https://github.com/fcocquemas/rdatastream">GitHub package: RDatastream</a>
-  <a href="https://github.com/CharlesCara/Datastream2R">GitHub package: Datastream2R</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/seq2R/">CRAN archived package: seq2R</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/BerkeleyEarth/">CRAN archived package: BerkeleyEarth</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">CRAN archived package: Metadata</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">CRAN archived package: infochimps</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">CRAN archived package: RLastFM</a>
-  <a href="http://gfusiontables.lopatenko.com/">GFusionTables</a>
-  <a href="https://github.com/rstudio/R-Websockets">GitHub package: websockets</a>
-  <a href="http://cran.r-project.org/src/contrib/Archive/websockets/">CRAN archived package: websockets</a>
-  <a href="https://github.com/ropengov/rsunlight">GitHub package: rsunlight</a>
-  <a href="https://github.com/ropengov/rtimes">GitHub package: rtimes</a>
-  <a href="https://github.com/jayjacobs/tldextract">Github package: tldextract</a>
-  <a href="https://bitbucket.org/sulab/mygene.r/overview">Bitbucket package: mygene.r</a>
-  <a href="https://github.com/gustavobio/tpl">Github package: tpl</a>
-  <a href="https://github.com/joyofdata/RTwitterAPI">Github package: RTwitterAPI</a>
 </links>
 
 </CRANTaskView>
