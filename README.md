@@ -1611,4 +1611,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
 -   [CRAN archived package:
     NCBI2R](http://cran.rstudio.com/src/contrib/Archive/NCBI2R/)
+-   [CRAN archived package:
+    htmltab](http://cran.rstudio.com/src/contrib/Archive/htmltab/)
 
