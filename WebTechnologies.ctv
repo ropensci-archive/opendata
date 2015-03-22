@@ -27,7 +27,7 @@ Tools for Working with the Web from R
 <em>JSON I/O</em>: JSON is <em>javascript object notation</em>. There are three packages for reading and writing JSON: <pkg>rjson</pkg>, <pkg>RJSONIO</pkg>, and <pkg>jsonlite</pkg>. <pkg>jsonlite</pkg> includes a different parser from <pkg>RJSONIO</pkg> called <a href="https://lloyd.github.io/yajl/">yajl</a>. We recommend using <pkg>jsonlite</pkg>. Check out the paper describing jsonlite by Jeroen Ooms <a href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>.
 </li>
 <li>
-<em>XML/HTML I/O</em>: The package <a href="https://github.com/hadley/xml2">xml2</a> in development will likely by the go to package for XML parsing soon, but <pkg>XML</pkg> may be the place to go for lower level manipulation of XML. The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>XML::readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. The <pkg>XML2R</pkg> package is a collection of convenient functions for coercing XML into data frames (development version <a href="https://github.com/cpsievert/XML2R">on GitHub</a>). An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements. <ohat>RHTMLForms</ohat> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields. <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents. <pkg>htmltab</pkg> extracts structured information from HTML tables, similar to <code>XML::readHTMLTable</code> of the <pkg>XML</pkg> package, but  automatically expands row and column spans in the header and body cells, and users are given more control over the identification of header and body rows which will end up in the R table.
+<em>XML/HTML I/O</em>: The package <a href="https://github.com/hadley/xml2">xml2</a> in development will likely by the go to package for XML parsing soon, but <pkg>XML</pkg> may be the place to go for lower level manipulation of XML. The package <pkg>XML</pkg> contains functions for parsing XML and HTML, and supports xpath for searching XML (think regex for strings). A helpful function to read data from one or more HTML tables is <code>XML::readHTMLTable()</code>. <pkg>XML</pkg> also includes <a href="http://www.w3schools.com/xpath/">XPATH</a> parsing ability, see <code>xpathApply()</code> and <code>xpathSApply()</code>. The <pkg>XML2R</pkg> package is a collection of convenient functions for coercing XML into data frames (development version <a href="https://github.com/cpsievert/XML2R">on GitHub</a>). An alternative to <pkg>XML</pkg> is <a href="http://sjp.co.nz/projects/selectr/">selectr</a>, which parses CSS3 Selectors and translates them to XPath 1.0 expressions. <pkg>XML</pkg> package is often used for parsing xml and html, but <a href="http://sjp.co.nz/projects/selectr/">selectr</a> translates CSS selectors to XPath, so can use the CSS selectors instead of XPath. The  <a href="http://selectorgadget.com/">selectorgadget browser extension</a> can be used to identify page elements. <ohat>RHTMLForms</ohat> reads HTML documents and obtains a description of each of the forms it contains, along with the different elements and hidden fields. <pkg>scrapeR</pkg> provides additional tools for scraping data from HTML and XML documents. <a href="http://cran.rstudio.com/src/contrib/Archive/htmltab/">htmltab</a> extracts structured information from HTML tables, similar to <code>XML::readHTMLTable</code> of the <pkg>XML</pkg> package, but  automatically expands row and column spans in the header and body cells, and users are given more control over the identification of header and body rows which will end up in the R table.
 </li>
 <li>
 <pkg>rvest</pkg>: rvest scrapes html from web pages, and is designed to work with <pkg>magrittr</pkg> to make it easy to express common web scraping tasks. <a href="https://github.com/hadley/rvest">Source on GitHub</a>
@@ -866,7 +866,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.
 </li>
 <li>
-<pkg>NCBI2R</pkg>: Annotates lists of SNPs and/or genes, with current information from NCBI.
+<a href="http://cran.rstudio.com/src/contrib/Archive/NCBI2R/">NCBI2R</a>: Annotates lists of SNPs and/or genes, with current information from NCBI. The CRAN version is archived.
 </li>
 <li>
 <pkg>rentrez</pkg>: Talk with NCBI Eutils API using R. This is probably the best package to interact with NCBI EUtils. You can get data across all the databases in NCBI EUtils. <a href="https://github.com/ropensci/rentrez">Source on Github</a>
@@ -1127,7 +1127,6 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>GuardianR</pkg>
   <pkg>hddtools</pkg>
   <pkg>hoardeR</pkg>
-  <pkg>htmltab</pkg>
   <pkg>httpRequest</pkg>
   <pkg>httpuv</pkg>
   <pkg>IBrokers</pkg>
@@ -1140,7 +1139,6 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>marmap</pkg>
   <pkg>meteoForecast</pkg>
   <pkg>MTurkR</pkg>
-  <pkg>NCBI2R</pkg>
   <pkg>ngramr</pkg>
   <pkg>nhlscrapr</pkg>
   <pkg>OAIHarvester</pkg>
@@ -1272,6 +1270,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <a href="http://cran.r-project.org/src/contrib/Archive/Metadata/">CRAN archived package: Metadata</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">CRAN archived package: infochimps</a>
   <a href="http://cran.r-project.org/src/contrib/Archive/RLastFM/">CRAN archived package: RLastFM</a>
+  <a href="http://cran.rstudio.com/src/contrib/Archive/NCBI2R/">CRAN archived package: NCBI2R</a>
 </links>
 
 </CRANTaskView>

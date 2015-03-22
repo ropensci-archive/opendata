@@ -91,7 +91,7 @@ Tools for Working with the Web from R
     [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
     provides additional tools for scraping data from HTML and XML
     documents.
-    [htmltab](http://cran.r-project.org/web/packages/htmltab/index.html)
+    [htmltab](http://cran.rstudio.com/src/contrib/Archive/htmltab/)
     extracts structured information from HTML tables, similar to
     `XML::readHTMLTable` of the
     [XML](http://cran.r-project.org/web/packages/XML/index.html)
@@ -1189,9 +1189,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html):
     Information retrieval from NCBI databases, with main focus on Blast.
--   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html):
+-   [NCBI2R](http://cran.rstudio.com/src/contrib/Archive/NCBI2R/):
     Annotates lists of SNPs and/or genes, with current information from
-    NCBI.
+    NCBI. The CRAN version is archived.
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html):
     Talk with NCBI Eutils API using R. This is probably the best package
     to interact with NCBI EUtils. You can get data across all the
@@ -1452,7 +1452,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
 -   [hddtools](http://cran.r-project.org/web/packages/hddtools/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
--   [htmltab](http://cran.r-project.org/web/packages/htmltab/index.html)
 -   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html)
 -   [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
 -   [httr](http://cran.r-project.org/web/packages/httr/index.html)
@@ -1469,7 +1468,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html)
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
 -   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
--   [NCBI2R](http://cran.r-project.org/web/packages/NCBI2R/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
@@ -1611,4 +1609,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/)
 -   [CRAN archived package:
     RLastFM](http://cran.r-project.org/src/contrib/Archive/RLastFM/)
+-   [CRAN archived package:
+    NCBI2R](http://cran.rstudio.com/src/contrib/Archive/NCBI2R/)
 
