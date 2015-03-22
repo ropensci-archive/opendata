@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-03-09
+  **Version:**      2015-03-22
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -450,15 +450,20 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#depots" name="depots">#</a> Data Depots
 
+-   [boxr](https://github.com/brendan-R/boxr): A lightweight, high-level
+    R interface for the [box.com API](https://developers.box.com/docs/).
+    [Source on GitHub](https://github.com/brendan-R/boxr).
 -   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
     interact with the CKAN data portal software API (
     <http://ckan.org/>). Allows user to swap out the base URL to use any
-    CKAN instance.
+    CKAN instance. [Source on
+    GitHub](https://github.com/ropensci/ckanr).
 -   [dataone](http://cran.r-project.org/src/contrib/Archive/dataone/):
     Read/write access to data and metadata from the [DataONE
     network](https://www.dataone.org/) of Member Node data repositories.
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
-    Provides access to The Dataverse Network API.
+    Provides access to The Dataverse Network API. [Source on
+    GitHub](https://github.com/ropensci/dvn).
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
     Thin wrapper for the [Factual.com](http://factual.com/) server API.
 -   [infochimps](http://cran.r-project.org/src/contrib/Archive/infochimps/):
@@ -467,7 +472,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Development is available on GitHub
     [here](https://github.com/drewconway/infochimps).
 -   [internetarchive](https://github.com/lmullen/internetarchive) (not
-    on CRAN): API client for internet archive metadata.
+    on CRAN): API client for internet archive metadata. [Source on
+    GitHub](https://github.com/ropensci/internetarchive).
 -   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html):
     Enables users to access MongoDB by running queries and returning
     their results in R data frames. jSonarR uses data processing and
@@ -481,13 +487,15 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
     Fetches data from DataMarket.com, either as timeseries in zoo form
     (dmseries) or as long-form data frames (dmlist).
--   [rerddap](https://github.com/ropensci/rerddap): A generic R client
-    to interact with any ERDDAP instance, which is a special case of
-    OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>), or *Open-source
-    Project for a Network Data Access Protocol* . Allows user to swap
-    out the base URL to use any ERDDAP instance.
+-   [rerddap](https://github.com/ropensci/rerddap) (not on CRAN): A
+    generic R client to interact with any ERDDAP instance, which is a
+    special case of OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>),
+    or *Open-source Project for a Network Data Access Protocol* . Allows
+    user to swap out the base URL to use any ERDDAP instance. [Source on
+    GitHub](https://github.com/ropensci/rerddap).
 -   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
     Programmatic interface for [Figshare.com](http://figshare.com/).
+    [Source on GitHub](https://github.com/ropensci/rfigshare).
 -   [RSocrata](http://cran.r-project.org/src/contrib/Archive/RSocrata/):
     (temporarily archived on CRAN for email bounce) Provided with a
     Socrata dataset resource URL, or a Socrata SoDA web API query,
@@ -805,6 +813,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     API. From their website: "Bitcoincharts provides financial and
     technical data related to the Bitcoin network and this data can be
     accessed via a JSON application programming interface (API)."
+-   [Rblpapi](https://github.com/armstrtw/Rblpapi): R client for
+    Bloomberg Finance L.P. [Source on
+    GitHub](https://github.com/armstrtw/Rblpapi)
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
     Wraps the API for the [Cryptsy](http://www.cryptsy.com)
     crypto-currency trading platform. [Source on
@@ -867,6 +878,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Wrapper for Nokia's [HERE](http://here.com/) geocoding API. API
     docs: <https://developer.here.com/geocoder>. [Source on
     Github](https://github.com/corynissen/geocodeHERE)
+-   [ipapi](https://github.com/hrbrmstr/ipapi): Geolocate IPv4/6
+    addresses and/or domain names using the
+    [ip-api.com](http://ip-api.com/) API. [Source on
+    GitHub](https://github.com/hrbrmstr/ipapi)
 
 ### <a href="#google" name="google">#</a> Google Web Services
 
@@ -889,6 +904,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     A Google JSON data interpreter for R which contains a suite of
     helper functions for obtaining data from the Google Maps API JSON
     objects.
+-   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html):
+    Download Google Sheets using just the sharing link. Spreadsheets can
+    be downloaded as a data frame, or as plain text to parse manually.
+    [Source on GitHub](https://github.com/maxconway/gsheet)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html):
     Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
     Maps.
@@ -943,6 +962,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     through the data catalogue and to download the data directly from
     within R. Development version on GitHub
     [here](https://github.com/dirkschumacher/RBerlinData).
+-   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice
+    Statistics (BJS) data in R. [Source on
+    GitHub](https://github.com/JakeRuss/bjs2r).
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A
     package to access the [StatBank
     API](http://www.statistikbanken.dk/statbank5a/) from [Statistics
@@ -1426,6 +1448,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
+-   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
 -   [hddtools](http://cran.r-project.org/web/packages/hddtools/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)

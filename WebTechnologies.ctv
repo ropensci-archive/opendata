@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-03-09</version>
+<version>2015-03-22</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -264,13 +264,16 @@ This is a commercial server that allows one to store content and retrieve it fro
 
 <ul>
 <li>
-<a href="https://github.com/ropensci/ckanr">ckanr</a>: A generic R client to interact with the CKAN data portal software API (<a href="http://ckan.org/">http://ckan.org/</a>). Allows user to swap out the base URL to use any CKAN instance.
+<a href="https://github.com/brendan-R/boxr">boxr</a>: A lightweight, high-level R interface for the <a href="https://developers.box.com/docs/">box.com API</a>. <a href="https://github.com/brendan-R/boxr">Source on GitHub</a>.
+</li>
+<li>
+<a href="https://github.com/ropensci/ckanr">ckanr</a>: A generic R client to interact with the CKAN data portal software API (<a href="http://ckan.org/">http://ckan.org/</a>). Allows user to swap out the base URL to use any CKAN instance. <a href="https://github.com/ropensci/ckanr">Source on GitHub</a>.
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/dataone/">dataone</a>: Read/write access to data and metadata from the <a href="https://www.dataone.org/">DataONE network</a> of Member Node data repositories.
 </li>
 <li>
-<pkg>dvn</pkg>: Provides access to The Dataverse Network API.
+<pkg>dvn</pkg>: Provides access to The Dataverse Network API. <a href="https://github.com/ropensci/dvn">Source on GitHub</a>.
 </li>
 <li>
 <pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.
@@ -279,7 +282,7 @@ This is a commercial server that allows one to store content and retrieve it fro
 <a href="http://cran.r-project.org/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.
 </li>
 <li>
-<a href="https://github.com/lmullen/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata.
+<a href="https://github.com/lmullen/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata. <a href="https://github.com/ropensci/internetarchive">Source on GitHub</a>.
 </li>
 <li>
 <pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.
@@ -291,10 +294,10 @@ This is a commercial server that allows one to store content and retrieve it fro
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
 </li>
 <li>
-<a href="https://github.com/ropensci/rerddap">rerddap</a>: A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance.
+<a href="https://github.com/ropensci/rerddap">rerddap</a> (not on CRAN): A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance. <a href="https://github.com/ropensci/rerddap">Source on GitHub</a>.
 </li>
 <li>
-<pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>.
+<pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>. <a href="https://github.com/ropensci/rfigshare">Source on GitHub</a>.
 </li>
 <li>
 <a href="http://cran.r-project.org/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.
@@ -528,6 +531,9 @@ The <ohat>Zillow</ohat> package provides an R interface to the <a href="http://w
 <pkg>rbitcoinchartsapi</pkg>: An R package for the <a href="http://bitcoincharts.com/">BitCoinCharts.com</a> API. From their website: "Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API)."
 </li>
 <li>
+<a href="https://github.com/armstrtw/Rblpapi">Rblpapi</a>: R client for Bloomberg Finance L.P. <a href="https://github.com/armstrtw/Rblpapi">Source on GitHub</a>
+</li>
+<li>
 <pkg>RCryptsy</pkg> Wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. <a href="https://github.com/ropensci/RCryptsy">Source on GitHub</a>.
 </li>
 <li>
@@ -587,6 +593,9 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 <li>
 <pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="http://here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/geocoder">https://developer.here.com/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on Github</a>
 </li>
+<li>
+<a href="https://github.com/hrbrmstr/ipapi">ipapi</a>: Geolocate IPv4/6 addresses and/or domain names using the <a href="http://ip-api.com/">ip-api.com</a> API. <a href="https://github.com/hrbrmstr/ipapi">Source on GitHub</a>
+</li>
 </ul>
 
 
@@ -610,6 +619,9 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 </li>
 <li>
 <pkg>gooJSON</pkg>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
+</li>
+<li>
+<pkg>gsheet</pkg>: Download Google Sheets using just the sharing link. Spreadsheets can be downloaded as a data frame, or as plain text to parse manually. <a href="https://github.com/maxconway/gsheet">Source on GitHub</a>
 </li>
 <li>
 <pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.
@@ -651,6 +663,9 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 </li>
 <li>
 <pkg>BerlinData</pkg>: Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. Development version on GitHub <a href="https://github.com/dirkschumacher/RBerlinData">here</a>.
+</li>
+<li>
+<a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R. <a href="https://github.com/JakeRuss/bjs2r">Source on GitHub</a>.
 </li>
 <li>
 <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>.
@@ -1108,6 +1123,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>googleVis</pkg>
   <pkg>gooJSON</pkg>
   <pkg>govStatJPN</pkg>
+  <pkg>gsheet</pkg>
   <pkg>GuardianR</pkg>
   <pkg>hddtools</pkg>
   <pkg>hoardeR</pkg>
