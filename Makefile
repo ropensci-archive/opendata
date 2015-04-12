@@ -7,7 +7,7 @@ whisker:
 	Rscript --vanilla -e 'source("whiskerit.R")'
 
 ctv2html:
-	Rscript --vanilla -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); library("ctv"); ctv2html("WebTechnologies.ctv", file = "WebTechnologies.html")'
+	Rscript --vanilla -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); library("ctv"); options(repos=structure(c(CRAN="http://cran.rstudio.com/"))); ctv2html("WebTechnologies.ctv", file = "WebTechnologies.html")'
 
 sed:
 	mv WebTechnologies.html doc.html
