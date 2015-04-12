@@ -645,6 +645,9 @@ The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package
 <pkg>gooJSON</pkg>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
 </li>
 <li>
+<a href="https://github.com/jennybc/googlesheets">googlesheets</a> (not on CRAN): Access private or public Google Sheets by title, key, or URL. Extract data or edit data. Create, delete, rename, copy, upload, or download spreadsheets and worksheets. <a href="https://github.com/jennybc/googlesheets">Source on GitHub</a>
+</li>
+<li>
 <pkg>gsheet</pkg>: Download Google Sheets using just the sharing link. Spreadsheets can be downloaded as a data frame, or as plain text to parse manually. <a href="https://github.com/maxconway/gsheet">Source on GitHub</a>
 </li>
 <li>
