@@ -939,6 +939,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     A Google JSON data interpreter for R which contains a suite of
     helper functions for obtaining data from the Google Maps API JSON
     objects.
+-   [googlesheets](https://github.com/jennybc/googlesheets): Access private or public
+    Google Sheets by title, key, or URL. Extract data or edit data. Create, delete,
+    rename, copy, upload, or download spreadsheets and worksheets.
 -   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html):
     Download Google Sheets using just the sharing link. Spreadsheets can
     be downloaded as a data frame, or as plain text to parse manually.
