@@ -4,7 +4,7 @@ CRAN Task View: Web Technologies and Services
   ----------------- ----------------------------------------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-04-12
+  **Version:**      2015-04-13
   ----------------- ----------------------------------------------------------------------------------
 
 
@@ -347,6 +347,11 @@ Tools for Working with the Web from R
 -   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html):
     Tools for creating D3 JavaScript network, tree, dendrogram, and
     Sankey graphs from R.
+-   [V8](http://cran.r-project.org/web/packages/V8/index.html): Embedded
+    Javascript engine. An R interface to Google's open source, high
+    performance JavaScript engine. Can wrap Javascript libraries as well
+    as NPM packages. [Source on
+    Github](https://github.com/jeroenooms/v8)
 
 ### Code sharing
 
@@ -1293,8 +1298,12 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Sending push notifications to mobile devices (iOS and Android) and
     desktop using [Pushover](https://pushover.net/). [Source on
     GitHub](https://github.com/briandconnelly/pushoverr)
--   [rDrop](https://github.com/karthikram/rDrop) (not on CRAN): Dropbox
-    interface.
+-   [rDrop2](https://github.com/karthik/rdrop2) (not on CRAN): Dropbox
+    interface from R. Provides access to a full suite of file
+    operations, including dir/copy/move/delete operations, account
+    information (including quotas) and the ability to upload and
+    download files from any Dropbox account. [Source on
+    GitHub](https://github.com/karthik/rdrop2)
 -   [redcapAPI](http://cran.r-project.org/web/packages/redcapAPI/index.html):
     Access data stored in REDCap databases using an API. REDCap
     (Research Electronic Data CAPture) is a web application for building
@@ -1633,6 +1642,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
 -   [urltools](http://cran.r-project.org/web/packages/urltools/index.html)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
+-   [V8](http://cran.r-project.org/web/packages/V8/index.html)
 -   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)

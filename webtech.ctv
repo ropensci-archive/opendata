@@ -3,7 +3,7 @@
 <name>WebTechnologies</name>
 <topic>Web Technologies and Services</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
-<version>2015-04-12</version>
+<version>2015-04-13</version>
 
 <info> This task view contains information about using R to obtain and parse data from the web. The base version of R does not ship with many tools for interacting with the web. Thankfully, there are an increasingly large number of tools for interacting with the web. A list of available packages and functions is presented below, grouped by the type of activity.
 
@@ -170,6 +170,9 @@ The <ohat>SpiderMonkey</ohat> package provides a means of evaluating JavaScript 
 </li>
 <li>
 <pkg>d3Network</pkg>: Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.
+</li>
+<li>
+<pkg>V8</pkg>: Embedded Javascript engine. An R interface to Google's open source, high performance JavaScript engine. Can wrap Javascript libraries as well as NPM packages. <a href="https://github.com/jeroenooms/v8">Source on Github</a>
 </li>
 </ul>
 
@@ -949,7 +952,7 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <pkg>pushoverr</pkg>: Sending push notifications to mobile devices (iOS and Android) and desktop using <a href="https://pushover.net/">Pushover</a>. <a href="https://github.com/briandconnelly/pushoverr">Source on GitHub</a>
 </li>
 <li>
-<a href="https://github.com/karthikram/rDrop">rDrop</a> (not on CRAN): Dropbox interface.
+<a href="https://github.com/karthik/rdrop2">rDrop2</a> (not on CRAN): Dropbox interface from R. Provides access to a full suite of file operations, including dir/copy/move/delete operations, account information (including quotas) and the ability to upload and download files from any Dropbox account. <a href="https://github.com/karthik/rdrop2">Source on GitHub</a>
 </li>
 <li>
 <pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">Source on GitHub</a> .
