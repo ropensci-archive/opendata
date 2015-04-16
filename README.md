@@ -241,6 +241,8 @@ Tools for Working with the Web from R
     Web Services.
 -   The [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
     package makes it easy to build interactive web applications with R.
+-   [rcloud](https://github.com/att/rcloud) (not on CRAN) provides an
+    iPython notebook-style web-based R interface.
 -   The [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
     web server interface contains the specification and convenience
     software for building and running Rook applications.
@@ -1593,8 +1595,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
--   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
+-   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
 -   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)

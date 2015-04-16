@@ -104,6 +104,9 @@ Using web resources can require authentication, either via API keys, OAuth, user
 The <pkg>shiny</pkg> package makes it easy to build interactive web applications with R.
 </li>
 <li>
+<a href="https://github.com/att/rcloud">rcloud</a> (not on CRAN) provides an iPython notebook-style web-based R interface.
+</li>
+<li>
 The <pkg>Rook</pkg> web server interface contains the specification and convenience software for building and running Rook applications.
 </li>
 <li>
@@ -1240,8 +1243,8 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rLTP</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
-  <pkg>rnoaa</pkg>
   <pkg>rNOMADS</pkg>
+  <pkg>rnoaa</pkg>
   <pkg>rnrfa</pkg>
   <pkg>ROAuth</pkg>
   <pkg>Rook</pkg>
