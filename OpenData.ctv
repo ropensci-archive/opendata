@@ -9,9 +9,9 @@
 
 Another key issue in a data-focused TaskView is the meaning of "open" data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to "freely available" data that is available at no cost but may have licenses that are not strictly speaking "open". Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application.
 
-If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata_content/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata_content/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
-If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/webservices/wiki/ToDo">the package development to do list on GitHub</a>.
+If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/opendata/wiki/ToDo">the package development to do list on GitHub</a>.
 
 <h2>
 Data Discovery and Data Archiving
@@ -1113,8 +1113,8 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>RJSDMX</pkg>
   <pkg>rnbn</pkg>
   <pkg>RNCEP</pkg>
-  <pkg>rNOMADS</pkg>
   <pkg>rnoaa</pkg>
+  <pkg>rNOMADS</pkg>
   <pkg>rnrfa</pkg>
   <pkg>ropensecretsapi</pkg>
   <pkg>rPlant</pkg>
@@ -1181,7 +1181,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </packagelist>
 
 <links>
-  <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies TaskView</a>    
+  <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies TaskView</a>
 </links>
 
 </CRANTaskView>

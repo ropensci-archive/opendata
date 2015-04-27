@@ -1,7 +1,7 @@
 {
     "CRANTaskView": {
         "name": {
-            "$t": "WebTechnologies"
+            "$t": "OpenData"
         },
         "topic": {
             "$t": "Web Technologies and Services"
@@ -22,11 +22,11 @@
             ],
             "a": [
                 {
-                    "href": "https://github.com/ropensci/webservices/issues",
+                    "href": "https://github.com/ropensci/opendata/issues",
                     "$t": "submit an issue"
                 },
                 {
-                    "href": "https://github.com/ropensci/webservices/pulls",
+                    "href": "https://github.com/ropensci/opendata/pulls",
                     "$t": "submit a pull request"
                 },
                 {
