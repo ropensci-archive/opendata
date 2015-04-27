@@ -82,7 +82,7 @@ Data discovery involves the identification and retrieval of publicly available d
 Data Packages
 </h2>
 
-Various R packages make open datasets available directly in R. These are useful both for demonstrating R functionality but may also be useful in their own right. The <strong>datasets</strong> package (as part of the base R distribution) contains many such datasets, though most are small in size. The following packages contain more substantial datasets.
+Various R packages make open datasets available directly in R. These are useful both for demonstrating R functionality but may also be useful in their own right. The <pkg>datasets</pkg> package (as part of the base R distribution) contains many such datasets, though most are small in size. The following packages contain more substantial datasets.
 
 <ul>
 <li>

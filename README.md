@@ -121,8 +121,7 @@ Data Packages
 Various R packages make open datasets available directly in R. These are
 useful both for demonstrating R functionality but may also be useful in
 their own right. The
-### datasets
-
+[datasets](http://cran.r-project.org/web/packages/datasets/index.html)
 package (as part of the base R distribution) contains many such
 datasets, though most are small in size. The following packages contain
 more substantial datasets.
@@ -1235,6 +1234,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
+-   [datasets](http://cran.r-project.org/web/packages/datasets/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
 -   [Devore7](http://cran.r-project.org/web/packages/Devore7/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
