@@ -301,6 +301,10 @@ Tools for Working with the Web from R
     (SaaS) to host and run
     [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
     statistical report templates in the cloud.
+-   [radiant](http://cran.r-project.org/web/packages/radiant/index.html)
+    is Shiny-based GUI for R that runs in a browser from a server or
+    local machine. Development version on
+    [Github](https://github.com/vnijs/radiant).
 -   [neocities](https://github.com/seankross/neocities) wraps the API
     for the [Neocities](https://neocities.org/) web hosting service.
     (not on CRAN)
@@ -1556,6 +1560,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
+-   [radiant](http://cran.r-project.org/web/packages/radiant/index.html)
 -   [RAdwords](http://cran.r-project.org/web/packages/RAdwords/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rainfreq](http://cran.r-project.org/web/packages/rainfreq/index.html)

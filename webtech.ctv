@@ -138,6 +138,9 @@ The <pkg>RSelenium</pkg> package (development version on GitHub <a href="https:/
 <a href="http://rapporter.net">rapporter.net</a> provides an online environment (SaaS) to host and run <pkg>rapport</pkg> statistical report templates in the cloud.
 </li>
 <li>
+<pkg>radiant</pkg> is Shiny-based GUI for R that runs in a browser from a server or local machine. Development version on <a href="https://github.com/vnijs/radiant">Github</a>.
+</li>
+<li>
 <a href="https://github.com/seankross/neocities">neocities</a> wraps the API for the <a href="https://neocities.org/">Neocities</a> web hosting service. (not on CRAN)
 </li>
 <li>
