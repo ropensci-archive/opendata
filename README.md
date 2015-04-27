@@ -1,382 +1,281 @@
-CRAN Task View: Web Technologies and Services
----------------------------------------------
+CRAN Task View: Open Data
+-------------------------
 
-  ----------------- ----------------------------------------------------------------------------------
-  **Maintainer:**   Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud
+  ----------------- ----------------------------------
+  **Maintainer:**   Scott Chamberlain, Thomas Leeper
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-04-13
-  ----------------- ----------------------------------------------------------------------------------
+  **Version:**      2015-04-27
+  ----------------- ----------------------------------
 
 
 
-This task view contains information about using R to obtain and parse
-data from the web. The base version of R does not ship with many tools
-for interacting with the web. Thankfully, there are an increasingly
-large number of tools for interacting with the web. A list of available
-packages and functions is presented below, grouped by the type of
-activity. If you have any comments or suggestions for additions or
+This task view contains information about using R to obtain, parse,
+manipulate, create, and share open data. The focus here is on data
+discovery, data archiving, open data available in R packages, and
+packages designed for working with specific types of open data. Much
+open data is available on the web, and the
+[WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html)
+TaskView addresses how to obtain and parse web-based data. There is
+obvious overlap between the two TaskViews, so some packages are
+described on both. Another key issue in a data-focused TaskView is the
+meaning of "open" data. This TaskView covers many types of data that
+come with varying degrees of usage restrictions from public domain (or
+CC-0) data that is useable for any purpose to "freely available" data
+that is available at no cost but may have licenses that are not strictly
+speaking "open". Users should investigate the terms of use and licensing
+of any data referenced here before using it for any particular
+application. If you have any comments or suggestions for additions or
 improvements for this taskview, go to GitHub and [submit an
-issue](https://github.com/ropensci/webservices/issues), or make some
+issue](https://github.com/ropensci/opendata/issues), or make some
 changes and [submit a pull
-request](https://github.com/ropensci/webservices/pulls). If you can't
+request](https://github.com/ropensci/opendata/pulls). If you can't
 contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
 contact the maintainer of that package. If you know of a web service,
 API, data source, or other online resource that is not yet supported by
 an R package, consider adding it to [the package development to do list
 on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
-Tools for Working with the Web from R
--------------------------------------
+Data Discovery and Data Archiving
+---------------------------------
 
-### Parsing Data from the Web
+Data discovery involves the identification and retrieval of publicly
+available data. Data archiving involves the production and dissemination
+of open data. The tools below may be useful for one or both of these
+tasks.
+-   [boxr](https://github.com/brendan-R/boxr): A lightweight, high-level
+    R interface for the [box.com API](https://developers.box.com/docs/).
+    [Source on GitHub](https://github.com/brendan-R/boxr).
+-   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
+    interact with the CKAN data portal software API (
+    <http://ckan.org/>). Allows user to swap out the base URL to use any
+    CKAN instance. [Source on
+    GitHub](https://github.com/ropensci/ckanr).
+-   [dataone](http://cran.rstudio.com/src/contrib/Archive/dataone/):
+    Read/write access to data and metadata from the [DataONE
+    network](https://www.dataone.org/) of Member Node data repositories.
+-   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
+    Provides access to The Dataverse Network API. [Source on
+    GitHub](https://github.com/ropensci/dvn).
+-   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
+    Thin wrapper for the [Factual.com](http://factual.com/) server API.
+-   [googlesheets](https://github.com/jennybc/googlesheets) (not on
+    CRAN): Access private or public Google Sheets by title, key, or URL.
+    Extract data or edit data. Create, delete, rename, copy, upload, or
+    download spreadsheets and worksheets. [Source on
+    GitHub](https://github.com/jennybc/googlesheets)
+-   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html):
+    Download Google Sheets using just the sharing link. Spreadsheets can
+    be downloaded as a data frame, or as plain text to parse manually.
+    [Source on GitHub](https://github.com/maxconway/gsheet)
+-   [infochimps](http://cran.rstudio.com/src/contrib/Archive/infochimps/):
+    An R wrapper for the infochimps.com API services, from [Drew
+    Conway](http://drewconway.com/). The CRAN version is archived.
+    Development is available on GitHub
+    [here](https://github.com/drewconway/infochimps).
+-   [internetarchive](https://github.com/lmullen/internetarchive) (not
+    on CRAN): API client for internet archive metadata. [Source on
+    GitHub](https://github.com/ropensci/internetarchive).
+-   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html):
+    Enables users to access MongoDB by running queries and returning
+    their results in R data frames. jSonarR uses data processing and
+    conversion capabilities in the jSonar Analytics Platform and the
+    [JSON Studio Gateway](http://www.jsonstudio.com), to convert JSON to
+    a tabular format.
+-   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html):
+    Harvest metadata using the Open Archives Initiative Protocol for
+    Metadata Harvesting (OAI-PMH).
+-   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
+    A package that interacts directly with the
+    [Quandl](http://www.quandl.com/) API to offer data in a number of
+    formats usable in R, as well as the ability to upload and search.
+-   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
+    Fetches data from DataMarket.com, either as timeseries in zoo form
+    (dmseries) or as long-form data frames (dmlist).
+-   [rDrop2](https://github.com/karthik/rdrop2) (not on CRAN): Dropbox
+    interface from R. Provides access to a full suite of file
+    operations, including dir/copy/move/delete operations, account
+    information (including quotas) and the ability to upload and
+    download files from any Dropbox account. [Source on
+    GitHub](https://github.com/karthik/rdrop2)
+-   [rerddap](https://github.com/ropensci/rerddap) (not on CRAN): A
+    generic R client to interact with any ERDDAP instance, which is a
+    special case of OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>),
+    or *Open-source Project for a Network Data Access Protocol* . Allows
+    user to swap out the base URL to use any ERDDAP instance. [Source on
+    GitHub](https://github.com/ropensci/rerddap).
+-   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
+    Programmatic interface for [Figshare.com](http://figshare.com/).
+    [Source on GitHub](https://github.com/ropensci/rfigshare).
+-   [RSocrata](http://cran.rstudio.com/src/contrib/Archive/RSocrata/):
+    (temporarily archived on CRAN for email bounce) Provided with a
+    Socrata dataset resource URL, or a Socrata SoDA web API query,
+    returns an R data frame. Converts dates to POSIX format. Supports
+    CSV and JSON. Manages throttling by Socrata.
+-   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
+    Lets you deploy, maintain, and invoke models via the
+    [Yhat](https://www.yhathq.com/) REST API.
 
--   *downloading files* : `download.file()` is in base R and commonly
-    used way to download a file. However, downloading files over HTTPS
-    is not supported in R's internal method for `download.file()`. The
-    `download()` function in the package
-    [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
-    wraps `download.file()`, and takes all the same arguments, but works
-    for https across platforms.
--   *tabular data as txt, csv, etc.* : You can use `read.table()`,
-    `read.csv()`, and friends to read a table directly from a URL, or
-    after acquiring the csv file from the web via e.g., `getURL()` from
-    RCurl. `read.csv()` works with http but not https, i.e.:
-    `read.csv("http://...")`, but not `read.csv("https://...")`. You can
-    download a file first before reading the file in R, and you can use
-    [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
-    to download over https. `read.table()` and friends also have a
-    `text` parameter so you can read a table if a table is encoded as a
-    string with line breaks, etc.
--   *JSON I/O* : JSON is *javascript object notation* . There are three
-    packages for reading and writing JSON:
-    [rjson](http://cran.r-project.org/web/packages/rjson/index.html),
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html),
+Data Packages
+-------------
+
+Various R packages make open datasets available directly in R. These are
+useful both for demonstrating R functionality but may also be useful in
+their own right. The
+### datasets
+
+package (as part of the base R distribution) contains many such
+datasets, though most are small in size. The following packages contain
+more substantial datasets.
+-   Various packages provide datasets intended for those working in
+    specific disciplines, such as
+    [archdata](http://cran.r-project.org/web/packages/archdata/index.html)
+    for archeaology,
+    [agridat](http://cran.r-project.org/web/packages/agridat/index.html)
+    for agriculture,
+    [astrodatR](http://cran.r-project.org/web/packages/astrodatR/index.html)
+    for astronomy,
+    [historydata](http://cran.r-project.org/web/packages/historydata/index.html)
+    for history,
+    [insuranceData](http://cran.r-project.org/web/packages/insuranceData/index.html)
+    for insurance,
+-   [babynames](http://cran.r-project.org/web/packages/babynames/index.html)
+    contains all U.S. baby names provided by the Social Security
+    Administration that were used for at least 5 children of either sex.
+-   [ergmharris](http://cran.r-project.org/web/packages/ergmharris/index.html)
+    contains a network data set consisting of 1283 local health
+    departments and the communication links among them along with
+    several attributes.
+-   [fds](http://cran.r-project.org/web/packages/fds/index.html) and
+    [Mcomp](http://cran.r-project.org/web/packages/Mcomp/index.html)
+    contain a variety of time series datasets.
+-   [gapminder](http://cran.r-project.org/web/packages/gapminder/index.html)
+    is an excerpt of the [Gapminder.org](http://www.gapminder.org)
+    dataset including life expectancy, GDP per capita, and population,
+    every five years, from 1952 to 2007, for 142 countries.
+-   [GCD](http://cran.r-project.org/web/packages/GCD/index.html)
+    contains the Global Charcoal database data. Data include charcoal
+    series (age, depth, charcoal quantity, associated units and methods)
+    and informations on sedimentary sites (localisation, depositional
+    environment, biome, etc.).
+-   [Guerry](http://cran.r-project.org/web/packages/Guerry/index.html)
+    contains spatial data from A.M. Guerry's "Moral Statistics of
+    France" (1833).
+-   [HistData](http://cran.r-project.org/web/packages/HistData/index.html)
+    offers various historical datasets, especially those related to data
+    visualization.
+-   [Lahman](http://cran.r-project.org/web/packages/Lahman/index.html)
+    provides tables from Sean Lahman's Baseball Database including data
+    on pitching, hitting, and fielding performance, etc. from 1871
+    through 2013.
+-   [MCAPS](http://cran.r-project.org/web/packages/MCAPS/index.html)
+    contains weather and air pollution data, risk estimates, and other
+    information from the Medicare Air Pollution Study (MCAPS) of 204
+    U.S. counties, 1999–2002.
+-   [nasaweather](http://cran.r-project.org/web/packages/nasaweather/index.html)
+    contains meteorological and atmospheric data from the ASA 2006 data
+    expo.
+-   [NHANES](http://cran.r-project.org/web/packages/NHANES/index.html)
+    body shape and related measurements from the US National Health and
+    Nutrition Examination Survey (NHANES, 1999-2004).
+-   [noncensus](http://cran.r-project.org/web/packages/noncensus/index.html)
+    contains data related to the U.S. Census.
+-   [nycflights13](http://cran.r-project.org/web/packages/nycflights13/index.html)
+    contains airline on-time data for all flights departing from New
+    York City in 2013.
+-   [QSARdata](http://cran.r-project.org/web/packages/QSARdata/index.html)
+    offers molecular descriptors and outcomes for several public domain
+    data sets.
+-   [randomNames](http://cran.r-project.org/web/packages/randomNames/index.html)
+    provides a dataset of frequency probabilities for first names by
+    gender and ethnicity and last names by ethnicity (e.g., for use in
+    anonymizing data).
+-   [rcorpora](http://cran.r-project.org/web/packages/rcorpora/index.html)
+    contains a 'corpora()' function that provides dozens of categorized
+    text corpora on a number of topics.
+-   [rUnemploymentData](http://cran.r-project.org/web/packages/rUnemploymentData/index.html)
+    contains U.S. unemployment data from the US Bureau of Labor
+    Statistics, 2000-2013.
+-   [SwissAir](http://cran.r-project.org/web/packages/SwissAir/index.html)
+    contains various air quality measures for 3 sites around lake of
+    Lucerne in Central Switzerland in 30 min time resolution for year
+    2004.
+-   [UScensus2010](http://cran.r-project.org/web/packages/UScensus2010/index.html)
+    and its related packages provide spatial data from the U.S. Census.
+-   [zipcode](http://cran.r-project.org/web/packages/zipcode/index.html)
+    contains a database of city, state, latitude, and longitude
+    information for U.S. ZIP codes from the CivicSpace Database.
+-   Various packages supply data to accompany general R instructional
+    materials (e.g., books) or other packages, including:
+    [alr3](http://cran.r-project.org/web/packages/alr3/index.html),
+    [alr4](http://cran.r-project.org/web/packages/alr4/index.html),
+    [aplore3](http://cran.r-project.org/web/packages/aplore3/index.html),
+    [aprean3](http://cran.r-project.org/web/packages/aprean3/index.html),
+    [BaM](http://cran.r-project.org/web/packages/BaM/index.html),
+    [BayesDA](http://cran.r-project.org/web/packages/BayesDA/index.html),
+    [blmeco](http://cran.r-project.org/web/packages/blmeco/index.html),
+    [cluster.datasets](http://cran.r-project.org/web/packages/cluster.datasets/index.html),
+    [Devore7](http://cran.r-project.org/web/packages/Devore7/index.html),
+    [eegkitdata](http://cran.r-project.org/web/packages/eegkitdata/index.html),
+    [ElemStatLearn](http://cran.r-project.org/web/packages/ElemStatLearn/index.html),
+    [EngrExpt](http://cran.r-project.org/web/packages/EngrExpt/index.html),
+    [expsmooth](http://cran.r-project.org/web/packages/expsmooth/index.html),
+    [Fahrmeir](http://cran.r-project.org/web/packages/Fahrmeir/index.html),
+    [faraway](http://cran.r-project.org/web/packages/faraway/index.html),
+    [fastR](http://cran.r-project.org/web/packages/fastR/index.html),
+    [FAwR](http://cran.r-project.org/web/packages/FAwR/index.html),
+    [Flury](http://cran.r-project.org/web/packages/Flury/index.html),
+    [fma](http://cran.r-project.org/web/packages/fma/index.html),
+    [gamair](http://cran.r-project.org/web/packages/gamair/index.html),
+    [gamlss.data](http://cran.r-project.org/web/packages/gamlss.data/index.html),
+    [GANPAdata](http://cran.r-project.org/web/packages/GANPAdata/index.html),
+    [gpk](http://cran.r-project.org/web/packages/gpk/index.html),
+    [HSAUR3](http://cran.r-project.org/web/packages/HSAUR3/index.html),
+    [igraphdata](http://cran.r-project.org/web/packages/igraphdata/index.html),
+    [isdals](http://cran.r-project.org/web/packages/isdals/index.html),
+    [KMSurv](http://cran.r-project.org/web/packages/KMSurv/index.html),
+    [languageR](http://cran.r-project.org/web/packages/languageR/index.html),
+    [learningr](http://cran.r-project.org/web/packages/learningr/index.html),
+    [LeLogicielR](http://cran.r-project.org/web/packages/LeLogicielR/index.html),
+    [Lock5Data](http://cran.r-project.org/web/packages/Lock5Data/index.html),
+    [MEMSS](http://cran.r-project.org/web/packages/MEMSS/index.html),
+    [MindOnStats](http://cran.r-project.org/web/packages/MindOnStats/index.html),
+    [mistat](http://cran.r-project.org/web/packages/mistat/index.html),
+    [mosaicData](http://cran.r-project.org/web/packages/mosaicData/index.html),
+    [MPDiR](http://cran.r-project.org/web/packages/MPDiR/index.html),
+    [MPV](http://cran.r-project.org/web/packages/MPV/index.html),
+    [MSG](http://cran.r-project.org/web/packages/MSG/index.html),
+    [msme](http://cran.r-project.org/web/packages/msme/index.html),
+    [msos](http://cran.r-project.org/web/packages/msos/index.html),
+    [NSM3](http://cran.r-project.org/web/packages/NSM3/index.html),
+    [nutshell](http://cran.r-project.org/web/packages/nutshell/index.html),
+    [OIdata](http://cran.r-project.org/web/packages/OIdata/index.html),
+    [openintro](http://cran.r-project.org/web/packages/openintro/index.html),
+    [PBImisc](http://cran.r-project.org/web/packages/PBImisc/index.html),
+    [qtlbook](http://cran.r-project.org/web/packages/qtlbook/index.html),
+    [RSADBE](http://cran.r-project.org/web/packages/RSADBE/index.html),
+    [SASmixed](http://cran.r-project.org/web/packages/SASmixed/index.html),
+    [SenSrivastava](http://cran.r-project.org/web/packages/SenSrivastava/index.html),
+    [Sleuth3](http://cran.r-project.org/web/packages/Sleuth3/index.html),
+    [SMCRM](http://cran.r-project.org/web/packages/SMCRM/index.html),
+    [smdata](http://cran.r-project.org/web/packages/smdata/index.html),
+    [smss](http://cran.r-project.org/web/packages/smss/index.html),
+    [Stat2Data](http://cran.r-project.org/web/packages/Stat2Data/index.html),
+    [synbreedData](http://cran.r-project.org/web/packages/synbreedData/index.html),
+    [TH.data](http://cran.r-project.org/web/packages/TH.data/index.html),
+    [TRSbook](http://cran.r-project.org/web/packages/TRSbook/index.html),
+    [UsingR](http://cran.r-project.org/web/packages/UsingR/index.html),
+    [VGAMdata](http://cran.r-project.org/web/packages/VGAMdata/index.html),
+    [wikibooks](http://cran.r-project.org/web/packages/wikibooks/index.html),
     and
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
-    includes a different parser from
-    [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
-    called [yajl](https://lloyd.github.io/yajl/). We recommend using
-    [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html).
-    Check out the paper describing jsonlite by Jeroen Ooms
-    <http://arxiv.org/abs/1403.2805>.
--   *XML/HTML I/O* : The package [xml2](https://github.com/hadley/xml2)
-    in development will likely by the go to package for XML parsing
-    soon, but
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) may be
-    the place to go for lower level manipulation of XML. The package
-    [XML](http://cran.r-project.org/web/packages/XML/index.html)
-    contains functions for parsing XML and HTML, and supports xpath for
-    searching XML (think regex for strings). A helpful function to read
-    data from one or more HTML tables is `XML::readHTMLTable()`.
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) also
-    includes [XPATH](http://www.w3schools.com/xpath/) parsing ability,
-    see `xpathApply()` and `xpathSApply()`. The
-    [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
-    package is a collection of convenient functions for coercing XML
-    into data frames (development version [on
-    GitHub](https://github.com/cpsievert/XML2R)). An alternative to
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) is
-    [selectr](http://sjp.co.nz/projects/selectr/), which parses CSS3
-    Selectors and translates them to XPath 1.0 expressions.
-    [XML](http://cran.r-project.org/web/packages/XML/index.html) package
-    is often used for parsing xml and html, but
-    [selectr](http://sjp.co.nz/projects/selectr/) translates CSS
-    selectors to XPath, so can use the CSS selectors instead of XPath.
-    The [selectorgadget browser extension](http://selectorgadget.com/)
-    can be used to identify page elements. [<span
-    class="Ohat">RHTMLForms</span>](http://www.Omegahat.org/RHTMLForms/)
-    reads HTML documents and obtains a description of each of the forms
-    it contains, along with the different elements and hidden fields.
-    [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
-    provides additional tools for scraping data from HTML and XML
-    documents.
-    [htmltab](http://cran.rstudio.com/src/contrib/Archive/htmltab/)
-    extracts structured information from HTML tables, similar to
-    `XML::readHTMLTable` of the
-    [XML](http://cran.r-project.org/web/packages/XML/index.html)
-    package, but automatically expands row and column spans in the
-    header and body cells, and users are given more control over the
-    identification of header and body rows which will end up in the R
-    table.
--   [rvest](http://cran.r-project.org/web/packages/rvest/index.html):
-    rvest scrapes html from web pages, and is designed to work with
-    [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
-    to make it easy to express common web scraping tasks. [Source on
-    GitHub](https://github.com/hadley/rvest)
--   The [tldextract](https://github.com/jayjacobs/tldextract) package
-    extract top level domains and subdomains from a host name. It's a
-    port of [a Python library of the same
-    name](https://github.com/john-kurkowski/tldextract).
--   [webutils](http://cran.r-project.org/web/packages/webutils/index.html):
-    Utility functions for developing web applications. Parsers for
-    `application/x-www-form-urlencoded` as well as
-    `multipart/form-data`. [Source on
-    GitHub](https://github.com/jeroenooms/webutils)
--   [urltools](http://cran.r-project.org/web/packages/urltools/index.html):
-    URL encoding, decoding, parsing, and parameter extraction. [Source
-    on GitHub](https://github.com/Ironholds/urltools)
--   The
-    [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
-    package contains a `source_data()` command to load and cache
-    plain-text data from a URL (either http or https). It also includes
-    `source_Dropbox()` for downloading/caching plain-text data from
-    non-public Dropbox folders and `source_XlsxData()` for
-    downloading/caching Excel xlsx sheets.
--   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
-    provides tools to read data and metadata documents exchanged through
-    the Statistical Data and Metadata Exchange (SDMX) framework. The
-    package currently focuses on the SDMX XML standard format (SDMX-ML).
-    [project website (Github)](https://github.com/opensdmx/rsdmx/wiki).
+    [WWGbook](http://cran.r-project.org/web/packages/WWGbook/index.html).
+    Note: only packages that primarily contain data (as opposed to
+    functions with minimal datasets as examples) are included here.
 
-### Curl, HTTP, FTP, HTML, XML, SOAP
+Web-based Open Data
+-------------------
 
--   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html): A
-    low level curl wrapper that allows one to compose general HTTP
-    requests and provides convenient functions to fetch URIs, get/post
-    forms, etc. and process the results returned by the Web server. This
-    provides a great deal of control over the HTTP/FTP connection and
-    the form of the request while providing a higher-level interface
-    than is available just using R socket connections. It also provide
-    tools for Web authentication.
--   [httr](http://cran.r-project.org/web/packages/httr/index.html): A
-    light wrapper around
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
-    that makes many things easier, but still allows you to access the
-    lower level functionality of
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html). It
-    has convenient http verbs: `GET()`, `POST()`, `PUT()`, `DELETE()`,
-    `PATCH()`, `HEAD()`, `BROWSE()`. These wrap functions are more
-    convenient to use, though less configurable than counterparts in
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html).
-    The equivalent of httr's `GET()` in
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) is
-    `getForm()`. Likewise, the equivalent of
-    [httr](http://cran.r-project.org/web/packages/httr/index.html) 's
-    `POST()` in
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) is
-    `postForm()`. http status codes are helpful for debugging http
-    calls. This package makes this easier using, for example,
-    `stop_for_status()` gets the http status code from a response
-    object, and stops the function if the call was not successful. See
-    also `warn_for_status()`. Note that you can pass in additional Curl
-    options to the `config` parameter in http calls.
--   [curl](http://cran.r-project.org/web/packages/curl/index.html): The
-    `curl` package has a function `curl()` that's a drop-in replacement
-    for base `url()` with better performance and support for http 2.0,
-    ssl (https, ftps), gzip, deflate and more. There's also a
-    replacement for `download.file()` called `download_curl()`. [Source
-    on GitHub](https://github.com/jeroenooms/curl)
--   The [<span
-    class="Ohat">XMLRPC</span>](http://www.Omegahat.org/XMLRPC/) package
-    provides an implementation of XML-RPC, a relatively simple remote
-    procedure call mechanism that uses HTTP and XML. This can be used
-    for communicating between processes on a single machine or for
-    accessing Web services from within R.
--   The [<span
-    class="Ohat">XMLSchema</span>](http://www.Omegahat.org/XMLSchema/)
-    package provides facilities in R for reading XML schema documents
-    and processing them to create definitions for R classes and
-    functions for converting XML nodes to instances of those classes. It
-    provides the framework for meta-computing with XML schema in R
--   [<span
-    class="Ohat">RTidyHTML</span>](http://www.Omegahat.org/RTidyHTML/)
-    interfaces to the libtidy library for correcting HTML documents that
-    are not well-formed. This library corrects common errors in HTML
-    documents.
--   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
-    provides an R Interface to W3C Markup Validation Services for
-    validating HTML documents.
--   [<span class="Ohat">SSOAP</span>](http://www.Omegahat.org/SSOAP/)
-    provides a client-side SOAP (Simple Object Access Protocol)
-    mechanism. It aims to provide a high-level interface to invoke SOAP
-    methods provided by a SOAP server.
--   [<span
-    class="Ohat">Rcompression</span>](http://www.Omegahat.org/Rcompression/):
-    Interface to zlib and bzip2 libraries for performing in-memory
-    compression and decompression in R. This is useful when receiving or
-    sending contents to remote servers, e.g. Web services, HTTP requests
-    via RCurl. (not on CRAN)
--   The [<span
-    class="Ohat">CGIwithR</span>](http://www.Omegahat.org/CGIwithR/)
-    package allows one to use R scripts as CGI programs for generating
-    dynamic Web content. HTML forms and other mechanisms to submit
-    dynamic requests can be used to provide input to R scripts via the
-    Web to create content that is determined within that R script. (not
-    on CRAN)
--   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html):
-    HTTP Request protocols. Implements the GET, POST and multipart POST
-    request.
-
-### Authentication
-
--   Using web resources can require authentication, either via API keys,
-    OAuth, username:password combination, or via other means.
-    Additionally, sometimes web resources that require authentication be
-    in the header of an http call, which requires a little bit of extra
-    work. API keys and username:password combos can be combined within a
-    url for a call to a web resource (api key:
-    http://api.foo.org/?key=yourkey; user/pass:
-    http://username:password@api.foo.org), or can be specified via
-    commands in
-    [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) or
-    [httr](http://cran.r-project.org/web/packages/httr/index.html).
-    OAuth is the most complicated authentication process, and can be
-    most easily done using
-    [httr](http://cran.r-project.org/web/packages/httr/index.html). See
-    the 6 demos within
-    [httr](http://cran.r-project.org/web/packages/httr/index.html),
-    three for OAuth 1.0 (linkedin, twitter, vimeo) and three for OAuth
-    2.0 (facebook, GitHub, google).
-    [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
-    is a package that provides a separate R interface to OAuth. OAuth is
-    easier to to do in
-    [httr](http://cran.r-project.org/web/packages/httr/index.html), so
-    start there.
-
-### Web Frameworks
-
--   [DeployR Open](http://deployr.revolutionanalytics.com/) is a
-    server-based framework for integrating R into other applications via
-    Web Services.
--   The [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
-    package makes it easy to build interactive web applications with R.
--   [rcloud](https://github.com/att/rcloud) (not on CRAN) provides an
-    iPython notebook-style web-based R interface.
--   The [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
-    web server interface contains the specification and convenience
-    software for building and running Rook applications.
--   The
-    [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
-    framework for embedded statistical computation and reproducible
-    research exposes a web API interfacing R, LaTeX and Pandoc. This API
-    is used for example to integrate statistical functionality into
-    systems, share and execute scripts or reports on centralized
-    servers, and build R based apps.
--   A package by [Yihui Xie](http://yihui.name/) called
-    [servr](http://cran.r-project.org/web/packages/servr/index.html)
-    provides a simple HTTP server to serve files under a given directory
-    based on the
-    [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
-    package.
--   The
-    [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
-    package, made by Joe Cheng at RStudio, provides low-level socket and
-    protocol support for handling HTTP and WebSocket requests directly
-    within R. Another related package, perhaps which
-    [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
-    replaces, is websockets, also made by Joe Cheng.
--   [websockets](https://github.com/rstudio/R-Websockets): A simple
-    HTML5 websocket interface for R, by Joe Cheng. Available in [CRAN
-    archives](http://cran.rstudio.com/src/contrib/Archive/websockets/).
--   Plot.ly is a company that allows you to create visualizations in the
-    web using R (and Python). They have an R package in development
-    [here](https://github.com/ropensci/plotly), as well as access to
-    their services via [a REST API](https://plot.ly/API/). (not on CRAN)
--   The [<span class="Ohat">WADL</span>](http://www.Omegahat.org/WADL/)
-    package provides tools to process Web Application Description
-    Language (WADL) documents and to programmatically generate R
-    functions to interface to the REST methods described in those WADL
-    documents. (not on CRAN)
--   The [<span
-    class="Ohat">RDCOMServer</span>](http://www.Omegahat.org/RDCOMServer/)
-    provides a mechanism to export R objects as (D)COM objects in
-    Windows. It can be used along with the [<span
-    class="Ohat">RDCOMClient</span>](http://www.Omegahat.org/RDCOMClient/)
-    package which provides user-level access from R to other COM
-    servers. (not on CRAN)
--   The
-    [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
-    package (development version on GitHub
-    [here](https://github.com/ropensci/RSelenium/)) provides a set of R
-    bindings for the Selenium 2.0 webdriver using the
-    [JsonWireProtocol](http://code.google.com/p/selenium/wiki/JsonWireProtocol).
-    Selenium automates browsers. Using RSelenium you can automate
-    browsers locally or remotely. This can aid in automated application
-    testing, load testing and web scraping. Examples are given
-    interacting with popular projects such as
-    [shiny](http://cran.rstudio.com/whttp://cran.r-project.org/web/packages/shiny/index.html)
-    and [sauceLabs](http://saucelabs.com).
--   [rapporter.net](http://rapporter.net) provides an online environment
-    (SaaS) to host and run
-    [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
-    statistical report templates in the cloud.
--   [radiant](http://cran.r-project.org/web/packages/radiant/index.html)
-    is Shiny-based GUI for R that runs in a browser from a server or
-    local machine. Development version on
-    [Github](https://github.com/vnijs/radiant).
--   [neocities](https://github.com/seankross/neocities) wraps the API
-    for the [Neocities](https://neocities.org/) web hosting service.
-    (not on CRAN)
--   The [Tiki](http://info.tiki.org/tiki-index.php) Wiki CMS/Groupware
-    framework has an R plugin ( [PluginR](https://doc.tiki.org/PluginR))
-    to run R code from wiki pages, and use data from their own collected
-    web databases (trackers). A demo:
-    [http://r.tiki.org](http://r.tiki.org/tiki-index.php). More info in
-    a [useR!2013 presentation](http://ueb.vhir.org/2011+UseR).
--   The [MediaWiki](http://www.mediawiki.org) has an extension (
-    [Extension:R](http://www.mediawiki.org/wiki/Extension:R)) to run R
-    code from wiki pages, and use uploaded data. Links to demo pages (in
-    German) can be found at the [category page for R
-    scripts](http://mars.wiwi.hu-berlin.de/mediawiki/mmstat_de/index.php/Kategorie:R)
-    at MM-Stat. A mailing list is available:
-    [R-sig-mediawiki](https://stat.ethz.ch/mailman/listinfo/r-sig-mediawiki).
--   [whisker](http://cran.r-project.org/web/packages/whisker/index.html):
-    Implementation of logicless templating based on
-    [Mustache](http://mustache.github.io/) in R. Mustache syntax is
-    described in <http://mustache.github.io/mustache.5.html>
-
-### JavaScript
-
--   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
-    makes it easy to describe interactive web graphics in R. It fuses
-    the ideas of ggplot2 and
-    [shiny](http://cran.r-project.org/web/packages/shiny/index.html),
-    rendering graphics on the web with Vega.
--   [rCharts](https://github.com/ramnathv/rCharts) (not on CRAN) allows
-    for interactive Javascript charts from R.
--   [rVega](https://github.com/metagraf/rVega) (not on CRAN) is an R
-    wrapper for Vega.
--   [clickme](https://github.com/nachocab/clickme) (not on CRAN) is an R
-    package to create interactive plots.
--   [animint](https://github.com/tdhock/animint) (not on CRAN) allows an
-    interactive animation to be defined using a list of ggplots with
-    clickSelects and showSelected aesthetics, then exported to
-    CSV/JSON/D3/JavaScript for viewing in a web browser.
--   The [<span
-    class="Ohat">SpiderMonkey</span>](http://www.Omegahat.org/SpiderMonkey/)
-    package provides a means of evaluating JavaScript code, creating
-    JavaScript objects and calling JavaScript functions and methods from
-    within R. This can work by embedding the JavaScript engine within an
-    R session or by embedding R in an browser such as Firefox and being
-    able to call R from JavaScript and call back to JavaScript from R.
--   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html):
-    Tools for creating D3 JavaScript network, tree, dendrogram, and
-    Sankey graphs from R.
--   [V8](http://cran.r-project.org/web/packages/V8/index.html): Embedded
-    Javascript engine. An R interface to Google's open source, high
-    performance JavaScript engine. Can wrap Javascript libraries as well
-    as NPM packages. [Source on
-    Github](https://github.com/jeroenooms/v8)
-
-### Code sharing
-
--   [gistr](http://cran.r-project.org/web/packages/gistr/index.html):
-    Work with GitHub gists (
-    [gist.github.com](https://gist.github.com/)) from R.
-    [gistr](http://cran.r-project.org/web/packages/gistr/index.html)
-    allows you to create new gists, update gists with new files, rename
-    files, delete files, get and delete gists, star and un-star gists,
-    fork gists, open a gist in your default browser, get embed code for
-    a gist, list gist commits, and get rate limit information when
-    authenticated. [Source on GitHub](https://github.com/ropensci/gistr)
-
-Data Sources on the Web Accessible via R
-----------------------------------------
-
-[Agriculture](#agr) | [Amazon web services](#amazon) | [Astronomy](#ast)
-| [Chemistry](#chemistry) | [Cloud hosting](#cloudhosting) | [Data
-depots](#depots) | [Data science tools](#datascience) | [Earth
+[Agriculture](#agr) | [Astronomy](#ast) | [Chemistry](#chemistry) |
+[Data depots](#depots) | [Data science tools](#datascience) | [Earth
 Science](#earthsci) | [Ecology/Evolution](#eeb) |
 [Economics/Business](#econbus) | [E-commerce](#ecommerce) |
 [Finance](#finance) | [Genes/Genomes](#genes) | [Geocoding](#geocoding)
@@ -398,35 +297,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     construct and aggregate agricultural statistics provided by the
     FAOSTAT (Food and Agricultural Organization of the United Nations)
     database.
-
-### <a href="#amazon" name="amazon">#</a> Amazon Web Services
-
--   [AWS.tools](http://cran.rstudio.com/src/contrib/Archive/AWS.tools/):
-    An R package to interact with Amazon Web Services (EC2/S3). The CRAN
-    version is archived. [Development version is available on
-    GitHub](https://github.com/armstrtw/AWS.tools)
--   [awsConnect](https://github.com/lalas/awsConnect) (not on CRAN):
-    Another package using the AWS Command Line Interface to control EC2
-    and S3. Only available for Linux and Mac OS.
--   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html):
-    Access to Amazon Mechanical Turk Requester API via R. Development
-    version on GitHub [here](https://www.github.com/leeper/MTurkR).
--   [<span
-    class="Ohat">RAmazonDBREST</span>](http://www.Omegahat.org/RAmazonDBREST/)
-    provides an interface to Amazon's Simple DB API.
--   [<span
-    class="Ohat">RAmazonS3</span>](http://www.Omegahat.org/RAmazonS3/)
-    package provides the basic infrastructure within R for communicating
-    with the S3 Amazon storage server. This is a commercial server that
-    allows one to store content and retrieve it from any machine
-    connected to the Internet.
--   [s3mpi](https://github.com/robertzk/s3mpi) (not on CRAN): Another
-    packages for interacting with Amazon S3.
--   [<span class="Gcode">segue</span>](http://code.google.com/p/segue/):
-    Another package for managing EC2 instances and S3 storage, which
-    includes a parallel lapply function for the Elastic Map Reduce (EMR)
-    engine called `emrlapply()`. Uses Hadoop Streaming on Amazon's EMR
-    in order to get simple parallel computation.
 
 ### <a href="#ast" name="ast">#</a> Astronomy
 
@@ -450,78 +320,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [webchem](http://cran.r-project.org/web/packages/webchem/index.html):
     Retrieve chemical information from a suite of web APIs for chemical
     information. [Source on GitHub](https://github.com/ropensci/webchem)
-
-### <a href="#cloudhosting" name="cloudhosting">#</a> Cloud hosting
-
--   [analogsea](https://github.com/sckott/analogsea): A general purpose
-    R client for the Digital Ocean v2 API. In addition, the package
-    includes functions to install various R tools including base R,
-    RStudio server, and more. There's an improving interface to interact
-    with docker on your remote droplets via this package.
-
-### <a href="#depots" name="depots">#</a> Data Depots
-
--   [boxr](https://github.com/brendan-R/boxr): A lightweight, high-level
-    R interface for the [box.com API](https://developers.box.com/docs/).
-    [Source on GitHub](https://github.com/brendan-R/boxr).
--   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
-    interact with the CKAN data portal software API (
-    <http://ckan.org/>). Allows user to swap out the base URL to use any
-    CKAN instance. [Source on
-    GitHub](https://github.com/ropensci/ckanr).
--   [dataone](http://cran.rstudio.com/src/contrib/Archive/dataone/):
-    Read/write access to data and metadata from the [DataONE
-    network](https://www.dataone.org/) of Member Node data repositories.
--   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
-    Provides access to The Dataverse Network API. [Source on
-    GitHub](https://github.com/ropensci/dvn).
--   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
-    Thin wrapper for the [Factual.com](http://factual.com/) server API.
--   [infochimps](http://cran.rstudio.com/src/contrib/Archive/infochimps/):
-    An R wrapper for the infochimps.com API services, from [Drew
-    Conway](http://drewconway.com/). The CRAN version is archived.
-    Development is available on GitHub
-    [here](https://github.com/drewconway/infochimps).
--   [internetarchive](https://github.com/lmullen/internetarchive) (not
-    on CRAN): API client for internet archive metadata. [Source on
-    GitHub](https://github.com/ropensci/internetarchive).
--   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html):
-    Enables users to access MongoDB by running queries and returning
-    their results in R data frames. jSonarR uses data processing and
-    conversion capabilities in the jSonar Analytics Platform and the
-    [JSON Studio Gateway](http://www.jsonstudio.com), to convert JSON to
-    a tabular format.
--   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html):
-    A package that interacts directly with the
-    [Quandl](http://www.quandl.com/) API to offer data in a number of
-    formats usable in R, as well as the ability to upload and search.
--   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
-    Fetches data from DataMarket.com, either as timeseries in zoo form
-    (dmseries) or as long-form data frames (dmlist).
--   [rerddap](https://github.com/ropensci/rerddap) (not on CRAN): A
-    generic R client to interact with any ERDDAP instance, which is a
-    special case of OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>),
-    or *Open-source Project for a Network Data Access Protocol* . Allows
-    user to swap out the base URL to use any ERDDAP instance. [Source on
-    GitHub](https://github.com/ropensci/rerddap).
--   [rfigshare](http://cran.r-project.org/web/packages/rfigshare/index.html):
-    Programmatic interface for [Figshare.com](http://figshare.com/).
-    [Source on GitHub](https://github.com/ropensci/rfigshare).
--   [RSocrata](http://cran.rstudio.com/src/contrib/Archive/RSocrata/):
-    (temporarily archived on CRAN for email bounce) Provided with a
-    Socrata dataset resource URL, or a Socrata SoDA web API query,
-    returns an R data frame. Converts dates to POSIX format. Supports
-    CSV and JSON. Manages throttling by Socrata.
--   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html):
-    Lets you deploy, maintain, and invoke models via the
-    [Yhat](https://www.yhathq.com/) REST API.
-
-### <a href="#datascience" name="datascience">#</a> Data Science Tools
-
--   [RDataCanvas](http://cran.r-project.org/web/packages/RDataCanvas/index.html):
-    Write a module for [datacanvas.io](http://datacanvas.io), a big data
-    analytics platform. [Source on
-    GitHub](https://github.com/DataCanvasIO/RDataCanvas).
 
 ### <a href="#earthsci" name="earthsci">#</a> Earth Science
 
@@ -939,8 +737,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     data mangement system in the cloud. This package provides R
     functions to browse Fusion Tables catalog, retrieve data from Gusion
     Tables dtd storage to R and to upload data from R to Fusion Tables
--   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html):
-    Access the Gmail RESTful API from R
 -   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/):
     (archived on CRAN for email bounce) An R library to build Google's
     public data explorer DSPL metadata files.
@@ -950,15 +746,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     A Google JSON data interpreter for R which contains a suite of
     helper functions for obtaining data from the Google Maps API JSON
     objects.
--   [googlesheets](https://github.com/jennybc/googlesheets) (not on
-    CRAN): Access private or public Google Sheets by title, key, or URL.
-    Extract data or edit data. Create, delete, rename, copy, upload, or
-    download spreadsheets and worksheets. [Source on
-    GitHub](https://github.com/jennybc/googlesheets)
--   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html):
-    Download Google Sheets using just the sharing link. Spreadsheets can
-    be downloaded as a data frame, or as plain text to parse manually.
-    [Source on GitHub](https://github.com/maxconway/gsheet)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html):
     Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
     Maps.
@@ -1112,9 +899,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html):
     Retrieve and plot word frequencies through time from the Google
     Ngram Viewer.
--   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html):
-    Harvest metadata using the Open Archives Initiative Protocol for
-    Metadata Harvesting (OAI-PMH).
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html):
     An R package for text mining of [PubMed
     Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching
@@ -1156,26 +940,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     implemented: Google Blog Search, Google Finance, Google News,
     NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo
     Inplay.
-
-### <a href="#mls" name="mls">#</a> Machine Learning as a Service
-
--   [bigml](http://cran.rstudio.com/src/contrib/Archive/bigml/):
-    (archived on CRAN for email bounce) BigML, a machine learning web
-    service.
--   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html):
-    R-based client for Machine Learning APIs at <http://indico.io>.
-    Wrappers for Positive/Negative Sentiment Analysis, Political
-    Sentiment Analysis, Image Feature Extraction, Facial Emotion
-    Recognition, Facial Feature Extraction, and Language Detection.
-    [Source on GitHub](https://github.com/redmode/indicoio)
--   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html): An R
-    package to access the [ltp-cloud
-    service](http://www.ltp-cloud.com/). [Source on
-    GitHub](https://github.com/hetong007/rLTP)
--   [googlepredictionapi](https://code.google.com/p/google-prediction-api-r-client/)
-    (not on CRAN): An R client for the [Google Prediction
-    API](https://cloud.google.com/prediction/docs), a suite of cloud
-    machine learning tools.
 
 ### <a href="#maps" name="maps">#</a> Maps
 
@@ -1219,20 +983,12 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#media" name="media">#</a> Media: Images, Graphics, Videos, Music
 
--   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html):
-    Extracts colors and multi-color patterns from
-    [COLOURlovers](http://www.colourlovers.com/), for use in creating R
-    graphics color palettes. Development version on GitHub
-    [here](https://github.com/leeper/colourlovers).
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html): A
     package to share plots using the image hosting service
     [Imgur.com](http://www.imgur.com). The development version is on
     GitHub [here](https://github.com/leeper/imguR). knitr also has a
     function `imgur_upload()` to load images from literate programming
     documents.
--   [meme](https://github.com/leeper/meme) (not on CRAN): Provides the
-    ability to create internet memes from template images using several
-    online meme-generation services.
 -   [RLastFM](http://cran.rstudio.com/src/contrib/Archive/RLastFM/): A
     package to interface to the last.fm API. Archived on CRAN.
 -   [rscribd](https://github.com/leeper/rscribd) (not on CRAN): API
@@ -1286,11 +1042,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Provides an S4 infrastructure for unified handling of internal
     datasets and web based data sources. Examples include dbpedia,
     eurostat and sourceforge.
--   [discgolf](https://github.com/sckott/discgolf) (not on CRAN):
-    Provides R client to interact with the API for the
-    [Discourse](http://www.discourse.org/) web forum platform. The API
-    is for an installed instance of Discourse, not for the Discourse
-    site itself.
 -   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html):
     Uses the genderize.io API to predict gender from first names
     extracted from a text vector. [Source on
@@ -1298,22 +1049,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN):
     Provides functions to interact with the
     [Qualtrics](http://www.qualtrics.com/) online survey tool.
--   [mailR](http://cran.r-project.org/web/packages/mailR/index.html):
-    Interface to Apache Commons Email to send emails from within R.
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R
     wrapper for the [Microsoft Translator
     API](https://msdn.microsoft.com/en-us/library/hh454949.aspx).
     [Source on GitHub](https://github.com/chainsawriot/mstranslator)
--   [pushoverr](http://cran.r-project.org/web/packages/pushoverr/index.html):
-    Sending push notifications to mobile devices (iOS and Android) and
-    desktop using [Pushover](https://pushover.net/). [Source on
-    GitHub](https://github.com/briandconnelly/pushoverr)
--   [rDrop2](https://github.com/karthik/rdrop2) (not on CRAN): Dropbox
-    interface from R. Provides access to a full suite of file
-    operations, including dir/copy/move/delete operations, account
-    information (including quotas) and the ability to upload and
-    download files from any Dropbox account. [Source on
-    GitHub](https://github.com/karthik/rdrop2)
 -   [redcapAPI](http://cran.r-project.org/web/packages/redcapAPI/index.html):
     Access data stored in REDCap databases using an API. REDCap
     (Research Electronic Data CAPture) is a web application for building
@@ -1327,10 +1066,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Provides programmatic access to [Survey
     Monkey](https://www.surveymonkey.com/) for creating simple surveys
     and retrieving survey results.
--   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html):
-    Provides an easy-to-use interface for the Pushbullet service which
-    provides fast and efficient notifications between computers, phones
-    and tablets. By [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)
 -   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A
     connector to the [SWAPI service](http://swapi.co/), a database of
     Star Wars metadata.
@@ -1473,11 +1208,22 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 ### CRAN packages:
 
 -   [acs](http://cran.r-project.org/web/packages/acs/index.html)
+-   [agridat](http://cran.r-project.org/web/packages/agridat/index.html)
 -   [alm](http://cran.r-project.org/web/packages/alm/index.html)
+-   [alr3](http://cran.r-project.org/web/packages/alr3/index.html)
+-   [alr4](http://cran.r-project.org/web/packages/alr4/index.html)
 -   [anametrix](http://cran.r-project.org/web/packages/anametrix/index.html)
+-   [aplore3](http://cran.r-project.org/web/packages/aplore3/index.html)
+-   [aprean3](http://cran.r-project.org/web/packages/aprean3/index.html)
+-   [archdata](http://cran.r-project.org/web/packages/archdata/index.html)
 -   [aRxiv](http://cran.r-project.org/web/packages/aRxiv/index.html)
+-   [astrodatR](http://cran.r-project.org/web/packages/astrodatR/index.html)
+-   [babynames](http://cran.r-project.org/web/packages/babynames/index.html)
+-   [BaM](http://cran.r-project.org/web/packages/BaM/index.html)
+-   [BayesDA](http://cran.r-project.org/web/packages/BayesDA/index.html)
 -   [BerlinData](http://cran.r-project.org/web/packages/BerlinData/index.html)
 -   [bigrquery](http://cran.r-project.org/web/packages/bigrquery/index.html)
+-   [blmeco](http://cran.r-project.org/web/packages/blmeco/index.html)
 -   [blsAPI](http://cran.r-project.org/web/packages/blsAPI/index.html)
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html)
 -   [brewdata](http://cran.r-project.org/web/packages/brewdata/index.html)
@@ -1485,66 +1231,101 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [CHCN](http://cran.r-project.org/web/packages/CHCN/index.html)
 -   [chromer](http://cran.r-project.org/web/packages/chromer/index.html)
 -   [clifro](http://cran.r-project.org/web/packages/clifro/index.html)
--   [colourlovers](http://cran.r-project.org/web/packages/colourlovers/index.html)
+-   [cluster.datasets](http://cran.r-project.org/web/packages/cluster.datasets/index.html)
 -   [crn](http://cran.r-project.org/web/packages/crn/index.html)
--   [curl](http://cran.r-project.org/web/packages/curl/index.html)
--   [d3Network](http://cran.r-project.org/web/packages/d3Network/index.html)
 -   [datamart](http://cran.r-project.org/web/packages/datamart/index.html)
 -   [dataRetrieval](http://cran.r-project.org/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.r-project.org/web/packages/decctools/index.html)
+-   [Devore7](http://cran.r-project.org/web/packages/Devore7/index.html)
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html)
--   [downloader](http://cran.r-project.org/web/packages/downloader/index.html)
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html)
 -   [ecoretriever](http://cran.r-project.org/web/packages/ecoretriever/index.html)
+-   [eegkitdata](http://cran.r-project.org/web/packages/eegkitdata/index.html)
 -   [EIAdata](http://cran.r-project.org/web/packages/EIAdata/index.html)
+-   [ElemStatLearn](http://cran.r-project.org/web/packages/ElemStatLearn/index.html)
+-   [EngrExpt](http://cran.r-project.org/web/packages/EngrExpt/index.html)
 -   [enigma](http://cran.r-project.org/web/packages/enigma/index.html)
+-   [ergmharris](http://cran.r-project.org/web/packages/ergmharris/index.html)
+-   [expsmooth](http://cran.r-project.org/web/packages/expsmooth/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
+-   [Fahrmeir](http://cran.r-project.org/web/packages/Fahrmeir/index.html)
 -   [FAOSTAT](http://cran.r-project.org/web/packages/FAOSTAT/index.html)
+-   [faraway](http://cran.r-project.org/web/packages/faraway/index.html)
+-   [fastR](http://cran.r-project.org/web/packages/fastR/index.html)
+-   [FAwR](http://cran.r-project.org/web/packages/FAwR/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
+-   [fds](http://cran.r-project.org/web/packages/fds/index.html)
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html)
 -   [flora](http://cran.r-project.org/web/packages/flora/index.html)
+-   [Flury](http://cran.r-project.org/web/packages/Flury/index.html)
+-   [fma](http://cran.r-project.org/web/packages/fma/index.html)
+-   [gamair](http://cran.r-project.org/web/packages/gamair/index.html)
+-   [gamlss.data](http://cran.r-project.org/web/packages/gamlss.data/index.html)
+-   [GANPAdata](http://cran.r-project.org/web/packages/GANPAdata/index.html)
+-   [gapminder](http://cran.r-project.org/web/packages/gapminder/index.html)
 -   [GAR](http://cran.r-project.org/web/packages/GAR/index.html)
+-   [GCD](http://cran.r-project.org/web/packages/GCD/index.html)
 -   [genderizeR](http://cran.r-project.org/web/packages/genderizeR/index.html)
 -   [geocodeHERE](http://cran.r-project.org/web/packages/geocodeHERE/index.html)
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html)
--   [ggvis](http://cran.r-project.org/web/packages/ggvis/index.html)
 -   [GhcnDaily](http://cran.r-project.org/web/packages/GhcnDaily/index.html)
--   [gistr](http://cran.r-project.org/web/packages/gistr/index.html)
--   [gmailr](http://cran.r-project.org/web/packages/gmailr/index.html)
 -   [googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.r-project.org/web/packages/gooJSON/index.html)
 -   [govStatJPN](http://cran.r-project.org/web/packages/govStatJPN/index.html)
+-   [gpk](http://cran.r-project.org/web/packages/gpk/index.html)
 -   [gsheet](http://cran.r-project.org/web/packages/gsheet/index.html)
 -   [GuardianR](http://cran.r-project.org/web/packages/GuardianR/index.html)
+-   [Guerry](http://cran.r-project.org/web/packages/Guerry/index.html)
 -   [hddtools](http://cran.r-project.org/web/packages/hddtools/index.html)
+-   [HistData](http://cran.r-project.org/web/packages/HistData/index.html)
+-   [historydata](http://cran.r-project.org/web/packages/historydata/index.html)
 -   [hoardeR](http://cran.r-project.org/web/packages/hoardeR/index.html)
--   [httpRequest](http://cran.r-project.org/web/packages/httpRequest/index.html)
--   [httpuv](http://cran.r-project.org/web/packages/httpuv/index.html)
--   [httr](http://cran.r-project.org/web/packages/httr/index.html)
-    (core)
+-   [HSAUR3](http://cran.r-project.org/web/packages/HSAUR3/index.html)
 -   [IBrokers](http://cran.r-project.org/web/packages/IBrokers/index.html)
+-   [igraphdata](http://cran.r-project.org/web/packages/igraphdata/index.html)
 -   [imguR](http://cran.r-project.org/web/packages/imguR/index.html)
--   [indicoio](http://cran.r-project.org/web/packages/indicoio/index.html)
+-   [insuranceData](http://cran.r-project.org/web/packages/insuranceData/index.html)
+-   [isdals](http://cran.r-project.org/web/packages/isdals/index.html)
 -   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html)
--   [jsonlite](http://cran.r-project.org/web/packages/jsonlite/index.html)
-    (core)
+-   [KMSurv](http://cran.r-project.org/web/packages/KMSurv/index.html)
+-   [Lahman](http://cran.r-project.org/web/packages/Lahman/index.html)
+-   [languageR](http://cran.r-project.org/web/packages/languageR/index.html)
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
--   [magrittr](http://cran.r-project.org/web/packages/magrittr/index.html)
--   [mailR](http://cran.r-project.org/web/packages/mailR/index.html)
+-   [learningr](http://cran.r-project.org/web/packages/learningr/index.html)
+-   [LeLogicielR](http://cran.r-project.org/web/packages/LeLogicielR/index.html)
+-   [Lock5Data](http://cran.r-project.org/web/packages/Lock5Data/index.html)
 -   [marmap](http://cran.r-project.org/web/packages/marmap/index.html)
+-   [MCAPS](http://cran.r-project.org/web/packages/MCAPS/index.html)
+-   [Mcomp](http://cran.r-project.org/web/packages/Mcomp/index.html)
+-   [MEMSS](http://cran.r-project.org/web/packages/MEMSS/index.html)
 -   [meteoForecast](http://cran.r-project.org/web/packages/meteoForecast/index.html)
--   [MTurkR](http://cran.r-project.org/web/packages/MTurkR/index.html)
+-   [MindOnStats](http://cran.r-project.org/web/packages/MindOnStats/index.html)
+-   [mistat](http://cran.r-project.org/web/packages/mistat/index.html)
+-   [mosaicData](http://cran.r-project.org/web/packages/mosaicData/index.html)
+-   [MPDiR](http://cran.r-project.org/web/packages/MPDiR/index.html)
+-   [MPV](http://cran.r-project.org/web/packages/MPV/index.html)
+-   [MSG](http://cran.r-project.org/web/packages/MSG/index.html)
+-   [msme](http://cran.r-project.org/web/packages/msme/index.html)
+-   [msos](http://cran.r-project.org/web/packages/msos/index.html)
+-   [nasaweather](http://cran.r-project.org/web/packages/nasaweather/index.html)
 -   [ngramr](http://cran.r-project.org/web/packages/ngramr/index.html)
+-   [NHANES](http://cran.r-project.org/web/packages/NHANES/index.html)
 -   [nhlscrapr](http://cran.r-project.org/web/packages/nhlscrapr/index.html)
+-   [noncensus](http://cran.r-project.org/web/packages/noncensus/index.html)
+-   [NSM3](http://cran.r-project.org/web/packages/NSM3/index.html)
+-   [nutshell](http://cran.r-project.org/web/packages/nutshell/index.html)
+-   [nycflights13](http://cran.r-project.org/web/packages/nycflights13/index.html)
 -   [OAIHarvester](http://cran.r-project.org/web/packages/OAIHarvester/index.html)
+-   [OIdata](http://cran.r-project.org/web/packages/OIdata/index.html)
 -   [okmesonet](http://cran.r-project.org/web/packages/okmesonet/index.html)
 -   [ONETr](http://cran.r-project.org/web/packages/ONETr/index.html)
--   [opencpu](http://cran.r-project.org/web/packages/opencpu/index.html)
+-   [openintro](http://cran.r-project.org/web/packages/openintro/index.html)
 -   [osmar](http://cran.r-project.org/web/packages/osmar/index.html)
 -   [paleobioDB](http://cran.r-project.org/web/packages/paleobioDB/index.html)
+-   [PBImisc](http://cran.r-project.org/web/packages/PBImisc/index.html)
 -   [pdfetch](http://cran.r-project.org/web/packages/pdfetch/index.html)
 -   [pitchRx](http://cran.r-project.org/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.r-project.org/web/packages/plotGoogleMaps/index.html)
@@ -1555,17 +1336,17 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [primerTree](http://cran.r-project.org/web/packages/primerTree/index.html)
 -   [psidR](http://cran.r-project.org/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.r-project.org/web/packages/pubmed.mineR/index.html)
--   [pushoverr](http://cran.r-project.org/web/packages/pushoverr/index.html)
 -   [pvsR](http://cran.r-project.org/web/packages/pvsR/index.html)
 -   [pxweb](http://cran.r-project.org/web/packages/pxweb/index.html)
+-   [QSARdata](http://cran.r-project.org/web/packages/QSARdata/index.html)
+-   [qtlbook](http://cran.r-project.org/web/packages/qtlbook/index.html)
 -   [Quandl](http://cran.r-project.org/web/packages/Quandl/index.html)
 -   [quantmod](http://cran.r-project.org/web/packages/quantmod/index.html)
--   [radiant](http://cran.r-project.org/web/packages/radiant/index.html)
 -   [RAdwords](http://cran.r-project.org/web/packages/RAdwords/index.html)
 -   [raincpc](http://cran.r-project.org/web/packages/raincpc/index.html)
 -   [rainfreq](http://cran.r-project.org/web/packages/rainfreq/index.html)
 -   [rAltmetric](http://cran.r-project.org/web/packages/rAltmetric/index.html)
--   [rapport](http://cran.r-project.org/web/packages/rapport/index.html)
+-   [randomNames](http://cran.r-project.org/web/packages/randomNames/index.html)
 -   [rbhl](http://cran.r-project.org/web/packages/rbhl/index.html)
 -   [rbison](http://cran.r-project.org/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.r-project.org/web/packages/Rbitcoin/index.html)
@@ -1573,10 +1354,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rClinicalCodes](http://cran.r-project.org/web/packages/rClinicalCodes/index.html)
 -   [rclinicaltrials](http://cran.r-project.org/web/packages/rclinicaltrials/index.html)
 -   [Rcolombos](http://cran.r-project.org/web/packages/Rcolombos/index.html)
+-   [rcorpora](http://cran.r-project.org/web/packages/rcorpora/index.html)
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
--   [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
-    (core)
--   [RDataCanvas](http://cran.r-project.org/web/packages/RDataCanvas/index.html)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html)
@@ -1584,7 +1363,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
--   [repmis](http://cran.r-project.org/web/packages/repmis/index.html)
 -   [reutils](http://cran.r-project.org/web/packages/reutils/index.html)
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html)
 -   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html)
@@ -1599,89 +1377,76 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html)
--   [rjson](http://cran.r-project.org/web/packages/rjson/index.html)
--   [RJSONIO](http://cran.r-project.org/web/packages/RJSONIO/index.html)
--   [rLTP](http://cran.r-project.org/web/packages/rLTP/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
 -   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
--   [ROAuth](http://cran.r-project.org/web/packages/ROAuth/index.html)
--   [Rook](http://cran.r-project.org/web/packages/Rook/index.html)
 -   [ropensecretsapi](http://cran.r-project.org/web/packages/ropensecretsapi/index.html)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
 -   [rplos](http://cran.r-project.org/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.r-project.org/web/packages/rpubchem/index.html)
 -   [RPublica](http://cran.r-project.org/web/packages/RPublica/index.html)
--   [RPushbullet](http://cran.r-project.org/web/packages/RPushbullet/index.html)
--   [rsdmx](http://cran.r-project.org/web/packages/rsdmx/index.html)
--   [RSelenium](http://cran.r-project.org/web/packages/RSelenium/index.html)
+-   [RSADBE](http://cran.r-project.org/web/packages/RSADBE/index.html)
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.r-project.org/web/packages/rsnps/index.html)
 -   [RStars](http://cran.r-project.org/web/packages/RStars/index.html)
 -   [rsunlight](http://cran.r-project.org/web/packages/rsunlight/index.html)
+-   [rUnemploymentData](http://cran.r-project.org/web/packages/rUnemploymentData/index.html)
 -   [rvertnet](http://cran.r-project.org/web/packages/rvertnet/index.html)
--   [rvest](http://cran.r-project.org/web/packages/rvest/index.html)
 -   [rWBclimate](http://cran.r-project.org/web/packages/rWBclimate/index.html)
 -   [rYoutheria](http://cran.r-project.org/web/packages/rYoutheria/index.html)
+-   [SASmixed](http://cran.r-project.org/web/packages/SASmixed/index.html)
 -   [scholar](http://cran.r-project.org/web/packages/scholar/index.html)
--   [scrapeR](http://cran.r-project.org/web/packages/scrapeR/index.html)
+-   [SenSrivastava](http://cran.r-project.org/web/packages/SenSrivastava/index.html)
 -   [seqinr](http://cran.r-project.org/web/packages/seqinr/index.html)
--   [servr](http://cran.r-project.org/web/packages/servr/index.html)
--   [shiny](http://cran.r-project.org/web/packages/shiny/index.html)
-    (core)
 -   [shopifyr](http://cran.r-project.org/web/packages/shopifyr/index.html)
 -   [slackr](http://cran.r-project.org/web/packages/slackr/index.html)
+-   [Sleuth3](http://cran.r-project.org/web/packages/Sleuth3/index.html)
+-   [SMCRM](http://cran.r-project.org/web/packages/SMCRM/index.html)
+-   [smdata](http://cran.r-project.org/web/packages/smdata/index.html)
+-   [smss](http://cran.r-project.org/web/packages/smss/index.html)
 -   [SocialMediaMineR](http://cran.r-project.org/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.r-project.org/web/packages/soilDB/index.html)
 -   [sorvi](http://cran.r-project.org/web/packages/sorvi/index.html)
 -   [sos4R](http://cran.r-project.org/web/packages/sos4R/index.html)
 -   [spocc](http://cran.r-project.org/web/packages/spocc/index.html)
+-   [Stat2Data](http://cran.r-project.org/web/packages/Stat2Data/index.html)
 -   [streamR](http://cran.r-project.org/web/packages/streamR/index.html)
+-   [SwissAir](http://cran.r-project.org/web/packages/SwissAir/index.html)
+-   [synbreedData](http://cran.r-project.org/web/packages/synbreedData/index.html)
 -   [taxize](http://cran.r-project.org/web/packages/taxize/index.html)
 -   [Taxonstand](http://cran.r-project.org/web/packages/Taxonstand/index.html)
 -   [TFX](http://cran.r-project.org/web/packages/TFX/index.html)
+-   [TH.data](http://cran.r-project.org/web/packages/TH.data/index.html)
 -   [Thinknum](http://cran.r-project.org/web/packages/Thinknum/index.html)
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html)
 -   [TR8](http://cran.r-project.org/web/packages/TR8/index.html)
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html)
 -   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
 -   [treebase](http://cran.r-project.org/web/packages/treebase/index.html)
+-   [TRSbook](http://cran.r-project.org/web/packages/TRSbook/index.html)
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
--   [urltools](http://cran.r-project.org/web/packages/urltools/index.html)
+-   [UScensus2010](http://cran.r-project.org/web/packages/UScensus2010/index.html)
+-   [UsingR](http://cran.r-project.org/web/packages/UsingR/index.html)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
--   [V8](http://cran.r-project.org/web/packages/V8/index.html)
--   [W3CMarkupValidator](http://cran.r-project.org/web/packages/W3CMarkupValidator/index.html)
+-   [VGAMdata](http://cran.r-project.org/web/packages/VGAMdata/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
 -   [webchem](http://cran.r-project.org/web/packages/webchem/index.html)
--   [webutils](http://cran.r-project.org/web/packages/webutils/index.html)
--   [whisker](http://cran.r-project.org/web/packages/whisker/index.html)
+-   [wikibooks](http://cran.r-project.org/web/packages/wikibooks/index.html)
 -   [wikipediatrend](http://cran.r-project.org/web/packages/wikipediatrend/index.html)
 -   [WikipediR](http://cran.r-project.org/web/packages/WikipediR/index.html)
--   [XML](http://cran.r-project.org/web/packages/XML/index.html) (core)
--   [XML2R](http://cran.r-project.org/web/packages/XML2R/index.html)
+-   [WWGbook](http://cran.r-project.org/web/packages/WWGbook/index.html)
 -   [yhatr](http://cran.r-project.org/web/packages/yhatr/index.html)
 -   [zendeskR](http://cran.r-project.org/web/packages/zendeskR/index.html)
+-   [zipcode](http://cran.r-project.org/web/packages/zipcode/index.html)
 
 ### Related links:
 
--   [CRAN archived package:
-    seq2R](http://cran.rstudio.com/src/contrib/Archive/seq2R/)
--   [CRAN archived package:
-    BerkeleyEarth](http://cran.rstudio.com/src/contrib/Archive/BerkeleyEarth/)
--   [CRAN archived package:
-    Metadata](http://cran.rstudio.com/src/contrib/Archive/Metadata/)
--   [CRAN archived package:
-    infochimps](http://cran.rstudio.com/src/contrib/Archive/infochimps/)
--   [CRAN archived package:
-    RLastFM](http://cran.rstudio.com/src/contrib/Archive/RLastFM/)
--   [CRAN archived package:
-    NCBI2R](http://cran.rstudio.com/src/contrib/Archive/NCBI2R/)
--   [CRAN archived package:
-    htmltab](http://cran.rstudio.com/src/contrib/Archive/htmltab/)
+-   [WebTechnologies
+    TaskView](http://cran.r-project.org/web/views/WebTechnologies.html)
 
