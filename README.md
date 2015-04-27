@@ -1,13 +1,10 @@
 CRAN Task View: Open Data
 -------------------------
 
-  ----------------- ----------------------------------
-  **Maintainer:**   Scott Chamberlain, Thomas Leeper
-  **Contact:**      scott at ropensci.org
-  **Version:**      2015-04-27
-  ----------------- ----------------------------------
-
-
+  ------------------------------------ ------------------------------------
+  **Maintainer:**                      **Contact:**
+  Scott Chamberlain, Thomas Leeper     scott at ropensci.org
+  ------------------------------------ ------------------------------------
 
 This task view contains information about using R to obtain, parse,
 manipulate, create, and share open data. The focus here is on data
@@ -26,15 +23,17 @@ speaking "open". Users should investigate the terms of use and licensing
 of any data referenced here before using it for any particular
 application. If you have any comments or suggestions for additions or
 improvements for this taskview, go to GitHub and [submit an
-issue](https://github.com/ropensci/opendata/issues), or make some
-changes and [submit a pull
-request](https://github.com/ropensci/opendata/pulls). If you can't
-contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
-If you have an issue with one of the packages discussed below, please
-contact the maintainer of that package. If you know of a web service,
-API, data source, or other online resource that is not yet supported by
-an R package, consider adding it to [the package development to do list
-on GitHub](https://github.com/ropensci/webservices/wiki/ToDo).
+issue](https://github.com/ropensci/opendata_content/issues), or make
+some changes and [submit a pull
+request](https://github.com/ropensci/opendata_content/pulls). If you
+can't contribute on GitHub, [send Scott an
+email](mailto:scott@ropensci.org). If you have an issue with one of the
+packages discussed below, please contact the maintainer of that package.
+If you know of a web service, API, data source, or other online resource
+that is not yet supported by an R package, consider adding it to [the
+package development to do list on
+GitHub](https://github.com/ropensci/opendata/wiki/ToDo).
+
 Data Discovery and Data Archiving
 ---------------------------------
 
@@ -42,6 +41,7 @@ Data discovery involves the identification and retrieval of publicly
 available data. Data archiving involves the production and dissemination
 of open data. The tools below may be useful for one or both of these
 tasks.
+
 -   [boxr](https://github.com/brendan-R/boxr): A lightweight, high-level
     R interface for the [box.com API](https://developers.box.com/docs/).
     [Source on GitHub](https://github.com/brendan-R/boxr).
@@ -125,6 +125,7 @@ their own right. The
 package (as part of the base R distribution) contains many such
 datasets, though most are small in size. The following packages contain
 more substantial datasets.
+
 -   Various packages provide datasets intended for those working in
     specific disciplines, such as
     [archdata](http://cran.r-project.org/web/packages/archdata/index.html)
@@ -409,8 +410,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     of global and regional weather model data, and supports a variety of
     models ranging from global weather data to an altitude of 40 km, to
     high resolution regional weather models, to wave and sea ice models.
-    It can also retrieve archived NOMADS models. Source: [<span
-    class="Rforge">rnomads</span>](http://R-Forge.R-project.org/projects/rnomads/).
+    It can also retrieve archived NOMADS models. Source:
+    [rnomads](http://R-Forge.R-project.org/projects/rnomads/).
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html):
     Utility functions to retrieve data from the UK National River Flow
     Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are
@@ -584,13 +585,12 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html):
     Search, extract and format data from the World Bank's World
     Development Indicators.
--   The [<span
-    class="Ohat">Zillow</span>](http://www.Omegahat.org/Zillow/) package
-    provides an R interface to the [Zillow](http://www.zillow.com/) Web
-    Service API. It allows one to get the Zillow estimate for the price
-    of a particular property specified by street address and ZIP code
-    (or city and state), to find information (e.g. size of property and
-    lot, number of bedrooms and bathrooms, year built.) about a given
+-   The [Zillow](http://www.Omegahat.org/Zillow/) package provides an R
+    interface to the [Zillow](http://www.zillow.com/) Web Service API.
+    It allows one to get the Zillow estimate for the price of a
+    particular property specified by street address and ZIP code (or
+    city and state), to find information (e.g. size of property and lot,
+    number of bedrooms and bathrooms, year built.) about a given
     property, and to get comparable properties.
 
 ### <a href="#finance" name="finance">#</a> Finance
@@ -770,20 +770,17 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     another R package for the same service
     ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
     next entry.
--   The [<span
-    class="Ohat">RGoogleDocs</span>](http://www.Omegahat.org/RGoogleDocs/)
-    package is an example of using the RCurl and XML packages to quickly
-    develop an interface to the Google Documents API.
--   [<span
-    class="Ohat">RGoogleStorage</span>](http://www.Omegahat.org/RGoogleStorage/)
-    provides programmatic access to the Google Storage API. This allows
-    R users to access and store data on Google's storage. We can upload
-    and download content, create, list and delete folders/buckets, and
-    set access control permissions on objects and buckets.
--   [<span
-    class="Ohat">RGoogleTrends</span>](http://www.Omegahat.org/RGoogleTrends/)
-    provides programmatic access to Google Trends data. This is
-    information about the popularity of a particular query.
+-   The [RGoogleDocs](http://www.Omegahat.org/RGoogleDocs/) package is
+    an example of using the RCurl and XML packages to quickly develop an
+    interface to the Google Documents API.
+-   [RGoogleStorage](http://www.Omegahat.org/RGoogleStorage/) provides
+    programmatic access to the Google Storage API. This allows R users
+    to access and store data on Google's storage. We can upload and
+    download content, create, list and delete folders/buckets, and set
+    access control permissions on objects and buckets.
+-   [RGoogleTrends](http://www.Omegahat.org/RGoogleTrends/) provides
+    programmatic access to Google Trends data. This is information about
+    the popularity of a particular query.
 -   [translate](http://cran.r-project.org/web/packages/translate/index.html):
     Bindings for the Google Translate API v2
 -   [translateR](http://cran.r-project.org/web/packages/translateR/index.html)
@@ -885,10 +882,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     computer science, mathematics, physics, quantitative biology,
     quantitative finance, and statistics. [Source on
     GitHub](https://github.com/ropensci/aRxiv).
--   The [<span
-    class="Ohat">Aspell</span>](http://www.Omegahat.org/Aspell/) package
-    provides an interface to the aspell library for checking the
-    spelling of words and documents.
+-   The [Aspell](http://www.Omegahat.org/Aspell/) package provides an
+    interface to the aspell library for checking the spelling of words
+    and documents.
 -   [boilerpipeR](http://cran.r-project.org/web/packages/boilerpipeR/index.html):
     Generic Extraction of main text content from HTML files; removal of
     ads, sidebars and headers using the boilerpipe Java library.
@@ -928,9 +924,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     provides functions to extract citation data from Google Scholar.
     Convenience functions are also provided for comparing multiple
     scholars and predicting future h-index values.
--   The [<span
-    class="Ohat">Sxslt</span>](http://www.Omegahat.org/Sxslt/) package
-    is an R interface to Dan Veillard's libxslt translator. It allows R
+-   The [Sxslt](http://www.Omegahat.org/Sxslt/) package is an R
+    interface to Dan Veillard's libxslt translator. It allows R
     programmers to use XSLT directly from within R, and also allows XSL
     code to make use of R functions.
 -   [tm.plugin.webmining](http://cran.r-project.org/web/packages/tm.plugin.webmining/index.html):
@@ -954,24 +949,21 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     from different sources to work with the data in common R manner and
     to convert data into available infrastructure provided by existing R
     packages (e.g., into sp and igraph objects).
--   The [<span
-    class="Ohat">R2GoogleMaps</span>](http://www.Omegahat.org/R2GoogleMaps/)
-    package - which is different from
-    [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html) -
-    provides a mechanism to generate JavaScript code from R that
+-   The [R2GoogleMaps](http://www.Omegahat.org/R2GoogleMaps/) package -
+    which is different from
+    [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
+    - provides a mechanism to generate JavaScript code from R that
     displays data using Google Maps.
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html):
     This package serves two purposes: It provides a comfortable R
     interface to query the Google server for static maps, and use the
     map as a background image to overlay plots within R.
--   The [<span class="Ohat">RKML</span>](http://www.Omegahat.org/RKML/)
-    is an implementation that provides users with high-level facilities
-    to generate KML, the Keyhole Markup Language for display in, e.g.,
-    Google Earth.
--   [<span
-    class="Ohat">RKMLDevice</span>](http://www.Omegahat.org/RKMLDevice/)
-    allows to create R graphics in KML format in a manner that allows
-    them to be displayed on Google Earth (or Google Maps).
+-   The [RKML](http://www.Omegahat.org/RKML/) is an implementation that
+    provides users with high-level facilities to generate KML, the
+    Keyhole Markup Language for display in, e.g., Google Earth.
+-   [RKMLDevice](http://www.Omegahat.org/RKMLDevice/) allows to create R
+    graphics in KML format in a manner that allows them to be displayed
+    on Google Earth (or Google Maps).
 -   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package
     to interface with the Yahoo Developers network geolocation APIs.
 
@@ -992,12 +984,11 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     package to interface to the last.fm API. Archived on CRAN.
 -   [rscribd](https://github.com/leeper/rscribd) (not on CRAN): API
     client for publishing documents to [Scribd](http://www.scribd.com).
--   The [<span
-    class="Ohat">RUbigraph</span>](http://www.Omegahat.org/RUbigraph/)
-    package provides an R interface to a Ubigraph server for drawing
-    interactive, dynamic graphs. You can add and remove vertices/nodes
-    and edges in a graph and change their attributes/characteristics
-    such as shape, color, size.
+-   The [RUbigraph](http://www.Omegahat.org/RUbigraph/) package provides
+    an R interface to a Ubigraph server for drawing interactive, dynamic
+    graphs. You can add and remove vertices/nodes and edges in a graph
+    and change their attributes/characteristics such as shape, color,
+    size.
 
 ### <a href="#ncbi" name="ncbi">#</a> NCBI
 
@@ -1103,10 +1094,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     Currently a Google+ API key is required for accessing Google+ data.
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html):
     Provides an interface to the Facebook API.
--   The [<span
-    class="Ohat">Rflickr</span>](http://www.Omegahat.org/Rflickr/)
-    package provides an R interface to the Flickr photo management and
-    sharing application Web service. (not on CRAN)
+-   The [Rflickr](http://www.Omegahat.org/Rflickr/) package provides an
+    R interface to the Flickr photo management and sharing application
+    Web service. (not on CRAN)
 -   [Rlinkedin](https://github.com/mpiccirilli/Rlinkedin) (not on CRAN):
     R client for the LinkedIn API. Auth is via OAuth.
 -   [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on
@@ -1178,10 +1168,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     another R package for the same service
     ([RGA](http://cran.r-project.org/web/packages/RGA/index.html)); see
     next entry.
--   [<span
-    class="Ohat">RGoogleTrends</span>](http://www.Omegahat.org/RGoogleTrends/)
-    provides programmatic access to Google Trends data. This is
-    information about the popularity of a particular query.
+-   [RGoogleTrends](http://www.Omegahat.org/RGoogleTrends/) provides
+    programmatic access to Google Trends data. This is information about
+    the popularity of a particular query.
 -   [RSiteCatalyst](http://cran.r-project.org/web/packages/RSiteCatalyst/index.html):
     Functions for accessing the Adobe Analytics (Omniture SiteCatalyst)
     Reporting API.
@@ -1201,8 +1190,6 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     the free knowledgebase.
 -   [WikidataR](https://github.com/Ironholds/WikidataR) (Not on CRAN):
     An R API wrapper for the Wikidata store of semantic data.
-
-
 
 ### CRAN packages:
 
@@ -1379,8 +1366,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.r-project.org/web/packages/RNCEP/index.html)
--   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnoaa](http://cran.r-project.org/web/packages/rnoaa/index.html)
+-   [rNOMADS](http://cran.r-project.org/web/packages/rNOMADS/index.html)
 -   [rnrfa](http://cran.r-project.org/web/packages/rnrfa/index.html)
 -   [ropensecretsapi](http://cran.r-project.org/web/packages/ropensecretsapi/index.html)
 -   [rPlant](http://cran.r-project.org/web/packages/rPlant/index.html)
