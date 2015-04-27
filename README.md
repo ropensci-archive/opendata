@@ -1168,6 +1168,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     package to access the [ltp-cloud
     service](http://www.ltp-cloud.com/). [Source on
     GitHub](https://github.com/hetong007/rLTP)
+-   [googlepredictionapi](https://code.google.com/p/google-prediction-api-r-client/)
+    (not on CRAN): An R client for the [Google Prediction
+    API](https://cloud.google.com/prediction/docs), a suite of cloud
+    machine learning tools.
 
 ### <a href="#maps" name="maps">#</a> Maps
 

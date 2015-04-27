@@ -831,6 +831,9 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 <li>
 <pkg>rLTP</pkg>: An R package to access the <a href="http://www.ltp-cloud.com/">ltp-cloud service</a>. <a href="https://github.com/hetong007/rLTP">Source on GitHub</a>
 </li>
+<li>
+<a href="https://code.google.com/p/google-prediction-api-r-client/">googlepredictionapi</a> (not on CRAN): An R client for the <a href="https://cloud.google.com/prediction/docs">Google Prediction API</a>, a suite of cloud machine learning tools.
+</li>
 </ul>
 
 <p><strong>tochref="lb-maps" name="maps"endhref Maps</strong></p>
