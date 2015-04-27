@@ -2,7 +2,7 @@
 
 <name>OpenData</name>
 <topic>Open Data</topic>
-<maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper</maintainer>
+<maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
 <version>2015-04-27</version>
 
 <info> This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.
@@ -86,7 +86,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 <ul>
 <li>
-Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, <pkg>insuranceData</pkg> for insurance, 
+Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, <pkg>insuranceData</pkg> for insurance,
 </li>
 <li>
 <pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
@@ -125,7 +125,7 @@ Various packages provide datasets intended for those working in specific discipl
 <pkg>noncensus</pkg> contains data related to the U.S. Census.
 </li>
 <li>
-<pkg>nycflights13</pkg> contains airline on-time data for all flights departing from New York City in 2013. 
+<pkg>nycflights13</pkg> contains airline on-time data for all flights departing from New York City in 2013.
 </li>
 <li>
 <pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.
