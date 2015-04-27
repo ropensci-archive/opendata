@@ -23,16 +23,15 @@ speaking "open". Users should investigate the terms of use and licensing
 of any data referenced here before using it for any particular
 application. If you have any comments or suggestions for additions or
 improvements for this taskview, go to GitHub and [submit an
-issue](https://github.com/ropensci/opendata_content/issues), or make
-some changes and [submit a pull
-request](https://github.com/ropensci/opendata_content/pulls). If you
-can't contribute on GitHub, [send Scott an
-email](mailto:scott@ropensci.org). If you have an issue with one of the
-packages discussed below, please contact the maintainer of that package.
-If you know of a web service, API, data source, or other online resource
-that is not yet supported by an R package, consider adding it to [the
-package development to do list on
-GitHub](https://github.com/ropensci/opendata/wiki/ToDo).
+issue](https://github.com/ropensci/opendata/issues), or make some
+changes and [submit a pull
+request](https://github.com/ropensci/opendata/pulls). If you can't
+contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
+If you have an issue with one of the packages discussed below, please
+contact the maintainer of that package. If you know of a web service,
+API, data source, or other online resource that is not yet supported by
+an R package, consider adding it to [the package development to do list
+on GitHub](https://github.com/ropensci/opendata/wiki/ToDo).
 
 Data Discovery and Data Archiving
 ---------------------------------
