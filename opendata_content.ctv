@@ -280,6 +280,9 @@ Web-based Open Data
 <a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a>
 </li>
 <li>
+<bioc>BioMart</bioc> (not on CRAN) retrieves data from a number of public biological data repositories using a <a href="http://www.biomart.org">http://www.biomart.org</a> database.
+</li>
+<li>
 <pkg>dismo</pkg>: Species distribution modeling, with wrappers to some APIs.
 </li>
 <li>
