@@ -688,6 +688,9 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 
 <ul>
 <li>
+<pkg>FedData</pkg> can download geospatial data from a number of U.S. and international data sources.
+</li>
+<li>
 <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 </li>
 <li>
