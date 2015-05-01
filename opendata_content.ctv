@@ -307,6 +307,9 @@ Web-based Open Data
 <pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
 </li>
 <li>
+<a href="https://github.com/idigbio/ridigbio">ridigbio</a> (not on CRAN) is an interface for <a href="http://www.idigbio.org/">http://www.idigbio.org/</a>.
+</li>
+<li>
 <pkg>rebird</pkg>: A programmatic interface to the eBird database. <a href="https://github.com/ropensci/rebird">Source on GitHub</a>
 </li>
 <li>
