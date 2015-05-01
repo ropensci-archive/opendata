@@ -820,6 +820,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     download a gzipped csv file of a dataset if you want the whole
     dataset. An API key from Enigma is required to use enigma. [Source
     on GitHub](https://github.com/ropengov/enigma).
+-   [eurostat](http://cran.r-project.org/web/packages/eurostat/index.html)
+    ( [Github](https://github.com/ropengov/eurostat)) provides an
+    interface to the [Eurostat database](http://ec.europa.eu/eurostat).
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html):
     Client package for the U.S. Federal Register API. Development
     version on GitHub
@@ -1247,6 +1250,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [EngrExpt](http://cran.r-project.org/web/packages/EngrExpt/index.html)
 -   [enigma](http://cran.r-project.org/web/packages/enigma/index.html)
 -   [ergmharris](http://cran.r-project.org/web/packages/ergmharris/index.html)
+-   [eurostat](http://cran.r-project.org/web/packages/eurostat/index.html)
 -   [expsmooth](http://cran.r-project.org/web/packages/expsmooth/index.html)
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html)
 -   [Fahrmeir](http://cran.r-project.org/web/packages/Fahrmeir/index.html)

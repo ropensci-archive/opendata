@@ -576,6 +576,9 @@ The <ohat>RGoogleDocs</ohat> package is an example of using the RCurl and XML pa
 <pkg>enigma</pkg>: <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma. <a href="https://github.com/ropengov/enigma">Source on GitHub</a>.
 </li>
 <li>
+<pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.
+</li>
+<li>
 <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.
 </li>
 <li>
