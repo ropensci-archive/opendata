@@ -242,7 +242,7 @@ more substantial datasets.
     [HSAUR3](http://cran.r-project.org/web/packages/HSAUR3/index.html),
     [igraphdata](http://cran.r-project.org/web/packages/igraphdata/index.html),
     [isdals](http://cran.r-project.org/web/packages/isdals/index.html),
-    [KMSurv](http://cran.r-project.org/web/packages/KMSurv/index.html),
+    [KMsurv](http://cran.r-project.org/web/packages/KMsurv/index.html),
     [languageR](http://cran.r-project.org/web/packages/languageR/index.html),
     [learningr](http://cran.r-project.org/web/packages/learningr/index.html),
     [LeLogicielR](http://cran.r-project.org/web/packages/LeLogicielR/index.html),
@@ -1324,7 +1324,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [insuranceData](http://cran.r-project.org/web/packages/insuranceData/index.html)
 -   [isdals](http://cran.r-project.org/web/packages/isdals/index.html)
 -   [jSonarR](http://cran.r-project.org/web/packages/jSonarR/index.html)
--   [KMSurv](http://cran.r-project.org/web/packages/KMSurv/index.html)
+-   [KMsurv](http://cran.r-project.org/web/packages/KMsurv/index.html)
 -   [Lahman](http://cran.r-project.org/web/packages/Lahman/index.html)
 -   [languageR](http://cran.r-project.org/web/packages/languageR/index.html)
 -   [leafletR](http://cran.r-project.org/web/packages/leafletR/index.html)
