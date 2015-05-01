@@ -901,6 +901,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 <li>
 <pkg>fitbitScraper</pkg>: Get Fitbit data. Authentication with email/password. <a href="https://github.com/corynissen/fitbitScraper">Source on GitHub</a>
 </li>
+<li>
+<pkg>retrosheet</pkg> (<a href="https://github.com/rmscriven/retrosheet">Github</a>) retrieves single-season baseball statistics from <a href="http://www.retrosheet.org">http://www.retrosheet.org</a>.
+</li>
 </ul>
 
 
