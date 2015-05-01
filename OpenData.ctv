@@ -5,25 +5,25 @@
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
 <version>2015-04-27</version>
 
-<info> This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.
+<info> 
 
-Another key issue in a data-focused TaskView is the meaning of "open" data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to "freely available" data that is available at no cost but may have licenses that are not strictly speaking "open". Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application.
+<p>This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.</p>
 
-If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+<p>Another key issue in a data-focused TaskView is the meaning of "open" data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to "freely available" data that is available at no cost but may have licenses that are not strictly speaking "open". Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application.</p>
 
-If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/opendata/wiki/ToDo">the package development to do list on GitHub</a>.
+<p>If you have any comments or suggestions for additions or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:scott@ropensci.org">send Scott an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p>
+
+<p>If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/opendata/wiki/ToDo">the package development to do list on GitHub</a>.</p>
 
 <h2>
-Data Discovery and Data Archiving
+Data Sharing and Archiving
 </h2>
 
-Data discovery involves the identification and retrieval of publicly available data. Data archiving involves the production and dissemination of open data. The tools below may be useful for one or both of these tasks.
+<p>Data sharing involves the dissemination of data in draft form or for a temporary period of time. <pkg>rdrop2</pkg> (<a href="https://github.com/karthik/rdrop2">GitHub</a>) is a Dropbox.com interface from R, providing access to a full suite of file operations, including dir/copy/move/delete operations, account information (including quotas) and the ability to upload and download files from any Dropbox account. <a href="https://github.com/brendan-R/boxr">boxr</a> is a lightweight, high-level R interface for the <a href="https://developers.box.com/docs/">box.com API</a>. <ohat>RAmazonS3</ohat> provides an interface to the Amazon Simple Storage Service (S3).</p>
 
+<p>Data archiving involves the production and dissemination of open data that is persistently accessible, typically in public repositories. The tools below may be useful for both archiving data and retrieving extant data from public archives.</p>
 
 <ul>
-<li>
-<a href="https://github.com/brendan-R/boxr">boxr</a>: A lightweight, high-level R interface for the <a href="https://developers.box.com/docs/">box.com API</a>. <a href="https://github.com/brendan-R/boxr">Source on GitHub</a>.
-</li>
 <li>
 <a href="https://github.com/ropensci/ckanr">ckanr</a>: A generic R client to interact with the CKAN data portal software API (<a href="http://ckan.org/">http://ckan.org/</a>). Allows user to swap out the base URL to use any CKAN instance. <a href="https://github.com/ropensci/ckanr">Source on GitHub</a>.
 </li>
@@ -31,7 +31,7 @@ Data discovery involves the identification and retrieval of publicly available d
 <a href="http://cran.rstudio.com/src/contrib/Archive/dataone/">dataone</a>: Read/write access to data and metadata from the <a href="https://www.dataone.org/">DataONE network</a> of Member Node data repositories.
 </li>
 <li>
-<pkg>dvn</pkg>: Provides access to The Dataverse Network API. <a href="https://github.com/ropensci/dvn">Source on GitHub</a>.
+<pkg>dvn</pkg> (<a href="https://github.com/ropensci/dvn">GitHub</a>) provides access to Dataverse Network repositories.
 </li>
 <li>
 <pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.
@@ -59,9 +59,6 @@ Data discovery involves the identification and retrieval of publicly available d
 </li>
 <li>
 <pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).
-</li>
-<li>
-<a href="https://github.com/karthik/rdrop2">rDrop2</a> (not on CRAN): Dropbox interface from R. Provides access to a full suite of file operations, including dir/copy/move/delete operations, account information (including quotas) and the ability to upload and download files from any Dropbox account. <a href="https://github.com/karthik/rdrop2">Source on GitHub</a>
 </li>
 <li>
 <a href="https://github.com/ropensci/rerddap">rerddap</a> (not on CRAN): A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance. <a href="https://github.com/ropensci/rerddap">Source on GitHub</a>.
@@ -280,6 +277,9 @@ Web-based Open Data
 <a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a>
 </li>
 <li>
+<bioc>BioMart</bioc> (not on CRAN) retrieves data from a number of public biological data repositories using a <a href="http://www.biomart.org">http://www.biomart.org</a> database.
+</li>
+<li>
 <pkg>dismo</pkg>: Species distribution modeling, with wrappers to some APIs.
 </li>
 <li>
@@ -302,6 +302,9 @@ Web-based Open Data
 </li>
 <li>
 <pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
+</li>
+<li>
+<a href="https://github.com/idigbio/ridigbio">ridigbio</a> (not on CRAN) is an interface for <a href="http://www.idigbio.org/">http://www.idigbio.org/</a>.
 </li>
 <li>
 <pkg>rebird</pkg>: A programmatic interface to the eBird database. <a href="https://github.com/ropensci/rebird">Source on GitHub</a>
@@ -346,7 +349,7 @@ Web-based Open Data
 <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a>
 </li>
 <li>
-<pkg>spocc</pkg>: A programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. <a href="https://github.com/ropensci/spocc">Source on GitHub</a>
+<pkg>spocc</pkg> (<a href="https://github.com/ropensci/spocc">GitHub</a>) offers a programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. <pkg>rinat</pkg> provides another interface to iNaturalist.
 </li>
 <li>
 <pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database). <a href="https://github.com/GioBo/TR8">Source on GitHub</a>
@@ -688,6 +691,9 @@ The <ohat>Sxslt</ohat> package is an R interface to Dan Veillard's libxslt trans
 
 <ul>
 <li>
+<pkg>FedData</pkg> can download geospatial data from a number of U.S. and international data sources.
+</li>
+<li>
 <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 </li>
 <li>
@@ -832,6 +838,9 @@ You can add and remove vertices/nodes and edges in a graph and change their attr
 <li>
 <pkg>rclinicaltrials</pkg>: ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data. <a href="https://github.com/sachsmc/rclinicaltrials">Source on GitHub</a>
 </li>
+<li>
+<pkg>UScancer</pkg> constructs U.S. cancer data at the county level from <a href="http://seer.cancer.gov/">SEER</a>, <a href="http://www.iarc.fr">IARC</a>, and the U.S. Census Bureau.
+</li>
 </ul>
 
 <p><strong> Social media</strong></p>
@@ -894,6 +903,9 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
 </li>
 <li>
 <pkg>fitbitScraper</pkg>: Get Fitbit data. Authentication with email/password. <a href="https://github.com/corynissen/fitbitScraper">Source on GitHub</a>
+</li>
+<li>
+<pkg>retrosheet</pkg> (<a href="https://github.com/rmscriven/retrosheet">Github</a>) retrieves single-season baseball statistics from <a href="http://www.retrosheet.org">http://www.retrosheet.org</a>.
 </li>
 </ul>
 
@@ -994,6 +1006,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>FAwR</pkg>
   <pkg>fbRanks</pkg>
   <pkg>fds</pkg>
+  <pkg>FedData</pkg>
   <pkg>federalregister</pkg>
   <pkg>fImport</pkg>
   <pkg>fitbitScraper</pkg>
@@ -1095,12 +1108,14 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rcorpora</pkg>
   <pkg>RCryptsy</pkg>
   <pkg>rdatamarket</pkg>
+  <pkg>rdrop2</pkg>
   <pkg>rebird</pkg>
   <pkg>recalls</pkg>
   <pkg>redcapAPI</pkg>
   <pkg>RefManageR</pkg>
   <pkg>rentrez</pkg>
   <pkg>Reol</pkg>
+  <pkg>retrosheet</pkg>
   <pkg>reutils</pkg>
   <pkg>Rfacebook</pkg>
   <pkg>rFDSN</pkg>
@@ -1113,6 +1128,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>rgbif</pkg>
   <pkg>RGoogleAnalytics</pkg>
   <pkg>RgoogleMaps</pkg>
+  <pkg>rinat</pkg>
   <pkg>RISmed</pkg>
   <pkg>RJSDMX</pkg>
   <pkg>rnbn</pkg>
@@ -1167,6 +1183,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>tseries</pkg>
   <pkg>tumblR</pkg>
   <pkg>twitteR</pkg>
+  <pkg>UScancer</pkg>
   <pkg>UScensus2010</pkg>
   <pkg>UsingR</pkg>
   <pkg>ustyc</pkg>

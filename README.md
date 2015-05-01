@@ -17,34 +17,51 @@ open data is available on the web, and the
 [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html)
 TaskView addresses how to obtain and parse web-based data. There is
 obvious overlap between the two TaskViews, so some packages are
-described on both. Another key issue in a data-focused TaskView is the
-meaning of "open" data. This TaskView covers many types of data that
-come with varying degrees of usage restrictions from public domain (or
-CC-0) data that is useable for any purpose to "freely available" data
-that is available at no cost but may have licenses that are not strictly
-speaking "open". Users should investigate the terms of use and licensing
-of any data referenced here before using it for any particular
-application. If you have any comments or suggestions for additions or
-improvements for this taskview, go to GitHub and [submit an
+described on both.
+
+Another key issue in a data-focused TaskView is the meaning of "open"
+data. This TaskView covers many types of data that come with varying
+degrees of usage restrictions from public domain (or CC-0) data that is
+useable for any purpose to "freely available" data that is available at
+no cost but may have licenses that are not strictly speaking "open".
+Users should investigate the terms of use and licensing of any data
+referenced here before using it for any particular application.
+
+If you have any comments or suggestions for additions or improvements
+for this taskview, go to GitHub and [submit an
 issue](https://github.com/ropensci/opendata/issues), or make some
 changes and [submit a pull
 request](https://github.com/ropensci/opendata/pulls). If you can't
 contribute on GitHub, [send Scott an email](mailto:scott@ropensci.org).
 If you have an issue with one of the packages discussed below, please
-contact the maintainer of that package. If you know of a web service,
-API, data source, or other online resource that is not yet supported by
-an R package, consider adding it to [the package development to do list
-on GitHub](https://github.com/ropensci/opendata/wiki/ToDo).
-Data Discovery and Data Archiving
----------------------------------
+contact the maintainer of that package.
 
-Data discovery involves the identification and retrieval of publicly
-available data. Data archiving involves the production and dissemination
-of open data. The tools below may be useful for one or both of these
-tasks.
--   [boxr](https://github.com/brendan-R/boxr): A lightweight, high-level
-    R interface for the [box.com API](https://developers.box.com/docs/).
-    [Source on GitHub](https://github.com/brendan-R/boxr).
+If you know of a web service, API, data source, or other online resource
+that is not yet supported by an R package, consider adding it to [the
+package development to do list on
+GitHub](https://github.com/ropensci/opendata/wiki/ToDo).
+
+Data Sharing and Archiving
+--------------------------
+
+Data sharing involves the dissemination of data in draft form or for a
+temporary period of time.
+[rdrop2](http://cran.r-project.org/web/packages/rdrop2/index.html) (
+[GitHub](https://github.com/karthik/rdrop2)) is a Dropbox.com interface
+from R, providing access to a full suite of file operations, including
+dir/copy/move/delete operations, account information (including quotas)
+and the ability to upload and download files from any Dropbox account.
+[boxr](https://github.com/brendan-R/boxr) is a lightweight, high-level R
+interface for the [box.com API](https://developers.box.com/docs/).
+[<span
+class="Ohat">RAmazonS3</span>](http://www.Omegahat.org/RAmazonS3/)
+provides an interface to the Amazon Simple Storage Service (S3).
+
+Data archiving involves the production and dissemination of open data
+that is persistently accessible, typically in public repositories. The
+tools below may be useful for both archiving data and retrieving extant
+data from public archives.
+
 -   [ckanr](https://github.com/ropensci/ckanr): A generic R client to
     interact with the CKAN data portal software API (
     <http://ckan.org/>). Allows user to swap out the base URL to use any
@@ -53,9 +70,9 @@ tasks.
 -   [dataone](http://cran.rstudio.com/src/contrib/Archive/dataone/):
     Read/write access to data and metadata from the [DataONE
     network](https://www.dataone.org/) of Member Node data repositories.
--   [dvn](http://cran.r-project.org/web/packages/dvn/index.html):
-    Provides access to The Dataverse Network API. [Source on
-    GitHub](https://github.com/ropensci/dvn).
+-   [dvn](http://cran.r-project.org/web/packages/dvn/index.html) (
+    [GitHub](https://github.com/ropensci/dvn)) provides access to
+    Dataverse Network repositories.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
     Thin wrapper for the [Factual.com](http://factual.com/) server API.
 -   [googlesheets](https://github.com/jennybc/googlesheets) (not on
@@ -91,12 +108,6 @@ tasks.
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html):
     Fetches data from DataMarket.com, either as timeseries in zoo form
     (dmseries) or as long-form data frames (dmlist).
--   [rDrop2](https://github.com/karthik/rdrop2) (not on CRAN): Dropbox
-    interface from R. Provides access to a full suite of file
-    operations, including dir/copy/move/delete operations, account
-    information (including quotas) and the ability to upload and
-    download files from any Dropbox account. [Source on
-    GitHub](https://github.com/karthik/rdrop2)
 -   [rerddap](https://github.com/ropensci/rerddap) (not on CRAN): A
     generic R client to interact with any ERDDAP instance, which is a
     special case of OPeNDAP ( <https://en.wikipedia.org/wiki/OPeNDAP>),
@@ -440,6 +451,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     CRAN): Programmatic R interface to the [Atlas of Living
     Australia](http://www.ala.org.au/). [Source on
     GitHub](https://github.com/ropensci/ALA4R)
+-   [<span
+    class="BioC">BioMart</span>](http://www.Bioconductor.ohttp://cran.r-project.org/web/packages/release/bioc/html/BioMart.html)
+    (not on CRAN) retrieves data from a number of public biological data
+    repositories using a <http://www.biomart.org> database.
 -   [dismo](http://cran.r-project.org/web/packages/dismo/index.html):
     Species distribution modeling, with wrappers to some APIs.
 -   [ecoengine](http://cran.r-project.org/web/packages/ecoengine/index.html):
@@ -473,6 +488,8 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     interface for exploring and analyzing comprehensive
     organism-specific cross-platform expression compendia of bacterial
     organisms.
+-   [ridigbio](https://github.com/idigbio/ridigbio) (not on CRAN) is an
+    interface for <http://www.idigbio.org/>.
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html):
     A programmatic interface to the eBird database. [Source on
     GitHub](https://github.com/ropensci/rebird)
@@ -526,11 +543,13 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     A programmatic interface to web-services of Youtheria, an online
     database of mammalian trait data. Development version on GitHub
     [here](https://github.com/biologicalrecordscentre/rYoutheria)
--   [spocc](http://cran.r-project.org/web/packages/spocc/index.html): A
-    programmatic interface to many species occurrence data sources,
-    including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics
-    Engine eBird, AntWeb, and more as they sources become easily
-    available. [Source on GitHub](https://github.com/ropensci/spocc)
+-   [spocc](http://cran.r-project.org/web/packages/spocc/index.html) (
+    [GitHub](https://github.com/ropensci/spocc)) offers a programmatic
+    interface to many species occurrence data sources, including GBIF,
+    USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird,
+    AntWeb, and more as they sources become easily available.
+    [rinat](http://cran.r-project.org/web/packages/rinat/index.html)
+    provides another interface to iNaturalist.
 -   [TR8](http://cran.r-project.org/web/packages/TR8/index.html): TR8
     contains a set of tools which take care of retrieving trait data for
     plant species from publicly available databases via web services
@@ -945,6 +964,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 
 ### <a href="#maps" name="maps">#</a> Maps
 
+-   [FedData](http://cran.r-project.org/web/packages/FedData/index.html)
+    can download geospatial data from a number of U.S. and international
+    data sources.
 -   [ggmap](http://cran.r-project.org/web/packages/ggmap/index.html):
     Allows for the easy visualization of spatial data and models on top
     of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using
@@ -1097,6 +1119,10 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
     and privately supported clinical studies of human participants
     conducted around the world. This is an R client for that data.
     [Source on GitHub](https://github.com/sachsmc/rclinicaltrials)
+-   [UScancer](http://cran.r-project.org/web/packages/UScancer/index.html)
+    constructs U.S. cancer data at the county level from
+    [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the
+    U.S. Census Bureau.
 
 ### <a href="#social" name="social">#</a> Social media
 
@@ -1153,6 +1179,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html):
     Get Fitbit data. Authentication with email/password. [Source on
     GitHub](https://github.com/corynissen/fitbitScraper)
+-   [retrosheet](http://cran.r-project.org/web/packages/retrosheet/index.html)
+    ( [Github](https://github.com/rmscriven/retrosheet)) retrieves
+    single-season baseball statistics from <http://www.retrosheet.org>.
 
 ### <a href="#webanalytics" name="webanalytics">#</a> Web Analytics
 
@@ -1260,6 +1289,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [FAwR](http://cran.r-project.org/web/packages/FAwR/index.html)
 -   [fbRanks](http://cran.r-project.org/web/packages/fbRanks/index.html)
 -   [fds](http://cran.r-project.org/web/packages/fds/index.html)
+-   [FedData](http://cran.r-project.org/web/packages/FedData/index.html)
 -   [federalregister](http://cran.r-project.org/web/packages/federalregister/index.html)
 -   [fImport](http://cran.r-project.org/web/packages/fImport/index.html)
 -   [fitbitScraper](http://cran.r-project.org/web/packages/fitbitScraper/index.html)
@@ -1361,12 +1391,14 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rcorpora](http://cran.r-project.org/web/packages/rcorpora/index.html)
 -   [RCryptsy](http://cran.r-project.org/web/packages/RCryptsy/index.html)
 -   [rdatamarket](http://cran.r-project.org/web/packages/rdatamarket/index.html)
+-   [rdrop2](http://cran.r-project.org/web/packages/rdrop2/index.html)
 -   [rebird](http://cran.r-project.org/web/packages/rebird/index.html)
 -   [recalls](http://cran.r-project.org/web/packages/recalls/index.html)
 -   [redcapAPI](http://cran.r-project.org/web/packages/redcapAPI/index.html)
 -   [RefManageR](http://cran.r-project.org/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.r-project.org/web/packages/rentrez/index.html)
 -   [Reol](http://cran.r-project.org/web/packages/Reol/index.html)
+-   [retrosheet](http://cran.r-project.org/web/packages/retrosheet/index.html)
 -   [reutils](http://cran.r-project.org/web/packages/reutils/index.html)
 -   [Rfacebook](http://cran.r-project.org/web/packages/Rfacebook/index.html)
 -   [rFDSN](http://cran.r-project.org/web/packages/rFDSN/index.html)
@@ -1379,6 +1411,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [rgbif](http://cran.r-project.org/web/packages/rgbif/index.html)
 -   [RGoogleAnalytics](http://cran.r-project.org/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.r-project.org/web/packages/RgoogleMaps/index.html)
+-   [rinat](http://cran.r-project.org/web/packages/rinat/index.html)
 -   [RISmed](http://cran.r-project.org/web/packages/RISmed/index.html)
 -   [RJSDMX](http://cran.r-project.org/web/packages/RJSDMX/index.html)
 -   [rnbn](http://cran.r-project.org/web/packages/rnbn/index.html)
@@ -1433,6 +1466,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [UScancer](http://cran.r-project.org/web/packages/UScancer/index.html)
 -   [UScensus2010](http://cran.r-project.org/web/packages/UScensus2010/index.html)
 -   [UsingR](http://cran.r-project.org/web/packages/UsingR/index.html)
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
