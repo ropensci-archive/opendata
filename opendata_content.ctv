@@ -3,7 +3,7 @@
 <name>OpenData</name>
 <topic>Open Data</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
-<version>2015-04-27</version>
+<version>2015-05-02</version>
 
 <info> 
 
@@ -264,6 +264,9 @@ Web-based Open Data
 </li>
 <li>
 <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
+</li>
+<li>
+<pkg>WaterML</pkg> can retrieve WaterOneFlow <a href="http://hiscentral.cuahsi.org">Hydroserver</a> data.
 </li>
 <li>
 <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.

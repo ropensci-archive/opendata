@@ -4,7 +4,7 @@ CRAN Task View: Open Data
   ----------------- --------------------------------------------------
   **Maintainer:**   Scott Chamberlain, Thomas Leeper, Jaime Ashander
   **Contact:**      scott at ropensci.org
-  **Version:**      2015-04-27
+  **Version:**      2015-05-02
   ----------------- --------------------------------------------------
 
 
@@ -285,17 +285,16 @@ Web-based Open Data
 -------------------
 
 [Agriculture](#agr) | [Astronomy](#ast) | [Chemistry](#chemistry) |
-[Data depots](#depots) | [Data science tools](#datascience) | [Earth
-Science](#earthsci) | [Ecology/Evolution](#eeb) |
+[Earth Science](#earthsci) | [Ecology/Evolution](#eeb) |
 [Economics/Business](#econbus) | [E-commerce](#ecommerce) |
 [Finance](#finance) | [Genes/Genomes](#genes) | [Geocoding](#geocoding)
 | [Google analytics](#googlea) | [Google web services](#google) |
-[Government](#gov) | [Literature/Text-mining](#lit) | [Machine
-learning](#mls) | [Maps](#maps) | [Marketing](#marketing) | [Media:
-Images/video/etc.](#media) | [NCBI](#ncbi) | [News](#news) |
-[Other](#other) | [Public Health](#publichealth) | [Social
-media](#social) | [Social science](#socialsci) | [Sports](#sports) |
-[Web analytics](#webanalytics) | [Wikipedia](#wikipedia) |
+[Government](#gov) | [Literature/Text-mining](#lit) | [Maps](#maps) |
+[Marketing](#marketing) | [Media: Images/video/etc.](#media) |
+[NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public
+Health](#publichealth) | [Social media](#social) | [Social
+science](#socialsci) | [Sports](#sports) | [Web
+analytics](#webanalytics) | [Wikipedia](#wikipedia) |
 
 ### <a href="#agr" name="agr">#</a> Agriculture
 
@@ -440,6 +439,9 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html):
     An R Package for retrieval, analysis, and anomaly calculation of
     daily hydrologic time series data.
+-   [WaterML](http://cran.r-project.org/web/packages/WaterML/index.html)
+    can retrieve WaterOneFlow
+    [Hydroserver](http://hiscentral.cuahsi.org) data.
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html):
     Functions that help in fetching weather data from websites. Given a
     location and a date range, these functions help fetch weather data
@@ -1472,6 +1474,7 @@ media](#social) | [Social science](#socialsci) | [Sports](#sports) |
 -   [ustyc](http://cran.r-project.org/web/packages/ustyc/index.html)
 -   [VGAMdata](http://cran.r-project.org/web/packages/VGAMdata/index.html)
 -   [waterData](http://cran.r-project.org/web/packages/waterData/index.html)
+-   [WaterML](http://cran.r-project.org/web/packages/WaterML/index.html)
 -   [WDI](http://cran.r-project.org/web/packages/WDI/index.html)
 -   [weatherData](http://cran.r-project.org/web/packages/weatherData/index.html)
 -   [webchem](http://cran.r-project.org/web/packages/webchem/index.html)

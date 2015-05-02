@@ -3,7 +3,7 @@
 <name>OpenData</name>
 <topic>Open Data</topic>
 <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
-<version>2015-04-27</version>
+<version>2015-05-02</version>
 
 <info> 
 
@@ -155,7 +155,7 @@ Various packages supply data to accompany general R instructional materials (e.g
 Web-based Open Data
 </h2>
 
-<a href="#agr">Agriculture</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#depots">Data depots</a> | <a href="#datascience">Data science tools</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#googlea">Google analytics</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#mls">Machine learning</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#socialsci">Social science</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> | <a href="#wikipedia">Wikipedia</a> |
+<a href="#agr">Agriculture</a> | <a href="#ast">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earthsci">Earth Science</a> | <a href="#eeb">Ecology/Evolution</a> | <a href="#econbus">Economics/Business</a> | <a href="#ecommerce">E-commerce</a> | <a href="#finance">Finance</a> | <a href="#genes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#googlea">Google analytics</a> | <a href="#google">Google web services</a> | <a href="#gov">Government</a> | <a href="#lit">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#media">Media: Images/video/etc.</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#publichealth">Public Health</a> | <a href="#social">Social media</a> | <a href="#socialsci">Social science</a> | <a href="#sports">Sports</a> | <a href="#webanalytics">Web analytics</a> | <a href="#wikipedia">Wikipedia</a> |
 
 <p><strong> Agriculture</strong></p>
 
@@ -264,6 +264,9 @@ Web-based Open Data
 </li>
 <li>
 <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
+</li>
+<li>
+<pkg>WaterML</pkg> can retrieve WaterOneFlow <a href="http://hiscentral.cuahsi.org">Hydroserver</a> data.
 </li>
 <li>
 <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
@@ -1189,6 +1192,7 @@ The <ohat>Rflickr</ohat> package provides an R interface to the Flickr photo man
   <pkg>ustyc</pkg>
   <pkg>VGAMdata</pkg>
   <pkg>waterData</pkg>
+  <pkg>WaterML</pkg>
   <pkg>WDI</pkg>
   <pkg>weatherData</pkg>
   <pkg>webchem</pkg>
