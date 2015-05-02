@@ -73,6 +73,10 @@ data from public archives.
 -   [dvn](http://cran.r-project.org/web/packages/dvn/index.html) (
     [GitHub](https://github.com/ropensci/dvn)) provides access to
     Dataverse Network repositories.
+    [UNF](http://cran.r-project.org/web/packages/UNF/index.html)
+    implements the Universal Numeric Fingerprint, a format-independent
+    data hashing algorithm used by Dataverse, to verify and cite a
+    dataset.
 -   [factualR](http://cran.r-project.org/web/packages/factualR/index.html):
     Thin wrapper for the [Factual.com](http://factual.com/) server API.
 -   [googlesheets](https://github.com/jennybc/googlesheets) (not on
@@ -1468,6 +1472,7 @@ analytics](#webanalytics) | [Wikipedia](#wikipedia) |
 -   [tseries](http://cran.r-project.org/web/packages/tseries/index.html)
 -   [tumblR](http://cran.r-project.org/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.r-project.org/web/packages/twitteR/index.html)
+-   [UNF](http://cran.r-project.org/web/packages/UNF/index.html)
 -   [UScancer](http://cran.r-project.org/web/packages/UScancer/index.html)
 -   [UScensus2010](http://cran.r-project.org/web/packages/UScensus2010/index.html)
 -   [UsingR](http://cran.r-project.org/web/packages/UsingR/index.html)
