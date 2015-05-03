@@ -1,6 +1,9 @@
 CRAN Task View: Open Data
 -------------------------
 
+*Do not edit this README by hand. See [CONTRIBUTING.md](CONTRIBUTING.md).*
+
+|||
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Scott Chamberlain, Thomas Leeper, Jaime Ashander |
 | **Contact:**    | scott at ropensci.org                            |
