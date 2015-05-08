@@ -35,6 +35,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, and <pkg>insuranceData</pkg> for insurance.
 -   <pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
+-   <pkg>emdatr</pkg> provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
 -   <pkg>ergmharris</pkg> contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.
 -   <pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.
 -   <pkg>gapminder</pkg> is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
@@ -109,7 +110,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
 -   <pkg>ecoretriever</pkg>: Provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). [Source on GitHub](https://github.com/ropensci/ecoretriever/).
 -   <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
--   [neotoma](https://github.com/ropensci/neotoma) (not on CRAN): Programmatic R interface to the Neotoma Paleoecological Database. [Source on GitHub](https://github.com/ropensci/neotoma)
+-   <pkg>neotoma</pkg>: Programmatic R interface to the Neotoma Paleoecological Database. [Source on GitHub](https://github.com/ropensci/neotoma)
 -   <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
 -   <pkg>rbison</pkg>: Wrapper to the USGS Bison API. [Source on GitHub](https://github.com/ropensci/rbison)
 -   <pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
@@ -221,6 +222,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>eurostat</pkg> ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
 -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
 -   <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
+-   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
 -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
@@ -254,6 +256,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>scholar</pkg> provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
 -   The <ohat>Sxslt</ohat> (not on CRAN) package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.
 -   <pkg>tm.plugin.webmining</pkg>: Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.
+*   <pkg>biorxivr</pkg>: interface with bioRxiv preprint server
 
 ###Maps###
 
@@ -320,7 +323,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <em>Facebook</em>: <pkg>Rfacebook</pkg> provides an interface to the Facebook API.
 -   <em>Flickr</em>: The <ohat>Rflickr</ohat> (not on CRAN) package provides an R interface to the Flickr photo management and sharing application Web service. (not on CRAN)
 -   <em>Google+</em>: <pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data.
--   <em>LinkedIn</em>: [Rlinkedin](https://github.com/mpiccirilli/Rlinkedin) (not on CRAN) is an R client for the LinkedIn API.
+-   <pkg>LinkedIn</pkg>: is an R client for the LinkedIn API.
 -  <em>tumblr</em>: <pkg>tumblR</pkg> ([GitHub](https://github.com/klapaukh/tumblR)): R client for the Tumblr API (<https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging platform and social networking website <https://www.tumblr.com>.
 -   <em>Twitter</em>: [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported.
 -  SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.
