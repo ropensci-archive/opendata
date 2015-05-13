@@ -319,6 +319,7 @@ Various R packages make open datasets available directly in R. These are useful 
 ###Social science###
 
 -   <pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
+-   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 
 ###Sports###
 
