@@ -12,8 +12,8 @@ If you don't want to or can't install these things, then just edit the `opendata
 ### Steps
 
 1. Fork this repo
-2. Edit the [pkgs.md](https://github.com/ropensci/OpenData/blob/master/opendata.md) file. If the package you are adding is on CRAN, add a the package name within `<pkg></pkg>` tags (use `<ohat></ohat>` for OmegaHat packages, `<rforge></rforge>` for [RForge](https://r-forge.r-project.org/), and `<bioc></bioc>` for [Bioconductor](http://www.bioconductor.org/) packages). If it's not on CRAN, put it within `<a></a>` tags (e.g., `<a href="https://github.com/ropensci/rgbif">rgbif</a> (not on CRAN)`).
-If the API or service wrapped requires registration, append (K) to the description. It it is paid, append ($).
+2. Edit the [opendata.md](https://github.com/ropensci/OpenData/blob/master/opendata.md) file. If the package you are adding is on CRAN, add a the package name within `<pkg></pkg>` tags (use `<ohat></ohat>` for OmegaHat packages, `<rforge></rforge>` for [RForge](https://r-forge.r-project.org/), and `<bioc></bioc>` for [Bioconductor](http://www.bioconductor.org/) packages). If it's not on CRAN, put it within `<a></a>` tags (e.g., `<a href="https://github.com/ropensci/rgbif">rgbif</a> (not on CRAN)`).
+If the API or service wrapped requires registration, append (K) to the description. It it is paid, append (\$). (The '\' is needed for proper processing by the build system.)
 3. On the command line type `make` and press enter, which creates the `OpenData.ctv`, `OpenData.html`, and `README.md` files.
 4. Check to make sure the `.ctv` file is correct. In the console output from `make checkctv`, you should get:
 
