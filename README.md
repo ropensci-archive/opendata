@@ -334,7 +334,7 @@ Web-based Open Data
 
 -   *Facebook* : [Rfacebook](http://cran.rstudio.com/web/packages/Rfacebook/index.html) provides an interface to the Facebook API. (K)
 -   *Google+* : [plusser](http://cran.rstudio.com/web/packages/plusser/index.html) has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data. (K)
--   [LinkedIn](http://cran.rstudio.com/web/packages/LinkedIn/index.html): is an R client for the LinkedIn API.
+-   [Rlinkedin](http://cran.rstudio.com/web/packages/Rlinkedin/index.html): is an R client for the LinkedIn API.
 -   *tumblr* : [tumblR](http://cran.rstudio.com/web/packages/tumblR/index.html) ( [GitHub](https://github.com/klapaukh/tumblR)): R client for the Tumblr API ( <https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging platform and social networking website <https://www.tumblr.com>. (K)
 -   *Twitter* : [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and [twitteR](http://cran.rstudio.com/web/packages/twitteR/index.html) provide an interface to the Twitter web API. [streamR](http://cran.rstudio.com/web/packages/streamR/index.html): This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K)
 -   SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.
@@ -463,7 +463,6 @@ Web-based Open Data
 -   [leafletR](http://cran.rstudio.com/web/packages/leafletR/index.html)
 -   [learningr](http://cran.rstudio.com/web/packages/learningr/index.html)
 -   [LeLogicielR](http://cran.rstudio.com/web/packages/LeLogicielR/index.html)
--   [LinkedIn](http://cran.rstudio.com/web/packages/LinkedIn/index.html)
 -   [Lock5Data](http://cran.rstudio.com/web/packages/Lock5Data/index.html)
 -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html)
@@ -548,6 +547,7 @@ Web-based Open Data
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.rstudio.com/web/packages/RISmed/index.html)
 -   [RJSDMX](http://cran.rstudio.com/web/packages/RJSDMX/index.html)
+-   [Rlinkedin](http://cran.rstudio.com/web/packages/Rlinkedin/index.html)
 -   [rnbn](http://cran.rstudio.com/web/packages/rnbn/index.html)
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html)
 -   [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html)

@@ -2,7 +2,7 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
-  <version>2015-05-14</version>
+  <version>2015-05-18</version>
   <info>
     <p>This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
@@ -311,7 +311,7 @@
     <ul>
     <li><em>Facebook</em>: <pkg>Rfacebook</pkg> provides an interface to the Facebook API. (K)</li>
     <li><em>Google+</em>: <pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data. (K)</li>
-    <li><pkg>LinkedIn</pkg>: is an R client for the LinkedIn API.</li>
+    <li><pkg>Rlinkedin</pkg>: is an R client for the LinkedIn API.</li>
     <li><em>tumblr</em>: <pkg>tumblR</pkg> (<a href="https://github.com/klapaukh/tumblR">GitHub</a>): R client for the Tumblr API (<a href="https://www.tumblr.com/docs/en/api/v2">https://www.tumblr.com/docs/en/api/v2</a>). Tumblr is a microblogging platform and social networking website <a href="https://www.tumblr.com">https://www.tumblr.com</a>. (K)</li>
     <li><em>Twitter</em>: <a href="https://github.com/joyofdata/RTwitterAPI">RTwitterAPI</a> (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K)</li>
     <li>SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.</li>
@@ -440,7 +440,6 @@
     <pkg>leafletR</pkg>
     <pkg>learningr</pkg>
     <pkg>LeLogicielR</pkg>
-    <pkg>LinkedIn</pkg>
     <pkg>Lock5Data</pkg>
     <pkg>manifestoR</pkg>
     <pkg>marmap</pkg>
@@ -525,6 +524,7 @@
     <pkg>RgoogleMaps</pkg>
     <pkg>RISmed</pkg>
     <pkg>RJSDMX</pkg>
+    <pkg>Rlinkedin</pkg>
     <pkg>rnbn</pkg>
     <pkg>RNCEP</pkg>
     <pkg>rnoaa</pkg>
