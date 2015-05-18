@@ -183,6 +183,7 @@
     <ul>
     <li><pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="http://here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/geocoder">https://developer.here.com/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on GitHub</a></li>
     <li><a href="https://github.com/hrbrmstr/ipapi">ipapi</a>: Geolocate IPv4/6 addresses and/or domain names using the <a href="http://ip-api.com/">ip-api.com</a> API. <a href="https://github.com/hrbrmstr/ipapi">Source on GitHub</a></li>
+    <li><a href="https://github.com/sckott/openadds">openadds</a> is an R client for <a href="http://openaddresses.io/">OpenAddresses</a> a free and open global address collection. <a href="https://github.com/sckott/openadds">Source on GitHub</a></li>
     </ul>
     <h3 id="google-analytics">Google Analytics</h3>
     <ul>
