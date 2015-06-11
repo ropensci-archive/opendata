@@ -107,6 +107,7 @@ Various R packages make open datasets available directly in R. These are useful 
 ###Ecological and Evolutionary Biology###
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
+-   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
 -   <bioc>BioMart</bioc> (not on CRAN) retrieves data from a number of public biological data repositories using a <http://www.biomart.org> database.
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
@@ -342,8 +343,8 @@ Various R packages make open datasets available directly in R. These are useful 
 
 ### Wikipedia ###
 
--   <pkg>wikipediatrend</pkg> ([GitHub](https://github.com/petermeissner/wikipediatrend)): Provides access to Wikipedia page access statistics.
+-   [wikipediatrend](https://github.com/petermeissner/wikipediatrend) (removed from CRAN): Provides access to Wikipedia page access statistics.
 -   <pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. [Source on GitHub](https://github.com/Ironholds/WikipediR)
 -   [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase.
--   [WikidataR](https://github.com/Ironholds/WikidataR) (not on CRAN): An R API wrapper for the Wikidata store of semantic data.
+-   <pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. [Source on GitHub](https://github.com/Ironholds/WikidataR).
 

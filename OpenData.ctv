@@ -2,7 +2,7 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Jaime Ashander</maintainer>
-  <version>2015-05-18</version>
+  <version>2015-06-11</version>
   <info>
     <p>This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
@@ -109,6 +109,7 @@
     <h3 id="ecological-and-evolutionary-biology">Ecological and Evolutionary Biology</h3>
     <ul>
     <li><a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a></li>
+    <li><a href="https://github.com/traitecoevo/baad.data">BAAD: a Biomass And Allometry Database for woody plants</a> (not on CRAN): an interface to access data from a data paper published in <em>Ecology</em>. <a href="https://github.com/dfalster/baad">Full source for the database is also on GitHub</a>.</li>
     <li><bioc>BioMart</bioc> (not on CRAN) retrieves data from a number of public biological data repositories using a <a href="http://www.biomart.org">http://www.biomart.org</a> database.</li>
     <li><pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.</li>
     <li><pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/">http://bnhm.berkeley.edu/</a>. <a href="https://github.com/ropensci/ecoengine">Source on GitHub</a></li>
@@ -342,10 +343,10 @@
     </ul>
     <h3 id="wikipedia">Wikipedia</h3>
     <ul>
-    <li><pkg>wikipediatrend</pkg> (<a href="https://github.com/petermeissner/wikipediatrend">GitHub</a>): Provides access to Wikipedia page access statistics.</li>
+    <li><a href="https://github.com/petermeissner/wikipediatrend">wikipediatrend</a> (removed from CRAN): Provides access to Wikipedia page access statistics.</li>
     <li><pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on GitHub</a></li>
     <li><a href="https://github.com/chgrl/rwikidata">rwikidata</a> (not on CRAN): Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase.</li>
-    <li><a href="https://github.com/Ironholds/WikidataR">WikidataR</a> (not on CRAN): An R API wrapper for the Wikidata store of semantic data.</li>
+    <li><pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. <a href="https://github.com/Ironholds/WikidataR">Source on GitHub</a>.</li>
     </ul>
   </info>
   <packagelist>
@@ -587,7 +588,7 @@
     <pkg>weatherData</pkg>
     <pkg>webchem</pkg>
     <pkg>wikibooks</pkg>
-    <pkg>wikipediatrend</pkg>
+    <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
     <pkg>WWGbook</pkg>
     <pkg>zendeskR</pkg>
