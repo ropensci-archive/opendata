@@ -61,7 +61,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 ## Web-based Open Data ##
 
-[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Economics/Business](#economics-and-business) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google analytics](#google-analytics) | [Google web services](#google-web-services) | [Government](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social media](#social-media) | [Social science](#social-science) | [Sports](#sports) | [Web analytics](#web-analytics) | [Wikipedia](#wikipedia) |
+[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Economics/Business](#economics-and-business) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google Analytics](#google-analytics) | [Google Web Services](#google-web-services) | [Government](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social Media](#social-media) | [Social Science](#social-science) | [Sports](#sports) | [Web Analytics](#web-analytics) | [Wikipedia](#wikipedia) |
 
 ###Agriculture###
 
