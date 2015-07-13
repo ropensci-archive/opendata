@@ -272,7 +272,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
 -   <ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
 -   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.
-
+-   <a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.
 
 
 ###NCBI###
