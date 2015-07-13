@@ -300,6 +300,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>slackr</pkg>: R client for Slack.com messaging platform. [Source on GitHub](https://github.com/hrbrmstr/slackr)
 -   <pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.
 -   [stackr](https://github.com/dgrtwo/stackr) (not on CRAN): An unofficial wrapper for the read-only features of the [Stack Exchange API](https://api.stackexchange.com/).
+-   <pkg>TMDb</pkg> can retrieve data from [The Movie Database](https://www.themoviedb.org).
 -   <pkg>zendeskR</pkg>: This package provides an R wrapper for the Zendesk API. (\$)
 
 ###Public Health###
