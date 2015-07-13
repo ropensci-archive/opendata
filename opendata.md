@@ -100,6 +100,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 -   <pkg>soilDB</pkg>: A collection of functions for reading data from USDA-NCSS soil databases.
 -   <pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations, etc. using thematic, temporal and spatial filtering.
+-   <pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.
 -   <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
 -   <pkg>WaterML</pkg> can retrieve WaterOneFlow [Hydroserver](http://hiscentral.cuahsi.org) data.
 -   <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
