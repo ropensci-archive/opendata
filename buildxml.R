@@ -1,6 +1,6 @@
 if(!require("stringr")) install.packages("stringr", repos="http://cran.rstudio.com")
 template <- readLines("OpenData.ctv")
-pattern <- "pkg>[A-Za-z0-9]+|pkg>[A-Za-z0-9]+\\.[A-Za-z0-9]+|pkg>[A-Za-z0-9]+\\.[A-Za-z0-9]+\\.[A-Za-z0-9]+"
+pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
 pkgs <- stringr::str_extract_all(out, pattern)[[1]]
 pkgs <- unique(gsub("^pkg>", "", pkgs))
