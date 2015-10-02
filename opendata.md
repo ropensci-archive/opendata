@@ -53,6 +53,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.
 -   <pkg>randomNames</pkg> provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).
 -   <pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
+-   <pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.
 -   <pkg>rUnemploymentData</pkg> contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.
 -   <pkg>SwissAir</pkg> contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
 -   <pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.
@@ -127,7 +128,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
 -   <pkg>rnbn</pkg>: An R interface to the [UK National Biodiversity Network](http://www.nbn.org.uk). [Source on GitHub](https://github.com/ropensci/rnbn).
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to the National Phenology Network database API. [Source on GitHub](https://github.com/ropensci/rnpn).
--   [rotl](https://github.com/fmichonneau/rotl) (not on CRAN): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
+-   [rotl](https://cran.r-project.org/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
@@ -144,6 +145,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   <pkg>blsAPI</pkg>: Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string. [Source on GitHub](https://github.com/mikeasilva/blsAPI)
 -   [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
+-   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
 -   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 -   <pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
@@ -152,6 +154,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 ###Finance###
 
+-   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
 -   <pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API. ($)
@@ -226,6 +229,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
+-   <pkg>openelections</pkg> ([GitHub](https://github.com/GShotwell/openelections))     
 -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
@@ -267,6 +271,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 -   <pkg>leafletR</pkg>: Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 -   <pkg>osmar</pkg>: This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
+-   <pkg>osrm</pkg>: access OpenStreetMap 
 -   The <ohat>R2GoogleMaps</ohat> (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.
 -   <pkg>RgoogleMaps</pkg>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
@@ -335,6 +340,8 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>nhlscrapr</pkg>: Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 -   <pkg>fitbitScraper</pkg> ([GitHub](https://github.com/corynissen/fitbitScraper)) can retrieve Fitbit data, based on email/password authentication.
+-   <pkg>fantasysocceR</pkg> ([GitHub](https://github.com/durtal/fantasysocceR)) fantasy soccer
+-   <pkg>pinnacle.API</pkg> A Wrapper for the Pinnacle Sports API
 -   <pkg>retrosheet</pkg> ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from <http://www.retrosheet.org>.
 
 ###Web Analytics###

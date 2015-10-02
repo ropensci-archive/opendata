@@ -65,6 +65,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [QSARdata](http://cran.rstudio.com/web/packages/QSARdata/index.html) offers molecular descriptors and outcomes for several public domain data sets.
 -   [randomNames](http://cran.rstudio.com/web/packages/randomNames/index.html) provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).
 -   [rcorpora](http://cran.rstudio.com/web/packages/rcorpora/index.html) contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
+-   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html) access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.
 -   [rUnemploymentData](http://cran.rstudio.com/web/packages/rUnemploymentData/index.html) contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.
 -   [SwissAir](http://cran.rstudio.com/web/packages/SwissAir/index.html) contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
 -   [UScensus2010](http://cran.rstudio.com/web/packages/UScensus2010/index.html) and its related packages provide spatial data from the U.S. Census.
@@ -140,7 +141,7 @@ Web-based Open Data
 -   [rgbif](http://cran.rstudio.com/web/packages/rgbif/index.html): Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
 -   [rnbn](http://cran.rstudio.com/web/packages/rnbn/index.html): An R interface to the [UK National Biodiversity Network](http://www.nbn.org.uk). [Source on GitHub](https://github.com/ropensci/rnbn).
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to the National Phenology Network database API. [Source on GitHub](https://github.com/ropensci/rnpn).
--   [rotl](https://github.com/fmichonneau/rotl) (not on CRAN): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
+-   [rotl](https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   [rPlant](http://cran.rstudio.com/web/packages/rPlant/index.html): An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html): A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
@@ -157,6 +158,7 @@ Web-based Open Data
 
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html): Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string. [Source on GitHub](https://github.com/mikeasilva/blsAPI)
 -   [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
+-   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 -   [pxweb](http://cran.rstudio.com/web/packages/pxweb/index.html): Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
@@ -165,6 +167,7 @@ Web-based Open Data
 
 ### Finance
 
+-   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html) Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 -   [fImport](http://cran.rstudio.com/web/packages/fImport/index.html): Environment for teaching "Financial Engineering and Computational Finance"
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html): Provides native R access to Interactive Brokers Trader Workstation API. ($)
@@ -239,6 +242,7 @@ Web-based Open Data
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html): Functions to get public survey data in Japan.
 -   [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html): an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
+-   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html) ([GitHub](https://github.com/GShotwell/openelections))
 -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
@@ -280,6 +284,7 @@ Web-based Open Data
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html): Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 -   [leafletR](http://cran.rstudio.com/web/packages/leafletR/index.html): Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 -   [osmar](http://cran.rstudio.com/web/packages/osmar/index.html): This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
+-   [osrm](http://cran.rstudio.com/web/packages/osrm/index.html): access OpenStreetMap
 -   The [<span class="Ohat">R2GoogleMaps</span>](http://www.Omegahat.org/R2GoogleMaps/) (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html): This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The [<span class="Ohat">RKML</span>](http://www.Omegahat.org/RKML/) (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
@@ -347,6 +352,8 @@ Web-based Open Data
 -   [nhlscrapr](http://cran.rstudio.com/web/packages/nhlscrapr/index.html): Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html): Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 -   [fitbitScraper](http://cran.rstudio.com/web/packages/fitbitScraper/index.html) ([GitHub](https://github.com/corynissen/fitbitScraper)) can retrieve Fitbit data, based on email/password authentication.
+-   [fantasysocceR](http://cran.rstudio.com/web/packages/fantasysocceR/index.html) ([GitHub](https://github.com/durtal/fantasysocceR)) fantasy soccer
+-   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html) A Wrapper for the Pinnacle Sports API
 -   [retrosheet](http://cran.rstudio.com/web/packages/retrosheet/index.html) ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from <http://www.retrosheet.org>.
 
 ### Web Analytics
@@ -394,6 +401,7 @@ Web-based Open Data
 -   [cluster.datasets](http://cran.rstudio.com/web/packages/cluster.datasets/index.html)
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html)
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html)
+-   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html)
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.rstudio.com/web/packages/decctools/index.html)
 -   [Devore7](http://cran.rstudio.com/web/packages/Devore7/index.html)
@@ -412,6 +420,7 @@ Web-based Open Data
 -   [expsmooth](http://cran.rstudio.com/web/packages/expsmooth/index.html)
 -   [factualR](http://cran.rstudio.com/web/packages/factualR/index.html)
 -   [Fahrmeir](http://cran.rstudio.com/web/packages/Fahrmeir/index.html)
+-   [fantasysocceR](http://cran.rstudio.com/web/packages/fantasysocceR/index.html)
 -   [FAOSTAT](http://cran.rstudio.com/web/packages/FAOSTAT/index.html)
 -   [faraway](http://cran.rstudio.com/web/packages/faraway/index.html)
 -   [fastR](http://cran.rstudio.com/web/packages/fastR/index.html)
@@ -484,14 +493,18 @@ Web-based Open Data
 -   [nutshell](http://cran.rstudio.com/web/packages/nutshell/index.html)
 -   [nycflights13](http://cran.rstudio.com/web/packages/nycflights13/index.html)
 -   [OAIHarvester](http://cran.rstudio.com/web/packages/OAIHarvester/index.html)
+-   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html)
 -   [OIdata](http://cran.rstudio.com/web/packages/OIdata/index.html)
 -   [okmesonet](http://cran.rstudio.com/web/packages/okmesonet/index.html)
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html)
+-   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html)
 -   [openintro](http://cran.rstudio.com/web/packages/openintro/index.html)
 -   [osmar](http://cran.rstudio.com/web/packages/osmar/index.html)
+-   [osrm](http://cran.rstudio.com/web/packages/osrm/index.html)
 -   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html)
 -   [PBImisc](http://cran.rstudio.com/web/packages/PBImisc/index.html)
 -   [pdfetch](http://cran.rstudio.com/web/packages/pdfetch/index.html)
+-   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html)
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.rstudio.com/web/packages/plotKML/index.html)
@@ -563,6 +576,7 @@ Web-based Open Data
 -   [rUnemploymentData](http://cran.rstudio.com/web/packages/rUnemploymentData/index.html)
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html)
+-   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html)
 -   [rYoutheria](http://cran.rstudio.com/web/packages/rYoutheria/index.html)
 -   [SASmixed](http://cran.rstudio.com/web/packages/SASmixed/index.html)
 -   [scholar](http://cran.rstudio.com/web/packages/scholar/index.html)
