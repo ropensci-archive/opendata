@@ -127,7 +127,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
 -   <pkg>rnbn</pkg>: An R interface to the [UK National Biodiversity Network](http://www.nbn.org.uk). [Source on GitHub](https://github.com/ropensci/rnbn).
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to the National Phenology Network database API. [Source on GitHub](https://github.com/ropensci/rnpn).
--   [rotl](https://cran.r-project.org/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
+-   [rotl](https://github.com/fmichonneau/rotl) (not on CRAN): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
@@ -226,7 +226,6 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
--   <pkg>openelections</pkg> ([GitHub](https://github.com/GShotwell/openelections))     
 -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
@@ -268,7 +267,6 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 -   <pkg>leafletR</pkg>: Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 -   <pkg>osmar</pkg>: This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
--   <pkg>osrm</pkg>: access OpenStreetMap 
 -   The <ohat>R2GoogleMaps</ohat> (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.
 -   <pkg>RgoogleMaps</pkg>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
