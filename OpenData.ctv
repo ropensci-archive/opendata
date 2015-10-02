@@ -231,7 +231,7 @@
     <li><pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
     <li><a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
     <li><pkg>manifestoR</pkg>: an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
-    <li><pkg>openelections</pkg> (<a href="https://github.com/GShotwell/openelections">GitHub</a>)<br />
+    <li><pkg>openelections</pkg> (<a href="https://github.com/GShotwell/openelections">GitHub</a>): openelections API<br />
     </li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>

@@ -242,7 +242,7 @@ Web-based Open Data
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html): Functions to get public survey data in Japan.
 -   [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html): an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
--   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html) ([GitHub](https://github.com/GShotwell/openelections))
+-   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html) ([GitHub](https://github.com/GShotwell/openelections)): openelections API
 -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
