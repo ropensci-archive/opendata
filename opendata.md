@@ -1,6 +1,6 @@
 This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.
 
-Another key issue in a data-focused TaskView is the meaning of "open" data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is useable for any purpose to "freely available" data that is available at no cost but may have licenses that are not strictly speaking "open". Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked (\$) and (K) respectively.
+Another key issue in a data-focused TaskView is the meaning of "open" data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to "freely available" data that is available at no cost but may have licenses that are not strictly speaking "open". Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked (\$) and (K) respectively.
 
 If you have any comments or suggestions for additions, revisions, or improvements for this taskview, go to GitHub and [submit an issue](https://github.com/ropensci/opendata/issues), or make some changes and [submit a pull request](https://github.com/ropensci/opendata/pulls). If you can't contribute on GitHub, [send Jaime an email](mailto:jashander@ucdavis.edu?subject=Open Data Task View). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -201,7 +201,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>bigrquery</pkg>: An interface to Google's bigquery from R. [Source on GitHub](https://github.com/hadley/bigrquery) (K)
 -   [ganalytics](https://github.com/jdeboer/ganalytics) (not on CRAN): Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/jdeboer/ganalytics) (K)
 -   <pkg>GAR</pkg>: Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/andrewgeisler/GAR) (K)
--   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data mangement system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Gusion Tables dtd storage to R and to upload data from R to Fusion Tables (K)
+-   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)
 -   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/): (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 -   <pkg>googleVis</pkg>: Interface between R and the Google chart tools.
 -   <pkg>gooJSON</pkg>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
@@ -229,7 +229,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
--   <pkg>openelections</pkg> ([GitHub](https://github.com/GShotwell/openelections)): openelections API   
+-   <pkg>openelections</pkg> ([GitHub](https://github.com/GShotwell/openelections)): openelections API
 -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
@@ -271,7 +271,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>ggmap</pkg>: Allows for the easy visualization of spatial data and models on top of Google Maps, OpenStreetMaps, Stamen Maps, or CloudMade Maps using ggplot2.
 -   <pkg>leafletR</pkg>: Allows you to display your spatial data on interactive web-maps using the open-source JavaScript library Leaflet.
 -   <pkg>osmar</pkg>: This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
--   <pkg>osrm</pkg>: access OpenStreetMap 
+-   <pkg>osrm</pkg>: access OpenStreetMap
 -   The <ohat>R2GoogleMaps</ohat> (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.
 -   <pkg>RgoogleMaps</pkg>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
