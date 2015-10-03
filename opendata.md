@@ -56,6 +56,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rUnemploymentData</pkg> contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.
 -   <pkg>SwissAir</pkg> contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
 -   <pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.
+-   <pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.
 -   <pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.
 -   Various packages supply data to accompany general R instructional materials (e.g., books) or other packages, including: <pkg>alr3</pkg>, <pkg>alr4</pkg>, <pkg>aplore3</pkg>, <pkg>aprean3</pkg>, <pkg>BaM</pkg>, <pkg>BayesDA</pkg>, <pkg>blmeco</pkg>, <pkg>cluster.datasets</pkg>, <pkg>Devore7</pkg>, <pkg>eegkitdata</pkg>, <pkg>ElemStatLearn</pkg>, <pkg>EngrExpt</pkg>, <pkg>expsmooth</pkg>, <pkg>Fahrmeir</pkg>, <pkg>faraway</pkg>, <pkg>fastR</pkg>, <pkg>FAwR</pkg>, <pkg>Flury</pkg>, <pkg>fma</pkg>, <pkg>gamair</pkg>, <pkg>gamlss.data</pkg>, <pkg>GANPAdata</pkg>, <pkg>gpk</pkg>, <pkg>HSAUR3</pkg>, <pkg>igraphdata</pkg>, <pkg>isdals</pkg>, <pkg>KMsurv</pkg>, <pkg>languageR</pkg>, <pkg>learningr</pkg>, <pkg>LeLogicielR</pkg>, <pkg>Lock5Data</pkg>, <pkg>MEMSS</pkg>, <pkg>MindOnStats</pkg>, <pkg>mistat</pkg>, <pkg>mosaicData</pkg>, <pkg>MPDiR</pkg>, <pkg>MPV</pkg>, <pkg>MSG</pkg>, <pkg>msme</pkg>, <pkg>msos</pkg>, <pkg>NSM3</pkg>, <pkg>nutshell</pkg>, <pkg>OIdata</pkg>, <pkg>openintro</pkg>, <pkg>PBImisc</pkg>, <pkg>qtlbook</pkg>, <pkg>RSADBE</pkg>, <pkg>SASmixed</pkg>, <pkg>SenSrivastava</pkg>, <pkg>Sleuth3</pkg>, <pkg>SMCRM</pkg>, <pkg>smdata</pkg>, <pkg>smss</pkg>, <pkg>Stat2Data</pkg>, <pkg>synbreedData</pkg>, <pkg>TH.data</pkg>, <pkg>TRSbook</pkg>, <pkg>UsingR</pkg>, <pkg>VGAMdata</pkg>, <pkg>wikibooks</pkg>, and <pkg>WWGbook</pkg>. Note: only packages that primarily contain data (as opposed to functions with minimal datasets as examples) are included here.
 
@@ -105,6 +106,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.
 -   <pkg>WaterML</pkg> can retrieve WaterOneFlow [Hydroserver](http://hiscentral.cuahsi.org) data.
 -   <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
+-   <pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.
 
 ###Ecological and Evolutionary Biology###
 
@@ -278,6 +280,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
 -   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.
 -   <a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.
+-   <pkg>USAboundaries</pkg> spatial objects with the boundaries of states or counties in the United States of America from 1629 to 2000 (from the Atlas of Historical County Boundaries).
 
 
 ###NCBI###
@@ -313,6 +316,7 @@ Various R packages make open datasets available directly in R. These are useful 
 ###Public Health###
 
 -   [cdcfluview](https://github.com/hrbrmstr/cdcfluview): (not on CRAN) R client for CDC FluView data (WHO and ILINet).
+-   <pkg>nhanesA</pkg> Utility to retrieve data from the National Health and Nutrition Examination Survey (NHANES).
 -   [openfda](https://github.com/ropenhealth/openfda) (not on CRAN) is an R client for [openFDA](https://open.fda.gov/).
 -   <pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository
 -   <pkg>rclinicaltrials</pkg> ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.

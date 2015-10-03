@@ -57,10 +57,10 @@
     <li><pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.</li>
     <li><pkg>randomNames</pkg> provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).</li>
     <li><pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.</li>
-    <li><pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.</li>
     <li><pkg>rUnemploymentData</pkg> contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.</li>
     <li><pkg>SwissAir</pkg> contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.</li>
     <li><pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.</li>
+    <li><pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.</li>
     <li><pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.</li>
     <li>Various packages supply data to accompany general R instructional materials (e.g., books) or other packages, including: <pkg>alr3</pkg>, <pkg>alr4</pkg>, <pkg>aplore3</pkg>, <pkg>aprean3</pkg>, <pkg>BaM</pkg>, <pkg>BayesDA</pkg>, <pkg>blmeco</pkg>, <pkg>cluster.datasets</pkg>, <pkg>Devore7</pkg>, <pkg>eegkitdata</pkg>, <pkg>ElemStatLearn</pkg>, <pkg>EngrExpt</pkg>, <pkg>expsmooth</pkg>, <pkg>Fahrmeir</pkg>, <pkg>faraway</pkg>, <pkg>fastR</pkg>, <pkg>FAwR</pkg>, <pkg>Flury</pkg>, <pkg>fma</pkg>, <pkg>gamair</pkg>, <pkg>gamlss.data</pkg>, <pkg>GANPAdata</pkg>, <pkg>gpk</pkg>, <pkg>HSAUR3</pkg>, <pkg>igraphdata</pkg>, <pkg>isdals</pkg>, <pkg>KMsurv</pkg>, <pkg>languageR</pkg>, <pkg>learningr</pkg>, <pkg>LeLogicielR</pkg>, <pkg>Lock5Data</pkg>, <pkg>MEMSS</pkg>, <pkg>MindOnStats</pkg>, <pkg>mistat</pkg>, <pkg>mosaicData</pkg>, <pkg>MPDiR</pkg>, <pkg>MPV</pkg>, <pkg>MSG</pkg>, <pkg>msme</pkg>, <pkg>msos</pkg>, <pkg>NSM3</pkg>, <pkg>nutshell</pkg>, <pkg>OIdata</pkg>, <pkg>openintro</pkg>, <pkg>PBImisc</pkg>, <pkg>qtlbook</pkg>, <pkg>RSADBE</pkg>, <pkg>SASmixed</pkg>, <pkg>SenSrivastava</pkg>, <pkg>Sleuth3</pkg>, <pkg>SMCRM</pkg>, <pkg>smdata</pkg>, <pkg>smss</pkg>, <pkg>Stat2Data</pkg>, <pkg>synbreedData</pkg>, <pkg>TH.data</pkg>, <pkg>TRSbook</pkg>, <pkg>UsingR</pkg>, <pkg>VGAMdata</pkg>, <pkg>wikibooks</pkg>, and <pkg>WWGbook</pkg>. Note: only packages that primarily contain data (as opposed to functions with minimal datasets as examples) are included here.</li>
     </ul>
@@ -101,12 +101,14 @@
     <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
     <li><pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.</li>
+    <li><pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.</li>
     <li><pkg>soilDB</pkg>: A collection of functions for reading data from USDA-NCSS soil databases.</li>
     <li><pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations, etc. using thematic, temporal and spatial filtering.</li>
     <li><pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.</li>
     <li><pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.</li>
     <li><pkg>WaterML</pkg> can retrieve WaterOneFlow <a href="http://hiscentral.cuahsi.org">Hydroserver</a> data.</li>
     <li><pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.</li>
+    <li><pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.</li>
     </ul>
     <h3 id="ecological-and-evolutionary-biology">Ecological and Evolutionary Biology</h3>
     <ul>
@@ -280,6 +282,7 @@
     <li><ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).</li>
     <li><a href="https://github.com/trestletech/rydn">rydn</a> (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.</li>
     <li><a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.</li>
+    <li><pkg>USAboundaries</pkg> spatial objects with the boundaries of states or counties in the United States of America from 1629 to 2000 (from the Atlas of Historical County Boundaries).</li>
     </ul>
     <h3 id="ncbi">NCBI</h3>
     <ul>
@@ -314,6 +317,7 @@
     <h3 id="public-health">Public Health</h3>
     <ul>
     <li><a href="https://github.com/hrbrmstr/cdcfluview">cdcfluview</a>: (not on CRAN) R client for CDC FluView data (WHO and ILINet).</li>
+    <li><pkg>nhanesA</pkg> Utility to retrieve data from the National Health and Nutrition Examination Survey (NHANES).</li>
     <li><a href="https://github.com/ropenhealth/openfda">openfda</a> (not on CRAN) is an R client for <a href="https://open.fda.gov/">openFDA</a>.</li>
     <li><pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository</li>
     <li><pkg>rclinicaltrials</pkg> (<a href="https://github.com/sachsmc/rclinicaltrials">GitHub</a>): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.</li>
@@ -476,6 +480,7 @@
     <pkg>neotoma</pkg>
     <pkg>ngramr</pkg>
     <pkg>NHANES</pkg>
+    <pkg>nhanesA</pkg>
     <pkg>nhlscrapr</pkg>
     <pkg>noncensus</pkg>
     <pkg>NSM3</pkg>
@@ -602,6 +607,7 @@
     <pkg>tumblR</pkg>
     <pkg>twitteR</pkg>
     <pkg>UNF</pkg>
+    <pkg>USAboundaries</pkg>
     <pkg>UScancer</pkg>
     <pkg>UScensus2010</pkg>
     <pkg>UsingR</pkg>
@@ -611,10 +617,12 @@
     <pkg>WaterML</pkg>
     <pkg>WDI</pkg>
     <pkg>weatherData</pkg>
+    <pkg>weatherr</pkg>
     <pkg>webchem</pkg>
     <pkg>wikibooks</pkg>
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
+    <pkg>wpp2015</pkg>
     <pkg>WWGbook</pkg>
     <pkg>zendeskR</pkg>
     <pkg>zipcode</pkg>
