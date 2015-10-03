@@ -12,9 +12,10 @@ ctv2html:
 
 readme:
 	pandoc -w markdown_github -o README.md OpenData.html
-	sed -i -e 's|( \[|(\[|g' README.md
-	sed -i '' 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
-	sed -i '' 's/^[|]-/*Do not edit this README by hand. See \[CONTRIBUTING.md\]\(CONTRIBUTING.md\).*\n\n|||\n|-/g' README.md
+	sed -i.tmp 's|( \[|(\[|g' README.md
+	sed -i.tmp 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
+	sed -i.tmp 's/^[|]-/*Do not edit this README by hand. See \[CONTRIBUTING.md\]\(CONTRIBUTING.md\).*\n\n|||\n|-/g' README.md
+	rm *.tmp
 
 md2html:
 	pandoc -o README.html README.md
