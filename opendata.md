@@ -334,7 +334,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>RedditExtractoR</pkg> can retrieve data from the Reddit API.
 -   <pkg>Rlinkedin</pkg>: is an R client for the LinkedIn API.
 -   <em>tumblr</em>: <pkg>tumblR</pkg> ([GitHub](https://github.com/klapaukh/tumblR)): R client for the Tumblr API (<https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging platform and social networking website <https://www.tumblr.com>. (K)
--   <em>Twitter</em>: [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K)
+-   <em>Twitter</em>: [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K) Additionally, <pkg>RKlout</pkg> is an interface to Klout API v2. It fetches Klout Score for a Twitter Username/handle in real time. Klout is a silly ranking of Twitter influence.
 -  SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.
 
 ###Social science###
