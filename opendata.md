@@ -280,6 +280,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>RgoogleMaps</pkg>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
 -   <ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
+-   <pkg>olctools</pkg> Google Open Location Code
 -   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.
 -   <a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.
 -   <pkg>USAboundaries</pkg> spatial objects with the boundaries of states or counties in the United States of America from 1629 to 2000 (from the Atlas of Historical County Boundaries).
