@@ -154,6 +154,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
 -   <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
 -   The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
+-   <pkg>webuse</pkg> A Stata-style ‘webuse()' function for importing named datasets from Stata’s online collection. Covers many types of data sets, not just econ ;).
 
 ###Finance###
 
