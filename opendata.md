@@ -330,7 +330,7 @@ Various R packages make open datasets available directly in R. These are useful 
 ###Social media###
 
 -   <em>Facebook</em>: <pkg>Rfacebook</pkg> provides an interface to the Facebook API. (K)
--   <em>Google+</em>: <pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data. (K)
+-   <em>Google+</em>: <pkg>plusser</pkg> has been designed to to facilitate the retrieval of Google+ profiles, pages and posts. It also provides search facilities. Currently a Google+ API key is required for accessing Google+ data. [tuber](https://github.com/soodoku/tuber) provides bindings for YouTube API. Only on Github for now. (K)
 -   <pkg>RedditExtractoR</pkg> can retrieve data from the Reddit API.
 -   <pkg>Rlinkedin</pkg>: is an R client for the LinkedIn API.
 -   <em>tumblr</em>: <pkg>tumblR</pkg> ([GitHub](https://github.com/klapaukh/tumblR)): R client for the Tumblr API (<https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging platform and social networking website <https://www.tumblr.com>. (K)
