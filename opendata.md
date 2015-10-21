@@ -112,7 +112,6 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
--   <bioc>BioMart</bioc> (not on CRAN) retrieves data from a number of public biological data repositories using a <http://www.biomart.org> database.
 -   <pkg>BioMart</pkg> retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
