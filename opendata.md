@@ -301,6 +301,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.
 -   [prismaticR](https://github.com/Btibert3/prismaticR) (not on CRAN): R interface to [Prismatic's Topic Graph API](https://github.com/Prismatic/interest-graph).
 -   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.
+-   <em>ZEIT</em>: <pkg>diezeit</pkg> waps the ZEIT online content API (K).
 
 ###Other###
 
