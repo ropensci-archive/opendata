@@ -153,6 +153,7 @@
     <li><pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.</li>
     <li><pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).</li>
     <li><pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. <a href="https://github.com/rOpenGov/pxweb">Source on GitHub</a>.</li>
+    <li><pkg>ukgasapi</pkg> Contains one function which allows users to access UK gas market information via National Grid's API.</li>
     <li><pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.</li>
     <li>The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.</li>
     <li><pkg>webuse</pkg> A Stata-style ‘webuse()' function for importing named datasets from Stata’s online collection. Covers many types of data sets, not just econ ;).</li>
@@ -279,6 +280,7 @@
     <li><pkg>osmar</pkg>: This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).</li>
     <li><pkg>osrm</pkg>: access OpenStreetMap</li>
     <li>The <ohat>R2GoogleMaps</ohat> (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.</li>
+    <li><pkg>rcanvec</pkg>: Provides an interface to the National Topographic System (NTS), which is the way in which a number of freely available Canadian datasets are organized. CanVec and CanVec+ datasets, which include all data used to create Canadian topographic maps, are two such datasets that are useful in creating vector-based maps for locations across Canada.</li>
     <li><pkg>RgoogleMaps</pkg>: This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.</li>
     <li>The <ohat>RKML</ohat> (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.</li>
     <li><ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).</li>
@@ -300,6 +302,7 @@
     <li><pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.</li>
     <li><a href="https://github.com/Btibert3/prismaticR">prismaticR</a> (not on CRAN): R interface to <a href="https://github.com/Prismatic/interest-graph">Prismatic's Topic Graph API</a>.</li>
     <li><a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.</li>
+    <li><em>ZEIT</em>: <pkg>diezeit</pkg> waps the ZEIT online content API (K).</li>
     </ul>
     <h3 id="other">Other</h3>
     <ul>
@@ -403,6 +406,7 @@
     <pkg>dataRetrieval</pkg>
     <pkg>decctools</pkg>
     <pkg>Devore7</pkg>
+    <pkg>diezeit</pkg>
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
     <pkg>ecoengine</pkg>
@@ -530,6 +534,7 @@
     <pkg>rbison</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>rbitcoinchartsapi</pkg>
+    <pkg>rcanvec</pkg>
     <pkg>rClinicalCodes</pkg>
     <pkg>rclinicaltrials</pkg>
     <pkg>Rcolombos</pkg>
@@ -615,6 +620,7 @@
     <pkg>tseries</pkg>
     <pkg>tumblR</pkg>
     <pkg>twitteR</pkg>
+    <pkg>ukgasapi</pkg>
     <pkg>UNF</pkg>
     <pkg>USAboundaries</pkg>
     <pkg>UScancer</pkg>

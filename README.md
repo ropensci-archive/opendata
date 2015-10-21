@@ -164,6 +164,7 @@ Web-based Open Data
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 -   [pxweb](http://cran.rstudio.com/web/packages/pxweb/index.html): Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
+-   [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) Contains one function which allows users to access UK gas market information via National Grid's API.
 -   [WDI](http://cran.rstudio.com/web/packages/WDI/index.html): Search, extract and format data from the World Bank's World Development Indicators.
 -   The [<span class="Ohat">Zillow</span>](http://www.Omegahat.org/Zillow/) (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 -   [webuse](http://cran.rstudio.com/web/packages/webuse/index.html) A Stata-style ‘webuse()' function for importing named datasets from Stata’s online collection. Covers many types of data sets, not just econ ;).
@@ -290,6 +291,7 @@ Web-based Open Data
 -   [osmar](http://cran.rstudio.com/web/packages/osmar/index.html): This package provides infrastructure to access OpenStreetMap data from different sources to work with the data in common R manner and to convert data into available infrastructure provided by existing R packages (e.g., into sp and igraph objects).
 -   [osrm](http://cran.rstudio.com/web/packages/osrm/index.html): access OpenStreetMap
 -   The [<span class="Ohat">R2GoogleMaps</span>](http://www.Omegahat.org/R2GoogleMaps/) (not on CRAN) package - which is different from RgoogleMaps - provides a mechanism to generate JavaScript code from R that displays data using Google Maps.
+-   [rcanvec](http://cran.rstudio.com/web/packages/rcanvec/index.html): Provides an interface to the National Topographic System (NTS), which is the way in which a number of freely available Canadian datasets are organized. CanVec and CanVec+ datasets, which include all data used to create Canadian topographic maps, are two such datasets that are useful in creating vector-based maps for locations across Canada.
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html): This package serves two purposes: It provides a comfortable R interface to query the Google server for static maps, and use the map as a background image to overlay plots within R.
 -   The [<span class="Ohat">RKML</span>](http://www.Omegahat.org/RKML/) (not on CRAN) is an implementation that provides users with high-level facilities to generate KML, the Keyhole Markup Language for display in, e.g., Google Earth.
 -   [<span class="Ohat">RKMLDevice</span>](http://www.Omegahat.org/RKMLDevice/) (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
@@ -311,6 +313,7 @@ Web-based Open Data
 -   [GuardianR](http://cran.rstudio.com/web/packages/GuardianR/index.html): Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.
 -   [prismaticR](https://github.com/Btibert3/prismaticR) (not on CRAN): R interface to [Prismatic's Topic Graph API](https://github.com/Prismatic/interest-graph).
 -   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.
+-   *ZEIT* : [diezeit](http://cran.rstudio.com/web/packages/diezeit/index.html) waps the ZEIT online content API (K).
 
 ### Other
 
@@ -414,6 +417,7 @@ Web-based Open Data
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
 -   [decctools](http://cran.rstudio.com/web/packages/decctools/index.html)
 -   [Devore7](http://cran.rstudio.com/web/packages/Devore7/index.html)
+-   [diezeit](http://cran.rstudio.com/web/packages/diezeit/index.html)
 -   [dismo](http://cran.rstudio.com/web/packages/dismo/index.html)
 -   [dvn](http://cran.rstudio.com/web/packages/dvn/index.html)
 -   [ecoengine](http://cran.rstudio.com/web/packages/ecoengine/index.html)
@@ -541,6 +545,7 @@ Web-based Open Data
 -   [rbison](http://cran.rstudio.com/web/packages/rbison/index.html)
 -   [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html)
 -   [rbitcoinchartsapi](http://cran.rstudio.com/web/packages/rbitcoinchartsapi/index.html)
+-   [rcanvec](http://cran.rstudio.com/web/packages/rcanvec/index.html)
 -   [rClinicalCodes](http://cran.rstudio.com/web/packages/rClinicalCodes/index.html)
 -   [rclinicaltrials](http://cran.rstudio.com/web/packages/rclinicaltrials/index.html)
 -   [Rcolombos](http://cran.rstudio.com/web/packages/Rcolombos/index.html)
@@ -626,6 +631,7 @@ Web-based Open Data
 -   [tseries](http://cran.rstudio.com/web/packages/tseries/index.html)
 -   [tumblR](http://cran.rstudio.com/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.rstudio.com/web/packages/twitteR/index.html)
+-   [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html)
 -   [UNF](http://cran.rstudio.com/web/packages/UNF/index.html)
 -   [USAboundaries](http://cran.rstudio.com/web/packages/USAboundaries/index.html)
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html)
