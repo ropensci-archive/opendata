@@ -4,7 +4,7 @@ CRAN Task View: Open Data
 ||
 |**Maintainer:**|Scott Chamberlain, Thomas Leeper, Jaime Ashander|
 |**Contact:**|jashander at ucdavis.edu|
-|**Version:**|2016-02-03|
+|**Version:**|2016-02-04|
 
 This task view contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.
 
@@ -623,8 +623,8 @@ Web-based Open Data
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
 -   [TH.data](http://cran.rstudio.com/web/packages/TH.data/index.html)
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html)
--   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
+-   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [TR8](http://cran.rstudio.com/web/packages/TR8/index.html)
 -   [traits](http://cran.rstudio.com/web/packages/traits/index.html)
 -   [translate](http://cran.rstudio.com/web/packages/translate/index.html)
