@@ -138,6 +138,7 @@
     <li><a href="https://cran.r-project.org/web/packages/rotl/index.html">rotl</a>: R client for the Open Tree of Life API. <a href="https://github.com/fmichonneau/rotl">Source on GitHub</a></li>
     <li><a href="https://github.com/sckott/rphylopic">rphylopic</a> (not on CRAN): An R client for <a href="http://phylopic.org/">Phylopic.org</a>, a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. <a href="https://github.com/sckott/rphylopic">Source on GitHub</a></li>
     <li><pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a></li>
+    <li><pkg>redlist</pkg> is an API client for the <a href="http://www.iucnredlist.org/">IUCN red list</a> of threatened and engaged species. <a href="https://github.com/ropenscilabs/rredlist">Source on GitHub</a>.</li>
     <li><pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. <a href="https://github.com/ropensci/rvertnet">Source on GitHub</a></li>
     <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
     <li><pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a></li>
@@ -553,6 +554,7 @@
     <pkg>recalls</pkg>
     <pkg>redcapAPI</pkg>
     <pkg>RedditExtractoR</pkg>
+    <pkg>redlist</pkg>
     <pkg>RefManageR</pkg>
     <pkg>rentrez</pkg>
     <pkg>Reol</pkg>

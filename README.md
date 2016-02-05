@@ -150,6 +150,7 @@ Web-based Open Data
 -   [rotl](https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   [rPlant](http://cran.rstudio.com/web/packages/rPlant/index.html): An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
+-   [redlist](http://cran.rstudio.com/web/packages/redlist/index.html) is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html): A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html): R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 -   [rYoutheria](http://cran.rstudio.com/web/packages/rYoutheria/index.html): A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub [here](https://github.com/biologicalrecordscentre/rYoutheria)
@@ -565,6 +566,7 @@ Web-based Open Data
 -   [recalls](http://cran.rstudio.com/web/packages/recalls/index.html)
 -   [redcapAPI](http://cran.rstudio.com/web/packages/redcapAPI/index.html)
 -   [RedditExtractoR](http://cran.rstudio.com/web/packages/RedditExtractoR/index.html)
+-   [redlist](http://cran.rstudio.com/web/packages/redlist/index.html)
 -   [RefManageR](http://cran.rstudio.com/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.rstudio.com/web/packages/rentrez/index.html)
 -   [Reol](http://cran.rstudio.com/web/packages/Reol/index.html)
