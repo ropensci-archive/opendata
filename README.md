@@ -371,6 +371,7 @@ Web-based Open Data
 
 -   [abettor](https://github.com/phillc73/abettor) (not on CRAN): Online betting exchange, Betfair, API wrapper in R. (K)
 -   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN): Tools for Collecting Data from [nba.com](http://www.nba.com/) and [wnba.com](http://www.wnba.com/).
+-   [cricketr](http://cran.rstudio.com/web/packages/cricketr/index.html) provides tools for working with the ESPN Cricinfo Statsguru. [Source on GitHub](https://github.com/tvganesh/cricketr).
 -   [fbRanks](http://cran.rstudio.com/web/packages/fbRanks/index.html): Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
 -   [nhlscrapr](http://cran.rstudio.com/web/packages/nhlscrapr/index.html): Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html): Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
@@ -425,6 +426,7 @@ Web-based Open Data
 -   [chromer](http://cran.rstudio.com/web/packages/chromer/index.html)
 -   [clifro](http://cran.rstudio.com/web/packages/clifro/index.html)
 -   [cluster.datasets](http://cran.rstudio.com/web/packages/cluster.datasets/index.html)
+-   [cricketr](http://cran.rstudio.com/web/packages/cricketr/index.html)
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html)
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html)
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html)

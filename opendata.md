@@ -358,6 +358,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   [abettor](https://github.com/phillc73/abettor) (not on CRAN): Online betting exchange, Betfair, API wrapper in R. (K)
 -   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN): Tools for Collecting Data from [nba.com](http://www.nba.com/) and [wnba.com](http://www.wnba.com/).
+-   <pkg>cricketr</pkg> provides tools for working with the ESPN Cricinfo Statsguru. [Source on GitHub](https://github.com/tvganesh/cricketr).
 -   <pkg>fbRanks</pkg>: Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
 -   <pkg>nhlscrapr</pkg>: Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
