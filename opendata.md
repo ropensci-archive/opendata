@@ -222,6 +222,7 @@ There are a very large number of packages providing access to government data. H
 
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe*:
+    -   <pkg>ameco</pkg> ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
     -   <pkg>ecb</pkg> is a client for the [European Central Bank's Statistical Data Warehouse](https://sdw.ecb.europa.eu/) API.
     -   <pkg>eurostat</pkg> ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
 -   *Finland*:

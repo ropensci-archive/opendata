@@ -224,6 +224,7 @@
     <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
     <li><em>Europe</em>:
     <ul>
+    <li><pkg>ameco</pkg> (<a href="http://github.com/expersso/ameco">GitHub</a>) connects to the European Commission's macro-economic database.</li>
     <li><pkg>ecb</pkg> is a client for the <a href="https://sdw.ecb.europa.eu/">European Central Bank's Statistical Data Warehouse</a> API.</li>
     <li><pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
     </ul></li>
@@ -403,6 +404,7 @@
     <pkg>alm</pkg>
     <pkg>alr3</pkg>
     <pkg>alr4</pkg>
+    <pkg>ameco</pkg>
     <pkg>aplore3</pkg>
     <pkg>aprean3</pkg>
     <pkg>archdata</pkg>

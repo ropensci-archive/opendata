@@ -237,6 +237,7 @@ There are a very large number of packages providing access to government data. H
 
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe* :
+    -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html) ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
     -   [ecb](http://cran.rstudio.com/web/packages/ecb/index.html) is a client for the [European Central Bank's Statistical Data Warehouse](https://sdw.ecb.europa.eu/) API.
     -   [eurostat](http://cran.rstudio.com/web/packages/eurostat/index.html) ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
 -   *Finland* :
@@ -407,6 +408,7 @@ There are a very large number of packages providing access to government data. H
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html)
 -   [alr3](http://cran.rstudio.com/web/packages/alr3/index.html)
 -   [alr4](http://cran.rstudio.com/web/packages/alr4/index.html)
+-   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aplore3](http://cran.rstudio.com/web/packages/aplore3/index.html)
 -   [aprean3](http://cran.rstudio.com/web/packages/aprean3/index.html)
 -   [archdata](http://cran.rstudio.com/web/packages/archdata/index.html)
