@@ -12,7 +12,7 @@ README.md: OpenData.html
 	sed -i.tmp -e 's|( \[|(\[|g' README.md
 	sed -i.tmp -e 's| : |: |g' README.md
 	sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
-	sed -i.tmp -e 's/||/|-|-|/g' README.md
+	sed -i.tmp -e '4s/| | |\n| -- | -- |/g' README.md
 	sed -i.tmp -e '4i*Do not edit this README by hand. See \[CONTRIBUTING.md\]\(CONTRIBUTING.md\).*\n' README.md
 	rm *.tmp
 
