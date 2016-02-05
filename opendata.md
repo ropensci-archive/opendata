@@ -228,7 +228,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 ###Government###
 
--   <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.
+-   <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
 -   <pkg>BerlinData</pkg> ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/).
@@ -291,7 +291,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).
 -   <pkg>olctools</pkg> Google Open Location Code
 -   [rydn](https://github.com/trestletech/rydn) (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.
--   <a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.
+-   [tigris](https://github.com/walkerke/tigris) (not on CRAN) can read US Census Bureau TIGRIS shapefiles.
 -   <pkg>USAboundaries</pkg> spatial objects with the boundaries of states or counties in the United States of America from 1629 to 2000 (from the Atlas of Historical County Boundaries).
 
 

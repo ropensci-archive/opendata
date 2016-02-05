@@ -230,7 +230,7 @@
     </ul>
     <h3 id="government">Government</h3>
     <ul>
-    <li><pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey.</li>
+    <li><pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.</li>
     <li><pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
     <li><a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
     <li><a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>.</li>
@@ -293,7 +293,7 @@
     <li><ohat>RKMLDevice</ohat> (not on CRAN) allows to create R graphics in KML format in a manner that allows them to be displayed on Google Earth (or Google Maps).</li>
     <li><pkg>olctools</pkg> Google Open Location Code</li>
     <li><a href="https://github.com/trestletech/rydn">rydn</a> (not on CRAN): R package to interface with the Yahoo Developers network geolocation APIs.</li>
-    <li><a href="https://github.com/walkerke/tigris">tigris</a> can read US Census Bureau TIGRIS shapefiles.</li>
+    <li><a href="https://github.com/walkerke/tigris">tigris</a> (not on CRAN) can read US Census Bureau TIGRIS shapefiles.</li>
     <li><pkg>USAboundaries</pkg> spatial objects with the boundaries of states or counties in the United States of America from 1629 to 2000 (from the Atlas of Historical County Boundaries).</li>
     </ul>
     <h3 id="ncbi">NCBI</h3>
