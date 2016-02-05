@@ -229,32 +229,35 @@
     <li><pkg>translateR</pkg> provides bindings for both Google and Microsoft translation APIs.</li>
     </ul>
     <h3 id="government">Government</h3>
+    <p>There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.</p>
     <ul>
-    <li><pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.</li>
-    <li><pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
-    <li><a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
-    <li><pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
-    <li><a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
-    <li><pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
-    <li><pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results.</li>
-    <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
-    <li><pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
+    <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
+    <li><em>Europe</em>: <pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
+    <li><em>Finland</em>: <pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
+    <li><em>Germany</em>: <pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
+    <li><em>Japan</em>: <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
+    <li><em>Mexico</em>: <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
+    <li><em>Netherlands</em>: <pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
+    <li><em>Poland</em>: <a href="https://github.com/bartekch/saos">saos</a> (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.</li>
+    <li><em>United States of America</em>:
+    <ul>
+    <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.</li>
+    <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
+    <li>Energy Department: <pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
+    <li>Elections: <pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results. <a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
     <li><pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.</li>
-    <li><pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
-    <li><a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
-    <li><pkg>manifestoR</pkg>: an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
-    <li><a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
-    <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
-    <li><pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API.</li>
-    <li><pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.</li>
-    <li><pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
-    <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>): ProPublica API Client.</li>
+    <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>) is a ProPublica API Client.</li>
     <li><pkg>rsunlight</pkg> (<a href="https://github.com/ropengov/rsunlight">GitHub</a>): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.</li>
     <li><a href="https://github.com/ropengov/rtimes">rtimes</a>: (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.</li>
-    <li><a href="https://github.com/bartekch/saos">saos</a> (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.</li>
-    <li><pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data..</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
+    </ul></li>
+    <li><em>Other or international</em>:
+    <ul>
+    <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
+    <li><pkg>manifestoR</pkg>: an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
+    <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
+    </ul></li>
     </ul>
     <h3 id="literature-metadata-text-and-altmetrics">Literature, Metadata, Text, and Altmetrics</h3>
     <ul>
