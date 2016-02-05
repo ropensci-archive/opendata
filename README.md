@@ -53,6 +53,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [babynames](http://cran.rstudio.com/web/packages/babynames/index.html) contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
 -   emdatr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/emdatr)) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
 -   [ergmharris](http://cran.rstudio.com/web/packages/ergmharris/index.html) contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.
+-   [favnums](http://cran.rstudio.com/web/packages/favnums/index.html) contains a dataset of 30,000 respondents' favorite numbers.
 -   [fds](http://cran.rstudio.com/web/packages/fds/index.html) and [Mcomp](http://cran.rstudio.com/web/packages/Mcomp/index.html) contain a variety of time series datasets.
 -   [gapminder](http://cran.rstudio.com/web/packages/gapminder/index.html) is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
 -   [GCD](http://cran.rstudio.com/web/packages/GCD/index.html) contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).
@@ -459,6 +460,7 @@ There are a very large number of packages providing access to government data. H
 -   [FAOSTAT](http://cran.rstudio.com/web/packages/FAOSTAT/index.html)
 -   [faraway](http://cran.rstudio.com/web/packages/faraway/index.html)
 -   [fastR](http://cran.rstudio.com/web/packages/fastR/index.html)
+-   [favnums](http://cran.rstudio.com/web/packages/favnums/index.html)
 -   [FAwR](http://cran.rstudio.com/web/packages/FAwR/index.html)
 -   [fbRanks](http://cran.rstudio.com/web/packages/fbRanks/index.html)
 -   [fds](http://cran.rstudio.com/web/packages/fds/index.html)

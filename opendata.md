@@ -39,6 +39,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
 -   emdatr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/emdatr)) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
 -   <pkg>ergmharris</pkg> contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.
+-   <pkg>favnums</pkg> contains a dataset of 30,000 respondents' favorite numbers.
 -   <pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.
 -   <pkg>gapminder</pkg> is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
 -   <pkg>GCD</pkg> contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).
