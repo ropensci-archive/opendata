@@ -151,6 +151,7 @@
     <li><pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. <a href="https://github.com/ropensci/taxize">Source on GitHub</a></li>
     <li>The <a href="https://github.com/gustavobio/tpl">tpl</a> package doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.</li>
     <li><pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. <a href="https://github.com/ropensci/treebase">Source on GitHub</a></li>
+    <li><pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.</li>
     </ul>
     <h3 id="finance">Finance</h3>
     <ul>
@@ -605,6 +606,7 @@
     <pkg>RStars</pkg>
     <pkg>rsunlight</pkg>
     <pkg>rUnemploymentData</pkg>
+    <pkg>rusda</pkg>
     <pkg>rvertnet</pkg>
     <pkg>rWBclimate</pkg>
     <pkg>rwunderground</pkg>

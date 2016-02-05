@@ -164,6 +164,7 @@ Web-based Open Data
 -   [taxize](http://cran.rstudio.com/web/packages/taxize/index.html): Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. [Source on GitHub](https://github.com/ropensci/taxize)
 -   The [tpl](https://github.com/gustavobio/tpl) package doesn't interact with the web directly, but queries locally stored data from [theplantlist.org](http://www.theplantlist.org/), and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.
 -   [treebase](http://cran.rstudio.com/web/packages/treebase/index.html): An R package for discovery, access and manipulation of online phylogenies. [Source on GitHub](https://github.com/ropensci/treebase)
+-   [rusda](http://cran.rstudio.com/web/packages/rusda/index.html) connects to a large number of USDA databases, especially for fungal-host combinations.
 
 ### Finance
 
@@ -611,6 +612,7 @@ There are a very large number of packages providing access to government data. H
 -   [RStars](http://cran.rstudio.com/web/packages/RStars/index.html)
 -   [rsunlight](http://cran.rstudio.com/web/packages/rsunlight/index.html)
 -   [rUnemploymentData](http://cran.rstudio.com/web/packages/rUnemploymentData/index.html)
+-   [rusda](http://cran.rstudio.com/web/packages/rusda/index.html)
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html)
 -   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html)

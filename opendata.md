@@ -149,6 +149,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. [Source on GitHub](https://github.com/ropensci/taxize)
 -   The [tpl](https://github.com/gustavobio/tpl) package doesn't interact with the web directly, but queries locally stored data from [theplantlist.org](http://www.theplantlist.org/), and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.
 -   <pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. [Source on GitHub](https://github.com/ropensci/treebase)
+-   <pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.
 
 ###Finance###
 
