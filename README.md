@@ -69,6 +69,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [rcorpora](http://cran.rstudio.com/web/packages/rcorpora/index.html) contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
 -   [rUnemploymentData](http://cran.rstudio.com/web/packages/rUnemploymentData/index.html) contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.
 -   [SwissAir](http://cran.rstudio.com/web/packages/SwissAir/index.html) contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
+-   [titanic](http://cran.rstudio.com/web/packages/titanic/index.html) is a repackaging of the Titanic passenger survival data available from R in a structure more convenient for data analysis.
 -   [UScensus2010](http://cran.rstudio.com/web/packages/UScensus2010/index.html) and its related packages provide spatial data from the U.S. Census.
 -   [wpp2015](http://cran.rstudio.com/web/packages/wpp2015/index.html) Provides data from the United Nation's World Population Prospects 2015.
 -   [zipcode](http://cran.rstudio.com/web/packages/zipcode/index.html) contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.
@@ -629,6 +630,7 @@ Web-based Open Data
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
 -   [TH.data](http://cran.rstudio.com/web/packages/TH.data/index.html)
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html)
+-   [titanic](http://cran.rstudio.com/web/packages/titanic/index.html)
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
 -   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [TR8](http://cran.rstudio.com/web/packages/TR8/index.html)

@@ -56,6 +56,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
 -   <pkg>rUnemploymentData</pkg> contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.
 -   <pkg>SwissAir</pkg> contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
+-   <pkg>titanic</pkg> is a repackaging of the Titanic passenger survival data available from R in a structure more convenient for data analysis.
 -   <pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.
 -   <pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.
 -   <pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.
