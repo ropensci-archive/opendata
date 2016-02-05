@@ -308,7 +308,7 @@
     </ul>
     <h3 id="news">News</h3>
     <ul>
-    <li><pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day.</li>
+    <li><pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day. <pkg>rdian</pkg> (<a href="https://github.com/ironholds/rdian">GitHub</a>) is another Guardian API client.</li>
     <li><a href="https://github.com/Btibert3/prismaticR">prismaticR</a> (not on CRAN): R interface to <a href="https://github.com/Prismatic/interest-graph">Prismatic's Topic Graph API</a>.</li>
     <li><a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.</li>
     <li><em>ZEIT</em>: <pkg>diezeit</pkg> waps the ZEIT online content API (K).</li>
@@ -556,6 +556,7 @@
     <pkg>rcorpora</pkg>
     <pkg>RCryptsy</pkg>
     <pkg>rdatamarket</pkg>
+    <pkg>rdian</pkg>
     <pkg>rebird</pkg>
     <pkg>redcapAPI</pkg>
     <pkg>RedditExtractoR</pkg>
