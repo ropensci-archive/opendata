@@ -251,7 +251,8 @@ There are a very large number of packages providing access to government data. H
 -   United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.
 -   *Other or international*:
     -   <pkg>enigma</pkg> ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
-    -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
+    -   <pkg>hdr</pkg> ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](<http://hdr.undp.org>) API.
+    -   <pkg>manifestoR</pkg> is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.

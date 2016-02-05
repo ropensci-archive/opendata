@@ -266,7 +266,8 @@ There are a very large number of packages providing access to government data. H
 -   United Kingdom: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API.
 -   *Other or international* :
     -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
-    -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html): an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
+    -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
+    -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   [WDI](http://cran.rstudio.com/web/packages/WDI/index.html): Search, extract and format data from the World Bank's World Development Indicators.
@@ -490,6 +491,7 @@ There are a very large number of packages providing access to government data. H
 -   [GuardianR](http://cran.rstudio.com/web/packages/GuardianR/index.html)
 -   [Guerry](http://cran.rstudio.com/web/packages/Guerry/index.html)
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html)
+-   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html)
 -   [HistData](http://cran.rstudio.com/web/packages/HistData/index.html)
 -   [historydata](http://cran.rstudio.com/web/packages/historydata/index.html)
 -   [hoardeR](http://cran.rstudio.com/web/packages/hoardeR/index.html)
