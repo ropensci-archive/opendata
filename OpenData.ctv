@@ -339,7 +339,8 @@
     <li><pkg>Rlinkedin</pkg>: is an R client for the LinkedIn API.</li>
     <li><em>tumblr</em>: <pkg>tumblR</pkg> (<a href="https://github.com/klapaukh/tumblR">GitHub</a>): R client for the Tumblr API (<a href="https://www.tumblr.com/docs/en/api/v2" class="uri">https://www.tumblr.com/docs/en/api/v2</a>). Tumblr is a microblogging platform and social networking website <a href="https://www.tumblr.com" class="uri">https://www.tumblr.com</a>. (K)</li>
     <li><em>Twitter</em>: <a href="https://github.com/joyofdata/RTwitterAPI">RTwitterAPI</a> (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K) Additionally, <pkg>RKlout</pkg> is an interface to Klout API v2. It fetches Klout Score for a Twitter Username/handle in real time. Klout is a silly ranking of Twitter influence.</li>
-    <li>SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.</li>
+    <li><pkg>SocialMediaLab</pkg> provides a convenient wrapper around many other social media clients and enables the construction of network structures from those data.</li>
+    <li><pkg>SocialMediaMineR</pkg> is an analytic tool that returns information about the popularity of a URL on social media sites.</li>
     </ul>
     <h3 id="social-science">Social science</h3>
     <ul>
@@ -597,6 +598,8 @@
     <pkg>SMCRM</pkg>
     <pkg>smdata</pkg>
     <pkg>smss</pkg>
+    <pkg>SocialMediaLab</pkg>
+    <pkg>SocialMediaMineR</pkg>
     <pkg>soilDB</pkg>
     <pkg>sorvi</pkg>
     <pkg>sos4R</pkg>

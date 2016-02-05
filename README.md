@@ -351,7 +351,8 @@ Web-based Open Data
 -   [Rlinkedin](http://cran.rstudio.com/web/packages/Rlinkedin/index.html): is an R client for the LinkedIn API.
 -   *tumblr*: [tumblR](http://cran.rstudio.com/web/packages/tumblR/index.html) ([GitHub](https://github.com/klapaukh/tumblR)): R client for the Tumblr API ( <https://www.tumblr.com/docs/en/api/v2>). Tumblr is a microblogging platform and social networking website <https://www.tumblr.com>. (K)
 -   *Twitter*: [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and [twitteR](http://cran.rstudio.com/web/packages/twitteR/index.html) provide an interface to the Twitter web API. [streamR](http://cran.rstudio.com/web/packages/streamR/index.html): This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K) Additionally, [RKlout](http://cran.rstudio.com/web/packages/RKlout/index.html) is an interface to Klout API v2. It fetches Klout Score for a Twitter Username/handle in real time. Klout is a silly ranking of Twitter influence.
--   SocialMediaMineR is an analytic tool that returns information about the popularity of a URL on social media sites.
+-   [SocialMediaLab](http://cran.rstudio.com/web/packages/SocialMediaLab/index.html) provides a convenient wrapper around many other social media clients and enables the construction of network structures from those data.
+-   [SocialMediaMineR](http://cran.rstudio.com/web/packages/SocialMediaMineR/index.html) is an analytic tool that returns information about the popularity of a URL on social media sites.
 
 ### Social science
 
@@ -609,6 +610,8 @@ Web-based Open Data
 -   [SMCRM](http://cran.rstudio.com/web/packages/SMCRM/index.html)
 -   [smdata](http://cran.rstudio.com/web/packages/smdata/index.html)
 -   [smss](http://cran.rstudio.com/web/packages/smss/index.html)
+-   [SocialMediaLab](http://cran.rstudio.com/web/packages/SocialMediaLab/index.html)
+-   [SocialMediaMineR](http://cran.rstudio.com/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.rstudio.com/web/packages/soilDB/index.html)
 -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html)
 -   [sos4R](http://cran.rstudio.com/web/packages/sos4R/index.html)
