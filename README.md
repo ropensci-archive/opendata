@@ -377,6 +377,7 @@ There are a very large number of packages providing access to government data. H
 ### Sports
 
 -   [abettor](https://github.com/phillc73/abettor) (not on CRAN): Online betting exchange, Betfair, API wrapper in R. (K)
+-   [ballr](https://github.com/rtelmore/ballr) (not on CRAN) is a client for [Basketball-Reference.com](http://www.basketball-reference.com/).
 -   [bbscrapeR](https://github.com/cpsievert/bbscrapeR) (not on CRAN): Tools for Collecting Data from [nba.com](http://www.nba.com/) and [wnba.com](http://www.wnba.com/).
 -   [cricketr](http://cran.rstudio.com/web/packages/cricketr/index.html) provides tools for working with the ESPN Cricinfo Statsguru. [Source on GitHub](https://github.com/tvganesh/cricketr).
 -   [fbRanks](http://cran.rstudio.com/web/packages/fbRanks/index.html): Association Football (Soccer) Ranking via Poisson Regression - uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.
