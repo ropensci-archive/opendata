@@ -60,13 +60,14 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>titanic</pkg> is a repackaging of the Titanic passenger survival data available from R in a structure more convenient for data analysis.
 -   <pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.
 -   <pkg>valottery</pkg> provides historical results of [the Virginia state lottery](https://www.valottery.com/).
+-   <pkg>webuse</pkg> is a Stata-style 'webuse()' function for importing named datasets from Stata's online collection.
 -   <pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.
 -   <pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.
 -   Various packages supply data to accompany general R instructional materials (e.g., books) or other packages, including: <pkg>alr3</pkg>, <pkg>alr4</pkg>, <pkg>aplore3</pkg>, <pkg>aprean3</pkg>, <pkg>BaM</pkg>, <pkg>BayesDA</pkg>, <pkg>blmeco</pkg>, <pkg>cluster.datasets</pkg>, <pkg>Devore7</pkg>, <pkg>eegkitdata</pkg>, <pkg>ElemStatLearn</pkg>, <pkg>EngrExpt</pkg>, <pkg>expsmooth</pkg>, <pkg>Fahrmeir</pkg>, <pkg>faraway</pkg>, <pkg>fastR</pkg>, <pkg>FAwR</pkg>, <pkg>Flury</pkg>, <pkg>fma</pkg>, <pkg>gamair</pkg>, <pkg>gamlss.data</pkg>, <pkg>GANPAdata</pkg>, <pkg>gpk</pkg>, <pkg>HSAUR3</pkg>, <pkg>igraphdata</pkg>, <pkg>isdals</pkg>, <pkg>KMsurv</pkg>, <pkg>labstats</pkg>, <pkg>languageR</pkg>, <pkg>learningr</pkg>, <pkg>LeLogicielR</pkg>, <pkg>Lock5Data</pkg>, <pkg>mangoTraining</pkg>, <pkg>MEMSS</pkg>, <pkg>MindOnStats</pkg>, <pkg>mistat</pkg>, <pkg>mosaicData</pkg>, <pkg>MPDiR</pkg>, <pkg>MPV</pkg>, <pkg>MSG</pkg>, <pkg>msme</pkg>, <pkg>msos</pkg>, <pkg>NSM3</pkg>, <pkg>nutshell</pkg>, <pkg>OIdata</pkg>, <pkg>openintro</pkg>, <pkg>PBImisc</pkg>, <pkg>qtlbook</pkg>, <pkg>RSADBE</pkg>, <pkg>SASmixed</pkg>, <pkg>SenSrivastava</pkg>, <pkg>Sleuth3</pkg>, <pkg>SMCRM</pkg>, <pkg>smdata</pkg>, <pkg>smss</pkg>, <pkg>Stat2Data</pkg>, <pkg>synbreedData</pkg>, <pkg>tempcyclesdata</pkg>, <pkg>TH.data</pkg>, <pkg>TRSbook</pkg>, <pkg>UsingR</pkg>, <pkg>VGAMdata</pkg>, <pkg>wikibooks</pkg>, and <pkg>WWGbook</pkg>. Note: only packages that primarily contain data (as opposed to functions with minimal datasets as examples) are included here.
 
 ## Web-based Open Data ##
 
-[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Economics/Business](#economics-and-business) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google Analytics](#google-analytics) | [Google Web Services](#google-web-services) | [Government](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social Media](#social-media) | [Social Science](#social-science) | [Sports](#sports) | [Web Analytics](#web-analytics) | [Wikipedia](#wikipedia) |
+[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google Analytics](#google-analytics) | [Google Web Services](#google-web-services) | [Government and Economics](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social Media](#social-media) | [Social Science](#social-science) | [Sports](#sports) | [Web Analytics](#web-analytics) | [Wikipedia](#wikipedia) |
 
 ###Agriculture###
 
@@ -149,20 +150,6 @@ Various R packages make open datasets available directly in R. These are useful 
 -   The [tpl](https://github.com/gustavobio/tpl) package doesn't interact with the web directly, but queries locally stored data from [theplantlist.org](http://www.theplantlist.org/), and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.
 -   <pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. [Source on GitHub](https://github.com/ropensci/treebase)
 
-###Economics and Business###
-
--   <pkg>blsAPI</pkg>: Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string. [Source on GitHub](https://github.com/mikeasilva/blsAPI)
--   [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
--   <pkg>maddison</pkg> ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
--   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
--   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
--   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
--   <pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. [Source on GitHub](https://github.com/rOpenGov/pxweb).
--   <pkg>ukgasapi</pkg> Contains one function which allows users to access UK gas market information via National Grid's API.
--   <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
--   The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
--   <pkg>webuse</pkg> A Stata-style ‘webuse()' function for importing named datasets from Stata’s online collection. Covers many types of data sets, not just econ ;).
-
 ###Finance###
 
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
@@ -233,28 +220,36 @@ Various R packages make open datasets available directly in R. These are useful 
 There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
--   *Europe*: <pkg>eurostat</pkg> ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
--   *Finland*: <pkg>sorvi</pkg> ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
+-   *Europe*:
+    -   <pkg>ecb</pkg> is a client for the [European Central Bank's Statistical Data Warehouse](https://sdw.ecb.europa.eu/) API.
+    -   <pkg>eurostat</pkg> ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
+-   *Finland*:
+    -   <pkg>pxweb</pkg> ([GitHub](https://github.com/rOpenGov/pxweb)) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.
+    -   <pkg>sorvi</pkg> ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
 -   *Germany*: <pkg>BerlinData</pkg> ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   *Japan*: <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   *Mexico*: [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: <pkg>cbsodataR</pkg> connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland*: [saos](https://github.com/bartekch/saos) (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
 -   *United States of America*:
-    -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
-    -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
+    -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string.
+    -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Energy Department: <pkg>EIAdata</pkg>: U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
     -   Elections: <pkg>elexr</pkg> is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
+    -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
     -   <pkg>rsunlight</pkg> ([GitHub](https://github.com/ropengov/rsunlight)): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
     -   [rtimes](https://github.com/ropengov/rtimes): (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
     -   [wethepeople](http://cran.rstudio.com/src/contrib/Archive/wethepeople/): An R client for interacting with the White House's "We The People" petition API.
+-   United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.
 -   *Other or international*:
     -   <pkg>enigma</pkg> ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
+    -   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
+    -   <pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.
 
 
 ###Literature, Metadata, Text, and Altmetrics###
@@ -352,8 +347,12 @@ There are a very large number of packages providing access to government data. H
 
 ###Social science###
 
--   <pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
+-   <pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
+-   <pkg>maddison</pkg> ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
+-   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
+-   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
+-   The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 
 ###Sports###
 

@@ -64,12 +64,13 @@
     <li><pkg>titanic</pkg> is a repackaging of the Titanic passenger survival data available from R in a structure more convenient for data analysis.</li>
     <li><pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.</li>
     <li><pkg>valottery</pkg> provides historical results of <a href="https://www.valottery.com/">the Virginia state lottery</a>.</li>
+    <li><pkg>webuse</pkg> is a Stata-style 'webuse()' function for importing named datasets from Stata's online collection.</li>
     <li><pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.</li>
     <li><pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.</li>
     <li>Various packages supply data to accompany general R instructional materials (e.g., books) or other packages, including: <pkg>alr3</pkg>, <pkg>alr4</pkg>, <pkg>aplore3</pkg>, <pkg>aprean3</pkg>, <pkg>BaM</pkg>, <pkg>BayesDA</pkg>, <pkg>blmeco</pkg>, <pkg>cluster.datasets</pkg>, <pkg>Devore7</pkg>, <pkg>eegkitdata</pkg>, <pkg>ElemStatLearn</pkg>, <pkg>EngrExpt</pkg>, <pkg>expsmooth</pkg>, <pkg>Fahrmeir</pkg>, <pkg>faraway</pkg>, <pkg>fastR</pkg>, <pkg>FAwR</pkg>, <pkg>Flury</pkg>, <pkg>fma</pkg>, <pkg>gamair</pkg>, <pkg>gamlss.data</pkg>, <pkg>GANPAdata</pkg>, <pkg>gpk</pkg>, <pkg>HSAUR3</pkg>, <pkg>igraphdata</pkg>, <pkg>isdals</pkg>, <pkg>KMsurv</pkg>, <pkg>labstats</pkg>, <pkg>languageR</pkg>, <pkg>learningr</pkg>, <pkg>LeLogicielR</pkg>, <pkg>Lock5Data</pkg>, <pkg>mangoTraining</pkg>, <pkg>MEMSS</pkg>, <pkg>MindOnStats</pkg>, <pkg>mistat</pkg>, <pkg>mosaicData</pkg>, <pkg>MPDiR</pkg>, <pkg>MPV</pkg>, <pkg>MSG</pkg>, <pkg>msme</pkg>, <pkg>msos</pkg>, <pkg>NSM3</pkg>, <pkg>nutshell</pkg>, <pkg>OIdata</pkg>, <pkg>openintro</pkg>, <pkg>PBImisc</pkg>, <pkg>qtlbook</pkg>, <pkg>RSADBE</pkg>, <pkg>SASmixed</pkg>, <pkg>SenSrivastava</pkg>, <pkg>Sleuth3</pkg>, <pkg>SMCRM</pkg>, <pkg>smdata</pkg>, <pkg>smss</pkg>, <pkg>Stat2Data</pkg>, <pkg>synbreedData</pkg>, <pkg>tempcyclesdata</pkg>, <pkg>TH.data</pkg>, <pkg>TRSbook</pkg>, <pkg>UsingR</pkg>, <pkg>VGAMdata</pkg>, <pkg>wikibooks</pkg>, and <pkg>WWGbook</pkg>. Note: only packages that primarily contain data (as opposed to functions with minimal datasets as examples) are included here.</li>
     </ul>
     <h2 id="web-based-open-data">Web-based Open Data</h2>
-    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#economics-and-business">Economics/Business</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
+    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
     <h3 id="agriculture">Agriculture</h3>
     <ul>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.</li>
@@ -151,20 +152,6 @@
     <li>The <a href="https://github.com/gustavobio/tpl">tpl</a> package doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.</li>
     <li><pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. <a href="https://github.com/ropensci/treebase">Source on GitHub</a></li>
     </ul>
-    <h3 id="economics-and-business">Economics and Business</h3>
-    <ul>
-    <li><pkg>blsAPI</pkg>: Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. <a href="https://github.com/mikeasilva/blsAPI">Source on GitHub</a></li>
-    <li><a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
-    <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison">Maddison Project</a>.</li>
-    <li><pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See <a href="https://data.oecd.org/api/">OECD data</a>.</li>
-    <li><pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.</li>
-    <li><pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).</li>
-    <li><pkg>pxweb</pkg>: Generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format. <a href="https://github.com/rOpenGov/pxweb">Source on GitHub</a>.</li>
-    <li><pkg>ukgasapi</pkg> Contains one function which allows users to access UK gas market information via National Grid's API.</li>
-    <li><pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.</li>
-    <li>The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.</li>
-    <li><pkg>webuse</pkg> A Stata-style ‘webuse()' function for importing named datasets from Stata’s online collection. Covers many types of data sets, not just econ ;).</li>
-    </ul>
     <h3 id="finance">Finance</h3>
     <ul>
     <li><pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.</li>
@@ -234,8 +221,16 @@
     <p>There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.</p>
     <ul>
     <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
-    <li><em>Europe</em>: <pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
-    <li><em>Finland</em>: <pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
+    <li><em>Europe</em>:
+    <ul>
+    <li><pkg>ecb</pkg> is a client for the <a href="https://sdw.ecb.europa.eu/">European Central Bank's Statistical Data Warehouse</a> API.</li>
+    <li><pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
+    </ul></li>
+    <li><em>Finland</em>:
+    <ul>
+    <li><pkg>pxweb</pkg> (<a href="https://github.com/rOpenGov/pxweb">GitHub</a>) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.</li>
+    <li><pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
+    </ul></li>
     <li><em>Germany</em>: <pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
     <li><em>Japan</em>: <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
     <li><em>Mexico</em>: <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
@@ -243,10 +238,11 @@
     <li><em>Poland</em>: <a href="https://github.com/bartekch/saos">saos</a> (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.</li>
     <li><em>United States of America</em>:
     <ul>
-    <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.</li>
-    <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
+    <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> (<a href="https://github.com/mikeasilva/blsAPI">GitHub</a>) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string.</li>
+    <li>Federal Reserve: <a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
     <li>Energy Department: <pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
     <li>Elections: <pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results. <a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
+    <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
     <li><pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>) is a ProPublica API Client.</li>
@@ -254,11 +250,14 @@
     <li><a href="https://github.com/ropengov/rtimes">rtimes</a>: (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
     </ul></li>
+    <li>United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.</li>
     <li><em>Other or international</em>:
     <ul>
     <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
     <li><pkg>manifestoR</pkg>: an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
     <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
+    <li><pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See <a href="https://data.oecd.org/api/">OECD data</a>.</li>
+    <li><pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.</li>
     </ul></li>
     </ul>
     <h3 id="literature-metadata-text-and-altmetrics">Literature, Metadata, Text, and Altmetrics</h3>
@@ -355,8 +354,12 @@
     </ul>
     <h3 id="social-science">Social science</h3>
     <ul>
-    <li><pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the <a href="http://thegradcafe.com">Grad Cafe website</a>.</li>
     <li><a href="http://www.asdfree.com/">asdfree: analyze survey data for free</a> (not a package) provides lots of code examples for analyzing survey data in R. Also on <a href="https://github.com/ajdamico/usgsd">github</a>.</li>
+    <li><pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the <a href="http://thegradcafe.com">Grad Cafe website</a>.</li>
+    <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison">Maddison Project</a>.</li>
+    <li><pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.</li>
+    <li><pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).</li>
+    <li>The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.</li>
     </ul>
     <h3 id="sports">Sports</h3>
     <ul>
@@ -427,6 +430,7 @@
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
     <pkg>easyPubMed</pkg>
+    <pkg>ecb</pkg>
     <pkg>ecoengine</pkg>
     <pkg>ecoretriever</pkg>
     <pkg>eegkitdata</pkg>
