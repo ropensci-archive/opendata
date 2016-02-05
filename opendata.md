@@ -353,6 +353,7 @@ There are a very large number of packages providing access to government data. H
 -   <pkg>maddison</pkg> ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
+-   <pkg>wordbankr</pkg> ([GitHub](https://github.com/langcog/wordbankr)) connects to [Wordbank](http://wordbank.stanford.edu/), a database of childrens' developmental vocabulary.
 -   The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 
 ###Sports###

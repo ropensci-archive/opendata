@@ -366,6 +366,7 @@ There are a very large number of packages providing access to government data. H
 -   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html) ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
+-   [wordbankr](http://cran.rstudio.com/web/packages/wordbankr/index.html) ([GitHub](https://github.com/langcog/wordbankr)) connects to [Wordbank](http://wordbank.stanford.edu/), a database of childrens' developmental vocabulary.
 -   The [<span class="Ohat">Zillow</span>](http://www.Omegahat.org/Zillow/) (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
 
 ### Sports
@@ -676,6 +677,7 @@ There are a very large number of packages providing access to government data. H
 -   [wikibooks](http://cran.rstudio.com/web/packages/wikibooks/index.html)
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html)
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html)
+-   [wordbankr](http://cran.rstudio.com/web/packages/wordbankr/index.html)
 -   [wpp2015](http://cran.rstudio.com/web/packages/wpp2015/index.html)
 -   [WWGbook](http://cran.rstudio.com/web/packages/WWGbook/index.html)
 -   [zendeskR](http://cran.rstudio.com/web/packages/zendeskR/index.html)

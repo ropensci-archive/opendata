@@ -360,6 +360,7 @@
     <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison">Maddison Project</a>.</li>
     <li><pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.</li>
     <li><pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).</li>
+    <li><pkg>wordbankr</pkg> (<a href="https://github.com/langcog/wordbankr">GitHub</a>) connects to <a href="http://wordbank.stanford.edu/">Wordbank</a>, a database of childrens' developmental vocabulary.</li>
     <li>The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the <a href="http://www.zillow.com/">Zillow</a> Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.</li>
     </ul>
     <h3 id="sports">Sports</h3>
@@ -670,6 +671,7 @@
     <pkg>wikibooks</pkg>
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
+    <pkg>wordbankr</pkg>
     <pkg>wpp2015</pkg>
     <pkg>WWGbook</pkg>
     <pkg>zendeskR</pkg>
