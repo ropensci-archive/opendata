@@ -231,7 +231,9 @@ There are a very large number of packages providing access to government data. H
 -   *Japan*: <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   *Mexico*: [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: <pkg>cbsodataR</pkg> connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
--   *Poland*: [saos](https://github.com/bartekch/saos) (not on CRAN): An interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
+-   *Poland*:
+    -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
+    -   <pkg>sejmRP</pkg> ([GitHub](http://github.com/mi2-warsaw/sejmRP/)) provides data on deputies and voting in [the Polish Diet](http://www.sejm.gov.pl/).
 -   *United States of America*:
     -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string.
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
