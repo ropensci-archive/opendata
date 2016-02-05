@@ -246,6 +246,7 @@ Web-based Open Data
 -   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/).
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html): U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
+-   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html) is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results.
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
 -   [eurostat](http://cran.rstudio.com/web/packages/eurostat/index.html) ([Github](https://github.com/ropengov/eurostat)) provides an interface to the [Eurostat database](http://ec.europa.eu/eurostat).
 -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
@@ -433,6 +434,7 @@ Web-based Open Data
 -   [eegkitdata](http://cran.rstudio.com/web/packages/eegkitdata/index.html)
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
 -   [ElemStatLearn](http://cran.rstudio.com/web/packages/ElemStatLearn/index.html)
+-   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
 -   [emdatr](http://cran.rstudio.com/web/packages/emdatr/index.html)
 -   [EngrExpt](http://cran.rstudio.com/web/packages/EngrExpt/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)
