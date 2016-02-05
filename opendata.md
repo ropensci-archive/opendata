@@ -254,6 +254,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>aRxiv</pkg> ([GitHub](https://github.com/ropensci/aRxiv)): An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.
 -   <pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
+-   <pkg>lumendb</pkg> can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
 -   <pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
 -   <pkg>pubmed.mineR</pkg>: An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed.
 -   <pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.
