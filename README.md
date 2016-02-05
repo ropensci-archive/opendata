@@ -64,6 +64,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [NHANES](http://cran.rstudio.com/web/packages/NHANES/index.html) body shape and related measurements from the US National Health and Nutrition Examination Survey (NHANES, 1999-2004).
 -   [noncensus](http://cran.rstudio.com/web/packages/noncensus/index.html) contains data related to the U.S. Census.
 -   [nycflights13](http://cran.rstudio.com/web/packages/nycflights13/index.html) contains airline on-time data for all flights departing from New York City in 2013.
+-   [pinfsc50](http://cran.rstudio.com/web/packages/pinfsc50/index.html) contains genomic data for the plant pathogen "Phytophthora infestans."
 -   [QSARdata](http://cran.rstudio.com/web/packages/QSARdata/index.html) offers molecular descriptors and outcomes for several public domain data sets.
 -   [randomNames](http://cran.rstudio.com/web/packages/randomNames/index.html) provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).
 -   [rcorpora](http://cran.rstudio.com/web/packages/rcorpora/index.html) contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
@@ -533,6 +534,7 @@ Web-based Open Data
 -   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html)
 -   [PBImisc](http://cran.rstudio.com/web/packages/PBImisc/index.html)
 -   [pdfetch](http://cran.rstudio.com/web/packages/pdfetch/index.html)
+-   [pinfsc50](http://cran.rstudio.com/web/packages/pinfsc50/index.html)
 -   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html)
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html)

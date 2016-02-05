@@ -55,6 +55,7 @@
     <li><pkg>NHANES</pkg> body shape and related measurements from the US National Health and Nutrition Examination Survey (NHANES, 1999-2004).</li>
     <li><pkg>noncensus</pkg> contains data related to the U.S. Census.</li>
     <li><pkg>nycflights13</pkg> contains airline on-time data for all flights departing from New York City in 2013.</li>
+    <li><pkg>pinfsc50</pkg> contains genomic data for the plant pathogen &quot;Phytophthora infestans.&quot;</li>
     <li><pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.</li>
     <li><pkg>randomNames</pkg> provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).</li>
     <li><pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.</li>
@@ -521,6 +522,7 @@
     <pkg>paleobioDB</pkg>
     <pkg>PBImisc</pkg>
     <pkg>pdfetch</pkg>
+    <pkg>pinfsc50</pkg>
     <pkg>pinnacle.API</pkg>
     <pkg>pitchRx</pkg>
     <pkg>plotGoogleMaps</pkg>

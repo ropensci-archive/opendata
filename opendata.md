@@ -51,6 +51,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>NHANES</pkg> body shape and related measurements from the US National Health and Nutrition Examination Survey (NHANES, 1999-2004).
 -   <pkg>noncensus</pkg> contains data related to the U.S. Census.
 -   <pkg>nycflights13</pkg> contains airline on-time data for all flights departing from New York City in 2013.
+-   <pkg>pinfsc50</pkg> contains genomic data for the plant pathogen "Phytophthora infestans."
 -   <pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.
 -   <pkg>randomNames</pkg> provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).
 -   <pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.
