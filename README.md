@@ -245,6 +245,7 @@ Web-based Open Data
 -   [acs](http://cran.rstudio.com/web/packages/acs/index.html): Download, manipulate, and present data from the US Census American Community Survey. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
 -   [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html) ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
+-   [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/).
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html): U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html) is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results.
@@ -417,6 +418,7 @@ Web-based Open Data
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html)
 -   [boilerpipeR](http://cran.rstudio.com/web/packages/boilerpipeR/index.html)
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html)
+-   [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html)
 -   [cgdsr](http://cran.rstudio.com/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.rstudio.com/web/packages/CHCN/index.html)
 -   [chromer](http://cran.rstudio.com/web/packages/chromer/index.html)

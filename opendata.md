@@ -231,6 +231,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
 -   <pkg>BerlinData</pkg> ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
+-   <pkg>cbsodataR</pkg> connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/).
 -   <pkg>EIAdata</pkg>: U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
 -   <pkg>elexr</pkg> is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results.

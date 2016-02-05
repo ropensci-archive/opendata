@@ -233,6 +233,7 @@
     <li><pkg>acs</pkg>: Download, manipulate, and present data from the US Census American Community Survey. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.</li>
     <li><pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
     <li><a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
+    <li><pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
     <li><a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>.</li>
     <li><pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
     <li><pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results.</li>
@@ -405,6 +406,7 @@
     <pkg>blsAPI</pkg>
     <pkg>boilerpipeR</pkg>
     <pkg>brewdata</pkg>
+    <pkg>cbsodataR</pkg>
     <pkg>cgdsr</pkg>
     <pkg>CHCN</pkg>
     <pkg>chromer</pkg>
