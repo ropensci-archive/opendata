@@ -347,6 +347,7 @@ Web-based Open Data
 -   [rClinicalCodes](http://cran.rstudio.com/web/packages/rClinicalCodes/index.html): R tools for integrating with the http://www.clinicalcodes.org web repository
 -   [rclinicaltrials](http://cran.rstudio.com/web/packages/rclinicaltrials/index.html) ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html) constructs U.S. cancer data at the county level from [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the U.S. Census Bureau.
+-   [WHO](http://cran.rstudio.com/web/packages/WHO/index.html) provides an interface to the [World Health Organization](http://www.who.int/) API. [Source on GitHub](https://www.github.com/expersso/WHO).
 
 ### Social media
 
@@ -663,6 +664,7 @@ Web-based Open Data
 -   [weatherr](http://cran.rstudio.com/web/packages/weatherr/index.html)
 -   [webchem](http://cran.rstudio.com/web/packages/webchem/index.html)
 -   [webuse](http://cran.rstudio.com/web/packages/webuse/index.html)
+-   [WHO](http://cran.rstudio.com/web/packages/WHO/index.html)
 -   [wikibooks](http://cran.rstudio.com/web/packages/wikibooks/index.html)
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html)
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html)

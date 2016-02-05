@@ -334,6 +334,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository
 -   <pkg>rclinicaltrials</pkg> ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.
 -   <pkg>UScancer</pkg> constructs U.S. cancer data at the county level from [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the U.S. Census Bureau.
+-   <pkg>WHO</pkg> provides an interface to the [World Health Organization](http://www.who.int/) API. [Source on GitHub](https://www.github.com/expersso/WHO).
 
 ###Social media###
 
