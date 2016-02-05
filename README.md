@@ -168,6 +168,7 @@ Web-based Open Data
 
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html): Get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string. [Source on GitHub](https://github.com/mikeasilva/blsAPI)
 -   [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
+-   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html) ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
@@ -498,6 +499,7 @@ There are a very large number of packages providing access to government data. H
 -   [LeLogicielR](http://cran.rstudio.com/web/packages/LeLogicielR/index.html)
 -   [Lock5Data](http://cran.rstudio.com/web/packages/Lock5Data/index.html)
 -   [lumendb](http://cran.rstudio.com/web/packages/lumendb/index.html)
+-   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html)
 -   [mangoTraining](http://cran.rstudio.com/web/packages/mangoTraining/index.html)
 -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html)
