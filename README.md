@@ -288,6 +288,7 @@ There are a very large number of packages providing access to government data. H
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN): Get scholarly metadata from around the web.
 -   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A programmatic interface the Orcid.org API.
 -   [rplos](http://cran.rstudio.com/web/packages/rplos/index.html): A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
+-   [rscopus](http://cran.rstudio.com/web/packages/rscopus/index.html) ([GitHub](https://github.com/muschellij2/rscopus/)) is an interface to the Elsevier Scopus API.
 -   [scholar](http://cran.rstudio.com/web/packages/scholar/index.html) provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
 -   The [<span class="Ohat">Sxslt</span>](http://www.Omegahat.org/Sxslt/) (not on CRAN) package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html): Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.
@@ -615,6 +616,7 @@ There are a very large number of packages providing access to government data. H
 -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html)
 -   [rredlist](http://cran.rstudio.com/web/packages/rredlist/index.html)
 -   [RSADBE](http://cran.rstudio.com/web/packages/RSADBE/index.html)
+-   [rscopus](http://cran.rstudio.com/web/packages/rscopus/index.html)
 -   [RSiteCatalyst](http://cran.rstudio.com/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.rstudio.com/web/packages/rsnps/index.html)
 -   [RStars](http://cran.rstudio.com/web/packages/RStars/index.html)
