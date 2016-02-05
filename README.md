@@ -246,7 +246,7 @@ There are a very large number of packages providing access to government data. H
     -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html) ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
 -   *Germany*: [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html) ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html): Functions to get public survey data in Japan.
--   *Mexico*: [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
+-   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland* :
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
@@ -495,6 +495,7 @@ There are a very large number of packages providing access to government data. H
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html)
 -   [igraphdata](http://cran.rstudio.com/web/packages/igraphdata/index.html)
 -   [imguR](http://cran.rstudio.com/web/packages/imguR/index.html)
+-   [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html)
 -   [insuranceData](http://cran.rstudio.com/web/packages/insuranceData/index.html)
 -   [isdals](http://cran.rstudio.com/web/packages/isdals/index.html)
 -   [jSonarR](http://cran.rstudio.com/web/packages/jSonarR/index.html)
