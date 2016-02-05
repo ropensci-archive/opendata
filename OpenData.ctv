@@ -46,6 +46,7 @@
     <li><pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.</li>
     <li><pkg>gapminder</pkg> is an excerpt of the <a href="http://www.gapminder.org">Gapminder.org</a> dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.</li>
     <li><pkg>GCD</pkg> contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).</li>
+    <li><pkg>ggplot2movies</pkg> provides a dataset extracted from IMDB that was formerly available in ggplot2.</li>
     <li><pkg>Guerry</pkg> contains spatial data from A.M. Guerry's &quot;Moral Statistics of France&quot; (1833).</li>
     <li><pkg>HistData</pkg> offers various historical datasets, especially those related to data visualization.</li>
     <li><pkg>Lahman</pkg> provides tables from Sean Lahman's Baseball Database including data on pitching, hitting, and fielding performance, etc. from 1871 through 2013.</li>
@@ -448,6 +449,7 @@
     <pkg>genderizeR</pkg>
     <pkg>geocodeHERE</pkg>
     <pkg>ggmap</pkg>
+    <pkg>ggplot2movies</pkg>
     <pkg>GhcnDaily</pkg>
     <pkg>googleVis</pkg>
     <pkg>gooJSON</pkg>

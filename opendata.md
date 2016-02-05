@@ -42,6 +42,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.
 -   <pkg>gapminder</pkg> is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
 -   <pkg>GCD</pkg> contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).
+-   <pkg>ggplot2movies</pkg> provides a dataset extracted from IMDB that was formerly available in ggplot2.
 -   <pkg>Guerry</pkg> contains spatial data from A.M. Guerry's "Moral Statistics of France" (1833).
 -   <pkg>HistData</pkg> offers various historical datasets, especially those related to data visualization.
 -   <pkg>Lahman</pkg> provides tables from Sean Lahman's Baseball Database including data on pitching, hitting, and fielding performance, etc. from 1871 through 2013.

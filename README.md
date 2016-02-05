@@ -55,6 +55,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [fds](http://cran.rstudio.com/web/packages/fds/index.html) and [Mcomp](http://cran.rstudio.com/web/packages/Mcomp/index.html) contain a variety of time series datasets.
 -   [gapminder](http://cran.rstudio.com/web/packages/gapminder/index.html) is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
 -   [GCD](http://cran.rstudio.com/web/packages/GCD/index.html) contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).
+-   [ggplot2movies](http://cran.rstudio.com/web/packages/ggplot2movies/index.html) provides a dataset extracted from IMDB that was formerly available in ggplot2.
 -   [Guerry](http://cran.rstudio.com/web/packages/Guerry/index.html) contains spatial data from A.M. Guerry's "Moral Statistics of France" (1833).
 -   [HistData](http://cran.rstudio.com/web/packages/HistData/index.html) offers various historical datasets, especially those related to data visualization.
 -   [Lahman](http://cran.rstudio.com/web/packages/Lahman/index.html) provides tables from Sean Lahman's Baseball Database including data on pitching, hitting, and fielding performance, etc. from 1871 through 2013.
@@ -460,6 +461,7 @@ Web-based Open Data
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html)
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
+-   [ggplot2movies](http://cran.rstudio.com/web/packages/ggplot2movies/index.html)
 -   [GhcnDaily](http://cran.rstudio.com/web/packages/GhcnDaily/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
 -   [gooJSON](http://cran.rstudio.com/web/packages/gooJSON/index.html)
