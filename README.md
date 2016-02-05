@@ -242,7 +242,7 @@ Web-based Open Data
 
 ### Government
 
--   [acs](http://cran.rstudio.com/web/packages/acs/index.html): Download, manipulate, and present data from the US Census American Community Survey. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
+-   [acs](http://cran.rstudio.com/web/packages/acs/index.html) can download, manipulate, and present data from the US Census American Community Survey. [censusr](http://cran.rstudio.com/web/packages/censusr/index.html) connects to both ACS and SF1 datasets. [IDBr](https://github.com/walkerke/IDBr) (not on CRAN) provides an interface to the U.S. Census Bureau international data base API.
 -   [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html) ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R.
 -   [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
 -   [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
@@ -419,6 +419,7 @@ Web-based Open Data
 -   [boilerpipeR](http://cran.rstudio.com/web/packages/boilerpipeR/index.html)
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html)
 -   [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html)
+-   [censusr](http://cran.rstudio.com/web/packages/censusr/index.html)
 -   [cgdsr](http://cran.rstudio.com/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.rstudio.com/web/packages/CHCN/index.html)
 -   [chromer](http://cran.rstudio.com/web/packages/chromer/index.html)
