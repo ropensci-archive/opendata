@@ -37,7 +37,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, and <pkg>insuranceData</pkg> for insurance.
 -   <pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
--   <pkg>emdatr</pkg> provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
+-   emdatr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/emdatr)) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
 -   <pkg>ergmharris</pkg> contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.
 -   <pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.
 -   <pkg>gapminder</pkg> is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
@@ -90,7 +90,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
 -   <pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
--   <pkg>GhcnDaily</pkg>: A package that downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
+-   GhcnDaily ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/GhcnDaily) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
 -   <pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
 -   [Metadata](http://cran.rstudio.com/src/contrib/Archive/Metadata/): Collates metadata for climate surface stations. Archived on CRAN.
@@ -116,7 +116,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
--   <pkg>BioMart</pkg> retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
+-   <bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
 -   <pkg>ecoretriever</pkg>: Provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). [Source on GitHub](https://github.com/ropensci/ecoretriever/).
@@ -137,7 +137,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [rotl](https://cran.r-project.org/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
--   <pkg>redlist</pkg> is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
+-   <pkg>rredlist</pkg> is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
 -   <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
 -   <pkg>rWBclimate</pkg>: R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 -   <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub [here](https://github.com/biologicalrecordscentre/rYoutheria)
@@ -214,7 +214,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)
 -   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/): (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 -   <pkg>googleVis</pkg>: Interface between R and the Google chart tools.
--   <pkg>gooJSON</pkg>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
+-   gooJSON ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/gooJSON)) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
 -   <pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.
 -   <pkg>plotKML</pkg>: Visualization of spatial and spatio-temporal objects in Google Earth.
 -   <pkg>RAdwords</pkg>: A package for loading Google Adwords data. [Source on GitHub](https://github.com/jburkhardt/RAdwords)
@@ -241,12 +241,11 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.
 -   <a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   <pkg>manifestoR</pkg>: an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
--   <pkg>openelections</pkg> ([GitHub](https://github.com/GShotwell/openelections)): openelections API
+-   [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API.
 -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
 -   <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.
--   <pkg>recalls</pkg>: Access U.S. Federal Government Recall Data. Development version on GitHub [here](https://github.com/rOpenGov/recalls).
 -   <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
 -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)): ProPublica API Client.
 -   <pkg>rsunlight</pkg> ([GitHub](https://github.com/ropengov/rsunlight)): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
@@ -262,7 +261,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
 -   <pkg>lumendb</pkg> can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
--   <pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
+-   ngramr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/ngramr)) retrieves and plot word frequencies through time from the Google Ngram Viewer.
 -   <pkg>pubmed.mineR</pkg>: An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed. <pkg>easyPubMed</pkg> and [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN) provide other tools.
 -   <pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.
 -   <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
@@ -362,14 +361,14 @@ Various R packages make open datasets available directly in R. These are useful 
 -   <pkg>nhlscrapr</pkg>: Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   <pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 -   <pkg>fitbitScraper</pkg> ([GitHub](https://github.com/corynissen/fitbitScraper)) can retrieve Fitbit data, based on email/password authentication.
--   <pkg>fantasysocceR</pkg> ([GitHub](https://github.com/durtal/fantasysocceR)) fantasy soccer
+-   [fantasysocceR](https://github.com/durtal/fantasysocceR) (not on CRAN) connects to fantasy soccer data.
 -   <pkg>pinnacle.API</pkg> A Wrapper for the Pinnacle Sports API
 -   <pkg>retrosheet</pkg> ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from <http://www.retrosheet.org>.
 
 ###Web Analytics###
 
 -   [GTrendsR](https://github.com/dvanclev/GTrendsR) (not on CRAN): R functions to perform and display Google Trends queries. Another Github package ([rGtrends](https://github.com/emhart/rGtrends)) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.
--   <pkg>rgauges</pkg>: This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. (\$) (K)
+-   rgauges ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/rgauges)) This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. (\$) (K)
 -   <pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the [Google Analytics APIs](https://developers.google.com/analytics/). Supports OAuth 2.0 authorization. Also, the RGA package provides a shiny app to explore data. There is another R package for the same service (RGoogleAnalytics); see above entry. (K)
 -   <pkg>RGoogleAnalytics</pkg> ([GitHub](https://github.com/Tatvic/RGoogleAnalytics/issues)) provides functions for accessing and retrieving data from the Google Analytics API. There is another R package for the same service (RGA); see previous entry. (K)
 -   <ohat>RGoogleTrends</ohat> (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.

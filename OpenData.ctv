@@ -41,7 +41,7 @@
     <ul>
     <li>Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, and <pkg>insuranceData</pkg> for insurance.</li>
     <li><pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.</li>
-    <li><pkg>emdatr</pkg> provided information on human and financial losses for more than 20,000 global natural disasters since 1900.</li>
+    <li>emdatr (<a href="https://cran.r-project.org/src/contrib/Archive/emdatr">Archived on CRAN</a>) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.</li>
     <li><pkg>ergmharris</pkg> contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.</li>
     <li><pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.</li>
     <li><pkg>gapminder</pkg> is an excerpt of the <a href="http://www.gapminder.org">Gapminder.org</a> dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.</li>
@@ -92,7 +92,7 @@
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
     <li><pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. <a href="https://github.com/USGS-R/dataRetrieval">on GitHub</a>.</li>
     <li><pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
-    <li><pkg>GhcnDaily</pkg>: A package that downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
+    <li>GhcnDaily (<a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily">Archived on CRAN</a> downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
     <li><pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. <a href="https://github.com/cvitolo/r_hddtools">Source on GitHub</a></li>
     <li><pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
@@ -118,7 +118,7 @@
     <ul>
     <li><a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a></li>
     <li><a href="https://github.com/traitecoevo/baad.data">BAAD: a Biomass And Allometry Database for woody plants</a> (not on CRAN): an interface to access data from a data paper published in <em>Ecology</em>. <a href="https://github.com/dfalster/baad">Full source for the database is also on GitHub</a>.</li>
-    <li><pkg>BioMart</pkg> retrieves data from a number of public biological data repositories including <a href="http://www.biomart.org" class="uri">http://www.biomart.org</a>, NCBI refseq, Gene Ontology.</li>
+    <li><bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <a href="http://www.biomart.org" class="uri">http://www.biomart.org</a>, NCBI refseq, Gene Ontology.</li>
     <li><pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.</li>
     <li><pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/" class="uri">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/" class="uri">http://bnhm.berkeley.edu/</a>. <a href="https://github.com/ropensci/ecoengine">Source on GitHub</a></li>
     <li><pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">Source on GitHub</a>.</li>
@@ -139,7 +139,7 @@
     <li><a href="https://cran.r-project.org/web/packages/rotl/index.html">rotl</a>: R client for the Open Tree of Life API. <a href="https://github.com/fmichonneau/rotl">Source on GitHub</a></li>
     <li><a href="https://github.com/sckott/rphylopic">rphylopic</a> (not on CRAN): An R client for <a href="http://phylopic.org/">Phylopic.org</a>, a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. <a href="https://github.com/sckott/rphylopic">Source on GitHub</a></li>
     <li><pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a></li>
-    <li><pkg>redlist</pkg> is an API client for the <a href="http://www.iucnredlist.org/">IUCN red list</a> of threatened and engaged species. <a href="https://github.com/ropenscilabs/rredlist">Source on GitHub</a>.</li>
+    <li><pkg>rredlist</pkg> is an API client for the <a href="http://www.iucnredlist.org/">IUCN red list</a> of threatened and engaged species. <a href="https://github.com/ropenscilabs/rredlist">Source on GitHub</a>.</li>
     <li><pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. <a href="https://github.com/ropensci/rvertnet">Source on GitHub</a></li>
     <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
     <li><pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a></li>
@@ -216,7 +216,7 @@
     <li><a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.</li>
     <li><pkg>googleVis</pkg>: Interface between R and the Google chart tools.</li>
-    <li><pkg>gooJSON</pkg>: A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
+    <li>gooJSON (<a href="https://cran.r-project.org/src/contrib/Archive/gooJSON">Archived on CRAN</a>) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
     <li><pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.</li>
     <li><pkg>plotKML</pkg>: Visualization of spatial and spatio-temporal objects in Google Earth.</li>
     <li><pkg>RAdwords</pkg>: A package for loading Google Adwords data. <a href="https://github.com/jburkhardt/RAdwords">Source on GitHub</a></li>
@@ -243,12 +243,11 @@
     <li><pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
     <li><a href="https://github.com/Eflores89/inegiR">inegiR</a> (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
     <li><pkg>manifestoR</pkg>: an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
-    <li><pkg>openelections</pkg> (<a href="https://github.com/GShotwell/openelections">GitHub</a>): openelections API</li>
+    <li><a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
     <li><pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API.</li>
     <li><pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research.</li>
-    <li><pkg>recalls</pkg>: Access U.S. Federal Government Recall Data. Development version on GitHub <a href="https://github.com/rOpenGov/recalls">here</a>.</li>
     <li><pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
     <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>): ProPublica API Client.</li>
     <li><pkg>rsunlight</pkg> (<a href="https://github.com/ropengov/rsunlight">GitHub</a>): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.</li>
@@ -264,7 +263,7 @@
     <li><pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.</li>
     <li><a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service</li>
     <li><pkg>lumendb</pkg> can retrieve copyright takedown notices from <a href="https://lumendatabase.org/">Lumen Database</a> (formerly, Chilling Effects).</li>
-    <li><pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.</li>
+    <li>ngramr (<a href="https://cran.r-project.org/src/contrib/Archive/ngramr">Archived on CRAN</a>) retrieves and plot word frequencies through time from the Google Ngram Viewer.</li>
     <li><pkg>pubmed.mineR</pkg>: An R package for text mining of <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed Abstracts</a>. Supports fetching text and XML from PubMed. <pkg>easyPubMed</pkg> and <a href="https://github.com/rOpenHealth/rpubmed">rpubmed</a> (not on CRAN) provide other tools.</li>
     <li><pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
@@ -363,14 +362,14 @@
     <li><pkg>nhlscrapr</pkg>: Compiling the NHL Real Time Scoring System Database for easy use in R.</li>
     <li><pkg>pitchRx</pkg>: Tools for Collecting and Visualizing Major League Baseball PITCHfx Data</li>
     <li><pkg>fitbitScraper</pkg> (<a href="https://github.com/corynissen/fitbitScraper">GitHub</a>) can retrieve Fitbit data, based on email/password authentication.</li>
-    <li><pkg>fantasysocceR</pkg> (<a href="https://github.com/durtal/fantasysocceR">GitHub</a>) fantasy soccer</li>
+    <li><a href="https://github.com/durtal/fantasysocceR">fantasysocceR</a> (not on CRAN) connects to fantasy soccer data.</li>
     <li><pkg>pinnacle.API</pkg> A Wrapper for the Pinnacle Sports API</li>
     <li><pkg>retrosheet</pkg> (<a href="https://github.com/rmscriven/retrosheet">Github</a>) retrieves single-season baseball statistics from <a href="http://www.retrosheet.org" class="uri">http://www.retrosheet.org</a>.</li>
     </ul>
     <h3 id="web-analytics">Web Analytics</h3>
     <ul>
     <li><a href="https://github.com/dvanclev/GTrendsR">GTrendsR</a> (not on CRAN): R functions to perform and display Google Trends queries. Another Github package (<a href="https://github.com/emhart/rGtrends">rGtrends</a>) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.</li>
-    <li><pkg>rgauges</pkg>: This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)</li>
+    <li>rgauges (<a href="https://cran.r-project.org/src/contrib/Archive/rgauges">Archived on CRAN</a>) This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)</li>
     <li><pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the RGA package provides a shiny app to explore data. There is another R package for the same service (RGoogleAnalytics); see above entry. (K)</li>
     <li><pkg>RGoogleAnalytics</pkg> (<a href="https://github.com/Tatvic/RGoogleAnalytics/issues">GitHub</a>) provides functions for accessing and retrieving data from the Google Analytics API. There is another R package for the same service (RGA); see previous entry. (K)</li>
     <li><ohat>RGoogleTrends</ohat> (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.</li>
@@ -400,7 +399,6 @@
     <pkg>BayesDA</pkg>
     <pkg>BerlinData</pkg>
     <pkg>bigrquery</pkg>
-    <pkg>BioMart</pkg>
     <pkg>biorxivr</pkg>
     <pkg>blmeco</pkg>
     <pkg>blsAPI</pkg>
@@ -430,7 +428,6 @@
     <pkg>EIAdata</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>elexr</pkg>
-    <pkg>emdatr</pkg>
     <pkg>EngrExpt</pkg>
     <pkg>enigma</pkg>
     <pkg>ergmharris</pkg>
@@ -438,7 +435,6 @@
     <pkg>expsmooth</pkg>
     <pkg>factualR</pkg>
     <pkg>Fahrmeir</pkg>
-    <pkg>fantasysocceR</pkg>
     <pkg>FAOSTAT</pkg>
     <pkg>faraway</pkg>
     <pkg>fastR</pkg>
@@ -462,9 +458,7 @@
     <pkg>geocodeHERE</pkg>
     <pkg>ggmap</pkg>
     <pkg>ggplot2movies</pkg>
-    <pkg>GhcnDaily</pkg>
     <pkg>googleVis</pkg>
-    <pkg>gooJSON</pkg>
     <pkg>govStatJPN</pkg>
     <pkg>gpk</pkg>
     <pkg>gsheet</pkg>
@@ -507,7 +501,6 @@
     <pkg>msos</pkg>
     <pkg>nasaweather</pkg>
     <pkg>neotoma</pkg>
-    <pkg>ngramr</pkg>
     <pkg>NHANES</pkg>
     <pkg>nhanesA</pkg>
     <pkg>nhlscrapr</pkg>
@@ -521,7 +514,6 @@
     <pkg>okmesonet</pkg>
     <pkg>olctools</pkg>
     <pkg>ONETr</pkg>
-    <pkg>openelections</pkg>
     <pkg>openintro</pkg>
     <pkg>osmar</pkg>
     <pkg>osrm</pkg>
@@ -562,10 +554,8 @@
     <pkg>RCryptsy</pkg>
     <pkg>rdatamarket</pkg>
     <pkg>rebird</pkg>
-    <pkg>recalls</pkg>
     <pkg>redcapAPI</pkg>
     <pkg>RedditExtractoR</pkg>
-    <pkg>redlist</pkg>
     <pkg>RefManageR</pkg>
     <pkg>rentrez</pkg>
     <pkg>Reol</pkg>
@@ -578,7 +568,6 @@
     <pkg>rfisheries</pkg>
     <pkg>RForcecom</pkg>
     <pkg>RGA</pkg>
-    <pkg>rgauges</pkg>
     <pkg>rgbif</pkg>
     <pkg>RGoogleAnalytics</pkg>
     <pkg>RgoogleMaps</pkg>
@@ -596,6 +585,7 @@
     <pkg>rplos</pkg>
     <pkg>rpubchem</pkg>
     <pkg>RPublica</pkg>
+    <pkg>rredlist</pkg>
     <pkg>RSADBE</pkg>
     <pkg>RSiteCatalyst</pkg>
     <pkg>rsnps</pkg>

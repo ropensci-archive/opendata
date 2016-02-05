@@ -50,7 +50,7 @@ Various R packages make open datasets available directly in R. These are useful 
 
 -   Various packages provide datasets intended for those working in specific disciplines, such as [archdata](http://cran.rstudio.com/web/packages/archdata/index.html) for archeaology, [agridat](http://cran.rstudio.com/web/packages/agridat/index.html) for agriculture, [astrodatR](http://cran.rstudio.com/web/packages/astrodatR/index.html) for astronomy, [historydata](http://cran.rstudio.com/web/packages/historydata/index.html) for history, and [insuranceData](http://cran.rstudio.com/web/packages/insuranceData/index.html) for insurance.
 -   [babynames](http://cran.rstudio.com/web/packages/babynames/index.html) contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.
--   [emdatr](http://cran.rstudio.com/web/packages/emdatr/index.html) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
+-   emdatr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/emdatr)) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.
 -   [ergmharris](http://cran.rstudio.com/web/packages/ergmharris/index.html) contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.
 -   [fds](http://cran.rstudio.com/web/packages/fds/index.html) and [Mcomp](http://cran.rstudio.com/web/packages/Mcomp/index.html) contain a variety of time series datasets.
 -   [gapminder](http://cran.rstudio.com/web/packages/gapminder/index.html) is an excerpt of the [Gapminder.org](http://www.gapminder.org) dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.
@@ -104,7 +104,7 @@ Web-based Open Data
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html): Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
 -   [decctools](http://cran.rstudio.com/web/packages/decctools/index.html): Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
--   [GhcnDaily](http://cran.rstudio.com/web/packages/GhcnDaily/index.html): A package that downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
+-   GhcnDaily ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/GhcnDaily) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html): Import, plot and analyze bathymetric and topographic data from NOAA.
 -   [Metadata](http://cran.rstudio.com/src/contrib/Archive/Metadata/): Collates metadata for climate surface stations. Archived on CRAN.
@@ -130,7 +130,7 @@ Web-based Open Data
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in *Ecology* . [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
--   [BioMart](http://cran.rstudio.com/web/packages/BioMart/index.html) retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
+-   [<span class="BioC">biomart</span>](http://www.Bioconductor.ohttp://cran.rstudio.com/web/packages/release/bioc/html/biomart.html) retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
 -   [dismo](http://cran.rstudio.com/web/packages/dismo/index.html): Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   [ecoengine](http://cran.rstudio.com/web/packages/ecoengine/index.html): ecoengine ( <http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
 -   [ecoretriever](http://cran.rstudio.com/web/packages/ecoretriever/index.html): Provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). [Source on GitHub](https://github.com/ropensci/ecoretriever/).
@@ -151,7 +151,7 @@ Web-based Open Data
 -   [rotl](https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
 -   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   [rPlant](http://cran.rstudio.com/web/packages/rPlant/index.html): An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
--   [redlist](http://cran.rstudio.com/web/packages/redlist/index.html) is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
+-   [rredlist](http://cran.rstudio.com/web/packages/rredlist/index.html) is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html): A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html): R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 -   [rYoutheria](http://cran.rstudio.com/web/packages/rYoutheria/index.html): A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub [here](https://github.com/biologicalrecordscentre/rYoutheria)
@@ -228,7 +228,7 @@ Web-based Open Data
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)
 -   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/): (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html): Interface between R and the Google chart tools.
--   [gooJSON](http://cran.rstudio.com/web/packages/gooJSON/index.html): A Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
+-   gooJSON ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/gooJSON)) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html): Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.
 -   [plotKML](http://cran.rstudio.com/web/packages/plotKML/index.html): Visualization of spatial and spatio-temporal objects in Google Earth.
 -   [RAdwords](http://cran.rstudio.com/web/packages/RAdwords/index.html): A package for loading Google Adwords data. [Source on GitHub](https://github.com/jburkhardt/RAdwords)
@@ -255,12 +255,11 @@ Web-based Open Data
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html): Functions to get public survey data in Japan.
 -   [inegiR](https://github.com/Eflores89/inegiR) (not on CRAN) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html): an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
--   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html) ([GitHub](https://github.com/GShotwell/openelections)): openelections API
+-   [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API.
 -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
 -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
 -   [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API.
 -   [pvsR](http://cran.rstudio.com/web/packages/pvsR/index.html): An R package to interact with the Project Vote Smart API for scientific research.
--   [recalls](http://cran.rstudio.com/web/packages/recalls/index.html): Access U.S. Federal Government Recall Data. Development version on GitHub [here](https://github.com/rOpenGov/recalls).
 -   [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html): An R package for the OpenSecrets.org web services API.
 -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)): ProPublica API Client.
 -   [rsunlight](http://cran.rstudio.com/web/packages/rsunlight/index.html) ([GitHub](https://github.com/ropengov/rsunlight)): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
@@ -276,7 +275,7 @@ Web-based Open Data
 -   [boilerpipeR](http://cran.rstudio.com/web/packages/boilerpipeR/index.html): Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
 -   [lumendb](http://cran.rstudio.com/web/packages/lumendb/index.html) can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
--   [ngramr](http://cran.rstudio.com/web/packages/ngramr/index.html): Retrieve and plot word frequencies through time from the Google Ngram Viewer.
+-   ngramr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/ngramr)) retrieves and plot word frequencies through time from the Google Ngram Viewer.
 -   [pubmed.mineR](http://cran.rstudio.com/web/packages/pubmed.mineR/index.html): An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed. [easyPubMed](http://cran.rstudio.com/web/packages/easyPubMed/index.html) and [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN) provide other tools.
 -   [rAltmetric](http://cran.rstudio.com/web/packages/rAltmetric/index.html): Query and visualize metrics from Altmetric.com.
 -   [rbhl](http://cran.rstudio.com/web/packages/rbhl/index.html): R interface to the Biodiversity Heritage Library (BHL) API.
@@ -375,14 +374,14 @@ Web-based Open Data
 -   [nhlscrapr](http://cran.rstudio.com/web/packages/nhlscrapr/index.html): Compiling the NHL Real Time Scoring System Database for easy use in R.
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html): Tools for Collecting and Visualizing Major League Baseball PITCHfx Data
 -   [fitbitScraper](http://cran.rstudio.com/web/packages/fitbitScraper/index.html) ([GitHub](https://github.com/corynissen/fitbitScraper)) can retrieve Fitbit data, based on email/password authentication.
--   [fantasysocceR](http://cran.rstudio.com/web/packages/fantasysocceR/index.html) ([GitHub](https://github.com/durtal/fantasysocceR)) fantasy soccer
+-   [fantasysocceR](https://github.com/durtal/fantasysocceR) (not on CRAN) connects to fantasy soccer data.
 -   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html) A Wrapper for the Pinnacle Sports API
 -   [retrosheet](http://cran.rstudio.com/web/packages/retrosheet/index.html) ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from <http://www.retrosheet.org>.
 
 ### Web Analytics
 
 -   [GTrendsR](https://github.com/dvanclev/GTrendsR) (not on CRAN): R functions to perform and display Google Trends queries. Another Github package ([rGtrends](https://github.com/emhart/rGtrends)) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.
--   [rgauges](http://cran.rstudio.com/web/packages/rgauges/index.html): This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)
+-   rgauges ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/rgauges)) This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)
 -   [RGA](http://cran.rstudio.com/web/packages/RGA/index.html): Provides functions for accessing and retrieving data from the [Google Analytics APIs](https://developers.google.com/analytics/). Supports OAuth 2.0 authorization. Also, the RGA package provides a shiny app to explore data. There is another R package for the same service (RGoogleAnalytics); see above entry. (K)
 -   [RGoogleAnalytics](http://cran.rstudio.com/web/packages/RGoogleAnalytics/index.html) ([GitHub](https://github.com/Tatvic/RGoogleAnalytics/issues)) provides functions for accessing and retrieving data from the Google Analytics API. There is another R package for the same service (RGA); see previous entry. (K)
 -   [<span class="Ohat">RGoogleTrends</span>](http://www.Omegahat.org/RGoogleTrends/) (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
@@ -412,7 +411,6 @@ Web-based Open Data
 -   [BayesDA](http://cran.rstudio.com/web/packages/BayesDA/index.html)
 -   [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
--   [BioMart](http://cran.rstudio.com/web/packages/BioMart/index.html)
 -   [biorxivr](http://cran.rstudio.com/web/packages/biorxivr/index.html)
 -   [blmeco](http://cran.rstudio.com/web/packages/blmeco/index.html)
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html)
@@ -442,7 +440,6 @@ Web-based Open Data
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
 -   [ElemStatLearn](http://cran.rstudio.com/web/packages/ElemStatLearn/index.html)
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
--   [emdatr](http://cran.rstudio.com/web/packages/emdatr/index.html)
 -   [EngrExpt](http://cran.rstudio.com/web/packages/EngrExpt/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)
 -   [ergmharris](http://cran.rstudio.com/web/packages/ergmharris/index.html)
@@ -450,7 +447,6 @@ Web-based Open Data
 -   [expsmooth](http://cran.rstudio.com/web/packages/expsmooth/index.html)
 -   [factualR](http://cran.rstudio.com/web/packages/factualR/index.html)
 -   [Fahrmeir](http://cran.rstudio.com/web/packages/Fahrmeir/index.html)
--   [fantasysocceR](http://cran.rstudio.com/web/packages/fantasysocceR/index.html)
 -   [FAOSTAT](http://cran.rstudio.com/web/packages/FAOSTAT/index.html)
 -   [faraway](http://cran.rstudio.com/web/packages/faraway/index.html)
 -   [fastR](http://cran.rstudio.com/web/packages/fastR/index.html)
@@ -474,9 +470,7 @@ Web-based Open Data
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
 -   [ggplot2movies](http://cran.rstudio.com/web/packages/ggplot2movies/index.html)
--   [GhcnDaily](http://cran.rstudio.com/web/packages/GhcnDaily/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
--   [gooJSON](http://cran.rstudio.com/web/packages/gooJSON/index.html)
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html)
 -   [gpk](http://cran.rstudio.com/web/packages/gpk/index.html)
 -   [gsheet](http://cran.rstudio.com/web/packages/gsheet/index.html)
@@ -519,7 +513,6 @@ Web-based Open Data
 -   [msos](http://cran.rstudio.com/web/packages/msos/index.html)
 -   [nasaweather](http://cran.rstudio.com/web/packages/nasaweather/index.html)
 -   [neotoma](http://cran.rstudio.com/web/packages/neotoma/index.html)
--   [ngramr](http://cran.rstudio.com/web/packages/ngramr/index.html)
 -   [NHANES](http://cran.rstudio.com/web/packages/NHANES/index.html)
 -   [nhanesA](http://cran.rstudio.com/web/packages/nhanesA/index.html)
 -   [nhlscrapr](http://cran.rstudio.com/web/packages/nhlscrapr/index.html)
@@ -533,7 +526,6 @@ Web-based Open Data
 -   [okmesonet](http://cran.rstudio.com/web/packages/okmesonet/index.html)
 -   [olctools](http://cran.rstudio.com/web/packages/olctools/index.html)
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html)
--   [openelections](http://cran.rstudio.com/web/packages/openelections/index.html)
 -   [openintro](http://cran.rstudio.com/web/packages/openintro/index.html)
 -   [osmar](http://cran.rstudio.com/web/packages/osmar/index.html)
 -   [osrm](http://cran.rstudio.com/web/packages/osrm/index.html)
@@ -574,10 +566,8 @@ Web-based Open Data
 -   [RCryptsy](http://cran.rstudio.com/web/packages/RCryptsy/index.html)
 -   [rdatamarket](http://cran.rstudio.com/web/packages/rdatamarket/index.html)
 -   [rebird](http://cran.rstudio.com/web/packages/rebird/index.html)
--   [recalls](http://cran.rstudio.com/web/packages/recalls/index.html)
 -   [redcapAPI](http://cran.rstudio.com/web/packages/redcapAPI/index.html)
 -   [RedditExtractoR](http://cran.rstudio.com/web/packages/RedditExtractoR/index.html)
--   [redlist](http://cran.rstudio.com/web/packages/redlist/index.html)
 -   [RefManageR](http://cran.rstudio.com/web/packages/RefManageR/index.html)
 -   [rentrez](http://cran.rstudio.com/web/packages/rentrez/index.html)
 -   [Reol](http://cran.rstudio.com/web/packages/Reol/index.html)
@@ -590,7 +580,6 @@ Web-based Open Data
 -   [rfisheries](http://cran.rstudio.com/web/packages/rfisheries/index.html)
 -   [RForcecom](http://cran.rstudio.com/web/packages/RForcecom/index.html)
 -   [RGA](http://cran.rstudio.com/web/packages/RGA/index.html)
--   [rgauges](http://cran.rstudio.com/web/packages/rgauges/index.html)
 -   [rgbif](http://cran.rstudio.com/web/packages/rgbif/index.html)
 -   [RGoogleAnalytics](http://cran.rstudio.com/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html)
@@ -608,6 +597,7 @@ Web-based Open Data
 -   [rplos](http://cran.rstudio.com/web/packages/rplos/index.html)
 -   [rpubchem](http://cran.rstudio.com/web/packages/rpubchem/index.html)
 -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html)
+-   [rredlist](http://cran.rstudio.com/web/packages/rredlist/index.html)
 -   [RSADBE](http://cran.rstudio.com/web/packages/RSADBE/index.html)
 -   [RSiteCatalyst](http://cran.rstudio.com/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.rstudio.com/web/packages/rsnps/index.html)
