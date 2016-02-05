@@ -277,7 +277,7 @@ Web-based Open Data
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
 -   [lumendb](http://cran.rstudio.com/web/packages/lumendb/index.html) can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
 -   [ngramr](http://cran.rstudio.com/web/packages/ngramr/index.html): Retrieve and plot word frequencies through time from the Google Ngram Viewer.
--   [pubmed.mineR](http://cran.rstudio.com/web/packages/pubmed.mineR/index.html): An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed.
+-   [pubmed.mineR](http://cran.rstudio.com/web/packages/pubmed.mineR/index.html): An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed. [easyPubMed](http://cran.rstudio.com/web/packages/easyPubMed/index.html) and [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN) provide other tools.
 -   [rAltmetric](http://cran.rstudio.com/web/packages/rAltmetric/index.html): Query and visualize metrics from Altmetric.com.
 -   [rbhl](http://cran.rstudio.com/web/packages/rbhl/index.html): R interface to the Biodiversity Heritage Library (BHL) API.
 -   [RefManageR](http://cran.rstudio.com/web/packages/RefManageR/index.html): Import and Manage BibTeX and BibLaTeX references with RefManager.
@@ -286,7 +286,6 @@ Web-based Open Data
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN): Get scholarly metadata from around the web.
 -   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A programmatic interface the Orcid.org API.
 -   [rplos](http://cran.rstudio.com/web/packages/rplos/index.html): A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
--   [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
 -   [scholar](http://cran.rstudio.com/web/packages/scholar/index.html) provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
 -   The [<span class="Ohat">Sxslt</span>](http://www.Omegahat.org/Sxslt/) (not on CRAN) package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html): Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.
@@ -436,6 +435,7 @@ Web-based Open Data
 -   [diezeit](http://cran.rstudio.com/web/packages/diezeit/index.html)
 -   [dismo](http://cran.rstudio.com/web/packages/dismo/index.html)
 -   [dvn](http://cran.rstudio.com/web/packages/dvn/index.html)
+-   [easyPubMed](http://cran.rstudio.com/web/packages/easyPubMed/index.html)
 -   [ecoengine](http://cran.rstudio.com/web/packages/ecoengine/index.html)
 -   [ecoretriever](http://cran.rstudio.com/web/packages/ecoretriever/index.html)
 -   [eegkitdata](http://cran.rstudio.com/web/packages/eegkitdata/index.html)

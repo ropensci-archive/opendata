@@ -263,7 +263,7 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
 -   <pkg>lumendb</pkg> can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
 -   <pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.
--   <pkg>pubmed.mineR</pkg>: An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed.
+-   <pkg>pubmed.mineR</pkg>: An R package for text mining of [PubMed Abstracts](http://www.ncbi.nlm.nih.gov/pubmed). Supports fetching text and XML from PubMed. <pkg>easyPubMed</pkg> and [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN) provide other tools.
 -   <pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.
 -   <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
 -   <pkg>RefManageR</pkg>: Import and Manage BibTeX and BibLaTeX references with RefManager.
@@ -272,7 +272,6 @@ Various R packages make open datasets available directly in R. These are useful 
 -   [rmetadata](https://github.com/ropensci/rmetadata) (not on CRAN): Get scholarly metadata from around the web.
 -   [rorcid](https://github.com/ropensci/rorcid) (not on CRAN): A programmatic interface the Orcid.org API.
 -   <pkg>rplos</pkg>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.
--   [rpubmed](https://github.com/rOpenHealth/rpubmed) (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.
 -   <pkg>scholar</pkg> provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.
 -   The <ohat>Sxslt</ohat> (not on CRAN) package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.
 -   <pkg>tm.plugin.webmining</pkg>: Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.

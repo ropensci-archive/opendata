@@ -265,7 +265,7 @@
     <li><a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service</li>
     <li><pkg>lumendb</pkg> can retrieve copyright takedown notices from <a href="https://lumendatabase.org/">Lumen Database</a> (formerly, Chilling Effects).</li>
     <li><pkg>ngramr</pkg>: Retrieve and plot word frequencies through time from the Google Ngram Viewer.</li>
-    <li><pkg>pubmed.mineR</pkg>: An R package for text mining of <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed Abstracts</a>. Supports fetching text and XML from PubMed.</li>
+    <li><pkg>pubmed.mineR</pkg>: An R package for text mining of <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed Abstracts</a>. Supports fetching text and XML from PubMed. <pkg>easyPubMed</pkg> and <a href="https://github.com/rOpenHealth/rpubmed">rpubmed</a> (not on CRAN) provide other tools.</li>
     <li><pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
     <li><pkg>RefManageR</pkg>: Import and Manage BibTeX and BibLaTeX references with RefManager.</li>
@@ -274,7 +274,6 @@
     <li><a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.</li>
     <li><a href="https://github.com/ropensci/rorcid">rorcid</a> (not on CRAN): A programmatic interface the Orcid.org API.</li>
     <li><pkg>rplos</pkg>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.</li>
-    <li><a href="https://github.com/rOpenHealth/rpubmed">rpubmed</a> (not on CRAN): Tools for extracting and processing Pubmed and Pubmed Central records.</li>
     <li><pkg>scholar</pkg> provides functions to extract citation data from Google Scholar. Convenience functions are also provided for comparing multiple scholars and predicting future h-index values.</li>
     <li>The <ohat>Sxslt</ohat> (not on CRAN) package is an R interface to Dan Veillard's libxslt translator. It allows R programmers to use XSLT directly from within R, and also allows XSL code to make use of R functions.</li>
     <li><pkg>tm.plugin.webmining</pkg>: Extensible text retrieval framework for news feeds in XML (RSS, ATOM) and JSON formats. Currently, the following feeds are implemented: Google Blog Search, Google Finance, Google News, NYTimes Article Search, Reuters News Feed, Yahoo Finance and Yahoo Inplay.</li>
@@ -424,6 +423,7 @@
     <pkg>diezeit</pkg>
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
+    <pkg>easyPubMed</pkg>
     <pkg>ecoengine</pkg>
     <pkg>ecoretriever</pkg>
     <pkg>eegkitdata</pkg>
