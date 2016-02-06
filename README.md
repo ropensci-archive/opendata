@@ -234,7 +234,7 @@ Web-based Open Data
 
 ### Government
 
-There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
+There is a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe* :
