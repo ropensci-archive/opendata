@@ -254,7 +254,8 @@
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>) is a ProPublica API Client.</li>
     <li><pkg>rsunlight</pkg> (<a href="https://github.com/ropengov/rsunlight">GitHub</a>): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.</li>
-    <li><a href="https://github.com/ropengov/rtimes">rtimes</a>: (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.</li>
+    <li><pkg>rtimes</pkg> (<a href="https://github.com/ropengov/rtimes">GitHub</a>) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.</li>
+    <li><pkg>seeclickfixr</pkg> (<a href="https://github.com/justindbk/seeclickfixr/">GitHub</a>) is a client for retrieving citizens' service requests made to local governments through <a href="http://en.seeclickfix.com/">SeeClickFix</a>.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
     </ul></li>
     <li>United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.</li>
@@ -622,6 +623,7 @@
     <pkg>rsnps</pkg>
     <pkg>RStars</pkg>
     <pkg>rsunlight</pkg>
+    <pkg>rtimes</pkg>
     <pkg>rUnemploymentData</pkg>
     <pkg>rusda</pkg>
     <pkg>rvertnet</pkg>
@@ -630,6 +632,7 @@
     <pkg>rYoutheria</pkg>
     <pkg>SASmixed</pkg>
     <pkg>scholar</pkg>
+    <pkg>seeclickfixr</pkg>
     <pkg>sejmRP</pkg>
     <pkg>SenSrivastava</pkg>
     <pkg>seqinr</pkg>

@@ -264,7 +264,8 @@ There are a very large number of packages providing access to government data. H
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
     -   [rsunlight](http://cran.rstudio.com/web/packages/rsunlight/index.html) ([GitHub](https://github.com/ropengov/rsunlight)): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
-    -   [rtimes](https://github.com/ropengov/rtimes): (not on CRAN) R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+    -   [rtimes](http://cran.rstudio.com/web/packages/rtimes/index.html) ([GitHub](https://github.com/ropengov/rtimes)) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
+    -   [seeclickfixr](http://cran.rstudio.com/web/packages/seeclickfixr/index.html) ([GitHub](https://github.com/justindbk/seeclickfixr/)) is a client for retrieving citizens' service requests made to local governments through [SeeClickFix](http://en.seeclickfix.com/).
     -   [wethepeople](http://cran.rstudio.com/src/contrib/Archive/wethepeople/): An R client for interacting with the White House's "We The People" petition API.
 -   United Kingdom: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API.
 -   *Other or international*:
@@ -629,6 +630,7 @@ There are a very large number of packages providing access to government data. H
 -   [rsnps](http://cran.rstudio.com/web/packages/rsnps/index.html)
 -   [RStars](http://cran.rstudio.com/web/packages/RStars/index.html)
 -   [rsunlight](http://cran.rstudio.com/web/packages/rsunlight/index.html)
+-   [rtimes](http://cran.rstudio.com/web/packages/rtimes/index.html)
 -   [rUnemploymentData](http://cran.rstudio.com/web/packages/rUnemploymentData/index.html)
 -   [rusda](http://cran.rstudio.com/web/packages/rusda/index.html)
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html)
@@ -637,6 +639,7 @@ There are a very large number of packages providing access to government data. H
 -   [rYoutheria](http://cran.rstudio.com/web/packages/rYoutheria/index.html)
 -   [SASmixed](http://cran.rstudio.com/web/packages/SASmixed/index.html)
 -   [scholar](http://cran.rstudio.com/web/packages/scholar/index.html)
+-   [seeclickfixr](http://cran.rstudio.com/web/packages/seeclickfixr/index.html)
 -   [sejmRP](http://cran.rstudio.com/web/packages/sejmRP/index.html)
 -   [SenSrivastava](http://cran.rstudio.com/web/packages/SenSrivastava/index.html)
 -   [seqinr](http://cran.rstudio.com/web/packages/seqinr/index.html)
