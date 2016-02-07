@@ -195,6 +195,7 @@ Web-based Open Data
 -   [cgdsr](http://cran.rstudio.com/web/packages/cgdsr/index.html): R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS).
 -   [chromer](http://cran.rstudio.com/web/packages/chromer/index.html): A programmatic interface to the [Chromosome Counts Database](http://ccdb.tau.ac.il/). [Source on GitHub](https://github.com/ropensci/chromer)
 -   The [mygene.r](https://bitbucket.org/sulab/mygene.r/overview) package is an R client for accessing [Mygene.info](http://mygene.info/#) annotation and query services.
+-   [GoogleGenomics](http://www.Bioconductor.ohttp://cran.rstudio.com/web/packages/release/bioc/html/GoogleGenomics.html) reads data from the [Google Genomics API](https://cloud.google.com/genomics) and returns BioConductor-compatible S4 classes.
 -   [primerTree](http://cran.rstudio.com/web/packages/primerTree/index.html): Visually Assessing the Specificity and Informativeness of Primer Pairs.
 -   [rsnps](http://cran.rstudio.com/web/packages/rsnps/index.html): This package is a programmatic interface to various SNP datasets on the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP Annotation and Proxy Search. This package started as a library to interact with openSNP alone, so most functions deal with openSNP.
 -   [seq2R](http://cran.rstudio.com/src/contrib/Archive/seq2R/): Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.
