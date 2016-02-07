@@ -397,10 +397,11 @@
     <li><ohat>RGoogleTrends</ohat> (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.</li>
     <li><pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.</li>
     </ul>
-    <h3 id="wikipedia">Wikipedia</h3>
+    <h3 id="wikipediawikimedia">Wikipedia/Wikimedia</h3>
     <ul>
     <li><a href="https://github.com/petermeissner/wikipediatrend">wikipediatrend</a> (removed from CRAN): Provides access to Wikipedia page access statistics.</li>
     <li><pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on GitHub</a></li>
+    <li><pkg>ores</pkg> connects to <a href="http://ores.wmflabs.org/">ORES</a>, an automated tool for detecting whether Wikimedia page edits are constructive.</li>
     <li><pkg>pageviews</pkg> retrieves page view data from Wikimedia-powered sites, including Wikipedia.</li>
     <li><a href="https://github.com/chgrl/rwikidata">rwikidata</a> (not on CRAN): Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase.</li>
     <li><pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. <a href="https://github.com/Ironholds/WikidataR">Source on GitHub</a>.</li>
@@ -546,6 +547,7 @@
     <pkg>olctools</pkg>
     <pkg>ONETr</pkg>
     <pkg>openintro</pkg>
+    <pkg>ores</pkg>
     <pkg>osmar</pkg>
     <pkg>osrm</pkg>
     <pkg>pageviews</pkg>

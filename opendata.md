@@ -388,10 +388,11 @@ There are a very large number of packages providing access to government data. H
 -   <ohat>RGoogleTrends</ohat> (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
 -   <pkg>RSiteCatalyst</pkg>: Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 
-### Wikipedia ###
+### Wikipedia/Wikimedia ###
 
 -   [wikipediatrend](https://github.com/petermeissner/wikipediatrend) (removed from CRAN): Provides access to Wikipedia page access statistics.
 -   <pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. [Source on GitHub](https://github.com/Ironholds/WikipediR)
+-   <pkg>ores</pkg> connects to [ORES](<http://ores.wmflabs.org/>), an automated tool for detecting whether Wikimedia page edits are constructive.
 -   <pkg>pageviews</pkg> retrieves page view data from Wikimedia-powered sites, including Wikipedia.
 -   [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase.
 -   <pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. [Source on GitHub](https://github.com/Ironholds/WikidataR).

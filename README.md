@@ -404,10 +404,11 @@ There are a very large number of packages providing access to government data. H
 -   [RGoogleTrends](http://www.Omegahat.org/RGoogleTrends/) (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.
 -   [RSiteCatalyst](http://cran.rstudio.com/web/packages/RSiteCatalyst/index.html): Functions for accessing the Adobe Analytics (Omniture SiteCatalyst) Reporting API.
 
-### Wikipedia
+### Wikipedia/Wikimedia
 
 -   [wikipediatrend](https://github.com/petermeissner/wikipediatrend) (removed from CRAN): Provides access to Wikipedia page access statistics.
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html): WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. [Source on GitHub](https://github.com/Ironholds/WikipediR)
+-   [ores](http://cran.rstudio.com/web/packages/ores/index.html) connects to [ORES](http://ores.wmflabs.org/), an automated tool for detecting whether Wikimedia page edits are constructive.
 -   [pageviews](http://cran.rstudio.com/web/packages/pageviews/index.html) retrieves page view data from Wikimedia-powered sites, including Wikipedia.
 -   [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase.
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html): An R API wrapper for the Wikidata store of semantic data. [Source on GitHub](https://github.com/Ironholds/WikidataR).
@@ -553,6 +554,7 @@ There are a very large number of packages providing access to government data. H
 -   [olctools](http://cran.rstudio.com/web/packages/olctools/index.html)
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html)
 -   [openintro](http://cran.rstudio.com/web/packages/openintro/index.html)
+-   [ores](http://cran.rstudio.com/web/packages/ores/index.html)
 -   [osmar](http://cran.rstudio.com/web/packages/osmar/index.html)
 -   [osrm](http://cran.rstudio.com/web/packages/osrm/index.html)
 -   [pageviews](http://cran.rstudio.com/web/packages/pageviews/index.html)
