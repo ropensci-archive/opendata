@@ -357,6 +357,7 @@ There are a very large number of packages providing access to government data. H
 
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 -   <pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
+-   <pkg>gesis</pkg> provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).
 -   <pkg>maddison</pkg> ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).

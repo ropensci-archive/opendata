@@ -373,6 +373,7 @@ There are a very large number of packages providing access to government data. H
 
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html) Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
+-   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html) provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).
 -   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html) ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
@@ -487,6 +488,7 @@ There are a very large number of packages providing access to government data. H
 -   [GCD](http://cran.rstudio.com/web/packages/GCD/index.html)
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html)
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
+-   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
 -   [ggplot2movies](http://cran.rstudio.com/web/packages/ggplot2movies/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
