@@ -2,9 +2,9 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="jashander@ucdavis.edu">Jaime Ashander, Scott Chamberlain, Thomas Leeper</maintainer>
-  <version>2016-02-07</version>
+  <version>2016-02-19</version>
   <info>
-    <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. The focus here is on data discovery, data archiving, open data available in R packages, and packages designed for working with specific types of open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both.</p>
+    <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the <pkg>crandatapkgs</pkg> package to obtain information about currently available open data in R packages.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
     <p>If you have any comments or suggestions for additions, revisions, or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <script type="text/javascript">
     <!--
@@ -28,47 +28,13 @@
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.</li>
     <li><a href="https://github.com/lmullen/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata. <a href="https://github.com/ropensci/internetarchive">Source on GitHub</a>.</li>
     <li><pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.</li>
-    <li><pkg>OAIHarvester</pkg>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).</li>
+    <li><pkg>OAIHarvester</pkg>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). <pkg>oai</pkg> is a more recent package for OAI.</li>
     <li><pkg>Quandl</pkg>: A package that interacts directly with the <a href="http://www.quandl.com/">Quandl</a> API to offer data in a number of formats usable in R, as well as the ability to upload and search.</li>
     <li><pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).</li>
     <li><a href="https://github.com/ropensci/rerddap">rerddap</a> (not on CRAN): A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance. <a href="https://github.com/ropensci/rerddap">Source on GitHub</a>.</li>
     <li><pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>. <a href="https://github.com/ropensci/rfigshare">Source on GitHub</a>.</li>
     <li><a href="https://github.com/leeper/rscribd">rscribd</a> (not on CRAN): API client for publishing documents to <a href="http://www.scribd.com">Scribd</a>.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.</li>
-    </ul>
-    <h2 id="data-packages">Data Packages</h2>
-    <p>Various R packages make open datasets available directly in R. These are useful both for demonstrating R functionality but may also be useful in their own right. The datasets package (as part of the base R distribution) contains many such datasets, though most are small in size. The following packages contain more substantial datasets.</p>
-    <ul>
-    <li>Various packages provide datasets intended for those working in specific disciplines, such as <pkg>archdata</pkg> for archeaology, <pkg>agridat</pkg> for agriculture, <pkg>astrodatR</pkg> for astronomy, <pkg>historydata</pkg> for history, and <pkg>insuranceData</pkg> for insurance.</li>
-    <li><pkg>babynames</pkg> contains all U.S. baby names provided by the Social Security Administration that were used for at least 5 children of either sex.</li>
-    <li>emdatr (<a href="https://cran.r-project.org/src/contrib/Archive/emdatr">Archived on CRAN</a>) provided information on human and financial losses for more than 20,000 global natural disasters since 1900.</li>
-    <li><pkg>ergmharris</pkg> contains a network data set consisting of 1283 local health departments and the communication links among them along with several attributes.</li>
-    <li><pkg>favnums</pkg> contains a dataset of 30,000 respondents' favorite numbers.</li>
-    <li><pkg>fds</pkg> and <pkg>Mcomp</pkg> contain a variety of time series datasets.</li>
-    <li><pkg>gapminder</pkg> is an excerpt of the <a href="http://www.gapminder.org">Gapminder.org</a> dataset including life expectancy, GDP per capita, and population, every five years, from 1952 to 2007, for 142 countries.</li>
-    <li><pkg>GCD</pkg> contains the Global Charcoal database data. Data include charcoal series (age, depth, charcoal quantity, associated units and methods) and informations on sedimentary sites (localisation, depositional environment, biome, etc.).</li>
-    <li><pkg>ggplot2movies</pkg> provides a dataset extracted from IMDB that was formerly available in ggplot2.</li>
-    <li><pkg>Guerry</pkg> contains spatial data from A.M. Guerry's &quot;Moral Statistics of France&quot; (1833).</li>
-    <li><pkg>HistData</pkg> offers various historical datasets, especially those related to data visualization.</li>
-    <li><pkg>Lahman</pkg> provides tables from Sean Lahman's Baseball Database including data on pitching, hitting, and fielding performance, etc. from 1871 through 2013.</li>
-    <li><pkg>MCAPS</pkg> contains weather and air pollution data, risk estimates, and other information from the Medicare Air Pollution Study (MCAPS) of 204 U.S. counties, 1999–2002.</li>
-    <li><pkg>nasaweather</pkg> contains meteorological and atmospheric data from the ASA 2006 data expo.</li>
-    <li><pkg>NHANES</pkg> body shape and related measurements from the US National Health and Nutrition Examination Survey (NHANES, 1999-2004).</li>
-    <li><pkg>noncensus</pkg> contains data related to the U.S. Census.</li>
-    <li><pkg>nycflights13</pkg> contains airline on-time data for all flights departing from New York City in 2013.</li>
-    <li><pkg>pinfsc50</pkg> contains genomic data for the plant pathogen &quot;Phytophthora infestans.&quot;</li>
-    <li><pkg>QSARdata</pkg> offers molecular descriptors and outcomes for several public domain data sets.</li>
-    <li><pkg>randomNames</pkg> provides a dataset of frequency probabilities for first names by gender and ethnicity and last names by ethnicity (e.g., for use in anonymizing data).</li>
-    <li><pkg>rcorpora</pkg> contains a 'corpora()' function that provides dozens of categorized text corpora on a number of topics.</li>
-    <li><pkg>rUnemploymentData</pkg> contains U.S. unemployment data from the US Bureau of Labor Statistics, 2000-2013.</li>
-    <li><pkg>SwissAir</pkg> contains various air quality measures for 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.</li>
-    <li><pkg>titanic</pkg> is a repackaging of the Titanic passenger survival data available from R in a structure more convenient for data analysis.</li>
-    <li><pkg>UScensus2010</pkg> and its related packages provide spatial data from the U.S. Census.</li>
-    <li><pkg>valottery</pkg> provides historical results of <a href="https://www.valottery.com/">the Virginia state lottery</a>.</li>
-    <li><pkg>webuse</pkg> is a Stata-style 'webuse()' function for importing named datasets from Stata's online collection.</li>
-    <li><pkg>wpp2015</pkg> Provides data from the United Nation's World Population Prospects 2015.</li>
-    <li><pkg>zipcode</pkg> contains a database of city, state, latitude, and longitude information for U.S. ZIP codes from the CivicSpace Database.</li>
-    <li>Various packages supply data to accompany general R instructional materials (e.g., books) or other packages, including: <pkg>alr3</pkg>, <pkg>alr4</pkg>, <pkg>aplore3</pkg>, <pkg>aprean3</pkg>, <pkg>BaM</pkg>, <pkg>BayesDA</pkg>, <pkg>blmeco</pkg>, <pkg>cluster.datasets</pkg>, <pkg>Devore7</pkg>, <pkg>eegkitdata</pkg>, <pkg>ElemStatLearn</pkg>, <pkg>EngrExpt</pkg>, <pkg>expsmooth</pkg>, <pkg>Fahrmeir</pkg>, <pkg>faraway</pkg>, <pkg>fastR</pkg>, <pkg>FAwR</pkg>, <pkg>Flury</pkg>, <pkg>fma</pkg>, <pkg>gamair</pkg>, <pkg>gamlss.data</pkg>, <pkg>GANPAdata</pkg>, <pkg>gpk</pkg>, <pkg>HSAUR3</pkg>, <pkg>igraphdata</pkg>, <pkg>isdals</pkg>, <pkg>KMsurv</pkg>, <pkg>labstats</pkg>, <pkg>languageR</pkg>, <pkg>learningr</pkg>, <pkg>LeLogicielR</pkg>, <pkg>Lock5Data</pkg>, <pkg>mangoTraining</pkg>, <pkg>MEMSS</pkg>, <pkg>MindOnStats</pkg>, <pkg>mistat</pkg>, <pkg>mosaicData</pkg>, <pkg>MPDiR</pkg>, <pkg>MPV</pkg>, <pkg>MSG</pkg>, <pkg>msme</pkg>, <pkg>msos</pkg>, <pkg>NSM3</pkg>, <pkg>nutshell</pkg>, <pkg>OIdata</pkg>, <pkg>openintro</pkg>, <pkg>PBImisc</pkg>, <pkg>qtlbook</pkg>, <pkg>RSADBE</pkg>, <pkg>SASmixed</pkg>, <pkg>SenSrivastava</pkg>, <pkg>Sleuth3</pkg>, <pkg>SMCRM</pkg>, <pkg>smdata</pkg>, <pkg>smss</pkg>, <pkg>Stat2Data</pkg>, <pkg>synbreedData</pkg>, <pkg>tempcyclesdata</pkg>, <pkg>TH.data</pkg>, <pkg>TRSbook</pkg>, <pkg>UsingR</pkg>, <pkg>VGAMdata</pkg>, <pkg>wikibooks</pkg>, and <pkg>WWGbook</pkg>. Note: only packages that primarily contain data (as opposed to functions with minimal datasets as examples) are included here.</li>
     </ul>
     <h2 id="web-based-open-data">Web-based Open Data</h2>
     <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
@@ -409,23 +375,12 @@
   </info>
   <packagelist>
     <pkg>acs</pkg>
-    <pkg>agridat</pkg>
     <pkg>alm</pkg>
-    <pkg>alr3</pkg>
-    <pkg>alr4</pkg>
     <pkg>ameco</pkg>
-    <pkg>aplore3</pkg>
-    <pkg>aprean3</pkg>
-    <pkg>archdata</pkg>
     <pkg>aRxiv</pkg>
-    <pkg>astrodatR</pkg>
-    <pkg>babynames</pkg>
-    <pkg>BaM</pkg>
-    <pkg>BayesDA</pkg>
     <pkg>BerlinData</pkg>
     <pkg>bigrquery</pkg>
     <pkg>biorxivr</pkg>
-    <pkg>blmeco</pkg>
     <pkg>blsAPI</pkg>
     <pkg>boilerpipeR</pkg>
     <pkg>brewdata</pkg>
@@ -435,14 +390,13 @@
     <pkg>CHCN</pkg>
     <pkg>chromer</pkg>
     <pkg>clifro</pkg>
-    <pkg>cluster.datasets</pkg>
+    <pkg>crandatapkgs</pkg>
     <pkg>cricketr</pkg>
     <pkg>crn</pkg>
     <pkg>datamart</pkg>
     <pkg>dataonderivatives</pkg>
     <pkg>dataRetrieval</pkg>
     <pkg>decctools</pkg>
-    <pkg>Devore7</pkg>
     <pkg>diezeit</pkg>
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
@@ -450,111 +404,56 @@
     <pkg>ecb</pkg>
     <pkg>ecoengine</pkg>
     <pkg>ecoretriever</pkg>
-    <pkg>eegkitdata</pkg>
     <pkg>EIAdata</pkg>
-    <pkg>ElemStatLearn</pkg>
     <pkg>elexr</pkg>
-    <pkg>EngrExpt</pkg>
     <pkg>enigma</pkg>
-    <pkg>ergmharris</pkg>
     <pkg>eurostat</pkg>
-    <pkg>expsmooth</pkg>
     <pkg>factualR</pkg>
-    <pkg>Fahrmeir</pkg>
     <pkg>FAOSTAT</pkg>
-    <pkg>faraway</pkg>
-    <pkg>fastR</pkg>
-    <pkg>favnums</pkg>
-    <pkg>FAwR</pkg>
     <pkg>fbRanks</pkg>
-    <pkg>fds</pkg>
     <pkg>FedData</pkg>
     <pkg>federalregister</pkg>
     <pkg>fImport</pkg>
     <pkg>fitbitScraper</pkg>
     <pkg>flora</pkg>
-    <pkg>Flury</pkg>
-    <pkg>fma</pkg>
-    <pkg>gamair</pkg>
-    <pkg>gamlss.data</pkg>
-    <pkg>GANPAdata</pkg>
-    <pkg>gapminder</pkg>
     <pkg>GAR</pkg>
-    <pkg>GCD</pkg>
     <pkg>genderizeR</pkg>
     <pkg>geocodeHERE</pkg>
     <pkg>gesis</pkg>
     <pkg>ggmap</pkg>
-    <pkg>ggplot2movies</pkg>
     <pkg>googleVis</pkg>
     <pkg>govStatJPN</pkg>
-    <pkg>gpk</pkg>
     <pkg>gsheet</pkg>
     <pkg>GuardianR</pkg>
-    <pkg>Guerry</pkg>
     <pkg>hddtools</pkg>
     <pkg>hdr</pkg>
-    <pkg>HistData</pkg>
-    <pkg>historydata</pkg>
     <pkg>hoardeR</pkg>
-    <pkg>HSAUR3</pkg>
     <pkg>IBrokers</pkg>
-    <pkg>igraphdata</pkg>
     <pkg>imguR</pkg>
     <pkg>inegiR</pkg>
-    <pkg>insuranceData</pkg>
-    <pkg>isdals</pkg>
     <pkg>jSonarR</pkg>
-    <pkg>KMsurv</pkg>
-    <pkg>labstats</pkg>
-    <pkg>Lahman</pkg>
-    <pkg>languageR</pkg>
     <pkg>leafletR</pkg>
-    <pkg>learningr</pkg>
-    <pkg>LeLogicielR</pkg>
-    <pkg>Lock5Data</pkg>
     <pkg>lumendb</pkg>
     <pkg>maddison</pkg>
-    <pkg>mangoTraining</pkg>
     <pkg>manifestoR</pkg>
     <pkg>marmap</pkg>
     <pkg>MBTAr</pkg>
-    <pkg>MCAPS</pkg>
-    <pkg>Mcomp</pkg>
-    <pkg>MEMSS</pkg>
     <pkg>meteoForecast</pkg>
-    <pkg>MindOnStats</pkg>
-    <pkg>mistat</pkg>
-    <pkg>mosaicData</pkg>
-    <pkg>MPDiR</pkg>
-    <pkg>MPV</pkg>
-    <pkg>MSG</pkg>
-    <pkg>msme</pkg>
-    <pkg>msos</pkg>
-    <pkg>nasaweather</pkg>
     <pkg>neotoma</pkg>
-    <pkg>NHANES</pkg>
     <pkg>nhanesA</pkg>
     <pkg>nhlscrapr</pkg>
-    <pkg>noncensus</pkg>
-    <pkg>NSM3</pkg>
-    <pkg>nutshell</pkg>
-    <pkg>nycflights13</pkg>
+    <pkg>oai</pkg>
     <pkg>OAIHarvester</pkg>
     <pkg>OECD</pkg>
-    <pkg>OIdata</pkg>
     <pkg>okmesonet</pkg>
     <pkg>olctools</pkg>
     <pkg>ONETr</pkg>
-    <pkg>openintro</pkg>
     <pkg>ores</pkg>
     <pkg>osmar</pkg>
     <pkg>osrm</pkg>
     <pkg>pageviews</pkg>
     <pkg>paleobioDB</pkg>
-    <pkg>PBImisc</pkg>
     <pkg>pdfetch</pkg>
-    <pkg>pinfsc50</pkg>
     <pkg>pinnacle.API</pkg>
     <pkg>pitchRx</pkg>
     <pkg>plotGoogleMaps</pkg>
@@ -568,15 +467,12 @@
     <pkg>pubmed.mineR</pkg>
     <pkg>pvsR</pkg>
     <pkg>pxweb</pkg>
-    <pkg>QSARdata</pkg>
-    <pkg>qtlbook</pkg>
     <pkg>Quandl</pkg>
     <pkg>quantmod</pkg>
     <pkg>RAdwords</pkg>
     <pkg>raincpc</pkg>
     <pkg>rainfreq</pkg>
     <pkg>rAltmetric</pkg>
-    <pkg>randomNames</pkg>
     <pkg>rbhl</pkg>
     <pkg>rbison</pkg>
     <pkg>Rbitcoin</pkg>
@@ -585,7 +481,6 @@
     <pkg>rClinicalCodes</pkg>
     <pkg>rclinicaltrials</pkg>
     <pkg>Rcolombos</pkg>
-    <pkg>rcorpora</pkg>
     <pkg>RCryptsy</pkg>
     <pkg>rdatamarket</pkg>
     <pkg>rdian</pkg>
@@ -622,30 +517,22 @@
     <pkg>rpubchem</pkg>
     <pkg>RPublica</pkg>
     <pkg>rredlist</pkg>
-    <pkg>RSADBE</pkg>
     <pkg>rscopus</pkg>
     <pkg>RSiteCatalyst</pkg>
     <pkg>rsnps</pkg>
     <pkg>RStars</pkg>
     <pkg>rsunlight</pkg>
     <pkg>rtimes</pkg>
-    <pkg>rUnemploymentData</pkg>
     <pkg>rusda</pkg>
     <pkg>rvertnet</pkg>
     <pkg>rWBclimate</pkg>
     <pkg>rwunderground</pkg>
     <pkg>rYoutheria</pkg>
-    <pkg>SASmixed</pkg>
     <pkg>scholar</pkg>
     <pkg>seeclickfixr</pkg>
     <pkg>sejmRP</pkg>
-    <pkg>SenSrivastava</pkg>
     <pkg>seqinr</pkg>
     <pkg>slackr</pkg>
-    <pkg>Sleuth3</pkg>
-    <pkg>SMCRM</pkg>
-    <pkg>smdata</pkg>
-    <pkg>smss</pkg>
     <pkg>SocialMediaLab</pkg>
     <pkg>SocialMediaMineR</pkg>
     <pkg>soilDB</pkg>
@@ -654,17 +541,11 @@
     <pkg>SoyNAM</pkg>
     <pkg>spocc</pkg>
     <pkg>spoccutils</pkg>
-    <pkg>Stat2Data</pkg>
     <pkg>stationaRy</pkg>
     <pkg>streamR</pkg>
-    <pkg>SwissAir</pkg>
-    <pkg>synbreedData</pkg>
     <pkg>taxize</pkg>
-    <pkg>tempcyclesdata</pkg>
     <pkg>TFX</pkg>
-    <pkg>TH.data</pkg>
     <pkg>Thinknum</pkg>
-    <pkg>titanic</pkg>
     <pkg>tm.plugin.webmining</pkg>
     <pkg>TMDb</pkg>
     <pkg>TR8</pkg>
@@ -672,7 +553,6 @@
     <pkg>translate</pkg>
     <pkg>translateR</pkg>
     <pkg>treebase</pkg>
-    <pkg>TRSbook</pkg>
     <pkg>tseries</pkg>
     <pkg>tumblR</pkg>
     <pkg>twitteR</pkg>
@@ -680,27 +560,18 @@
     <pkg>UNF</pkg>
     <pkg>USAboundaries</pkg>
     <pkg>UScancer</pkg>
-    <pkg>UScensus2010</pkg>
-    <pkg>UsingR</pkg>
     <pkg>ustyc</pkg>
-    <pkg>valottery</pkg>
-    <pkg>VGAMdata</pkg>
     <pkg>waterData</pkg>
     <pkg>WaterML</pkg>
     <pkg>WDI</pkg>
     <pkg>weatherData</pkg>
     <pkg>weatherr</pkg>
     <pkg>webchem</pkg>
-    <pkg>webuse</pkg>
     <pkg>WHO</pkg>
-    <pkg>wikibooks</pkg>
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
     <pkg>wordbankr</pkg>
-    <pkg>wpp2015</pkg>
-    <pkg>WWGbook</pkg>
     <pkg>zendeskR</pkg>
-    <pkg>zipcode</pkg>
   </packagelist>
   <links>
     <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies TaskView</a>
