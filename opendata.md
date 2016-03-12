@@ -75,6 +75,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 -   <pkg>prism</pkg> ([GitHub](http://github.com/ropensci/prism)) provides access to Oregon State Prism climate data.
 -   <pkg>rnoaa</pkg>: R interface to NOAA Climate data API.
+-   <pkg>rWBclimate</pkg>: R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 
 ### Weather ###
 
@@ -86,7 +87,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
 -   <pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.
 
-###Ecological and Evolutionary Biology###
+##Ecology and Evolutionary Biology##
 
 -   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
@@ -94,7 +95,6 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
 -   <pkg>ecoretriever</pkg>: Provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). [Source on GitHub](https://github.com/ropensci/ecoretriever/).
--   <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
 -   <pkg>neotoma</pkg>: Programmatic R interface to the Neotoma Paleoecological Database. [Source on GitHub](https://github.com/ropensci/neotoma)
 -   <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
 -   <pkg>rbison</pkg>: Wrapper to the USGS Bison API. [Source on GitHub](https://github.com/ropensci/rbison)
@@ -105,23 +105,32 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages. [Source on GitHub](https://github.com/ropensci/Reol)
 -   <pkg>rfishbase</pkg>: A programmatic interface to fishbase.org. [Source on GitHub](https://github.com/ropensci/rfishbase)
 -   <pkg>rfisheries</pkg>: Package for interacting with fisheries databases at openfisheries.org. [Source on GitHub](https://github.com/ropensci/rfisheries)
--   <pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
--   <pkg>rnbn</pkg>: An R interface to the [UK National Biodiversity Network](http://www.nbn.org.uk). [Source on GitHub](https://github.com/ropensci/rnbn).
 -   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to the National Phenology Network database API. [Source on GitHub](https://github.com/ropensci/rnpn).
--   [rotl](https://cran.r-project.org/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
--   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
--   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   <pkg>rredlist</pkg> is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
 -   <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
--   <pkg>rWBclimate</pkg>: R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 -   <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub [here](https://github.com/biologicalrecordscentre/rYoutheria)
 -   <pkg>spocc</pkg> ([GitHub](https://github.com/ropensci/spocc)) offers a programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. rinat provides another interface to iNaturalist. <pkg>spoccutils</pkg> ([Github](https://github.com/ropensci/spoccutils)) provides various utilities for working with data retrieved using spocc.
 -   <pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database). [Source on GitHub](https://github.com/GioBo/TR8)
 -   <pkg>traits</pkg> can retrieve species trait data from many online sources. [Source on Github](https://github.com/ropensci/traits)
+-   <pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.
+
+###Biodiversity and Taxonomy ###
+
+-   <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
+-   <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
+-   <pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
+-   <pkg>rnbn</pkg>: An R interface to the [UK National Biodiversity Network](http://www.nbn.org.uk). [Source on GitHub](https://github.com/ropensci/rnbn).
+-   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/discover/discovery-environment)
 -   <pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. [Source on GitHub](https://github.com/ropensci/taxize)
 -   The [tpl](https://github.com/gustavobio/tpl) package doesn't interact with the web directly, but queries locally stored data from [theplantlist.org](http://www.theplantlist.org/), and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.
+
+
+###Phylogenetics###
+
+-   [rotl](https://cran.r-project.org/web/packages/rotl/index.html): R client for the Open Tree of Life API. [Source on GitHub](https://github.com/fmichonneau/rotl)
+-   [rphylopic](https://github.com/sckott/rphylopic) (not on CRAN): An R client for [Phylopic.org](http://phylopic.org/), a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. [Source on GitHub](https://github.com/sckott/rphylopic)
 -   <pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. [Source on GitHub](https://github.com/ropensci/treebase)
--   <pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.
+
 
 ###Finance###
 
