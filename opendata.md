@@ -135,7 +135,8 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Finance###
 
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
--   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
+-   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE
+server, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
 -   <pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API. ($)
 -   <pkg>pdfetch</pkg>: A package for downloading economic and financial time series from public sources.
@@ -333,6 +334,7 @@ There are a very large number of packages providing access to government data. H
 -   <em>Twitter</em>: [RTwitterAPI](https://github.com/joyofdata/RTwitterAPI) (not on CRAN) and <pkg>twitteR</pkg> provide an interface to the Twitter web API. <pkg>streamR</pkg>: This package provides a series of functions that allow R users to access Twitter's filter, sample, and user streams, and to parse the output into data frames. OAuth authentication is supported. (K) Additionally, <pkg>RKlout</pkg> is an interface to Klout API v2. It fetches Klout Score for a Twitter Username/handle in real time. Klout is a silly ranking of Twitter influence.
 -   <pkg>SocialMediaLab</pkg> provides a convenient wrapper around many other social media clients and enables the construction of network structures from those data.
 -   <pkg>SocialMediaMineR</pkg> is an analytic tool that returns information about the popularity of a URL on social media sites.
+-   <pkg>rechonest</pkg>: ([Github](https://github.com/mukul13/rechonest)) R interface to access [Echo Nest API](http://developer.echonest.com/).This package can be used to access artists, songs and music genres related data. (K)  
 
 ###Social science###
 
