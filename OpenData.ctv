@@ -2,7 +2,7 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="jashander@ucdavis.edu">Jaime Ashander, Scott Chamberlain, Thomas Leeper</maintainer>
-  <version>2016-03-12</version>
+  <version>2016-03-18</version>
   <info>
     <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the <pkg>crandatapkgs</pkg> package to obtain information about currently available open data in R packages.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
@@ -18,29 +18,29 @@
     <p>Data archiving involves the production and dissemination of open data that is persistently accessible, typically in public repositories. The tools below may be useful for both archiving data and retrieving extant data from public archives.</p>
     <ul>
     <li><a href="https://github.com/ropensci/ckanr">ckanr</a>: A generic R client to interact with the CKAN data portal software API (<a href="http://ckan.org/" class="uri">http://ckan.org/</a>). Allows user to swap out the base URL to use any CKAN instance. <a href="https://github.com/ropensci/ckanr">Source on GitHub</a>.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/dataone/">dataone</a>: Read/write access to data and metadata from the <a href="https://www.dataone.org/">DataONE network</a> of Member Node data repositories.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/dataone/">dataone</a>: Read/write access to data and metadata from the <a href="https://www.dataone.org/">DataONE network</a> of Member Node data repositories.</li>
     <li><pkg>dvn</pkg> (<a href="https://github.com/ropensci/dvn">GitHub</a>) provides access to Dataverse Network repositories. <pkg>UNF</pkg> implements the Universal Numeric Fingerprint, a format-independent data hashing algorithm used by Dataverse, to verify and cite a dataset.</li>
-    <li><pkg>factualR</pkg>: Thin wrapper for the <a href="http://factual.com/">Factual.com</a> server API.</li>
+    <li><pkg>factualR</pkg>: Thin wrapper for the <a href="https://factual.com/">Factual.com</a> server API.</li>
     <li>The <ohat>Rflickr</ohat> (not on CRAN) package provides an R interface to the Flickr photo management and sharing application Web service. (not on CRAN) (K)</li>
     <li><a href="https://github.com/jennybc/googlesheets">googlesheets</a> (not on CRAN): Access private or public Google Sheets by title, key, or URL. Extract data or edit data. Create, delete, rename, copy, upload, or download spreadsheets and worksheets. <a href="https://github.com/jennybc/googlesheets">Source on GitHub</a></li>
     <li><pkg>gsheet</pkg>: Download Google Sheets using just the sharing link. Spreadsheets can be downloaded as a data frame, or as plain text to parse manually. <a href="https://github.com/maxconway/gsheet">Source on GitHub</a></li>
-    <li><pkg>imguR</pkg> (<a href="https://github.com/leeper/imguR">GitHub</a>): A package to share plots using the image hosting service <a href="http://www.imgur.com">Imgur.com</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.</li>
-    <li><a href="https://github.com/lmullen/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata. <a href="https://github.com/ropensci/internetarchive">Source on GitHub</a>.</li>
-    <li><pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://www.jsonstudio.com">JSON Studio Gateway</a>, to convert JSON to a tabular format.</li>
+    <li><pkg>imguR</pkg> (<a href="https://github.com/leeper/imguR">GitHub</a>): A package to share plots using the image hosting service <a href="http://imgur.com/">Imgur.com</a>. knitr also has a function <code>imgur_upload()</code> to load images from literate programming documents.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/infochimps/">infochimps</a>: An R wrapper for the infochimps.com API services, from <a href="http://drewconway.com/">Drew Conway</a>. The CRAN version is archived. Development is available on GitHub <a href="https://github.com/drewconway/infochimps">here</a>.</li>
+    <li><a href="https://github.com/ropensci/internetarchive">internetarchive</a> (not on CRAN): API client for internet archive metadata. <a href="https://github.com/ropensci/internetarchive">Source on GitHub</a>.</li>
+    <li><pkg>jSonarR</pkg>: Enables users to access MongoDB by running queries and returning their results in R data frames. jSonarR uses data processing and conversion capabilities in the jSonar Analytics Platform and the <a href="http://jsonstudio.com/">JSON Studio Gateway</a>, to convert JSON to a tabular format.</li>
     <li><pkg>OAIHarvester</pkg>: Harvest metadata using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). <pkg>oai</pkg> is a more recent package for OAI.</li>
-    <li><pkg>Quandl</pkg>: A package that interacts directly with the <a href="http://www.quandl.com/">Quandl</a> API to offer data in a number of formats usable in R, as well as the ability to upload and search.</li>
+    <li><pkg>Quandl</pkg>: A package that interacts directly with the <a href="https://www.quandl.com/">Quandl</a> API to offer data in a number of formats usable in R, as well as the ability to upload and search.</li>
     <li><pkg>rdatamarket</pkg>: Fetches data from DataMarket.com, either as timeseries in zoo form (dmseries) or as long-form data frames (dmlist).</li>
     <li><a href="https://github.com/ropensci/rerddap">rerddap</a> (not on CRAN): A generic R client to interact with any ERDDAP instance, which is a special case of OPeNDAP (<a href="https://en.wikipedia.org/wiki/OPeNDAP" class="uri">https://en.wikipedia.org/wiki/OPeNDAP</a>), or <em>Open-source Project for a Network Data Access Protocol</em>. Allows user to swap out the base URL to use any ERDDAP instance. <a href="https://github.com/ropensci/rerddap">Source on GitHub</a>.</li>
-    <li><pkg>rfigshare</pkg>: Programmatic interface for <a href="http://figshare.com/">Figshare.com</a>. <a href="https://github.com/ropensci/rfigshare">Source on GitHub</a>.</li>
-    <li><a href="https://github.com/leeper/rscribd">rscribd</a> (not on CRAN): API client for publishing documents to <a href="http://www.scribd.com">Scribd</a>.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.</li>
+    <li><pkg>rfigshare</pkg>: Programmatic interface for <a href="https://figshare.com/">Figshare.com</a>. <a href="https://github.com/ropensci/rfigshare">Source on GitHub</a>.</li>
+    <li><a href="https://github.com/leeper/rscribd">rscribd</a> (not on CRAN): API client for publishing documents to <a href="https://www.scribd.com/">Scribd</a>.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.</li>
     </ul>
     <h2 id="web-based-open-data">Web-based Open Data</h2>
     <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
     <h3 id="agriculture">Agriculture</h3>
     <ul>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.</li>
     <li><pkg>FAOSTAT</pkg>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.</li>
     </ul>
     <h3 id="astronomy">Astronomy</h3>
@@ -60,7 +60,7 @@
     <li><pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.</li>
     <li><pkg>rainfreq</pkg>: Estimates of rainfall at desired frequency and desired duration are often required in the design of dams and other hydraulic structures, catastrophe risk modeling, environmental planning and management. One major source of such estimates for the USA is the NOAA National Weather Service's (NWS) division of Hydrometeorological Design Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km resolution and comes as a huge number of GIS files.</li>
     <li><pkg>rFDSN</pkg>: Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from <a href="http://www.fdsn.org/">International Federation of Digital Seismograph Networks</a> repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).</li>
-    <li><pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://www.ceh.ac.uk/data/nrfa/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.</li>
+    <li><pkg>rnrfa</pkg>: Utility functions to retrieve data from the UK National River Flow Archive via an API (http://nrfa.ceh.ac.uk). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.</li>
     <li><pkg>soilDB</pkg>: A collection of functions for reading data from USDA-NCSS soil databases.</li>
     <li><pkg>sos4R</pkg>: A client for Sensor Observation Services (SOS) as specified by the Open Geospatial Consortium (OGC). It allows users to retrieve metadata from SOS web services and to interactively create requests for near real-time observation data based on the available sensors, phenomena, observations, etc. using thematic, temporal and spatial filtering.</li>
     <li><pkg>waterData</pkg>: An R Package for retrieval, analysis, and anomaly calculation of daily hydrologic time series data.</li>
@@ -68,15 +68,15 @@
     </ul>
     <h3 id="climate">Climate</h3>
     <ul>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a>: Data input for Berkeley Earth Surface Temperature. Archived on CRAN.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/BerkeleyEarth/">BerkeleyEarth</a>: Data input for Berkeley Earth Surface Temperature. Archived on CRAN.</li>
     <li><pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.</li>
     <li><pkg>clifro</pkg>: Designed to minimise the hassle in downloading data from New Zealand's National Climate Database via <a href="http://cliflo.niwa.co.nz/">CliFlo</a>. <a href="https://github.com/ropensci/clifro">Source on GitHub</a></li>
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
     <li><pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
-    <li>GhcnDaily (<a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily">Archived on CRAN</a> downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
+    <li>GhcnDaily (<a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily/">Archived on CRAN</a> downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
     <li><pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.</li>
-    <li><pkg>prism</pkg> (<a href="http://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
+    <li><pkg>prism</pkg> (<a href="https://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
     <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
     <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
     </ul>
@@ -96,13 +96,13 @@
     <li><a href="https://github.com/traitecoevo/baad.data">BAAD: a Biomass And Allometry Database for woody plants</a> (not on CRAN): an interface to access data from a data paper published in <em>Ecology</em>. <a href="https://github.com/dfalster/baad">Full source for the database is also on GitHub</a>.</li>
     <li><bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <a href="http://www.biomart.org" class="uri">http://www.biomart.org</a>, NCBI refseq, Gene Ontology.</li>
     <li><pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.</li>
-    <li><pkg>ecoengine</pkg>: ecoengine (<a href="http://ecoengine.berkeley.edu/" class="uri">http://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/" class="uri">http://bnhm.berkeley.edu/</a>. <a href="https://github.com/ropensci/ecoengine">Source on GitHub</a></li>
-    <li><pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">Source on GitHub</a>.</li>
+    <li><pkg>ecoengine</pkg>: ecoengine (<a href="https://ecoengine.berkeley.edu/" class="uri">https://ecoengine.berkeley.edu/</a>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <a href="http://bnhm.berkeley.edu/" class="uri">http://bnhm.berkeley.edu/</a>. <a href="https://github.com/ropensci/ecoengine">Source on GitHub</a></li>
+    <li><pkg>ecoretriever</pkg>: Provides an R interface to the <a href="http://www.ecodataretriever.org">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). <a href="https://github.com/ropensci/ecoretriever/">Source on GitHub</a>.</li>
     <li><pkg>neotoma</pkg>: Programmatic R interface to the Neotoma Paleoecological Database. <a href="https://github.com/ropensci/neotoma">Source on GitHub</a></li>
     <li><pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.</li>
     <li><pkg>rbison</pkg>: Wrapper to the USGS Bison API. <a href="https://github.com/ropensci/rbison">Source on GitHub</a></li>
     <li><pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.</li>
-    <li><a href="https://github.com/idigbio/ridigbio">ridigbio</a> (not on CRAN) is an interface for <a href="http://www.idigbio.org/" class="uri">http://www.idigbio.org/</a>.</li>
+    <li><a href="https://github.com/idigbio/ridigbio">ridigbio</a> (not on CRAN) is an interface for <a href="https://www.idigbio.org/" class="uri">https://www.idigbio.org/</a>.</li>
     <li><pkg>rebird</pkg>: A programmatic interface to the eBird database. <a href="https://github.com/ropensci/rebird">Source on GitHub</a></li>
     <li><a href="https://github.com/ropensci/rdopa">rdopa</a> (not on CRAN): Access data from the <a href="http://dopa.jrc.ec.europa.eu/">Digital Observatory for Protected Areas</a> (DOPA) REST API. <a href="https://github.com/ropensci/rdopa">Source on GitHub</a></li>
     <li><pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages. <a href="https://github.com/ropensci/Reol">Source on GitHub</a></li>
@@ -112,7 +112,7 @@
     <li><pkg>rredlist</pkg> is an API client for the <a href="http://www.iucnredlist.org/">IUCN red list</a> of threatened and engaged species. <a href="https://github.com/ropenscilabs/rredlist">Source on GitHub</a>.</li>
     <li><pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. <a href="https://github.com/ropensci/rvertnet">Source on GitHub</a></li>
     <li><pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub <a href="https://github.com/biologicalrecordscentre/rYoutheria">here</a></li>
-    <li><pkg>spocc</pkg> (<a href="https://github.com/ropensci/spocc">GitHub</a>) offers a programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. rinat provides another interface to iNaturalist. <pkg>spoccutils</pkg> (<a href="https://github.com/ropensci/spoccutils">Github</a>) provides various utilities for working with data retrieved using spocc.</li>
+    <li><pkg>spocc</pkg> (<a href="https://github.com/ropensci/spocc">GitHub</a>) offers a programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. rinat provides another interface to iNaturalist. <pkg>spoccutils</pkg> (<a href="https://github.com/ropensci/mapr">Github</a>) provides various utilities for working with data retrieved using spocc.</li>
     <li><pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database). <a href="https://github.com/GioBo/TR8">Source on GitHub</a></li>
     <li><pkg>traits</pkg> can retrieve species trait data from many online sources. <a href="https://github.com/ropensci/traits">Source on Github</a></li>
     <li><pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.</li>
@@ -122,14 +122,14 @@
     <li><pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
     <li><pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. <a href="https://github.com/ropensci/rgbif">Source on GitHub</a></li>
-    <li><pkg>rnbn</pkg>: An R interface to the <a href="http://www.nbn.org.uk">UK National Biodiversity Network</a>. <a href="https://github.com/ropensci/rnbn">Source on GitHub</a>.</li>
-    <li><pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/discover/discovery-environment">iPlant Collaborative</a></li>
+    <li><pkg>rnbn</pkg>: An R interface to the <a href="http://nbn.org.uk/">UK National Biodiversity Network</a>. <a href="https://github.com/ropensci/rnbn">Source on GitHub</a>.</li>
+    <li><pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/ci/discovery-environment">iPlant Collaborative</a></li>
     <li><pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. <a href="https://github.com/ropensci/taxize">Source on GitHub</a></li>
     <li>The <a href="https://github.com/gustavobio/tpl">tpl</a> package doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.</li>
     </ul>
     <h3 id="phylogenetics">Phylogenetics</h3>
     <ul>
-    <li><a href="https://cran.r-project.org/web/packages/rotl/index.html">rotl</a>: R client for the Open Tree of Life API. <a href="https://github.com/fmichonneau/rotl">Source on GitHub</a></li>
+    <li><a href="https://cran.r-project.org/web/packages/rotl/index.html">rotl</a>: R client for the Open Tree of Life API. <a href="https://github.com/ropensci/rotl">Source on GitHub</a></li>
     <li><a href="https://github.com/sckott/rphylopic">rphylopic</a> (not on CRAN): An R client for <a href="http://phylopic.org/">Phylopic.org</a>, a databaes of free silhouettes of animals, embedded in a phylogenetic information framework. <a href="https://github.com/sckott/rphylopic">Source on GitHub</a></li>
     <li><pkg>treebase</pkg>: An R package for discovery, access and manipulation of online phylogenies. <a href="https://github.com/ropensci/treebase">Source on GitHub</a></li>
     </ul>
@@ -143,12 +143,12 @@
     <li><pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acquisition, plotting and other utilities.</li>
     <li><pkg>Rbitcoin</pkg>: Ineract with Bitcoin. Both public and private API calls. Support HTTP over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error handling.</li>
     <li><pkg>rbitcoinchartsapi</pkg>: An R package for the <a href="http://bitcoincharts.com/">BitCoinCharts.com</a> API. From their website: &quot;Bitcoincharts provides financial and technical data related to the Bitcoin network and this data can be accessed via a JSON application programming interface (API).&quot;</li>
-    <li><a href="https://github.com/armstrtw/Rblpapi">Rblpapi</a>: R client for Bloomberg Finance L.P. <a href="https://github.com/armstrtw/Rblpapi">Source on GitHub</a> ($)</li>
-    <li><pkg>RCryptsy</pkg> wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. <a href="https://github.com/ropensci/RCryptsy">Source on GitHub</a>. ($)</li>
+    <li><a href="https://github.com/Rblp/Rblpapi">Rblpapi</a>: R client for Bloomberg Finance L.P. <a href="https://github.com/armstrtw/Rblpapi">Source on GitHub</a> ($)</li>
+    <li><pkg>RCryptsy</pkg> wraps the API for the <a href="https://www.cryptsy.com/">Cryptsy</a> crypto-currency trading platform. <a href="https://github.com/ropensci/RCryptsy">Source on GitHub</a>. ($)</li>
     <li><a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a>, with some convenience functions for retrieving Datastream data specifically. ($)</li>
     <li><pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers. <a href="https://github.com/amattioc/SDMX/tree/master/RJSDMX">Source on GitHub</a>.</li>
     <li><pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.</li>
-    <li><pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API. ($)</li>
+    <li><pkg>Thinknum</pkg>: Interacts with the <a href="https://www.thinknum.com/">Thinknum</a> API. ($)</li>
     <li><pkg>tseries</pkg>: Includes the <code>get.hist.quote</code> for historical financial data.</li>
     <li><pkg>ustyc</pkg>: US Treasury yield curve data retrieval. Development version on GitHub <a href="https://github.com/mrbcuda/ustyc">here</a>.</li>
     </ul>
@@ -158,19 +158,19 @@
     <li><pkg>cgdsr</pkg>: R-Based API for accessing the MSKCC Cancer Genomics Data Server (CGDS).</li>
     <li><pkg>chromer</pkg>: A programmatic interface to the <a href="http://ccdb.tau.ac.il/">Chromosome Counts Database</a>. <a href="https://github.com/ropensci/chromer">Source on GitHub</a></li>
     <li>The <a href="https://bitbucket.org/sulab/mygene.r/overview">mygene.r</a> package is an R client for accessing <a href="http://mygene.info/#">Mygene.info</a> annotation and query services.</li>
-    <li><bioc>GoogleGenomics</bioc> reads data from the <a href="https://cloud.google.com/genomics">Google Genomics API</a> and returns BioConductor-compatible S4 classes.</li>
+    <li><bioc>GoogleGenomics</bioc> reads data from the <a href="https://cloud.google.com/genomics/">Google Genomics API</a> and returns BioConductor-compatible S4 classes.</li>
     <li><pkg>primerTree</pkg>: Visually Assessing the Specificity and Informativeness of Primer Pairs.</li>
     <li><pkg>rsnps</pkg>: This package is a programmatic interface to various SNP datasets on the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP Annotation and Proxy Search. This package started as a library to interact with openSNP alone, so most functions deal with openSNP.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/seq2R/">seq2R</a>: Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/seq2R/">seq2R</a>: Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.</li>
     <li><pkg>seqinr</pkg>: Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.</li>
     <li><pkg>SoyNAM</pkg>: Genomic and multi-environmental soybean data. Soybean Nested Association Mapping (SoyNAM) project dataset funded by the United Soybean Board (USB), pre-formatted for general analysis and genome-wide association analysis using the NAM package.</li>
     <li>NCBI EUtils web services: See the NCBI section</li>
     </ul>
     <h3 id="geocoding">Geocoding</h3>
     <ul>
-    <li><pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="http://here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/geocoder" class="uri">https://developer.here.com/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on GitHub</a></li>
+    <li><pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="https://maps.here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/plans/api/geocoder" class="uri">https://developer.here.com/plans/api/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on GitHub</a></li>
     <li><a href="https://github.com/hrbrmstr/ipapi">ipapi</a>: Geolocate IPv4/6 addresses and/or domain names using the <a href="http://ip-api.com/">ip-api.com</a> API. <a href="https://github.com/hrbrmstr/ipapi">Source on GitHub</a></li>
-    <li><a href="https://github.com/sckott/openadds">openadds</a> is an R client for <a href="http://openaddresses.io/">OpenAddresses</a> a free and open global address collection. <a href="https://github.com/sckott/openadds">Source on GitHub</a></li>
+    <li><a href="https://github.com/sckott/openadds">openadds</a> is an R client for <a href="https://openaddresses.io/">OpenAddresses</a> a free and open global address collection. <a href="https://github.com/sckott/openadds">Source on GitHub</a></li>
     </ul>
     <h3 id="google-analytics">Google Analytics</h3>
     <ul>
@@ -181,13 +181,13 @@
     </ul>
     <h3 id="google-web-services">Google Web Services</h3>
     <ul>
-    <li><pkg>bigrquery</pkg>: An interface to Google's bigquery from R. <a href="https://github.com/hadley/bigrquery">Source on GitHub</a> (K)</li>
+    <li><pkg>bigrquery</pkg>: An interface to Google's bigquery from R. <a href="https://github.com/rstats-db/bigrquery">Source on GitHub</a> (K)</li>
     <li><a href="https://github.com/jdeboer/ganalytics">ganalytics</a> (not on CRAN): Interface to <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. <a href="https://github.com/jdeboer/ganalytics">Source on GitHub</a> (K)</li>
     <li><pkg>GAR</pkg>: Interface to <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. <a href="https://github.com/andrewgeisler/GAR">Source on GitHub</a> (K)</li>
     <li><a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.</li>
     <li><pkg>googleVis</pkg>: Interface between R and the Google chart tools.</li>
-    <li>gooJSON (<a href="https://cran.r-project.org/src/contrib/Archive/gooJSON">Archived on CRAN</a>) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
+    <li>gooJSON (<a href="https://cran.r-project.org/src/contrib/Archive/gooJSON/">Archived on CRAN</a>) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
     <li><pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.</li>
     <li><pkg>plotKML</pkg>: Visualization of spatial and spatio-temporal objects in Google Earth.</li>
     <li><pkg>RAdwords</pkg>: A package for loading Google Adwords data. <a href="https://github.com/jburkhardt/RAdwords">Source on GitHub</a></li>
@@ -205,7 +205,7 @@
     <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
     <li><em>Europe</em>:
     <ul>
-    <li><pkg>ameco</pkg> (<a href="http://github.com/expersso/ameco">GitHub</a>) connects to the European Commission's macro-economic database.</li>
+    <li><pkg>ameco</pkg> (<a href="https://github.com/expersso/ameco">GitHub</a>) connects to the European Commission's macro-economic database.</li>
     <li><pkg>ecb</pkg> is a client for the <a href="https://sdw.ecb.europa.eu/">European Central Bank's Statistical Data Warehouse</a> API.</li>
     <li><pkg>eurostat</pkg> (<a href="https://github.com/ropengov/eurostat">Github</a>) provides an interface to the <a href="http://ec.europa.eu/eurostat">Eurostat database</a>.</li>
     </ul></li>
@@ -221,12 +221,12 @@
     <li><em>Poland</em>:
     <ul>
     <li><a href="https://github.com/bartekch/saos">saos</a> (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.</li>
-    <li><pkg>sejmRP</pkg> (<a href="http://github.com/mi2-warsaw/sejmRP/">GitHub</a>) provides data on deputies and voting in <a href="http://www.sejm.gov.pl/">the Polish Diet</a>.</li>
+    <li><pkg>sejmRP</pkg> (<a href="https://github.com/mi2-warsaw/sejmRP/">GitHub</a>) provides data on deputies and voting in <a href="http://www.sejm.gov.pl/">the Polish Diet</a>.</li>
     </ul></li>
     <li><em>United States of America</em>:
     <ul>
     <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <a href="https://github.com/walkerke/IDBr">IDBr</a> (not on CRAN) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> (<a href="https://github.com/mikeasilva/blsAPI">GitHub</a>) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string.</li>
-    <li>Federal Reserve: <a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
+    <li>Federal Reserve: <a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="https://research.stlouisfed.org/docs/api/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
     <li>Energy Department: <pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
     <li>Elections: <pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results. <a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
     <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
@@ -236,7 +236,7 @@
     <li><pkg>rsunlight</pkg> (<a href="https://github.com/ropengov/rsunlight">GitHub</a>): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.</li>
     <li><pkg>rtimes</pkg> (<a href="https://github.com/ropengov/rtimes">GitHub</a>) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.</li>
     <li><pkg>seeclickfixr</pkg> (<a href="https://github.com/justindbk/seeclickfixr/">GitHub</a>) is a client for retrieving citizens' service requests made to local governments through <a href="http://en.seeclickfix.com/">SeeClickFix</a>.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
     </ul></li>
     <li>United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.</li>
     <li><em>Other or international</em>:
@@ -256,13 +256,13 @@
     <li><pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.</li>
     <li><a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service</li>
     <li><pkg>lumendb</pkg> can retrieve copyright takedown notices from <a href="https://lumendatabase.org/">Lumen Database</a> (formerly, Chilling Effects).</li>
-    <li>ngramr (<a href="https://cran.r-project.org/src/contrib/Archive/ngramr">Archived on CRAN</a>) retrieves and plot word frequencies through time from the Google Ngram Viewer.</li>
+    <li>ngramr (<a href="https://cran.r-project.org/src/contrib/Archive/ngramr/">Archived on CRAN</a>) retrieves and plot word frequencies through time from the Google Ngram Viewer.</li>
     <li><pkg>pubmed.mineR</pkg>: An R package for text mining of <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed Abstracts</a>. Supports fetching text and XML from PubMed. <pkg>easyPubMed</pkg> and <a href="https://github.com/rOpenHealth/rpubmed">rpubmed</a> (not on CRAN) provide other tools.</li>
     <li><pkg>rAltmetric</pkg>: Query and visualize metrics from Altmetric.com.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
     <li><pkg>RefManageR</pkg>: Import and Manage BibTeX and BibLaTeX references with RefManager.</li>
     <li><pkg>rentrez</pkg>: Talk with NCBI entrez using R.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/RMendeley/">RMendeley</a>: Implementation of the Mendeley API in R. Archived on CRAN. It's been archived on CRAN temporarily until pacakge is updated for the new Mendeley API.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/RMendeley/">RMendeley</a>: Implementation of the Mendeley API in R. Archived on CRAN. It's been archived on CRAN temporarily until pacakge is updated for the new Mendeley API.</li>
     <li><a href="https://github.com/ropensci/rmetadata">rmetadata</a> (not on CRAN): Get scholarly metadata from around the web.</li>
     <li><a href="https://github.com/ropensci/rorcid">rorcid</a> (not on CRAN): A programmatic interface the Orcid.org API.</li>
     <li><pkg>rplos</pkg>: A programmatic interface to the Web Service methods provided by the Public Library of Science journals for search.</li>
@@ -292,7 +292,7 @@
     <h3 id="ncbi">NCBI</h3>
     <ul>
     <li><pkg>hoardeR</pkg>: Information retrieval from NCBI databases, with main focus on Blast.</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/NCBI2R/">NCBI2R</a>: Annotates lists of SNPs and/or genes, with current information from NCBI. The CRAN version is archived.</li>
+    <li><a href="https://cran.rstudio.com/src/contrib/Archive/NCBI2R/">NCBI2R</a>: Annotates lists of SNPs and/or genes, with current information from NCBI. The CRAN version is archived.</li>
     <li><pkg>rentrez</pkg> (<a href="https://github.com/ropensci/rentrez">GitHub</a>): Talk with NCBI Eutils API using R. This is probably the best package to interact with NCBI EUtils. You can get data across all the databases in NCBI EUtils.</li>
     <li><pkg>reutils</pkg> (<a href="https://github.com/gschofl/reutils">GitHub</a>): Interface with NCBI databases such as PubMed, Genbank, or GEO via the Entrez Programming Utilities (EUtils).</li>
     <li><pkg>RISmed</pkg>: Download content from NCBI databases. Intended for analyses of NCBI database content, not reference management. See rpubmed for more literature oriented stuff from NCBI.</li>
@@ -313,7 +313,7 @@
     <li><pkg>MBTAr</pkg>: Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API</li>
     <li><pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">Source on GitHub</a> .</li>
     <li><pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.</li>
-    <li><a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results. ($) (K)</li>
+    <li><a href="https://github.com/cloudyr/Rmonkey">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results. ($) (K)</li>
     <li><a href="https://github.com/Ironholds/rwars">rwars</a> (not on CRAN): A connector to the <a href="http://swapi.co/">SWAPI service</a>, a database of Star Wars metadata.</li>
     <li><pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">Source on GitHub</a></li>
     <li><pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.</li>
@@ -329,7 +329,7 @@
     <li><pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository</li>
     <li><pkg>rclinicaltrials</pkg> (<a href="https://github.com/sachsmc/rclinicaltrials">GitHub</a>): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.</li>
     <li><pkg>UScancer</pkg> constructs U.S. cancer data at the county level from <a href="http://seer.cancer.gov/">SEER</a>, <a href="http://www.iarc.fr">IARC</a>, and the U.S. Census Bureau.</li>
-    <li><pkg>WHO</pkg> provides an interface to the <a href="http://www.who.int/">World Health Organization</a> API. <a href="https://www.github.com/expersso/WHO">Source on GitHub</a>.</li>
+    <li><pkg>WHO</pkg> provides an interface to the <a href="http://www.who.int/">World Health Organization</a> API. <a href="https://github.com/expersso/WHO">Source on GitHub</a>.</li>
     </ul>
     <h3 id="social-media">Social media</h3>
     <ul>
@@ -344,10 +344,10 @@
     </ul>
     <h3 id="social-science">Social science</h3>
     <ul>
-    <li><a href="http://www.asdfree.com/">asdfree: analyze survey data for free</a> (not a package) provides lots of code examples for analyzing survey data in R. Also on <a href="https://github.com/ajdamico/usgsd">github</a>.</li>
+    <li><a href="http://www.asdfree.com/">asdfree: analyze survey data for free</a> (not a package) provides lots of code examples for analyzing survey data in R. Also on <a href="https://github.com/ajdamico/asdfree">github</a>.</li>
     <li><pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the <a href="http://thegradcafe.com">Grad Cafe website</a>.</li>
     <li><pkg>gesis</pkg> provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).</li>
-    <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison">Maddison Project</a>.</li>
+    <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison/">Maddison Project</a>.</li>
     <li><pkg>ONETr</pkg> searches and retrieves occupational data from <a href="http://www.onetonline.org/">O*NET Online</a>. Development version on GitHub <a href="https://github.com/eknud/onetr">here</a>.</li>
     <li><pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).</li>
     <li><pkg>wordbankr</pkg> (<a href="https://github.com/langcog/wordbankr">GitHub</a>) connects to <a href="http://wordbank.stanford.edu/">Wordbank</a>, a database of childrens' developmental vocabulary.</li>
@@ -370,7 +370,7 @@
     <h3 id="web-analytics">Web Analytics</h3>
     <ul>
     <li><a href="https://github.com/dvanclev/GTrendsR">GTrendsR</a> (not on CRAN): R functions to perform and display Google Trends queries. Another Github package (<a href="https://github.com/emhart/rGtrends">rGtrends</a>) is now deprecated, but supported a previous version of Google Trends and may still be useful for developers.</li>
-    <li>rgauges (<a href="https://cran.r-project.org/src/contrib/Archive/rgauges">Archived on CRAN</a>) This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)</li>
+    <li>rgauges (<a href="https://cran.r-project.org/src/contrib/Archive/rgauges/">Archived on CRAN</a>) This package provides functions to interact with the Gaug.es API. Gaug.es is a web analytics service, like Google analytics. You have to have a Gaug.es account to use this package. ($) (K)</li>
     <li><pkg>RGA</pkg>: Provides functions for accessing and retrieving data from the <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. Supports OAuth 2.0 authorization. Also, the RGA package provides a shiny app to explore data. There is another R package for the same service (RGoogleAnalytics); see above entry. (K)</li>
     <li><pkg>RGoogleAnalytics</pkg> (<a href="https://github.com/Tatvic/RGoogleAnalytics/issues">GitHub</a>) provides functions for accessing and retrieving data from the Google Analytics API. There is another R package for the same service (RGA); see previous entry. (K)</li>
     <li><ohat>RGoogleTrends</ohat> (not on CRAN) provides programmatic access to Google Trends data. This is information about the popularity of a particular query.</li>
