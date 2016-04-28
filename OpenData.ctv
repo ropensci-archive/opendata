@@ -86,6 +86,7 @@
     </ul>
     <h3 id="weather">Weather</h3>
     <ul>
+    <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
     <li><pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/</li>
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
@@ -444,6 +445,7 @@
     <pkg>googleVis</pkg>
     <pkg>govStatJPN</pkg>
     <pkg>gsheet</pkg>
+    <pkg>GSODR</pkg>
     <pkg>GuardianR</pkg>
     <pkg>hddtools</pkg>
     <pkg>hdr</pkg>

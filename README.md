@@ -100,6 +100,7 @@ Web-based Open Data
 
 ### Weather
 
+-   [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html) provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.
 -   [meteoForecast](http://cran.rstudio.com/web/packages/meteoForecast/index.html): meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with [GFS](http://www.emc.ncep.noaa.gov/index.php?branch=GFS), [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action), [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page), [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam), and [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap). [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Obtain, organize, and visualize [NCEP](http://www.ncep.noaa.gov/) weather data.
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html): An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: [rnomads](http://R-Forge.R-project.org/projects/rnomads/).
@@ -450,6 +451,7 @@ There are a very large number of packages providing access to government data. H
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html)
 -   [gsheet](http://cran.rstudio.com/web/packages/gsheet/index.html)
+-   [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html)
 -   [GuardianR](http://cran.rstudio.com/web/packages/GuardianR/index.html)
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html)
 -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html)

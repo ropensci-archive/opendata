@@ -83,6 +83,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ### Weather ###
 
+-   <pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.
 -   <pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with [GFS](http://www.emc.ncep.noaa.gov/index.php?branch=GFS), [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action), [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page), [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam), and [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap). [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/
 -   <pkg>RNCEP</pkg>: Obtain, organize, and visualize[NCEP](http://www.ncep.noaa.gov/) weather data.
 -   <pkg>rNOMADS</pkg>: An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.
