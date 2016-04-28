@@ -307,6 +307,7 @@ There are a very large number of packages providing access to government data. H
 -   <pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
 -   <pkg>MBTAr</pkg>: Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API
+-   <pkg>rechonest</pkg> ([Github](https://github.com/mukul13/rechonest)) is an interface to access [Echo Nest API](http://developer.echonest.com/). This package can be used to access artists, songs and music genres related data. (K)
 -   <pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. [Source on GitHub](https://github.com/nutterb/redcapAPI) .
 -   <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
 -   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A connector to the [SWAPI service](http://swapi.co/), a database of Star Wars metadata.

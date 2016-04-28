@@ -315,6 +315,7 @@
     <li><pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. <a href="https://github.com/kalimu/genderizeR">Source on GitHub</a></li>
     <li><a href="https://github.com/chainsawriot/mstranslator">mstranslator</a>: An R wrapper for the <a href="https://msdn.microsoft.com/en-us/library/hh454949.aspx">Microsoft Translator API</a>. <a href="https://github.com/chainsawriot/mstranslator">Source on GitHub</a></li>
     <li><pkg>MBTAr</pkg>: Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API</li>
+    <li><pkg>rechonest</pkg> (<a href="https://github.com/mukul13/rechonest">Github</a>) is an interface to access <a href="http://developer.echonest.com/">Echo Nest API</a>. This package can be used to access artists, songs and music genres related data. (K)</li>
     <li><pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">Source on GitHub</a> .</li>
     <li><pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.</li>
     <li><a href="https://github.com/Ironholds/rwars">rwars</a> (not on CRAN): A connector to the <a href="http://swapi.co/">SWAPI service</a>, a database of Star Wars metadata.</li>
@@ -507,6 +508,7 @@
     <pkg>rdian</pkg>
     <pkg>rdnb</pkg>
     <pkg>rebird</pkg>
+    <pkg>rechonest</pkg>
     <pkg>redcapAPI</pkg>
     <pkg>RedditExtractoR</pkg>
     <pkg>RefManageR</pkg>

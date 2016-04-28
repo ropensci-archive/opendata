@@ -320,6 +320,7 @@ There are a very large number of packages providing access to government data. H
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html): Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
 -   [MBTAr](http://cran.rstudio.com/web/packages/MBTAr/index.html): Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API
+-   [rechonest](http://cran.rstudio.com/web/packages/rechonest/index.html) ([Github](https://github.com/mukul13/rechonest)) is an interface to access [Echo Nest API](http://developer.echonest.com/). This package can be used to access artists, songs and music genres related data. (K)
 -   [redcapAPI](http://cran.rstudio.com/web/packages/redcapAPI/index.html): Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. [Source on GitHub](https://github.com/nutterb/redcapAPI).
 -   [RForcecom](http://cran.rstudio.com/web/packages/RForcecom/index.html): RForcecom provides a connection to Force.com and Salesforce.com from R.
 -   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A connector to the [SWAPI service](http://swapi.co/), a database of Star Wars metadata.
@@ -512,6 +513,7 @@ There are a very large number of packages providing access to government data. H
 -   [rdian](http://cran.rstudio.com/web/packages/rdian/index.html)
 -   [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html)
 -   [rebird](http://cran.rstudio.com/web/packages/rebird/index.html)
+-   [rechonest](http://cran.rstudio.com/web/packages/rechonest/index.html)
 -   [redcapAPI](http://cran.rstudio.com/web/packages/redcapAPI/index.html)
 -   [RedditExtractoR](http://cran.rstudio.com/web/packages/RedditExtractoR/index.html)
 -   [RefManageR](http://cran.rstudio.com/web/packages/RefManageR/index.html)
