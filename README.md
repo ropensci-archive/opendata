@@ -318,12 +318,10 @@ There are a very large number of packages providing access to government data. H
 
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html): Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html): Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
--   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN): Provides functions to interact with the [Qualtrics](http://www.qualtrics.com/) online survey tool. (\$) (K)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
 -   [MBTAr](http://cran.rstudio.com/web/packages/MBTAr/index.html): Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API
 -   [redcapAPI](http://cran.rstudio.com/web/packages/redcapAPI/index.html): Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. [Source on GitHub](https://github.com/nutterb/redcapAPI).
 -   [RForcecom](http://cran.rstudio.com/web/packages/RForcecom/index.html): RForcecom provides a connection to Force.com and Salesforce.com from R.
--   [Rmonkey](https://github.com/leeper/Rmonkey/) (not on CRAN): Provides programmatic access to [Survey Monkey](https://www.surveymonkey.com/) for creating simple surveys and retrieving survey results. (\$) (K)
 -   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A connector to the [SWAPI service](http://swapi.co/), a database of Star Wars metadata.
 -   [slackr](http://cran.rstudio.com/web/packages/slackr/index.html): R client for Slack.com messaging platform. [Source on GitHub](https://github.com/hrbrmstr/slackr)
 -   [sos4R](http://cran.rstudio.com/web/packages/sos4R/index.html): R client for the OGC Sensor Observation Service.

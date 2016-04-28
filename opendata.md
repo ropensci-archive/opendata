@@ -223,9 +223,10 @@ There are a very large number of packages providing access to government data. H
     -   <pkg>sejmRP</pkg> ([GitHub](http://github.com/mi2-warsaw/sejmRP/)) provides data on deputies and voting in [the Polish Diet](http://www.sejm.gov.pl/).
 -   *United States of America*:
     -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <pkg>idbr</pkg> ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string.
-    -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
+    -   Education: [LearnDC](https://github.com/benjaminrobinson/LearnDC) provides access to [LearnDC's](http://www.learndc.org/) data on Washington DC charter schools.
     -   Energy Department: <pkg>EIAdata</pkg>: U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
     -   Elections: <pkg>elexr</pkg> is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
+    -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
@@ -304,12 +305,10 @@ There are a very large number of packages providing access to government data. H
 
 -   <pkg>datamart</pkg>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 -   <pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
--   [qualtrics](https://github.com/jbryer/qualtrics) (not on CRAN): Provides functions to interact with the [Qualtrics](http://www.qualtrics.com/) online survey tool. (\$) (K)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
 -   <pkg>MBTAr</pkg>: Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API
 -   <pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. [Source on GitHub](https://github.com/nutterb/redcapAPI) .
 -   <pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.
--   [Rmonkey](https://github.com/leeper/Rmonkey/) (not on CRAN): Provides programmatic access to [Survey Monkey](https://www.surveymonkey.com/) for creating simple surveys and retrieving survey results. (\$) (K)
 -   [rwars](https://github.com/Ironholds/rwars) (not on CRAN): A connector to the [SWAPI service](http://swapi.co/), a database of Star Wars metadata.
 -   <pkg>slackr</pkg>: R client for Slack.com messaging platform. [Source on GitHub](https://github.com/hrbrmstr/slackr)
 -   <pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.

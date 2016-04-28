@@ -312,12 +312,10 @@
     <ul>
     <li><pkg>datamart</pkg>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.</li>
     <li><pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. <a href="https://github.com/kalimu/genderizeR">Source on GitHub</a></li>
-    <li><a href="https://github.com/jbryer/qualtrics">qualtrics</a> (not on CRAN): Provides functions to interact with the <a href="http://www.qualtrics.com/">Qualtrics</a> online survey tool. ($) (K)</li>
     <li><a href="https://github.com/chainsawriot/mstranslator">mstranslator</a>: An R wrapper for the <a href="https://msdn.microsoft.com/en-us/library/hh454949.aspx">Microsoft Translator API</a>. <a href="https://github.com/chainsawriot/mstranslator">Source on GitHub</a></li>
     <li><pkg>MBTAr</pkg>: Access Data from the Massachusetts Bay Transit Authority (MBTA) Web API</li>
     <li><pkg>redcapAPI</pkg>: Access data stored in REDCap databases using an API. REDCap (Research Electronic Data CAPture) is a web application for building and managing online surveys and databases developed at Vanderbilt University. <a href="https://github.com/nutterb/redcapAPI">Source on GitHub</a> .</li>
     <li><pkg>RForcecom</pkg>: RForcecom provides a connection to Force.com and Salesforce.com from R.</li>
-    <li><a href="https://github.com/leeper/Rmonkey/">Rmonkey</a> (not on CRAN): Provides programmatic access to <a href="https://www.surveymonkey.com/">Survey Monkey</a> for creating simple surveys and retrieving survey results. ($) (K)</li>
     <li><a href="https://github.com/Ironholds/rwars">rwars</a> (not on CRAN): A connector to the <a href="http://swapi.co/">SWAPI service</a>, a database of Star Wars metadata.</li>
     <li><pkg>slackr</pkg>: R client for Slack.com messaging platform. <a href="https://github.com/hrbrmstr/slackr">Source on GitHub</a></li>
     <li><pkg>sos4R</pkg>: R client for the OGC Sensor Observation Service.</li>
