@@ -37,7 +37,7 @@
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.</li>
     </ul>
     <h2 id="web-based-open-data">Web-based Open Data</h2>
-    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
+    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#business">Business</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
     <h3 id="agriculture">Agriculture</h3>
     <ul>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.</li>
@@ -46,6 +46,10 @@
     <h3 id="astronomy">Astronomy</h3>
     <ul>
     <li><pkg>RStars</pkg>: Star-API provides API access to the American Museum of Natural History's Digital Universe Data, including positions, luminosity, color, and other data on over 100,000 stars as well as constellations, exo-planets, clusters and others. <a href="https://github.com/ropensci/RStars">Source on GitHub</a>.</li>
+    </ul>
+    <h3 id="business">Business</h3>
+    <ul>
+    <li><a href="https://github.com/abresler/forbesListR">forbesListR</a> (not on CRAN) offers access to a number of business-related datasets provided by Forbes.</li>
     </ul>
     <h3 id="chemistry">Chemistry</h3>
     <ul>
@@ -215,7 +219,7 @@
     <li><pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
     </ul></li>
     <li><em>Germany</em>: <pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
-    <li><em>Japan</em>: <pkg>govStatJPN</pkg>: Functions to get public survey data in Japan.</li>
+    <li><em>Japan</em>: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API.</li>
     <li><em>Mexico</em>: <pkg>inegiR</pkg> (<a href="https://github.com/Eflores89/inegiR">GitHub</a>) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
     <li><em>Netherlands</em>: <pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
     <li><em>Poland</em>:
@@ -420,6 +424,7 @@
     <pkg>EIAdata</pkg>
     <pkg>elexr</pkg>
     <pkg>enigma</pkg>
+    <pkg>estatapi</pkg>
     <pkg>eurostat</pkg>
     <pkg>factualR</pkg>
     <pkg>FAOSTAT</pkg>

@@ -50,7 +50,7 @@ Data archiving involves the production and dissemination of open data that is pe
 Web-based Open Data
 -------------------
 
-[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google Analytics](#google-analytics) | [Google Web Services](#google-web-services) | [Government and Economics](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social Media](#social-media) | [Social Science](#social-science) | [Sports](#sports) | [Web Analytics](#web-analytics) | [Wikipedia](#wikipedia) |
+[Agriculture](#agriculture) | [Astronomy](#astronomy) | [Business](#business) | [Chemistry](#chemistry) | [Earth Science](#earth-science) | [Ecology/Evolution](#ecological-and-evolutionary-biology) | [Finance](#finance) | [Genes/Genomes](#genes-and-genomes) | [Geocoding](#geocoding) | [Google Analytics](#google-analytics) | [Google Web Services](#google-web-services) | [Government and Economics](#government) | [Literature/Text-mining](#literature-metadata-text-and-altmetrics) | [Maps](#maps) | [Marketing](#marketing) | [NCBI](#ncbi) | [News](#news) | [Other](#other) | [Public Health](#public-health) | [Social Media](#social-media) | [Social Science](#social-science) | [Sports](#sports) | [Web Analytics](#web-analytics) | [Wikipedia](#wikipedia) |
 
 ### Agriculture
 
@@ -60,6 +60,10 @@ Web-based Open Data
 ### Astronomy
 
 -   [RStars](http://cran.rstudio.com/web/packages/RStars/index.html): Star-API provides API access to the American Museum of Natural History's Digital Universe Data, including positions, luminosity, color, and other data on over 100,000 stars as well as constellations, exo-planets, clusters and others. [Source on GitHub](https://github.com/ropensci/RStars).
+
+### Business
+
+-   [forbesListR](https://github.com/abresler/forbesListR) (not on CRAN) offers access to a number of business-related datasets provided by Forbes.
 
 ### Chemistry
 
@@ -227,7 +231,7 @@ There are a very large number of packages providing access to government data. H
     -   [pxweb](http://cran.rstudio.com/web/packages/pxweb/index.html) ([GitHub](https://github.com/rOpenGov/pxweb)) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.
     -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html) ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
 -   *Germany*: [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html) ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to [http://daten.berlin.de](http://daten.berlin.de). It allows you to search through the data catalogue and to download the data directly from within R.
--   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html): Functions to get public survey data in Japan.
+-   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html) offers functions to get public survey data in Japan. [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html) links to the Japanese government's e-Stat official statistics API.
 -   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland*:
@@ -426,6 +430,7 @@ There are a very large number of packages providing access to government data. H
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)
+-   [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html)
 -   [eurostat](http://cran.rstudio.com/web/packages/eurostat/index.html)
 -   [factualR](http://cran.rstudio.com/web/packages/factualR/index.html)
 -   [FAOSTAT](http://cran.rstudio.com/web/packages/FAOSTAT/index.html)
