@@ -376,6 +376,7 @@ There are a very large number of packages providing access to government data. H
 -   [fantasysocceR](https://github.com/durtal/fantasysocceR) (not on CRAN) connects to fantasy soccer data.
 -   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html) A Wrapper for the Pinnacle Sports API
 -   [retrosheet](http://cran.rstudio.com/web/packages/retrosheet/index.html) ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from [http://www.retrosheet.org](http://www.retrosheet.org).
+-   [yorkr](http://cran.rstudio.com/web/packages/yorkr/index.html) provides access to cricket data from [Cricsheet](http://cricsheet.org).
 
 ### Web Analytics
 
@@ -598,6 +599,7 @@ There are a very large number of packages providing access to government data. H
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html)
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html)
 -   [wordbankr](http://cran.rstudio.com/web/packages/wordbankr/index.html)
+-   [yorkr](http://cran.rstudio.com/web/packages/yorkr/index.html)
 -   [zendeskR](http://cran.rstudio.com/web/packages/zendeskR/index.html)
 
 ### Related links:

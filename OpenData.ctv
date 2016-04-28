@@ -370,6 +370,7 @@
     <li><a href="https://github.com/durtal/fantasysocceR">fantasysocceR</a> (not on CRAN) connects to fantasy soccer data.</li>
     <li><pkg>pinnacle.API</pkg> A Wrapper for the Pinnacle Sports API</li>
     <li><pkg>retrosheet</pkg> (<a href="https://github.com/rmscriven/retrosheet">Github</a>) retrieves single-season baseball statistics from <a href="http://www.retrosheet.org">http://www.retrosheet.org</a>.</li>
+    <li><pkg>yorkr</pkg> provides access to cricket data from <a href="http://cricsheet.org">Cricsheet</a>.</li>
     </ul>
     <h3 id="web-analytics">Web Analytics</h3>
     <ul>
@@ -592,6 +593,7 @@
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
     <pkg>wordbankr</pkg>
+    <pkg>yorkr</pkg>
     <pkg>zendeskR</pkg>
   </packagelist>
   <links>

@@ -362,6 +362,7 @@ There are a very large number of packages providing access to government data. H
 -   [fantasysocceR](https://github.com/durtal/fantasysocceR) (not on CRAN) connects to fantasy soccer data.
 -   <pkg>pinnacle.API</pkg> A Wrapper for the Pinnacle Sports API
 -   <pkg>retrosheet</pkg> ([Github](https://github.com/rmscriven/retrosheet)) retrieves single-season baseball statistics from <http://www.retrosheet.org>.
+-   <pkg>yorkr</pkg> provides access to cricket data from [Cricsheet](http://cricsheet.org).
 
 ###Web Analytics###
 
