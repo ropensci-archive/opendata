@@ -98,25 +98,25 @@ Data archiving involves the production and dissemination of open data that is pe
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
 -   <bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
--   <pkg>ecoengine</pkg>: ecoengine (<http://ecoengine.berkeley.edu/>) provides access to more than 2 million georeferenced specimen records from the Berkeley Natural History Museums. <http://bnhm.berkeley.edu/>. [Source on GitHub](https://github.com/ropensci/ecoengine)
--   <pkg>ecoretriever</pkg>: Provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.). [Source on GitHub](https://github.com/ropensci/ecoretriever/).
--   <pkg>neotoma</pkg>: Programmatic R interface to the Neotoma Paleoecological Database. [Source on GitHub](https://github.com/ropensci/neotoma)
+-   <pkg>ecoengine</pkg> ([GitHub](https://github.com/ropensci/ecoengine)) provides access to more than 2 million georeferenced specimen records from the [Berkeley Natural History Museums](http://bnhm.berkeley.edu/).
+-   <pkg>ecoretriever</pkg> ([GitHub](https://github.com/ropensci/ecoretriever/)) provides an R interface to the [EcoData Retriever](http://ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.).
+-   <pkg>neotoma</pkg> ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
 -   <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
--   <pkg>rbison</pkg>: Wrapper to the USGS Bison API. [Source on GitHub](https://github.com/ropensci/rbison)
+-   <pkg>rbison</pkg> ([GitHub](https://github.com/ropensci/rbison)) is a wrapper to the USGS Bison API. 
 -   <pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
 -   [ridigbio](https://github.com/idigbio/ridigbio) (not on CRAN) is an interface for <http://www.idigbio.org/>.
--   <pkg>rebird</pkg>: A programmatic interface to the eBird database. [Source on GitHub](https://github.com/ropensci/rebird)
--   [rdopa](https://github.com/ropensci/rdopa) (not on CRAN): Access data from the [Digital Observatory for Protected Areas](http://dopa.jrc.ec.europa.eu/) (DOPA) REST API. [Source on GitHub](https://github.com/ropensci/rdopa)
--   <pkg>Reol</pkg>: An R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages. [Source on GitHub](https://github.com/ropensci/Reol)
--   <pkg>rfishbase</pkg>: A programmatic interface to fishbase.org. [Source on GitHub](https://github.com/ropensci/rfishbase)
--   <pkg>rfisheries</pkg>: Package for interacting with fisheries databases at openfisheries.org. [Source on GitHub](https://github.com/ropensci/rfisheries)
--   [rnpn](https://github.com/ropensci/rnpn) (not on CRAN): Wrapper to the National Phenology Network database API. [Source on GitHub](https://github.com/ropensci/rnpn).
--   <pkg>rredlist</pkg> is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species. [Source on GitHub](https://github.com/ropenscilabs/rredlist).
--   <pkg>rvertnet</pkg>: A wrapper to the VertNet collections database API. [Source on GitHub](https://github.com/ropensci/rvertnet)
+-   <pkg>rebird</pkg> ([GitHub](https://github.com/ropensci/rebird)) is a programmatic interface to the eBird database.
+-   [rdopa](https://github.com/ropensci/rdopa) (not on CRAN): Access data from the [Digital Observatory for Protected Areas](http://dopa.jrc.ec.europa.eu/) (DOPA) REST API.
+-   <pkg>Reol</pkg> ([GitHub](https://github.com/ropensci/Reol)) is an R interface to the Encyclopedia of Life (EOL) API. Includes functions for downloading and extracting information off the EOL pages.
+-   <pkg>rfishbase</pkg> ([GitHub](https://github.com/ropensci/rfishbase)) is a programmatic interface to fishbase.org.
+-   <pkg>rfisheries</pkg> ([GitHub](https://github.com/ropensci/rfisheries)) interacts with fisheries databases at openfisheries.org. 
+-   <pkg>rnpn</pkg> ([GitHub](https://github.com/ropensci/rnpn)): Wrapper to the National Phenology Network database API.
+-   <pkg>rredlist</pkg> ([GitHub](https://github.com/ropenscilabs/rredlist)) is an API client for the [IUCN red list](http://www.iucnredlist.org/) of threatened and engaged species.
+-   <pkg>rvertnet</pkg> ([GitHub](https://github.com/ropensci/rvertnet)) is a wrapper to the VertNet collections database API.
 -   <pkg>rYoutheria</pkg>: A programmatic interface to web-services of Youtheria, an online database of mammalian trait data. Development version on GitHub [here](https://github.com/biologicalrecordscentre/rYoutheria)
 -   <pkg>spocc</pkg> ([GitHub](https://github.com/ropensci/spocc)) offers a programmatic interface to many species occurrence data sources, including GBIF, USGS's BISON, iNaturalist, Berkeley Ecoinformatics Engine eBird, AntWeb, and more as they sources become easily available. rinat provides another interface to iNaturalist. <pkg>spoccutils</pkg> ([Github](https://github.com/ropensci/spoccutils)) provides various utilities for working with data retrieved using spocc.
--   <pkg>TR8</pkg>: TR8 contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database). [Source on GitHub](https://github.com/GioBo/TR8)
--   <pkg>traits</pkg> can retrieve species trait data from many online sources. [Source on Github](https://github.com/ropensci/traits)
+-   <pkg>TR8</pkg> ([GitHub](https://github.com/GioBo/TR8)) contains a set of tools which take care of retrieving trait data for plant species from publicly available databases via web services (including: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity database).
+-   <pkg>traits</pkg> ([Github](https://github.com/ropensci/traits)) can retrieve species trait data from many online sources.
 -   <pkg>rusda</pkg> connects to a large number of USDA databases, especially for fungal-host combinations.
 
 ###Biodiversity and Taxonomy ###
