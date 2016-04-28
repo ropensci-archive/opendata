@@ -37,7 +37,7 @@
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/RSocrata/">RSocrata</a>: (temporarily archived on CRAN for email bounce) Provided with a Socrata dataset resource URL, or a Socrata SoDA web API query, returns an R data frame. Converts dates to POSIX format. Supports CSV and JSON. Manages throttling by Socrata.</li>
     </ul>
     <h2 id="web-based-open-data">Web-based Open Data</h2>
-    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#business">Business</a> | <a href="#chemistry">Chemistry</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
+    <p><a href="#agriculture">Agriculture</a> | <a href="#astronomy">Astronomy</a> | <a href="#business">Business</a> | <a href="#chemistry">Chemistry</a> | <a href="#climate">Climate</a> | <a href="#earth-science">Earth Science</a> | <a href="#ecological-and-evolutionary-biology">Ecology/Evolution</a> | <a href="#finance">Finance</a> | <a href="#genes-and-genomes">Genes/Genomes</a> | <a href="#geocoding">Geocoding</a> | <a href="#google-analytics">Google Analytics</a> | <a href="#google-web-services">Google Web Services</a> | <a href="#government">Government and Economics</a> | <a href="#literature-metadata-text-and-altmetrics">Literature/Text-mining</a> | <a href="#maps">Maps</a> | <a href="#marketing">Marketing</a> | <a href="#ncbi">NCBI</a> | <a href="#news">News</a> | <a href="#other">Other</a> | <a href="#public-health">Public Health</a> | <a href="#social-media">Social Media</a> | <a href="#social-science">Social Science</a> | <a href="#sports">Sports</a> | <a href="#web-analytics">Web Analytics</a> | <a href="#wikipedia">Wikipedia</a> |</p>
     <h3 id="agriculture">Agriculture</h3>
     <ul>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/cimis/">cimis</a>: R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.</li>
@@ -78,24 +78,22 @@
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
     <li><pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
     <li>GhcnDaily (<a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily">Archived on CRAN</a> downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
+    <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
+    <li><pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/</li>
     <li><pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.</li>
     <li><pkg>prism</pkg> (<a href="http://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
-    <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
-    <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
-    </ul>
-    <h3 id="weather">Weather</h3>
-    <ul>
-    <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
-    <li><pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/</li>
+    <li><pkg>RFc</pkg> (<a href="https://github.com/dgrechka/RFc">GitHub</a>) can retrieve weather data from the <a href="http://fc.itis.cs.msu.ru/">FetchClimate Web Service</a>.</li>
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
+    <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
+    <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
     <li><pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.</li>
     <li><pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.</li>
     <li><pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.</li>
     <li><pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.</li>
     </ul>
-    <h2 id="ecology-and-evolutionary-biology">Ecology and Evolutionary Biology</h2>
+    <h3 id="ecology-and-evolutionary-biology">Ecology and Evolutionary Biology</h3>
     <ul>
     <li><a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a></li>
     <li><a href="https://github.com/traitecoevo/baad.data">BAAD: a Biomass And Allometry Database for woody plants</a> (not on CRAN): an interface to access data from a data paper published in <em>Ecology</em>. <a href="https://github.com/dfalster/baad">Full source for the database is also on GitHub</a>.</li>
@@ -517,6 +515,7 @@
     <pkg>retrosheet</pkg>
     <pkg>reutils</pkg>
     <pkg>Rfacebook</pkg>
+    <pkg>RFc</pkg>
     <pkg>rFDSN</pkg>
     <pkg>rfigshare</pkg>
     <pkg>rfishbase</pkg>
