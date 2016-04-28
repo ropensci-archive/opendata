@@ -95,7 +95,6 @@
     </ul>
     <h3 id="ecology-and-evolutionary-biology">Ecology and Evolutionary Biology</h3>
     <ul>
-    <li><a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> (not on CRAN): Programmatic R interface to the <a href="http://www.ala.org.au/">Atlas of Living Australia</a>. <a href="https://github.com/ropensci/ALA4R">Source on GitHub</a></li>
     <li><a href="https://github.com/traitecoevo/baad.data">BAAD: a Biomass And Allometry Database for woody plants</a> (not on CRAN): an interface to access data from a data paper published in <em>Ecology</em>. <a href="https://github.com/dfalster/baad">Full source for the database is also on GitHub</a>.</li>
     <li><bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <a href="http://www.biomart.org">http://www.biomart.org</a>, NCBI refseq, Gene Ontology.</li>
     <li><pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.</li>
@@ -305,7 +304,6 @@
     <h3 id="news">News</h3>
     <ul>
     <li><pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day. <pkg>rdian</pkg> (<a href="https://github.com/ironholds/rdian">GitHub</a>) is another Guardian API client.</li>
-    <li><a href="https://github.com/Btibert3/prismaticR">prismaticR</a> (not on CRAN): R interface to <a href="https://github.com/Prismatic/interest-graph">Prismatic's Topic Graph API</a>.</li>
     <li><a href="https://github.com/ropengov/rtimes">rtimes</a> (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.</li>
     <li><em>ZEIT</em>: <pkg>diezeit</pkg> waps the ZEIT online content API (K).</li>
     </ul>

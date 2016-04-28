@@ -92,7 +92,6 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Ecology and Evolutionary Biology###
 
--   [ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R) (not on CRAN): Programmatic R interface to the [Atlas of Living Australia](http://www.ala.org.au/). [Source on GitHub](https://github.com/ropensci/ALA4R)
 -   [BAAD: a Biomass And Allometry Database for woody plants](https://github.com/traitecoevo/baad.data) (not on CRAN): an interface to access data from a data paper published in _Ecology_. [Full source for the database is also on GitHub](https://github.com/dfalster/baad).
 -   <bioc>biomart</bioc> retrieves data from a number of public biological data repositories including <http://www.biomart.org>, NCBI refseq, Gene Ontology.
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
@@ -297,7 +296,6 @@ There are a very large number of packages providing access to government data. H
 ###News###
 
 -   <pkg>GuardianR</pkg>: Provides an interface to the Open Platform's Content API of the Guardian Media Group. It retrieves content from news outlets The Observer, The Guardian, and guardian.co.uk from 1999 to current day. <pkg>rdian</pkg> ([GitHub](https://github.com/ironholds/rdian)) is another Guardian API client.
--   [prismaticR](https://github.com/Btibert3/prismaticR) (not on CRAN): R interface to [Prismatic's Topic Graph API](https://github.com/Prismatic/interest-graph).
 -   [rtimes](https://github.com/ropengov/rtimes) (not on CRAN): R client for the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs.
 -   <em>ZEIT</em>: <pkg>diezeit</pkg> waps the ZEIT online content API (K).
 
