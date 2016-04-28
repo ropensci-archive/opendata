@@ -251,7 +251,7 @@
     <li><pkg>manifestoR</pkg> is an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
     <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
     <li><pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See <a href="https://data.oecd.org/api/">OECD data</a>.</li>
-    <li><pkg>WDI</pkg>: Search, extract and format data from the World Bank's World Development Indicators.</li>
+    <li>World Bank: <pkg>wbstats</pkg> can extract data from the <a href="http://data.worldbank.org/developers/api-overview">World Bank Data API</a> and the <a href="http://data.worldbank.org/developers/data-catalog-api">World Bank Data Catalog API</a>. <pkg>WDI</pkg> can search, extract and format data from the World Bank's World Development Indicators.</li>
     </ul></li>
     </ul>
     <h3 id="literature-metadata-text-and-altmetrics">Literature, Metadata, Text, and Altmetrics</h3>
@@ -588,6 +588,7 @@
     <pkg>ustyc</pkg>
     <pkg>waterData</pkg>
     <pkg>WaterML</pkg>
+    <pkg>wbstats</pkg>
     <pkg>WDI</pkg>
     <pkg>weatherData</pkg>
     <pkg>weatherr</pkg>

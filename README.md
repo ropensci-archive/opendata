@@ -257,7 +257,7 @@ There are a very large number of packages providing access to government data. H
     -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
-    -   [WDI](http://cran.rstudio.com/web/packages/WDI/index.html): Search, extract and format data from the World Bank's World Development Indicators.
+    -   World Bank: [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html) can extract data from the [World Bank Data API](http://data.worldbank.org/developers/api-overview) and the [World Bank Data Catalog API](http://data.worldbank.org/developers/data-catalog-api). [WDI](http://cran.rstudio.com/web/packages/WDI/index.html) can search, extract and format data from the World Bank's World Development Indicators.
 
 ### Literature, Metadata, Text, and Altmetrics
 
@@ -593,6 +593,7 @@ There are a very large number of packages providing access to government data. H
 -   [ustyc](http://cran.rstudio.com/web/packages/ustyc/index.html)
 -   [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
 -   [WaterML](http://cran.rstudio.com/web/packages/WaterML/index.html)
+-   [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html)
 -   [WDI](http://cran.rstudio.com/web/packages/WDI/index.html)
 -   [weatherData](http://cran.rstudio.com/web/packages/weatherData/index.html)
 -   [weatherr](http://cran.rstudio.com/web/packages/weatherr/index.html)
