@@ -337,6 +337,7 @@ There are a very large number of packages providing access to government data. H
 -   [rClinicalCodes](http://cran.rstudio.com/web/packages/rClinicalCodes/index.html): R tools for integrating with the http://www.clinicalcodes.org web repository
 -   [rclinicaltrials](http://cran.rstudio.com/web/packages/rclinicaltrials/index.html) ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html) constructs U.S. cancer data at the county level from [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the U.S. Census Bureau.
+-   [vaers](https://gitlab.com/iembry/vaers) (not on CRAN) provides U.S. vaccine adverse event data from the [VAERS](https://vaers.hhs.gov/index) vaccine surveillance program. [vaersvax](http://cran.rstudio.com/web/packages/vaersvax/index.html) provides a subset a subset of these data for three months of 2016. [vaersNDvax](http://cran.rstudio.com/web/packages/vaersNDvax/index.html) provides non-domestic data for the same period.
 -   WHO: [WHO](http://cran.rstudio.com/web/packages/WHO/index.html) ([GitHub](https://www.github.com/expersso/WHO)) provides an interface to the [World Health Organization](http://www.who.int/) API. [rgho](http://cran.rstudio.com/web/packages/rgho/index.html) ([GitHub](https://github.com/pierucci/rgho)) connects to the WHO Global Health Observatory data.
 
 ### Social media
@@ -591,6 +592,8 @@ There are a very large number of packages providing access to government data. H
 -   [USAboundaries](http://cran.rstudio.com/web/packages/USAboundaries/index.html)
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html)
 -   [ustyc](http://cran.rstudio.com/web/packages/ustyc/index.html)
+-   [vaersNDvax](http://cran.rstudio.com/web/packages/vaersNDvax/index.html)
+-   [vaersvax](http://cran.rstudio.com/web/packages/vaersvax/index.html)
 -   [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
 -   [WaterML](http://cran.rstudio.com/web/packages/WaterML/index.html)
 -   [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html)

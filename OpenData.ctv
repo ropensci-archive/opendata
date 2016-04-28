@@ -332,6 +332,7 @@
     <li><pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository</li>
     <li><pkg>rclinicaltrials</pkg> (<a href="https://github.com/sachsmc/rclinicaltrials">GitHub</a>): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.</li>
     <li><pkg>UScancer</pkg> constructs U.S. cancer data at the county level from <a href="http://seer.cancer.gov/">SEER</a>, <a href="http://www.iarc.fr">IARC</a>, and the U.S. Census Bureau.</li>
+    <li><a href="https://gitlab.com/iembry/vaers">vaers</a> (not on CRAN) provides U.S. vaccine adverse event data from the <a href="https://vaers.hhs.gov/index">VAERS</a> vaccine surveillance program. <pkg>vaersvax</pkg> provides a subset a subset of these data for three months of 2016. <pkg>vaersNDvax</pkg> provides non-domestic data for the same period.</li>
     <li>WHO: <pkg>WHO</pkg> (<a href="https://www.github.com/expersso/WHO">GitHub</a>) provides an interface to the <a href="http://www.who.int/">World Health Organization</a> API. <pkg>rgho</pkg> (<a href="https://github.com/pierucci/rgho">GitHub</a>) connects to the WHO Global Health Observatory data.</li>
     </ul>
     <h3 id="social-media">Social media</h3>
@@ -586,6 +587,8 @@
     <pkg>USAboundaries</pkg>
     <pkg>UScancer</pkg>
     <pkg>ustyc</pkg>
+    <pkg>vaersNDvax</pkg>
+    <pkg>vaersvax</pkg>
     <pkg>waterData</pkg>
     <pkg>WaterML</pkg>
     <pkg>wbstats</pkg>

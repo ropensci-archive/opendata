@@ -324,6 +324,7 @@ There are a very large number of packages providing access to government data. H
 -   <pkg>rClinicalCodes</pkg>: R tools for integrating with the http://www.clinicalcodes.org web repository
 -   <pkg>rclinicaltrials</pkg> ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.
 -   <pkg>UScancer</pkg> constructs U.S. cancer data at the county level from [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the U.S. Census Bureau.
+-   [vaers](https://gitlab.com/iembry/vaers) (not on CRAN) provides U.S. vaccine adverse event data from the [VAERS](https://vaers.hhs.gov/index) vaccine surveillance program. <pkg>vaersvax</pkg> provides a subset a subset of these data for three months of 2016. <pkg>vaersNDvax</pkg> provides non-domestic data for the same period.
 -   WHO: <pkg>WHO</pkg> ([GitHub](https://www.github.com/expersso/WHO)) provides an interface to the [World Health Organization](http://www.who.int/) API. <pkg>rgho</pkg> ([GitHub](https://github.com/pierucci/rgho)) connects to the WHO Global Health Observatory data.
 
 ###Social media###
