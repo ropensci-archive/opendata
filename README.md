@@ -335,7 +335,7 @@ There are a very large number of packages providing access to government data. H
 -   [rClinicalCodes](http://cran.rstudio.com/web/packages/rClinicalCodes/index.html): R tools for integrating with the http://www.clinicalcodes.org web repository
 -   [rclinicaltrials](http://cran.rstudio.com/web/packages/rclinicaltrials/index.html) ([GitHub](https://github.com/sachsmc/rclinicaltrials)): ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world. This is an R client for that data.
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html) constructs U.S. cancer data at the county level from [SEER](http://seer.cancer.gov/), [IARC](http://www.iarc.fr), and the U.S. Census Bureau.
--   [WHO](http://cran.rstudio.com/web/packages/WHO/index.html) provides an interface to the [World Health Organization](http://www.who.int/) API. [Source on GitHub](https://www.github.com/expersso/WHO).
+-   WHO: [WHO](http://cran.rstudio.com/web/packages/WHO/index.html) ([GitHub](https://www.github.com/expersso/WHO)) provides an interface to the [World Health Organization](http://www.who.int/) API. [rgho](http://cran.rstudio.com/web/packages/rgho/index.html) ([GitHub](https://github.com/pierucci/rgho)) connects to the WHO Global Health Observatory data.
 
 ### Social media
 
@@ -520,6 +520,7 @@ There are a very large number of packages providing access to government data. H
 -   [RForcecom](http://cran.rstudio.com/web/packages/RForcecom/index.html)
 -   [RGA](http://cran.rstudio.com/web/packages/RGA/index.html)
 -   [rgbif](http://cran.rstudio.com/web/packages/rgbif/index.html)
+-   [rgho](http://cran.rstudio.com/web/packages/rgho/index.html)
 -   [RGoogleAnalytics](http://cran.rstudio.com/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html)
 -   [RISmed](http://cran.rstudio.com/web/packages/RISmed/index.html)
