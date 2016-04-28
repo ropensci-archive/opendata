@@ -218,7 +218,7 @@
     <li><pkg>pxweb</pkg> (<a href="https://github.com/rOpenGov/pxweb">GitHub</a>) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.</li>
     <li><pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
     </ul></li>
-    <li><em>Germany</em>: <pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R.</li>
+    <li><em>Germany</em>: <pkg>BerlinData</pkg> (<a href="https://github.com/dirkschumacher/RBerlinData">GitHub</a>): Easy access to <a href="http://daten.berlin.de">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. <pkg>rdnb</pkg> connects to resources of the <a href="http://www.dnb.de">German National Library</a>.</li>
     <li><em>Japan</em>: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API.</li>
     <li><em>Mexico</em>: <pkg>inegiR</pkg> (<a href="https://github.com/Eflores89/inegiR">GitHub</a>) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
     <li><em>Netherlands</em>: <pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
@@ -503,6 +503,7 @@
     <pkg>RCryptsy</pkg>
     <pkg>rdatamarket</pkg>
     <pkg>rdian</pkg>
+    <pkg>rdnb</pkg>
     <pkg>rebird</pkg>
     <pkg>redcapAPI</pkg>
     <pkg>RedditExtractoR</pkg>
