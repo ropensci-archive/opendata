@@ -76,7 +76,7 @@
     <li><pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.</li>
     <li><pkg>clifro</pkg>: Designed to minimise the hassle in downloading data from New Zealand's National Climate Database via <a href="http://cliflo.niwa.co.nz/">CliFlo</a>. <a href="https://github.com/ropensci/clifro">Source on GitHub</a></li>
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
-    <li><pkg>decctools</pkg>: Provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
+    <li><a href="https://cran.r-project.org/web/packages/decctools/index.html">decctools</a> (archived on CRAN) provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
     <li>GhcnDaily (<a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily">Archived on CRAN</a> downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
     <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
@@ -415,7 +415,6 @@
     <pkg>datamart</pkg>
     <pkg>dataonderivatives</pkg>
     <pkg>dataRetrieval</pkg>
-    <pkg>decctools</pkg>
     <pkg>diezeit</pkg>
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
