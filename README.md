@@ -358,6 +358,7 @@ There are a very large number of packages providing access to government data. H
 
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html) Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
+-   [gdeltr2](https://github.com/abresler/gdeltr2) (not on CRAN) connects to the [The Global Database of Events, Language, and Tone](http://gdeltproject.org/).
 -   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html) provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).
 -   [icpsrdata](http://cran.rstudio.com/web/packages/icpsrdata/index.html) offers programmatic retrieval of datasets from the Inter-university Consortium for Political and Social Research archive.
 -   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html) ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).

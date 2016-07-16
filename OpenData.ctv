@@ -355,6 +355,7 @@
     <ul>
     <li><a href="http://www.asdfree.com/">asdfree: analyze survey data for free</a> (not a package) provides lots of code examples for analyzing survey data in R. Also on <a href="https://github.com/ajdamico/usgsd">github</a>.</li>
     <li><pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the <a href="http://thegradcafe.com">Grad Cafe website</a>.</li>
+    <li><a href="https://github.com/abresler/gdeltr2">gdeltr2</a> (not on CRAN) connects to the <a href="http://gdeltproject.org/">The Global Database of Events, Language, and Tone</a>.</li>
     <li><pkg>gesis</pkg> provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).</li>
     <li><pkg>icpsrdata</pkg> offers programmatic retrieval of datasets from the Inter-university Consortium for Political and Social Research archive.</li>
     <li><pkg>maddison</pkg> (<a href="https://github.com/expersso/maddison">GitHub</a>) provides GDP per capita data for all years AD 1 to 2010 from the <a href="http://www.ggdc.net/maddison">Maddison Project</a>.</li>
