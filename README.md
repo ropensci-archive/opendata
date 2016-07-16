@@ -241,6 +241,7 @@ There are a very large number of packages providing access to government data. H
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
+    -   [pewdata](http://cran.rstudio.com/web/packages/pewdata/index.html) uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html) retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
@@ -483,6 +484,7 @@ There are a very large number of packages providing access to government data. H
 -   [pageviews](http://cran.rstudio.com/web/packages/pageviews/index.html)
 -   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html)
 -   [pdfetch](http://cran.rstudio.com/web/packages/pdfetch/index.html)
+-   [pewdata](http://cran.rstudio.com/web/packages/pewdata/index.html)
 -   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html)
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html)
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html)

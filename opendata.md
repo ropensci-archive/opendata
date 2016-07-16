@@ -228,6 +228,7 @@ There are a very large number of packages providing access to government data. H
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
+    -   <pkg>pewdata</pkg> uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   <pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
