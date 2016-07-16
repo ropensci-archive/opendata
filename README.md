@@ -230,7 +230,7 @@ There are a very large number of packages providing access to government data. H
 -   *Finland* :
     -   [pxweb](http://cran.rstudio.com/web/packages/pxweb/index.html) ([GitHub](https://github.com/rOpenGov/pxweb)) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.
     -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html) ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
--   *Germany*: [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html) ([GitHub](https://github.com/dirkschumacher/RBerlinData)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R. [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html) connects to resources of the [German National Library](http://www.dnb.de).
+-   *Germany*: [BerlinData](https://github.com/dirkschumacher/RBerlinData) ([archived on CRAN](https://cran.r-project.org/src/contrib/Archive/BerlinData/)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R. [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html) connects to resources of the [German National Library](http://www.dnb.de).
 -   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html) offers functions to get public survey data in Japan. [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html) links to the Japanese government's e-Stat official statistics API.
 -   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
@@ -413,7 +413,6 @@ There are a very large number of packages providing access to government data. H
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html)
 -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
--   [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html)
 -   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
 -   [biorxivr](http://cran.rstudio.com/web/packages/biorxivr/index.html)
