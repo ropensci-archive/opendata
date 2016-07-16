@@ -228,7 +228,6 @@ There are a very large number of packages providing access to government data. H
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
-    -   <pkg>pewdata</pkg> uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   <pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
@@ -348,8 +347,10 @@ There are a very large number of packages providing access to government data. H
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 -   <pkg>brewdata</pkg> Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
 -   <pkg>gesis</pkg> provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).
+-   <pkg>icpsrdata</pkg> offers programmatic retrieval of datasets from the Inter-university Consortium for Political and Social Research archive.
 -   <pkg>maddison</pkg> ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   <pkg>ONETr</pkg> searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
+-   <pkg>pewdata</pkg> uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
 -   <pkg>psidR</pkg> contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 -   <pkg>wordbankr</pkg> ([GitHub](https://github.com/langcog/wordbankr)) connects to [Wordbank](http://wordbank.stanford.edu/), a database of childrens' developmental vocabulary.
 -   The <ohat>Zillow</ohat> (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.

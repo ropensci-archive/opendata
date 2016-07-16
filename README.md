@@ -241,7 +241,6 @@ There are a very large number of packages providing access to government data. H
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
-    -   [pewdata](http://cran.rstudio.com/web/packages/pewdata/index.html) uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html) retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
@@ -359,8 +358,10 @@ There are a very large number of packages providing access to government data. H
 -   [asdfree: analyze survey data for free](http://www.asdfree.com/) (not a package) provides lots of code examples for analyzing survey data in R. Also on [github](https://github.com/ajdamico/usgsd).
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html) Retrieves and parses graduate admissions survey data from the [Grad Cafe website](http://thegradcafe.com).
 -   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html) provides access to the Leibniz-Institute for the Social Sciences Data Catalogue/Datenbestandkatalog (DBK).
+-   [icpsrdata](http://cran.rstudio.com/web/packages/icpsrdata/index.html) offers programmatic retrieval of datasets from the Inter-university Consortium for Political and Social Research archive.
 -   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html) ([GitHub](https://github.com/expersso/maddison)) provides GDP per capita data for all years AD 1 to 2010 from the [Maddison Project](http://www.ggdc.net/maddison).
 -   [ONETr](http://cran.rstudio.com/web/packages/ONETr/index.html) searches and retrieves occupational data from [O\*NET Online](http://www.onetonline.org/). Development version on GitHub [here](https://github.com/eknud/onetr).
+-   [pewdata](http://cran.rstudio.com/web/packages/pewdata/index.html) uses RSelenium to retrieve datasets from the webpages of the Pew Research Center.
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html) contains functions to download and format longitudinal datasets from the Panel Study of Income Dynamics (PSID).
 -   [wordbankr](http://cran.rstudio.com/web/packages/wordbankr/index.html) ([GitHub](https://github.com/langcog/wordbankr)) connects to [Wordbank](http://wordbank.stanford.edu/), a database of childrens' developmental vocabulary.
 -   The [<span class="Ohat">Zillow</span>](http://www.Omegahat.org/Zillow/) (not on CRAN) package provides an R interface to the [Zillow](http://www.zillow.com/) Web Service API. It allows one to get the Zillow estimate for the price of a particular property specified by street address and ZIP code (or city and state), to find information (e.g. size of property and lot, number of bedrooms and bathrooms, year built.) about a given property, and to get comparable properties.
@@ -460,6 +461,7 @@ There are a very large number of packages providing access to government data. H
 -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html)
 -   [hoardeR](http://cran.rstudio.com/web/packages/hoardeR/index.html)
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html)
+-   [icpsrdata](http://cran.rstudio.com/web/packages/icpsrdata/index.html)
 -   [idbr](http://cran.rstudio.com/web/packages/idbr/index.html)
 -   [imguR](http://cran.rstudio.com/web/packages/imguR/index.html)
 -   [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html)
