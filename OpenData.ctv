@@ -238,6 +238,7 @@
     <li>Elections: <pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results. <a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
     <li>Federal Reserve: <a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
     <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
+    <li><pkg>csp</pkg> (<a href="https://github.com/expersso/csp">GitHub</a>) provides the complete <a href="http://ippsr.msu.edu/public-policy/correlates-state-policy">Correlates of State Policy data set</a>.</li>
     <li><pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.</li>
@@ -425,6 +426,7 @@
     <pkg>crandatapkgs</pkg>
     <pkg>cricketr</pkg>
     <pkg>crn</pkg>
+    <pkg>csp</pkg>
     <pkg>datamart</pkg>
     <pkg>dataonderivatives</pkg>
     <pkg>dataRetrieval</pkg>

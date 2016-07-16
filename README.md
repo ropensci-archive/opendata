@@ -244,6 +244,7 @@ There are a very large number of packages providing access to government data. H
     -   Elections: [elexr](http://cran.rstudio.com/web/packages/elexr/index.html) is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. [pvsR](http://cran.rstudio.com/web/packages/pvsR/index.html): An R package to interact with the Project Vote Smart API for scientific research. [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html): An R package for the OpenSecrets.org web services API.
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
+    -   [csp](http://cran.rstudio.com/web/packages/csp/index.html) ([GitHub](https://github.com/expersso/csp)) provides the complete [Correlates of State Policy data set](http://ippsr.msu.edu/public-policy/correlates-state-policy).
     -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html) retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
@@ -428,6 +429,7 @@ There are a very large number of packages providing access to government data. H
 -   [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html)
 -   [cricketr](http://cran.rstudio.com/web/packages/cricketr/index.html)
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html)
+-   [csp](http://cran.rstudio.com/web/packages/csp/index.html)
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html)
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html)
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
