@@ -218,6 +218,7 @@ Web-based Open Data
 
 There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
+-   *Australia*: [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html) provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe* :
     -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html) ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
@@ -432,6 +433,7 @@ There are a very large number of packages providing access to government data. H
 -   [ecb](http://cran.rstudio.com/web/packages/ecb/index.html)
 -   [ecoengine](http://cran.rstudio.com/web/packages/ecoengine/index.html)
 -   [ecoretriever](http://cran.rstudio.com/web/packages/ecoretriever/index.html)
+-   [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html)
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)

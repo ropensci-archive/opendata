@@ -205,6 +205,7 @@
     <h3 id="government">Government</h3>
     <p>There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.</p>
     <ul>
+    <li><em>Australia</em>: <pkg>eechidna</pkg> provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.</li>
     <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
     <li><em>Europe</em>:
     <ul>
@@ -429,6 +430,7 @@
     <pkg>ecb</pkg>
     <pkg>ecoengine</pkg>
     <pkg>ecoretriever</pkg>
+    <pkg>eechidna</pkg>
     <pkg>EIAdata</pkg>
     <pkg>elexr</pkg>
     <pkg>enigma</pkg>

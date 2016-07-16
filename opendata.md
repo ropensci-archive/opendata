@@ -205,6 +205,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
+-   *Australia*: <pkg>eechidna</pkg> provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe*:
     -   <pkg>ameco</pkg> ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
