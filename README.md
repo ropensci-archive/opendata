@@ -254,7 +254,7 @@ There are a very large number of packages providing access to government data. H
 -   *Other or international* :
     -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
-    -   [imfr](https://github.com/christophergandrud/imfr) (not on CRAN) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
+    -   [imfr](http://cran.rstudio.com/web/packages/imfr/index.html) ([GitHub](https://github.com/christophergandrud/imfr)) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [muckrock](http://cran.rstudio.com/web/packages/muckrock/index.html) ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
@@ -468,6 +468,7 @@ There are a very large number of packages providing access to government data. H
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html)
 -   [icpsrdata](http://cran.rstudio.com/web/packages/icpsrdata/index.html)
 -   [idbr](http://cran.rstudio.com/web/packages/idbr/index.html)
+-   [imfr](http://cran.rstudio.com/web/packages/imfr/index.html)
 -   [imguR](http://cran.rstudio.com/web/packages/imguR/index.html)
 -   [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html)
 -   [jSonarR](http://cran.rstudio.com/web/packages/jSonarR/index.html)

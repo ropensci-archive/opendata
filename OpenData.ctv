@@ -250,7 +250,7 @@
     <ul>
     <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
     <li><pkg>hdr</pkg> (<a href="https://github.com/expersso/hdr">GitHub</a>) is an interface to United Nations Development Programme <a href="http://hdr.undp.org">Human Development Report</a> API.</li>
-    <li><a href="https://github.com/christophergandrud/imfr">imfr</a> (not on CRAN) links to the <a href="http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service">International Monetary Fund's API</a>.</li>
+    <li><pkg>imfr</pkg> (<a href="https://github.com/christophergandrud/imfr">GitHub</a>) links to the <a href="http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service">International Monetary Fund's API</a>.</li>
     <li><pkg>manifestoR</pkg> is an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
     <li><pkg>muckrock</pkg> (<a href="https://github.com/Ironholds/muckrock/">GitHub</a>) offers data from <a href="https://www.muckrock.com/">MuckRock</a> about public domain information on FOIA requests in the U.S.</li>
     <li><pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See <a href="https://data.oecd.org/api/">OECD data</a>.</li>
@@ -465,6 +465,7 @@
     <pkg>IBrokers</pkg>
     <pkg>icpsrdata</pkg>
     <pkg>idbr</pkg>
+    <pkg>imfr</pkg>
     <pkg>imguR</pkg>
     <pkg>inegiR</pkg>
     <pkg>jSonarR</pkg>
