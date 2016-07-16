@@ -252,8 +252,9 @@ There are a very large number of packages providing access to government data. H
     -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
     -   [imfr](https://github.com/christophergandrud/imfr) (not on CRAN) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
-    -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
+    -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
+    -   [psData](http://cran.rstudio.com/web/packages/psData/index.html) ([GitHub](https://github.com/christophergandrud/psData/)) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.
     -   World Bank: [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html) can extract data from the [World Bank Data API](http://data.worldbank.org/developers/api-overview) and the [World Bank Data Catalog API](http://data.worldbank.org/developers/data-catalog-api). [WDI](http://cran.rstudio.com/web/packages/WDI/index.html) can search, extract and format data from the World Bank's World Development Indicators.
 
 ### Literature, Metadata, Text, and Altmetrics
@@ -488,6 +489,7 @@ There are a very large number of packages providing access to government data. H
 -   [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html)
 -   [primerTree](http://cran.rstudio.com/web/packages/primerTree/index.html)
 -   [prism](http://cran.rstudio.com/web/packages/prism/index.html)
+-   [psData](http://cran.rstudio.com/web/packages/psData/index.html)
 -   [psidR](http://cran.rstudio.com/web/packages/psidR/index.html)
 -   [pubmed.mineR](http://cran.rstudio.com/web/packages/pubmed.mineR/index.html)
 -   [pvsR](http://cran.rstudio.com/web/packages/pvsR/index.html)
