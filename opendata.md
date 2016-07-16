@@ -249,6 +249,7 @@ There are a very large number of packages providing access to government data. H
 -   <pkg>alm</pkg>: R wrapper to the almetrics API platform developed by PLoS.
 -   <pkg>aRxiv</pkg> ([GitHub](https://github.com/ropensci/aRxiv)): An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.
 -   <pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
+-   <pkg>gutenbergr</pkg> ([Gitub](https://github.com/ropenscilabs/gutenbergr)) searches and downloads text from [Project Gutenberg](https://www.gutenberg.org/).
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
 -   <pkg>lumendb</pkg> can retrieve copyright takedown notices from [Lumen Database](https://lumendatabase.org/) (formerly, Chilling Effects).
 -   ngramr ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/ngramr)) retrieves and plot word frequencies through time from the Google Ngram Viewer.
