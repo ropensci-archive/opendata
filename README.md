@@ -101,6 +101,7 @@ Web-based Open Data
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Obtain, organize, and visualize [NCEP](http://www.ncep.noaa.gov/) weather data.
 -   [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): R interface to NOAA Climate data API.
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html): An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: [<span class="Rforge">rnomads</span>](http://R-Forge.R-project.org/projects/rnomads/).
+-   [ropenaq](http://cran.rstudio.com/web/packages/ropenaq/index.html) ([GitHub](http://github.com/ropenscilabs/ropenaq)) provides air quality data from [the OpenAQ platform](https://docs.openaq.org/).
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html): R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
 -   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html) access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.
 -   [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html) can retrieve hourly weather data from various global weather stations.
@@ -563,6 +564,7 @@ There are a very large number of packages providing access to government data. H
 -   [rnpn](http://cran.rstudio.com/web/packages/rnpn/index.html)
 -   [rnrfa](http://cran.rstudio.com/web/packages/rnrfa/index.html)
 -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html)
+-   [ropenaq](http://cran.rstudio.com/web/packages/ropenaq/index.html)
 -   [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html)
 -   [rPlant](http://cran.rstudio.com/web/packages/rPlant/index.html)
 -   [rplos](http://cran.rstudio.com/web/packages/rplos/index.html)

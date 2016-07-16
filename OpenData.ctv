@@ -89,6 +89,7 @@
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
     <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
+    <li><pkg>ropenaq</pkg> (<a href="http://github.com/ropenscilabs/ropenaq">GitHub</a>) provides air quality data from <a href="https://docs.openaq.org/">the OpenAQ platform</a>.</li>
     <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
     <li><pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.</li>
     <li><pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.</li>
@@ -560,6 +561,7 @@
     <pkg>rnpn</pkg>
     <pkg>rnrfa</pkg>
     <pkg>rodham</pkg>
+    <pkg>ropenaq</pkg>
     <pkg>ropensecretsapi</pkg>
     <pkg>rPlant</pkg>
     <pkg>rplos</pkg>
