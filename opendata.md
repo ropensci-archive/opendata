@@ -81,6 +81,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 -   <pkg>prism</pkg> ([GitHub](https://github.com/ropensci/prism)) provides access to Oregon State Prism climate data.
 -   <pkg>RFc</pkg> ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
+-   <pkg>riem</pkg> ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   <pkg>RNCEP</pkg>: Obtain, organize, and visualize[NCEP](http://www.ncep.noaa.gov/) weather data.
 -   <pkg>rnoaa</pkg>: R interface to NOAA Climate data API.
 -   <pkg>rNOMADS</pkg>: An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.

@@ -84,6 +84,7 @@
     <li><pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.</li>
     <li><pkg>prism</pkg> (<a href="https://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
     <li><pkg>RFc</pkg> (<a href="https://github.com/dgrechka/RFc">GitHub</a>) can retrieve weather data from the <a href="http://fc.itis.cs.msu.ru/">FetchClimate Web Service</a>.</li>
+    <li><pkg>riem</pkg> (<a href="http://github.com/ropenscilabs/riem">GitHub</a>) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.</li>
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
     <li><pkg>rnoaa</pkg>: R interface to NOAA Climate data API.</li>
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
@@ -542,6 +543,7 @@
     <pkg>rgho</pkg>
     <pkg>RGoogleAnalytics</pkg>
     <pkg>RgoogleMaps</pkg>
+    <pkg>riem</pkg>
     <pkg>RISmed</pkg>
     <pkg>RJSDMX</pkg>
     <pkg>RKlout</pkg>

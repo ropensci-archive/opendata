@@ -96,6 +96,7 @@ Web-based Open Data
 -   [okmesonet](http://cran.rstudio.com/web/packages/okmesonet/index.html): Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 -   [prism](http://cran.rstudio.com/web/packages/prism/index.html) ([GitHub](https://github.com/ropensci/prism)) provides access to Oregon State Prism climate data.
 -   [RFc](http://cran.rstudio.com/web/packages/RFc/index.html) ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
+-   [riem](http://cran.rstudio.com/web/packages/riem/index.html) ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Obtain, organize, and visualize [NCEP](http://www.ncep.noaa.gov/) weather data.
 -   [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): R interface to NOAA Climate data API.
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html): An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: [<span class="Rforge">rnomads</span>](http://R-Forge.R-project.org/projects/rnomads/).
@@ -545,6 +546,7 @@ There are a very large number of packages providing access to government data. H
 -   [rgho](http://cran.rstudio.com/web/packages/rgho/index.html)
 -   [RGoogleAnalytics](http://cran.rstudio.com/web/packages/RGoogleAnalytics/index.html)
 -   [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html)
+-   [riem](http://cran.rstudio.com/web/packages/riem/index.html)
 -   [RISmed](http://cran.rstudio.com/web/packages/RISmed/index.html)
 -   [RJSDMX](http://cran.rstudio.com/web/packages/RJSDMX/index.html)
 -   [RKlout](http://cran.rstudio.com/web/packages/RKlout/index.html)
