@@ -264,6 +264,7 @@ There are a very large number of packages providing access to government data. H
 
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html): R wrapper to the almetrics API platform developed by PLoS.
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html) ([GitHub](https://github.com/ropensci/aRxiv)): An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.
+-   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html) can import bibliographic data from SCOPUS and ISI Web of Science.
 -   [boilerpipeR](http://cran.rstudio.com/web/packages/boilerpipeR/index.html): Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.
 -   [gutenbergr](http://cran.rstudio.com/web/packages/gutenbergr/index.html) ([Gitub](https://github.com/ropenscilabs/gutenbergr)) searches and downloads text from [Project Gutenberg](https://www.gutenberg.org/).
 -   [JSTORr](https://github.com/benmarwick/JSTORr) (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service
@@ -405,6 +406,7 @@ There are a very large number of packages providing access to government data. H
 -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
 -   [BerlinData](http://cran.rstudio.com/web/packages/BerlinData/index.html)
+-   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
 -   [biorxivr](http://cran.rstudio.com/web/packages/biorxivr/index.html)
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html)

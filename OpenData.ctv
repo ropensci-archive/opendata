@@ -261,6 +261,7 @@
     <ul>
     <li><pkg>alm</pkg>: R wrapper to the almetrics API platform developed by PLoS.</li>
     <li><pkg>aRxiv</pkg> (<a href="https://github.com/ropensci/aRxiv">GitHub</a>): An R client for the arXiv API, a repository of electronic preprints for computer science, mathematics, physics, quantitative biology, quantitative finance, and statistics.</li>
+    <li><pkg>bibliometrix</pkg> can import bibliographic data from SCOPUS and ISI Web of Science.</li>
     <li><pkg>boilerpipeR</pkg>: Generic Extraction of main text content from HTML files; removal of ads, sidebars and headers using the boilerpipe Java library.</li>
     <li><pkg>gutenbergr</pkg> (<a href="https://github.com/ropenscilabs/gutenbergr">Gitub</a>) searches and downloads text from <a href="https://www.gutenberg.org/">Project Gutenberg</a>.</li>
     <li><a href="https://github.com/benmarwick/JSTORr">JSTORr</a> (Not on CRAN): Simple text mining of journal articles from JSTOR's Data for Research service</li>
@@ -402,6 +403,7 @@
     <pkg>ameco</pkg>
     <pkg>aRxiv</pkg>
     <pkg>BerlinData</pkg>
+    <pkg>bibliometrix</pkg>
     <pkg>bigrquery</pkg>
     <pkg>biorxivr</pkg>
     <pkg>blsAPI</pkg>
