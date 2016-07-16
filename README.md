@@ -152,6 +152,7 @@ Web-based Open Data
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html) Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 -   [fImport](http://cran.rstudio.com/web/packages/fImport/index.html): Environment for teaching "Financial Engineering and Computational Finance"
+-   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html) downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html): Provides native R access to Interactive Brokers Trader Workstation API. ($)
 -   [pdfetch](http://cran.rstudio.com/web/packages/pdfetch/index.html): A package for downloading economic and financial time series from public sources.
 -   [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html): Functions for financial quantitative modelling as well as data acquisition, plotting and other utilities.
@@ -443,6 +444,7 @@ There are a very large number of packages providing access to government data. H
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html)
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
 -   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html)
+-   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html)

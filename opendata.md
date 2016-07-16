@@ -139,6 +139,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
+-   <pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
 -   <pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API. ($)
 -   <pkg>pdfetch</pkg>: A package for downloading economic and financial time series from public sources.
 -   <pkg>quantmod</pkg>: Functions for financial quantitative modelling as well as data acquisition, plotting and other utilities.
