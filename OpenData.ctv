@@ -83,6 +83,7 @@
     <li><pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/</li>
     <li><pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.</li>
     <li><pkg>prism</pkg> (<a href="https://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
+    <li><pkg>rdefra</pkg> (<a href="https://github.com/kehraProject/r_rdefra">GitHub</a>) retrieves UK air pollution data from DEFRA's UK-AIR website.</li>
     <li><pkg>RFc</pkg> (<a href="https://github.com/dgrechka/RFc">GitHub</a>) can retrieve weather data from the <a href="http://fc.itis.cs.msu.ru/">FetchClimate Web Service</a>.</li>
     <li><pkg>riem</pkg> (<a href="http://github.com/ropenscilabs/riem">GitHub</a>) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.</li>
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
@@ -523,6 +524,7 @@
     <pkg>Rcolombos</pkg>
     <pkg>RCryptsy</pkg>
     <pkg>rdatamarket</pkg>
+    <pkg>rdefra</pkg>
     <pkg>rdian</pkg>
     <pkg>rdnb</pkg>
     <pkg>rebird</pkg>

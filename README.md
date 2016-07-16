@@ -95,6 +95,7 @@ Web-based Open Data
 -   [meteoForecast](http://cran.rstudio.com/web/packages/meteoForecast/index.html): meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with [GFS](http://www.emc.ncep.noaa.gov/index.php?branch=GFS), [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action), [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page), [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam), and [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap). \[Source on GitHub\](https://github.com/oscarperpinan/meteoForecast/
 -   [okmesonet](http://cran.rstudio.com/web/packages/okmesonet/index.html): Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 -   [prism](http://cran.rstudio.com/web/packages/prism/index.html) ([GitHub](https://github.com/ropensci/prism)) provides access to Oregon State Prism climate data.
+-   [rdefra](http://cran.rstudio.com/web/packages/rdefra/index.html) ([GitHub](https://github.com/kehraProject/r_rdefra)) retrieves UK air pollution data from DEFRA's UK-AIR website.
 -   [RFc](http://cran.rstudio.com/web/packages/RFc/index.html) ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
 -   [riem](http://cran.rstudio.com/web/packages/riem/index.html) ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Obtain, organize, and visualize [NCEP](http://www.ncep.noaa.gov/) weather data.
@@ -526,6 +527,7 @@ There are a very large number of packages providing access to government data. H
 -   [Rcolombos](http://cran.rstudio.com/web/packages/Rcolombos/index.html)
 -   [RCryptsy](http://cran.rstudio.com/web/packages/RCryptsy/index.html)
 -   [rdatamarket](http://cran.rstudio.com/web/packages/rdatamarket/index.html)
+-   [rdefra](http://cran.rstudio.com/web/packages/rdefra/index.html)
 -   [rdian](http://cran.rstudio.com/web/packages/rdian/index.html)
 -   [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html)
 -   [rebird](http://cran.rstudio.com/web/packages/rebird/index.html)
