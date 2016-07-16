@@ -252,6 +252,7 @@
     <li><pkg>hdr</pkg> (<a href="https://github.com/expersso/hdr">GitHub</a>) is an interface to United Nations Development Programme <a href="http://hdr.undp.org">Human Development Report</a> API.</li>
     <li><a href="https://github.com/christophergandrud/imfr">imfr</a> (not on CRAN) links to the <a href="http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service">International Monetary Fund's API</a>.</li>
     <li><pkg>manifestoR</pkg> is an R client to access data and documents of <a href="https://manifesto-project.wzb.eu/">the manifesto project</a></li>
+    <li><pkg>muckrock</pkg> (<a href="https://github.com/Ironholds/muckrock/">GitHub</a>) offers data from <a href="https://www.muckrock.com/">MuckRock</a> about public domain information on FOIA requests in the U.S.</li>
     <li><pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See <a href="https://data.oecd.org/api/">OECD data</a>.</li>
     <li><a href="https://github.com/kateto/PolitwoopsR">PolitwoopsR</a> (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).</li>
     <li><pkg>psData</pkg> (<a href="https://github.com/christophergandrud/psData/">GitHub</a>) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.</li>
@@ -474,6 +475,7 @@
     <pkg>marmap</pkg>
     <pkg>MBTAr</pkg>
     <pkg>meteoForecast</pkg>
+    <pkg>muckrock</pkg>
     <pkg>neotoma</pkg>
     <pkg>nhanesA</pkg>
     <pkg>nhlscrapr</pkg>

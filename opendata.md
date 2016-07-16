@@ -243,6 +243,7 @@ There are a very large number of packages providing access to government data. H
     -   <pkg>hdr</pkg> ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](<http://hdr.undp.org>) API.
     -   [imfr](https://github.com/christophergandrud/imfr) (not on CRAN) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   <pkg>manifestoR</pkg> is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
+    -   <pkg>muckrock</pkg> ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
     -   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   <pkg>psData</pkg> ([GitHub](https://github.com/christophergandrud/psData/)) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.
