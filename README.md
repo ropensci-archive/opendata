@@ -242,6 +242,7 @@ There are a very large number of packages providing access to government data. H
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
+    -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html) retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
     -   [rsunlight](http://cran.rstudio.com/web/packages/rsunlight/index.html) ([GitHub](https://github.com/ropengov/rsunlight)): R client for the Sunlight Labs APIs. There are functions for Sunlight Labs Congress, Transparency, Open States, Real Time Congress, Capitol Words, and Influence Explorer APIs. Data outputs are R lists. There are also a few convenience functions for visualizing data and writing data to .csv.
     -   [rtimes](http://cran.rstudio.com/web/packages/rtimes/index.html) ([GitHub](https://github.com/ropengov/rtimes)) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
@@ -545,6 +546,7 @@ There are a very large number of packages providing access to government data. H
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html)
 -   [rnpn](http://cran.rstudio.com/web/packages/rnpn/index.html)
 -   [rnrfa](http://cran.rstudio.com/web/packages/rnrfa/index.html)
+-   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html)
 -   [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html)
 -   [rPlant](http://cran.rstudio.com/web/packages/rPlant/index.html)
 -   [rplos](http://cran.rstudio.com/web/packages/rplos/index.html)
