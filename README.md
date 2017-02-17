@@ -90,6 +90,7 @@ Web-based Open Data
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html): Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.
 -   [darksky](http://cran.rstudio.com/web/packages/darksky/index.html): the [Dark Sky API](https://darksky.net/dev/docs), which provides current or historical global weather conditions.
 -   [decctools](https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/decctools/index.html) (archived on CRAN) provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
+-   [getCRUCLdata](http://cran.rstudio.com/web/packages/getCRUCLdata/index.html): download and import climatology data from University of East Anglia Climate Research Unit (CRU) CL2.0 data into R; calculate minimum temperature and maximum temperature; formats the data into a tidy data frame or a list of raster stack objects for use in an R session. CRU CL2.0 data are a gridded climatology of 1961-1990 monthly means released in 2002 and cover all land areas (excluding Antarctica) at 10-minute resolution.
 -   [GhcnDaily](https://cran.r-project.org/src/contrib/Archive/GhcnDaily/) (archived on CRAN) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
 -   [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html) provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.
 -   [Metadata](https://cran.rstudio.com/src/contrib/Archive/Metadata/): Collates metadata for climate surface stations. Archived on CRAN.
@@ -106,7 +107,9 @@ Web-based Open Data
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html): An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: [<span class="Rforge">rnomads</span>](https://R-Forge.R-project.org/projects/rnomads/).
 -   [ropenaq](http://cran.rstudio.com/web/packages/ropenaq/index.html) ([GitHub](http://github.com/ropenscilabs/ropenaq)) provides air quality data from [the OpenAQ platform](https://docs.openaq.org/).
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html): R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
+-   [rWind](http://cran.rstudio.com/web/packages/rWind/index.html): Tools for downloading, editing and transforming wind data from Global Forecast System ([GFS](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs)) of the USA's National Weather Service ([NWS](http://www.weather.gov/)).
 -   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html) access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.
+-   [SkyWatchr](http://cran.rstudio.com/web/packages/SkyWatchr/index.html): satellite imagery and climate/atmospheric datasets from the SkyWatch API. Search by wavelength (band), cloud cover, resolution, location, date, etc.
 -   [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html) can retrieve hourly weather data from various global weather stations.
 -   [weatherData](http://cran.rstudio.com/web/packages/weatherData/index.html): Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
 -   [weatherr](http://cran.rstudio.com/web/packages/weatherr/index.html) combines data from multiple APIs to obtain instant weather forecasts.
@@ -122,6 +125,7 @@ Web-based Open Data
 -   [natserv](http://cran.rstudio.com/web/packages/natserv/index.html): access [NatureServe](http://www.natureserve.org) data, image metadata, search taxonomic names, and make maps.
 -   [neotoma](http://cran.rstudio.com/web/packages/neotoma/index.html) ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
 -   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html): Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
+-   [pleiades](http://cran.rstudio.com/web/packages/pleiades/index.html): interact with Pleiades API for Archeological data --- get status data, places data, make GeoJSON maps.
 -   [rbison](http://cran.rstudio.com/web/packages/rbison/index.html) ([GitHub](https://github.com/ropensci/rbison)) is a wrapper to the USGS Bison API.
 -   [Rcolombos](http://cran.rstudio.com/web/packages/Rcolombos/index.html): This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
 -   [ridigbio](https://github.com/idigbio/ridigbio) (not on CRAN) is an interface for <a href="https://www.idigbio.org/" class="uri" class="uri">https://www.idigbio.org/</a>.
@@ -161,7 +165,6 @@ Web-based Open Data
 
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html) Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
--   [ecoseries](http://cran.rstudio.com/web/packages/ecoseries/index.html): interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx).
 -   [epidata](http://cran.rstudio.com/web/packages/epidata/index.html): data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
 -   [fImport](http://cran.rstudio.com/web/packages/fImport/index.html): Environment for teaching "Financial Engineering and Computational Finance"
 -   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html) downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
@@ -231,6 +234,7 @@ Web-based Open Data
 There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
 -   *Australia*: [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html) provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.
+-   *Brazil*: [BETS](http://cran.rstudio.com/web/packages/BETS/index.html): Brazilian Economic Time Series from the Central Bank of Brazil, Getulio Vargas Foundation, and the Brazilian Institute of Geography. The package also provides tools for automated reporting (dynamic documents). [ecoseries](http://cran.rstudio.com/web/packages/ecoseries/index.html): interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx) in Brazil.
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe* :
     -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html) ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
@@ -249,7 +253,7 @@ There are a very large number of packages providing access to government data. H
 -   *United States of America* :
     -   U.S. Census Bureau: [acs](http://cran.rstudio.com/web/packages/acs/index.html) can download, manipulate, and present data from the US Census American Community Survey. [censusr](http://cran.rstudio.com/web/packages/censusr/index.html) connects to both ACS and SF1 datasets. [idbr](http://cran.rstudio.com/web/packages/idbr/index.html) ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html) ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string.
     -   Education: [LearnDC](https://github.com/benjaminrobinson/LearnDC) provides access to [LearnDC's](http://www.learndc.org/) data on Washington DC charter schools.
-    -   Energy Department: [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html): U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN).
+    -   Energy Department: [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html): U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN). [energyr](http://cran.rstudio.com/web/packages/energyr/index.html): Federal Energy Regulatory Commission data including electric company financials, natural gas company financials, hydropower plant data, liquified natural gas plant data, oil company financials, natural gas company financials, and natural gas storage field data.
     -   Elections: [elexr](http://cran.rstudio.com/web/packages/elexr/index.html) is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. [pvsR](http://cran.rstudio.com/web/packages/pvsR/index.html): An R package to interact with the Project Vote Smart API for scientific research. [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html): An R package for the OpenSecrets.org web services API.
     -   Federal Reserve: [FredR](https://github.com/jcizel/FredR): R Interface to the [Federal Reserve Economic Data API](http://api.stlouisfed.org/docs/fred/). [Source on GitHub](https://github.com/jcizel/FredR)
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
@@ -423,6 +427,7 @@ There are a very large number of packages providing access to government data. H
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html)
 -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
+-   [BETS](http://cran.rstudio.com/web/packages/BETS/index.html)
 -   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
 -   [biorxivr](http://cran.rstudio.com/web/packages/biorxivr/index.html)
@@ -454,6 +459,7 @@ There are a very large number of packages providing access to government data. H
 -   [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html)
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
+-   [energyr](http://cran.rstudio.com/web/packages/energyr/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)
 -   [epidata](http://cran.rstudio.com/web/packages/epidata/index.html)
 -   [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html)
@@ -470,6 +476,7 @@ There are a very large number of packages providing access to government data. H
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html)
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
 -   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html)
+-   [getCRUCLdata](http://cran.rstudio.com/web/packages/getCRUCLdata/index.html)
 -   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
@@ -517,6 +524,7 @@ There are a very large number of packages providing access to government data. H
 -   [pewdata](http://cran.rstudio.com/web/packages/pewdata/index.html)
 -   [pinnacle.API](http://cran.rstudio.com/web/packages/pinnacle.API/index.html)
 -   [pitchRx](http://cran.rstudio.com/web/packages/pitchRx/index.html)
+-   [pleiades](http://cran.rstudio.com/web/packages/pleiades/index.html)
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html)
 -   [plotKML](http://cran.rstudio.com/web/packages/plotKML/index.html)
 -   [plusser](http://cran.rstudio.com/web/packages/plusser/index.html)
@@ -599,12 +607,14 @@ There are a very large number of packages providing access to government data. H
 -   [rusda](http://cran.rstudio.com/web/packages/rusda/index.html)
 -   [rvertnet](http://cran.rstudio.com/web/packages/rvertnet/index.html)
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html)
+-   [rWind](http://cran.rstudio.com/web/packages/rWind/index.html)
 -   [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html)
 -   [rYoutheria](http://cran.rstudio.com/web/packages/rYoutheria/index.html)
 -   [scholar](http://cran.rstudio.com/web/packages/scholar/index.html)
 -   [seeclickfixr](http://cran.rstudio.com/web/packages/seeclickfixr/index.html)
 -   [sejmRP](http://cran.rstudio.com/web/packages/sejmRP/index.html)
 -   [seqinr](http://cran.rstudio.com/web/packages/seqinr/index.html)
+-   [SkyWatchr](http://cran.rstudio.com/web/packages/SkyWatchr/index.html)
 -   [slackr](http://cran.rstudio.com/web/packages/slackr/index.html)
 -   [SocialMediaLab](http://cran.rstudio.com/web/packages/SocialMediaLab/index.html)
 -   [SocialMediaMineR](http://cran.rstudio.com/web/packages/SocialMediaMineR/index.html)

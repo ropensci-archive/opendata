@@ -5,46 +5,11 @@
     github only https://github.com/bearloga/WikidataQueryServiceR
 
 
-#199: getCRUCLdata
-@leeper opened this issue 42 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/getCRUCLdata/index.html
-
-
-#198: BETS
-@leeper opened this issue 58 days ago.  [open] 
-@leeper is assigned. [addpkg]
-
-    https://cran.r-project.org/web/packages/BETS/index.html
-
-
-#197: pleiades
-@leeper opened this issue 58 days ago.  [open] 
-@leeper is assigned. [addpkg]
-
-    https://cran.r-project.org/web/packages/pleiades/index.html
-
-
 #196: kokudosuuchi
 @leeper opened this issue 61 days ago.  [open] 
 [addpkg]
 
     https://cran.r-project.org/web/packages/kokudosuuchi/index.html
-
-
-#192: SkyWatchr
-@leeper opened this issue 70 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/SkyWatchr/index.html
-
-
-#191: rWind
-@leeper opened this issue 70 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/rWind/index.html
 
 
 #189: Some packages to add from webservices
@@ -122,15 +87,6 @@ Milestone #1: Release to CRAN ⚠
 [addpkg]
 
     https://cran.r-project.org/web/packages/Rodam/index.html
-
-
-#178: energyr
-@sckott opened this issue 139 days ago.  [open] 
-
-    good fit?
-    
-    github https://github.com/paulgovan/energyr
-    cran https://cran.rstudio.com/web/packages/energyr/
 
 
 #177: usaqmindia
@@ -329,4 +285,4 @@ Milestone #1: Release to CRAN ⚠
   152  Add compadreDB R pkg [addpkg]
   121  Clean up package lead, remove data sharing packages ↑
   114  Proposed division of Task View [enhancement] Release to CRAN 7 ‡
-   97  Standardize line ending behavior [bug] 8
+   t7  Standardize line ending behavior [bug] 8

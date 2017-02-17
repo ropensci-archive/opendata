@@ -73,6 +73,7 @@
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
     <li><pkg>darksky</pkg>: the <a href="https://darksky.net/dev/docs">Dark Sky API</a>, which provides current or historical global weather conditions.</li>
     <li><a href="https://cran.r-project.org/web/packages/decctools/index.html">decctools</a> (archived on CRAN) provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
+    <li><pkg>getCRUCLdata</pkg>: download and import climatology data from University of East Anglia Climate Research Unit (CRU) CL2.0 data into R; calculate minimum temperature and maximum temperature; formats the data into a tidy data frame or a list of raster stack objects for use in an R session. CRU CL2.0 data are a gridded climatology of 1961-1990 monthly means released in 2002 and cover all land areas (excluding Antarctica) at 10-minute resolution.</li>
     <li><a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily/">GhcnDaily</a> (archived on CRAN) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
     <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
     <li><a href="https://cran.rstudio.com/src/contrib/Archive/Metadata/">Metadata</a>: Collates metadata for climate surface stations. Archived on CRAN.</li>
@@ -89,7 +90,9 @@
     <li><pkg>rNOMADS</pkg>: An interface to the <a href="http://nomads.ncdc.noaa.gov/">NOAA Operational Model Archive and Distribution System (NOMADS)</a> that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.</li>
     <li><pkg>ropenaq</pkg> (<a href="http://github.com/ropenscilabs/ropenaq">GitHub</a>) provides air quality data from <a href="https://docs.openaq.org/">the OpenAQ platform</a>.</li>
     <li><pkg>rWBclimate</pkg>: R interface for the World Bank climate data. <a href="https://github.com/ropensci/rWBclimate">Source on GitHub</a></li>
+    <li><pkg>rWind</pkg>: Tools for downloading, editing and transforming wind data from Global Forecast System (<a href="https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs">GFS</a>) of the USA's National Weather Service (<a href="http://www.weather.gov/">NWS</a>).</li>
     <li><pkg>rwunderground</pkg> access historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical record high/low temperatures.</li>
+    <li><pkg>SkyWatchr</pkg>: satellite imagery and climate/atmospheric datasets from the SkyWatch API. Search by wavelength (band), cloud cover, resolution, location, date, etc.</li>
     <li><pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.</li>
     <li><pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.</li>
     <li><pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.</li>
@@ -105,6 +108,7 @@
     <li><pkg>natserv</pkg>: access <a href="http://www.natureserve.org">NatureServe</a> data, image metadata, search taxonomic names, and make maps.</li>
     <li><pkg>neotoma</pkg> (<a href="https://github.com/ropensci/neotoma">GitHub</a>) offers programmatic R interface to the Neotoma Paleoecological Database.</li>
     <li><pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.</li>
+    <li><pkg>pleiades</pkg>: interact with Pleiades API for Archeological data --- get status data, places data, make GeoJSON maps.</li>
     <li><pkg>rbison</pkg> (<a href="https://github.com/ropensci/rbison">GitHub</a>) is a wrapper to the USGS Bison API.</li>
     <li><pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.</li>
     <li><a href="https://github.com/idigbio/ridigbio">ridigbio</a> (not on CRAN) is an interface for <a href="https://www.idigbio.org/" class="uri">https://www.idigbio.org/</a>.</li>
@@ -144,7 +148,6 @@
     <ul>
     <li><pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.</li>
     <li><a href="https://github.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.</li>
-    <li><pkg>ecoseries</pkg>: interface to <a href="http://api.bcb.gov.br">Bacen</a> and <a href="http://api.sidra.ibge.gov.br">Sidra</a> APIs and data from <a href="http://www.ipeadata.gov.br/Default.aspx">IPEA</a>.</li>
     <li><pkg>epidata</pkg>: data from <a href="http://www.epi.org/">Economic Policy Institute</a> on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.</li>
     <li><pkg>fImport</pkg>: Environment for teaching &quot;Financial Engineering and Computational Finance&quot;</li>
     <li><pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of <a href="http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas">Tesouro Direto</a>.</li>
@@ -213,6 +216,7 @@
     <p>There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.</p>
     <ul>
     <li><em>Australia</em>: <pkg>eechidna</pkg> provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.</li>
+    <li><em>Brazil</em>: <pkg>BETS</pkg>: Brazilian Economic Time Series from the Central Bank of Brazil, Getulio Vargas Foundation, and the Brazilian Institute of Geography. The package also provides tools for automated reporting (dynamic documents). <pkg>ecoseries</pkg>: interface to <a href="http://api.bcb.gov.br">Bacen</a> and <a href="http://api.sidra.ibge.gov.br">Sidra</a> APIs and data from <a href="http://www.ipeadata.gov.br/Default.aspx">IPEA</a> in Brazil.</li>
     <li><em>Denmark</em>: <a href="https://github.com/rOpenGov/dkstat">dkstat</a> (not on CRAN): A package to access the <a href="http://www.statistikbanken.dk/statbank5a/">StatBank API</a> from <a href="http://www.dst.dk/">Statistics Denmark</a>. <a href="https://github.com/sebastianbarfort/taxdk">taxdk</a> (not on CRAN) provides tax information for Danish companies.</li>
     <li><em>Europe</em>:
     <ul>
@@ -238,7 +242,7 @@
     <ul>
     <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <pkg>idbr</pkg> (<a href="https://github.com/walkerke/idbr">GitHub</a>) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> (<a href="https://github.com/mikeasilva/blsAPI">GitHub</a>) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string.</li>
     <li>Education: <a href="https://github.com/benjaminrobinson/LearnDC">LearnDC</a> provides access to <a href="http://www.learndc.org/">LearnDC's</a> data on Washington DC charter schools.</li>
-    <li>Energy Department: <pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN).</li>
+    <li>Energy Department: <pkg>EIAdata</pkg>: U.S. <a href="http://www.eia.gov/">Energy Information Administration (EIA)</a> API client. See also <a href="https://github.com/krose/eia">eia</a> (not on CRAN). <pkg>energyr</pkg>: Federal Energy Regulatory Commission data including electric company financials, natural gas company financials, hydropower plant data, liquified natural gas plant data, oil company financials, natural gas company financials, and natural gas storage field data.</li>
     <li>Elections: <pkg>elexr</pkg> is an R interface to the Python <a href="https://github.com/newsdev/elex/">elex</a> library, which provides access to Associated Press election results. <a href="https://github.com/GShotwell/openelections">openelections</a> (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> (<a href="https://github.com/rOpenGov/pollstR">GitHub</a>): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.</li>
     <li>Federal Reserve: <a href="https://github.com/jcizel/FredR">FredR</a>: R Interface to the <a href="http://api.stlouisfed.org/docs/fred/">Federal Reserve Economic Data API</a>. <a href="https://github.com/jcizel/FredR">Source on GitHub</a></li>
     <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
@@ -415,6 +419,7 @@
     <pkg>alm</pkg>
     <pkg>ameco</pkg>
     <pkg>aRxiv</pkg>
+    <pkg>BETS</pkg>
     <pkg>bibliometrix</pkg>
     <pkg>bigrquery</pkg>
     <pkg>biorxivr</pkg>
@@ -446,6 +451,7 @@
     <pkg>eechidna</pkg>
     <pkg>EIAdata</pkg>
     <pkg>elexr</pkg>
+    <pkg>energyr</pkg>
     <pkg>enigma</pkg>
     <pkg>epidata</pkg>
     <pkg>estatapi</pkg>
@@ -462,6 +468,7 @@
     <pkg>genderizeR</pkg>
     <pkg>geocodeHERE</pkg>
     <pkg>gesis</pkg>
+    <pkg>getCRUCLdata</pkg>
     <pkg>GetTDData</pkg>
     <pkg>ggmap</pkg>
     <pkg>googleVis</pkg>
@@ -509,6 +516,7 @@
     <pkg>pewdata</pkg>
     <pkg>pinnacle.API</pkg>
     <pkg>pitchRx</pkg>
+    <pkg>pleiades</pkg>
     <pkg>plotGoogleMaps</pkg>
     <pkg>plotKML</pkg>
     <pkg>plusser</pkg>
@@ -591,12 +599,14 @@
     <pkg>rusda</pkg>
     <pkg>rvertnet</pkg>
     <pkg>rWBclimate</pkg>
+    <pkg>rWind</pkg>
     <pkg>rwunderground</pkg>
     <pkg>rYoutheria</pkg>
     <pkg>scholar</pkg>
     <pkg>seeclickfixr</pkg>
     <pkg>sejmRP</pkg>
     <pkg>seqinr</pkg>
+    <pkg>SkyWatchr</pkg>
     <pkg>slackr</pkg>
     <pkg>SocialMediaLab</pkg>
     <pkg>SocialMediaMineR</pkg>
