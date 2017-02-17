@@ -1,17 +1,3 @@
-#201: WikidataQueryServiceR
-@sckott opened this issue 37 days ago.  [open] 
-[addpkg]
-
-    github only https://github.com/bearloga/WikidataQueryServiceR
-
-
-#196: kokudosuuchi
-@leeper opened this issue 61 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/kokudosuuchi/index.html
-
-
 #189: Some packages to add from webservices
 @leeper opened this issue 95 days ago.  [open] 
 [addpkg]
@@ -23,20 +9,6 @@ Milestone #1: Release to CRAN ⚠
     rentrez
     googlePublicData
     rsnps
-
-
-#188: hansard
-@leeper opened this issue 96 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/hansard/index.html
-
-
-#187: ALA4R
-@leeper opened this issue 98 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/ALA4R/index.html
 
 
 #186: BatchGetSymbols
@@ -52,13 +24,6 @@ Milestone #1: Release to CRAN ⚠
 [addpkg]
 
     https://github.com/chartgerink/osfr
-
-
-#184: ukpolice
-@leeper opened this issue 113 days ago.  [open] 
-[addpkg]
-
-    https://github.com/njtierney/ukpolice
 
 
 #183: countyweather
@@ -87,15 +52,6 @@ Milestone #1: Release to CRAN ⚠
 [addpkg]
 
     https://cran.r-project.org/web/packages/Rodam/index.html
-
-
-#177: usaqmindia
-@masalmon opened this issue 169 days ago.  [open] 
-
-    usaqmindia provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata from 2013. It results from wrangling data from [this 
-    website](http://newdelhi.usembassy.gov/airqualitydata.html).
-    
-    Only Github: https://github.com/masalmon/usaqmindia
 
 
 #176: okcupiddata
@@ -190,13 +146,6 @@ Milestone #1: Release to CRAN ⚠
     http://cran.r-project.org/web/packages/blscrapeR/index.html
 
 
-#162: energyr
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/energyr/index.html
-
-
 #161: add ungeneanno
 @leeper opened this issue 198 days ago.  [open] 
 [addpkg]
@@ -218,28 +167,11 @@ Milestone #1: Release to CRAN ⚠
     http://cran.r-project.org/web/packages/oec/index.html
 
 
-#158: Add rsdmx
-@eblondel opened this issue 207 days ago.  [open] (1 comment)
-[addpkg]
-Milestone #1: Release to CRAN ⚠
-
-    Hello, would it be possible to add rsdmx package?
-    rsdmx offers an interface to web-data provided through SDMX web-services. I've seen that you already listed RJSDMX, rsdmx is alternative to it. Since the goal is the same (while list of data providers slightly differs between the 2 
-    packages), i prefer asking in a ticket first on how you would mention rsdmx (maybe avoid redundancy in package description). Thanks in advance!
-
-
 #157: stattleship
 @leeper opened this issue 208 days ago.  [open] 
 [addpkg]
 
     https://github.com/stattleship/stattleship-r
-
-
-#152: Add compadreDB R pkg
-@ashander opened this issue 246 days ago.  [open] 
-[addpkg]
-
-    https://github.com/jonesor/compadreDB/tree/master/Mage
 
 
 ↑121: Clean up package lead, remove data sharing packages

@@ -128,6 +128,7 @@
     </ul>
     <h3 id="biodiversity-and-taxonomy">Biodiversity and Taxonomy</h3>
     <ul>
+    <li><pkg>ALA4R</pkg>: Atlas of Living Australia (ALA) provides tools to enable users of biodiversity information to find, access, combine and visualise data on Australian plants and animals.</li>
     <li><pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.</li>
     <li><pkg>icesVocab</pkg>: the ICES (International Council for the Exploration of the Sea) <a href="http://vocab.ices.dk/services/POX.aspx">Vocabularies Database (RECO POX)</a>.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
@@ -159,7 +160,7 @@
     <li><a href="https://github.com/armstrtw/Rblpapi">Rblpapi</a>: R client for Bloomberg Finance L.P. <a href="https://github.com/armstrtw/Rblpapi">Source on GitHub</a> ($)</li>
     <li><pkg>RCryptsy</pkg> wraps the API for the <a href="http://www.cryptsy.com">Cryptsy</a> crypto-currency trading platform. <a href="https://github.com/ropensci/RCryptsy">Source on GitHub</a>. ($)</li>
     <li><a href="https://github.com/fcocquemas/rdatastream">RDatastream</a> (not on CRAN): An R interface to the <a href="http://dataworks.thomson.com/Dataworks/Enterprise/1.0/">Thomson Dataworks Enterprise SOAP API</a>, with some convenience functions for retrieving Datastream data specifically. ($)</li>
-    <li><pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers. <a href="https://github.com/amattioc/SDMX/tree/master/RJSDMX">Source on GitHub</a>.</li>
+    <li><pkg>RJSDMX</pkg> and <pkg>rsdmx</pkg> both retrieve data and metadata from SDMX compliant data providers.</li>
     <li><pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.</li>
     <li><pkg>Thinknum</pkg>: Interacts with the <a href="http://www.thinknum.com/">Thinknum</a> API. ($)</li>
     <li><pkg>tseries</pkg>: Includes the <code>get.hist.quote</code> for historical financial data.</li>
@@ -230,7 +231,8 @@
     <li><pkg>sorvi</pkg> (<a href="https://github.com/louhos/sorvi/">GitHub</a>): Various tools for retrieving and working with Finnish open government data.</li>
     </ul></li>
     <li><em>Germany</em>: <a href="https://github.com/dirkschumacher/RBerlinData">BerlinData</a> (<a href="https://cran.r-project.org/src/contrib/Archive/BerlinData/">archived on CRAN</a>): Easy access to <a href="http://daten.berlin.de" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. <pkg>rdnb</pkg> connects to resources of the <a href="http://www.dnb.de">German National Library</a>.</li>
-    <li><em>Japan</em>: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API.</li>
+    <li><em>India</em>: <a href="https://github.com/masalmon/usaqmindia">usaqmindia</a> provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata. Data source is US governement via <a href="http://newdelhi.usembassy.gov/airqualitydata.html">this website</a>.</li>
+    <li><em>Japan</em>: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API. <pkg>kokudosuuchi</pkg>: interface with <a href="http://nlftp.mlit.go.jp/ksj-e/index.html">Kokudo Suuchi API</a> the GIS data service of the Japanese government.</li>
     <li><em>Mexico</em>: <pkg>inegiR</pkg> (<a href="https://github.com/Eflores89/inegiR">GitHub</a>) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.</li>
     <li><em>Netherlands</em>: <pkg>cbsodataR</pkg> connects with the <a href="https://github.com/edwindj/cbsodataR">Statistics Netherlands</a> datasets. <a href="https://github.com/edwindj/cbsodataR">Source on GitHub</a>.</li>
     <li><em>Poland</em>:
@@ -248,7 +250,6 @@
     <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
     <li><pkg>csp</pkg> (<a href="https://github.com/expersso/csp">GitHub</a>) provides the complete <a href="http://ippsr.msu.edu/public-policy/correlates-state-policy">Correlates of State Policy data set</a>.</li>
     <li><pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.</li>
-    <li><pkg>mnis</pkg>: An API package for the <a href="http://data.parliament.uk/membersdataplatform/default.aspx">Members' Name Information Service</a> operated by the UK parliament.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.</li>
     <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>) is a ProPublica API Client.</li>
@@ -257,7 +258,7 @@
     <li><pkg>seeclickfixr</pkg> (<a href="https://github.com/justindbk/seeclickfixr/">GitHub</a>) is a client for retrieving citizens' service requests made to local governments through <a href="http://en.seeclickfix.com/">SeeClickFix</a>.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
     </ul></li>
-    <li>United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.</li>
+    <li><em>United Kingdom</em>: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API. <pkg>mnis</pkg>: An API package for the <a href="http://data.parliament.uk/membersdataplatform/default.aspx">Members' Name Information Service</a> operated by the UK parliament. <pkg>hansard</pkg> download data from the <a href="http://www.data.parliament.uk/">Parliment API</a>. <a href="https://github.com/njtierney/ukpolice">ukpolice</a> data from <a href="https://data.police.uk">UK police database</a>.</li>
     <li><em>Other or international</em>:
     <ul>
     <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
@@ -410,12 +411,13 @@
     <li><pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. <a href="https://github.com/Ironholds/WikipediR">Source on GitHub</a></li>
     <li><pkg>ores</pkg> connects to <a href="http://ores.wmflabs.org/">ORES</a>, an automated tool for detecting whether Wikimedia page edits are constructive.</li>
     <li><pkg>pageviews</pkg> retrieves page view data from Wikimedia-powered sites, including Wikipedia.</li>
-    <li><a href="https://github.com/chgrl/rwikidata">rwikidata</a> (not on CRAN): Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase.</li>
+    <li><pkg>WikidataQueryServiceR</pkg> and <a href="https://github.com/chgrl/rwikidata">rwikidata</a> (not on CRAN): Request data from (and some day probably edit data in) <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata.org</a>, the free knowledgebase; the former uses the <a href="https://query.wikidata.org">query service</a>.</li>
     <li><pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. <a href="https://github.com/Ironholds/WikidataR">Source on GitHub</a>.</li>
     </ul>
   </info>
   <packagelist>
     <pkg>acs</pkg>
+    <pkg>ALA4R</pkg>
     <pkg>alm</pkg>
     <pkg>ameco</pkg>
     <pkg>aRxiv</pkg>
@@ -477,6 +479,7 @@
     <pkg>GSODR</pkg>
     <pkg>GuardianR</pkg>
     <pkg>gutenbergr</pkg>
+    <pkg>hansard</pkg>
     <pkg>hddtools</pkg>
     <pkg>hdr</pkg>
     <pkg>hoardeR</pkg>
@@ -488,6 +491,7 @@
     <pkg>imguR</pkg>
     <pkg>inegiR</pkg>
     <pkg>jSonarR</pkg>
+    <pkg>kokudosuuchi</pkg>
     <pkg>leafletR</pkg>
     <pkg>lumendb</pkg>
     <pkg>maddison</pkg>
@@ -591,6 +595,7 @@
     <pkg>RPublica</pkg>
     <pkg>rredlist</pkg>
     <pkg>rscopus</pkg>
+    <pkg>rsdmx</pkg>
     <pkg>RSiteCatalyst</pkg>
     <pkg>rsnps</pkg>
     <pkg>RStars</pkg>
@@ -646,6 +651,7 @@
     <pkg>weatherr</pkg>
     <pkg>webchem</pkg>
     <pkg>WHO</pkg>
+    <pkg>WikidataQueryServiceR</pkg>
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
     <pkg>wordbankr</pkg>

@@ -145,6 +145,7 @@ Web-based Open Data
 
 ### Biodiversity and Taxonomy
 
+-   [ALA4R](http://cran.rstudio.com/web/packages/ALA4R/index.html): Atlas of Living Australia (ALA) provides tools to enable users of biodiversity information to find, access, combine and visualise data on Australian plants and animals.
 -   [flora](http://cran.rstudio.com/web/packages/flora/index.html): Retrieve taxonomical information of botanical names from the Flora do Brasil website.
 -   [icesVocab](http://cran.rstudio.com/web/packages/icesVocab/index.html): the ICES (International Council for the Exploration of the Sea) [Vocabularies Database (RECO POX)](http://vocab.ices.dk/services/POX.aspx).
 -   [rbhl](http://cran.rstudio.com/web/packages/rbhl/index.html): R interface to the Biodiversity Heritage Library (BHL) API.
@@ -176,7 +177,7 @@ Web-based Open Data
 -   [Rblpapi](https://github.com/armstrtw/Rblpapi): R client for Bloomberg Finance L.P. [Source on GitHub](https://github.com/armstrtw/Rblpapi) ($)
 -   [RCryptsy](http://cran.rstudio.com/web/packages/RCryptsy/index.html) wraps the API for the [Cryptsy](http://www.cryptsy.com) crypto-currency trading platform. [Source on GitHub](https://github.com/ropensci/RCryptsy). ($)
 -   [RDatastream](https://github.com/fcocquemas/rdatastream) (not on CRAN): An R interface to the [Thomson Dataworks Enterprise SOAP API](http://dataworks.thomson.com/Dataworks/Enterprise/1.0/), with some convenience functions for retrieving Datastream data specifically. ($)
--   [RJSDMX](http://cran.rstudio.com/web/packages/RJSDMX/index.html): Retrieve data and metadata from SDMX compliant data providers. [Source on GitHub](https://github.com/amattioc/SDMX/tree/master/RJSDMX).
+-   [RJSDMX](http://cran.rstudio.com/web/packages/RJSDMX/index.html) and [rsdmx](http://cran.rstudio.com/web/packages/rsdmx/index.html) both retrieve data and metadata from SDMX compliant data providers.
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html): Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html): Interacts with the [Thinknum](http://www.thinknum.com/) API. ($)
 -   [tseries](http://cran.rstudio.com/web/packages/tseries/index.html): Includes the `get.hist.quote` for historical financial data.
@@ -244,7 +245,8 @@ There are a very large number of packages providing access to government data. H
     -   [pxweb](http://cran.rstudio.com/web/packages/pxweb/index.html) ([GitHub](https://github.com/rOpenGov/pxweb)) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.
     -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html) ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
 -   *Germany*: [BerlinData](https://github.com/dirkschumacher/RBerlinData) ([archived on CRAN](https://cran.r-project.org/src/contrib/Archive/BerlinData/)): Easy access to <a href="http://daten.berlin.de" class="uri" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html) connects to resources of the [German National Library](http://www.dnb.de).
--   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html) offers functions to get public survey data in Japan. [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html) links to the Japanese government's e-Stat official statistics API.
+-   *India*: [usaqmindia](https://github.com/masalmon/usaqmindia) provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata. Data source is US governement via [this website](http://newdelhi.usembassy.gov/airqualitydata.html).
+-   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html) offers functions to get public survey data in Japan. [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html) links to the Japanese government's e-Stat official statistics API. [kokudosuuchi](http://cran.rstudio.com/web/packages/kokudosuuchi/index.html): interface with [Kokudo Suuchi API](http://nlftp.mlit.go.jp/ksj-e/index.html) the GIS data service of the Japanese government.
 -   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland* :
@@ -259,7 +261,6 @@ There are a very large number of packages providing access to government data. H
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   [csp](http://cran.rstudio.com/web/packages/csp/index.html) ([GitHub](https://github.com/expersso/csp)) provides the complete [Correlates of State Policy data set](http://ippsr.msu.edu/public-policy/correlates-state-policy).
     -   [federalregister](http://cran.rstudio.com/web/packages/federalregister/index.html): Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
-    -   [mnis](http://cran.rstudio.com/web/packages/mnis/index.html): An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament.
     -   [polidata](http://cran.rstudio.com/web/packages/polidata/index.html) ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   [rodham](http://cran.rstudio.com/web/packages/rodham/index.html) retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html) ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
@@ -267,7 +268,7 @@ There are a very large number of packages providing access to government data. H
     -   [rtimes](http://cran.rstudio.com/web/packages/rtimes/index.html) ([GitHub](https://github.com/ropengov/rtimes)) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
     -   [seeclickfixr](http://cran.rstudio.com/web/packages/seeclickfixr/index.html) ([GitHub](https://github.com/justindbk/seeclickfixr/)) is a client for retrieving citizens' service requests made to local governments through [SeeClickFix](http://en.seeclickfix.com/).
     -   [wethepeople](http://cran.rstudio.com/src/contrib/Archive/wethepeople/): An R client for interacting with the White House's "We The People" petition API.
--   United Kingdom: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API.
+-   *United Kingdom*: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API. [mnis](http://cran.rstudio.com/web/packages/mnis/index.html): An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament. [hansard](http://cran.rstudio.com/web/packages/hansard/index.html) download data from the [Parliment API](http://www.data.parliament.uk/). [ukpolice](https://github.com/njtierney/ukpolice) data from [UK police database](https://data.police.uk).
 -   *Other or international* :
     -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
@@ -418,12 +419,13 @@ There are a very large number of packages providing access to government data. H
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html): WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. [Source on GitHub](https://github.com/Ironholds/WikipediR)
 -   [ores](http://cran.rstudio.com/web/packages/ores/index.html) connects to [ORES](http://ores.wmflabs.org/), an automated tool for detecting whether Wikimedia page edits are constructive.
 -   [pageviews](http://cran.rstudio.com/web/packages/pageviews/index.html) retrieves page view data from Wikimedia-powered sites, including Wikipedia.
--   [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase.
+-   [WikidataQueryServiceR](http://cran.rstudio.com/web/packages/WikidataQueryServiceR/index.html) and [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase; the former uses the [query service](https://query.wikidata.org).
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html): An R API wrapper for the Wikidata store of semantic data. [Source on GitHub](https://github.com/Ironholds/WikidataR).
 
 ### CRAN packages:
 
 -   [acs](http://cran.rstudio.com/web/packages/acs/index.html)
+-   [ALA4R](http://cran.rstudio.com/web/packages/ALA4R/index.html)
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html)
 -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
@@ -485,6 +487,7 @@ There are a very large number of packages providing access to government data. H
 -   [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html)
 -   [GuardianR](http://cran.rstudio.com/web/packages/GuardianR/index.html)
 -   [gutenbergr](http://cran.rstudio.com/web/packages/gutenbergr/index.html)
+-   [hansard](http://cran.rstudio.com/web/packages/hansard/index.html)
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html)
 -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html)
 -   [hoardeR](http://cran.rstudio.com/web/packages/hoardeR/index.html)
@@ -496,6 +499,7 @@ There are a very large number of packages providing access to government data. H
 -   [imguR](http://cran.rstudio.com/web/packages/imguR/index.html)
 -   [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html)
 -   [jSonarR](http://cran.rstudio.com/web/packages/jSonarR/index.html)
+-   [kokudosuuchi](http://cran.rstudio.com/web/packages/kokudosuuchi/index.html)
 -   [leafletR](http://cran.rstudio.com/web/packages/leafletR/index.html)
 -   [lumendb](http://cran.rstudio.com/web/packages/lumendb/index.html)
 -   [maddison](http://cran.rstudio.com/web/packages/maddison/index.html)
@@ -599,6 +603,7 @@ There are a very large number of packages providing access to government data. H
 -   [RPublica](http://cran.rstudio.com/web/packages/RPublica/index.html)
 -   [rredlist](http://cran.rstudio.com/web/packages/rredlist/index.html)
 -   [rscopus](http://cran.rstudio.com/web/packages/rscopus/index.html)
+-   [rsdmx](http://cran.rstudio.com/web/packages/rsdmx/index.html)
 -   [RSiteCatalyst](http://cran.rstudio.com/web/packages/RSiteCatalyst/index.html)
 -   [rsnps](http://cran.rstudio.com/web/packages/rsnps/index.html)
 -   [RStars](http://cran.rstudio.com/web/packages/RStars/index.html)
@@ -654,6 +659,7 @@ There are a very large number of packages providing access to government data. H
 -   [weatherr](http://cran.rstudio.com/web/packages/weatherr/index.html)
 -   [webchem](http://cran.rstudio.com/web/packages/webchem/index.html)
 -   [WHO](http://cran.rstudio.com/web/packages/WHO/index.html)
+-   [WikidataQueryServiceR](http://cran.rstudio.com/web/packages/WikidataQueryServiceR/index.html)
 -   [WikidataR](http://cran.rstudio.com/web/packages/WikidataR/index.html)
 -   [WikipediR](http://cran.rstudio.com/web/packages/WikipediR/index.html)
 -   [wordbankr](http://cran.rstudio.com/web/packages/wordbankr/index.html)
