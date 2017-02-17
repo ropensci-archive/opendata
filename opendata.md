@@ -130,6 +130,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Biodiversity and Taxonomy ###
 
+-   <pkg>ALA4R</pkg>: Atlas of Living Australia (ALA) provides tools to enable users of biodiversity information to find, access, combine and visualise data on Australian plants and animals.
 -   <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
 -   <pkg>icesVocab</pkg>: the ICES (International Council for the Exploration of the Sea) [Vocabularies Database (RECO POX)](http://vocab.ices.dk/services/POX.aspx).
 -   <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
@@ -163,7 +164,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   [Rblpapi](https://github.com/armstrtw/Rblpapi): R client for Bloomberg Finance L.P. [Source on GitHub](https://github.com/armstrtw/Rblpapi) ($)
 -   <pkg>RCryptsy</pkg> wraps the API for the [Cryptsy](http://www.cryptsy.com) crypto-currency trading platform. [Source on GitHub](https://github.com/ropensci/RCryptsy). ($)
 -   [RDatastream](https://github.com/fcocquemas/rdatastream) (not on CRAN): An R interface to the [Thomson Dataworks Enterprise SOAP API](http://dataworks.thomson.com/Dataworks/Enterprise/1.0/), with some convenience functions for retrieving Datastream data specifically. ($)
--   <pkg>RJSDMX</pkg>: Retrieve data and metadata from SDMX compliant data providers. [Source on GitHub](https://github.com/amattioc/SDMX/tree/master/RJSDMX).
+-   <pkg>RJSDMX</pkg> and <pkg>rsdmx</pkg> both retrieve data and metadata from SDMX compliant data providers.
 -   <pkg>TFX</pkg>: Connects to TrueFX(tm) for free streaming real-time and historical tick-by-tick market data for dealable interbank foreign exchange rates with millisecond detail.
 -   <pkg>Thinknum</pkg>: Interacts with the [Thinknum](http://www.thinknum.com/) API. (\$)
 -   <pkg>tseries</pkg>: Includes the `get.hist.quote` for historical financial data.
@@ -231,7 +232,8 @@ There are a very large number of packages providing access to government data. H
     -   <pkg>pxweb</pkg> ([GitHub](https://github.com/rOpenGov/pxweb)) is a generic interface for the PX-Web/PC-Axis API. The PX-Web/PC-Axis API is used by organizations such as Statistics Sweden and Statistics Finland to disseminate data. The R package can interact with all PX-Web/PC-Axis APIs to fetch information about the data hierarchy, extract metadata and extract and parse statistics to R data.frame format.
     -   <pkg>sorvi</pkg> ([GitHub](https://github.com/louhos/sorvi/)): Various tools for retrieving and working with Finnish open government data.
 -   *Germany*: [BerlinData](https://github.com/dirkschumacher/RBerlinData) ([archived on CRAN](https://cran.r-project.org/src/contrib/Archive/BerlinData/)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R. <pkg>rdnb</pkg> connects to resources of the [German National Library](http://www.dnb.de).
--   *Japan*: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API. 
+-   *India*: [usaqmindia](https://github.com/masalmon/usaqmindia) provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata. Data source is US governement via [this website](http://newdelhi.usembassy.gov/airqualitydata.html).
+-   *Japan*: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API. <pkg>kokudosuuchi</pkg>: interface with [Kokudo Suuchi API](http://nlftp.mlit.go.jp/ksj-e/index.html) the GIS data service of the Japanese government.
 -   *Mexico*: <pkg>inegiR</pkg> ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
 -   *Netherlands*: <pkg>cbsodataR</pkg> connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland*:
@@ -254,7 +256,7 @@ There are a very large number of packages providing access to government data. H
     -   <pkg>rtimes</pkg> ([GitHub](https://github.com/ropengov/rtimes)) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
     -   <pkg>seeclickfixr</pkg> ([GitHub](https://github.com/justindbk/seeclickfixr/)) is a client for retrieving citizens' service requests made to local governments through [SeeClickFix](http://en.seeclickfix.com/).
     -   [wethepeople](http://cran.rstudio.com/src/contrib/Archive/wethepeople/): An R client for interacting with the White House's "We The People" petition API.
--   United Kingdom: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API.
+-   *United Kingdom*: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API. <pkg>mnis</pkg>: An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament. <pkg>hansard</pkg> download data from the [Parliment API](http://www.data.parliament.uk/). [ukpolice](https://github.com/njtierney/ukpolice) data from [UK police database](https://data.police.uk).
 -   *Other or international*:
     -   <pkg>enigma</pkg> ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   <pkg>hdr</pkg> ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](<http://hdr.undp.org>) API.
@@ -407,6 +409,6 @@ There are a very large number of packages providing access to government data. H
 -   <pkg>WikipediR</pkg>: WikipediR is a wrapper for the MediaWiki API, aimed particularly at the Wikimedia 'production' wikis, such as Wikipedia. [Source on GitHub](https://github.com/Ironholds/WikipediR)
 -   <pkg>ores</pkg> connects to [ORES](<http://ores.wmflabs.org/>), an automated tool for detecting whether Wikimedia page edits are constructive.
 -   <pkg>pageviews</pkg> retrieves page view data from Wikimedia-powered sites, including Wikipedia.
--   [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase.
+-   <pkg>WikidataQueryServiceR</pkg> and [rwikidata](https://github.com/chgrl/rwikidata) (not on CRAN): Request data from (and some day probably edit data in) [Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page), the free knowledgebase; the former uses the [query service](https://query.wikidata.org).
 -   <pkg>WikidataR</pkg>: An R API wrapper for the Wikidata store of semantic data. [Source on GitHub](https://github.com/Ironholds/WikidataR).
 
