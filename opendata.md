@@ -248,7 +248,6 @@ There are a very large number of packages providing access to government data. H
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>csp</pkg> ([GitHub](https://github.com/expersso/csp)) provides the complete [Correlates of State Policy data set](http://ippsr.msu.edu/public-policy/correlates-state-policy).
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
-    -   <pkg>mnis</pkg>: An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament.
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   <pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
