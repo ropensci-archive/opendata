@@ -1,0 +1,332 @@
+#201: WikidataQueryServiceR
+@sckott opened this issue 37 days ago.  [open] 
+[addpkg]
+
+    github only https://github.com/bearloga/WikidataQueryServiceR
+
+
+#199: getCRUCLdata
+@leeper opened this issue 42 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/getCRUCLdata/index.html
+
+
+#198: BETS
+@leeper opened this issue 58 days ago.  [open] 
+@leeper is assigned. [addpkg]
+
+    https://cran.r-project.org/web/packages/BETS/index.html
+
+
+#197: pleiades
+@leeper opened this issue 58 days ago.  [open] 
+@leeper is assigned. [addpkg]
+
+    https://cran.r-project.org/web/packages/pleiades/index.html
+
+
+#196: kokudosuuchi
+@leeper opened this issue 61 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/kokudosuuchi/index.html
+
+
+#192: SkyWatchr
+@leeper opened this issue 70 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/SkyWatchr/index.html
+
+
+#191: rWind
+@leeper opened this issue 70 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/rWind/index.html
+
+
+#189: Some packages to add from webservices
+@leeper opened this issue 95 days ago.  [open] 
+[addpkg]
+Milestone #1: Release to CRAN ⚠
+
+    https://github.com/ropensci/webservices/issues/344
+    
+    pxweb
+    rentrez
+    googlePublicData
+    rsnps
+
+
+#188: hansard
+@leeper opened this issue 96 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/hansard/index.html
+
+
+#187: ALA4R
+@leeper opened this issue 98 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/ALA4R/index.html
+
+
+#186: BatchGetSymbols
+@leeper opened this issue 102 days ago.  [open] 
+[addpkg]
+Milestone #1: Release to CRAN ⚠
+
+    https://cran.r-project.org/web/packages/BatchGetSymbols/index.html
+
+
+#185: osfr
+@leeper opened this issue 111 days ago.  [open] 
+[addpkg]
+
+    https://github.com/chartgerink/osfr
+
+
+#184: ukpolice
+@leeper opened this issue 113 days ago.  [open] 
+[addpkg]
+
+    https://github.com/njtierney/ukpolice
+
+
+#183: countyweather
+@leeper opened this issue 113 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/countyweather/index.html
+
+
+#182: rscorecard
+@leeper opened this issue 114 days ago.  [open] 
+[addpkg]
+
+    https://github.com/btskinner/rscorecard
+
+
+#181: osfr
+@leeper opened this issue 119 days ago.  [open] 
+[addpkg]
+
+    https://github.com/chartgerink/osfr
+
+
+#179: Rodam
+@leeper opened this issue 134 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/Rodam/index.html
+
+
+#178: energyr
+@sckott opened this issue 139 days ago.  [open] 
+
+    good fit?
+    
+    github https://github.com/paulgovan/energyr
+    cran https://cran.rstudio.com/web/packages/energyr/
+
+
+#177: usaqmindia
+@masalmon opened this issue 169 days ago.  [open] 
+
+    usaqmindia provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata from 2013. It results from wrangling data from [this 
+    website](http://newdelhi.usembassy.gov/airqualitydata.html).
+    
+    Only Github: https://github.com/masalmon/usaqmindia
+
+
+#176: okcupiddata
+@leeper opened this issue 181 days ago.  [open] 
+[addpkg]
+Milestone #1: Release to CRAN ⚠
+
+    https://cran.r-project.org/web/packages/okcupiddata/index.html
+
+
+#175: banxicoR
+@leeper opened this issue 182 days ago.  [open] 
+[addpkg]
+Milestone #1: Release to CRAN ⚠
+
+    http://cran.r-project.org/web/packages/banxicoR/index.html
+
+
+#174: icesDatras
+@leeper opened this issue 183 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/icesDatras/index.html
+
+
+#173: getlandsat
+@leeper opened this issue 184 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/getlandsat/index.html
+
+
+#172: IMFData
+@leeper opened this issue 184 days ago.  [open] (1 comment)
+[addpkg]
+
+    https://cran.r-project.org/web/packages/IMFData/index.html
+
+
+#171: bundesligaR
+@leeper opened this issue 188 days ago.  [open] 
+
+    https://github.com/ottlngr/bundesligR
+
+
+#170: dbhydroR
+@leeper opened this issue 189 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/dbhydroR/index.html
+
+
+#168: boxoffice
+@leeper opened this issue 189 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/boxoffice/index.html
+
+
+#167: belex
+@leeper opened this issue 189 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/belex/index.html
+
+
+#166: ie2miscdata
+@leeper opened this issue 189 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/ie2miscdata/index.html
+
+
+#165: mregions
+@leeper opened this issue 197 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/mregions/index.html
+
+
+#164: sophisthse
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/sophisthse/index.html
+
+
+#163: blscrapeR
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/blscrapeR/index.html
+
+
+#162: energyr
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/energyr/index.html
+
+
+#161: add ungeneanno
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/ungeneanno/index.html
+
+
+#160: cdlTools
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/cdlTools/index.html
+
+
+#159: Add oec
+@leeper opened this issue 198 days ago.  [open] 
+[addpkg]
+
+    http://cran.r-project.org/web/packages/oec/index.html
+
+
+#158: Add rsdmx
+@eblondel opened this issue 207 days ago.  [open] (1 comment)
+[addpkg]
+Milestone #1: Release to CRAN ⚠
+
+    Hello, would it be possible to add rsdmx package?
+    rsdmx offers an interface to web-data provided through SDMX web-services. I've seen that you already listed RJSDMX, rsdmx is alternative to it. Since the goal is the same (while list of data providers slightly differs between the 2 
+    packages), i prefer asking in a ticket first on how you would mention rsdmx (maybe avoid redundancy in package description). Thanks in advance!
+
+
+#157: stattleship
+@leeper opened this issue 208 days ago.  [open] 
+[addpkg]
+
+    https://github.com/stattleship/stattleship-r
+
+
+#152: Add compadreDB R pkg
+@ashander opened this issue 246 days ago.  [open] 
+[addpkg]
+
+    https://github.com/jonesor/compadreDB/tree/master/Mage
+
+
+↑121: Clean up package lead, remove data sharing packages
+@ashander opened this pull request 341 days ago.  [open] 
+
+    Work on #114 to focus this task view, as Achim suggested,
+    on web-based open data resources. Remove the Data Sharing and
+    Archiving section and up date the lede text to describe narrower
+    focus.
+
+
+#114: Proposed division of Task View
+@leeper opened this issue 376 days ago.  [open] (7 comments)
+[enhancement]
+Milestone #1: Release to CRAN ⚠
+
+    I would propose we do the following in order to get this onto CRAN:
+    1. [x] Approach Max Kuhn who maintains [the Reproducible Research Task View](https://cran.r-project.org/web/views/ReproducibleResearch.html) and see if we could move the key packages from the [Data Sharing and 
+    Archiving](https://github.com/ropensci/opendata#data-sharing-and-archiving) section to that Task View. (Many of these are mentioned on Web Technologies, as well.)
+    2. [x] Focus this task view, [as Achim suggested](https://github.com/ropensci/opendata/issues/4#issuecomment-145132671), only on web-based open data resources.
+       - [x] Update the lede text to describe narrower focus
+       - [x] Try to organize existing, longer sections (e.g., [Earth Science](https://github.com/ropensci/opendata/#earth-science) and [Ecology](https://github.com/ropensci/opendata/#ecological-and-evolutionary-biology)) so that 
+    resources are subcategorized.
+    3. [x] Document licensing of the various data resources as discussed previously in #4.
+    4. [x] Creating and publicizing a package that simply subsets  available.packages()  to be able to describe the universe of data-only packages available on CRAN. (It would not import them, just have tools for drawing peoples' 
+    attention to data-specific packages.)
+    
+    Thoughts, @ashander @sckott?
+
+
+#97: Standardize line ending behavior
+@ashander opened this issue 421 days ago.  [open] (8 comments)
+[bug]
+
+    As illustrated in #96 an otherwise helpful pull request can be jammed up by line endings. We can fix this for the repository in general as outlined here https://help.github.com/articles/dealing-with-line-endings/
+    but I'm not sure what's best practice. @leeper or @sckott have you dealt with this issue in other ropensci repos?
+
+
+  160  cdlTools [addpkg]
+  159  Add oec [addpkg]
+  158  Add rsdmx [addpkg] Release to CRAN 1 ‡
+  157  stattleship [addpkg]
+  152  Add compadreDB R pkg [addpkg]
+  121  Clean up package lead, remove data sharing packages ↑
+  114  Proposed division of Task View [enhancement] Release to CRAN 7 ‡
+   97  Standardize line ending behavior [bug] 8
