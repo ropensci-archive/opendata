@@ -2,16 +2,11 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="jashander@ucdavis.edu">Jaime Ashander, Scott Chamberlain, Thomas Leeper</maintainer>
-  <version>2016-07-16</version>
+  <version>2017-02-16</version>
   <info>
     <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the <pkg>crandatapkgs</pkg> package to obtain information about currently available open data in R packages.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
-    <p>If you have any comments or suggestions for additions, revisions, or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <script type="text/javascript">
-    <!--
-    h='&#x75;&#x63;&#100;&#x61;&#118;&#x69;&#x73;&#46;&#x65;&#100;&#x75;&#x3f;&#x73;&#x75;&#98;&#106;&#x65;&#x63;&#116;&#x3d;&#x4f;&#112;&#x65;&#110;&#x25;&#50;&#48;&#68;&#x61;&#116;&#x61;&#x25;&#50;&#48;&#84;&#x61;&#x73;&#x6b;&#x25;&#50;&#48;&#86;&#x69;&#x65;&#x77;';a='&#64;';n='&#106;&#x61;&#x73;&#104;&#x61;&#110;&#100;&#x65;&#114;';e=n+a+h;
-    document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x73;&#x65;&#110;&#100;&#32;&#74;&#x61;&#x69;&#x6d;&#x65;&#32;&#x61;&#110;&#32;&#x65;&#x6d;&#x61;&#x69;&#108;'+'<\/'+'a'+'>');
-    // -->
-    </script><noscript>&#x73;&#x65;&#110;&#100;&#32;&#74;&#x61;&#x69;&#x6d;&#x65;&#32;&#x61;&#110;&#32;&#x65;&#x6d;&#x61;&#x69;&#108;&#32;&#40;&#106;&#x61;&#x73;&#104;&#x61;&#110;&#100;&#x65;&#114;&#32;&#x61;&#116;&#32;&#x75;&#x63;&#100;&#x61;&#118;&#x69;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;&#x3f;&#x73;&#x75;&#98;&#106;&#x65;&#x63;&#116;&#x3d;&#x4f;&#112;&#x65;&#110;&#x25;&#50;&#48;&#68;&#x61;&#116;&#x61;&#x25;&#50;&#48;&#84;&#x61;&#x73;&#x6b;&#x25;&#50;&#48;&#86;&#x69;&#x65;&#x77;&#x29;</noscript>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p>
+    <p>If you have any comments or suggestions for additions, revisions, or improvements for this taskview, go to GitHub and <a href="https://github.com/ropensci/opendata/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/opendata/pulls">submit a pull request</a>. If you can't contribute on GitHub, <a href="mailto:jashander@ucdavis.edu?subject=Open%20Data%20Task%20View">send Jaime an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p>
     <p>If you know of a web service, API, data source, or other online resource that is not yet supported by an R package, consider adding it to <a href="https://github.com/ropensci/opendata/wiki/ToDo">the package development to do list on GitHub</a>.</p>
     <h2 id="data-sharing-and-archiving">Data Sharing and Archiving</h2>
     <p>Data sharing involves the dissemination of data in draft form or for a temporary period of time. rdrop2 (<a href="https://github.com/karthik/rdrop2">GitHub</a>) is a Dropbox.com interface from R, providing access to a full suite of file operations, including dir/copy/move/delete operations, account information (including quotas) and the ability to upload and download files from any Dropbox account (K). <a href="https://github.com/brendan-R/boxr">boxr</a> is a lightweight, high-level R interface for the <a href="https://developers.box.com/docs/">box.com API</a> (K). <ohat>RAmazonS3</ohat> provides an interface to the Amazon Simple Storage Service (S3) (K).</p>
@@ -76,6 +71,7 @@
     <li><pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.</li>
     <li><pkg>clifro</pkg>: Designed to minimise the hassle in downloading data from New Zealand's National Climate Database via <a href="http://cliflo.niwa.co.nz/">CliFlo</a>. <a href="https://github.com/ropensci/clifro">Source on GitHub</a></li>
     <li><pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.</li>
+    <li><pkg>darksky</pkg>: the <a href="https://darksky.net/dev/docs">Dark Sky API</a>, which provides current or historical global weather conditions.</li>
     <li><a href="https://cran.r-project.org/web/packages/decctools/index.html">decctools</a> (archived on CRAN) provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.</li>
     <li><a href="https://cran.r-project.org/src/contrib/Archive/GhcnDaily/">GhcnDaily</a> (archived on CRAN) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).</li>
     <li><pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.</li>
@@ -83,7 +79,9 @@
     <li><pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with <a href="http://www.emc.ncep.noaa.gov/index.php?branch=GFS">GFS</a>, <a href="http://www.meteogalicia.es/web/modelos/threddsIndex.action">Meteogalicia</a>, <a href="https://openmeteoforecast.org/wiki/Main_Page">OpenMeteo</a>, <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam">NAM</a>, and <a href="http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap">RAP</a>. [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/</li>
     <li><pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.</li>
     <li><pkg>prism</pkg> (<a href="https://github.com/ropensci/prism">GitHub</a>) provides access to Oregon State Prism climate data.</li>
+    <li><pkg>rclimateca</pkg>: access <a href="http://climate.weather.gc.ca/">Environment Canada</a> data on temperature, precipitation, and wind data for more than 8,000 locations.</li>
     <li><pkg>rdefra</pkg> (<a href="https://github.com/kehraProject/r_rdefra">GitHub</a>) retrieves UK air pollution data from DEFRA's UK-AIR website.</li>
+    <li><pkg>rdwd</pkg>: Handle climate data from the 'DWD' ('Deutscher Wetterdienst')</li>
     <li><pkg>RFc</pkg> (<a href="https://github.com/dgrechka/RFc">GitHub</a>) can retrieve weather data from the <a href="http://fc.itis.cs.msu.ru/">FetchClimate Web Service</a>.</li>
     <li><pkg>riem</pkg> (<a href="http://github.com/ropenscilabs/riem">GitHub</a>) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.</li>
     <li><pkg>RNCEP</pkg>: Obtain, organize, and visualize<a href="http://www.ncep.noaa.gov/">NCEP</a> weather data.</li>
@@ -95,6 +93,7 @@
     <li><pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.</li>
     <li><pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.</li>
     <li><pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.</li>
+    <li><pkg>worldmet</pkg>: import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) Integrated Surface Database</li>
     </ul>
     <h3 id="ecology-and-evolutionary-biology">Ecology and Evolutionary Biology</h3>
     <ul>
@@ -103,6 +102,7 @@
     <li><pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.</li>
     <li><pkg>ecoengine</pkg> (<a href="https://github.com/ropensci/ecoengine">GitHub</a>) provides access to more than 2 million georeferenced specimen records from <a href="https://ecoengine.berkeley.edu/">ecoengine</a> from the <a href="http://bnhm.berkeley.edu/">Berkeley Natural History Museums</a>.</li>
     <li><pkg>ecoretriever</pkg> (<a href="https://github.com/ropensci/ecoretriever/">GitHub</a>) provides an R interface to the <a href="http://www.ecodataretriever.org/">EcoData Retriever</a> via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.).</li>
+    <li><pkg>natserv</pkg>: access <a href="http://www.natureserve.org">NatureServe</a> data, image metadata, search taxonomic names, and make maps.</li>
     <li><pkg>neotoma</pkg> (<a href="https://github.com/ropensci/neotoma">GitHub</a>) offers programmatic R interface to the Neotoma Paleoecological Database.</li>
     <li><pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.</li>
     <li><pkg>rbison</pkg> (<a href="https://github.com/ropensci/rbison">GitHub</a>) is a wrapper to the USGS Bison API.</li>
@@ -125,12 +125,14 @@
     <h3 id="biodiversity-and-taxonomy">Biodiversity and Taxonomy</h3>
     <ul>
     <li><pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.</li>
+    <li><pkg>icesVocab</pkg>: the ICES (International Council for the Exploration of the Sea) <a href="http://vocab.ices.dk/services/POX.aspx">Vocabularies Database (RECO POX)</a>.</li>
     <li><pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.</li>
     <li><pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. <a href="https://github.com/ropensci/rgbif">Source on GitHub</a></li>
     <li><pkg>rnbn</pkg> (<a href="https://github.com/ropensci/rnbn">GitHub</a>) is an R interface to the <a href="http://nbn.org.uk">UK National Biodiversity Network</a>.</li>
     <li><pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the <a href="http://www.iplantcollaborative.org/ci/discovery-environment">iPlant Collaborative</a></li>
     <li><pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. <a href="https://github.com/ropensci/taxize">Source on GitHub</a></li>
     <li>The <a href="https://github.com/gustavobio/tpl">tpl</a> package doesn't interact with the web directly, but queries locally stored data from <a href="http://www.theplantlist.org/">theplantlist.org</a>, and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.</li>
+    <li><pkg>worrms</pkg>: <a href="http://www.marinespecies.org/">World Register of Marine Species</a> including searching by name, date and common names, searching using external identifiers, fetching synonyms, as well as fetching taxonomic children and taxonomic classification.</li>
     </ul>
     <h3 id="phylogenetics">Phylogenetics</h3>
     <ul>
@@ -142,6 +144,8 @@
     <ul>
     <li><pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.</li>
     <li><a href="https://github.com/CharlesCara/Datastream2R">Datastream2R</a> (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.</li>
+    <li><pkg>ecoseries</pkg>: interface to <a href="http://api.bcb.gov.br">Bacen</a> and <a href="http://api.sidra.ibge.gov.br">Sidra</a> APIs and data from <a href="http://www.ipeadata.gov.br/Default.aspx">IPEA</a>.</li>
+    <li><pkg>epidata</pkg>: data from <a href="http://www.epi.org/">Economic Policy Institute</a> on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.</li>
     <li><pkg>fImport</pkg>: Environment for teaching &quot;Financial Engineering and Computational Finance&quot;</li>
     <li><pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of <a href="http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas">Tesouro Direto</a>.</li>
     <li><pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API. ($)</li>
@@ -240,6 +244,7 @@
     <li>Justice Department: <a href="https://github.com/JakeRuss/bjs2r">bjs2r</a>: Get Bureau of Justice Statistics (BJS) data in R.</li>
     <li><pkg>csp</pkg> (<a href="https://github.com/expersso/csp">GitHub</a>) provides the complete <a href="http://ippsr.msu.edu/public-policy/correlates-state-policy">Correlates of State Policy data set</a>.</li>
     <li><pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub <a href="https://github.com/rOpenGov/federalregister">here</a>.</li>
+    <li><pkg>mnis</pkg>: An API package for the <a href="http://data.parliament.uk/membersdataplatform/default.aspx">Members' Name Information Service</a> operated by the UK parliament.</li>
     <li><pkg>polidata</pkg> (<a href="https://github.com/e9t/polidata-r">GitHub</a>): Access to various political data APIs, including e.g. <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> or <a href="https://sunlightlabs.github.io/congress/">Sunlight Congress API</a> for US Congress data, and <a href="http://data.popong.com/">POPONG API</a> for South Korea National Assembly data.</li>
     <li><pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.</li>
     <li><pkg>RPublica</pkg> (<a href="https://github.com/rOpenGov/RPublica">GitHub</a>) is a ProPublica API Client.</li>
@@ -426,6 +431,7 @@
     <pkg>cricketr</pkg>
     <pkg>crn</pkg>
     <pkg>csp</pkg>
+    <pkg>darksky</pkg>
     <pkg>datamart</pkg>
     <pkg>dataonderivatives</pkg>
     <pkg>dataRetrieval</pkg>
@@ -436,10 +442,12 @@
     <pkg>ecb</pkg>
     <pkg>ecoengine</pkg>
     <pkg>ecoretriever</pkg>
+    <pkg>ecoseries</pkg>
     <pkg>eechidna</pkg>
     <pkg>EIAdata</pkg>
     <pkg>elexr</pkg>
     <pkg>enigma</pkg>
+    <pkg>epidata</pkg>
     <pkg>estatapi</pkg>
     <pkg>eurostat</pkg>
     <pkg>factualR</pkg>
@@ -466,6 +474,7 @@
     <pkg>hdr</pkg>
     <pkg>hoardeR</pkg>
     <pkg>IBrokers</pkg>
+    <pkg>icesVocab</pkg>
     <pkg>icpsrdata</pkg>
     <pkg>idbr</pkg>
     <pkg>imfr</pkg>
@@ -479,7 +488,9 @@
     <pkg>marmap</pkg>
     <pkg>MBTAr</pkg>
     <pkg>meteoForecast</pkg>
+    <pkg>mnis</pkg>
     <pkg>muckrock</pkg>
+    <pkg>natserv</pkg>
     <pkg>neotoma</pkg>
     <pkg>nhanesA</pkg>
     <pkg>nhlscrapr</pkg>
@@ -521,6 +532,7 @@
     <pkg>Rbitcoin</pkg>
     <pkg>rbitcoinchartsapi</pkg>
     <pkg>rcanvec</pkg>
+    <pkg>rclimateca</pkg>
     <pkg>rClinicalCodes</pkg>
     <pkg>rclinicaltrials</pkg>
     <pkg>Rcolombos</pkg>
@@ -529,6 +541,7 @@
     <pkg>rdefra</pkg>
     <pkg>rdian</pkg>
     <pkg>rdnb</pkg>
+    <pkg>rdwd</pkg>
     <pkg>rebird</pkg>
     <pkg>rechonest</pkg>
     <pkg>redcapAPI</pkg>
@@ -598,8 +611,8 @@
     <pkg>taxize</pkg>
     <pkg>TFX</pkg>
     <pkg>Thinknum</pkg>
-    <pkg>tm.plugin.webmining</pkg>
     <pkg>TMDb</pkg>
+    <pkg>tm.plugin.webmining</pkg>
     <pkg>TR8</pkg>
     <pkg>traits</pkg>
     <pkg>translate</pkg>
@@ -626,6 +639,8 @@
     <pkg>WikidataR</pkg>
     <pkg>WikipediR</pkg>
     <pkg>wordbankr</pkg>
+    <pkg>worldmet</pkg>
+    <pkg>worrms</pkg>
     <pkg>yorkr</pkg>
     <pkg>zendeskR</pkg>
   </packagelist>

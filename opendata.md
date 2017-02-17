@@ -73,6 +73,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>CHCN</pkg>: A compilation of historical through contemporary climate measurements scraped from the Environment Canada Website Including tools for scraping data, creating metadata and formatting temperature files.
 -   <pkg>clifro</pkg>: Designed to minimise the hassle in downloading data from New Zealand's National Climate Database via [CliFlo](http://cliflo.niwa.co.nz/). [Source on GitHub](https://github.com/ropensci/clifro)
 -   <pkg>crn</pkg>: Provides the core functions required to download and format data from the Climate Reference Network. Both daily and hourly data are downloaded from the ftp, a consolidated file of all stations is created, station metadata is extracted. In addition functions for selecting individual variables and creating R friendly datasets for them is provided.
+-   <pkg>darksky</pkg>: the [Dark Sky API](https://darksky.net/dev/docs), which provides current or historical global weather conditions.
 -   [decctools](https://cran.r-project.org/web/packages/decctools/index.html) (archived on CRAN) provides functions for retrieving energy statistics from the United Kingdom Department of Energy and Climate Change and related data sources. The current version focuses on total final energy consumption statistics at the local authority, MSOA, and LSOA geographies. Methods for calculating the generation mix of grid electricity and its associated carbon intensity are also provided.
 -   [GhcnDaily](https://cran.r-project.org/src/contrib/Archive/GhcnDaily/) (archived on CRAN) downloads and processes Global Historical Climatology Network (GHCN) daily data from the National Climatic Data Center (NCDC).
 -   <pkg>GSODR</pkg> provides acess to data from USA National Climatic Data Center (NCDC) Global Surface Summary of the Day (GSOD) weather stations, as well as functions for working with these data.
@@ -80,7 +81,9 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>meteoForecast</pkg>: meteoForecast is a package to access to several Numerical Weather Prediction services both in raster format and as a time series for a location. Currenty it works with [GFS](http://www.emc.ncep.noaa.gov/index.php?branch=GFS), [Meteogalicia](http://www.meteogalicia.es/web/modelos/threddsIndex.action), [OpenMeteo](https://openmeteoforecast.org/wiki/Main_Page), [NAM](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-mesoscale-forecast-system-nam), and [RAP](http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/rapid-refresh-rap). [Source on GitHub](https://github.com/oscarperpinan/meteoForecast/
 -   <pkg>okmesonet</pkg>: Retrieves Oklahoma (USA) Mesonet climatological data provided by the Oklahoma Climatological Survey.
 -   <pkg>prism</pkg> ([GitHub](https://github.com/ropensci/prism)) provides access to Oregon State Prism climate data.
+-   <pkg>rclimateca</pkg>: access [Environment Canada](http://climate.weather.gc.ca/) data on temperature, precipitation, and wind data for more than 8,000 locations. 
 -   <pkg>rdefra</pkg> ([GitHub](https://github.com/kehraProject/r_rdefra)) retrieves UK air pollution data from DEFRA's UK-AIR website.
+-   <pkg>rdwd</pkg>: Handle climate data from the 'DWD' ('Deutscher Wetterdienst') 
 -   <pkg>RFc</pkg> ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
 -   <pkg>riem</pkg> ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   <pkg>RNCEP</pkg>: Obtain, organize, and visualize[NCEP](http://www.ncep.noaa.gov/) weather data.
@@ -92,6 +95,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>stationaRy</pkg> can retrieve hourly weather data from various global weather stations.
 -   <pkg>weatherData</pkg>: Functions that help in fetching weather data from websites. Given a location and a date range, these functions help fetch weather data (temperature, pressure etc.) for any weather related analysis.
 -   <pkg>weatherr</pkg> combines data from multiple APIs to obtain instant weather forecasts.
+-   <pkg>worldmet</pkg>: import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) Integrated Surface Database 
 
 ###Ecology and Evolutionary Biology###
 
@@ -100,6 +104,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg> ([GitHub](https://github.com/ropensci/ecoengine)) provides access to more than 2 million georeferenced specimen records from [ecoengine](https://ecoengine.berkeley.edu/) from the [Berkeley Natural History Museums](http://bnhm.berkeley.edu/).
 -   <pkg>ecoretriever</pkg> ([GitHub](https://github.com/ropensci/ecoretriever/)) provides an R interface to the [EcoData Retriever](http://www.ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.).
+-   <pkg>natserv</pkg>: access [NatureServe](http://www.natureserve.org) data, image metadata, search taxonomic names, and make maps.
 -   <pkg>neotoma</pkg> ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
 -   <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
 -   <pkg>rbison</pkg> ([GitHub](https://github.com/ropensci/rbison)) is a wrapper to the USGS Bison API. 
@@ -122,12 +127,14 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Biodiversity and Taxonomy ###
 
 -   <pkg>flora</pkg>: Retrieve taxonomical information of botanical names from the Flora do Brasil website.
+-   <pkg>icesVocab</pkg>: the ICES (International Council for the Exploration of the Sea) [Vocabularies Database (RECO POX)](http://vocab.ices.dk/services/POX.aspx).
 -   <pkg>rbhl</pkg>: R interface to the Biodiversity Heritage Library (BHL) API.
 -   <pkg>rgbif</pkg>: Interface to the Global Biodiversity Information Facility API methods. [Source on GitHub](https://github.com/ropensci/rgbif)
 -   <pkg>rnbn</pkg> ([GitHub](https://github.com/ropensci/rnbn)) is an R interface to the [UK National Biodiversity Network](http://nbn.org.uk).
 -   <pkg>rPlant</pkg>: An R interface to the the many computational resources iPlant offers through their RESTful application programming interface. Currently, rPlant functions interact with the iPlant foundational API, the Taxonomic Name Resolution Service API, and the Phylotastic Taxosaurus API. Before using rPlant, users will have to register with the [iPlant Collaborative](http://www.iplantcollaborative.org/ci/discovery-environment)
 -   <pkg>taxize</pkg>: Taxonomic information from around the web. A single unified interface to many web APIs for taxonomic data, including NCBI, ITIS, Tropicos and more. [Source on GitHub](https://github.com/ropensci/taxize)
 -   The [tpl](https://github.com/gustavobio/tpl) package doesn't interact with the web directly, but queries locally stored data from [theplantlist.org](http://www.theplantlist.org/), and data will be updated when theplantlist updates, which is not very often. There is another package for interacting with this same data, called Taxonstand.
+-   <pkg>worrms</pkg>: [World Register of Marine Species](http://www.marinespecies.org/) including searching by name, date and common names, searching using external identifiers, fetching synonyms, as well as fetching taxonomic children and taxonomic classification.
 
 
 ###Phylogenetics###
@@ -141,6 +148,8 @@ Data archiving involves the production and dissemination of open data that is pe
 
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
+-   <pkg>ecoseries</pkg>: interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx).
+-   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
 -   <pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
 -   <pkg>IBrokers</pkg>: Provides native R access to Interactive Brokers Trader Workstation API. ($)
@@ -233,6 +242,7 @@ There are a very large number of packages providing access to government data. H
     -   Justice Department: [bjs2r](https://github.com/JakeRuss/bjs2r): Get Bureau of Justice Statistics (BJS) data in R.
     -   <pkg>csp</pkg> ([GitHub](https://github.com/expersso/csp)) provides the complete [Correlates of State Policy data set](http://ippsr.msu.edu/public-policy/correlates-state-policy).
     -   <pkg>federalregister</pkg>: Client package for the U.S. Federal Register API. Development version on GitHub [here](https://github.com/rOpenGov/federalregister).
+    -   <pkg>mnis</pkg>: An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament.
     -   <pkg>polidata</pkg> ([GitHub](https://github.com/e9t/polidata-r)): Access to various political data APIs, including e.g. [Google Civic Information API](https://developers.google.com/civic-information/) or [Sunlight Congress API](https://sunlightlabs.github.io/congress/) for US Congress data, and [POPONG API](http://data.popong.com/) for South Korea National Assembly data.
     -   <pkg>rodham</pkg> retrieves text of Hillary Rodham Clinton's emails from her time as U.S. Secretary of State.
     -   <pkg>RPublica</pkg> ([GitHub](https://github.com/rOpenGov/RPublica)) is a ProPublica API Client.
