@@ -150,10 +150,8 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Finance###
 
--   <pkg>BETS</pkg>: Brazilian Economic Time Series from the Central Bank of Brazik, Getulio Vargas Foundation, and the Brazilian Institute of Geography. The package also provides tools for automated reporting (dynamic documents).
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
--   <pkg>ecoseries</pkg>: interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx).
 -   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
 -   <pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
@@ -223,6 +221,7 @@ Data archiving involves the production and dissemination of open data that is pe
 There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
 -   *Australia*: <pkg>eechidna</pkg> provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.
+-  *Brazil*: <pkg>BETS</pkg>: Brazilian Economic Time Series from the Central Bank of Brazil, Getulio Vargas Foundation, and the Brazilian Institute of Geography. The package also provides tools for automated reporting (dynamic documents). <pkg>ecoseries</pkg>: interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx) in Brazil.
 -   *Denmark*: [dkstat](https://github.com/rOpenGov/dkstat) (not on CRAN): A package to access the [StatBank API](http://www.statistikbanken.dk/statbank5a/) from [Statistics Denmark](http://www.dst.dk/). [taxdk](https://github.com/sebastianbarfort/taxdk) (not on CRAN) provides tax information for Danish companies.
 -   *Europe*:
     -   <pkg>ameco</pkg> ([GitHub](http://github.com/expersso/ameco)) connects to the European Commission's macro-economic database.
