@@ -56,6 +56,7 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Earth Science###
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
+-   <pkg>getlandsat</pkg>: obtain landsat 8 Data from [Amazon Web Services public data sets] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   <pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
 -   <pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
@@ -88,7 +89,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>RFc</pkg> ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
 -   <pkg>riem</pkg> ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   <pkg>RNCEP</pkg>: Obtain, organize, and visualize[NCEP](http://www.ncep.noaa.gov/) weather data.
--   <pkg>rnoaa</pkg>: R interface to NOAA Climate data API.
+-   <pkg>rnoaa</pkg>: R interface to NOAA Climate data API. See also <pkg>countyweather</pkg> which uses this interface to aggregate data at the county level.
 -   <pkg>rNOMADS</pkg>: An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: <rforge>rnomads</rforge>.
 -   <pkg>ropenaq</pkg> ([GitHub](http://github.com/ropenscilabs/ropenaq)) provides air quality data from [the OpenAQ platform](https://docs.openaq.org/).
 -   <pkg>rWBclimate</pkg>: R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
@@ -107,6 +108,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>dismo</pkg>: Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   <pkg>ecoengine</pkg> ([GitHub](https://github.com/ropensci/ecoengine)) provides access to more than 2 million georeferenced specimen records from [ecoengine](https://ecoengine.berkeley.edu/) from the [Berkeley Natural History Museums](http://bnhm.berkeley.edu/).
 -   <pkg>ecoretriever</pkg> ([GitHub](https://github.com/ropensci/ecoretriever/)) provides an R interface to the [EcoData Retriever](http://www.ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.).
+-   <pkg>icesDatras</pkg>: the [DATRAS trawl survey database](https://datras.ices.dk/WebServices/Webservices.aspx) from ICES (International Council for the Exploration of the Sea).
 -   <pkg>natserv</pkg>: access [NatureServe](http://www.natureserve.org) data, image metadata, search taxonomic names, and make maps.
 -   <pkg>neotoma</pkg> ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
 -   <pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
@@ -151,6 +153,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Finance###
 
+-   <pkg>BatchGetSymbols</pkg> ownload and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
@@ -234,7 +237,7 @@ There are a very large number of packages providing access to government data. H
 -   *Germany*: [BerlinData](https://github.com/dirkschumacher/RBerlinData) ([archived on CRAN](https://cran.r-project.org/src/contrib/Archive/BerlinData/)): Easy access to <http://daten.berlin.de>. It allows you to search through the data catalogue and to download the data directly from within R. <pkg>rdnb</pkg> connects to resources of the [German National Library](http://www.dnb.de).
 -   *India*: [usaqmindia](https://github.com/masalmon/usaqmindia) provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata. Data source is US governement via [this website](http://newdelhi.usembassy.gov/airqualitydata.html).
 -   *Japan*: <pkg>govStatJPN</pkg> offers functions to get public survey data in Japan. <pkg>estatapi</pkg> links to the Japanese government's e-Stat official statistics API. <pkg>kokudosuuchi</pkg>: interface with [Kokudo Suuchi API](http://nlftp.mlit.go.jp/ksj-e/index.html) the GIS data service of the Japanese government.
--   *Mexico*: <pkg>inegiR</pkg> ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
+-   *Mexico*: <pkg>inegiR</pkg> ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish. <pkg>banxicoR</pkg> scrape IQY calls to Bank of Mexico.
 -   *Netherlands*: <pkg>cbsodataR</pkg> connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland*:
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
@@ -259,7 +262,7 @@ There are a very large number of packages providing access to government data. H
 -   *Other or international*:
     -   <pkg>enigma</pkg> ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   <pkg>hdr</pkg> ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](<http://hdr.undp.org>) API.
-    -   <pkg>imfr</pkg> ([GitHub](https://github.com/christophergandrud/imfr)) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
+    -   <em>IMF</em>: both <pkg>IMFData</pkg> (on [GitHub](https://github.com/mingjerli/IMFData)) and <pkg>imfr</pkg> (on [GitHub](https://github.com/christophergandrud/imfr)) use the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   <pkg>manifestoR</pkg> is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   <pkg>muckrock</pkg> ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
     -   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
