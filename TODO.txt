@@ -11,40 +11,11 @@ Milestone #1: Release to CRAN ⚠
     rsnps
 
 
-#186: BatchGetSymbols
-@leeper opened this issue 102 days ago.  [open] 
-[addpkg]
-Milestone #1: Release to CRAN ⚠
-
-    https://cran.r-project.org/web/packages/BatchGetSymbols/index.html
-
-
-#185: osfr
-@leeper opened this issue 111 days ago.  [open] 
-[addpkg]
-
-    https://github.com/chartgerink/osfr
-
-
-#183: countyweather
-@leeper opened this issue 113 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/countyweather/index.html
-
-
 #182: rscorecard
 @leeper opened this issue 114 days ago.  [open] 
 [addpkg]
 
     https://github.com/btskinner/rscorecard
-
-
-#181: osfr
-@leeper opened this issue 119 days ago.  [open] 
-[addpkg]
-
-    https://github.com/chartgerink/osfr
 
 
 #179: Rodam
@@ -60,35 +31,6 @@ Milestone #1: Release to CRAN ⚠
 Milestone #1: Release to CRAN ⚠
 
     https://cran.r-project.org/web/packages/okcupiddata/index.html
-
-
-#175: banxicoR
-@leeper opened this issue 182 days ago.  [open] 
-[addpkg]
-Milestone #1: Release to CRAN ⚠
-
-    http://cran.r-project.org/web/packages/banxicoR/index.html
-
-
-#174: icesDatras
-@leeper opened this issue 183 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/icesDatras/index.html
-
-
-#173: getlandsat
-@leeper opened this issue 184 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/getlandsat/index.html
-
-
-#172: IMFData
-@leeper opened this issue 184 days ago.  [open] (1 comment)
-[addpkg]
-
-    https://cran.r-project.org/web/packages/IMFData/index.html
 
 
 #171: bundesligaR

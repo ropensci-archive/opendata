@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-02-16                                       |
+| **Version:**    | 2017-02-21                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
@@ -71,6 +71,7 @@ Web-based Open Data
 ### Earth Science
 
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
+-   [getlandsat](http://cran.rstudio.com/web/packages/getlandsat/index.html): obtain landsat 8 Data from \[Amazon Web Services public data sets\] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html): Import, plot and analyze bathymetric and topographic data from NOAA.
 -   [raincpc](http://cran.rstudio.com/web/packages/raincpc/index.html): The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
@@ -103,7 +104,7 @@ Web-based Open Data
 -   [RFc](http://cran.rstudio.com/web/packages/RFc/index.html) ([GitHub](https://github.com/dgrechka/RFc)) can retrieve weather data from the [FetchClimate Web Service](http://fc.itis.cs.msu.ru/).
 -   [riem](http://cran.rstudio.com/web/packages/riem/index.html) ([GitHub](http://github.com/ropenscilabs/riem)) offers access to Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.
 -   [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Obtain, organize, and visualize [NCEP](http://www.ncep.noaa.gov/) weather data.
--   [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): R interface to NOAA Climate data API.
+-   [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): R interface to NOAA Climate data API. See also [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html) which uses this interface to aggregate data at the county level.
 -   [rNOMADS](http://cran.rstudio.com/web/packages/rNOMADS/index.html): An interface to the [NOAA Operational Model Archive and Distribution System (NOMADS)](http://nomads.ncdc.noaa.gov/) that allows download of global and regional weather model data, and supports a variety of models ranging from global weather data to an altitude of 40 km, to high resolution regional weather models, to wave and sea ice models. It can also retrieve archived NOMADS models. Source: [<span class="Rforge">rnomads</span>](https://R-Forge.R-project.org/projects/rnomads/).
 -   [ropenaq](http://cran.rstudio.com/web/packages/ropenaq/index.html) ([GitHub](http://github.com/ropenscilabs/ropenaq)) provides air quality data from [the OpenAQ platform](https://docs.openaq.org/).
 -   [rWBclimate](http://cran.rstudio.com/web/packages/rWBclimate/index.html): R interface for the World Bank climate data. [Source on GitHub](https://github.com/ropensci/rWBclimate)
@@ -122,6 +123,7 @@ Web-based Open Data
 -   [dismo](http://cran.rstudio.com/web/packages/dismo/index.html): Species distribution modeling, with wrappers to Google APIs for maps and geocoding.
 -   [ecoengine](http://cran.rstudio.com/web/packages/ecoengine/index.html) ([GitHub](https://github.com/ropensci/ecoengine)) provides access to more than 2 million georeferenced specimen records from [ecoengine](https://ecoengine.berkeley.edu/) from the [Berkeley Natural History Museums](http://bnhm.berkeley.edu/).
 -   [ecoretriever](http://cran.rstudio.com/web/packages/ecoretriever/index.html) ([GitHub](https://github.com/ropensci/ecoretriever/)) provides an R interface to the [EcoData Retriever](http://www.ecodataretriever.org/) via the EcoData Retriever's command line interface. The EcoData Retriever automates the tasks of finding, downloading, and cleaning ecological datasets, and then stores them in a local database (including SQLite, MySQL, etc.).
+-   [icesDatras](http://cran.rstudio.com/web/packages/icesDatras/index.html): the [DATRAS trawl survey database](https://datras.ices.dk/WebServices/Webservices.aspx) from ICES (International Council for the Exploration of the Sea).
 -   [natserv](http://cran.rstudio.com/web/packages/natserv/index.html): access [NatureServe](http://www.natureserve.org) data, image metadata, search taxonomic names, and make maps.
 -   [neotoma](http://cran.rstudio.com/web/packages/neotoma/index.html) ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
 -   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html): Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
@@ -164,6 +166,7 @@ Web-based Open Data
 
 ### Finance
 
+-   [BatchGetSymbols](http://cran.rstudio.com/web/packages/BatchGetSymbols/index.html) ownload and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html) Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 -   [epidata](http://cran.rstudio.com/web/packages/epidata/index.html): data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
@@ -247,7 +250,7 @@ There are a very large number of packages providing access to government data. H
 -   *Germany*: [BerlinData](https://github.com/dirkschumacher/RBerlinData) ([archived on CRAN](https://cran.r-project.org/src/contrib/Archive/BerlinData/)): Easy access to <a href="http://daten.berlin.de" class="uri" class="uri">http://daten.berlin.de</a>. It allows you to search through the data catalogue and to download the data directly from within R. [rdnb](http://cran.rstudio.com/web/packages/rdnb/index.html) connects to resources of the [German National Library](http://www.dnb.de).
 -   *India*: [usaqmindia](https://github.com/masalmon/usaqmindia) provides data from the US air quality monitoring program in India for Delhi, Mumbai, Chennai, Hyderabad and Kolkata. Data source is US governement via [this website](http://newdelhi.usembassy.gov/airqualitydata.html).
 -   *Japan*: [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html) offers functions to get public survey data in Japan. [estatapi](http://cran.rstudio.com/web/packages/estatapi/index.html) links to the Japanese government's e-Stat official statistics API. [kokudosuuchi](http://cran.rstudio.com/web/packages/kokudosuuchi/index.html): interface with [Kokudo Suuchi API](http://nlftp.mlit.go.jp/ksj-e/index.html) the GIS data service of the Japanese government.
--   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish.
+-   *Mexico*: [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html) ([GitHub](https://github.com/Eflores89/inegiR)) can download official statistics for Mexico. Note: package functions and documentation are in Spanish. [banxicoR](http://cran.rstudio.com/web/packages/banxicoR/index.html) scrape IQY calls to Bank of Mexico.
 -   *Netherlands*: [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html) connects with the [Statistics Netherlands](https://github.com/edwindj/cbsodataR) datasets. [Source on GitHub](https://github.com/edwindj/cbsodataR).
 -   *Poland* :
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
@@ -272,13 +275,13 @@ There are a very large number of packages providing access to government data. H
 -   *Other or international* :
     -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
-    -   [imfr](http://cran.rstudio.com/web/packages/imfr/index.html) ([GitHub](https://github.com/christophergandrud/imfr)) links to the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
+    -   *IMF*: both [IMFData](http://cran.rstudio.com/web/packages/IMFData/index.html) (on [GitHub](https://github.com/mingjerli/IMFData)) and [imfr](http://cran.rstudio.com/web/packages/imfr/index.html) (on [GitHub](https://github.com/christophergandrud/imfr)) use the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [muckrock](http://cran.rstudio.com/web/packages/muckrock/index.html) ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   [psData](http://cran.rstudio.com/web/packages/psData/index.html) ([GitHub](https://github.com/christophergandrud/psData/)) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.
-    -   World Bank: [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html) can extract data from the [World Bank Data API](http://data.worldbank.org/developers/api-overview) and the [World Bank Data Catalog API](http://data.worldbank.org/developers/data-catalog-api). [WDI](http://cran.rstudio.com/web/packages/WDI/index.html) can search, extract and format data from the World Bank's World Development Indicators.
+    -   *World Bank:* [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html) can extract data from the [World Bank Data API](http://data.worldbank.org/developers/api-overview) and the [World Bank Data Catalog API](http://data.worldbank.org/developers/data-catalog-api). [WDI](http://cran.rstudio.com/web/packages/WDI/index.html) can search, extract and format data from the World Bank's World Development Indicators.
 
 ### Literature, Metadata, Text, and Altmetrics
 
@@ -429,6 +432,8 @@ There are a very large number of packages providing access to government data. H
 -   [alm](http://cran.rstudio.com/web/packages/alm/index.html)
 -   [ameco](http://cran.rstudio.com/web/packages/ameco/index.html)
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
+-   [banxicoR](http://cran.rstudio.com/web/packages/banxicoR/index.html)
+-   [BatchGetSymbols](http://cran.rstudio.com/web/packages/BatchGetSymbols/index.html)
 -   [BETS](http://cran.rstudio.com/web/packages/BETS/index.html)
 -   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
@@ -442,6 +447,7 @@ There are a very large number of packages providing access to government data. H
 -   [CHCN](http://cran.rstudio.com/web/packages/CHCN/index.html)
 -   [chromer](http://cran.rstudio.com/web/packages/chromer/index.html)
 -   [clifro](http://cran.rstudio.com/web/packages/clifro/index.html)
+-   [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html)
 -   [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html)
 -   [cricketr](http://cran.rstudio.com/web/packages/cricketr/index.html)
 -   [crn](http://cran.rstudio.com/web/packages/crn/index.html)
@@ -479,6 +485,7 @@ There are a very large number of packages providing access to government data. H
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html)
 -   [gesis](http://cran.rstudio.com/web/packages/gesis/index.html)
 -   [getCRUCLdata](http://cran.rstudio.com/web/packages/getCRUCLdata/index.html)
+-   [getlandsat](http://cran.rstudio.com/web/packages/getlandsat/index.html)
 -   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
@@ -492,9 +499,11 @@ There are a very large number of packages providing access to government data. H
 -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html)
 -   [hoardeR](http://cran.rstudio.com/web/packages/hoardeR/index.html)
 -   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html)
+-   [icesDatras](http://cran.rstudio.com/web/packages/icesDatras/index.html)
 -   [icesVocab](http://cran.rstudio.com/web/packages/icesVocab/index.html)
 -   [icpsrdata](http://cran.rstudio.com/web/packages/icpsrdata/index.html)
 -   [idbr](http://cran.rstudio.com/web/packages/idbr/index.html)
+-   [IMFData](http://cran.rstudio.com/web/packages/IMFData/index.html)
 -   [imfr](http://cran.rstudio.com/web/packages/imfr/index.html)
 -   [imguR](http://cran.rstudio.com/web/packages/imguR/index.html)
 -   [inegiR](http://cran.rstudio.com/web/packages/inegiR/index.html)
