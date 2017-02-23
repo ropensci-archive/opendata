@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-02-21                                       |
+| **Version:**    | 2017-02-22                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
@@ -52,6 +52,7 @@ Web-based Open Data
 
 ### Agriculture
 
+-   [cdlTools](http://cran.rstudio.com/web/packages/cdlTools/index.html): download USDA National Agricultural Statistics Service (NASS) cropscape data for a specified state. Utilities for fips, abbreviation, and name conversion are also provided.
 -   [cimis](https://cran.rstudio.com/src/contrib/Archive/cimis/): R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.
 -   [FAOSTAT](http://cran.rstudio.com/web/packages/FAOSTAT/index.html): The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
 
@@ -74,6 +75,7 @@ Web-based Open Data
 -   [getlandsat](http://cran.rstudio.com/web/packages/getlandsat/index.html): obtain landsat 8 Data from \[Amazon Web Services public data sets\] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html): Import, plot and analyze bathymetric and topographic data from NOAA.
+-   [mregions](http://cran.rstudio.com/web/packages/mregions/index.html): data from [Marine Regions](http://%20www.marineregions.org/), including region metadata, GeoJSON data, as well as Shape files. Use cases include using data downstream to visualize geospatial data by marine region, mapping variation among different regions, and more.
 -   [raincpc](http://cran.rstudio.com/web/packages/raincpc/index.html): The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
 -   [rainfreq](http://cran.rstudio.com/web/packages/rainfreq/index.html): Estimates of rainfall at desired frequency and desired duration are often required in the design of dams and other hydraulic structures, catastrophe risk modeling, environmental planning and management. One major source of such estimates for the USA is the NOAA National Weather Service's (NWS) division of Hydrometeorological Design Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km resolution and comes as a huge number of GIS files.
 -   [rFDSN](http://cran.rstudio.com/web/packages/rFDSN/index.html): Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from [International Federation of Digital Seismograph Networks](http://www.fdsn.org/) repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).
@@ -166,7 +168,8 @@ Web-based Open Data
 
 ### Finance
 
--   [BatchGetSymbols](http://cran.rstudio.com/web/packages/BatchGetSymbols/index.html) ownload and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
+-   [BatchGetSymbols](http://cran.rstudio.com/web/packages/BatchGetSymbols/index.html) download and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
+-   [belex](http://cran.rstudio.com/web/packages/belex/index.html): historical financial data form the Belgrade Stock Exchange (Serbia)
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html) Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources.
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE server, which provides XML access to the Datastream database of economic and financial information.
 -   [epidata](http://cran.rstudio.com/web/packages/epidata/index.html): data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
@@ -198,6 +201,7 @@ Web-based Open Data
 -   [seq2R](http://cran.rstudio.com/src/contrib/Archive/seq2R/): Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.
 -   [seqinr](http://cran.rstudio.com/web/packages/seqinr/index.html): Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.
 -   [SoyNAM](http://cran.rstudio.com/web/packages/SoyNAM/index.html): Genomic and multi-environmental soybean data. Soybean Nested Association Mapping (SoyNAM) project dataset funded by the United Soybean Board (USB), pre-formatted for general analysis and genome-wide association analysis using the NAM package.
+-   [ungeneanno](http://cran.rstudio.com/web/packages/ungeneanno/index.html): collate annotation and summary information about a set of genes from the publicly available resources at Uniprot and NCBI; including publication information from a search of the NCBI Pubmed database.
 -   NCBI EUtils web services: See the NCBI section
 
 ### Geocoding
@@ -255,8 +259,9 @@ There are a very large number of packages providing access to government data. H
 -   *Poland* :
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
     -   [sejmRP](http://cran.rstudio.com/web/packages/sejmRP/index.html) ([GitHub](http://github.com/mi2-warsaw/sejmRP/)) provides data on deputies and voting in [the Polish Diet](http://www.sejm.gov.pl/).
+-   *Russia*: [sophisthse](http://cran.rstudio.com/web/packages/sophisthse/index.html) provides economic indicators from [the Archive of Economic and Social Data](http://sophist.hse.ru)
 -   *United States of America* :
-    -   U.S. Census Bureau: [acs](http://cran.rstudio.com/web/packages/acs/index.html) can download, manipulate, and present data from the US Census American Community Survey. [censusr](http://cran.rstudio.com/web/packages/censusr/index.html) connects to both ACS and SF1 datasets. [idbr](http://cran.rstudio.com/web/packages/idbr/index.html) ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html) ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string.
+    -   U.S. Census Bureau: [acs](http://cran.rstudio.com/web/packages/acs/index.html) can download, manipulate, and present data from the US Census American Community Survey. [censusr](http://cran.rstudio.com/web/packages/censusr/index.html) connects to both ACS and SF1 datasets. [idbr](http://cran.rstudio.com/web/packages/idbr/index.html) ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html) ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. See also [blscrapeR](http://cran.rstudio.com/web/packages/blscrapeR/index.html) which also provides functions to analyze and visualize BLS data.
     -   Education: [LearnDC](https://github.com/benjaminrobinson/LearnDC) provides access to [LearnDC's](http://www.learndc.org/) data on Washington DC charter schools.
     -   Energy Department: [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html): U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN). [energyr](http://cran.rstudio.com/web/packages/energyr/index.html): Federal Energy Regulatory Commission data including electric company financials, natural gas company financials, hydropower plant data, liquified natural gas plant data, oil company financials, natural gas company financials, and natural gas storage field data.
     -   Elections: [elexr](http://cran.rstudio.com/web/packages/elexr/index.html) is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. [pollstR](http://cran.rstudio.com/web/packages/pollstR/index.html) ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. [pvsR](http://cran.rstudio.com/web/packages/pvsR/index.html): An R package to interact with the Project Vote Smart API for scientific research. [ropensecretsapi](http://cran.rstudio.com/web/packages/ropensecretsapi/index.html): An R package for the OpenSecrets.org web services API.
@@ -278,6 +283,7 @@ There are a very large number of packages providing access to government data. H
     -   *IMF*: both [IMFData](http://cran.rstudio.com/web/packages/IMFData/index.html) (on [GitHub](https://github.com/mingjerli/IMFData)) and [imfr](http://cran.rstudio.com/web/packages/imfr/index.html) (on [GitHub](https://github.com/christophergandrud/imfr)) use the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   [manifestoR](http://cran.rstudio.com/web/packages/manifestoR/index.html) is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   [muckrock](http://cran.rstudio.com/web/packages/muckrock/index.html) ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
+    -   [oec](http://cran.rstudio.com/web/packages/oec/index.html): use the Observatory of Economic Complexity's API in R to download international trade data in csv and create and D3Plus visualizations.
     -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html) Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   [psData](http://cran.rstudio.com/web/packages/psData/index.html) ([GitHub](https://github.com/christophergandrud/psData/)) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.
@@ -341,6 +347,7 @@ There are a very large number of packages providing access to government data. H
 
 ### Other
 
+-   [boxoffice](http://cran.rstudio.com/web/packages/boxoffice/index.html): daily box office information (how much each movie earned in theaters) using data from either [Box Office Mojo](http://www.boxofficemojo.com/) or [The Numbers](http://www.the-numbers.com/).
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html): Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 -   [genderizeR](http://cran.rstudio.com/web/packages/genderizeR/index.html): Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
@@ -434,14 +441,18 @@ There are a very large number of packages providing access to government data. H
 -   [aRxiv](http://cran.rstudio.com/web/packages/aRxiv/index.html)
 -   [banxicoR](http://cran.rstudio.com/web/packages/banxicoR/index.html)
 -   [BatchGetSymbols](http://cran.rstudio.com/web/packages/BatchGetSymbols/index.html)
+-   [belex](http://cran.rstudio.com/web/packages/belex/index.html)
 -   [BETS](http://cran.rstudio.com/web/packages/BETS/index.html)
 -   [bibliometrix](http://cran.rstudio.com/web/packages/bibliometrix/index.html)
 -   [bigrquery](http://cran.rstudio.com/web/packages/bigrquery/index.html)
 -   [biorxivr](http://cran.rstudio.com/web/packages/biorxivr/index.html)
 -   [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html)
+-   [blscrapeR](http://cran.rstudio.com/web/packages/blscrapeR/index.html)
 -   [boilerpipeR](http://cran.rstudio.com/web/packages/boilerpipeR/index.html)
+-   [boxoffice](http://cran.rstudio.com/web/packages/boxoffice/index.html)
 -   [brewdata](http://cran.rstudio.com/web/packages/brewdata/index.html)
 -   [cbsodataR](http://cran.rstudio.com/web/packages/cbsodataR/index.html)
+-   [cdlTools](http://cran.rstudio.com/web/packages/cdlTools/index.html)
 -   [censusr](http://cran.rstudio.com/web/packages/censusr/index.html)
 -   [cgdsr](http://cran.rstudio.com/web/packages/cgdsr/index.html)
 -   [CHCN](http://cran.rstudio.com/web/packages/CHCN/index.html)
@@ -517,6 +528,7 @@ There are a very large number of packages providing access to government data. H
 -   [MBTAr](http://cran.rstudio.com/web/packages/MBTAr/index.html)
 -   [meteoForecast](http://cran.rstudio.com/web/packages/meteoForecast/index.html)
 -   [mnis](http://cran.rstudio.com/web/packages/mnis/index.html)
+-   [mregions](http://cran.rstudio.com/web/packages/mregions/index.html)
 -   [muckrock](http://cran.rstudio.com/web/packages/muckrock/index.html)
 -   [natserv](http://cran.rstudio.com/web/packages/natserv/index.html)
 -   [neotoma](http://cran.rstudio.com/web/packages/neotoma/index.html)
@@ -524,6 +536,7 @@ There are a very large number of packages providing access to government data. H
 -   [nhlscrapr](http://cran.rstudio.com/web/packages/nhlscrapr/index.html)
 -   [oai](http://cran.rstudio.com/web/packages/oai/index.html)
 -   [OAIHarvester](http://cran.rstudio.com/web/packages/OAIHarvester/index.html)
+-   [oec](http://cran.rstudio.com/web/packages/oec/index.html)
 -   [OECD](http://cran.rstudio.com/web/packages/OECD/index.html)
 -   [okmesonet](http://cran.rstudio.com/web/packages/okmesonet/index.html)
 -   [olctools](http://cran.rstudio.com/web/packages/olctools/index.html)
@@ -633,6 +646,7 @@ There are a very large number of packages providing access to government data. H
 -   [SocialMediaLab](http://cran.rstudio.com/web/packages/SocialMediaLab/index.html)
 -   [SocialMediaMineR](http://cran.rstudio.com/web/packages/SocialMediaMineR/index.html)
 -   [soilDB](http://cran.rstudio.com/web/packages/soilDB/index.html)
+-   [sophisthse](http://cran.rstudio.com/web/packages/sophisthse/index.html)
 -   [sorvi](http://cran.rstudio.com/web/packages/sorvi/index.html)
 -   [sos4R](http://cran.rstudio.com/web/packages/sos4R/index.html)
 -   [SoyNAM](http://cran.rstudio.com/web/packages/SoyNAM/index.html)
@@ -655,6 +669,7 @@ There are a very large number of packages providing access to government data. H
 -   [twitteR](http://cran.rstudio.com/web/packages/twitteR/index.html)
 -   [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html)
 -   [UNF](http://cran.rstudio.com/web/packages/UNF/index.html)
+-   [ungeneanno](http://cran.rstudio.com/web/packages/ungeneanno/index.html)
 -   [USAboundaries](http://cran.rstudio.com/web/packages/USAboundaries/index.html)
 -   [UScancer](http://cran.rstudio.com/web/packages/UScancer/index.html)
 -   [ustyc](http://cran.rstudio.com/web/packages/ustyc/index.html)

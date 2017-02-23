@@ -5,10 +5,10 @@ Milestone #1: Release to CRAN ⚠
 
     https://github.com/ropensci/webservices/issues/344
     
-    pxweb
-    rentrez
-    googlePublicData
-    rsnps
+ x  pxweb
+ x  rentrez
+ x   googlePublicData
+ x   rsnps
 
 
 #182: rscorecard
@@ -44,69 +44,15 @@ Milestone #1: Release to CRAN ⚠
 [addpkg]
 
     https://cran.r-project.org/web/packages/dbhydroR/index.html
-
-
-#168: boxoffice
-@leeper opened this issue 189 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/boxoffice/index.html
-
-
-#167: belex
-@leeper opened this issue 189 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/belex/index.html
-
+Client for programmatic access to the South Florida Water Management District's
+'DBHYDRO' database at <http://sfwmd.gov/dbhydro>, with functions for accessing
+hydrologic and water quality data.
 
 #166: ie2miscdata
 @leeper opened this issue 189 days ago.  [open] 
 [addpkg]
 
     https://cran.r-project.org/web/packages/ie2miscdata/index.html
-
-
-#165: mregions
-@leeper opened this issue 197 days ago.  [open] 
-[addpkg]
-
-    https://cran.r-project.org/web/packages/mregions/index.html
-
-
-#164: sophisthse
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/sophisthse/index.html
-
-
-#163: blscrapeR
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/blscrapeR/index.html
-
-
-#161: add ungeneanno
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/ungeneanno/index.html
-
-
-#160: cdlTools
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/cdlTools/index.html
-
-
-#159: Add oec
-@leeper opened this issue 198 days ago.  [open] 
-[addpkg]
-
-    http://cran.r-project.org/web/packages/oec/index.html
 
 
 #157: stattleship

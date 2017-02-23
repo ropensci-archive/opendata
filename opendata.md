@@ -37,6 +37,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Agriculture###
 
+-   <pkg>cdlTools</pkg>: download USDA National Agricultural Statistics Service (NASS) cropscape data for a specified state. Utilities for fips, abbreviation, and name conversion are also provided.
 -   [cimis](https://cran.rstudio.com/src/contrib/Archive/cimis/): R package for retrieving data from CIMIS, the California Irrigation Management Information System. Available in CRAN archives only.
 -   <pkg>FAOSTAT</pkg>: The package hosts a list of functions to download, manipulate, construct and aggregate agricultural statistics provided by the FAOSTAT (Food and Agricultural Organization of the United Nations) database.
 
@@ -59,6 +60,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>getlandsat</pkg>: obtain landsat 8 Data from [Amazon Web Services public data sets] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   <pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
+-   <pkg>mregions</pkg>: data from [Marine Regions](http:// www.marineregions.org/), including region metadata, GeoJSON data, as well as Shape files. Use cases include using data downstream to visualize geospatial data by marine region, mapping variation among different regions, and more.
 -   <pkg>raincpc</pkg>: The Climate Prediction Center's (CPC) daily rainfall data for the entire world, from 1979 to the present, at a resolution of 50 km (0.5 degrees lat-lon). This package provides functionality to download and process the raw data from CPC.
 -   <pkg>rainfreq</pkg>: Estimates of rainfall at desired frequency and desired duration are often required in the design of dams and other hydraulic structures, catastrophe risk modeling, environmental planning and management. One major source of such estimates for the USA is the NOAA National Weather Service's (NWS) division of Hydrometeorological Design Studies Center (HDSC). Raw data from NWS-HDSC is available at 1-km resolution and comes as a huge number of GIS files.
 -   <pkg>rFDSN</pkg>: Search for and download seismic time series in miniSEED format (a minimalist version of the Standard for the Exchange of Earthquake Data) from [International Federation of Digital Seismograph Networks](http://www.fdsn.org/) repositories. This package can also be used to gather information about seismic networks (stations, channels, locations, etc) and find historical earthquake data (origins, magnitudes, etc).
@@ -154,6 +156,7 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Finance###
 
 -   <pkg>BatchGetSymbols</pkg> download and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
+-   <pkg>belex</pkg>: historical financial data form the Belgrade Stock Exchange (Serbia)
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
@@ -185,6 +188,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   [seq2R](http://cran.rstudio.com/src/contrib/Archive/seq2R/): Detect compositional changes in genomic sequences - with some interaction with GenBank. Archived on CRAN.
 -   <pkg>seqinr</pkg>: Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.
 -   <pkg>SoyNAM</pkg>: Genomic and multi-environmental soybean data. Soybean Nested Association Mapping (SoyNAM) project dataset funded by the United Soybean Board (USB), pre-formatted for general analysis and genome-wide association analysis using the NAM package.
+-   <pkg>ungeneanno</pkg>: collate annotation and summary information about a set of genes from the publicly available resources at Uniprot and NCBI; including publication information from a search of the NCBI Pubmed database.
 -   NCBI EUtils web services: See the NCBI section
 
 ###Geocoding###
@@ -206,7 +210,7 @@ Data archiving involves the production and dissemination of open data that is pe
 -   [ganalytics](https://github.com/jdeboer/ganalytics) (not on CRAN): Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/jdeboer/ganalytics) (K)
 -   <pkg>GAR</pkg>: Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/andrewgeisler/GAR) (K)
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)
--   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/): (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
+-   <pkg>googlePublicData</pkg>:  An R library to build Google's public data explorer DSPL metadata files.
 -   <pkg>googleVis</pkg>: Interface between R and the Google chart tools.
 -   gooJSON ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/gooJSON)) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
 -   <pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.
@@ -242,8 +246,9 @@ There are a very large number of packages providing access to government data. H
 -   *Poland*:
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
     -   <pkg>sejmRP</pkg> ([GitHub](http://github.com/mi2-warsaw/sejmRP/)) provides data on deputies and voting in [the Polish Diet](http://www.sejm.gov.pl/).
+*   *Russia*: <pkg>sophisthse</pkg> provides economic indicators from [the Archive of Economic and Social Data](http://sophist.hse.ru)
 -   *United States of America*:
-    -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <pkg>idbr</pkg> ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string.
+    -   U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <pkg>idbr</pkg> ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <http://www.bls.gov/developers/api_signature.htm> and the function returns a JSON string. See also <pkg>blscrapeR</pkg> which also provides functions to analyze and visualize BLS data.
     -   Education: [LearnDC](https://github.com/benjaminrobinson/LearnDC) provides access to [LearnDC's](http://www.learndc.org/) data on Washington DC charter schools.
     -   Energy Department: <pkg>EIAdata</pkg>: U.S. [Energy Information Administration (EIA)](http://www.eia.gov/) API client. See also [eia](https://github.com/krose/eia) (not on CRAN). <pkg>energyr</pkg>: Federal Energy Regulatory Commission data including electric company financials, natural gas company financials, hydropower plant data, liquified natural gas plant data, oil company financials, natural gas company financials, and natural gas storage field data.
     -   Elections: <pkg>elexr</pkg> is an R interface to the Python [elex](https://github.com/newsdev/elex/) library, which provides access to Associated Press election results. [openelections](https://github.com/GShotwell/openelections) (not on CRAN) connects to the openelections API. <pkg>pollstR</pkg> ([GitHub](https://github.com/rOpenGov/pollstR)): An R client for the Huffpost Pollster API. <pkg>pvsR</pkg>: An R package to interact with the Project Vote Smart API for scientific research. <pkg>ropensecretsapi</pkg>: An R package for the OpenSecrets.org web services API.
@@ -265,6 +270,7 @@ There are a very large number of packages providing access to government data. H
     -   <em>IMF</em>: both <pkg>IMFData</pkg> (on [GitHub](https://github.com/mingjerli/IMFData)) and <pkg>imfr</pkg> (on [GitHub](https://github.com/christophergandrud/imfr)) use the [International Monetary Fund's API](http://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service).
     -   <pkg>manifestoR</pkg> is an R client to access data and documents of [the manifesto project](https://manifesto-project.wzb.eu/)
     -   <pkg>muckrock</pkg> ([GitHub](https://github.com/Ironholds/muckrock/)) offers data from [MuckRock](https://www.muckrock.com/) about public domain information on FOIA requests in the U.S.
+    *   <pkg>oec</pkg>: use the Observatory of Economic Complexity's API in R to download international trade data in csv and create and D3Plus visualizations.
     -   <pkg>OECD</pkg> Search and extract data from the OECD (possibly via an old version of the API, which was in currently in beta when the package was written). See [OECD data](https://data.oecd.org/api/).
     -   [PolitwoopsR](https://github.com/kateto/PolitwoopsR) (not on CRAN): Extract deleted tweet and politician data from the Politwoops project (tracks politicians on Twitter and records their deleted tweets).
     -   <pkg>psData</pkg> ([GitHub](https://github.com/christophergandrud/psData/)) provides access to various commonly used political science datasets, especially those providing country-level, comparative data.
@@ -330,6 +336,7 @@ There are a very large number of packages providing access to government data. H
 
 ###Other###
 
+-   <pkg>boxoffice</pkg>: daily box office information (how much each movie earned in theaters) using data from either [Box Office Mojo](http://www.boxofficemojo.com/) or [The Numbers](http://www.the-numbers.com/).
 -   <pkg>datamart</pkg>: Provides an S4 infrastructure for unified handling of internal datasets and web based data sources. Examples include dbpedia, eurostat and sourceforge.
 -   <pkg>genderizeR</pkg>: Uses the genderize.io API to predict gender from first names extracted from a text vector. [Source on GitHub](https://github.com/kalimu/genderizeR)
 -   [mstranslator](https://github.com/chainsawriot/mstranslator): An R wrapper for the [Microsoft Translator API](https://msdn.microsoft.com/en-us/library/hh454949.aspx). [Source on GitHub](https://github.com/chainsawriot/mstranslator)
