@@ -153,7 +153,7 @@ Data archiving involves the production and dissemination of open data that is pe
 
 ###Finance###
 
--   <pkg>BatchGetSymbols</pkg> ownload and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
+-   <pkg>BatchGetSymbols</pkg> download and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
 -   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
