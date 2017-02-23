@@ -1,16 +1,3 @@
-#189: Some packages to add from webservices
-@leeper opened this issue 95 days ago.  [open] 
-[addpkg]
-Milestone #1: Release to CRAN ⚠
-
-    https://github.com/ropensci/webservices/issues/344
-    
- x  pxweb
- x  rentrez
- x   googlePublicData
- x   rsnps
-
-
 #182: rscorecard
 @leeper opened this issue 114 days ago.  [open] 
 [addpkg]

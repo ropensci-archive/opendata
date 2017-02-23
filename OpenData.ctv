@@ -206,7 +206,7 @@
     <li><a href="https://github.com/jdeboer/ganalytics">ganalytics</a> (not on CRAN): Interface to <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. <a href="https://github.com/jdeboer/ganalytics">Source on GitHub</a> (K)</li>
     <li><pkg>GAR</pkg>: Interface to <a href="https://developers.google.com/analytics/">Google Analytics APIs</a>. <a href="https://github.com/andrewgeisler/GAR">Source on GitHub</a> (K)</li>
     <li><a href="http://gfusiontables.lopatenko.com/">GFusionTables</a> (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)</li>
-    <li><a href="http://cran.rstudio.com/src/contrib/Archive/googlePublicData/">googlePublicData</a>: (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.</li>
+    <li><pkg>googlePublicData</pkg>: An R library to build Google's public data explorer DSPL metadata files.</li>
     <li><pkg>googleVis</pkg>: Interface between R and the Google chart tools.</li>
     <li>gooJSON (<a href="https://cran.r-project.org/src/contrib/Archive/gooJSON">Archived on CRAN</a>) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.</li>
     <li><pkg>plotGoogleMaps</pkg>: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.</li>
@@ -491,6 +491,7 @@
     <pkg>getlandsat</pkg>
     <pkg>GetTDData</pkg>
     <pkg>ggmap</pkg>
+    <pkg>googlePublicData</pkg>
     <pkg>googleVis</pkg>
     <pkg>govStatJPN</pkg>
     <pkg>gsheet</pkg>

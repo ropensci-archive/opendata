@@ -223,7 +223,7 @@ Web-based Open Data
 -   [ganalytics](https://github.com/jdeboer/ganalytics) (not on CRAN): Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/jdeboer/ganalytics) (K)
 -   [GAR](http://cran.rstudio.com/web/packages/GAR/index.html): Interface to [Google Analytics APIs](https://developers.google.com/analytics/). [Source on GitHub](https://github.com/andrewgeisler/GAR) (K)
 -   [GFusionTables](http://gfusiontables.lopatenko.com/) (not on CRAN): An R interface to Google Fusion Tables. Google Fusion Tables is a data management system in the cloud. This package provides R functions to browse Fusion Tables catalog, retrieve data from Fusion Tables storage to R and to upload data from R to Fusion Tables (K)
--   [googlePublicData](http://cran.rstudio.com/src/contrib/Archive/googlePublicData/): (archived on CRAN for email bounce) An R library to build Google's public data explorer DSPL metadata files.
+-   [googlePublicData](http://cran.rstudio.com/web/packages/googlePublicData/index.html): An R library to build Google's public data explorer DSPL metadata files.
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html): Interface between R and the Google chart tools.
 -   gooJSON ([Archived on CRAN](https://cran.r-project.org/src/contrib/Archive/gooJSON)) is a Google JSON data interpreter for R which contains a suite of helper functions for obtaining data from the Google Maps API JSON objects.
 -   [plotGoogleMaps](http://cran.rstudio.com/web/packages/plotGoogleMaps/index.html): Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google Maps.
@@ -499,6 +499,7 @@ There are a very large number of packages providing access to government data. H
 -   [getlandsat](http://cran.rstudio.com/web/packages/getlandsat/index.html)
 -   [GetTDData](http://cran.rstudio.com/web/packages/GetTDData/index.html)
 -   [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html)
+-   [googlePublicData](http://cran.rstudio.com/web/packages/googlePublicData/index.html)
 -   [googleVis](http://cran.rstudio.com/web/packages/googleVis/index.html)
 -   [govStatJPN](http://cran.rstudio.com/web/packages/govStatJPN/index.html)
 -   [gsheet](http://cran.rstudio.com/web/packages/gsheet/index.html)
