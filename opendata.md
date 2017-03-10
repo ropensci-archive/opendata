@@ -57,6 +57,7 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Earth Science###
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
+-   <pkg>elevatr</pkg>: Access point elevation data or raster Digital Elevation Models in R from the USGS Point Elevation Service, the Mapzen Elevation Service, Mapzen Terrain Tiles, or Amazon Web Services Terrain Tiles. [Source on Github](https://github.com/jhollist/elevatr)
 -   <pkg>getlandsat</pkg>: obtain landsat 8 Data from [Amazon Web Services public data sets] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   <pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.

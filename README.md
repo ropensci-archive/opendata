@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-02-22                                       |
+| **Version:**    | 2017-03-10                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
@@ -72,6 +72,7 @@ Web-based Open Data
 ### Earth Science
 
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
+-   [elevatr](http://cran.rstudio.com/web/packages/elevatr/index.html): Access point elevation data or raster Digital Elevation Models in R from the USGS Point Elevation Service, the Mapzen Elevation Service, Mapzen Terrain Tiles, or Amazon Web Services Terrain Tiles. [Source on Github](https://github.com/jhollist/elevatr)
 -   [getlandsat](http://cran.rstudio.com/web/packages/getlandsat/index.html): obtain landsat 8 Data from \[Amazon Web Services public data sets\] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   [marmap](http://cran.rstudio.com/web/packages/marmap/index.html): Import, plot and analyze bathymetric and topographic data from NOAA.
@@ -477,6 +478,7 @@ There are a very large number of packages providing access to government data. H
 -   [ecoseries](http://cran.rstudio.com/web/packages/ecoseries/index.html)
 -   [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html)
 -   [EIAdata](http://cran.rstudio.com/web/packages/EIAdata/index.html)
+-   [elevatr](http://cran.rstudio.com/web/packages/elevatr/index.html)
 -   [elexr](http://cran.rstudio.com/web/packages/elexr/index.html)
 -   [energyr](http://cran.rstudio.com/web/packages/energyr/index.html)
 -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html)
@@ -658,8 +660,8 @@ There are a very large number of packages providing access to government data. H
 -   [taxize](http://cran.rstudio.com/web/packages/taxize/index.html)
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html)
--   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
+-   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [TR8](http://cran.rstudio.com/web/packages/TR8/index.html)
 -   [traits](http://cran.rstudio.com/web/packages/traits/index.html)
 -   [translate](http://cran.rstudio.com/web/packages/translate/index.html)
