@@ -57,6 +57,7 @@ Data archiving involves the production and dissemination of open data that is pe
 ###Earth Science###
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve USGS data from either web services or user-provided data files. [on GitHub](https://github.com/USGS-R/dataRetrieval).
+-   <pkg>elevatr</pkg>: Access point elevation data or raster Digital Elevation Models in R from the USGS Point Elevation Service, the Mapzen Elevation Service, Mapzen Terrain Tiles, or Amazon Web Services Terrain Tiles. [Source on Github](https://github.com/jhollist/elevatr)
 -   <pkg>getlandsat</pkg>: obtain landsat 8 Data from [Amazon Web Services public data sets] (https://aws.amazon.com/public-data-sets/landsat/) --- list images and fetch them, handles caching to prevent unnecessary additional requests.
 -   <pkg>hddtools</pkg>: Hydrological data discovery tools - accesses data from NASA, Global Runoff Data Centre, Top-Down modelling Working Group. [Source on GitHub](https://github.com/cvitolo/r_hddtools)
 -   <pkg>marmap</pkg>: Import, plot and analyze bathymetric and topographic data from NOAA.
@@ -158,7 +159,8 @@ Data archiving involves the production and dissemination of open data that is pe
 -   <pkg>BatchGetSymbols</pkg> download and organize financial data (from Yahoo or Google Finance) for multiple ticker symbols.
 -   <pkg>belex</pkg>: historical financial data form the Belgrade Stock Exchange (Serbia)
 -   <pkg>dataonderivatives</pkg> Post-GFC derivatives reforms have lifted the veil off over-the-counter (OTC) derivative markets. Swap Execution Facilities (SEFs) and Swap Data Repositories (SDRs) now publish data on swaps that are traded on or reported to those facilities (respectively). This package provides you the ability to get this data from supported sources. 
--   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWEserver, which provides XML access to the Datastream database of economic and financial information.
+-   [Datastream2R](https://github.com/CharlesCara/Datastream2R) (not on CRAN): Another package for accessing the Datastream service. This package downloads data from the Thomson Reuters DataStream DWE
+server, which provides XML access to the Datastream database of economic and financial information.
 -   <pkg>epidata</pkg>: data from [Economic Policy Institute](http://www.epi.org/) on wages, inequality, and other economic indicators over time and among demographic groups. Data is usually updated monthly.
 -   <pkg>fImport</pkg>: Environment for teaching "Financial Engineering and Computational Finance"
 -   <pkg>GetTDData</pkg> downloads and aggregates data for Brazilian government issued bonds directly from the website of [Tesouro Direto](http://www.tesouro.fazenda.gov.br/tesouro-direto-balanco-e-estatisticas).
