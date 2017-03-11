@@ -240,7 +240,7 @@ Web-based Open Data
 
 ### Government
 
-There are a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
+There is a very large number of packages providing access to government data. Here is a list of these packages, arranged by country and/or other jurisdiction.
 
 -   *Australia*: [eechidna](http://cran.rstudio.com/web/packages/eechidna/index.html) provides data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census.
 -   *Brazil*: [BETS](http://cran.rstudio.com/web/packages/BETS/index.html): Brazilian Economic Time Series from the Central Bank of Brazil, Getulio Vargas Foundation, and the Brazilian Institute of Geography. The package also provides tools for automated reporting (dynamic documents). [ecoseries](http://cran.rstudio.com/web/packages/ecoseries/index.html): interface to [Bacen](http://api.bcb.gov.br) and [Sidra](http://api.sidra.ibge.gov.br) APIs and data from [IPEA](http://www.ipeadata.gov.br/Default.aspx) in Brazil.
