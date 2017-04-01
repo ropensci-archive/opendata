@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-03-10                                       |
+| **Version:**    | 2017-04-01                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
@@ -129,7 +129,7 @@ Web-based Open Data
 -   [icesDatras](http://cran.rstudio.com/web/packages/icesDatras/index.html): the [DATRAS trawl survey database](https://datras.ices.dk/WebServices/Webservices.aspx) from ICES (International Council for the Exploration of the Sea).
 -   [natserv](http://cran.rstudio.com/web/packages/natserv/index.html): access [NatureServe](http://www.natureserve.org) data, image metadata, search taxonomic names, and make maps.
 -   [neotoma](http://cran.rstudio.com/web/packages/neotoma/index.html) ([GitHub](https://github.com/ropensci/neotoma)) offers programmatic R interface to the Neotoma Paleoecological Database.
--   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html): Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.
+-   [paleobioDB](http://cran.rstudio.com/web/packages/paleobioDB/index.html): Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/ [velociraptr](http://cran.rstudio.com/web/packages/velociraptr/index.html) also provides downloading, reshaping, culling, cleaning, and analyzing from the PaleobioDB API.
 -   [pleiades](http://cran.rstudio.com/web/packages/pleiades/index.html): interact with Pleiades API for Archeological data --- get status data, places data, make GeoJSON maps.
 -   [rbison](http://cran.rstudio.com/web/packages/rbison/index.html) ([GitHub](https://github.com/ropensci/rbison)) is a wrapper to the USGS Bison API.
 -   [Rcolombos](http://cran.rstudio.com/web/packages/Rcolombos/index.html): This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.
@@ -261,6 +261,7 @@ There are a very large number of packages providing access to government data. H
     -   [saos](https://github.com/bartekch/saos) (not on CRAN) is an interface to the API for SAOS, a repository of judgments from Polish common courts (district, regional and appellate) and the Supreme Court of Poland.
     -   [sejmRP](http://cran.rstudio.com/web/packages/sejmRP/index.html) ([GitHub](http://github.com/mi2-warsaw/sejmRP/)) provides data on deputies and voting in [the Polish Diet](http://www.sejm.gov.pl/).
 -   *Russia*: [sophisthse](http://cran.rstudio.com/web/packages/sophisthse/index.html) provides economic indicators from [the Archive of Economic and Social Data](http://sophist.hse.ru)
+-   *Switzerland*: [dataseries](http://cran.rstudio.com/web/packages/dataseries/index.html) time series of government data from [dataseries.org](http://www.dataseries.org), a privately-curated collection.
 -   *United States of America* :
     -   U.S. Census Bureau: [acs](http://cran.rstudio.com/web/packages/acs/index.html) can download, manipulate, and present data from the US Census American Community Survey. [censusr](http://cran.rstudio.com/web/packages/censusr/index.html) connects to both ACS and SF1 datasets. [idbr](http://cran.rstudio.com/web/packages/idbr/index.html) ([GitHub](https://github.com/walkerke/idbr)) provides an interface to the U.S. Census Bureau international data base API. [blsAPI](http://cran.rstudio.com/web/packages/blsAPI/index.html) ([GitHub](https://github.com/mikeasilva/blsAPI)) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. See also [blscrapeR](http://cran.rstudio.com/web/packages/blscrapeR/index.html) which also provides functions to analyze and visualize BLS data.
     -   Education: [LearnDC](https://github.com/benjaminrobinson/LearnDC) provides access to [LearnDC's](http://www.learndc.org/) data on Washington DC charter schools.
@@ -277,7 +278,7 @@ There are a very large number of packages providing access to government data. H
     -   [rtimes](http://cran.rstudio.com/web/packages/rtimes/index.html) ([GitHub](https://github.com/ropengov/rtimes)) links to the New York Times APIs, including the Congress, Article Search, Campaign Finance, and Geographic APIs. The focus is on those that deal with political data, but throwing in Article Search and Geographic for good measure.
     -   [seeclickfixr](http://cran.rstudio.com/web/packages/seeclickfixr/index.html) ([GitHub](https://github.com/justindbk/seeclickfixr/)) is a client for retrieving citizens' service requests made to local governments through [SeeClickFix](http://en.seeclickfix.com/).
     -   [wethepeople](http://cran.rstudio.com/src/contrib/Archive/wethepeople/): An R client for interacting with the White House's "We The People" petition API.
--   *United Kingdom*: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API. [mnis](http://cran.rstudio.com/web/packages/mnis/index.html): An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament. [hansard](http://cran.rstudio.com/web/packages/hansard/index.html) download data from the [Parliment API](http://www.data.parliament.uk/). [ukpolice](https://github.com/njtierney/ukpolice) data from [UK police database](https://data.police.uk).
+-   *United Kingdom*: [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html) contains one function which allows users to access UK gas market information via National Grid's API. [mnis](http://cran.rstudio.com/web/packages/mnis/index.html): An API package for the [Members' Name Information Service](http://data.parliament.uk/membersdataplatform/default.aspx) operated by the UK parliament. [hansard](http://cran.rstudio.com/web/packages/hansard/index.html) download data from the [Parliment API](http://www.data.parliament.uk/). [ukpolice](https://github.com/njtierney/ukpolice) data from [UK police database](https://data.police.uk). [ukds](http://cran.rstudio.com/web/packages/ukds/index.html) retrieval of datasets from the [UK Data Service](https://www.ukdataservice.ac.uk).
 -   *Other or international* :
     -   [enigma](http://cran.rstudio.com/web/packages/enigma/index.html) ([GitHub](https://github.com/ropengov/enigma)): [Enigma](https://enigma.io) holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.
     -   [hdr](http://cran.rstudio.com/web/packages/hdr/index.html) ([GitHub](https://github.com/expersso/hdr)) is an interface to United Nations Development Programme [Human Development Report](http://hdr.undp.org) API.
@@ -468,6 +469,7 @@ There are a very large number of packages providing access to government data. H
 -   [datamart](http://cran.rstudio.com/web/packages/datamart/index.html)
 -   [dataonderivatives](http://cran.rstudio.com/web/packages/dataonderivatives/index.html)
 -   [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
+-   [dataseries](http://cran.rstudio.com/web/packages/dataseries/index.html)
 -   [diezeit](http://cran.rstudio.com/web/packages/diezeit/index.html)
 -   [dismo](http://cran.rstudio.com/web/packages/dismo/index.html)
 -   [dvn](http://cran.rstudio.com/web/packages/dvn/index.html)
@@ -660,8 +662,8 @@ There are a very large number of packages providing access to government data. H
 -   [taxize](http://cran.rstudio.com/web/packages/taxize/index.html)
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html)
--   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
 -   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
+-   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
 -   [TR8](http://cran.rstudio.com/web/packages/TR8/index.html)
 -   [traits](http://cran.rstudio.com/web/packages/traits/index.html)
 -   [translate](http://cran.rstudio.com/web/packages/translate/index.html)
@@ -670,6 +672,7 @@ There are a very large number of packages providing access to government data. H
 -   [tseries](http://cran.rstudio.com/web/packages/tseries/index.html)
 -   [tumblR](http://cran.rstudio.com/web/packages/tumblR/index.html)
 -   [twitteR](http://cran.rstudio.com/web/packages/twitteR/index.html)
+-   [ukds](http://cran.rstudio.com/web/packages/ukds/index.html)
 -   [ukgasapi](http://cran.rstudio.com/web/packages/ukgasapi/index.html)
 -   [UNF](http://cran.rstudio.com/web/packages/UNF/index.html)
 -   [ungeneanno](http://cran.rstudio.com/web/packages/ungeneanno/index.html)
@@ -678,6 +681,7 @@ There are a very large number of packages providing access to government data. H
 -   [ustyc](http://cran.rstudio.com/web/packages/ustyc/index.html)
 -   [vaersNDvax](http://cran.rstudio.com/web/packages/vaersNDvax/index.html)
 -   [vaersvax](http://cran.rstudio.com/web/packages/vaersvax/index.html)
+-   [velociraptr](http://cran.rstudio.com/web/packages/velociraptr/index.html)
 -   [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
 -   [WaterML](http://cran.rstudio.com/web/packages/WaterML/index.html)
 -   [wbstats](http://cran.rstudio.com/web/packages/wbstats/index.html)

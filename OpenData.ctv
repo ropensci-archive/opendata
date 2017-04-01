@@ -2,7 +2,7 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="jashander@ucdavis.edu">Jaime Ashander, Scott Chamberlain, Thomas Leeper</maintainer>
-  <version>2017-03-10</version>
+  <version>2017-04-01</version>
   <info>
     <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the <pkg>crandatapkgs</pkg> package to obtain information about currently available open data in R packages.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
@@ -112,7 +112,7 @@
     <li><pkg>icesDatras</pkg>: the <a href="https://datras.ices.dk/WebServices/Webservices.aspx">DATRAS trawl survey database</a> from ICES (International Council for the Exploration of the Sea).</li>
     <li><pkg>natserv</pkg>: access <a href="http://www.natureserve.org">NatureServe</a> data, image metadata, search taxonomic names, and make maps.</li>
     <li><pkg>neotoma</pkg> (<a href="https://github.com/ropensci/neotoma">GitHub</a>) offers programmatic R interface to the Neotoma Paleoecological Database.</li>
-    <li><pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/.</li>
+    <li><pkg>paleobioDB</pkg>: Functions to wrap each endpoint of the PaleobioDB API, plus functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found at http://paleobiodb.org/data1.1/ <pkg>velociraptr</pkg> also provides downloading, reshaping, culling, cleaning, and analyzing from the PaleobioDB API.</li>
     <li><pkg>pleiades</pkg>: interact with Pleiades API for Archeological data --- get status data, places data, make GeoJSON maps.</li>
     <li><pkg>rbison</pkg> (<a href="https://github.com/ropensci/rbison">GitHub</a>) is a wrapper to the USGS Bison API.</li>
     <li><pkg>Rcolombos</pkg>: This package provides programmatic access to Colombos, a web based interface for exploring and analyzing comprehensive organism-specific cross-platform expression compendia of bacterial organisms.</li>
@@ -249,6 +249,7 @@
     <li><pkg>sejmRP</pkg> (<a href="http://github.com/mi2-warsaw/sejmRP/">GitHub</a>) provides data on deputies and voting in <a href="http://www.sejm.gov.pl/">the Polish Diet</a>.</li>
     </ul></li>
     <li><em>Russia</em>: <pkg>sophisthse</pkg> provides economic indicators from <a href="http://sophist.hse.ru">the Archive of Economic and Social Data</a></li>
+    <li><em>Switzerland</em>: <pkg>dataseries</pkg> time series of government data from <a href="http://www.dataseries.org">dataseries.org</a>, a privately-curated collection.</li>
     <li><em>United States of America</em>:
     <ul>
     <li>U.S. Census Bureau: <pkg>acs</pkg> can download, manipulate, and present data from the US Census American Community Survey. <pkg>censusr</pkg> connects to both ACS and SF1 datasets. <pkg>idbr</pkg> (<a href="https://github.com/walkerke/idbr">GitHub</a>) provides an interface to the U.S. Census Bureau international data base API. <pkg>blsAPI</pkg> (<a href="https://github.com/mikeasilva/blsAPI">GitHub</a>) can get data from the U.S. Bureau of Labor Statistics API. Users provide parameters as specified in <a href="http://www.bls.gov/developers/api_signature.htm" class="uri">http://www.bls.gov/developers/api_signature.htm</a> and the function returns a JSON string. See also <pkg>blscrapeR</pkg> which also provides functions to analyze and visualize BLS data.</li>
@@ -267,7 +268,7 @@
     <li><pkg>seeclickfixr</pkg> (<a href="https://github.com/justindbk/seeclickfixr/">GitHub</a>) is a client for retrieving citizens' service requests made to local governments through <a href="http://en.seeclickfix.com/">SeeClickFix</a>.</li>
     <li><a href="http://cran.rstudio.com/src/contrib/Archive/wethepeople/">wethepeople</a>: An R client for interacting with the White House's &quot;We The People&quot; petition API.</li>
     </ul></li>
-    <li><em>United Kingdom</em>: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API. <pkg>mnis</pkg>: An API package for the <a href="http://data.parliament.uk/membersdataplatform/default.aspx">Members' Name Information Service</a> operated by the UK parliament. <pkg>hansard</pkg> download data from the <a href="http://www.data.parliament.uk/">Parliment API</a>. <a href="https://github.com/njtierney/ukpolice">ukpolice</a> data from <a href="https://data.police.uk">UK police database</a>.</li>
+    <li><em>United Kingdom</em>: <pkg>ukgasapi</pkg> contains one function which allows users to access UK gas market information via National Grid's API. <pkg>mnis</pkg>: An API package for the <a href="http://data.parliament.uk/membersdataplatform/default.aspx">Members' Name Information Service</a> operated by the UK parliament. <pkg>hansard</pkg> download data from the <a href="http://www.data.parliament.uk/">Parliment API</a>. <a href="https://github.com/njtierney/ukpolice">ukpolice</a> data from <a href="https://data.police.uk">UK police database</a>. <pkg>ukds</pkg> retrieval of datasets from the <a href="https://www.ukdataservice.ac.uk">UK Data Service</a>.</li>
     <li><em>Other or international</em>:
     <ul>
     <li><pkg>enigma</pkg> (<a href="https://github.com/ropengov/enigma">GitHub</a>): <a href="https://enigma.io">Enigma</a> holds many public datasets from governments, companies, universities, and organizations. Enigma provides an API for data, metadata, and statistics on each of the datasets. enigma is an R client to interact with the Enigma API, including getting the data and metadata for datasets in Enigma, as well as collecting statistics on datasets. In addition, you can download a gzipped csv file of a dataset if you want the whole dataset. An API key from Enigma is required to use enigma.</li>
@@ -460,6 +461,7 @@
     <pkg>datamart</pkg>
     <pkg>dataonderivatives</pkg>
     <pkg>dataRetrieval</pkg>
+    <pkg>dataseries</pkg>
     <pkg>diezeit</pkg>
     <pkg>dismo</pkg>
     <pkg>dvn</pkg>
@@ -652,8 +654,8 @@
     <pkg>taxize</pkg>
     <pkg>TFX</pkg>
     <pkg>Thinknum</pkg>
-    <pkg>tm.plugin.webmining</pkg>
     <pkg>TMDb</pkg>
+    <pkg>tm.plugin.webmining</pkg>
     <pkg>TR8</pkg>
     <pkg>traits</pkg>
     <pkg>translate</pkg>
@@ -662,6 +664,7 @@
     <pkg>tseries</pkg>
     <pkg>tumblR</pkg>
     <pkg>twitteR</pkg>
+    <pkg>ukds</pkg>
     <pkg>ukgasapi</pkg>
     <pkg>UNF</pkg>
     <pkg>ungeneanno</pkg>
@@ -670,6 +673,7 @@
     <pkg>ustyc</pkg>
     <pkg>vaersNDvax</pkg>
     <pkg>vaersvax</pkg>
+    <pkg>velociraptr</pkg>
     <pkg>waterData</pkg>
     <pkg>WaterML</pkg>
     <pkg>wbstats</pkg>

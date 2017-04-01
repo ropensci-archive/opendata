@@ -1,3 +1,56 @@
+#219: statsgrokse
+@leeper opened this issue 6 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/web/packages/statsgrokse/index.html
+
+
+#215: rdataretriever
+@leeper opened this issue 10 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/package=rdataretriever
+
+
+#214: rnaturalearth
+@leeper opened this issue 10 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/package=rnaturalearth
+
+
+#213: ropercenter
+@leeper opened this issue 10 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/package=ropercenter
+
+
+#212: rbcb
+@leeper opened this issue 10 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/package=rbcb
+
+
+#211: rif
+@leeper opened this issue 16 days ago.  [open] 
+[addpkg]
+
+    https://cran.r-project.org/package=rif
+
+
+#208: opencage
+@maelle opened this issue 26 days ago.  [open] 
+[addpkg]
+
+    Geocoding package
+    
+    GH https://github.com/ropensci/opencage
+    
+    CRAN https://cran.r-project.org/web/packages/opencage/index.html
+
+
 #182: rscorecard
 @leeper opened this issue 114 days ago.  [open] 
 [addpkg]
