@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-04-01                                       |
+| **Version:**    | 2017-04-06                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
@@ -63,6 +63,7 @@ Web-based Open Data
 ### Business
 
 -   [forbesListR](https://github.com/abresler/forbesListR) (not on CRAN) offers access to a number of business-related datasets provided by Forbes.
+-   [openentreprise](http://pachevalier.github.io/openentreprise) (not on CRAN) an R client for the OpenEntreprise API, an API agregating open data sets on French companies
 
 ### Chemistry
 
@@ -210,6 +211,7 @@ Web-based Open Data
 -   [geocodeHERE](http://cran.rstudio.com/web/packages/geocodeHERE/index.html): Wrapper for Nokia's [HERE](http://here.com/) geocoding API. API docs: <a href="https://developer.here.com/geocoder" class="uri" class="uri">https://developer.here.com/geocoder</a>. [Source on GitHub](https://github.com/corynissen/geocodeHERE)
 -   [ipapi](https://github.com/hrbrmstr/ipapi): Geolocate IPv4/6 addresses and/or domain names using the [ip-api.com](http://ip-api.com/) API. [Source on GitHub](https://github.com/hrbrmstr/ipapi)
 -   [openadds](https://github.com/sckott/openadds) is an R client for [OpenAddresses](http://openaddresses.io/) a free and open global address collection. [Source on GitHub](https://github.com/sckott/openadds)
+-   [banR](https://github.com/joelgombin/banR): an R client for the [French national address databases](http://adresse.data.gouv.fr/)
 
 ### Google Analytics
 
@@ -662,8 +664,8 @@ There are a very large number of packages providing access to government data. H
 -   [taxize](http://cran.rstudio.com/web/packages/taxize/index.html)
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
 -   [Thinknum](http://cran.rstudio.com/web/packages/Thinknum/index.html)
--   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [tm.plugin.webmining](http://cran.rstudio.com/web/packages/tm.plugin.webmining/index.html)
+-   [TMDb](http://cran.rstudio.com/web/packages/TMDb/index.html)
 -   [TR8](http://cran.rstudio.com/web/packages/TR8/index.html)
 -   [traits](http://cran.rstudio.com/web/packages/traits/index.html)
 -   [translate](http://cran.rstudio.com/web/packages/translate/index.html)
