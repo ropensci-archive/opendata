@@ -2,7 +2,7 @@
   <name>OpenData</name>
   <topic>Open Data</topic>
   <maintainer email="jashander@ucdavis.edu">Jaime Ashander, Scott Chamberlain, Thomas Leeper</maintainer>
-  <version>2017-04-01</version>
+  <version>2017-04-06</version>
   <info>
     <p>This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the <a href="http://cran.r-project.org/web/views/WebTechnologies.html">WebTechnologies</a> TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the <pkg>crandatapkgs</pkg> package to obtain information about currently available open data in R packages.</p>
     <p>Another key issue in a data-focused TaskView is the meaning of &quot;open&quot; data. This TaskView covers many types of data that come with varying degrees of usage restrictions from public domain (or CC-0) data that is usable for any purpose to &quot;freely available&quot; data that is available at no cost but may have licenses that are not strictly speaking &quot;open&quot;. Users should investigate the terms of use and licensing of any data referenced here before using it for any particular application. Additionally, the view lists wrappers for paid APIs, as well as those that require an account but are not necessarily subscription only. These are marked ($) and (K) respectively.</p>
@@ -46,6 +46,7 @@
     <h3 id="business">Business</h3>
     <ul>
     <li><a href="https://github.com/abresler/forbesListR">forbesListR</a> (not on CRAN) offers access to a number of business-related datasets provided by Forbes.</li>
+    <li><a href="http://pachevalier.github.io/openentreprise">openentreprise</a> (not on CRAN) an R client for the OpenEntreprise API, an API agregating open data sets on French companies</li>
     </ul>
     <h3 id="chemistry">Chemistry</h3>
     <ul>
@@ -193,6 +194,7 @@
     <li><pkg>geocodeHERE</pkg>: Wrapper for Nokia's <a href="http://here.com/">HERE</a> geocoding API. API docs: <a href="https://developer.here.com/geocoder" class="uri">https://developer.here.com/geocoder</a>. <a href="https://github.com/corynissen/geocodeHERE">Source on GitHub</a></li>
     <li><a href="https://github.com/hrbrmstr/ipapi">ipapi</a>: Geolocate IPv4/6 addresses and/or domain names using the <a href="http://ip-api.com/">ip-api.com</a> API. <a href="https://github.com/hrbrmstr/ipapi">Source on GitHub</a></li>
     <li><a href="https://github.com/sckott/openadds">openadds</a> is an R client for <a href="http://openaddresses.io/">OpenAddresses</a> a free and open global address collection. <a href="https://github.com/sckott/openadds">Source on GitHub</a></li>
+    <li><a href="https://github.com/joelgombin/banR">banR</a>: an R client for the <a href="http://adresse.data.gouv.fr/">French national address databases</a></li>
     </ul>
     <h3 id="google-analytics">Google Analytics</h3>
     <ul>
@@ -654,8 +656,8 @@
     <pkg>taxize</pkg>
     <pkg>TFX</pkg>
     <pkg>Thinknum</pkg>
-    <pkg>TMDb</pkg>
     <pkg>tm.plugin.webmining</pkg>
+    <pkg>TMDb</pkg>
     <pkg>TR8</pkg>
     <pkg>traits</pkg>
     <pkg>translate</pkg>
