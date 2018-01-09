@@ -8,7 +8,7 @@ CRAN Task View: Open Data
 |-----------------|--------------------------------------------------|
 | **Maintainer:** | Jaime Ashander, Scott Chamberlain, Thomas Leeper |
 | **Contact:**    | jashander at ucdavis.edu                         |
-| **Version:**    | 2017-04-06                                       |
+| **Version:**    | 2018-01-09                                       |
 | **URL:**        | <https://CRAN.R-project.org/view=OpenData>       |
 
 This Task View contains information about using R to obtain, parse, manipulate, create, and share open data. Much open data is available on the web, and the [WebTechnologies](http://cran.r-project.org/web/views/WebTechnologies.html) TaskView addresses how to obtain and parse web-based data. There is obvious overlap between the two TaskViews, so some packages are described on both. There is also a considerable amount of open data available as R packages on CRAN. We point readers to the [crandatapkgs](http://cran.rstudio.com/web/packages/crandatapkgs/index.html) package to obtain information about currently available open data in R packages.
